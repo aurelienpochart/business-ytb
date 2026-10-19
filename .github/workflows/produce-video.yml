@@ -1,0 +1,81 @@
+name: Produire une vidéo
+
+on:
+  workflow_dispatch:
+    inputs:
+      video:
+        description: Dossier de la vidéo
+        default: videos/01-tesla
+
+permissions:
+  contents: write
+  id-token: write
+
+concurrency:
+  group: produce-${{ inputs.video }}
+  cancel-in-progress: true
+
+jobs:
+  produce:
+    runs-on: ubuntu-latest
+    timeout-minutes: 150
+    env:
+      VIDEO: ${{ inputs.video }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - id: auth
+        uses: google-github-actions/auth@v2
+        with:
+          workload_identity_provider: projects/22144321243/locations/global/workloadIdentityPools/github/providers/business-ytb
+          service_account: pipeline@business-ytb.iam.gserviceaccount.com
+          token_format: access_token
+
+      - name: Installer ffmpeg
+        run: command -v ffmpeg || (sudo apt-get update -q && sudo apt-get install -yq ffmpeg)
+
+      - name: Narration (voix Chirp 3 HD)
+        env:
+          GOOGLE_ACCESS_TOKEN: ${{ steps.auth.outputs.access_token }}
+        run: |
+          python3 pipeline/narration.py "$VIDEO"
+          python3 pipeline/synthesize.py "$VIDEO"
+
+      - name: Préparer Remotion
+        working-directory: remotion
+        run: |
+          npm ci --no-audit --no-fund
+          cp "../$VIDEO/build/timeline.json" "../$VIDEO/build/narration.wav" "../$VIDEO/visuals.json" "../$VIDEO/thumbnail.json" public/
+          npx remotion browser ensure
+
+      - name: Rendre la vidéo (1080p, qualité maximale)
+        working-directory: remotion
+        run: npx remotion render Video out/video.mp4 --log=info
+
+      - name: Rendre la miniature
+        working-directory: remotion
+        run: npx remotion still Thumbnail out/thumbnail.png
+
+      - name: Aperçu léger pour la relecture
+        run: |
+          ffmpeg -loglevel error -y -i remotion/out/video.mp4 -vf scale=1280:-2 -c:v libx264 -crf 30 -preset slow -c:a aac -b:a 128k "$VIDEO/build/preview.mp4"
+          cp remotion/out/thumbnail.png "$VIDEO/build/thumbnail.png"
+          ls -la "$VIDEO/build" remotion/out
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: video-finale
+          path: |
+            remotion/out/video.mp4
+            remotion/out/thumbnail.png
+            ${{ inputs.video }}/build/captions.srt
+          retention-days: 30
+
+      - name: Enregistrer timeline, sous-titres, miniature et aperçu
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add "$VIDEO/build"
+          git diff --cached --quiet || git commit -m "Production : $VIDEO (timeline, sous-titres, miniature, aperçu)"
+          git pull --rebase -q
+          git push

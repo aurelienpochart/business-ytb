@@ -12,3 +12,6 @@ __pycache__/
 out/
 *.mp4
 research/*/raw/*.pdf
+remotion/public/*
+!remotion/public/.gitkeep
+videos/*/build/narration.wav
