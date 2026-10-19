@@ -1,0 +1,9 @@
+{
+  "provider": "google-chirp3-hd",
+  "language_code": "en-US",
+  "voice": "en-US-Chirp3-HD-Iapetus",
+  "speaking_rate": 1.0,
+  "audio_encoding": "LINEAR16",
+  "sample_rate_hertz": 24000,
+  "chosen": "2026-10-19, par aurelien, après écoute de 19 voix"
+}
