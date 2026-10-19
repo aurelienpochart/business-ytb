@@ -1,8 +1,5 @@
 # Lettres trimestrielles de Tesla aux actionnaires (comptes résumés, 5 trimestres chacune)
-tsla-q4-2025.pdf https://assets-ir.tesla.com/tesla-contents/IR/TSLA-Q4-2025-Update.pdf
-tsla-q2-2026.pdf https://assets-ir.tesla.com/tesla-contents/IR/TSLA-Q2-2026-Update.pdf
-tsla-q4-2024.pdf https://digitalassets.tesla.com/tesla-contents/image/upload/IR/TSLA-Q4-2024-Update.pdf
-tsla-q4-2023.pdf https://digitalassets.tesla.com/tesla-contents/image/upload/IR/TSLA-Q4-2023-Update.pdf
-tsla-q4-2020.pdf https://digitalassets.tesla.com/tesla-contents/image/upload/IR/TSLA-Q4-2020-Update.pdf
-# SEC (bloquée pour les runners ? essai)
-r4-income.htm https://www.sec.gov/Archives/edgar/data/1318605/000162828026003952/R4.htm
+tsla-q4-2025.pdf https://digitalassets.tesla.com/tesla-contents/image/upload/IR/TSLA-Q4-2025-Update.pdf
+tsla-q2-2026.pdf https://digitalassets.tesla.com/tesla-contents/image/upload/IR/TSLA-Q2-2026-Update.pdf
+tsla-q3-2025.pdf https://digitalassets.tesla.com/tesla-contents/image/upload/IR/TSLA-Q3-2025-Update.pdf
+tsla-q1-2026.pdf https://digitalassets.tesla.com/tesla-contents/image/upload/IR/TSLA-Q1-2026-Update.pdf
