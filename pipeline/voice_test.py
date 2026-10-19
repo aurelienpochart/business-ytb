@@ -7,6 +7,7 @@ Le jeton d'accès Google est lu dans GOOGLE_ACCESS_TOKEN (fourni par le workflow
 import base64
 import json
 import os
+import subprocess
 import sys
 import urllib.request
 from pathlib import Path
@@ -48,13 +49,17 @@ def main():
         body = {
             "input": {"text": text},
             "voice": {"languageCode": config["language_code"], "name": name},
-            "audioConfig": {"audioEncoding": "MP3", "speakingRate": config.get("speaking_rate", 1.0)},
+            "audioConfig": {"audioEncoding": "LINEAR16", "sampleRateHertz": 24000, "speakingRate": config.get("speaking_rate", 1.0)},
         }
         audio = base64.b64decode(call("POST", "text:synthesize", token, body)["audioContent"])
         short = name.rsplit("-", 1)[-1].lower()
+        # Le MP3 renvoyé par l'API est à 32 kb/s : on prend le WAV sans perte et on encode nous-mêmes.
+        wav = OUT_DIR / f"{short}.wav"
+        wav.write_bytes(audio)
         path = OUT_DIR / f"{short}.mp3"
-        path.write_bytes(audio)
-        report.append({"voice": name, "gender": available[name], "file": str(path), "bytes": len(audio)})
+        subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", str(wav), "-b:a", "192k", str(path)], check=True)
+        wav.unlink()
+        report.append({"voice": name, "gender": available[name], "file": str(path), "bytes": path.stat().st_size})
         print(f"OK {name} ({available[name]}) -> {path}")
 
     (OUT_DIR / "rapport.json").write_text(

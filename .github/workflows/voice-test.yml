@@ -31,6 +31,9 @@ jobs:
           service_account: pipeline@business-ytb.iam.gserviceaccount.com
           token_format: access_token
 
+      - name: Installer ffmpeg
+        run: command -v ffmpeg || (sudo apt-get update -q && sudo apt-get install -yq ffmpeg)
+
       - name: Générer les échantillons
         env:
           GOOGLE_ACCESS_TOKEN: ${{ steps.auth.outputs.access_token }}

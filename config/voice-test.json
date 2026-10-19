@@ -3,6 +3,9 @@
   "text_file": "content/voice-test/sample.txt",
   "speaking_rate": 1.0,
   "voices": [
+    "en-US-Chirp3-HD-Charon",
+    "en-US-Chirp3-HD-Iapetus",
+    "en-US-Chirp3-HD-Schedar",
     "en-US-Chirp3-HD-Achird",
     "en-US-Chirp3-HD-Algenib",
     "en-US-Chirp3-HD-Algieba",
@@ -15,6 +18,9 @@
     "en-US-Chirp3-HD-Sadachbia",
     "en-US-Chirp3-HD-Sadaltager",
     "en-US-Chirp3-HD-Umbriel",
-    "en-US-Chirp3-HD-Zubenelgenubi"
+    "en-US-Chirp3-HD-Zubenelgenubi",
+    "en-US-Chirp3-HD-Kore",
+    "en-US-Chirp3-HD-Sulafat",
+    "en-US-Chirp3-HD-Gacrux"
   ]
 }
