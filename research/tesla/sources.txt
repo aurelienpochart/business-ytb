@@ -1,0 +1,5 @@
+# Tesla 10-K 2025 (exercice clos le 31/12/2025) : états financiers XBRL rendus par l'EDGAR
+r2-balance.htm https://www.sec.gov/Archives/edgar/data/1318605/000162828026003952/R2.htm
+r4-income.htm https://www.sec.gov/Archives/edgar/data/1318605/000162828026003952/R4.htm
+filing-index.htm https://www.sec.gov/Archives/edgar/data/1318605/000162828026003952/
+companyfacts.json https://data.sec.gov/api/xbrl/companyfacts/CIK0001318605.json
