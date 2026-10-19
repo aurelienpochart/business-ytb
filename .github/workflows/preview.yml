@@ -1,0 +1,52 @@
+name: Aperçu de relecture
+
+# Refait l'aperçu léger (720p) à partir du rendu final d'un run « Produire une vidéo »
+# et le range dans le dépôt, pour la relecture depuis le projet.
+on:
+  workflow_dispatch:
+    inputs:
+      video:
+        description: Dossier de la vidéo
+        default: videos/01-tesla
+      run_id:
+        description: Numéro du run « Produire une vidéo »
+        required: true
+
+permissions:
+  contents: write
+  actions: read
+
+jobs:
+  preview:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    env:
+      VIDEO: ${{ inputs.video }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/download-artifact@v4
+        with:
+          name: video-finale
+          run-id: ${{ inputs.run_id }}
+          github-token: ${{ github.token }}
+          path: rendu
+
+      - name: Installer ffmpeg
+        run: sudo apt-get update -q && sudo apt-get install -y -q ffmpeg
+
+      - name: Aperçu 720p
+        run: |
+          SRC=$(find rendu -name video.mp4 | head -1)
+          ffprobe -v error -show_entries format=duration,bit_rate:stream=codec_name,width,height,bit_rate -of compact "$SRC"
+          ffmpeg -loglevel error -y -i "$SRC" -vf scale=1280:-2 -c:v libx264 -crf 30 -preset slow -c:a aac -b:a 128k "$VIDEO/build/preview.mp4"
+          ls -la "$VIDEO/build"
+
+      - name: Enregistrer l'aperçu
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -f "$VIDEO/build/preview.mp4"
+          git diff --cached --quiet || git commit -m "Aperçu : $VIDEO"
+          git pull --rebase -q
+          git push
