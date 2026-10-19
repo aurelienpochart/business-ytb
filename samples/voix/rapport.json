@@ -1,0 +1,41 @@
+{
+  "characters": 774,
+  "samples": [
+    {
+      "voice": "en-US-Chirp3-HD-Charon",
+      "gender": "MALE",
+      "file": "samples/voix/charon.mp3",
+      "bytes": 188352
+    },
+    {
+      "voice": "en-US-Chirp3-HD-Iapetus",
+      "gender": "MALE",
+      "file": "samples/voix/iapetus.mp3",
+      "bytes": 213504
+    },
+    {
+      "voice": "en-US-Chirp3-HD-Schedar",
+      "gender": "MALE",
+      "file": "samples/voix/schedar.mp3",
+      "bytes": 188736
+    },
+    {
+      "voice": "en-US-Chirp3-HD-Kore",
+      "gender": "FEMALE",
+      "file": "samples/voix/kore.mp3",
+      "bytes": 202272
+    },
+    {
+      "voice": "en-US-Chirp3-HD-Sulafat",
+      "gender": "FEMALE",
+      "file": "samples/voix/sulafat.mp3",
+      "bytes": 217632
+    },
+    {
+      "voice": "en-US-Chirp3-HD-Gacrux",
+      "gender": "FEMALE",
+      "file": "samples/voix/gacrux.mp3",
+      "bytes": 198624
+    }
+  ]
+}
