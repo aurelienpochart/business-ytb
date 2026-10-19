@@ -2,40 +2,82 @@
   "characters": 774,
   "samples": [
     {
-      "voice": "en-US-Chirp3-HD-Charon",
+      "voice": "en-US-Chirp3-HD-Achird",
       "gender": "MALE",
-      "file": "samples/voix/charon.mp3",
+      "file": "samples/voix/achird.mp3",
+      "bytes": 198336
+    },
+    {
+      "voice": "en-US-Chirp3-HD-Algenib",
+      "gender": "MALE",
+      "file": "samples/voix/algenib.mp3",
+      "bytes": 194112
+    },
+    {
+      "voice": "en-US-Chirp3-HD-Algieba",
+      "gender": "MALE",
+      "file": "samples/voix/algieba.mp3",
+      "bytes": 208704
+    },
+    {
+      "voice": "en-US-Chirp3-HD-Alnilam",
+      "gender": "MALE",
+      "file": "samples/voix/alnilam.mp3",
+      "bytes": 206304
+    },
+    {
+      "voice": "en-US-Chirp3-HD-Enceladus",
+      "gender": "MALE",
+      "file": "samples/voix/enceladus.mp3",
+      "bytes": 200736
+    },
+    {
+      "voice": "en-US-Chirp3-HD-Fenrir",
+      "gender": "MALE",
+      "file": "samples/voix/fenrir.mp3",
+      "bytes": 197856
+    },
+    {
+      "voice": "en-US-Chirp3-HD-Orus",
+      "gender": "MALE",
+      "file": "samples/voix/orus.mp3",
       "bytes": 188352
     },
     {
-      "voice": "en-US-Chirp3-HD-Iapetus",
+      "voice": "en-US-Chirp3-HD-Puck",
       "gender": "MALE",
-      "file": "samples/voix/iapetus.mp3",
-      "bytes": 213504
+      "file": "samples/voix/puck.mp3",
+      "bytes": 202464
     },
     {
-      "voice": "en-US-Chirp3-HD-Schedar",
+      "voice": "en-US-Chirp3-HD-Rasalgethi",
       "gender": "MALE",
-      "file": "samples/voix/schedar.mp3",
-      "bytes": 188736
+      "file": "samples/voix/rasalgethi.mp3",
+      "bytes": 182496
     },
     {
-      "voice": "en-US-Chirp3-HD-Kore",
-      "gender": "FEMALE",
-      "file": "samples/voix/kore.mp3",
-      "bytes": 202272
+      "voice": "en-US-Chirp3-HD-Sadachbia",
+      "gender": "MALE",
+      "file": "samples/voix/sadachbia.mp3",
+      "bytes": 205632
     },
     {
-      "voice": "en-US-Chirp3-HD-Sulafat",
-      "gender": "FEMALE",
-      "file": "samples/voix/sulafat.mp3",
-      "bytes": 217632
+      "voice": "en-US-Chirp3-HD-Sadaltager",
+      "gender": "MALE",
+      "file": "samples/voix/sadaltager.mp3",
+      "bytes": 196512
     },
     {
-      "voice": "en-US-Chirp3-HD-Gacrux",
-      "gender": "FEMALE",
-      "file": "samples/voix/gacrux.mp3",
-      "bytes": 198624
+      "voice": "en-US-Chirp3-HD-Umbriel",
+      "gender": "MALE",
+      "file": "samples/voix/umbriel.mp3",
+      "bytes": 189504
+    },
+    {
+      "voice": "en-US-Chirp3-HD-Zubenelgenubi",
+      "gender": "MALE",
+      "file": "samples/voix/zubenelgenubi.mp3",
+      "bytes": 190752
     }
   ]
 }
