@@ -6,6 +6,7 @@ Tourne sur GitHub Actions, dont le réseau n'est pas filtré.
 """
 
 import re
+import subprocess
 import sys
 import urllib.request
 from html.parser import HTMLParser
@@ -65,6 +66,8 @@ def main():
             parser = TextExtractor()
             parser.feed(body.decode("utf-8", errors="replace"))
             (out_dir / (Path(name).stem + ".txt")).write_text(parser.text())
+        if name.endswith(".pdf"):
+            subprocess.run(["pdftotext", "-layout", str(out_dir / name), str(out_dir / (Path(name).stem + ".txt"))], check=False)
         print(f"OK {name} ({len(body)} octets)")
     sys.exit(1 if failed else 0)
 

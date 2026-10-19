@@ -20,6 +20,9 @@ jobs:
         with:
           fetch-depth: 2
 
+      - name: Installer pdftotext
+        run: command -v pdftotext || (sudo apt-get update -q && sudo apt-get install -yq poppler-utils)
+
       - name: Télécharger les listes modifiées
         run: |
           status=0
