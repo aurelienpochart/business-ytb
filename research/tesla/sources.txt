@@ -3,3 +3,4 @@ r2-balance.htm https://www.sec.gov/Archives/edgar/data/1318605/00016282802600395
 r4-income.htm https://www.sec.gov/Archives/edgar/data/1318605/000162828026003952/R4.htm
 filing-index.htm https://www.sec.gov/Archives/edgar/data/1318605/000162828026003952/
 companyfacts.json https://data.sec.gov/api/xbrl/companyfacts/CIK0001318605.json
+# relance 2026-10-19T20:26:50Z

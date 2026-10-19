@@ -11,7 +11,7 @@ import urllib.request
 from html.parser import HTMLParser
 from pathlib import Path
 
-UA = "TheCostCurve research bot (contact: github.com/aurelienpochart/business-ytb)"
+UA = "TheCostCurve research-bot 41898282+github-actions[bot]@users.noreply.github.com"
 
 
 class TextExtractor(HTMLParser):
