@@ -1,0 +1,50 @@
+name: Envoyer sur YouTube (privé)
+
+on:
+  workflow_dispatch:
+    inputs:
+      video:
+        description: Dossier de la vidéo
+        default: videos/01-tesla
+      run_id:
+        description: Numéro du run « Produire une vidéo » dont on envoie le rendu
+        required: true
+
+permissions:
+  contents: write
+  actions: read
+
+jobs:
+  upload:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    env:
+      VIDEO: ${{ inputs.video }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/download-artifact@v4
+        with:
+          name: video-finale
+          run-id: ${{ inputs.run_id }}
+          github-token: ${{ github.token }}
+          path: rendu
+
+      - name: Description (charte 5.5)
+        run: python3 pipeline/description.py "$VIDEO"
+
+      - name: Envoi en privé, miniature, sous-titres
+        env:
+          YT_CLIENT_ID: ${{ secrets.YT_CLIENT_ID }}
+          YT_CLIENT_SECRET: ${{ secrets.YT_CLIENT_SECRET }}
+          YT_REFRESH_TOKEN: ${{ secrets.YT_REFRESH_TOKEN }}
+        run: python3 pipeline/upload_youtube.py "$VIDEO" rendu/remotion/out/video.mp4 rendu/remotion/out/thumbnail.png
+
+      - name: Enregistrer l'identifiant YouTube
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add "$VIDEO/build"
+          git diff --cached --quiet || git commit -m "YouTube : $VIDEO envoyée en privé"
+          git pull --rebase -q
+          git push

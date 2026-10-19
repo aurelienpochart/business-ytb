@@ -1,0 +1,40 @@
+{
+  "title": "How Tesla Actually Makes Money",
+  "summary": "Tesla's first profitable year was built on billions of dollars paid by its own rivals. We take apart Tesla's accounts: cars, regulatory credits, grid batteries, charging, and the robotaxi bet behind Elon Musk's pay plan. Every number comes from Tesla's own filings or the sources below.",
+  "chapter_titles": {
+    "0": "Tesla's strangest source of profit",
+    "1": "Four businesses under one logo",
+    "2": "Selling cars got harder",
+    "3": "Regulatory credits, explained",
+    "4": "The tap is closing",
+    "5": "The quiet winner: grid batteries",
+    "6": "Charging and services",
+    "7": "Where the money goes",
+    "8": "The bet behind Musk's pay plan",
+    "9": "So, how does Tesla make money?"
+  },
+  "sources": [
+    "Tesla, Q4 2020 Update (shareholder letter): https://digitalassets.tesla.com/tesla-contents/image/upload/IR/TSLA-Q4-2020-Update.pdf",
+    "Tesla, Q4 2023 Update: https://digitalassets.tesla.com/tesla-contents/image/upload/IR/TSLA-Q4-2023-Update.pdf",
+    "Tesla, Q4 2024 Update: https://digitalassets.tesla.com/tesla-contents/image/upload/IR/TSLA-Q4-2024-Update.pdf",
+    "Tesla, Form 10-K for 2025, SEC: https://www.sec.gov/Archives/edgar/data/1318605/000162828026003952/tsla-20251231.htm",
+    "Yahoo Finance, Tesla revenue slips in 2025 as energy unit grows (Jan. 29, 2026): https://finance.yahoo.com/news/tesla-revenue-slips-2025-energy-163645200.html",
+    "CarbonCredits.com, Tesla reports first-ever annual revenue drop in 2025: https://carboncredits.com/tesla-reports-first-ever-annual-revenue-drop-in-2025-carbon-credit-sales-also-dip-28/",
+    "Transport Topics, Tesla rakes in billions from selling regulatory credits (Feb. 9, 2024): https://www.ttnews.com/articles/tesla-selling-regulatory-credits",
+    "The Drive, Tesla posts first-ever full year profit (2021): https://www.thedrive.com/news/38967/tesla-posts-first-ever-full-year-profit-at-721-million",
+    "Electrek, BYD crushes Tesla in all-electric sales for 2025 (Jan. 2, 2026): https://electrek.co/2026/01/02/byd-crushes-tesla-all-electric-sales-for-2025-secures-global-bev-crown/",
+    "Electrek, US ends emission credits (Aug. 15, 2025): https://electrek.co/2025/08/15/tesla-rivian-others-see-billions-in-revenue-disappear-us-end-emission-credits/",
+    "Electrek, Tesla Q2 2026 financial results (Jul. 22, 2026): https://electrek.co/2026/07/22/tesla-tsla-q2-2026-financial-results/",
+    "Electrek, Tesla Q3 2026 deliveries (Oct. 2, 2026): https://electrek.co/2026/10/02/tesla-q3-2026-deliveries-486532/",
+    "BESS Manufacturers, Tesla Energy 2025 annual results: https://bessmanufacturers.com/resources/tesla-energy-2025-annual-results-energy-storage/",
+    "Business Standard, What Musk must do to earn his pay package (Nov. 7, 2025): https://www.business-standard.com/amp/markets/news/3-things-tesla-elon-musk-must-do-to-earn-dollar-1-trillion-pay-package-125110700777_1.html"
+  ],
+  "credits": [
+    "Fonts: Inter and IBM Plex Mono (SIL Open Font License).",
+    "Charts and animations made by The Cost Curve from the sources above."
+  ],
+  "tags": ["Tesla", "how Tesla makes money", "Tesla regulatory credits", "Tesla business model", "Elon Musk", "Tesla energy storage", "Megapack", "Tesla earnings explained", "business explained", "The Cost Curve"],
+  "category_id": "27",
+  "contains_synthetic_media": false,
+  "made_for_kids": false
+}
