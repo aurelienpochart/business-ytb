@@ -1,0 +1,13 @@
+# Secrets : jamais dans le dépôt
+.env
+.env.*
+*.pem
+client_secret*.json
+credentials*.json
+gha-creds-*.json
+
+# Dépendances et rendus
+node_modules/
+__pycache__/
+out/
+*.mp4
