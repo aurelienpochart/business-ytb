@@ -1,0 +1,1022 @@
+Q4 and FY2020 Update
+Highlights               03
+Financial Summary        04
+Operational Summary      07
+Vehicle Capacity         08
+Core Technology          09
+Other Highlights         10
+Outlook                  11
+Photos & Charts          12
+Key Metrics              25
+Financial Statements     27
+Additional Information   33
+    HIGHLIGHTS                                                                                         SUMMARY
+
+
+
+    Cash            Operating cash flow less capex (free cash flow) of $2.8B in 2020                   This past year was transformative for Tesla. Despite unforeseen global
+                                                                                                       challenges, we outpaced many trends seen elsewhere in the industry as
+                    $4.9B increase in our cash and cash equivalents in Q4 to $19.4B                    we significantly increased volumes, profitability and cash generation.
+
+                    Free cash flow $1.9B in Q4                                                         For the full year 2020, we achieved an industry-leading1 6.3% operating
+                                                                                                       margin (despite an increase of SBC to $1.7B). Teams across our
+                                                                                                       organization, including supply chain, manufacturing, logistics and
+                                                                                                       delivery, rose to the occasion to ensure strong execution.
+
+    Profitability   $721M GAAP net income; $2.5B non-GAAP net income in 2020                           In addition, we continued to improve our products and make progress
+                                                                                                       on our long-term roadmap. We ramped Model 3 in China to over 5,000
+                    $270M GAAP net income; $903M non-GAAP net income (ex-SBC*) in Q4                   cars per week and started production of Model Y at Gigafactory
+                                                                                                       Shanghai less than a year after breaking ground on the expansion. We
+                    $575M GAAP operating income; 5.4% operating margin in Q4                           also launched and ramped Model Y in Fremont in 2020.
+
+                    SBC expense increased to $633M in Q4                                               In Berlin and Austin, we remain on track to start vehicle production this
+                                                                                                       year with structural batteries leveraging in-house battery cells. Our
+                                                                                                       engineering team has made significant progress on Full Self Driving
+                                                                                                       (FSD) software, with a limited release to customers. Finally, we are
+                                                                                                       excited to ramp the updated Model S and Model X and deliver our first
+    Operations      Half a million vehicles produced and delivered in 2020                             Tesla Semi by the end of the year.
+
+                    Model Y production at Gigafactory Shanghai started in December 2020                While 2020 was a critical year for Tesla, we believe that 2021 will be
+                                                                                                       even more important. Thank you for your trust and support and for
+                    Updated Model S and Model X launched in January 2021                               being on this journey with us.
+
+
+
+
+                                                                                                                                                *SBC = stock-based compensation
+                                                                             1 Based on latest available trailing 12-
+
+3
+   FINANCIAL SUMMARY
+   (Unaudited)
+    ($ in millions, except percentages and per share data)                                                Q4-2019               Q1-2020               Q2-2020           Q3-2020      Q4-2020       YoY
+    Automotive revenues                                                                                           6,368                  5,132                  5,179        7,611        9,314          46%
+       of which regulatory credits                                                                                   133                   354                   428          397          401       202%
+    Automotive gross profit                                                                                        1,434                  1,311                 1,317        2,105       2,244           56%
+    Automotive gross margin                                                                                       22.5%                 25.5%                  25.4%        27.7%        24.1%       157 bp
+
+    Total revenues                                                                                                7,384                 5,985                  6,036         8,771      10,744           46%
+    Total gross profit                                                                                              1,391                1,234                  1,267       2,063        2,066           49%
+    Total GAAP gross margin                                                                                       18.8%                 20.6%                  21.0%        23.5%        19.2%       39 bp
+
+    Operating expenses                                                                                             1,032                   951                  940          1,254        1,491          44%
+    Income from operations                                                                                           359                   283                   327          809          575           60%
+    Operating margin                                                                                               4.9%                  4.7%                   5.4%         9.2%         5.4%       49 bp
+
+    Adjusted EBITDA                                                                                                 1,175                  951                 1,209         1,807        1,850          57%
+    Adjusted EBITDA margin                                                                                        15.9%                 15.9%                  20.0%        20.6%        17.2%       131 bp
+
+    Net income attributable to common stockholders (GAAP)                                                            105                     16                  104          331          270           157%
+    Net income attributable to common stockholders (non-GAAP)                                                        386                   227                   451          874          903           134%
+
+    EPS attributable to common stockholders, diluted (GAAP) (1)                                                      0.11                 0.02                  0.10         0.27         0.24           118%
+    EPS attributable to common stockholders, diluted (non-GAAP) (1)                                                 0.41                  0.23                  0.44         0.76         0.80           95%
+
+    Net cash provided by (used in) operating activities                                                            1,425                (440)                    964        2,400         3,019          112%
+    Capital expenditures                                                                                           (412)                (455)                  (546)       (1,005)       (1,151)         179%
+    Free cash flow                                                                                                 1,013                (895)                    418         1,395        1,868          84%
+    Cash and cash equivalents                                                                                     6,268                 8,080                  8,615        14,531       19,384      209%
+
+
+4 (1) Prior period results have been retroactively adjusted to reflect the five-for-one stock split effected in the form of a stock dividend in August 2020.
+   EPS = Earnings per share
+    FINANCIAL SUMMARY
+    (Unaudited)
+     ($ in millions, except percentages and per share data)                                                   2016                   2017                  2018            2019          2020          YoY
+     Automotive revenues                                                                                             6,351                9,642                  18,515      20,821        27,236             31%
+        of which regulatory credits                                                                                   302                   360                     419           594       1,580            166%
+     Automotive gross profit                                                                                         1,601                2,209                   4,341       4,423         6,977            58%
+     Automotive gross margin                                                                                        25.2%                 22.9%                  23.4%        21.2%        25.6%        437 bp
+
+     Total revenues                                                                                                7,000                  11,759                 21,461      24,578        31,536            28%
+     Total gross profit                                                                                              1,599                2,223                  4,042        4,069         6,630            63%
+     Total GAAP gross margin                                                                                        22.8%                 18.9%                   18.8%       16.6%         21.0%       447 bp
+
+     Operating expenses                                                                                             2,267                 3,855                  4,430        4,138         4,636             12%
+     (Loss) income from operations                                                                                  (667)                (1,632)                 (388)            (69)      1,994            N/A
+     Operating margin                                                                                               -9.5%                -13.9%                   -1.8%       -0.3%          6.3%       660 bp
+
+     Adjusted EBITDA                                                                                                   832                  644                  2,395        2,985         5,817            95%
+     Adjusted EBITDA margin                                                                                          11.9%                  5.5%                  11.2%       12.1%         18.4%       630 bp
+
+     Net (loss) income attributable to common stockholders (GAAP)                                                   (675)               (1,962)                  (976)        (862)              721         N/A
+     Net (loss) income attributable to common stockholders (non-GAAP)                                                (341)              (1,495)                   (227)            36       2,455       6,719%
+
+     EPS attributable to common stockholders, diluted (GAAP) (1)                                                   (0.94)                 (2.37)                  (1.14)     (0.98)          0.64            N/A
+     EPS attributable to common stockholders, diluted (non-GAAP) (1)                                               (0.47)                 (1.80)                 (0.27)           0.03          2.24    7,367%
+
+     Net cash (used in) provided by operating activities                                                             (124)                   (61)                2,098        2,405         5,943            147%
+     Capital expenditures                                                                                          (1,281)              (3,415)                  (2,101)     (1,327)       (3,157)           138%
+     Free cash flow                                                                                               (1,405)               (3,476)                     (3)       1,078         2,786            158%
+     Cash and cash equivalents                                                                                      3,393                 3,368                  3,686        6,268        19,384        209%
+
+
+5   (1) Prior period results have been retroactively adjusted to reflect the five-for-one stock split effected in the form of a stock dividend in August 2020.
+
+    EPS = Earnings per share
+    FINANCIAL SUMMARY
+
+
+
+
+    Revenue         Total revenue grew 46% YoY in Q4. This was primarily achieved through substantial growth in vehicle deliveries as well as growth in other
+                    parts of the business. At the same time, vehicle average selling price (ASP) declined by 11% YoY as our product mix continued to shift from
+                    Model S and Model X to the more affordable Model 3 and Model Y.
+
+
+
+
+    Profitability   Our operating income improved in Q4 compared to the same period last year to $575M, resulting in a 5.4% operating margin. Thi s
+                    profit level was reached while incurring SBC expense attributable to the 2018 CEO award of $267M in Q4, driven by an increase in our
+                    market capitalization and a new operational milestone becoming probable.
+
+                    Positive impact from volume growth and regulatory credit revenue growth YoY was mainly offset by lower ASP (including price
+                    reduction of China-made Model 3 and price reductions of Model S and Model X before the introduction of updated models) but also by
+                    a series of notable items. These included a portion of Q4 SBC charges, vehicle warranty accruals, additional supply chain cos ts, Model
+                    S and Model X changeover costs and other items.
+
+
+
+
+    Cash            Quarter-end cash and cash equivalents increased to $19.4B in Q4, driven mainly by our recent capital raise of $5.0B (average pri ce of this
+                    offering was ~$632/share) and free cash flow of $1.9B, partially offset by early debt repayments (early conversion of convert ible notes).
+
+
+
+
+6
+    OPERATIONAL SUMMARY
+    (Unaudited)
+                                                           Q4-2019            Q1-2020               Q2-2020             Q3-2020        Q4-2020        YoY
+      Model S/X production                                     17,933                15,390                  6,326          16,992         16,097           -10%
+      Model 3/Y production                                    86,958                 87,282                75,946         128,044        163,660            88%
+      Total production                                        104,891              102,672                 82,272         145,036         179,757           71%
+
+
+      Model S/X deliveries                                     19,475                12,230                 10,614          15,275         18,966            -3%
+      Model 3/Y deliveries                                    92,620                 76,266                80,277          124,318         161,701          75%
+      Total deliveries                                        112,095               88,496                 90,891         139,593        180,667            61%
+          of which subject to operating lease accounting       8,848                   6,104                 4,716          10,014         13,636           54%
+
+
+      Total end of quarter operating lease vehicle count       49,901                 53,159                54,519          61,638        72,089            44%
+      Global vehicle inventory (days of supply)(1)                   10                    25                      17             14             11         10%
+
+
+      Solar deployed (MW)                                            54                    35                      27             57             86         59%
+      Storage deployed (MWh)                                     530                     260                      419         759           1,584           199%
+
+
+      Store and service locations                                433                     438                      446         466             523            21%
+      Mobile service fleet                                       743                     756                      769         780             823            11%
+
+
+      Supercharger stations                                     1,821                   1,917                2,035           2,181          2,564            41%
+      Supercharger connectors                                  16,104                17,007                 18,100          19,437         23,277           45%
+
+
+
+
+    (1)                                                                   ned with Automotive News definition).
+
+
+
+
+7
+    VEHICLE CAPACITY
+
+
+
+
+    Fremont                                                                                Installed Annual Capacity                                   Current                  Status
+
+                                                                                           Fremont                    Model S / Model X                   100,000            Production
+    Over the past few weeks, we have been upgrading our Fremont Factory to launch
+    the new Model S and Model X. These changes include a new powertrain (battery                                      Model 3 / Model Y                  500,000             Production
+    modules, battery packs, drive units), an entirely new interior, exterior updates and
+                                                                                           Shanghai                   Model 3 / Model Y                  450,000             Production
+    other improvements. Production will resume in Q1 and ramp back to full capacity
+    over time. We also continue to increase Model Y production, including integration of   Berlin                     Model Y                               -               Construction
+    the single-piece rear underbody castings, to meet customer demand.                     Texas                      Model Y                               -               Construction
+
+                                                                                                                      Cybertruck                            -             In development
+    Shanghai                                                                               TBD                        Tesla Semi                            -             In development
+
+                                                                                                                      Roadster                              -             In development
+    Gigafactory Shanghai has demonstrated the ability to sustain Model 3 production at
+    or above a run rate of 250,000/year. Model Y production started in late 2020 and is                               Future Product                        -             In development
+    in the process of ramping to full capacity. Customer response to both Model 3 and      Installed capacity ≠ Current production rate. The production rate depends on the pace of factory ramp,
+    Model Y continues to be strong. We recently started shipping Model 3 vehicles from     supply chain ramp, downtime related to factory upgrades and national holidays and other factors.
+
+    Gigafactory Shanghai to several countries in Europe and APAC, which supplements        1.5%
+    production from the Fremont Factory for those markets.                                              US / Canada       Europe       China
+
+
+
+                                                                                           1.0%
+    Berlin-Brandenburg
+
+    Local production and deliveries remain a key part of our growth strategy. While our
+                                                                                           0.5%
+    total market share in Europe increased in 2020, Gigafactory Berlin should enable a
+    significant increase in local deliveries, similar to what we saw after constructing
+    Gigafactory Shanghai. Buildout of our Berlin factory continues as planned, and we
+                                                                                           0.0%
+    have already started to move machinery into the building.                                       2012       2013      2014       2015       2016     2017       2018      2019      2020
+
+                                                                                                             Global market share of Tesla vehicles by region
+                                                                                           Source: Tesla estimates based on data from ACEA; Autonews.com; CAAM
+                                                                                           (light-duty vehicle only)
+8
+    CORE TECHNOLOGY
+
+
+
+                                                                                                                                                                      Sources: Tesla; OEM data
+                                                                                               450
+    Autopilot & Full Self Driving (FSD)
+                                                                                               400
+                                                                                               350
+    Over the last few months, we released multiple software updates to our FSD City Streets
+                                                                                               300
+    beta testers.1 With each iteration, the system is becoming more robust, resulting in the
+                                                                                               250
+    widening of our user base. We continue to work on the development of our Dojo
+                                                                                               200
+    supercomputer. This computer is designed to process video data from our fleet and train
+                                                                                                150
+    our neural network at an extremely fast rate.
+                                                                                                100
+                                                                                                 50
+                                                                                                  0
+    Vehicle Software                                                                                             Jan-2019                     Jan-2020                       Jan-2021
+
+                                                                                                                      Tesla Model S (AWD)    Highest range non-Tesla EV (AWD)
+    As has been the tradition in recent years, we released a holiday software update for our
+                                                                                                                       EPA est. range gap continues to widen
+    vehicles in December. This time, we included a variety of new games, enabled drivers to
+    make an entrance with custom horn sounds through the external speaker and improved          Model                                                           0-60 mph                1/4 mile
+    driving visualization among many other updates.                                             Tesla Model S Plaid                                               <2.0 sec              <9.3 sec
+
+                                                                                                Porsche 918 Spyder                                                 2.1 sec               9.7 sec
+
+    Battery & Powertrain                                                                        Porsche 911 Turbo S (992)                                          2.2 sec               10.1 sec
+
+                                                                                                Lamborghini Huracán Performante                                    2.2 sec              10.2 sec
+    While our Model S and Model X battery module architecture evolved over the past 8
+                                                                                                Tesla Model S Performance                                          2.3 sec              10.4 sec
+    years, both the battery pack and modules have now been fully redesigned. Additionally,
+    we have incorporated Model 3 and Model Y motor technology throughout as well as our         Dodge Challenger SRT Demon                                         2.3 sec              10.7 sec
+
+    heat pump for better winter range. These changes enable 5x more high-speed quarter-         Bugatti Chiron                                                     2.4 sec               9.4 sec
+    mile runs than the prior architecture, while further improving energy efficiency.
+                                                                                                Porsche Taycan Turbo S                                             2.4 sec              10.3 sec
+
+                                                                                                Nissan GT-R Nismo                                                  2.5 sec              10.8 sec
+    The Performance versions of Model S and Model X were replaced by Plaid, featuring a
+    tri-motor powertrain with a unique high-speed, high-power rotor. Model S Plaid is the       Bugatti Veyron                                                     2.5 sec               9.9 sec
+    fastest accelerating production car ever made with a 0-60 mph time of <2.0 seconds                       The fastest accelerating production cars ever made
+    and a quarter mile in under 9.3 seconds, faster than a Bugatti Chiron.
+                                                                                               Sources: Tesla; Auto Motor & Sport; Car and Driver; CarIndigo;
+                                                                                               Carscoops; Hot Rod, Motor Trend; Road & Track; TopSpeed
+9   1 No revenue is recognized for software released for initial FSD City beta testers
+     OTHER HIGHLIGHTS
+
+
+
+
+     Energy Storage
+
+     Energy storage deployments grew substantially from 2019 to 2020. For the first time, our total battery deployments surpassed 3 GWh in a single year, which is an
+     83% increase compared to the prior year. This growth was driven mainly by the popularity of Megapack, our utility scale storage product. Powerwall demand
+     continues to increase as the residential business continues to grow. While we have made progress on production, we should se e even further increases in supply in
+     the next few months.
+
+     Our energy storage business continues to be supply-constrained as backlog remains strong. We are looking to increase capacity both on the manufacturing
+     equipment side as well as supply chain side, to allow us to continue to grow at a similar pace again in 2021.
+
+
+
+     Solar Retrofit and Solar Roof
+
+     In 2020, solar deployments increased to 205 MW, 18% more than the prior year. This growth is the result of meaningful improve ments to our solar retrofit strategy,
+     including product simplification, cost reduction and industry-leading pricing. We have also made great progress growing our Solar Roof deployments, as we have
+     expanded the team while simultaneously improving our installation efficiency.
+
+
+     3.0
+
+     2.5
+
+     2.0
+
+     1.5
+
+     1.0
+
+     0.5
+
+     0.0
+                    2015                       2016                       2017                       2018                       2019                       2020
+
+                                                                 Tesla energy storage deployments in GWh
+
+10
+     OUTLOOK
+
+
+
+
+     Introduction   Given the number of significant projects in the pipeline, we have simplified our approach to guidance for 2021, enabling our
+                    teams to remain focused on achieving our long-term goals.
+
+
+
+
+     Volume         We are planning to grow our manufacturing capacity as quickly as possible. Over a multi-year horizon, we expect to achieve
+                    50% average annual growth in vehicle deliveries. In some years we may grow faster, which we expect to be the case in 2021.
+                    The rate of growth will depend on our equipment capacity, operational efficiency and capacity and stability of the supply cha in.
+
+
+
+
+     Cash           We have sufficient liquidity to fund our product roadmap, long-term capacity expansion plans and other expenses.
+
+
+
+
+     Profit         We expect our operating margin will continue to grow over time, continuing to reach industry-leading levels with capacity
+                    expansion and localization plans underway.
+
+
+
+
+     Product        We are currently building Model Y capacity at Gigafactory Berlin and Gigafactory Texas and remain on track to start deliverie s
+                    from each location in 2021. Gigafactory Shanghai will continue to expand further through the course of the year. Tesla Semi
+                    deliveries will also begin in 2021.
+
+
+
+
+11
+PHOTOS & CHARTS
+     TESLA MODEL S - FRONT INTERIOR
+
+
+
+
+13
+     TESLA MODEL S - REAR INTERIOR
+
+
+
+
+14
+     TESLA MODEL S PLAID - EXTERIOR
+
+
+
+
+15
+     GIGAFACTORY SHANGHAI - MODEL Y DIE CAST
+
+
+
+
+16
+     GIGAFACTORY SHANGHAI - MODEL Y STAMPING
+
+
+
+
+17
+     GIGAFACTORY SHANGHAI - MODEL Y BODY SHOP
+
+
+
+
+18
+     GIGAFACTORY SHANGHAI - MODEL Y GENERAL ASSEMBLY
+
+
+
+
+19
+     GIGAFACTORY SHANGHAI - MODEL 3 FACTORY (FOREGROUND); MODEL Y FACTORY (BACKGROUND)
+
+
+
+
+20
+     GIGAFACTORY BERLIN - MODEL Y FACTORY CONSTRUCTION
+
+
+
+
+21
+     GIGAFACTORY BERLIN - MODEL Y FACTORY INTERIOR
+
+
+
+
+22
+     GIGAFACTORY BERLIN - MODEL Y FACTORY INTERIOR
+
+
+
+
+23
+     GIGAFACTORY TEXAS
+
+
+
+
+                         3 months ago   Present day
+
+
+
+
+24
+25
+                                                                                                                                                 200,000
+
+
+
+
+                                                                                     80,000
+                                                                                                        120,000
+
+                                                                                              100,000
+                                                                                                                  140,000
+
+
+
+
+                                                                           60,000
+                                                                                                                                       180,000
+
+
+
+
+                                                         20,000
+                                                                  40,000
+                                                                                                                            160,000
+
+
+
+
+                                                  0
+                                                                                                                                                           (Unaudited)
+
+
+
+                                        1Q-2018
+                                        2Q-2018
+                                        3Q-2018
+                                        4Q-2018
+                                        1Q-2019
+                                        2Q-2019
+                                        3Q-2019
+                                                                                                                                                           KEY METRICS QUARTERLY
+
+
+
+
+                                        4Q-2019
+                                        1Q-2020
+                                        2Q-2020
+
+
+
+
+           Vehicle Deliveries (units)
+                                        3Q-2020
+                                        4Q-2020
+                                                                       -2.0
+                                                                                                           1.0
+                                                                                                                                      3.0
+
+
+
+
+                                                  -4.0
+                                                                                    -1.0
+                                                                                              0.0
+                                                                                                                        2.0
+
+
+
+
+                                                           -3.0
+                                                                                                                                                 4.0
+
+
+
+
+                                        1Q-2018
+
+                                        2Q-2018
+
+                                        3Q-2018
+
+                                        4Q-2018
+
+                                        1Q-2019
+
+                                        2Q-2019
+
+                                        3Q-2019
+     Free Cash Flow ($B)
+
+
+
+
+                                        4Q-2019
+
+                                        1Q-2020
+     Operating Cash Flow ($B)
+
+
+
+
+                                        2Q-2020
+
+                                        3Q-2020
+
+                                        4Q-2020
+                                                  -0.8
+                                                                       -0.4
+                                                                                    -0.2
+
+
+
+
+                                                           -0.6
+                                                                                                                        0.4
+
+
+
+
+                                                                                              0.0
+                                                                                                           0.2
+                                                                                                                                      0.6
+                                                                                                                                                 0.8
+
+
+
+
+                                        1Q-2018
+
+                                        2Q-2018
+
+                                        3Q-2018
+
+                                        4Q-2018
+
+                                        1Q-2019
+
+                                        2Q-2019
+
+                                        3Q-2019
+           Net Income ($B)
+
+
+
+
+                                        4Q-2019
+
+                                        1Q-2020
+
+                                        2Q-2020
+
+                                        3Q-2020
+
+                                        4Q-2020
+     KEY METRIC S TRAILING 12 MONTHS (TTM)
+     (Unaudited)
+
+
+
+
+     500,000                                                                                                                           6.0                                                                                                                            3.0
+
+     450,000                                                                                                                           5.0
+                                                                                                                                       4.0                                                                                                                            2.0
+     400,000
+                                                                                                                                       3.0
+     350,000
+                                                                                                                                       2.0                                                                                                                             1.0
+     300,000                                                                                                                            1.0
+     250,000                                                                                                                           0.0                                                                                                                            0.0
+
+     200,000                                                                                                                           -1.0
+                                                                                                                                       -2.0                                                                                                                           -1.0
+     150,000
+                                                                                                                                       -3.0
+     100,000
+                                                                                                                                       -4.0                                                                                                                           -2.0
+      50,000                                                                                                                           -5.0
+          0                                                                                                                            -6.0                                                                                                                           -3.0
+                                   3Q-2018
+
+
+
+
+                                                                                                                                                                  3Q-2018
+
+
+
+
+                                                                                                                                                                                                                                                                                                 3Q-2018
+               1Q-2018
+
+
+
+
+                                                       1Q-2019
+
+
+                                                                           3Q-2019
+
+
+
+
+                                                                                                                                              1Q-2018
+
+
+
+
+                                                                                                                                                                                      1Q-2019
+
+
+
+                                                                                                                                                                                                          3Q-2019
+
+
+
+
+                                                                                                                                                                                                                                                                             1Q-2018
+
+
+
+
+                                                                                                                                                                                                                                                                                                                     1Q-2019
+
+
+
+                                                                                                                                                                                                                                                                                                                                         3Q-2019
+                         2Q-2018
+
+
+
+
+                                                                 2Q-2019
+
+
+
+
+                                                                                                                   3Q-2020
+                                                                                                                             4Q-2020
+
+
+
+
+                                                                                                                                                        2Q-2018
+
+
+
+
+                                                                                                                                                                                                2Q-2019
+
+
+
+
+                                                                                                                                                                                                                                                  3Q-2020
+
+                                                                                                                                                                                                                                                            4Q-2020
+
+
+
+
+                                                                                                                                                                                                                                                                                       2Q-2018
+
+
+
+
+                                                                                                                                                                                                                                                                                                                               2Q-2019
+
+
+
+
+                                                                                                                                                                                                                                                                                                                                                                                 3Q-2020
+
+                                                                                                                                                                                                                                                                                                                                                                                           4Q-2020
+                                             4Q-2018
+
+
+
+
+                                                                                     4Q-2019
+                                                                                               1Q-2020
+
+
+
+
+                                                                                                                                                                            4Q-2018
+
+
+
+
+                                                                                                                                                                                                                    4Q-2019
+
+                                                                                                                                                                                                                              1Q-2020
+
+
+
+
+                                                                                                                                                                                                                                                                                                           4Q-2018
+
+
+
+
+                                                                                                                                                                                                                                                                                                                                                   4Q-2019
+
+                                                                                                                                                                                                                                                                                                                                                             1Q-2020
+                                                                                                         2Q-2020
+
+
+
+
+                                                                                                                                                                                                                                        2Q-2020
+
+
+
+
+                                                                                                                                                                                                                                                                                                                                                                       2Q-2020
+                                                                                                                                                                  Operating Cash Flow ($B)
+                                       Vehicle Deliveries (units)                                                                                                                                                                                                                                          Net Income ($B)
+                                                                                                                                                                  Free Cash Flow ($B)
+
+
+
+
+26
+FINANCIAL   STATEMENTS
+   STATEMENT OF OPERATIONS
+   (Unaudited)
+    In millions of USD or shares as applicable, except per share data                                                                   Q4-2019                Q1-2020      Q2-2020      Q3-2020      Q4-2020
+     REVENUES
+     Automotive sales                                                                                                                       6,143                  4,893         4,911       7,346         9,034
+     Automotive leasing                                                                                                                       225                    239          268          265           280
+        Total automotive revenue                                                                                                            6,368                   5,132        5,179        7,611         9,314
+     Energy generation and storage                                                                                                            436                    293          370          579           752
+     Services and other                                                                                                                       580                    560          487           581          678
+        Total revenues                                                                                                                      7,384                  5,985        6,036         8,771       10,744
+     COST OF REVENUES
+     Automotive sales                                                                                                                       4,815                  3,699        3,714         5,361       6,922
+     Automotive leasing                                                                                                                         119                   122         148           145          148
+        Total automotive cost of revenues                                                                                                   4,934                   3,821       3,862        5,506        7,070
+     Energy generation and storage                                                                                                            385                    282          349          558          787
+     Services and other                                                                                                                       674                    648          558          644           821
+        Total cost of revenues                                                                                                              5,993                   4,751       4,769        6,708        8,678
+        Gross profit                                                                                                                         1,391                 1,234        1,267        2,063        2,066
+     OPERATING EXPENSES
+     Research and development                                                                                                                 345                   324           279          366          522
+     Selling, general and administrative                                                                                                      699                   627           661          888          969
+     Restructuring and other                                                                                                                  (12)
+        Total operating expenses                                                                                                            1,032                    951         940         1,254          1,491
+     INCOME FROM OPERATIONS                                                                                                                   359                    283          327         809            575
+        Interest income                                                                                                                         10                    10             8            6             6
+        Interest expense                                                                                                                    (170)                  (169)        (170)        (163)         (246)
+        Other (expense) income, net                                                                                                          (25)                   (54)          (15)        (97)             44
+     INCOME BEFORE INCOME TAXES                                                                                                               174                     70          150          555           379
+     Provision for income taxes                                                                                                                 42                     2            21         186             83
+     NET INCOME                                                                                                                                132                    68           129         369           296
+     Net income attributable to noncontrolling interests and redeemable noncontrolling interests                                                27                    52            25          38             26
+     NET INCOME ATTRIBUTABLE TO COMMON STOCKHOLDERS                                                                                           105                     16          104          331           270
+     Less: Buy-out of noncontrolling interest                                                                                                                                                    31
+     NET INCOME USED IN COMPUTING NET INCOME PER SHARE OF COMMON STOCK                                                                        105                     16          104         300           270
+     Net income per share of common stock attributable to common stockholders(1)
+        Basic                                                                                                                           $     0.12             $    0.02    $    0.11    $    0.32    $     0.28
+        Diluted                                                                                                                         $     0.11             $    0.02    $    0.10    $    0.27    $     0.24
+     Weighted average shares used in computing net income per share of common stock(1)
+        Basic                                                                                                                                 902                    915          928          937            951
+        Diluted                                                                                                                               935                   994         1,036         1,105         1,124
+
+28 (1)Prior period results have been retroactively adjusted to reflect the five-for-one stock split effected in the form of a stock dividend in August 2020.
+     BALANCE SHEET
+     (Unaudited)
+     In millions of USD                                             31-Dec-19     31-Mar-20     30-Jun-20     30-Sep-20     31-Dec-20
+     ASSETS
+     Current assets
+       Cash and cash equivalents                                        6,268         8,080          8,615        14,531       19,384
+       Accounts receivable, net                                          1,324         1,274         1,485          1,757       1,886
+       Inventory                                                         3,552        4,494         4,018          4,218         4,101
+       Prepaid expenses and other current assets                           959         1,045          1,218        1,238        1,346
+         Total current assets                                           12,103       14,893        15,336        21,744        26,717
+     Operating lease vehicles, net                                      2,447         2,527         2,524          2,742        3,091
+     Solar energy systems, net                                           6,138         6,106        6,069         6,025         5,979
+     Property, plant and equipment, net                                10,396       10,638         11,009         11,848       12,747
+     Operating lease right-of-use assets                                  1,218         1,197        1,274         1,375         1,558
+     Goodwill and intangible assets, net                                   537            516          508            521          520
+     Other non-current assets                                            1,470         1,373          1,415        1,436         1,536
+         Total assets                                                 34,309        37,250         38,135        45,691        52,148
+
+     LIABILITIES AND EQUITY
+     Current liabilities
+       Accounts payable                                                  3,771       3,970           3,638        4,958         6,051
+       Accrued liabilities and other                                     3,222        2,825           3,110        3,252        3,855
+       Deferred revenue                                                   1,163        1,186          1,130        1,258        1,458
+       Customer deposits                                                   726          788             713          708          752
+       Current portion of debt and finance leases (1)                    1,785         3,217         3,679         3,126         2,132
+        Total current liabilities                                      10,667        11,986        12,270        13,302        14,248
+     Debt and finance leases, net of current portion (1)                11,634      10,666          10,416       10,559         9,556
+     Deferred revenue, net of current portion                            1,207         1,199          1,198        1,233        1,284
+     Other long-term liabilities                                         2,691        2,667          2,870        3,049         3,330
+        Total liabilities                                              26,199        26,518        26,754        28,143        28,418
+     Redeemable noncontrolling interests in subsidiaries                   643          632             613         608           604
+     Convertible senior notes                                                            60              44           48            51
+     Total stockholders' equity                                         6,618         9,173          9,855        16,031       22,225
+     Noncontrolling interests in subsidiaries                            849            867            869           861          850
+         Total liabilities and equity                                 34,309        37,250         38,135        45,691        52,148
+
+     (1) Breakdown of our debt is as follows:
+       Vehicle and energy product financing (non-recourse)              4,183        4,022         4,043           4,141       3,930
+
+      Other non-recourse debt                                             355          708           1,415          605          630
+      Recourse debt                                                     7,263        7,600          7,106         7,448        5,660
+        Total debt excluding vehicle and energy product financing       7,618        8,308          8,521         8,053        6,290
+
+29
+     STATEMENT OF CASH FLOWS
+     (Unaudited)
+     In millions of USD                                                                            Q4-2019   Q1-2020    Q2-2020    Q3-2020     Q4-2020
+     CASH FLOWS FROM OPERATING ACTIVITIES
+     Net income                                                                                        132       68         129        369         296
+     Adjustments to reconcile net income to net cash provided by (used in) operating activities:
+     Depreciation, amortization and impairment                                                        577       553        567         584         618
+     Stock-based compensation                                                                          281       211       347         543         633
+     Other                                                                                            204        175        167        269         230
+     Changes in operating assets and liabilities, net of effect of business combinations               231    (1,447)     (246)        635        1,242
+     Net cash provided by (used in) operating activities                                             1,425     (440)       964      2,400        3,019
+
+
+     CASH FLOWS FROM INVESTING ACTIVITIES
+     Capital expenditures                                                                            (412)     (455)      (546)     (1,005)      (1,151)
+     Purchases of solar energy systems, net of sales                                                  (37)      (26)       (20)        (16)        (13)
+     Purchase of intangible assets                                                                                                      (5)         (5)
+     Receipt of government grants                                                                      46          1                     —          122
+     Business combinations, net of cash acquired                                                                                        (13)
+     Net cash used in investing activities                                                           (403)     (480)      (566)     (1,039)     (1,047)
+
+
+     CASH FLOWS FROM FINANCING ACTIVITIES
+     Net cash flows from debt activities                                                             (591)      544        164       (630)      (2,074)
+     Collateralized lease repayments                                                                  (87)      (97)        (71)       (56)        (16)
+     Net borrowings (repayments) under vehicle and solar financing                                    478      (160)         18         99        (215)
+     Net cash flows from noncontrolling interests - Auto                                                19       (8)        (3)        (31)           0
+     Net cash flows from noncontrolling interests - Solar                                               6       (40)       (42)        (49)       (46)
+     Proceeds from issuances of common stock in public offerings, net of issuance costs                       2,309                  4,973       4,987
+     Other                                                                                             96       160         57         144          56
+     Net cash (used in) provided by financing activities                                              (79)    2,708        123      4,450        2,692
+
+
+     Effect of exchange rate changes on cash and cash equivalents and restricted cash                   14      (24)        38          86         234
+     Net increase in cash and cash equivalents and restricted cash                                    957      1,764       559       5,897       4,898
+     Cash and cash equivalents and restricted cash at beginning of period                           5,826      6,783      8,547      9,106      15,003
+     Cash and cash equivalents and restricted cash at end of period                                 6,783     8,547       9,106     15,003       19,901
+
+30
+     RECONCILIATION OF GAAP TO NON                                             GAAP FINANCIAL INFORMATION
+     (Unaudited)
+     In millions of USD or shares as applicable, except per share data                                                                  Q4-2019                  Q1-2020            Q2-2020                 Q3-2020                    Q4-2020
+
+     Net income attributable to common stockholders (GAAP)                                                                                    105                      16                   104                  331                        270
+     Stock-based compensation expense                                                                                                         281                      211                  347                  543                        633
+     Net income attributable to common stockholders (non-GAAP)                                                                               386                      227                    451                 874                        903
+     Less: Buy-out of noncontrolling interest                                                                                                                                                                         31
+     Net income used in computing EPS attributable to common stockholders (non-GAAP)                                                         386                      227                    451                 843                        903
+
+                                                                         (1)
+     EPS attributable to common stockholders, diluted (GAAP)                                                                                  0.11                   0.02                   0.10                0.27                       0.24
+                                                        (1)
+     Stock-based compensation expense per share                                                                                             0.30                     0.21                   0.34                0.49                       0.56
+                                                                     (1)
+     EPS attributable to common stockholders, diluted (non-GAAP)                                                                            0.41                     0.23                   0.44                0.76                       0.80
+                                                                 (1)
+     Shares used in EPS calculation, diluted (GAAP and non-GAAP)                                                                              935                    994                1,036                   1,105                      1,124
+
+     Net income attributable to common stockholders (GAAP)                                                                                    105                      16                 104                      331                      270
+     Interest expense                                                                                                                         170                     169                  170                     163                      246
+     Provision for income taxes                                                                                                                42                       2                    21                    186                        83
+     Depreciation, amortization and impairment                                                                                               577                      553                 567                     584                        618
+     Stock-based compensation expense                                                                                                         281                      211                347                     543                       633
+     Adjusted EBITDA (non-GAAP)                                                                                                             1,175                     951               1,209                   1,807                     1,850
+     Total revenues                                                                                                                        7,384                    5,985               6,036                    8,771                   10,744
+     Adjusted EBITDA margin (non-GAAP) (2)                                                                                                 15.9%                    15.9%              20.0%                   20.6%                      17.2%
+
+
+     Automotive gross margin (GAAP)                                                                                                        22.5%                    25.5%              25.4%                   27.7%                      24.1%
+     Less: Total regulatory credit revenue recognized                                                                                        1.6%                    5.5%               6.7%                    4.0%                       3.4%
+     Automotive gross margin excluding regulatory credits (non-GAAP)                                                                       20.9%                    20.0%              18.7%                   23.7%                      20.7%
+
+
+     In millions of USD                                                              1Q-2018      2Q-2018       3Q-2018      4Q-2018        1Q-2019      2Q-2019      3Q-2019    4Q-2019       1Q-2020     2Q-2020         3Q-2020     4Q-2020
+     Net cash (used in) provided by operating activities (GAAP)                        (398)        (130)          1,391        1,235        (640)          864           756      1,425         (440)         964           2,400         3,019
+     Capital expenditures                                                              (656)        (610)         (510)        (325)         (280)        (250)         (385)      (412)         (455)       (546)          (1,005)       (1,151)
+     Free cash flow (non-GAAP)                                                       (1,054)       (740)             881          910        (920)           614          371       1,013        (895)         418             1,395       1,868
+
+
+     In millions of USD                                                               1Q-2018     2Q-2018       3Q-2018      4Q-2018        1Q-2019      2Q-2019      3Q-2019    4Q-2019       1Q-2020     2Q-2020         3Q-2020     4Q-2020
+     Net cash (used in) provided by operating activities - TTM (GAAP)                  (389)         (319)         1,373       2,098           1,856       2,850         2,215     2,405         2,605       2,705           4,349        5,943
+     Capital expenditures TTM                                                         (3,518)      (3,169)      (2,563)       (2,101)        (1,725)      (1,365)     (1,240)     (1,327)       (1,502)     (1,798)         (2,418)      (3,157)
+     Free cash flow - TTM (non-GAAP)                                                 (3,907)      (3,488)        (1,190)          (3)             131       1,485         975       1,078          1,103        907           1,931       2,786
+     (1)Prior period results have been retroactively adjusted to reflect the five-for-one stock split effected in the form of a stock dividend in August 2020.
+     (2) Adjusted EBITDA margin is Adjusted EBITDA as a percentage of total revenues.
+31
+     RECONCILIATION OF GAAP TO NON                                               GAAP FINANCIAL INFORMATION
+     (Unaudited)
+     In millions of USD or shares as applicable, except per share data                                                                      2016                   2017      2018      2019     2020
+
+     Net (loss) income attributable to common stockholders (GAAP)                                                                          (675)                 (1,962)    (976)     (862)        721
+     Stock-based compensation expense                                                                                                        334                     467      749       898      1,734
+     Net (loss) income attributable to common stockholders (non-GAAP)                                                                       (341)                (1,495)    (227)        36     2,455
+     Less: Buy-out of noncontrolling interest                                                                                                                                              8        31
+     Net (loss) income used in computing EPS attributable to common stockholders (non -GAAP)                                                (341)                (1,495)    (227)        28     2,424
+
+                                                                         (1)
+     EPS attributable to common stockholders, diluted (GAAP)                                                                              (0.94)                  (2.37)    (1.14)   (0.98)      0.64
+                                                        (1)
+     Stock-based compensation expense per share                                                                                             0.47                    0.57      0.87      1.01     1.60
+                                                                 (1)
+     EPS attributable to common stockholders, diluted (non-GAAP)                                                                          (0.47)                  (1.80)    (0.27)     0.03      2.24
+                                                                           (1)
+     Shares used in EPS calculation, diluted (GAAP and non-GAAP)                                                                              721                   829       853       887      1,083
+
+     Net (loss) income attributable to common stockholders (GAAP)                                                                          (675)                 (1,962)    (976)     (862)        721
+     Interest expense                                                                                                                          199                    471      663      685        748
+     Provision for income taxes                                                                                                                 27                     32       58        110      292
+     Depreciation, amortization and impairment                                                                                                947                   1,636    1,901     2,154     2,322
+     Stock-based compensation expense                                                                                                         334                     467      749      898      1,734
+     Adjusted EBITDA (non-GAAP)                                                                                                               832                    644    2,395     2,985      5,817
+     Total revenues                                                                                                                        7,000                   11,759   21,461   24,578     31,536
+     Adjusted EBITDA margin (non-GAAP) (2)                                                                                                  11.9%                   5.5%     11.2%     12.1%    18.4%
+
+     Automotive gross margin (GAAP)                                                                                                        25.2%                  22.9%     23.4%     21.2%     25.6%
+     Less: Total regulatory credit revenue recognized                                                                                       3.7%                   3.0%       1.7%     2.3%      4.6%
+     Automotive gross margin excluding regulatory credits (non-GAAP)                                                                       21.5%                  19.9%      21.7%    18.9%     21.0%
+
+
+
+
+     (1)Prior period results have been retroactively adjusted to reflect the five-for-one stock split effected in the form of a stock dividend in August 2020.
+     (2) Adjusted EBITDA margin is Adjusted EBITDA as a percentage of total revenues.
+32
+     ADDITIONAL INFORMATION
+
+     WEBCAST INFORMATION
+     Tesla will provide a live webcast of its fourth quarter 2020 financial results conference call beginning at 3:30 p.m. PT on January 27, 2021 at ir.tesla.com. This webcast will also be available for replay for approximately one year
+     thereafter.
+
+     CERTAIN TERMS
+
+     When used in this update, certain terms have the following meanings. Our vehicle deliveries include only vehicles that have been transferred to end customers with all paperwork correctly completed. Our energy product
+     deployment volume includes both customer units installed and equipment sales; we report installations at time of commissioning for storage projects or inspection for solar projects, and equipment sales at time of delivery.
+     "Adjusted EBITDA" is equal to (i) net income (loss) attributable to common stockholders before (ii)(a) interest expense, (b) provision for income taxes, (c) depreciation, amortization and impairment and (d) stock-based
+     compensation expense, which is the same measurement for this term pursuant to the performance-based stock option award granted to our CEO in 2018. "Free cash flow" is operating cash flow less capital expenditures.
+
+     NON-GAAP FINANCIAL INFORMATION
+
+     Consolidated financial information has been presented in accordance with GAAP as well as on a non-GAAP basis to supplement our consolidated financial results. Our non-GAAP financial measures include non-GAAP automotive
+     gross margin, non-GAAP net income (loss) attributable to common stockholders, non-GAAP net income (loss) attributable to common stockholders on a diluted per share basis (calculated using weighted average shares for
+     GAAP diluted net income (loss) attributable to common stockholders), Adjusted EBITDA, Adjusted EBITDA margin and free cash flow. These non-
+                                                                                                                                    t is useful to supplement its GAAP financial statements with this non-GAAP information because
+     management uses such information internally for its operating, budgeting and financial planning purposes. Management also believes that presentation of the non-GAAP financial measures provides useful information to our
+     investors regarding our financial condition and results of operations so that investors can see through the eyes of Tesla management regarding important financial metrics that Tesla uses to run the business, and allowing
+                                                              -GAAP information is not prepared under a comprehensive set of accounting rules and therefore, should only be read in conjunction with financial information reported
+                                                                                                                     -GAAP financial information is provided above.
+
+     FORWARD-LOOKING STATEMENTS
+
+                                                                                                                                       nt, production capacity and output rates, demand and market growth, deliveries, deployment, range
+     and other features and improvements and timing of existing and future Tesla products and technologies such as Model 3, Model Y, Model S, Model X, Tesla Semi, Autopilot and Full Self Driving software and hardware, our energy
+     storage products, the battery cells we are developing and our manufacturing technologies; statements regarding operating margin, spending and liquidity; and statements regarding construction, expansion, improvements and/or
+                                                                                                                                   -lookin                                                                          -looking statements are
+                                                                                                                                      erially from those projected. The following important factors, without limitation, could cause actual
+     results to differ materially from those in the forward-looking statements: uncertainties in future macroeconomic and regulatory conditions arising from the current global pandemic; the risk of delays in launching and
+     manufacturing our products and features cost-effectively; our ability to grow our sales, delivery, installation, servicing and c
+     generally and our vehicles specifically; the ability of suppliers to deliver components according to schedules, prices, quality and volumes acceptable to us, and our ability to manage such components effectively; any issues with
+     lithium-ion cells or other components manufactured at Gigafactory Nevada; our ability to build and ramp Gigafactory Shanghai, Gigafactory Berlin and Gigafactory Texas in accordance with our plans; our ability to procure supply
+     of battery cells, including through our own manufacturing; risks relating to international expansion; any failures by Tesla products to perform as expected or if product recalls occur; the risk of product liability claims; competition
+     in the automotive and energy product markets; our ability to maintain public credibility and confidence in our long-term business prospects; our ability to manage risks relating to our various product financing programs; the
+     status of government and economic incentives for electric vehicles and energy products; our ability to attract, hire and retain key employees and qualified personnel and ramp our installation teams; our ability to maintain the
+     security of our information and production and product systems; our compliance with various regulations and laws applicable to our operations and products, which may evolve from time to time; risks relating to our
+     indebtedness and financing strategies; and adverse foreign exchange movements. More information on potential factors that could affect our financial results is included from time to time in our Securities and Exchange
+                                                                                                                                    port on Form 10-Q filed with the SEC on October 26, 2020. Tesla disclaims any obligation to update
+     information contained in these forward-looking statements whether as a result of new information, future events, or otherwise.
+
+
+
+
+33
+
