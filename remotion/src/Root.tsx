@@ -3,6 +3,7 @@ import {Composition, Still, staticFile} from 'remotion';
 import './theme';
 import {FPS, HEIGHT, WIDTH} from './theme';
 import {Thumbnail, ThumbProps} from './Thumbnail';
+import {ThumbnailVariant} from './ThumbnailVariants';
 import {Timeline, Visual, VideoProps} from './types';
 import {END_SCREEN_SECONDS, Video} from './Video';
 
@@ -38,5 +39,6 @@ export const RemotionRoot: React.FC = () => (
       defaultProps={{words: 'Thumbnail'} as ThumbProps}
       calculateMetadata={async ({props}) => ({props: {...props, ...(await load<ThumbProps>('thumbnail.json'))}})}
     />
+    <Still id="ThumbnailVariant" component={ThumbnailVariant} width={1280} height={720} defaultProps={{variant: 'or' as const}} />
   </>
 );
