@@ -4,6 +4,7 @@ import {icons} from 'lucide-react';
 import {C, FONT} from '../theme';
 import {Frame, colorOf, fade, formatNumber, glass, gradOf, useEnter} from './common';
 import {Kicker, Odometer, RevealWords, TechRing} from './fx';
+import {Logo} from './media';
 
 const clamp = {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'} as const;
 
@@ -148,7 +149,7 @@ export const Bars: React.FC<{title: string; bars: Bar[]; prefix?: string; suffix
   const grid = interpolate(frame, [0, 0.9 * fps], [0, 1], {...clamp, easing: Easing.out(Easing.cubic)});
   return (
     <Frame title={title} source={source}>
-      <div style={{position: 'absolute', left: 0, right: 0, bottom: 90, height: posH + negH}}>
+      <div style={{position: 'absolute', left: 0, right: 0, bottom: 90, height: posH + negH, transform: `perspective(1800px) rotateX(${9 + Math.sin(frame / fps / 3) * 1.5}deg) rotateY(${-7 + Math.sin(frame / fps / 4) * 3}deg)`, transformOrigin: '50% 100%'}}>
         {[0.25, 0.5, 0.75, 1].map((g) => (
           <div key={g} style={{position: 'absolute', left: 0, right: 0, top: posH - g * posH, height: 1, background: 'linear-gradient(90deg, transparent, rgba(255,255,255,0.08) 15%, rgba(255,255,255,0.08) 85%, transparent)', transformOrigin: 'left', transform: `scaleX(${grid})`}} />
         ))}
@@ -364,7 +365,7 @@ export const Line: React.FC<{
   };
   return (
     <Frame title={title} source={source}>
-      <svg width={W + 280} height={H + 100} style={{overflow: 'visible', marginTop: 50}}>
+      <svg width={W + 280} height={H + 100} style={{overflow: 'visible', marginTop: 50, transform: `perspective(1800px) rotateX(${8 + Math.sin(frame / fps / 3) * 1.5}deg) rotateY(${-6 + Math.sin(frame / fps / 4) * 3}deg)`, transformOrigin: '50% 100%'}}>
         {[0.25, 0.5, 0.75, 1].map((g) => (
           <line key={g} x1={0} x2={W * grid} y1={H - g * H} y2={H - g * H} stroke="rgba(255,255,255,0.07)" strokeWidth={1.5} />
         ))}
@@ -464,7 +465,7 @@ const TimelineEvent: React.FC<{event: Event; delay: number}> = ({event, delay}) 
 };
 
 // ---------- Tuiles à icônes (activités, acteurs, régions), avec mise en avant éventuelle ----------
-type Tile = {icon: string; label: string; sub?: string; value?: string; color?: string};
+type Tile = {icon?: string; image?: string; label: string; sub?: string; value?: string; color?: string};
 export const Tiles: React.FC<{title?: string; kicker?: string; items: Tile[]; focus?: number; stagger?: number; start?: number; source?: string}> = ({
   title,
   kicker,
@@ -514,9 +515,9 @@ export const Tiles: React.FC<{title?: string; kicker?: string; items: Tile[]; fo
               <div style={{position: 'relative', width: 170, height: 170, display: 'flex', alignItems: 'center', justifyContent: 'center', marginBottom: 30}}>
                 <div style={{position: 'absolute', inset: 0, borderRadius: '50%', background: `radial-gradient(circle, ${halo} 0%, transparent 70%)`, opacity: 0.6}} />
                 <div style={{position: 'absolute', inset: 10, borderRadius: '50%', border: `1.5px solid ${hi}55`}} />
-                <IconDraw name={it.icon} size={84} delay={delay + 0.1} color={hi} uid={`tile${i}${it.icon}${n}`} />
+                {it.image ? <Logo id={it.image} height={70} style={{maxWidth: w - 90}} /> : <IconDraw name={it.icon ?? 'Circle'} size={84} delay={delay + 0.1} color={hi} uid={`tile${i}${it.icon}${n}`} />}
               </div>
-              <div style={{fontFamily: FONT.title, fontWeight: 800, fontSize: w > 360 ? 42 : 36, color: C.paper, letterSpacing: -0.5, lineHeight: 1.1}}>{it.label}</div>
+              {it.image ? null : <div style={{fontFamily: FONT.title, fontWeight: 800, fontSize: w > 360 ? 42 : 36, color: C.paper, letterSpacing: -0.5, lineHeight: 1.1}}>{it.label}</div>}
               {it.value ? (
                 <div style={{fontFamily: FONT.mono, fontWeight: 600, fontSize: 52, marginTop: 18, ...glowText(it.color ?? 'amber')}}>
                   <Odometer text={it.value} delay={delay + 0.2} />

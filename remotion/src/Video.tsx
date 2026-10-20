@@ -3,6 +3,7 @@ import {AbsoluteFill, Audio, Sequence, staticFile, useVideoConfig} from 'remotio
 import {Bars, BigNumbers, Line, List, Quote, Stacked, Statement, Tiles, Timeline} from './components/blocks';
 import {Atmosphere, Camera, FilmFinish, LightSweep, SceneShell} from './components/fx';
 import {ChapterCard, CreditsFlow, EndScreen, Hud, Ident} from './components/special';
+import {Hero, MediaContext, Photo, PhotoLayer} from './components/media';
 import {Segment, VideoProps, Visual} from './types';
 
 export const END_SCREEN_SECONDS = 20;
@@ -23,6 +24,8 @@ const BLOCKS: Record<string, React.FC<any>> = {
   credits: CreditsFlow,
   tiles: Tiles,
   quote: Quote,
+  photo: Photo,
+  hero: Hero,
 };
 
 const renderVisual = (v: Visual) => {
@@ -40,7 +43,8 @@ const timeOf = (v: Visual, seg: Segment) => {
   return seg.start + (seg.end - seg.start) * (i / seg.text.length);
 };
 
-export const Video: React.FC<VideoProps> = ({timeline, visuals, audio}) => {
+export const Video: React.FC<VideoProps> = ({timeline, visuals, audio, media = []}) => {
+  const mediaById = Object.fromEntries(media.map((m) => [m.id, m]));
   const {fps, durationInFrames} = useVideoConfig();
   const byId = new Map(timeline.segments.map((s) => [s.id, s]));
   const f = (t: number) => Math.round(t * fps);
@@ -59,9 +63,16 @@ export const Video: React.FC<VideoProps> = ({timeline, visuals, audio}) => {
     const chapterStart = !v.after && chapters.some((c) => c.num > 0 && c.start === seg.start);
     return {v, seg, from, chapterStart};
   });
+  // Photo de chaque carte de chapitre : premier fond ou première photo du chapitre.
+  const chapterPhotos: Record<number, string | undefined> = {};
+  for (const {v, seg} of placed) {
+    const ph = v.bg ?? (v.props.photo as string | undefined);
+    if (ph && chapterPhotos[seg.chapter] === undefined) chapterPhotos[seg.chapter] = ph;
+  }
   const identFrom = timeline.ident !== null ? f(timeline.ident) : null;
 
   return (
+    <MediaContext.Provider value={mediaById}>
     <AbsoluteFill style={{background: '#03060C'}}>
       <Atmosphere />
       {placed.map(({v, from, chapterStart}, i) => {
@@ -73,6 +84,11 @@ export const Video: React.FC<VideoProps> = ({timeline, visuals, audio}) => {
           <Sequence key={i} from={from} durationInFrames={dur} name={`${v.at} ${v.type}`}>
             <SceneShell duration={dur} overlap={OVERLAP} first={i === 0}>
               <Camera duration={dur} index={i}>
+                {v.bg ? (
+                  <AbsoluteFill style={{opacity: 0.55}}>
+                    <PhotoLayer id={v.bg} dim={0.75} blur={3} />
+                  </AbsoluteFill>
+                ) : null}
                 <Sequence from={delay} layout="none">
                   {renderVisual(v)}
                 </Sequence>
@@ -91,7 +107,7 @@ export const Video: React.FC<VideoProps> = ({timeline, visuals, audio}) => {
         .filter((c) => c.num > 0)
         .map((c) => (
           <Sequence key={c.num} from={f(c.start - CARD_LEAD)} durationInFrames={f(CARD_SECONDS)} name={`chapitre ${c.num}`}>
-            <ChapterCard num={c.num} title={c.title} duration={f(CARD_SECONDS)} />
+            <ChapterCard num={c.num} title={c.title} duration={f(CARD_SECONDS)} photo={chapterPhotos[c.num]} />
           </Sequence>
         ))}
       <Sequence from={0} durationInFrames={narrationEnd} name="habillage">
@@ -111,5 +127,6 @@ export const Video: React.FC<VideoProps> = ({timeline, visuals, audio}) => {
       <FilmFinish />
       <Audio src={staticFile(audio)} />
     </AbsoluteFill>
+    </MediaContext.Provider>
   );
 };

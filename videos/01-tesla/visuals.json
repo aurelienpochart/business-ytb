@@ -1,18 +1,15 @@
 [
  {
   "at": "c0p0",
-  "type": "numbers",
+  "type": "hero",
   "props": {
-   "title": "Tesla, 2020: its first profitable year",
-   "items": [
-    {
-     "value": 721,
-     "prefix": "$",
-     "suffix": "M",
-     "label": "Net profit",
-     "color": "teal"
-    }
-   ],
+   "photo": "model_y",
+   "logo": "logo_tesla_t",
+   "wordmark": "logo_tesla_word",
+   "number": "$721M",
+   "label": "net profit, its first profitable year (2020)",
+   "kicker": "Tesla, 2020",
+   "numberAt": 2.4,
    "source": "Tesla Q4 2020 shareholder letter"
   }
  },
@@ -36,14 +33,16 @@
    "prefix": "$",
    "stagger": 1.2,
    "source": "Tesla Q4 2020 shareholder letter"
-  }
+  },
+  "bg": "model_s"
  },
  {
   "at": "c0p2",
-  "type": "statement",
+  "type": "photo",
   "props": {
-   "kicker": "Who paid?",
+   "photo": "traffic",
    "text": "Other *carmakers*.",
+   "kicker": "Who paid?",
    "sub": "Stellantis, Toyota, Ford, GM and others",
    "source": "Transport Topics (2024); CarbonCredits.com (2026)"
   }
@@ -56,41 +55,42 @@
    "kicker": "Paying Tesla, year after year",
    "items": [
     {
-     "icon": "Factory",
+     "image": "logo_stellantis",
      "label": "Stellantis"
     },
     {
-     "icon": "Factory",
+     "image": "logo_toyota",
      "label": "Toyota"
     },
     {
-     "icon": "Factory",
+     "image": "logo_ford",
      "label": "Ford"
     },
     {
-     "icon": "Factory",
+     "image": "logo_gm",
      "label": "GM"
     }
    ],
    "stagger": 0.45,
    "source": "Transport Topics (2024); CarbonCredits.com (2026)"
-  }
+  },
+  "bg": "traffic"
  },
  {
   "at": "c0p3",
-  "type": "statement",
+  "type": "photo",
   "props": {
-   "text": "Profitable thanks to cheques from its *rivals*.",
-   "icon": "Banknote"
+   "photo": "model_y_red",
+   "text": "Profitable thanks to cheques from its *rivals*."
   }
  },
  {
   "at": "c0p4",
-  "type": "statement",
+  "type": "hero",
   "props": {
-   "kicker": "The teardown",
-   "text": "How Tesla *actually* makes money",
-   "icon": "ScanSearch"
+   "photo": "model_s",
+   "logo": "logo_tesla_t",
+   "wordmark": "logo_tesla_word"
   }
  },
  {
@@ -127,7 +127,8 @@
    ],
    "prefix": "$",
    "source": "Tesla Q4 2020 shareholder letter"
-  }
+  },
+  "bg": "gigafactory_build"
  },
  {
   "at": "c1p1",
@@ -155,7 +156,8 @@
     }
    ],
    "stagger": 0.5
-  }
+  },
+  "bg": "gigafactory"
  },
  {
   "at": "c1p2",
@@ -183,7 +185,8 @@
    "prefix": "$",
    "suffix": "B",
    "source": "Tesla FY2025 results, via Yahoo Finance (Jan. 29, 2026)"
-  }
+  },
+  "bg": "model_3"
  },
  {
   "at": "c1p3",
@@ -216,7 +219,8 @@
    "focus": 0,
    "stagger": 0.15,
    "source": "Tesla FY2025 results, via Yahoo Finance (Jan. 29, 2026)"
-  }
+  },
+  "bg": "model_y_2"
  },
  {
   "at": "c1p4",
@@ -250,7 +254,8 @@
    "stagger": 0,
    "start": 0,
    "source": "Tesla FY2025 results, via Yahoo Finance (Jan. 29, 2026)"
-  }
+  },
+  "bg": "powerwall"
  },
  {
   "at": "c1p5",
@@ -284,17 +289,18 @@
    "stagger": 0,
    "start": 0,
    "source": "Tesla FY2025 results, via Yahoo Finance (Jan. 29, 2026)"
-  }
+  },
+  "bg": "supercharger"
  },
  {
   "at": "c1p6",
-  "type": "statement",
+  "type": "photo",
   "props": {
-   "kicker": "2025",
+   "photo": "model_3",
    "text": "The first year Tesla's revenue went *down*.",
+   "kicker": "2025",
    "sub": "−3% vs 2024",
-   "source": "Tesla FY2025 results, via Yahoo Finance",
-   "icon": "TrendingDown"
+   "source": "Tesla FY2025 results, via Yahoo Finance"
   }
  },
  {
@@ -336,7 +342,8 @@
     0.6,
     17
    ]
-  }
+  },
+  "bg": "model_y"
  },
  {
   "at": "c2p3",
@@ -359,26 +366,28 @@
    "suffix": "M",
    "stagger": 1,
    "source": "Electrek (Jan. 2, 2026)"
-  }
+  },
+  "bg": "byd_seal"
  },
  {
   "at": "c2p3",
-  "type": "statement",
+  "type": "photo",
   "props": {
+   "photo": "byd_seal",
    "text": "*BYD* took the EV crown from Tesla.",
    "kicker": "2025",
-   "icon": "Crown",
-   "source": "Electrek (Jan. 2, 2026)"
+   "source": "Electrek (Jan. 2, 2026)",
+   "logo": "logo_byd"
   },
   "after": "and took the title"
  },
  {
   "at": "c2p4",
-  "type": "statement",
+  "type": "photo",
   "props": {
+   "photo": "model_y_red",
    "text": "Two models carry *almost everything*.",
-   "kicker": "The lineup",
-   "icon": "Car"
+   "kicker": "The lineup"
   }
  },
  {
@@ -401,7 +410,8 @@
    "stagger": 1,
    "source": "Tesla Q3 2026 deliveries, via Electrek (Oct. 2, 2026)"
   },
-  "after": "In the third quarter"
+  "after": "In the third quarter",
+  "bg": "model_3"
  },
  {
   "at": "c2p4",
@@ -425,14 +435,15 @@
     }
    ],
    "source": "Tesla Q3 2026 deliveries, via Electrek (Oct. 2, 2026)"
-  }
+  },
+  "bg": "cybertruck"
  },
  {
   "at": "c2p5",
-  "type": "statement",
+  "type": "photo",
   "props": {
-   "text": "Price cuts, *again and again*.",
-   "icon": "Tag"
+   "photo": "model_y_2",
+   "text": "Price cuts, *again and again*."
   }
  },
  {
@@ -475,7 +486,8 @@
     8
    ]
   },
-  "after": "gross margin,"
+  "after": "gross margin,",
+  "bg": "model_3"
  },
  {
   "at": "c2p6",
@@ -497,7 +509,8 @@
     }
    ],
    "source": "Tesla Q4 2024 letter; Tesla 10-K 2025"
-  }
+  },
+  "bg": "model_y_2"
  },
  {
   "at": "c2p7",
@@ -505,15 +518,16 @@
   "props": {
    "text": "Less money per car makes the *credits* matter more.",
    "icon": "Scale"
-  }
+  },
+  "bg": "model_s"
  },
  {
   "at": "c3p0",
-  "type": "statement",
+  "type": "photo",
   "props": {
+   "photo": "traffic",
    "text": "Regulatory *credits*",
-   "kicker": "How it works",
-   "icon": "FileBadge"
+   "kicker": "How it works"
   }
  },
  {
@@ -536,14 +550,16 @@
     }
    ],
    "stagger": 0.6
-  }
+  },
+  "bg": "capitol"
  },
  {
   "at": "c3p2",
   "type": "credits",
   "props": {
    "title": "How regulatory credits work"
-  }
+  },
+  "bg": "traffic"
  },
  {
   "at": "c3p4",
@@ -606,7 +622,8 @@
    "prefix": "$",
    "stagger": 0.3,
    "source": "Tesla shareholder letters; CarbonCredits.com"
-  }
+  },
+  "bg": "model_y"
  },
  {
   "at": "c3p6",
@@ -656,23 +673,24 @@
    "decimals": 2,
    "stagger": 0.9,
    "source": "Tesla shareholder letters; Yahoo Finance; CarbonCredits.com"
-  }
+  },
+  "bg": "model_s"
  },
  {
   "at": "c3p8",
-  "type": "statement",
+  "type": "photo",
   "props": {
-   "text": "Profit made, indirectly, from rivals' *gasoline engines*.",
-   "icon": "Fuel"
+   "photo": "traffic",
+   "text": "Profit made, indirectly, from rivals' *gasoline engines*."
   }
  },
  {
   "at": "c4p0",
-  "type": "statement",
+  "type": "photo",
   "props": {
-   "kicker": "United States",
+   "photo": "capitol",
    "text": "The tap is *closing*.",
-   "icon": "Droplet"
+   "kicker": "United States"
   }
  },
  {
@@ -698,7 +716,8 @@
    ],
    "source": "Tesla 10-K 2025; Electrek (Aug. 15, 2025)",
    "stagger": 7.5
-  }
+  },
+  "bg": "capitol"
  },
  {
   "at": "c4p2",
@@ -721,7 +740,8 @@
    "prefix": "$",
    "stagger": 1,
    "source": "Tesla Q2 2026 results, via Electrek (Jul. 22, 2026)"
-  }
+  },
+  "bg": "capitol"
  },
  {
   "at": "c4p3",
@@ -743,7 +763,8 @@
    ],
    "stagger": 1,
    "source": "Electrek (Oct. 2, 2026)"
-  }
+  },
+  "bg": "model_y"
  },
  {
   "at": "c4p4",
@@ -755,10 +776,10 @@
  },
  {
   "at": "c5p0",
-  "type": "statement",
+  "type": "photo",
   "props": {
-   "text": "Not a car. *Batteries*.",
-   "icon": "BatteryCharging"
+   "photo": "megapack",
+   "text": "Not a car. *Batteries*."
   }
  },
  {
@@ -787,7 +808,8 @@
     }
    ],
    "stagger": 0.8
-  }
+  },
+  "bg": "megapack"
  },
  {
   "at": "c5p2",
@@ -829,7 +851,8 @@
    "decimals": 1,
    "stagger": 0.35,
    "source": "Tesla Q4 2024 letter; Yahoo Finance (Jan. 29, 2026)"
-  }
+  },
+  "bg": "megapack"
  },
  {
   "at": "c5p2",
@@ -912,7 +935,8 @@
    "suffix": "%",
    "stagger": 0.9,
    "source": "Tesla Q4 2024 letter; BESS Manufacturers; Tesla 10-K 2025"
-  }
+  },
+  "bg": "powerwall"
  },
  {
   "at": "c5p5",
@@ -924,11 +948,11 @@
  },
  {
   "at": "c6p0",
-  "type": "statement",
+  "type": "photo",
   "props": {
+   "photo": "supercharger",
    "text": "Charging & *services*",
-   "kicker": "Business number three",
-   "icon": "PlugZap"
+   "kicker": "Business number three"
   }
  },
  {
@@ -949,14 +973,15 @@
     }
    ],
    "source": "Tesla Q4 2024 shareholder letter"
-  }
+  },
+  "bg": "supercharger_2"
  },
  {
   "at": "c6p1",
-  "type": "statement",
+  "type": "photo",
   "props": {
-   "text": "Every plug-in *pays Tesla*.",
-   "icon": "PlugZap"
+   "photo": "supercharger_2",
+   "text": "Every plug-in *pays Tesla*."
   },
   "after": "Every time a driver"
  },
@@ -992,7 +1017,8 @@
   "props": {
    "text": "More Teslas on the road, more *service revenue*.",
    "icon": "Repeat"
-  }
+  },
+  "bg": "supercharger"
  },
  {
   "at": "c7p0",
@@ -1001,7 +1027,8 @@
    "kicker": "Follow the money",
    "text": "Where does it *go*?",
    "icon": "Search"
-  }
+  },
+  "bg": "gigafactory"
  },
  {
   "at": "c7p1",
@@ -1068,7 +1095,8 @@
    "decimals": 1,
    "stagger": 0.3,
    "source": "Tesla Q4 2023 & Q4 2024 letters; Yahoo Finance"
-  }
+  },
+  "bg": "gigafactory"
  },
  {
   "at": "c7p3",
@@ -1105,7 +1133,8 @@
     0.6,
     9
    ]
-  }
+  },
+  "bg": "gigafactory_build"
  },
  {
   "at": "c7p3",
@@ -1151,7 +1180,8 @@
     }
    ],
    "source": "Tesla Q2 2026 results, via Electrek"
-  }
+  },
+  "bg": "gigafactory"
  },
  {
   "at": "c7p5",
@@ -1210,10 +1240,11 @@
  },
  {
   "at": "c8p1",
-  "type": "statement",
+  "type": "photo",
   "props": {
+   "photo": "musk",
    "text": "Shareholders see it *differently*.",
-   "icon": "Users"
+   "focus": "50% 25%"
   }
  },
  {
@@ -1238,7 +1269,8 @@
     }
    ],
    "source": "Business Standard (Nov. 7, 2025)"
-  }
+  },
+  "bg": "musk"
  },
  {
   "at": "c8p2",
@@ -1299,7 +1331,8 @@
    "stagger": 3.0,
    "source": "Business Standard (Nov. 7, 2025)",
    "start": 6.5
-  }
+  },
+  "bg": "optimus"
  },
  {
   "at": "c8p4",
@@ -1327,23 +1360,25 @@
     }
    ],
    "stagger": 0.5
-  }
+  },
+  "bg": "cybercab"
  },
  {
   "at": "c8p5",
-  "type": "statement",
+  "type": "photo",
   "props": {
-   "text": "Paying for a Tesla that doesn't exist *yet*.",
-   "icon": "Hourglass"
+   "photo": "cybercab",
+   "text": "Paying for a Tesla that doesn't exist *yet*."
   }
  },
  {
   "at": "c9p0",
-  "type": "statement",
+  "type": "photo",
   "props": {
+   "photo": "model_y_2",
+   "logo": "logo_tesla_word",
    "kicker": "The answer",
-   "text": "How does Tesla *actually* make money?",
-   "icon": "ScanSearch"
+   "text": "How does Tesla *actually* make money?"
   }
  },
  {

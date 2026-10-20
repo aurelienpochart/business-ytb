@@ -23,9 +23,10 @@ export const RemotionRoot: React.FC = () => (
       calculateMetadata={async ({props}) => {
         const timeline = await load<Timeline>('timeline.json');
         const visuals = await load<Visual[]>('visuals.json');
+        const media = await load<VideoProps['media']>('media.json').catch(() => []);
         return {
           durationInFrames: Math.ceil((timeline.duration + END_SCREEN_SECONDS) * FPS),
-          props: {...props, timeline, visuals},
+          props: {...props, timeline, visuals, media},
         };
       }}
     />

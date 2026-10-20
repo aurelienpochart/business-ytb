@@ -3,6 +3,7 @@ import {AbsoluteFill, Easing, interpolate, random, spring, useCurrentFrame, useV
 import {C, FONT} from '../theme';
 import {Frame, fade, glass, useEnter} from './common';
 import {GoldText, LightSweep, RevealWords, gold} from './fx';
+import {PhotoLayer} from './media';
 
 const clamp = {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'} as const;
 
@@ -60,7 +61,7 @@ export const Ident: React.FC = () => {
 };
 
 // Carte de chapitre : grand numéro doré en filigrane, titre qui se révèle, puis tout se dissout.
-export const ChapterCard: React.FC<{num: number; title: string; duration: number}> = ({num, title, duration}) => {
+export const ChapterCard: React.FC<{num: number; title: string; duration: number; photo?: string}> = ({num, title, duration, photo}) => {
   const frame = useCurrentFrame();
   const {fps} = useVideoConfig();
   const enter = spring({frame, fps, config: {damping: 200}});
@@ -68,7 +69,12 @@ export const ChapterCard: React.FC<{num: number; title: string; duration: number
   const line = interpolate(frame, [0.15 * fps, 0.9 * fps], [0, 1], {...clamp, easing: Easing.out(Easing.cubic)});
   return (
     <AbsoluteFill style={{opacity: 1 - out, filter: out > 0.02 ? `blur(${out * 16}px)` : undefined, transform: `scale(${1 + out * 0.06})`}}>
-      <AbsoluteFill style={{background: 'radial-gradient(ellipse at 50% 50%, rgba(3,6,12,0.55) 0%, rgba(3,6,12,0.85) 80%)', opacity: enter}} />
+      <AbsoluteFill style={{background: C.ink, opacity: enter}} />
+      {photo ? (
+        <AbsoluteFill style={{opacity: enter, transform: `scale(${1.15 - 0.1 * enter})`}}>
+          <PhotoLayer id={photo} dim={0.6} />
+        </AbsoluteFill>
+      ) : null}
       <LightSweep strength={0.3} />
       <div style={{position: 'absolute', left: 150, top: 230, display: 'flex', alignItems: 'flex-end', gap: 60}}>
         <div
@@ -78,7 +84,7 @@ export const ChapterCard: React.FC<{num: number; title: string; duration: number
             lineHeight: 0.8,
             ...gold(frame, fps),
             opacity: enter,
-            transform: `translateY(${(1 - enter) * 60}px)`,
+            transform: `perspective(1200px) translateZ(${(1 - enter) * -600}px) rotateY(${(1 - enter) * 35}deg)`,
             filter: 'drop-shadow(0 0 40px rgba(240,181,78,0.35))',
           }}
         >
@@ -101,18 +107,10 @@ export const Hud: React.FC<{chapters: {num: number; title: string; start: number
   const frame = useCurrentFrame();
   const {fps, width} = useVideoConfig();
   const t = frame / fps;
-  const current = [...chapters].reverse().find((c) => t >= c.start) ?? chapters[0];
   const appear = interpolate(t, [chapters[1]?.start ?? 0, (chapters[1]?.start ?? 0) + 1], [0, 1], clamp);
   const trackW = width - 300;
   return (
     <AbsoluteFill style={{pointerEvents: 'none'}}>
-      {current && current.num > 0 ? (
-        <div key={current.num} style={{position: 'absolute', left: 150, top: 62, display: 'flex', alignItems: 'center', gap: 18, fontFamily: FONT.mono, fontSize: 21, letterSpacing: 4, opacity: 0.9 * appear}}>
-          <span style={{color: C.gold}}>{String(current.num).padStart(2, '0')}</span>
-          <span style={{width: 34, height: 1.5, background: C.gold, opacity: 0.7}} />
-          <span style={{color: C.mute}}>{current.title.toUpperCase()}</span>
-        </div>
-      ) : null}
       <div style={{position: 'absolute', right: 150, top: 46, display: 'flex', alignItems: 'center', gap: 14, opacity: 0.85 * appear}}>
         <LogoCurve size={52} progress={1} glow={false} />
         <span style={{fontFamily: FONT.title, fontWeight: 800, fontSize: 19, letterSpacing: 5, color: C.paper}}>THE COST CURVE</span>
