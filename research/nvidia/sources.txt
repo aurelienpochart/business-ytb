@@ -1,0 +1,5 @@
+# Vidéo 02 (Nvidia) : recoupement des chiffres du 10-Q T2 FY2027
+nvda-10q-q2fy27.htm https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm
+nvda-q2fy27-pr.htm https://www.sec.gov/Archives/edgar/data/1045810/000104581026000073/q2fy27pr.htm
+nvda-q2fy27-call.pdf https://s201.q4cdn.com/141608511/files/content_files/TRANSCRIPT_-NVIDIA-Corp-NVDA-US-Q2-2027-Earnings-Call-26-August-2026-5_00-PM-ET.pdf
+nvda-10q-opencapital.md https://www.opencapital.sh/filings/0001045810-26-000075.md
