@@ -4,7 +4,7 @@ import {LogoCurve} from './components/special';
 import {C, FONT, GOLD_TEXT} from './theme';
 
 // Variantes de miniature 1280 x 720 avec le logo Tesla, pour choisir un style.
-export type ThumbVariantProps = {variant: 'or' | 'photo' | 'rivaux'};
+export type ThumbVariantProps = {variant: 'or' | 'photo' | 'rivaux' | 'rivaux-titre' | 'rivaux-haut' | 'rivaux-miroir'};
 
 const gold: React.CSSProperties = {
   backgroundImage: GOLD_TEXT,
@@ -150,5 +150,136 @@ const Rivaux = () => {
   );
 };
 
-export const ThumbnailVariant: React.FC<ThumbVariantProps> = ({variant}) =>
-  variant === 'photo' ? <PhotoV /> : variant === 'rivaux' ? <Rivaux /> : <Or />;
+// Flux d'argent : courbes dorées des logos vers le « T », avec des « $ » posés dessus.
+type Pt = [number, number];
+const Flows: React.FC<{from: Pt[]; to: Pt; vertical?: boolean; dollars?: number[]}> = ({from, to, vertical, dollars = [0.3, 0.58]}) => {
+  const ctrl = (a: Pt): [Pt, Pt] =>
+    vertical ? [[a[0], a[1] + (to[1] - a[1]) * 0.6], [to[0], a[1] + (to[1] - a[1]) * 0.4]] : [[a[0] + (to[0] - a[0]) * 0.6, a[1]], [a[0] + (to[0] - a[0]) * 0.75, to[1]]];
+  const at = (a: Pt, k: number): Pt => {
+    const [c1, c2] = ctrl(a);
+    const b = (i: 0 | 1) => (1 - k) ** 3 * a[i] + 3 * (1 - k) ** 2 * k * c1[i] + 3 * (1 - k) * k ** 2 * c2[i] + k ** 3 * to[i];
+    return [b(0), b(1)];
+  };
+  return (
+    <svg width={1280} height={720} style={{position: 'absolute', inset: 0}}>
+      <defs>
+        {from.map((a, i) => (
+          <linearGradient key={i} id={`flow${i}`} gradientUnits="userSpaceOnUse" x1={a[0]} y1={a[1]} x2={to[0]} y2={to[1]}>
+            <stop offset="0" stopColor="rgba(240,181,78,0.15)" />
+            <stop offset="1" stopColor="rgba(255,217,138,0.95)" />
+          </linearGradient>
+        ))}
+      </defs>
+      {from.map((a, i) => {
+        const [c1, c2] = ctrl(a);
+        return <path key={i} d={`M ${a[0]} ${a[1]} C ${c1[0]} ${c1[1]}, ${c2[0]} ${c2[1]}, ${to[0]} ${to[1]}`} stroke={`url(#flow${i})`} strokeWidth={7} fill="none" strokeLinecap="round" />;
+      })}
+      {from.map((a, i) =>
+        dollars.map((k) => {
+          const [x, y] = at(a, k);
+          return (
+            <text key={`${i}-${k}`} x={x} y={y + 12} textAnchor="middle" fontFamily={FONT.title} fontWeight={800} fontSize={34} fill="#FFD98A" style={{filter: 'drop-shadow(0 0 8px rgba(240,181,78,0.9))'}}>
+              $
+            </text>
+          );
+        }),
+      )}
+    </svg>
+  );
+};
+
+const RivalTile: React.FC<{r: (typeof RIVALS)[number]; x: number; y: number; scale?: number}> = ({r, x, y, scale = 1}) => (
+  <div style={{position: 'absolute', left: x - 75 * scale, top: y - 55 * scale, width: 150 * scale, height: 110 * scale, display: 'flex', alignItems: 'center', justifyContent: 'center', borderRadius: 22 * scale, background: 'rgba(255,255,255,0.06)', border: '1.5px solid rgba(255,255,255,0.18)'}}>
+    <WhiteLogo file={r.file} height={(r.wide ? 40 : 70) * scale} width={(r.wide ? 134 : 110) * scale} color={r.color} />
+  </div>
+);
+
+const Halo: React.FC<{x: number; y: number; r: number}> = ({x, y, r}) => (
+  <div style={{position: 'absolute', left: x - r, top: y - r, width: 2 * r, height: 2 * r, borderRadius: '50%', background: 'radial-gradient(circle, rgba(240,181,78,0.4) 0%, transparent 62%)'}} />
+);
+
+const Big: React.FC<{text: string; size: number; style: React.CSSProperties}> = ({text, size, style}) => (
+  <div style={{position: 'absolute', fontFamily: FONT.mono, fontWeight: 600, fontSize: size, letterSpacing: -3, color: '#FFD98A', textShadow: '0 0 40px rgba(240,181,78,0.6)', ...style}}>{text}</div>
+);
+
+const Night: React.FC<{children: React.ReactNode; glow: string}> = ({children, glow}) => (
+  <AbsoluteFill style={{background: `radial-gradient(ellipse at ${glow}, #172C52 0%, ${C.ink} 68%)`, overflow: 'hidden'}}>
+    <Photo file="traffic.jpg" position="20% 50%" style={{filter: 'saturate(0.3) brightness(0.3) blur(2px)', opacity: 0.4}} />
+    {children}
+    <Brand />
+    <Vignette />
+  </AbsoluteFill>
+);
+
+// C1 : comme C, avec le titre en haut.
+const RivauxTitre = () => {
+  const t: Pt = [930, 400];
+  const ys = [180, 300, 420, 540];
+  return (
+    <Night glow="72% 55%">
+      <Words text={'Paid by its *rivals*'} size={92} style={{position: 'absolute', left: 300, top: 40, width: 900}} />
+      <Flows from={ys.map((y) => [170, y] as Pt)} to={[t[0] - 120, t[1]]} />
+      {RIVALS.map((r, i) => <RivalTile key={i} r={r} x={100} y={ys[i]} scale={0.85} />)}
+      <Halo x={t[0]} y={t[1]} r={230} />
+      <div style={{position: 'absolute', left: t[0] - 125, top: t[1] - 140}}>
+        <GoldT size={250} glow={0.8} />
+      </div>
+      <Big text="$1.58B" size={84} style={{left: t[0] - 250, width: 500, top: 575, textAlign: 'center'}} />
+    </Night>
+  );
+};
+
+// C2 : les logos en haut, l'argent qui tombe vers le « T », le chiffre à droite.
+const RivauxHaut = () => {
+  const t: Pt = [420, 500];
+  const xs = [150, 330, 510, 690];
+  return (
+    <Night glow="35% 70%">
+      <Flows from={xs.map((x) => [x, 150] as Pt)} to={[t[0], t[1] - 130]} vertical />
+      {RIVALS.map((r, i) => <RivalTile key={i} r={r} x={xs[i]} y={95} scale={0.9} />)}
+      <Halo x={t[0]} y={t[1]} r={240} />
+      <div style={{position: 'absolute', left: t[0] - 130, top: t[1] - 140}}>
+        <GoldT size={260} glow={0.8} />
+      </div>
+      <div style={{position: 'absolute', left: 780, top: 300, width: 470}}>
+        <Big text="$1.58B" size={110} style={{position: 'relative'}} />
+        <Words text={'from its *rivals*'} size={64} style={{marginTop: 6}} />
+      </div>
+    </Night>
+  );
+};
+
+// C3 : en miroir, le « T » à gauche, les logos à droite, la question en haut.
+const RivauxMiroir = () => {
+  const t: Pt = [330, 350];
+  const ys = [190, 320, 450, 580];
+  return (
+    <Night glow="28% 50%">
+      <Words text={'Who *really* pays Tesla?'} size={78} style={{position: 'absolute', left: 64, top: 36, width: 1100}} />
+      <Flows from={ys.map((y) => [1090, y] as Pt)} to={[t[0] + 140, t[1]]} />
+      {RIVALS.map((r, i) => <RivalTile key={i} r={r} x={1170} y={ys[i]} scale={0.85} />)}
+      <Halo x={t[0]} y={t[1]} r={250} />
+      <div style={{position: 'absolute', left: t[0] - 140, top: t[1] - 155}}>
+        <GoldT size={280} glow={0.8} />
+      </div>
+      <Big text="$1.58B" size={92} style={{left: t[0] - 250, width: 500, top: 560, textAlign: 'center'}} />
+    </Night>
+  );
+};
+
+export const ThumbnailVariant: React.FC<ThumbVariantProps> = ({variant}) => {
+  switch (variant) {
+    case 'photo':
+      return <PhotoV />;
+    case 'rivaux':
+      return <Rivaux />;
+    case 'rivaux-titre':
+      return <RivauxTitre />;
+    case 'rivaux-haut':
+      return <RivauxHaut />;
+    case 'rivaux-miroir':
+      return <RivauxMiroir />;
+    default:
+      return <Or />;
+  }
+};
