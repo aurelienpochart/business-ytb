@@ -126,11 +126,29 @@ export const Hud: React.FC<{chapters: {num: number; title: string; start: number
 };
 
 // Écran de fin, 20 s : emplacements laissés libres pour les éléments de fin YouTube.
-export const EndScreen: React.FC = () => {
+// suggested : zone pour une vidéo suggérée (à partir de la 2e vidéo de la chaîne) ; sinon écran centré sur l'abonnement.
+export const EndScreen: React.FC<{suggested?: boolean}> = ({suggested = false}) => {
   const frame = useCurrentFrame();
   const {fps} = useVideoConfig();
   const p = useEnter(0.2);
   const p2 = useEnter(0.6);
+  const float = `translateY(${Math.sin(frame / fps) * 10}px)`;
+  if (!suggested) {
+    return (
+      <AbsoluteFill>
+        <div style={{position: 'absolute', left: 0, right: 0, top: 170, textAlign: 'center', ...fade(p)}}>
+          <div style={{fontFamily: FONT.display, fontSize: 120, color: C.paper, lineHeight: 1}}>
+            Thanks for <GoldText>watching.</GoldText>
+          </div>
+          <div style={{fontFamily: FONT.title, fontWeight: 300, fontSize: 38, color: C.paper, opacity: 0.8, marginTop: 28}}>Sources are listed in the description.</div>
+        </div>
+        {/* Zone de l'élément « S'abonner », réglé dans YouTube. */}
+        <div style={{position: 'absolute', left: 960 - 170, top: 520, opacity: p2, transform: float}}>
+          <LogoCurve size={340} progress={1} />
+        </div>
+      </AbsoluteFill>
+    );
+  }
   return (
     <AbsoluteFill>
       <div style={{position: 'absolute', left: 140, top: 130, ...fade(p)}}>
@@ -141,7 +159,7 @@ export const EndScreen: React.FC = () => {
       </div>
       {/* Zones des éléments de fin (vidéo suggérée à gauche, abonnement à droite), réglées dans YouTube. */}
       <div style={{position: 'absolute', left: 140, top: 430, width: 860, height: 484, ...glass('rgba(240,181,78,0.35)'), opacity: 0.8 * p2}} />
-      <div style={{position: 'absolute', left: 1240, top: 470, opacity: p2, transform: `translateY(${Math.sin(frame / fps) * 10}px)`}}>
+      <div style={{position: 'absolute', left: 1240, top: 470, opacity: p2, transform: float}}>
         <LogoCurve size={400} progress={1} />
       </div>
     </AbsoluteFill>
