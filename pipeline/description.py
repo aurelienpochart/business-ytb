@@ -13,7 +13,7 @@ def stamp(t):
     return f"{t // 3600}:{t // 60 % 60:02}:{t % 60:02}" if t >= 3600 else f"{t // 60:02}:{t % 60:02}"
 
 
-def image_credits(video):
+def image_credits(video, subject="Tesla, Inc."):
     """Crédits des images Wikimedia réellement utilisées (obligatoires pour CC BY / BY-SA)."""
     media_file = video / "media.json"
     if not media_file.exists():
@@ -24,10 +24,12 @@ def image_credits(video):
     for m in json.loads(media_file.read_text()):
         if f'"{m["id"]}"' not in used:
             continue
-        if "trademark" in (m.get("restrictions") or "") or m["id"].startswith("logo_"):
+        lic = m.get("license", "")
+        if m["id"].startswith("logo_") or ("trademark" in (m.get("restrictions") or "") and not lic.startswith("CC BY")):
             logos = True
             continue
-        lic = m.get("license", "")
+        if "trademark" in (m.get("restrictions") or ""):
+            logos = True  # photo sous licence CC BY montrant une marque : créditée quand même
         if lic.startswith("CC BY"):
             artist = " ".join((m.get("artist") or "Unknown").split())
             lines.append(f"- {artist}, {lic}: {m['page']}")
@@ -37,7 +39,7 @@ def image_credits(video):
     if logos:
         parts.append(
             "Logos are trademarks of their respective owners, shown for identification only. "
-            "This channel is independent and not affiliated with or endorsed by Tesla, Inc. "
+            f"This channel is independent and not affiliated with or endorsed by {subject} "
             "or any company mentioned."
         )
     return "\n\n".join(parts) or None
@@ -57,7 +59,7 @@ def main():
         "Chapters\n" + "\n".join(chapters),
         "Sources\n" + "\n".join(f"- {s}" for s in meta["sources"]),
         "\n".join(meta["credits"]),
-        image_credits(video),
+        image_credits(video, meta.get("subject_company", "Tesla, Inc.")),
         "This video is for educational purposes and is not financial advice.\n"
         "Made with the help of AI tools, including a synthetic narrator voice.",
     ]

@@ -131,7 +131,7 @@ export const Photo: React.FC<{photo: string; text?: string; kicker?: string; sub
 };
 
 // Ouverture : le « T » de Tesla se révèle dans la lumière au-dessus d'une Tesla, puis le chiffre.
-export const Hero: React.FC<{photo: string; logo: string; wordmark?: string; number?: string; label?: string; kicker?: string; numberAt?: number; source?: string}> = ({
+export const Hero: React.FC<{photo: string; logo: string; wordmark?: string; number?: string; label?: string; kicker?: string; numberAt?: number; source?: string; logoWidth?: number; logoHeight?: number}> = ({
   photo,
   logo,
   wordmark,
@@ -140,6 +140,8 @@ export const Hero: React.FC<{photo: string; logo: string; wordmark?: string; num
   kicker,
   numberAt = 2.6,
   source,
+  logoWidth = 330,
+  logoHeight = 330,
 }) => {
   const frame = useCurrentFrame();
   const {fps} = useVideoConfig();
@@ -171,7 +173,7 @@ export const Hero: React.FC<{photo: string; logo: string; wordmark?: string; num
       >
         <div style={{position: 'relative'}}>
           <div style={{position: 'absolute', inset: -120, borderRadius: '50%', background: `radial-gradient(circle, rgba(240,181,78,${0.22 + 0.1 * glow}) 0%, transparent 65%)`}} />
-          <Logo id={logo} height={330} width={330} color="gold" />
+          <Logo id={logo} height={logoHeight} width={logoWidth} color="gold" />
         </div>
         {wordmark ? <Logo id={wordmark} height={44} style={{opacity: 0.9}} /> : null}
       </div>

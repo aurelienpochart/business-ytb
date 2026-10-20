@@ -4,6 +4,7 @@ import {Bars, BigNumbers, Line, List, Quote, Stacked, Statement, Tiles, Timeline
 import {Atmosphere, Camera, FilmFinish, LightSweep, SceneShell} from './components/fx';
 import {ChapterCard, CreditsFlow, EndScreen, Hud, Ident} from './components/special';
 import {Hero, MediaContext, Photo, PhotoLayer} from './components/media';
+import {Donut, Loop} from './components/diagrams';
 import {Segment, VideoProps, Visual} from './types';
 
 export const END_SCREEN_SECONDS = 20;
@@ -26,6 +27,8 @@ const BLOCKS: Record<string, React.FC<any>> = {
   quote: Quote,
   photo: Photo,
   hero: Hero,
+  donut: Donut,
+  loop: Loop,
 };
 
 const renderVisual = (v: Visual) => {

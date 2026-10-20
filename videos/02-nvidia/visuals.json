@@ -1,0 +1,1688 @@
+[
+ {
+  "at": "c0p0",
+  "type": "hero",
+  "props": {
+   "photo": "dc_blue",
+   "logo": "logo_nvidia_word",
+   "logoWidth": 680,
+   "logoHeight": 128,
+   "number": "$96.2B",
+   "label": "of sales in three months",
+   "kicker": "May to July 2026",
+   "numberAt": 2.2,
+   "source": "NVIDIA Q2 fiscal 2027 results (Aug. 26, 2026)"
+  }
+ },
+ {
+  "at": "c0p1",
+  "type": "donut",
+  "props": {
+   "title": "Out of every dollar of sales, May to July 2026",
+   "parts": [
+    {
+     "label": "Left after costs",
+     "value": 75,
+     "color": "amber",
+     "sub": "gross margin: 75%"
+    },
+    {
+     "label": "Cost of making them",
+     "value": 25,
+     "color": "slate"
+    }
+   ],
+   "center": "$1",
+   "suffix": "¢",
+   "start": 0.3,
+   "stagger": 1.0,
+   "focus": 0,
+   "source": "NVIDIA Q2 fiscal 2027 results (Aug. 26, 2026)"
+  },
+  "bg": "h100"
+ },
+ {
+  "at": "c0p2",
+  "type": "photo",
+  "props": {
+   "photo": "h100",
+   "text": "A software margin, on *hardware*.",
+   "kicker": "Shipped in crates",
+   "focus": "50% 60%"
+  }
+ },
+ {
+  "at": "c0p3",
+  "type": "statement",
+  "props": {
+   "text": "Who can actually *beat* Nvidia?",
+   "icon": "Swords"
+  },
+  "bg": "dc_corridor"
+ },
+ {
+  "at": "c0p4",
+  "type": "tiles",
+  "props": {
+   "kicker": "The usual suspects",
+   "items": [
+    {
+     "icon": "Cpu",
+     "label": "A rival chipmaker",
+     "color": "slate"
+    },
+    {
+     "icon": "Globe",
+     "label": "China",
+     "color": "brick"
+    },
+    {
+     "icon": "Sparkles",
+     "label": "A clever AI lab",
+     "color": "teal"
+    }
+   ],
+   "stagger": 1.2
+  },
+  "bg": "dc_aerial"
+ },
+ {
+  "at": "c0p4",
+  "after": "In its list of competitors",
+  "type": "tiles",
+  "props": {
+   "kicker": "Named as competitors in Nvidia’s annual report",
+   "items": [
+    {
+     "image": "logo_google",
+     "label": "Alphabet",
+     "sub": "Alphabet (Google)"
+    },
+    {
+     "image": "logo_amazon",
+     "label": "Amazon",
+     "sub": "Amazon"
+    },
+    {
+     "image": "logo_microsoft",
+     "label": "Microsoft",
+     "sub": "Microsoft"
+    }
+   ],
+   "stagger": 0.6,
+   "source": "NVIDIA 10-K, fiscal 2026"
+  },
+  "bg": "dc_corridor"
+ },
+ {
+  "at": "c0p5",
+  "type": "photo",
+  "props": {
+   "photo": "microsoft_hq",
+   "text": "Also among its *biggest buyers*."
+  }
+ },
+ {
+  "at": "c1p0",
+  "type": "photo",
+  "props": {
+   "photo": "geforce",
+   "text": "It started with *video games*.",
+   "kicker": "Graphics cards"
+  }
+ },
+ {
+  "at": "c1p0",
+  "after": "Its chips, called GPUs",
+  "type": "photo",
+  "props": {
+   "photo": "gpu_die",
+   "text": "Thousands of small calculations, *at the same time*.",
+   "kicker": "GPUs",
+   "zoom": "out"
+  }
+ },
+ {
+  "at": "c1p0",
+  "after": "That turned out",
+  "type": "statement",
+  "props": {
+   "text": "Exactly what *AI* needs.",
+   "sub": "Training and running AI models",
+   "icon": "BrainCircuit"
+  },
+  "bg": "dc_blue"
+ },
+ {
+  "at": "c1p1",
+  "type": "tiles",
+  "props": {
+   "kicker": "Not just chips: whole systems",
+   "items": [
+    {
+     "icon": "Server",
+     "label": "Racks of processors",
+     "color": "amber"
+    },
+    {
+     "icon": "Network",
+     "label": "Networking",
+     "color": "teal"
+    },
+    {
+     "icon": "Code",
+     "label": "Software",
+     "color": "amber"
+    }
+   ],
+   "stagger": 2.0,
+   "start": 3.0
+  },
+  "bg": "gb200"
+ },
+ {
+  "at": "c1p1",
+  "after": "hundreds of thousands",
+  "type": "quote",
+  "props": {
+   "text": "To function as a single giant computer.",
+   "by": "NVIDIA annual report (10-K), fiscal 2026",
+   "source": "NVIDIA 10-K, fiscal 2026"
+  }
+ },
+ {
+  "at": "c1p2",
+  "type": "numbers",
+  "props": {
+   "title": "CUDA, Nvidia’s software platform",
+   "items": [
+    {
+     "value": 7.5,
+     "decimals": 1,
+     "suffix": "M+",
+     "label": "developers use it and Nvidia’s other tools",
+     "color": "amber",
+     "icon": "Code"
+    }
+   ],
+   "source": "NVIDIA 10-K, fiscal 2026"
+  },
+  "bg": "dc_corridor"
+ },
+ {
+  "at": "c1p2",
+  "after": "Years of AI code",
+  "type": "statement",
+  "props": {
+   "text": "Moving away means *rewriting*.",
+   "sub": "Years of AI code, written for CUDA",
+   "icon": "Lock"
+  }
+ },
+ {
+  "at": "c1p3",
+  "type": "bars",
+  "props": {
+   "title": "Nvidia, financial year ended January 2026 ($ billions)",
+   "bars": [
+    {
+     "label": "Revenue",
+     "value": 215.9,
+     "color": "amber",
+     "note": "+65% in a year"
+    },
+    {
+     "label": "Data centers",
+     "value": 193.7,
+     "color": "teal",
+     "note": "about 90% of revenue"
+    },
+    {
+     "label": "Net profit",
+     "value": 120.1,
+     "color": "slate"
+    }
+   ],
+   "prefix": "$",
+   "decimals": 1,
+   "stagger": 5.0,
+   "source": "NVIDIA Q4 and fiscal 2026 results (Feb. 25, 2026)"
+  },
+  "bg": "nvidia_hq"
+ },
+ {
+  "at": "c1p4",
+  "type": "bars",
+  "props": {
+   "title": "Nvidia revenue per quarter ($ billions)",
+   "bars": [
+    {
+     "label": "May–Jul 2025",
+     "value": 46.7,
+     "color": "slate"
+    },
+    {
+     "label": "May–Jul 2026",
+     "value": 96.2,
+     "color": "amber",
+     "note": "more than double"
+    },
+    {
+     "label": "Aug–Oct 2026",
+     "value": 108.0,
+     "color": "teal",
+     "note": "Nvidia’s forecast"
+    }
+   ],
+   "prefix": "$",
+   "decimals": 1,
+   "stagger": 2.2,
+   "source": "NVIDIA Q2 fiscal 2027 results (Aug. 26, 2026)"
+  },
+  "bg": "dc_blue"
+ },
+ {
+  "at": "c1p5",
+  "type": "statement",
+  "props": {
+   "text": "So who, or what, could *get in the way*?",
+   "icon": "ShieldAlert"
+  },
+  "bg": "dc_aerial"
+ },
+ {
+  "at": "c2p0",
+  "type": "photo",
+  "props": {
+   "photo": "amd_hq",
+   "logo": "logo_amd",
+   "kicker": "Suspect number one",
+   "text": "A *better chip*?"
+  }
+ },
+ {
+  "at": "c2p1",
+  "type": "tiles",
+  "props": {
+   "kicker": "AMD’s real wins",
+   "items": [
+    {
+     "image": "logo_openai",
+     "label": "OpenAI",
+     "value": "6 GW",
+     "sub": "of AMD chips, plus rights to up to 160M AMD shares",
+     "color": "teal"
+    },
+    {
+     "image": "logo_anthropic",
+     "label": "Anthropic",
+     "value": "up to 2 GW",
+     "sub": "of AMD chips",
+     "color": "teal"
+    },
+    {
+     "image": "logo_meta",
+     "label": "Meta",
+     "value": "up to $60B",
+     "sub": "of AI chips, according to Reuters",
+     "color": "teal"
+    }
+   ],
+   "stagger": 8.5,
+   "source": "AMD (Oct. 6, 2025; Aug. 4, 2026); Reuters (Feb. 2026)"
+  },
+  "bg": "amd_hq"
+ },
+ {
+  "at": "c2p2",
+  "type": "bars",
+  "props": {
+   "title": "Data center revenue in one quarter ($ billions)",
+   "bars": [
+    {
+     "label": "AMD",
+     "value": 6.7,
+     "color": "slate",
+     "note": "Apr–Jun 2026"
+    },
+    {
+     "label": "Nvidia",
+     "value": 89.0,
+     "color": "amber",
+     "note": "May–Jul 2026"
+    }
+   ],
+   "prefix": "$",
+   "decimals": 1,
+   "stagger": 8.3,
+   "source": "AMD Q2 2026 results; NVIDIA Q2 fiscal 2027 results (Aug. 26, 2026)"
+  },
+  "bg": "dc_corridor"
+ },
+ {
+  "at": "c2p3",
+  "type": "bars",
+  "props": {
+   "title": "Gross profit kept per dollar of sales",
+   "bars": [
+    {
+     "label": "AMD",
+     "value": 56,
+     "color": "slate"
+    },
+    {
+     "label": "Nvidia",
+     "value": 75,
+     "color": "amber"
+    }
+   ],
+   "suffix": "¢",
+   "stagger": 1.6,
+   "source": "AMD Q2 2026 (non-GAAP); NVIDIA Q2 fiscal 2027 results (Aug. 26, 2026)"
+  },
+  "bg": "amd_hq"
+ },
+ {
+  "at": "c2p4",
+  "type": "numbers",
+  "props": {
+   "title": "AMD data center business",
+   "items": [
+    {
+     "value": 2,
+     "prefix": "×",
+     "label": "sales in a year (doubled)",
+     "color": "teal",
+     "icon": "TrendingUp"
+    },
+    {
+     "value": 13,
+     "prefix": "1/",
+     "label": "of Nvidia’s size, roughly",
+     "color": "brick"
+    }
+   ],
+   "source": "AMD Q2 2026 results; NVIDIA Q2 fiscal 2027 results (Aug. 26, 2026)"
+  },
+  "bg": "dc_blue"
+ },
+ {
+  "at": "c3p0",
+  "type": "photo",
+  "props": {
+   "photo": "beijing",
+   "kicker": "Suspect number two",
+   "text": "*China*"
+  }
+ },
+ {
+  "at": "c3p0",
+  "after": "like Huawei",
+  "type": "photo",
+  "props": {
+   "photo": "shenzhen",
+   "logo": "logo_huawei",
+   "text": "Chinese chipmakers, or governments *shutting Nvidia out*."
+  }
+ },
+ {
+  "at": "c3p1",
+  "type": "photo",
+  "props": {
+   "photo": "white_house",
+   "kicker": "April 2025",
+   "text": "Washington bans the *H20*.",
+   "sub": "A chip Nvidia designed specially for China",
+   "source": "The Register (Dec. 9, 2025)"
+  }
+ },
+ {
+  "at": "c3p1",
+  "after": "Nvidia took",
+  "type": "numbers",
+  "props": {
+   "title": "Charge on H20 chips Nvidia suddenly couldn’t sell",
+   "items": [
+    {
+     "value": 4.5,
+     "prefix": "$",
+     "suffix": "B",
+     "decimals": 1,
+     "label": "written off",
+     "color": "brick",
+     "icon": "PackageX"
+    }
+   ],
+   "source": "NVIDIA Q2 fiscal 2027 results (Aug. 26, 2026)"
+  },
+  "bg": "h100"
+ },
+ {
+  "at": "c3p2",
+  "type": "photo",
+  "props": {
+   "photo": "jensen_ces",
+   "kicker": "October 2025",
+   "text": "Jensen Huang, *chief executive*",
+   "focus": "50% 12%"
+  }
+ },
+ {
+  "at": "c3p2",
+  "after": "summed it up",
+  "type": "quote",
+  "props": {
+   "text": "We went from 95% market share to zero.",
+   "by": "Jensen Huang on China, October 2025",
+   "source": "TechRadar (Oct. 22, 2025)"
+  }
+ },
+ {
+  "at": "c3p3",
+  "type": "timeline",
+  "props": {
+   "title": "The H200 and China",
+   "events": [
+    {
+     "date": "Dec 2025",
+     "text": "Trump allows H200 sales to approved buyers, *25%* to the US government"
+    },
+    {
+     "date": "Then",
+     "text": "Beijing restricts the purchases, says Nvidia",
+     "color": "brick"
+    },
+    {
+     "date": "May–Jul 2026",
+     "text": "China shipments: *less than 1%* of data center revenue",
+     "color": "brick"
+    }
+   ],
+   "stagger": 8.3,
+   "source": "The Register (Dec. 9, 2025); NVIDIA 10-Q, quarter ended Jul. 26, 2026"
+  },
+  "bg": "white_house"
+ },
+ {
+  "at": "c3p4",
+  "type": "numbers",
+  "props": {
+   "title": "Nvidia, financial year ended January 2026",
+   "items": [
+    {
+     "value": 0,
+     "suffix": "%",
+     "label": "China market share, in Huang’s words",
+     "color": "brick",
+     "icon": "Lock"
+    },
+    {
+     "value": 65,
+     "prefix": "+",
+     "suffix": "%",
+     "label": "revenue growth, the same year",
+     "color": "teal",
+     "icon": "TrendingUp"
+    }
+   ],
+   "source": "TechRadar (Oct. 2025); NVIDIA fiscal 2026 results"
+  },
+  "bg": "beijing"
+ },
+ {
+  "at": "c3p5",
+  "type": "statement",
+  "props": {
+   "text": "A lost market. Not a lost *lead*.",
+   "sub": "Nvidia’s annual report already lists Huawei as a competitor",
+   "icon": "Map",
+   "source": "NVIDIA 10-K, fiscal 2026"
+  },
+  "bg": "shenzhen"
+ },
+ {
+  "at": "c4p0",
+  "type": "statement",
+  "props": {
+   "kicker": "Suspect number three",
+   "text": "An *idea*.",
+   "sub": "What if AI simply doesn’t need that many chips?",
+   "icon": "Lightbulb"
+  },
+  "bg": "gpu_die"
+ },
+ {
+  "at": "c4p1",
+  "type": "statement",
+  "props": {
+   "kicker": "January 27, 2025",
+   "text": "DeepSeek: a strong AI model for *under $6 million*.",
+   "sub": "Trained on less powerful Nvidia chips, its researchers said",
+   "icon": "Sparkles",
+   "source": "Reuters (Jan. 28, 2025)"
+  },
+  "bg": "beijing"
+ },
+ {
+  "at": "c4p1",
+  "after": "That day",
+  "type": "numbers",
+  "props": {
+   "title": "Nvidia shares, January 27, 2025",
+   "items": [
+    {
+     "value": 17,
+     "prefix": "−",
+     "suffix": "%",
+     "label": "in a single day, almost",
+     "color": "brick",
+     "icon": "TrendingDown"
+    },
+    {
+     "value": 593,
+     "prefix": "−$",
+     "suffix": "B",
+     "label": "market value: a Wall Street record",
+     "color": "brick"
+    }
+   ],
+   "source": "Reuters (Jan. 28, 2025)"
+  },
+  "bg": "nyse"
+ },
+ {
+  "at": "c4p2",
+  "type": "statement",
+  "props": {
+   "text": "Cheaper AI should need *fewer chips*.",
+   "icon": "TrendingDown"
+  },
+  "bg": "nyse"
+ },
+ {
+  "at": "c4p3",
+  "type": "tiles",
+  "props": {
+   "kicker": "The Jevons paradox",
+   "items": [
+    {
+     "icon": "BadgePercent",
+     "label": "Cheaper to use",
+     "color": "slate"
+    },
+    {
+     "icon": "Lightbulb",
+     "label": "Many new uses",
+     "color": "amber"
+    },
+    {
+     "icon": "TrendingUp",
+     "label": "Total demand goes up",
+     "color": "teal"
+    }
+   ],
+   "stagger": 2.8,
+   "start": 5.5
+  },
+  "bg": "dc_blue"
+ },
+ {
+  "at": "c4p4",
+  "type": "bars",
+  "props": {
+   "title": "Nvidia revenue per quarter ($ billions)",
+   "bars": [
+    {
+     "label": "Nov 2024–Jan 2025",
+     "value": 39,
+     "color": "slate",
+     "note": "the DeepSeek scare"
+    },
+    {
+     "label": "May–Jul 2026",
+     "value": 96,
+     "color": "amber",
+     "note": "18 months later"
+    }
+   ],
+   "prefix": "$",
+   "stagger": 6.5,
+   "source": "NVIDIA fiscal 2026 and Q2 fiscal 2027 results"
+  },
+  "bg": "dc_corridor"
+ },
+ {
+  "at": "c4p5",
+  "type": "photo",
+  "props": {
+   "photo": "dc_aerial",
+   "text": "Cheaper AI helped put AI *everywhere*."
+  }
+ },
+ {
+  "at": "c4p6",
+  "type": "tiles",
+  "props": {
+   "kicker": "So far",
+   "items": [
+    {
+     "icon": "Cpu",
+     "label": "Not AMD",
+     "color": "brick"
+    },
+    {
+     "icon": "Globe",
+     "label": "Not China",
+     "color": "brick"
+    },
+    {
+     "icon": "Sparkles",
+     "label": "Not efficiency",
+     "color": "brick"
+    }
+   ],
+   "stagger": 0.55,
+   "start": 0.1
+  },
+  "bg": "dc_aerial"
+ },
+ {
+  "at": "c5p0",
+  "type": "statement",
+  "props": {
+   "kicker": "The real answer",
+   "text": "Follow the money *in*.",
+   "icon": "Coins"
+  },
+  "bg": "dc_blue"
+ },
+ {
+  "at": "c5p1",
+  "type": "donut",
+  "props": {
+   "title": "Nvidia data center revenue, May to July 2026",
+   "parts": [
+    {
+     "label": "Hyperscale",
+     "value": 49,
+     "color": "amber",
+     "sub": "big public clouds, largest consumer internet companies"
+    },
+    {
+     "label": "AI clouds, industrial & enterprise",
+     "value": 40,
+     "color": "teal",
+     "sub": "AI cloud companies, governments, large corporations"
+    }
+   ],
+   "center": "$89B",
+   "prefix": "$",
+   "suffix": "B",
+   "stagger": 1.3,
+   "source": "NVIDIA Q2 fiscal 2027 earnings call (Aug. 26, 2026)"
+  }
+ },
+ {
+  "at": "c5p1",
+  "after": "Think of names like",
+  "type": "tiles",
+  "props": {
+   "kicker": "Hyperscale: think of names like…",
+   "items": [
+    {
+     "image": "logo_microsoft",
+     "label": "Microsoft"
+    },
+    {
+     "image": "logo_amazon",
+     "label": "Amazon"
+    },
+    {
+     "image": "logo_google",
+     "label": "Google"
+    },
+    {
+     "image": "logo_meta",
+     "label": "Meta"
+    }
+   ],
+   "stagger": 0.5
+  },
+  "bg": "google_hq"
+ },
+ {
+  "at": "c5p1",
+  "after": "Between May and July 2026",
+  "type": "donut",
+  "props": {
+   "title": "Nvidia data center revenue, May to July 2026",
+   "parts": [
+    {
+     "label": "Hyperscale",
+     "value": 49,
+     "color": "amber",
+     "sub": "big public clouds, largest consumer internet companies"
+    },
+    {
+     "label": "AI clouds, industrial & enterprise",
+     "value": 40,
+     "color": "teal",
+     "sub": "AI cloud companies, governments, large corporations"
+    }
+   ],
+   "center": "$89B",
+   "centerLabel": "more than half from hyperscale",
+   "prefix": "$",
+   "suffix": "B",
+   "stagger": 0.2,
+   "start": 0.1,
+   "focus": 0,
+   "source": "NVIDIA Q2 fiscal 2027 earnings call (Aug. 26, 2026)"
+  }
+ },
+ {
+  "at": "c5p2",
+  "type": "numbers",
+  "props": {
+   "title": "Share of Nvidia’s total revenue, last financial year",
+   "items": [
+    {
+     "value": 22,
+     "suffix": "%",
+     "label": "one direct customer",
+     "color": "amber"
+    },
+    {
+     "value": 14,
+     "suffix": "%",
+     "label": "a second direct customer",
+     "color": "amber"
+    }
+   ],
+   "source": "NVIDIA 10-K, fiscal 2026"
+  },
+  "bg": "dc_corridor"
+ },
+ {
+  "at": "c5p2",
+  "after": "Nvidia doesn't name them",
+  "type": "statement",
+  "props": {
+   "text": "A short list of *giants*.",
+   "sub": "Unnamed direct customers can be companies that assemble servers for someone else",
+   "icon": "Building2"
+  },
+  "bg": "dc_aerial"
+ },
+ {
+  "at": "c5p3",
+  "type": "bars",
+  "props": {
+   "title": "Spending on data centers and equipment: Alphabet, Amazon, Meta, Microsoft ($ billions)",
+   "bars": [
+    {
+     "label": "2025",
+     "value": 410,
+     "color": "slate",
+     "note": "roughly"
+    },
+    {
+     "label": "2026 plans",
+     "value": 700,
+     "color": "amber",
+     "note": "more than"
+    }
+   ],
+   "prefix": "$",
+   "stagger": 1.4,
+   "source": "Sherwood News (Apr. 30, 2026); Silicon Canals (Jul. 28, 2026)"
+  },
+  "bg": "dc_aerial"
+ },
+ {
+  "at": "c5p4",
+  "type": "donut",
+  "props": {
+   "title": "Every dollar a customer pays Nvidia",
+   "parts": [
+    {
+     "label": "What the product costs to make",
+     "value": 25,
+     "color": "slate",
+     "sub": "about a quarter"
+    },
+    {
+     "label": "Nvidia’s gross profit",
+     "value": 75,
+     "color": "amber",
+     "sub": "75% gross margin"
+    }
+   ],
+   "center": "$1",
+   "suffix": "¢",
+   "stagger": 2.2,
+   "focus": 1,
+   "source": "NVIDIA Q2 fiscal 2027 results (Aug. 26, 2026)"
+  },
+  "bg": "microsoft_hq"
+ },
+ {
+  "at": "c5p4",
+  "after": "If you can build",
+  "type": "statement",
+  "props": {
+   "text": "Build it yourself, *keep the margin*.",
+   "icon": "Hammer"
+  },
+  "bg": "gpu_die"
+ },
+ {
+  "at": "c5p5",
+  "type": "tiles",
+  "props": {
+   "kicker": "Its biggest customers, building their own chips",
+   "items": [
+    {
+     "image": "logo_google",
+     "label": "Google",
+     "value": "TPU",
+     "sub": "rented to other companies",
+     "color": "amber"
+    },
+    {
+     "image": "logo_amazon",
+     "label": "Amazon",
+     "value": "Trainium",
+     "sub": "its own AI chip",
+     "color": "amber"
+    },
+    {
+     "image": "logo_openai",
+     "label": "OpenAI",
+     "value": "with Broadcom",
+     "sub": "designing its own chips",
+     "color": "amber"
+    },
+    {
+     "image": "logo_meta",
+     "label": "Meta",
+     "value": "MTIA",
+     "sub": "about to ship in volume",
+     "color": "amber"
+    }
+   ],
+   "stagger": 0.35
+  },
+  "bg": "gpu_die"
+ },
+ {
+  "at": "c5p6",
+  "type": "photo",
+  "props": {
+   "photo": "tpu",
+   "logo": "logo_google",
+   "kicker": "Google",
+   "text": "Its own AI chips: *TPUs*.",
+   "sub": "Now rented to other companies"
+  }
+ },
+ {
+  "at": "c5p6",
+  "after": "Anthropic signed up",
+  "type": "numbers",
+  "props": {
+   "title": "Anthropic and Google’s chips",
+   "items": [
+    {
+     "value": 1,
+     "prefix": "up to ",
+     "suffix": "M",
+     "label": "TPUs, in a deal worth tens of billions of dollars",
+     "color": "amber",
+     "icon": "Cpu"
+    }
+   ],
+   "source": "Anthropic (Oct. 23, 2025)"
+  },
+  "bg": "tpu"
+ },
+ {
+  "at": "c5p6",
+  "after": "In February 2026",
+  "type": "photo",
+  "props": {
+   "photo": "meta_hq",
+   "kicker": "February 2026",
+   "text": "Meta *reportedly* rents Google’s chips too.",
+   "sub": "A multi-billion dollar deal",
+   "source": "Reuters (Feb. 27, 2026)"
+  }
+ },
+ {
+  "at": "c5p7",
+  "type": "tiles",
+  "props": {
+   "kicker": "Its biggest customers, building their own chips",
+   "items": [
+    {
+     "image": "logo_google",
+     "label": "Google",
+     "value": "TPU",
+     "sub": "rented to other companies",
+     "color": "amber"
+    },
+    {
+     "image": "logo_amazon",
+     "label": "Amazon",
+     "value": "Trainium",
+     "sub": "its own AI chip",
+     "color": "amber"
+    },
+    {
+     "image": "logo_openai",
+     "label": "OpenAI",
+     "value": "with Broadcom",
+     "sub": "designing its own chips",
+     "color": "amber"
+    },
+    {
+     "image": "logo_meta",
+     "label": "Meta",
+     "value": "MTIA",
+     "sub": "about to ship in volume",
+     "color": "amber"
+    }
+   ],
+   "focus": 1,
+   "stagger": 0,
+   "start": 0
+  },
+  "bg": "amazon_hq"
+ },
+ {
+  "at": "c5p7",
+  "after": "When Amazon agreed",
+  "type": "numbers",
+  "props": {
+   "title": "Amazon and OpenAI, February 2026",
+   "items": [
+    {
+     "value": 50,
+     "prefix": "up to $",
+     "suffix": "B",
+     "label": "Amazon investment in OpenAI",
+     "color": "amber"
+    },
+    {
+     "value": 2,
+     "suffix": " GW",
+     "label": "of Trainium capacity for OpenAI",
+     "color": "teal",
+     "icon": "Zap"
+    }
+   ],
+   "source": "GeekWire (Feb. 27, 2026)"
+  },
+  "bg": "amazon_hq"
+ },
+ {
+  "at": "c5p8",
+  "type": "tiles",
+  "props": {
+   "kicker": "Its biggest customers, building their own chips",
+   "items": [
+    {
+     "image": "logo_google",
+     "label": "Google",
+     "value": "TPU",
+     "sub": "rented to other companies",
+     "color": "amber"
+    },
+    {
+     "image": "logo_amazon",
+     "label": "Amazon",
+     "value": "Trainium",
+     "sub": "its own AI chip",
+     "color": "amber"
+    },
+    {
+     "image": "logo_openai",
+     "label": "OpenAI",
+     "value": "with Broadcom",
+     "sub": "designing its own chips",
+     "color": "amber"
+    },
+    {
+     "image": "logo_meta",
+     "label": "Meta",
+     "value": "MTIA",
+     "sub": "about to ship in volume",
+     "color": "amber"
+    }
+   ],
+   "focus": 2,
+   "stagger": 0,
+   "start": 0
+  },
+  "bg": "dc_blue"
+ },
+ {
+  "at": "c5p8",
+  "after": "aiming for",
+  "type": "numbers",
+  "props": {
+   "title": "OpenAI’s own chips, made with Broadcom",
+   "items": [
+    {
+     "value": 10,
+     "suffix": " GW",
+     "label": "targeted by the end of 2029",
+     "color": "amber",
+     "icon": "Cpu"
+    }
+   ],
+   "source": "Broadcom (Oct. 13, 2025)"
+  },
+  "bg": "dc_corridor"
+ },
+ {
+  "at": "c5p8",
+  "after": "And Meta",
+  "type": "tiles",
+  "props": {
+   "kicker": "Its biggest customers, building their own chips",
+   "items": [
+    {
+     "image": "logo_google",
+     "label": "Google",
+     "value": "TPU",
+     "sub": "rented to other companies",
+     "color": "amber"
+    },
+    {
+     "image": "logo_amazon",
+     "label": "Amazon",
+     "value": "Trainium",
+     "sub": "its own AI chip",
+     "color": "amber"
+    },
+    {
+     "image": "logo_openai",
+     "label": "OpenAI",
+     "value": "with Broadcom",
+     "sub": "designing its own chips",
+     "color": "amber"
+    },
+    {
+     "image": "logo_meta",
+     "label": "Meta",
+     "value": "MTIA",
+     "sub": "about to ship in volume",
+     "color": "amber"
+    }
+   ],
+   "focus": 3,
+   "stagger": 0,
+   "start": 0
+  },
+  "bg": "meta_hq"
+ },
+ {
+  "at": "c5p9",
+  "type": "photo",
+  "props": {
+   "zoom": "out",
+   "photo": "gpu_die",
+   "logo": "logo_broadcom",
+   "text": "Helping build many of these *custom chips*."
+  }
+ },
+ {
+  "at": "c5p9",
+  "after": "sold sixteen",
+  "type": "bars",
+  "props": {
+   "title": "Broadcom AI chip sales in one quarter ($ billions)",
+   "bars": [
+    {
+     "label": "A year earlier",
+     "value": 5.2,
+     "color": "slate"
+    },
+    {
+     "label": "Latest quarter",
+     "value": 16.7,
+     "color": "amber",
+     "note": "more than 3×"
+    }
+   ],
+   "prefix": "$",
+   "decimals": 1,
+   "stagger": 1.6,
+   "source": "Broadcom Q3 fiscal 2026, via Constellation Research (Sep. 2, 2026)"
+  },
+  "bg": "gpu_die"
+ },
+ {
+  "at": "c5p9",
+  "after": "Almost three-quarters",
+  "type": "donut",
+  "props": {
+   "title": "Broadcom AI chip sales, latest quarter",
+   "parts": [
+    {
+     "label": "Custom processors",
+     "value": 73,
+     "color": "amber",
+     "sub": "chips designed for one customer"
+    },
+    {
+     "label": "Other AI chips",
+     "value": 27,
+     "color": "slate"
+    }
+   ],
+   "center": "$16.7B",
+   "suffix": "%",
+   "stagger": 0.8,
+   "focus": 0,
+   "source": "Broadcom Q3 fiscal 2026, via Constellation Research"
+  }
+ },
+ {
+  "at": "c5p10",
+  "type": "statement",
+  "props": {
+   "text": "Customers deciding they’d rather *make it themselves*.",
+   "kicker": "The real competition",
+   "icon": "Factory"
+  },
+  "bg": "google_hq"
+ },
+ {
+  "at": "c5p11",
+  "type": "photo",
+  "props": {
+   "photo": "jensen_stage",
+   "kicker": "Jensen Huang’s reply",
+   "text": "Nvidia’s platform *runs everywhere*.",
+   "focus": "50% 35%"
+  }
+ },
+ {
+  "at": "c5p11",
+  "after": "many of these custom chips",
+  "type": "quote",
+  "props": {
+   "text": "Inference-specific chips for one cloud or one service.",
+   "by": "Jensen Huang on custom chips, August 2026",
+   "source": "NVIDIA Q2 fiscal 2027 earnings call (Aug. 26, 2026)"
+  }
+ },
+ {
+  "at": "c5p11",
+  "after": "And for now",
+  "type": "numbers",
+  "props": {
+   "title": "Hyperscale revenue at Nvidia",
+   "items": [
+    {
+     "value": 13,
+     "prefix": "+",
+     "suffix": "%",
+     "label": "in a single quarter",
+     "color": "teal",
+     "icon": "TrendingUp"
+    }
+   ],
+   "source": "NVIDIA Q2 fiscal 2027 earnings call (Aug. 26, 2026)"
+  },
+  "bg": "dc_blue"
+ },
+ {
+  "at": "c5p12",
+  "type": "statement",
+  "props": {
+   "text": "Not leaving. Building a *way out*.",
+   "icon": "DoorOpen"
+  },
+  "bg": "dc_corridor"
+ },
+ {
+  "at": "c6p0",
+  "type": "statement",
+  "props": {
+   "kicker": "What it changes",
+   "text": "Grow *new customers*.",
+   "sub": "And pay to grow them",
+   "icon": "Sprout"
+  },
+  "bg": "nvidia_hq"
+ },
+ {
+  "at": "c6p1",
+  "type": "donut",
+  "props": {
+   "title": "Nvidia data center revenue, May to July 2026",
+   "parts": [
+    {
+     "label": "Hyperscale",
+     "value": 49,
+     "color": "amber",
+     "sub": "big public clouds, largest consumer internet companies"
+    },
+    {
+     "label": "AI clouds, industrial & enterprise",
+     "value": 40,
+     "color": "teal",
+     "sub": "AI cloud companies, governments, large corporations"
+    }
+   ],
+   "center": "$89B",
+   "prefix": "$",
+   "suffix": "B",
+   "stagger": 0.3,
+   "start": 0.1,
+   "focus": 1,
+   "source": "NVIDIA Q2 fiscal 2027 earnings call (Aug. 26, 2026)"
+  },
+  "bg": "dc_aerial"
+ },
+ {
+  "at": "c6p1",
+  "after": "That half grew",
+  "type": "numbers",
+  "props": {
+   "title": "AI clouds, industrial & enterprise",
+   "items": [
+    {
+     "value": 138,
+     "prefix": "+",
+     "suffix": "%",
+     "label": "in a year",
+     "color": "teal",
+     "icon": "TrendingUp"
+    },
+    {
+     "value": 40,
+     "prefix": "$",
+     "suffix": "B",
+     "label": "last quarter",
+     "color": "teal"
+    }
+   ],
+   "source": "NVIDIA Q2 fiscal 2027 earnings call (Aug. 26, 2026)"
+  },
+  "bg": "dc_blue"
+ },
+ {
+  "at": "c6p2",
+  "type": "loop",
+  "props": {
+   "nodes": [
+    {
+     "image": "logo_nvidia_word",
+     "label": "Nvidia"
+    },
+    {
+     "icon": "HandCoins",
+     "label": "Investment",
+     "sub": "stakes, rent-backs, guarantees"
+    },
+    {
+     "icon": "Building2",
+     "label": "AI labs & AI clouds",
+     "sub": "young and hungry for cash",
+     "color": "teal"
+    },
+    {
+     "icon": "ShoppingCart",
+     "label": "Chip orders",
+     "sub": "back to Nvidia"
+    }
+   ],
+   "stagger": 0.7,
+   "start": 0.2
+  },
+  "bg": "dc_corridor"
+ },
+ {
+  "at": "c6p3",
+  "type": "tiles",
+  "props": {
+   "kicker": "Nvidia’s money in the AI labs",
+   "items": [
+    {
+     "image": "logo_openai",
+     "label": "OpenAI",
+     "value": "$30B",
+     "sub": "in its February 2026 funding round",
+     "color": "amber"
+    },
+    {
+     "image": "logo_anthropic",
+     "label": "Anthropic",
+     "value": "up to $10B",
+     "sub": "committed",
+     "color": "amber"
+    },
+    {
+     "icon": "Landmark",
+     "label": "Frontier AI labs",
+     "value": "~$50B",
+     "sub": "“nearly fifty billion dollars”, CFO, August 2026",
+     "color": "teal"
+    }
+   ],
+   "stagger": 11.2,
+   "start": 0.3,
+   "source": "Reuters (Feb. 2026); Anthropic (Nov. 18, 2025); NVIDIA Q2 fiscal 2027 earnings call (Aug. 26, 2026)"
+  },
+  "bg": "dc_blue"
+ },
+ {
+  "at": "c6p3",
+  "after": "Reuters reported",
+  "type": "statement",
+  "props": {
+   "text": "Much of it, to buy *Nvidia chips*.",
+   "sub": "OpenAI’s plan for its new money, as reported by Reuters",
+   "icon": "Repeat",
+   "source": "Reuters (Feb. 20, 2026)"
+  },
+  "bg": "h100"
+ },
+ {
+  "at": "c6p3",
+  "after": "Nvidia has also committed",
+  "type": "tiles",
+  "props": {
+   "kicker": "Nvidia’s money in the AI labs",
+   "items": [
+    {
+     "image": "logo_openai",
+     "label": "OpenAI",
+     "value": "$30B",
+     "sub": "in its February 2026 funding round",
+     "color": "amber"
+    },
+    {
+     "image": "logo_anthropic",
+     "label": "Anthropic",
+     "value": "up to $10B",
+     "sub": "committed",
+     "color": "amber"
+    },
+    {
+     "icon": "Landmark",
+     "label": "Frontier AI labs",
+     "value": "~$50B",
+     "sub": "“nearly fifty billion dollars”, CFO, August 2026",
+     "color": "teal"
+    }
+   ],
+   "stagger": 4.6,
+   "start": -4.3,
+   "source": "Reuters (Feb. 2026); Anthropic (Nov. 18, 2025); NVIDIA Q2 fiscal 2027 earnings call (Aug. 26, 2026)"
+  },
+  "bg": "dc_blue"
+ },
+ {
+  "at": "c6p4",
+  "type": "numbers",
+  "props": {
+   "title": "Nvidia’s stakes in other companies, end of July 2026",
+   "items": [
+    {
+     "value": 99,
+     "prefix": "$",
+     "suffix": "B",
+     "label": "held",
+     "color": "amber",
+     "icon": "Briefcase"
+    },
+    {
+     "value": 25,
+     "prefix": "+$",
+     "suffix": "B",
+     "label": "more promised",
+     "color": "teal"
+    }
+   ],
+   "source": "NVIDIA 10-Q, quarter ended Jul. 26, 2026"
+  },
+  "bg": "nvidia_hq"
+ },
+ {
+  "at": "c6p4",
+  "after": "AI model makers",
+  "type": "list",
+  "props": {
+   "title": "Who Nvidia holds stakes in",
+   "items": [
+    {
+     "label": "AI model makers",
+     "icon": "BrainCircuit",
+     "highlight": true
+    },
+    {
+     "label": "Data center financiers",
+     "icon": "Landmark"
+    },
+    {
+     "label": "Other private firms",
+     "icon": "Building2"
+    }
+   ],
+   "columns": 1,
+   "stagger": 0.9,
+   "start": 0.2,
+   "source": "NVIDIA 10-Q, quarter ended Jul. 26, 2026"
+  },
+  "bg": "dc_aerial"
+ },
+ {
+  "at": "c6p5",
+  "type": "tiles",
+  "props": {
+   "kicker": "It goes further",
+   "items": [
+    {
+     "icon": "Repeat",
+     "label": "Rent-back commitments",
+     "value": "$36B",
+     "sub": "sells equipment to AI clouds, commits to rent computing power back",
+     "color": "amber"
+    },
+    {
+     "icon": "ShieldCheck",
+     "label": "Ohio campus guarantees",
+     "value": "up to $105B",
+     "sub": "part of the lease and power payments; Nvidia hardware for OpenAI",
+     "color": "teal"
+    }
+   ],
+   "stagger": 11.3,
+   "start": 0.4,
+   "source": "NVIDIA 10-Q, quarter ended Jul. 26, 2026"
+  },
+  "bg": "power"
+ },
+ {
+  "at": "c6p6",
+  "type": "numbers",
+  "props": {
+   "title": "Nvidia pre-tax profit, February to July 2026",
+   "items": [
+    {
+     "value": 24,
+     "prefix": "~$",
+     "suffix": "B",
+     "label": "from gains on its stakes, not from selling anything",
+     "color": "amber",
+     "icon": "TrendingUp"
+    },
+    {
+     "value": 6,
+     "prefix": "1 in ",
+     "label": "dollars of pre-tax profit, roughly",
+     "color": "teal"
+    }
+   ],
+   "source": "NVIDIA Q2 fiscal 2027 results (Aug. 26, 2026); NVIDIA 10-Q, quarter ended Jul. 26, 2026"
+  },
+  "bg": "nyse"
+ },
+ {
+  "at": "c6p7",
+  "type": "statement",
+  "props": {
+   "kicker": "Critics call it circular",
+   "text": "Money goes out to customers, comes back as *orders*.",
+   "icon": "RefreshCw",
+   "source": "Bloomberg via Business Standard (Sep. 24, 2025)"
+  },
+  "bg": "dc_corridor"
+ },
+ {
+  "at": "c6p7",
+  "after": "Nvidia calls these",
+  "type": "quote",
+  "props": {
+   "text": "A once-in-a-generation opportunity.",
+   "by": "Jensen Huang on Nvidia’s AI investments, August 2026",
+   "source": "NVIDIA Q2 fiscal 2027 earnings call (Aug. 26, 2026)"
+  }
+ },
+ {
+  "at": "c6p8",
+  "type": "tiles",
+  "props": {
+   "kicker": "Sellers financing their own buyers",
+   "items": [
+    {
+     "image": "logo_amd",
+     "label": "AMD",
+     "sub": "share rights for OpenAI"
+    },
+    {
+     "image": "logo_amazon",
+     "label": "Amazon",
+     "sub": "investing in OpenAI"
+    },
+    {
+     "image": "logo_nvidia_word",
+     "label": "Nvidia",
+     "sub": "stakes, rent-backs, guarantees"
+    }
+   ],
+   "stagger": 1.6,
+   "start": 0.3,
+   "source": "AMD (Oct. 6, 2025); GeekWire (Feb. 27, 2026); NVIDIA 10-Q, quarter ended Jul. 26, 2026"
+  },
+  "bg": "dc_aerial"
+ },
+ {
+  "at": "c7p0",
+  "type": "photo",
+  "props": {
+   "photo": "nvidia_hq",
+   "logo": "logo_nvidia_word",
+   "kicker": "The answer",
+   "text": "Who can actually *beat* Nvidia?"
+  }
+ },
+ {
+  "at": "c7p1",
+  "type": "list",
+  "props": {
+   "title": "The suspects",
+   "items": [
+    {
+     "label": "A rival chipmaker",
+     "sub": "at least not yet",
+     "icon": "Cpu"
+    },
+    {
+     "label": "China",
+     "sub": "took away a market, not the lead",
+     "icon": "Globe"
+    },
+    {
+     "label": "Cheaper AI",
+     "sub": "made the market bigger",
+     "icon": "Sparkles"
+    }
+   ],
+   "columns": 1,
+   "stagger": 3.3,
+   "start": 0.2
+  },
+  "bg": "dc_corridor"
+ },
+ {
+  "at": "c7p2",
+  "type": "tiles",
+  "props": {
+   "kicker": "Best placed to beat Nvidia: its biggest buyers",
+   "items": [
+    {
+     "image": "logo_google",
+     "label": "Google"
+    },
+    {
+     "image": "logo_amazon",
+     "label": "Amazon"
+    },
+    {
+     "image": "logo_microsoft",
+     "label": "Microsoft"
+    },
+    {
+     "image": "logo_meta",
+     "label": "Meta"
+    }
+   ],
+   "stagger": 0.4
+  },
+  "bg": "google_hq"
+ },
+ {
+  "at": "c7p2",
+  "after": "and a reason",
+  "type": "statement",
+  "props": {
+   "text": "Nvidia’s margin is *their cost*.",
+   "icon": "Scale"
+  },
+  "bg": "microsoft_hq"
+ },
+ {
+  "at": "c7p3",
+  "type": "photo",
+  "props": {
+   "photo": "dc_aerial",
+   "text": "Never depending on them *alone*.",
+   "sub": "Funding a whole new generation of customers"
+  }
+ },
+ {
+  "at": "c7p3",
+  "after": "Which is why",
+  "type": "statement",
+  "props": {
+   "text": "Where the money comes from matters as much as *how much*.",
+   "icon": "Coins"
+  },
+  "bg": "dc_blue"
+ },
+ {
+  "at": "c7p4",
+  "type": "statement",
+  "props": {
+   "text": "A 75% margin is an *invitation*.",
+   "sub": "This video is not financial advice."
+  },
+  "bg": "h100"
+ }
+]

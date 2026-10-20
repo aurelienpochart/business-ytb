@@ -11,7 +11,7 @@ export type ThumbProps = {
   numberLabel?: string;
   bars?: {value: number; color: string; label: string}[];
   variant?: ThumbVariantProps['variant']; // miniature choisie parmi les variantes (prioritaire)
-};
+} & Omit<Partial<ThumbVariantProps>, 'variant' | 'number' | 'numberLabel'>;
 
 const goldText: React.CSSProperties = {
   backgroundImage: GOLD_TEXT,
@@ -22,8 +22,9 @@ const goldText: React.CSSProperties = {
   color: 'transparent',
 };
 
-export const Thumbnail: React.FC<ThumbProps> = ({words, number, numberLabel, bars, variant}) => {
-  if (variant) return <ThumbnailVariant variant={variant} />;
+export const Thumbnail: React.FC<ThumbProps> = ({words, number, numberLabel, bars, variant, ...custom}) => {
+  // La vidéo 01 ne passe que `variant` : sa miniature validée reste identique.
+  if (variant) return <ThumbnailVariant variant={variant} {...(custom.logo ? {...custom, number, numberLabel} : {})} />;
   const max = bars ? Math.max(...bars.map((b) => b.value)) : 1;
   return (
     <AbsoluteFill style={{background: `radial-gradient(ellipse at 70% 40%, #14284A 0%, ${C.ink} 70%)`, overflow: 'hidden'}}>

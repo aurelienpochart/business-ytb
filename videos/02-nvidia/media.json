@@ -36,15 +36,6 @@
   "page": "https://commons.wikimedia.org/wiki/File:Amazon_logo.svg"
  },
  {
-  "id": "logo_aws",
-  "title": "File:Amazon Web Services 2025.svg",
-  "file": "media/logo_aws.svg",
-  "license": "Public domain",
-  "artist": "Amazon.com, Inc. and Koto",
-  "restrictions": "trademarked",
-  "page": "https://commons.wikimedia.org/wiki/File:Amazon_Web_Services_2025.svg"
- },
- {
   "id": "logo_microsoft",
   "title": "File:Microsoft logo (2012).svg",
   "file": "media/logo_microsoft.svg",
@@ -99,15 +90,6 @@
   "page": "https://commons.wikimedia.org/wiki/File:Huawei_wordmark.svg"
  },
  {
-  "id": "logo_deepseek",
-  "title": "File:Deepseek-logo-icon.svg",
-  "file": "media/logo_deepseek.svg",
-  "license": "CC0",
-  "artist": "Usertoop",
-  "restrictions": "",
-  "page": "https://commons.wikimedia.org/wiki/File:Deepseek-logo-icon.svg"
- },
- {
   "id": "jensen_ces",
   "title": "File:Nvidia CEO Jensen Huang gestikuliert.jpg",
   "file": "media/jensen_ces.jpg",
@@ -160,15 +142,6 @@
   "artist": "Fritzchens Fritz from Berlin",
   "restrictions": "",
   "page": "https://commons.wikimedia.org/wiki/File:Nvidia@12nm@Turing@TU104@GeForce_RTX_2080@S_TAIWAN_1841A1_PKYN44.000_TU104-400-A1_DSC06357-DSC06459_-_ZS-retouched_(50914791621).jpg"
- },
- {
-  "id": "gpu_chip",
-  "title": "File:Drop of liquid metal on GPU die.jpg",
-  "file": "media/gpu_chip.jpg",
-  "license": "CC BY-SA 4.0",
-  "artist": "Phiarc",
-  "restrictions": "",
-  "page": "https://commons.wikimedia.org/wiki/File:Drop_of_liquid_metal_on_GPU_die.jpg"
  },
  {
   "id": "geforce",
@@ -304,17 +277,5 @@
   "artist": "PtiBzh",
   "restrictions": "",
   "page": "https://commons.wikimedia.org/wiki/File:Pont-l%27Abb%C3%A9_high-voltage_substation_17_-_Switches.jpg"
- },
- {
-  "id": "logo_nvidia",
-  "title": "File:Nvidia image logo.svg"
- },
- {
-  "id": "logo_nvidia_alt",
-  "title": "File:NVIDIA logo.svg"
- },
- {
-  "id": "logo_nvidia_alt2",
-  "title": "File:Nvidia logo (2006).svg"
  }
 ]

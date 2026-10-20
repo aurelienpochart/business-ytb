@@ -4,7 +4,18 @@ import {LogoCurve} from './components/special';
 import {C, FONT, GOLD_TEXT} from './theme';
 
 // Variantes de miniature 1280 x 720 avec le logo Tesla, pour choisir un style.
-export type ThumbVariantProps = {variant: 'or' | 'photo' | 'rivaux' | 'rivaux-titre' | 'rivaux-haut' | 'rivaux-miroir'};
+export type Rival = {file: string; color?: boolean; wide?: boolean};
+// Les champs optionnels réutilisent une mise en page pour une autre vidéo (par défaut : la vidéo 01, Tesla).
+export type ThumbVariantProps = {
+  variant: 'or' | 'photo' | 'rivaux' | 'rivaux-titre' | 'rivaux-haut' | 'rivaux-miroir';
+  logo?: string; // fichier de media/ utilisé comme masque doré (logo principal)
+  logoRatio?: number; // largeur / hauteur du logo principal
+  rivals?: Rival[];
+  number?: string;
+  numberLabel?: string; // *mot* en or
+  photo?: string; // fichier de media/ en fond
+  photoPosition?: string;
+};
 
 const gold: React.CSSProperties = {
   backgroundImage: GOLD_TEXT,
@@ -23,16 +34,16 @@ const Words: React.FC<{text: string; size: number; style?: React.CSSProperties}>
 );
 
 // « T » de Tesla en or (masque sur dégradé).
-const GoldT: React.FC<{size: number; glow?: number}> = ({size, glow = 0.6}) => (
+const GoldT: React.FC<{size: number; glow?: number; file?: string; ratio?: number}> = ({size, glow = 0.6, file = 'logo_tesla_t.svg', ratio = 1}) => (
   <div style={{filter: `drop-shadow(0 0 ${size / 8}px rgba(240,181,78,${glow}))`}}>
     <div
       style={{
-        width: size,
+        width: size * ratio,
         height: size,
         backgroundImage: GOLD_TEXT,
         backgroundSize: '200% 100%',
         backgroundPosition: '20% 0',
-        WebkitMaskImage: `url("${staticFile('media/logo_tesla_t.svg')}")`,
+        WebkitMaskImage: `url("${staticFile(`media/${file}`)}")`,
         WebkitMaskSize: 'contain',
         WebkitMaskRepeat: 'no-repeat',
         WebkitMaskPosition: 'center',
@@ -96,7 +107,7 @@ const PhotoV = () => (
 );
 
 // C : l'argent des concurrents qui converge vers le « T » doré.
-const RIVALS: {file: string; color?: boolean; wide?: boolean}[] = [
+const RIVALS: Rival[] = [
   {file: 'logo_stellantis.png', wide: true},
   {file: 'logo_toyota.svg'},
   {file: 'logo_ford.svg', color: true},
@@ -188,7 +199,7 @@ const Flows: React.FC<{from: Pt[]; to: Pt; vertical?: boolean; dollars?: number[
   );
 };
 
-const RivalTile: React.FC<{r: (typeof RIVALS)[number]; x: number; y: number; scale?: number}> = ({r, x, y, scale = 1}) => (
+const RivalTile: React.FC<{r: Rival; x: number; y: number; scale?: number}> = ({r, x, y, scale = 1}) => (
   <div style={{position: 'absolute', left: x - 75 * scale, top: y - 55 * scale, width: 150 * scale, height: 110 * scale, display: 'flex', alignItems: 'center', justifyContent: 'center', borderRadius: 22 * scale, background: 'rgba(255,255,255,0.06)', border: '1.5px solid rgba(255,255,255,0.18)'}}>
     <WhiteLogo file={r.file} height={(r.wide ? 40 : 70) * scale} width={(r.wide ? 134 : 110) * scale} color={r.color} />
   </div>
@@ -202,9 +213,9 @@ const Big: React.FC<{text: string; size: number; style: React.CSSProperties}> = 
   <div style={{position: 'absolute', fontFamily: FONT.mono, fontWeight: 600, fontSize: size, letterSpacing: -3, color: '#FFD98A', textShadow: '0 0 40px rgba(240,181,78,0.6)', ...style}}>{text}</div>
 );
 
-const Night: React.FC<{children: React.ReactNode; glow: string}> = ({children, glow}) => (
+const Night: React.FC<{children: React.ReactNode; glow: string; photo?: string; position?: string}> = ({children, glow, photo = 'traffic.jpg', position = '20% 50%'}) => (
   <AbsoluteFill style={{background: `radial-gradient(ellipse at ${glow}, #172C52 0%, ${C.ink} 68%)`, overflow: 'hidden'}}>
-    <Photo file="traffic.jpg" position="20% 50%" style={{filter: 'saturate(0.3) brightness(0.3) blur(2px)', opacity: 0.4}} />
+    <Photo file={photo} position={position} style={{filter: 'saturate(0.3) brightness(0.3) blur(2px)', opacity: 0.4}} />
     {children}
     <Brand />
     <Vignette />
@@ -230,20 +241,23 @@ const RivauxTitre = () => {
 };
 
 // C2 : les logos en haut, l'argent qui tombe vers le « T », le chiffre à droite.
-const RivauxHaut = () => {
+const RivauxHaut: React.FC<Omit<ThumbVariantProps, 'variant'>> = ({logo, logoRatio = 1, rivals = RIVALS, number = '$1.58B', numberLabel = 'from its *rivals*', photo, photoPosition}) => {
   const t: Pt = [420, 500];
-  const xs = [150, 330, 510, 690];
+  const xs = rivals.map((_, i) => 420 + (i - (rivals.length - 1) / 2) * 180);
+  // Logo principal : hauteur réduite s'il est large, pour garder la même surface.
+  const h = logoRatio > 1 ? Math.round(260 / Math.sqrt(logoRatio)) : 260;
+  const w = h * logoRatio;
   return (
-    <Night glow="35% 70%">
-      <Flows from={xs.map((x) => [x, 150] as Pt)} to={[t[0], t[1] - 130]} vertical />
-      {RIVALS.map((r, i) => <RivalTile key={i} r={r} x={xs[i]} y={95} scale={0.9} />)}
+    <Night glow="35% 70%" photo={photo} position={photoPosition}>
+      <Flows from={xs.map((x) => [x, 150] as Pt)} to={[t[0], t[1] - h / 2]} vertical />
+      {rivals.map((r, i) => <RivalTile key={i} r={r} x={xs[i]} y={95} scale={0.9} />)}
       <Halo x={t[0]} y={t[1]} r={240} />
-      <div style={{position: 'absolute', left: t[0] - 130, top: t[1] - 140}}>
-        <GoldT size={260} glow={0.8} />
+      <div style={{position: 'absolute', left: t[0] - w / 2, top: t[1] - h / 2 - 10}}>
+        <GoldT size={h} ratio={logoRatio} glow={0.8} file={logo} />
       </div>
       <div style={{position: 'absolute', left: 780, top: 300, width: 470}}>
-        <Big text="$1.58B" size={110} style={{position: 'relative'}} />
-        <Words text={'from its *rivals*'} size={64} style={{marginTop: 6}} />
+        <Big text={number} size={110} style={{position: 'relative'}} />
+        <Words text={numberLabel} size={64} style={{marginTop: 6}} />
       </div>
     </Night>
   );
@@ -267,7 +281,7 @@ const RivauxMiroir = () => {
   );
 };
 
-export const ThumbnailVariant: React.FC<ThumbVariantProps> = ({variant}) => {
+export const ThumbnailVariant: React.FC<ThumbVariantProps> = ({variant, ...custom}) => {
   switch (variant) {
     case 'photo':
       return <PhotoV />;
@@ -276,7 +290,7 @@ export const ThumbnailVariant: React.FC<ThumbVariantProps> = ({variant}) => {
     case 'rivaux-titre':
       return <RivauxTitre />;
     case 'rivaux-haut':
-      return <RivauxHaut />;
+      return <RivauxHaut {...custom} />;
     case 'rivaux-miroir':
       return <RivauxMiroir />;
     default:

@@ -90,6 +90,20 @@ def search(video):
     (out_dir / "catalog.json").write_text(json.dumps(catalog, indent=1, ensure_ascii=False) + "\n")
 
 
+def add_viewbox(data):
+    """Ajoute un viewBox aux SVG qui n'ont que width/height : sans lui, le logo ne se met pas à l'échelle."""
+    text = data.decode("utf-8", "replace")
+    m = re.search(r"<svg\b[^>]*>", text)
+    if not m or "viewBox" in m.group(0):
+        return data
+    w = re.search(r'\swidth="([\d.]+)(?:px)?"', m.group(0))
+    h = re.search(r'\sheight="([\d.]+)(?:px)?"', m.group(0))
+    if not (w and h):
+        return data
+    tag = m.group(0)[:-1].rstrip("/") + f' viewBox="0 0 {w.group(1)} {h.group(1)}"' + ("/>" if m.group(0).endswith("/>") else ">")
+    return (text[:m.start()] + tag + text[m.end():]).encode("utf-8")
+
+
 def fetch(video):
     path = video / "media.json"
     items = json.loads(path.read_text())
@@ -108,7 +122,10 @@ def fetch(video):
         url = meta["url"] if big else meta["thumb"]
         ext = ".svg" if svg else (".png" if meta["mime"] == "image/png" else ".jpg")
         target = video / "media" / f"{item['id']}{ext}"
-        target.write_bytes(get(url))
+        data = get(url)
+        if svg:
+            data = add_viewbox(data)
+        target.write_bytes(data)
         item.update({"file": f"media/{target.name}", "license": meta["license"], "artist": meta["artist"],
                      "restrictions": meta["restrictions"], "page": meta["page"]})
         print(f"{item['id']}: {meta['license']} — {meta['artist'][:60]}")

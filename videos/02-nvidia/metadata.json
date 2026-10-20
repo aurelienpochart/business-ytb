@@ -1,0 +1,58 @@
+{
+  "title": "Who Can Actually Beat Nvidia?",
+  "summary": "Nvidia keeps about 75 cents of gross profit on every dollar of sales. We test the usual suspects (AMD, China, cheaper AI like DeepSeek) and find the real threat: its biggest customers, now building their own AI chips. Then we follow how Nvidia pays to grow new ones. Every number is sourced below.",
+  "chapter_titles": {
+    "0": "A software margin on hardware",
+    "1": "What Nvidia really sells",
+    "2": "False lead #1: a better chip (AMD)",
+    "3": "False lead #2: China",
+    "4": "False lead #3: cheaper AI (DeepSeek)",
+    "5": "The real answer: its own customers",
+    "6": "Nvidia pays to build new customers",
+    "7": "So, who can beat Nvidia?"
+  },
+  "sources": [
+    "NVIDIA, fiscal 2026 results (Feb. 25, 2026): https://seekingalpha.com/pr/20414347",
+    "NVIDIA, Q2 fiscal 2027 results (Aug. 26, 2026): https://www.sec.gov/Archives/edgar/data/1045810/000104581026000073/q2fy27pr.htm",
+    "NVIDIA, Q2 fiscal 2027 call: https://s201.q4cdn.com/141608511/files/content_files/TRANSCRIPT_-NVIDIA-Corp-NVDA-US-Q2-2027-Earnings-Call-26-August-2026-5_00-PM-ET.pdf",
+    "NVIDIA, 10-K fiscal 2026: https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm",
+    "NVIDIA, 10-Q (Jul. 26, 2026): https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm",
+    "AMD, Q2 2026 results: https://ir.amd.com/financial-information/sec-filings/content/0000002488-26-000121/q22026991.htm",
+    "AMD and OpenAI (Oct. 6, 2025): https://ir.amd.com/financial-information/sec-filings/content/0001193125-25-230895/d28189dex991.htm",
+    "The Register (Dec. 9, 2025): https://www.theregister.com/2025/12/09/trump_gpu_export_ban_reversal/",
+    "TechRadar (Oct. 22, 2025): https://www.techradar.com/pro/jensen-huang-says-nvidias-china-market-share-fallen-to-zero-so-where-does-it-go-next",
+    "Reuters/Yahoo Finance (Jan. 28, 2025): https://finance.yahoo.com/news/chinas-deepseek-sets-off-ai-071458375.html",
+    "Sherwood News (Apr. 30, 2026): https://sherwood.news/tech/alphabet-amazon-microsoft-meta-plan-more-than-700-billion-on-capex-this-year/",
+    "Anthropic (Oct. 23, 2025): https://anthropic.com/news/expanding-our-use-of-google-cloud-tpus-and-services",
+    "Reuters/Malay Mail (Feb. 27, 2026): https://www.malaymail.com/news/money/2026/02/27/meta-inks-multibillion-dollar-deal-to-rent-google-ai-chips-for-next-gen-ai/210576",
+    "GeekWire (Feb. 27, 2026): https://www.geekwire.com/2026/amazon-invests-50b-in-openai-deepens-aws-partnership-with-expanded-100b-cloud-deal/",
+    "Broadcom and OpenAI (Oct. 13, 2025): https://investors.broadcom.com/news-releases/news-release-details/openai-and-broadcom-announce-strategic-collaboration-deploy-10",
+    "Constellation Research (Sep. 2, 2026): https://www.constellationr.com/insights/news/broadcom-reports-strong-q3-sees-ai-chip-revenue-accelerating-q4",
+    "Reuters/CP24 (Feb. 20, 2026): https://www.cp24.com/news/money/2026/02/20/nvidia-close-to-investing-us30-billion-in-openais-mega-funding-round-reuters-source-says/",
+    "Anthropic (Nov. 18, 2025): https://www.anthropic.com/news/microsoft-nvidia-anthropic-announce-strategic-partnerships",
+    "Bloomberg/Business Standard (Sep. 24, 2025): https://www.business-standard.com/amp/companies/news/nvidia-openai-deal-sparks-concerns-over-circular-financing-in-ai-boom-125092401589_1.html"
+  ],
+  "credits": [
+    "Fonts: Inter, IBM Plex Mono and Instrument Serif (SIL Open Font License); icons: Lucide (ISC).",
+    "Charts and animations made by The Cost Curve from the sources above."
+  ],
+  "subject_company": "NVIDIA Corporation",
+  "tags": [
+    "Nvidia",
+    "who can beat Nvidia",
+    "Nvidia competitors",
+    "AMD vs Nvidia",
+    "Google TPU",
+    "AI chips",
+    "custom AI chips",
+    "Nvidia OpenAI investment",
+    "DeepSeek",
+    "Jensen Huang",
+    "Nvidia earnings explained",
+    "business explained",
+    "The Cost Curve"
+  ],
+  "category_id": "27",
+  "contains_synthetic_media": false,
+  "made_for_kids": false
+}
