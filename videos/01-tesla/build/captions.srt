@@ -1,715 +1,715 @@
 1
-00:00:00,300 --> 00:00:03,940
+00:00:00,300 --> 00:00:03,884
 In 2020, Tesla finally did something it had never
 
 2
-00:00:03,940 --> 00:00:07,357
+00:00:03,884 --> 00:00:07,249
 done before: it made a profit for a full year.
 
 3
-00:00:07,357 --> 00:00:10,700
+00:00:07,249 --> 00:00:10,540
 Seven hundred and twenty-one million dollars.
 
 4
-00:00:11,150 --> 00:00:15,202
+00:00:10,990 --> 00:00:15,499
 That same year, it collected one billion, five hundred and eighty million
 
 5
-00:00:15,202 --> 00:00:19,310
+00:00:15,499 --> 00:00:20,070
 dollars from a source that has nothing to do with selling cars to drivers.
 
 6
-00:00:19,760 --> 00:00:22,278
+00:00:20,520 --> 00:00:23,159
 The money came from other carmakers.
 
 7
-00:00:22,278 --> 00:00:26,544
+00:00:23,159 --> 00:00:27,629
 Companies like Stellantis, Toyota, Ford and GM, paying Tesla,
 
 8
-00:00:26,544 --> 00:00:31,440
+00:00:27,629 --> 00:00:32,760
 year after year, for something that cost Tesla almost nothing to make.
 
 9
-00:00:31,890 --> 00:00:35,080
+00:00:33,210 --> 00:00:36,273
 So the most valuable car company in the world became
 
 10
-00:00:35,080 --> 00:00:38,209
+00:00:36,273 --> 00:00:39,276
 profitable thanks to cheques written by its rivals.
 
 11
-00:00:38,209 --> 00:00:41,890
+00:00:39,276 --> 00:00:42,810
 And that's only the first strange thing in Tesla's accounts.
 
 12
-00:00:42,340 --> 00:00:44,860
+00:00:43,260 --> 00:00:46,460
 Let's open them up, and follow every dollar.
 
 13
-00:00:48,460 --> 00:00:51,575
+00:00:50,060 --> 00:00:53,175
 First, a reminder of where Tesla comes from.
 
 14
-00:00:51,575 --> 00:00:54,124
+00:00:53,175 --> 00:00:55,724
 For most of its life, it lost money.
 
 15
-00:00:54,124 --> 00:00:57,169
+00:00:55,724 --> 00:00:58,769
 Between 2016 and 2019 alone, its operations
 
 16
-00:00:57,169 --> 00:01:00,496
+00:00:58,769 --> 00:01:02,096
 lost more than two point seven billion dollars.
 
 17
-00:01:00,496 --> 00:01:01,700
+00:01:02,096 --> 00:01:03,300
 Profit is recent.
 
 18
-00:01:02,150 --> 00:01:06,443
+00:01:03,750 --> 00:01:09,544
 When most people think about Tesla, they think about one thing: electric cars.
 
 19
-00:01:06,443 --> 00:01:09,470
+00:01:09,544 --> 00:01:13,630
 But the company actually reports four kinds of revenue.
 
 20
-00:01:09,920 --> 00:01:15,080
+00:01:14,080 --> 00:01:19,640
 In 2025, Tesla brought in about ninety-five billion dollars.
 
 21
-00:01:15,530 --> 00:01:19,622
+00:01:20,090 --> 00:01:24,672
 Around seventy billion came from cars: selling them, leasing them,
 
 22
-00:01:19,622 --> 00:01:24,210
+00:01:24,672 --> 00:01:29,810
 and that strange line called "regulatory credits" that we'll come back to.
 
 23
-00:01:24,660 --> 00:01:27,857
+00:01:30,260 --> 00:01:33,507
 Almost thirteen billion came from energy:
 
 24
-00:01:27,857 --> 00:01:32,380
+00:01:33,507 --> 00:01:38,100
 giant batteries for power grids, home batteries and solar.
 
 25
-00:01:32,830 --> 00:01:38,145
+00:01:38,550 --> 00:01:44,897
 And about twelve and a half billion came from what Tesla calls "services and other":
 
 26
-00:01:38,145 --> 00:01:42,510
+00:01:44,897 --> 00:01:50,110
 charging at its Supercharger stations, repairs, insurance, used cars.
 
 27
-00:01:42,960 --> 00:01:47,001
+00:01:50,560 --> 00:01:54,398
 Ninety-five billion dollars sounds enormous, and it is.
 
 28
-00:01:47,001 --> 00:01:52,806
+00:01:54,398 --> 00:01:59,911
 But 2025 was also the first year in Tesla's history when its revenue went down.
 
 29
-00:01:52,806 --> 00:01:56,480
+00:01:59,911 --> 00:02:03,400
 To understand why, we need to start with the cars.
 
 30
-00:01:57,580 --> 00:02:02,100
+00:02:04,500 --> 00:02:09,300
 For a decade, Tesla's story was simple: every year, more cars.
 
 31
-00:02:02,550 --> 00:02:05,628
+00:02:09,750 --> 00:02:12,363
 Half a million deliveries in 2020.
 
 32
-00:02:05,628 --> 00:02:09,430
+00:02:12,363 --> 00:02:15,590
 More than one point eight million in 2023.
 
 33
-00:02:09,880 --> 00:02:11,631
+00:02:16,040 --> 00:02:17,885
 Then the curve bent.
 
 34
-00:02:11,631 --> 00:02:14,871
+00:02:17,885 --> 00:02:21,298
 One point seven nine million in 2024.
 
 35
-00:02:14,871 --> 00:02:19,600
+00:02:21,298 --> 00:02:26,280
 One point six four million in 2025, down nine percent.
 
 36
-00:02:20,050 --> 00:02:22,469
+00:02:26,730 --> 00:02:29,173
 Part of the reason is competition.
 
 37
-00:02:22,469 --> 00:02:26,880
+00:02:29,173 --> 00:02:33,628
 In 2025, the Chinese company BYD sold about two point two five
 
 38
-00:02:26,880 --> 00:02:31,292
+00:02:33,628 --> 00:02:38,084
 million fully electric cars, and took the title of the world's
 
 39
-00:02:31,292 --> 00:02:36,130
+00:02:38,084 --> 00:02:42,970
 biggest seller of electric vehicles away from Tesla for a full year.
 
 40
-00:02:36,580 --> 00:02:39,262
+00:02:43,420 --> 00:02:46,208
 There's also the question of the lineup.
 
 41
-00:02:39,262 --> 00:02:42,816
+00:02:46,208 --> 00:02:49,903
 Tesla's sales now rest almost entirely on two models.
 
 42
-00:02:42,816 --> 00:02:48,047
+00:02:49,903 --> 00:02:55,340
 In the third quarter of 2026, the Model 3 and Model Y made up four hundred and
 
 43
-00:02:48,047 --> 00:02:53,277
+00:02:55,340 --> 00:03:00,777
 seventy-eight thousand of its four hundred and eighty-six thousand deliveries.
 
 44
-00:02:53,277 --> 00:02:57,568
+00:03:00,777 --> 00:03:05,239
 Everything else, including the Cybertruck and the Model S and X,
 
 45
-00:02:57,568 --> 00:03:01,860
+00:03:05,239 --> 00:03:09,700
 sold about eight thousand units, half as many as a year earlier.
 
 46
-00:03:02,310 --> 00:03:06,240
+00:03:10,150 --> 00:03:14,414
 To keep selling, Tesla cut its prices, again and again.
 
 47
-00:03:06,240 --> 00:03:09,885
+00:03:14,414 --> 00:03:18,368
 You can see the effect in one number: gross margin,
 
 48
-00:03:09,885 --> 00:03:15,030
+00:03:18,368 --> 00:03:23,950
 the share of each sale left after paying for parts, labor and factories.
 
 49
-00:03:15,480 --> 00:03:19,207
+00:03:24,400 --> 00:03:28,281
 In 2022, Tesla kept about twenty-six cents
 
 50
-00:03:19,207 --> 00:03:23,111
+00:03:28,281 --> 00:03:32,346
 of gross profit for every dollar of revenue.
 
 51
-00:03:23,111 --> 00:03:28,080
+00:03:32,346 --> 00:03:37,520
 By 2024 and 2025, that was down to about eighteen cents.
 
 52
-00:03:28,530 --> 00:03:30,654
+00:03:37,970 --> 00:03:40,474
 That's still better than many carmakers.
 
 53
-00:03:30,654 --> 00:03:34,372
+00:03:40,474 --> 00:03:44,856
 But it means each car sold brings in a lot less money than it used to.
 
 54
-00:03:34,372 --> 00:03:37,930
+00:03:44,856 --> 00:03:49,050
 And it makes that strange line in the accounts even more important.
 
 55
-00:03:39,030 --> 00:03:40,950
+00:03:50,150 --> 00:03:51,230
 Here's how it works.
 
 56
-00:03:41,400 --> 00:03:45,549
+00:03:51,680 --> 00:03:56,124
 Governments, in places like California, the European Union and China,
 
 57
-00:03:45,549 --> 00:03:48,314
+00:03:56,124 --> 00:03:59,086
 set limits on how much their cars can pollute,
 
 58
-00:03:48,314 --> 00:03:50,960
+00:03:59,086 --> 00:04:01,920
 on average, across a carmaker's whole range.
 
 59
-00:03:51,410 --> 00:03:56,425
+00:04:02,370 --> 00:04:06,824
 A company that sells lots of big gasoline vehicles may go over the limit.
 
 60
-00:03:56,425 --> 00:03:59,104
+00:04:06,824 --> 00:04:09,204
 It then has two options: pay a penalty,
 
 61
-00:03:59,104 --> 00:04:03,570
+00:04:09,204 --> 00:04:13,170
 or buy credits from a company that's comfortably under the limit.
 
 62
-00:04:04,020 --> 00:04:07,439
+00:04:13,620 --> 00:04:17,039
 And no one is more comfortably under the limit
 
 63
-00:04:07,439 --> 00:04:10,783
+00:04:17,039 --> 00:04:20,383
 than a company that only sells electric cars.
 
 64
-00:04:10,783 --> 00:04:13,384
+00:04:20,383 --> 00:04:22,984
 Every Tesla sold generates credits.
 
 65
-00:04:13,384 --> 00:04:16,060
+00:04:22,984 --> 00:04:25,660
 Tesla sells them to its competitors.
 
 66
-00:04:16,510 --> 00:04:21,411
+00:04:26,110 --> 00:04:30,702
 The key point: producing those credits costs Tesla almost nothing.
 
 67
-00:04:21,411 --> 00:04:24,233
+00:04:30,702 --> 00:04:33,346
 The cars were going to be sold anyway.
 
 68
-00:04:24,233 --> 00:04:30,470
+00:04:33,346 --> 00:04:39,190
 So this revenue is, in the words of one industry newspaper, "virtually pure profit".
 
 69
-00:04:30,920 --> 00:04:32,787
+00:04:39,640 --> 00:04:41,364
 The amounts grew fast.
 
 70
-00:04:32,787 --> 00:04:36,521
+00:04:41,364 --> 00:04:44,813
 About three hundred million dollars in 2016.
 
 71
-00:04:36,521 --> 00:04:39,661
+00:04:44,813 --> 00:04:47,713
 One point five eight billion in 2020.
 
 72
-00:04:39,661 --> 00:04:43,480
+00:04:47,713 --> 00:04:51,240
 A record two point seven six billion in 2024.
 
 73
-00:04:43,930 --> 00:04:50,770
+00:04:51,690 --> 00:04:58,770
 Added up since 2009, Tesla has collected almost fourteen billion dollars this way.
 
 74
-00:04:51,220 --> 00:04:53,550
+00:04:59,220 --> 00:05:01,525
 Now put that next to its profits.
 
 75
-00:04:53,550 --> 00:04:59,197
+00:05:01,525 --> 00:05:07,113
 In 2020, the credits were more than twice the size of Tesla's entire net profit.
 
 76
-00:04:59,197 --> 00:05:04,633
+00:05:07,113 --> 00:05:12,492
 In 2025, Tesla's credits brought in around two billion dollars, almost all of
 
 77
-00:05:04,633 --> 00:05:10,140
+00:05:12,492 --> 00:05:17,940
 it profit, while the company's total net income was three point eight billion.
 
 78
-00:05:10,590 --> 00:05:16,127
+00:05:18,390 --> 00:05:23,927
 So in its first profitable year, and again in 2025, a big share of what
 
 79
-00:05:16,127 --> 00:05:21,430
+00:05:23,927 --> 00:05:29,230
 Tesla kept came, indirectly, from other carmakers' gasoline engines.
 
 80
-00:05:22,530 --> 00:05:26,770
+00:05:30,330 --> 00:05:34,010
 That source of money is now drying up, at least in the United States.
 
 81
-00:05:27,220 --> 00:05:31,283
+00:05:34,460 --> 00:05:38,800
 In July 2025, a new law in the US, nicknamed the "One Big
 
 82
-00:05:31,283 --> 00:05:35,274
+00:05:38,800 --> 00:05:43,065
 Beautiful Bill", cut back support for electric vehicles.
 
 83
-00:05:35,274 --> 00:05:39,337
+00:05:43,065 --> 00:05:47,405
 The seven thousand five hundred dollar federal tax credit
 
 84
-00:05:39,337 --> 00:05:42,900
+00:05:47,405 --> 00:05:51,212
 for buying one ended on September thirtieth, 2025.
 
 85
-00:05:42,900 --> 00:05:47,961
+00:05:51,212 --> 00:05:56,619
 And the federal regulator stopped enforcing its fuel economy penalties.
 
 86
-00:05:47,961 --> 00:05:52,380
+00:05:56,619 --> 00:06:01,340
 When nobody has to pay a penalty, nobody needs to buy credits.
 
 87
-00:05:52,830 --> 00:05:55,570
+00:06:01,790 --> 00:06:04,652
 The result shows up in Tesla's own numbers.
 
 88
-00:05:55,570 --> 00:05:58,692
+00:06:04,652 --> 00:06:07,912
 In the second quarter of 2026, its credit revenue
 
 89
-00:05:58,692 --> 00:06:01,623
+00:06:07,912 --> 00:06:10,974
 was one hundred and forty-six million dollars.
 
 90
-00:06:01,623 --> 00:06:05,446
+00:06:10,974 --> 00:06:14,967
 A year earlier, it was four hundred and thirty-nine million.
 
 91
-00:06:05,446 --> 00:06:07,230
+00:06:14,967 --> 00:06:16,830
 That's a drop of two-thirds.
 
 92
-00:06:07,680 --> 00:06:11,016
+00:06:17,280 --> 00:06:20,731
 The end of the tax credit also distorted car sales.
 
 93
-00:06:11,016 --> 00:06:15,530
+00:06:20,731 --> 00:06:25,400
 American buyers rushed to get their seven and a half thousand dollars
 
 94
-00:06:15,530 --> 00:06:19,783
+00:06:25,400 --> 00:06:29,798
 before the deadline, which made the third quarter of 2025 Tesla's
 
 95
-00:06:19,783 --> 00:06:23,904
+00:06:29,798 --> 00:06:34,061
 best quarter ever: four hundred and ninety-seven thousand cars.
 
 96
-00:06:23,904 --> 00:06:28,680
+00:06:34,061 --> 00:06:39,000
 A year later, without that rush, deliveries were about two percent lower.
 
 97
-00:06:29,130 --> 00:06:33,311
+00:06:39,450 --> 00:06:43,378
 Credits are still sold in other markets, like Europe and China.
 
 98
-00:06:33,311 --> 00:06:37,161
+00:06:43,378 --> 00:06:46,994
 But one of Tesla's easiest sources of profit is shrinking.
 
 99
-00:06:37,161 --> 00:06:41,010
+00:06:46,994 --> 00:06:50,610
 Which raises the obvious question: what's growing instead?
 
 100
-00:06:42,110 --> 00:06:43,510
+00:06:51,710 --> 00:06:53,110
 The answer isn't a car.
 
 101
-00:06:43,960 --> 00:06:49,314
+00:06:53,560 --> 00:06:58,914
 Tesla builds huge battery systems, each one about the size of a shipping container,
 
 102
-00:06:49,314 --> 00:06:54,409
+00:06:58,914 --> 00:07:04,009
 that power companies use to store electricity and release it when demand peaks.
 
 103
-00:06:54,409 --> 00:06:56,280
+00:07:04,009 --> 00:07:05,880
 It also sells home batteries.
 
 104
-00:06:56,730 --> 00:07:01,786
+00:07:06,330 --> 00:07:12,074
 In 2020, Tesla installed about three gigawatt-hours of storage.
 
 105
-00:07:01,786 --> 00:07:04,193
+00:07:12,074 --> 00:07:14,810
 In 2024, more than thirty-one.
 
 106
-00:07:04,193 --> 00:07:06,440
+00:07:14,810 --> 00:07:17,363
 In 2025, almost forty-seven.
 
 107
-00:07:06,440 --> 00:07:09,650
+00:07:17,363 --> 00:07:21,010
 That's fifteen times more in five years.
 
 108
-00:07:10,100 --> 00:07:13,440
+00:07:21,460 --> 00:07:24,800
 Revenue followed: from two billion dollars
 
 109
-00:07:13,440 --> 00:07:16,860
+00:07:24,800 --> 00:07:28,220
 in 2020 to almost thirteen billion in 2025.
 
 110
-00:07:17,310 --> 00:07:21,049
+00:07:28,670 --> 00:07:32,260
 And this business is more profitable than the cars.
 
 111
-00:07:21,049 --> 00:07:25,520
+00:07:32,260 --> 00:07:36,553
 In 2024, Tesla kept about twenty-six cents of gross profit on
 
 112
-00:07:25,520 --> 00:07:30,138
+00:07:36,553 --> 00:07:40,988
 each dollar of energy sales, and close to thirty cents in 2025,
 
 113
-00:07:30,138 --> 00:07:34,390
+00:07:40,988 --> 00:07:45,070
 compared with roughly eighteen for the company as a whole.
 
 114
-00:07:34,840 --> 00:07:37,700
+00:07:45,520 --> 00:07:48,380
 It's not the part of Tesla that makes headlines.
 
 115
-00:07:37,700 --> 00:07:40,440
+00:07:48,380 --> 00:07:51,120
 But it's the part that's been growing fastest.
 
 116
-00:07:41,540 --> 00:07:44,060
+00:07:52,220 --> 00:07:54,300
 The third business is quieter still.
 
 117
-00:07:44,510 --> 00:07:50,523
+00:07:54,750 --> 00:08:00,619
 By the end of 2024, Tesla operated almost seven thousand Supercharger stations,
 
 118
-00:07:50,523 --> 00:07:54,709
+00:08:00,619 --> 00:08:04,704
 with more than sixty-five thousand charging connectors.
 
 119
-00:07:54,709 --> 00:07:58,210
+00:08:04,704 --> 00:08:08,121
 Every time a driver plugs in, Tesla gets paid.
 
 120
-00:07:58,210 --> 00:08:04,070
+00:08:08,121 --> 00:08:13,841
 Add repairs, insurance, parts and used cars, and "services and other" brought
 
 121
-00:08:04,070 --> 00:08:09,550
+00:08:13,841 --> 00:08:19,190
 in about twelve and a half billion dollars in 2025, up nineteen percent.
 
 122
-00:08:10,000 --> 00:08:13,372
+00:08:19,640 --> 00:08:22,932
 The more Teslas there are on the road, the more this
 
 123
-00:08:13,372 --> 00:08:16,680
+00:08:22,932 --> 00:08:26,160
 line grows, even in a year when new car sales fall.
 
 124
-00:08:17,780 --> 00:08:20,000
+00:08:27,260 --> 00:08:29,480
 So that's where the money comes from.
 
 125
-00:08:20,000 --> 00:08:21,020
+00:08:29,480 --> 00:08:30,500
 Where does it go?
 
 126
-00:08:21,470 --> 00:08:25,005
+00:08:30,950 --> 00:08:34,388
 First, into building cars and batteries: after those costs,
 
 127
-00:08:25,005 --> 00:08:28,780
+00:08:34,388 --> 00:08:38,059
 only about eighteen percent of revenue is left as gross profit.
 
 128
-00:08:28,780 --> 00:08:32,375
+00:08:38,059 --> 00:08:41,555
 Then into research, salaries, sales and administration for a
 
 129
-00:08:32,375 --> 00:08:36,030
+00:08:41,555 --> 00:08:45,110
 company of about one hundred and thirty-five thousand people.
 
 130
-00:08:36,480 --> 00:08:38,833
+00:08:45,560 --> 00:08:47,913
 What's left has been shrinking.
 
 131
-00:08:38,833 --> 00:08:43,690
+00:08:47,913 --> 00:08:52,770
 Leaving aside a one-time tax benefit in 2023, Tesla's net profit
 
 132
-00:08:43,690 --> 00:08:48,092
+00:08:52,770 --> 00:08:57,172
 peaked at about twelve and a half billion dollars in 2022.
 
 133
-00:08:48,092 --> 00:08:51,280
+00:08:57,172 --> 00:09:00,360
 In 2025, it was three point eight billion.
 
 134
-00:08:51,730 --> 00:08:56,272
+00:09:00,810 --> 00:09:05,310
 Meanwhile, spending on new factories and equipment kept climbing:
 
 135
-00:08:56,272 --> 00:09:01,583
+00:09:05,310 --> 00:09:10,572
 three point two billion dollars in 2020, eleven point three billion in 2024.
 
 136
-00:09:01,583 --> 00:09:05,217
+00:09:10,572 --> 00:09:14,173
 In 2024, after paying for all of it, Tesla still had
 
 137
-00:09:05,217 --> 00:09:09,130
+00:09:14,173 --> 00:09:18,050
 about three point six billion dollars of free cash flow.
 
 138
-00:09:09,580 --> 00:09:13,948
+00:09:18,500 --> 00:09:23,293
 And Tesla is now spending even more heavily on its next bets.
 
 139
-00:09:13,948 --> 00:09:16,525
+00:09:23,293 --> 00:09:26,122
 In the second quarter of 2026 alone,
 
 140
-00:09:16,525 --> 00:09:20,965
+00:09:26,122 --> 00:09:30,994
 its capital spending reached five point eight billion dollars.
 
 141
-00:09:20,965 --> 00:09:26,120
+00:09:30,994 --> 00:09:36,651
 That quarter, its free cash flow, the cash left after those investments,
 
 142
-00:09:26,120 --> 00:09:29,700
+00:09:36,651 --> 00:09:40,580
 was negative: minus one point one billion dollars.
 
 143
-00:09:30,150 --> 00:09:32,853
+00:09:41,030 --> 00:09:43,714
 Revenue that quarter was actually a record:
 
 144
-00:09:32,853 --> 00:09:36,121
+00:09:43,714 --> 00:09:46,960
 twenty-eight billion dollars, up twenty-six percent.
 
 145
-00:09:36,121 --> 00:09:39,893
+00:09:46,960 --> 00:09:50,705
 But net profit was one point one billion, and more than half
 
 146
-00:09:39,893 --> 00:09:43,539
+00:09:50,705 --> 00:09:54,325
 of that came from a five-hundred-and-ninety-million-dollar
 
 147
-00:09:43,539 --> 00:09:47,310
+00:09:54,325 --> 00:09:58,070
 gain outside its normal business, not from selling anything.
 
 148
-00:09:48,410 --> 00:09:53,499
+00:09:59,170 --> 00:10:04,057
 If you only looked at these numbers, you'd see a large, profitable carmaker,
 
 149
-00:09:53,499 --> 00:09:57,450
+00:10:04,057 --> 00:10:07,850
 with slowing car sales and a fast-growing battery business.
 
 150
-00:09:57,900 --> 00:10:00,140
+00:10:08,300 --> 00:10:10,860
 That's not how Tesla's shareholders see it.
 
 151
-00:10:00,590 --> 00:10:05,717
+00:10:11,310 --> 00:10:16,642
 In November 2025, more than seventy-five percent of them voted for a new pay
 
 152
-00:10:05,717 --> 00:10:10,979
+00:10:16,642 --> 00:10:22,114
 plan for Elon Musk, potentially worth up to a trillion dollars over ten years.
 
 153
-00:10:10,979 --> 00:10:14,217
+00:10:22,114 --> 00:10:25,482
 It was opposed by Norway's sovereign wealth fund
 
 154
-00:10:14,217 --> 00:10:17,590
+00:10:25,482 --> 00:10:28,990
 and by the two biggest shareholder advisory firms.
 
 155
-00:10:18,040 --> 00:10:22,561
+00:10:29,440 --> 00:10:33,954
 What matters for us is what Musk has to deliver to get paid.
 
 156
-00:10:22,561 --> 00:10:27,234
+00:10:33,954 --> 00:10:38,619
 The plan lists the targets: twenty million vehicles delivered.
 
 157
-00:10:27,234 --> 00:10:32,056
+00:10:38,619 --> 00:10:43,434
 Ten million subscriptions to Tesla's driver-assistance software.
 
 158
-00:10:32,056 --> 00:10:34,166
+00:10:43,434 --> 00:10:45,541
 One million humanoid robots.
 
 159
-00:10:34,166 --> 00:10:37,482
+00:10:45,541 --> 00:10:48,851
 One million robotaxis in commercial service.
 
 160
-00:10:37,482 --> 00:10:38,688
+00:10:48,851 --> 00:10:50,055
 A profit target.
 
 161
-00:10:38,688 --> 00:10:43,360
+00:10:50,055 --> 00:10:54,720
 And a stock market value of eight and a half trillion dollars.
 
 162
-00:10:43,810 --> 00:10:45,395
+00:10:55,170 --> 00:10:56,854
 Look at that list again.
 
 163
-00:10:45,395 --> 00:10:47,641
+00:10:56,854 --> 00:10:59,239
 Cars are only one item out of six.
 
 164
-00:10:47,641 --> 00:10:51,472
+00:10:59,239 --> 00:11:03,308
 Three of them are about software and machines that, today,
 
 165
-00:10:51,472 --> 00:10:56,690
+00:11:03,308 --> 00:11:08,850
 bring in little revenue: driver-assistance subscriptions, robotaxis and robots.
 
 166
-00:10:57,140 --> 00:11:00,184
+00:11:09,300 --> 00:11:12,178
 In other words, the shareholders who approved this plan
 
 167
-00:11:00,184 --> 00:11:03,173
+00:11:12,178 --> 00:11:15,004
 aren't mainly paying for the Tesla we just took apart.
 
 168
-00:11:03,173 --> 00:11:05,940
+00:11:15,004 --> 00:11:17,620
 They're paying for a Tesla that doesn't exist yet.
 
 169
-00:11:07,040 --> 00:11:09,280
+00:11:18,720 --> 00:11:20,680
 So, how does Tesla actually make money?
 
 170
-00:11:09,730 --> 00:11:13,418
+00:11:21,130 --> 00:11:24,929
 Mostly by selling cars, at thinner margins than before,
 
 171
-00:11:13,418 --> 00:11:18,314
+00:11:24,929 --> 00:11:29,972
 in a market where it's no longer the biggest seller of electric vehicles.
 
 172
-00:11:18,314 --> 00:11:21,935
+00:11:29,972 --> 00:11:33,703
 Increasingly, by selling batteries to power companies.
 
 173
-00:11:21,935 --> 00:11:24,618
+00:11:33,703 --> 00:11:36,466
 Steadily, through charging and services.
 
 174
-00:11:24,618 --> 00:11:28,440
+00:11:36,466 --> 00:11:40,403
 And, for years, thanks to billions of dollars paid by its
 
 175
-00:11:28,440 --> 00:11:32,330
+00:11:40,403 --> 00:11:44,410
 own competitors, a source of profit that is now shrinking.
 
 176
-00:11:32,780 --> 00:11:35,924
+00:11:44,860 --> 00:11:47,850
 Whether Tesla is worth what investors pay for it depends
 
 177
-00:11:35,924 --> 00:11:39,012
+00:11:47,850 --> 00:11:50,787
 on something that doesn't appear in these accounts yet.
 
 178
-00:11:39,012 --> 00:11:41,483
+00:11:50,787 --> 00:11:53,136
 That's not a question we can answer for you.
 
 179
-00:11:41,483 --> 00:11:45,020
+00:11:53,136 --> 00:11:56,500
 But now you know exactly what's in the numbers, and what isn't.

@@ -1,6 +1,6 @@
 {
-  "duration": 706.02,
-  "ident": 45.16,
+  "duration": 717.5,
+  "ident": 46.76,
   "segments": [
     {
       "id": "c0p0",
@@ -8,463 +8,463 @@
       "chapter_title": "Hook",
       "text": "In 2020, Tesla finally did something it had never done before: it made a profit for a full year. Seven hundred and twenty-one million dollars.",
       "start": 0.3,
-      "end": 10.7
+      "end": 10.54
     },
     {
       "id": "c0p1",
       "chapter": 0,
       "chapter_title": "Hook",
       "text": "That same year, it collected one billion, five hundred and eighty million dollars from a source that has nothing to do with selling cars to drivers.",
-      "start": 11.15,
-      "end": 19.31
+      "start": 10.99,
+      "end": 20.07
     },
     {
       "id": "c0p2",
       "chapter": 0,
       "chapter_title": "Hook",
       "text": "The money came from other carmakers. Companies like Stellantis, Toyota, Ford and GM, paying Tesla, year after year, for something that cost Tesla almost nothing to make.",
-      "start": 19.76,
-      "end": 31.44
+      "start": 20.52,
+      "end": 32.76
     },
     {
       "id": "c0p3",
       "chapter": 0,
       "chapter_title": "Hook",
       "text": "So the most valuable car company in the world became profitable thanks to cheques written by its rivals. And that's only the first strange thing in Tesla's accounts.",
-      "start": 31.89,
-      "end": 41.89
+      "start": 33.21,
+      "end": 42.81
     },
     {
       "id": "c0p4",
       "chapter": 0,
       "chapter_title": "Hook",
       "text": "Let's open them up, and follow every dollar.",
-      "start": 42.34,
-      "end": 44.86
+      "start": 43.26,
+      "end": 46.46
     },
     {
       "id": "c1p0",
       "chapter": 1,
       "chapter_title": "Four businesses under one logo",
       "text": "First, a reminder of where Tesla comes from. For most of its life, it lost money. Between 2016 and 2019 alone, its operations lost more than two point seven billion dollars. Profit is recent.",
-      "start": 48.46,
-      "end": 61.7
+      "start": 50.06,
+      "end": 63.3
     },
     {
       "id": "c1p1",
       "chapter": 1,
       "chapter_title": "Four businesses under one logo",
       "text": "When most people think about Tesla, they think about one thing: electric cars. But the company actually reports four kinds of revenue.",
-      "start": 62.15,
-      "end": 69.47
+      "start": 63.75,
+      "end": 73.63
     },
     {
       "id": "c1p2",
       "chapter": 1,
       "chapter_title": "Four businesses under one logo",
       "text": "In 2025, Tesla brought in about ninety-five billion dollars.",
-      "start": 69.92,
-      "end": 75.08
+      "start": 74.08,
+      "end": 79.64
     },
     {
       "id": "c1p3",
       "chapter": 1,
       "chapter_title": "Four businesses under one logo",
       "text": "Around seventy billion came from cars: selling them, leasing them, and that strange line called \"regulatory credits\" that we'll come back to.",
-      "start": 75.53,
-      "end": 84.21
+      "start": 80.09,
+      "end": 89.81
     },
     {
       "id": "c1p4",
       "chapter": 1,
       "chapter_title": "Four businesses under one logo",
       "text": "Almost thirteen billion came from energy: giant batteries for power grids, home batteries and solar.",
-      "start": 84.66,
-      "end": 92.38
+      "start": 90.26,
+      "end": 98.1
     },
     {
       "id": "c1p5",
       "chapter": 1,
       "chapter_title": "Four businesses under one logo",
       "text": "And about twelve and a half billion came from what Tesla calls \"services and other\": charging at its Supercharger stations, repairs, insurance, used cars.",
-      "start": 92.83,
-      "end": 102.51
+      "start": 98.55,
+      "end": 110.11
     },
     {
       "id": "c1p6",
       "chapter": 1,
       "chapter_title": "Four businesses under one logo",
       "text": "Ninety-five billion dollars sounds enormous, and it is. But 2025 was also the first year in Tesla's history when its revenue went down. To understand why, we need to start with the cars.",
-      "start": 102.96,
-      "end": 116.48
+      "start": 110.56,
+      "end": 123.4
     },
     {
       "id": "c2p0",
       "chapter": 2,
       "chapter_title": "Selling cars: the part that got harder",
       "text": "For a decade, Tesla's story was simple: every year, more cars.",
-      "start": 117.58,
-      "end": 122.1
+      "start": 124.5,
+      "end": 129.3
     },
     {
       "id": "c2p1",
       "chapter": 2,
       "chapter_title": "Selling cars: the part that got harder",
       "text": "Half a million deliveries in 2020. More than one point eight million in 2023.",
-      "start": 122.55,
-      "end": 129.43
+      "start": 129.75,
+      "end": 135.59
     },
     {
       "id": "c2p2",
       "chapter": 2,
       "chapter_title": "Selling cars: the part that got harder",
       "text": "Then the curve bent. One point seven nine million in 2024. One point six four million in 2025, down nine percent.",
-      "start": 129.88,
-      "end": 139.6
+      "start": 136.04,
+      "end": 146.28
     },
     {
       "id": "c2p3",
       "chapter": 2,
       "chapter_title": "Selling cars: the part that got harder",
       "text": "Part of the reason is competition. In 2025, the Chinese company BYD sold about two point two five million fully electric cars, and took the title of the world's biggest seller of electric vehicles away from Tesla for a full year.",
-      "start": 140.05,
-      "end": 156.13
+      "start": 146.73,
+      "end": 162.97
     },
     {
       "id": "c2p4",
       "chapter": 2,
       "chapter_title": "Selling cars: the part that got harder",
       "text": "There's also the question of the lineup. Tesla's sales now rest almost entirely on two models. In the third quarter of 2026, the Model 3 and Model Y made up four hundred and seventy-eight thousand of its four hundred and eighty-six thousand deliveries. Everything else, including the Cybertruck and the Model S and X, sold about eight thousand units, half as many as a year earlier.",
-      "start": 156.58,
-      "end": 181.86
+      "start": 163.42,
+      "end": 189.7
     },
     {
       "id": "c2p5",
       "chapter": 2,
       "chapter_title": "Selling cars: the part that got harder",
       "text": "To keep selling, Tesla cut its prices, again and again. You can see the effect in one number: gross margin, the share of each sale left after paying for parts, labor and factories.",
-      "start": 182.31,
-      "end": 195.03
+      "start": 190.15,
+      "end": 203.95
     },
     {
       "id": "c2p6",
       "chapter": 2,
       "chapter_title": "Selling cars: the part that got harder",
       "text": "In 2022, Tesla kept about twenty-six cents of gross profit for every dollar of revenue. By 2024 and 2025, that was down to about eighteen cents.",
-      "start": 195.48,
-      "end": 208.08
+      "start": 204.4,
+      "end": 217.52
     },
     {
       "id": "c2p7",
       "chapter": 2,
       "chapter_title": "Selling cars: the part that got harder",
       "text": "That's still better than many carmakers. But it means each car sold brings in a lot less money than it used to. And it makes that strange line in the accounts even more important.",
-      "start": 208.53,
-      "end": 217.93
+      "start": 217.97,
+      "end": 229.05
     },
     {
       "id": "c3p0",
       "chapter": 3,
       "chapter_title": "The strangest revenue line: selling credits",
       "text": "Here's how it works.",
-      "start": 219.03,
-      "end": 220.95
+      "start": 230.15,
+      "end": 231.23
     },
     {
       "id": "c3p1",
       "chapter": 3,
       "chapter_title": "The strangest revenue line: selling credits",
       "text": "Governments, in places like California, the European Union and China, set limits on how much their cars can pollute, on average, across a carmaker's whole range.",
-      "start": 221.4,
-      "end": 230.96
+      "start": 231.68,
+      "end": 241.92
     },
     {
       "id": "c3p2",
       "chapter": 3,
       "chapter_title": "The strangest revenue line: selling credits",
       "text": "A company that sells lots of big gasoline vehicles may go over the limit. It then has two options: pay a penalty, or buy credits from a company that's comfortably under the limit.",
-      "start": 231.41,
-      "end": 243.57
+      "start": 242.37,
+      "end": 253.17
     },
     {
       "id": "c3p3",
       "chapter": 3,
       "chapter_title": "The strangest revenue line: selling credits",
       "text": "And no one is more comfortably under the limit than a company that only sells electric cars. Every Tesla sold generates credits. Tesla sells them to its competitors.",
-      "start": 244.02,
-      "end": 256.06
+      "start": 253.62,
+      "end": 265.66
     },
     {
       "id": "c3p4",
       "chapter": 3,
       "chapter_title": "The strangest revenue line: selling credits",
       "text": "The key point: producing those credits costs Tesla almost nothing. The cars were going to be sold anyway. So this revenue is, in the words of one industry newspaper, \"virtually pure profit\".",
-      "start": 256.51,
-      "end": 270.47
+      "start": 266.11,
+      "end": 279.19
     },
     {
       "id": "c3p5",
       "chapter": 3,
       "chapter_title": "The strangest revenue line: selling credits",
       "text": "The amounts grew fast. About three hundred million dollars in 2016. One point five eight billion in 2020. A record two point seven six billion in 2024.",
-      "start": 270.92,
-      "end": 283.48
+      "start": 279.64,
+      "end": 291.24
     },
     {
       "id": "c3p6",
       "chapter": 3,
       "chapter_title": "The strangest revenue line: selling credits",
       "text": "Added up since 2009, Tesla has collected almost fourteen billion dollars this way.",
-      "start": 283.93,
-      "end": 290.77
+      "start": 291.69,
+      "end": 298.77
     },
     {
       "id": "c3p7",
       "chapter": 3,
       "chapter_title": "The strangest revenue line: selling credits",
       "text": "Now put that next to its profits. In 2020, the credits were more than twice the size of Tesla's entire net profit. In 2025, Tesla's credits brought in around two billion dollars, almost all of it profit, while the company's total net income was three point eight billion.",
-      "start": 291.22,
-      "end": 310.14
+      "start": 299.22,
+      "end": 317.94
     },
     {
       "id": "c3p8",
       "chapter": 3,
       "chapter_title": "The strangest revenue line: selling credits",
       "text": "So in its first profitable year, and again in 2025, a big share of what Tesla kept came, indirectly, from other carmakers' gasoline engines.",
-      "start": 310.59,
-      "end": 321.43
+      "start": 318.39,
+      "end": 329.23
     },
     {
       "id": "c4p0",
       "chapter": 4,
       "chapter_title": "The tap is closing",
       "text": "That source of money is now drying up, at least in the United States.",
-      "start": 322.53,
-      "end": 326.77
+      "start": 330.33,
+      "end": 334.01
     },
     {
       "id": "c4p1",
       "chapter": 4,
       "chapter_title": "The tap is closing",
       "text": "In July 2025, a new law in the US, nicknamed the \"One Big Beautiful Bill\", cut back support for electric vehicles. The seven thousand five hundred dollar federal tax credit for buying one ended on September thirtieth, 2025. And the federal regulator stopped enforcing its fuel economy penalties. When nobody has to pay a penalty, nobody needs to buy credits.",
-      "start": 327.22,
-      "end": 352.38
+      "start": 334.46,
+      "end": 361.34
     },
     {
       "id": "c4p2",
       "chapter": 4,
       "chapter_title": "The tap is closing",
       "text": "The result shows up in Tesla's own numbers. In the second quarter of 2026, its credit revenue was one hundred and forty-six million dollars. A year earlier, it was four hundred and thirty-nine million. That's a drop of two-thirds.",
-      "start": 352.83,
-      "end": 367.23
+      "start": 361.79,
+      "end": 376.83
     },
     {
       "id": "c4p3",
       "chapter": 4,
       "chapter_title": "The tap is closing",
       "text": "The end of the tax credit also distorted car sales. American buyers rushed to get their seven and a half thousand dollars before the deadline, which made the third quarter of 2025 Tesla's best quarter ever: four hundred and ninety-seven thousand cars. A year later, without that rush, deliveries were about two percent lower.",
-      "start": 367.68,
-      "end": 388.68
+      "start": 377.28,
+      "end": 399.0
     },
     {
       "id": "c4p4",
       "chapter": 4,
       "chapter_title": "The tap is closing",
       "text": "Credits are still sold in other markets, like Europe and China. But one of Tesla's easiest sources of profit is shrinking. Which raises the obvious question: what's growing instead?",
-      "start": 389.13,
-      "end": 401.01
+      "start": 399.45,
+      "end": 410.61
     },
     {
       "id": "c5p0",
       "chapter": 5,
       "chapter_title": "The quiet winner: batteries for the grid",
       "text": "The answer isn't a car.",
-      "start": 402.11,
-      "end": 403.51
+      "start": 411.71,
+      "end": 413.11
     },
     {
       "id": "c5p1",
       "chapter": 5,
       "chapter_title": "The quiet winner: batteries for the grid",
       "text": "Tesla builds huge battery systems, each one about the size of a shipping container, that power companies use to store electricity and release it when demand peaks. It also sells home batteries.",
-      "start": 403.96,
-      "end": 416.28
+      "start": 413.56,
+      "end": 425.88
     },
     {
       "id": "c5p2",
       "chapter": 5,
       "chapter_title": "The quiet winner: batteries for the grid",
       "text": "In 2020, Tesla installed about three gigawatt-hours of storage. In 2024, more than thirty-one. In 2025, almost forty-seven. That's fifteen times more in five years.",
-      "start": 416.73,
-      "end": 429.65
+      "start": 426.33,
+      "end": 441.01
     },
     {
       "id": "c5p3",
       "chapter": 5,
       "chapter_title": "The quiet winner: batteries for the grid",
       "text": "Revenue followed: from two billion dollars in 2020 to almost thirteen billion in 2025.",
-      "start": 430.1,
-      "end": 436.86
+      "start": 441.46,
+      "end": 448.22
     },
     {
       "id": "c5p4",
       "chapter": 5,
       "chapter_title": "The quiet winner: batteries for the grid",
       "text": "And this business is more profitable than the cars. In 2024, Tesla kept about twenty-six cents of gross profit on each dollar of energy sales, and close to thirty cents in 2025, compared with roughly eighteen for the company as a whole.",
-      "start": 437.31,
-      "end": 454.39
+      "start": 448.67,
+      "end": 465.07
     },
     {
       "id": "c5p5",
       "chapter": 5,
       "chapter_title": "The quiet winner: batteries for the grid",
       "text": "It's not the part of Tesla that makes headlines. But it's the part that's been growing fastest.",
-      "start": 454.84,
-      "end": 460.44
+      "start": 465.52,
+      "end": 471.12
     },
     {
       "id": "c6p0",
       "chapter": 6,
       "chapter_title": "Services: the network effect",
       "text": "The third business is quieter still.",
-      "start": 461.54,
-      "end": 464.06
+      "start": 472.22,
+      "end": 474.3
     },
     {
       "id": "c6p1",
       "chapter": 6,
       "chapter_title": "Services: the network effect",
       "text": "By the end of 2024, Tesla operated almost seven thousand Supercharger stations, with more than sixty-five thousand charging connectors. Every time a driver plugs in, Tesla gets paid. Add repairs, insurance, parts and used cars, and \"services and other\" brought in about twelve and a half billion dollars in 2025, up nineteen percent.",
-      "start": 464.51,
-      "end": 489.55
+      "start": 474.75,
+      "end": 499.19
     },
     {
       "id": "c6p2",
       "chapter": 6,
       "chapter_title": "Services: the network effect",
       "text": "The more Teslas there are on the road, the more this line grows, even in a year when new car sales fall.",
-      "start": 490.0,
-      "end": 496.68
+      "start": 499.64,
+      "end": 506.16
     },
     {
       "id": "c7p0",
       "chapter": 7,
       "chapter_title": "Where the money goes",
       "text": "So that's where the money comes from. Where does it go?",
-      "start": 497.78,
-      "end": 501.02
+      "start": 507.26,
+      "end": 510.5
     },
     {
       "id": "c7p1",
       "chapter": 7,
       "chapter_title": "Where the money goes",
       "text": "First, into building cars and batteries: after those costs, only about eighteen percent of revenue is left as gross profit. Then into research, salaries, sales and administration for a company of about one hundred and thirty-five thousand people.",
-      "start": 501.47,
-      "end": 516.03
+      "start": 510.95,
+      "end": 525.11
     },
     {
       "id": "c7p2",
       "chapter": 7,
       "chapter_title": "Where the money goes",
       "text": "What's left has been shrinking. Leaving aside a one-time tax benefit in 2023, Tesla's net profit peaked at about twelve and a half billion dollars in 2022. In 2025, it was three point eight billion.",
-      "start": 516.48,
-      "end": 531.28
+      "start": 525.56,
+      "end": 540.36
     },
     {
       "id": "c7p3",
       "chapter": 7,
       "chapter_title": "Where the money goes",
       "text": "Meanwhile, spending on new factories and equipment kept climbing: three point two billion dollars in 2020, eleven point three billion in 2024. In 2024, after paying for all of it, Tesla still had about three point six billion dollars of free cash flow.",
-      "start": 531.73,
-      "end": 549.13
+      "start": 540.81,
+      "end": 558.05
     },
     {
       "id": "c7p4",
       "chapter": 7,
       "chapter_title": "Where the money goes",
       "text": "And Tesla is now spending even more heavily on its next bets. In the second quarter of 2026 alone, its capital spending reached five point eight billion dollars. That quarter, its free cash flow, the cash left after those investments, was negative: minus one point one billion dollars.",
-      "start": 549.58,
-      "end": 569.7
+      "start": 558.5,
+      "end": 580.58
     },
     {
       "id": "c7p5",
       "chapter": 7,
       "chapter_title": "Where the money goes",
       "text": "Revenue that quarter was actually a record: twenty-eight billion dollars, up twenty-six percent. But net profit was one point one billion, and more than half of that came from a five-hundred-and-ninety-million-dollar gain outside its normal business, not from selling anything.",
-      "start": 570.15,
-      "end": 587.31
+      "start": 581.03,
+      "end": 598.07
     },
     {
       "id": "c8p0",
       "chapter": 8,
       "chapter_title": "The bet: what investors are really paying for",
       "text": "If you only looked at these numbers, you'd see a large, profitable carmaker, with slowing car sales and a fast-growing battery business.",
-      "start": 588.41,
-      "end": 597.45
+      "start": 599.17,
+      "end": 607.85
     },
     {
       "id": "c8p1",
       "chapter": 8,
       "chapter_title": "The bet: what investors are really paying for",
       "text": "That's not how Tesla's shareholders see it.",
-      "start": 597.9,
-      "end": 600.14
+      "start": 608.3,
+      "end": 610.86
     },
     {
       "id": "c8p2",
       "chapter": 8,
       "chapter_title": "The bet: what investors are really paying for",
       "text": "In November 2025, more than seventy-five percent of them voted for a new pay plan for Elon Musk, potentially worth up to a trillion dollars over ten years. It was opposed by Norway's sovereign wealth fund and by the two biggest shareholder advisory firms.",
-      "start": 600.59,
-      "end": 617.59
+      "start": 611.31,
+      "end": 628.99
     },
     {
       "id": "c8p3",
       "chapter": 8,
       "chapter_title": "The bet: what investors are really paying for",
       "text": "What matters for us is what Musk has to deliver to get paid. The plan lists the targets: twenty million vehicles delivered. Ten million subscriptions to Tesla's driver-assistance software. One million humanoid robots. One million robotaxis in commercial service. A profit target. And a stock market value of eight and a half trillion dollars.",
-      "start": 618.04,
-      "end": 643.36
+      "start": 629.44,
+      "end": 654.72
     },
     {
       "id": "c8p4",
       "chapter": 8,
       "chapter_title": "The bet: what investors are really paying for",
       "text": "Look at that list again. Cars are only one item out of six. Three of them are about software and machines that, today, bring in little revenue: driver-assistance subscriptions, robotaxis and robots.",
-      "start": 643.81,
-      "end": 656.69
+      "start": 655.17,
+      "end": 668.85
     },
     {
       "id": "c8p5",
       "chapter": 8,
       "chapter_title": "The bet: what investors are really paying for",
       "text": "In other words, the shareholders who approved this plan aren't mainly paying for the Tesla we just took apart. They're paying for a Tesla that doesn't exist yet.",
-      "start": 657.14,
-      "end": 665.94
+      "start": 669.3,
+      "end": 677.62
     },
     {
       "id": "c9p0",
       "chapter": 9,
       "chapter_title": "Conclusion",
       "text": "So, how does Tesla actually make money?",
-      "start": 667.04,
-      "end": 669.28
+      "start": 678.72,
+      "end": 680.68
     },
     {
       "id": "c9p1",
       "chapter": 9,
       "chapter_title": "Conclusion",
       "text": "Mostly by selling cars, at thinner margins than before, in a market where it's no longer the biggest seller of electric vehicles. Increasingly, by selling batteries to power companies. Steadily, through charging and services. And, for years, thanks to billions of dollars paid by its own competitors, a source of profit that is now shrinking.",
-      "start": 669.73,
-      "end": 692.33
+      "start": 681.13,
+      "end": 704.41
     },
     {
       "id": "c9p2",
       "chapter": 9,
       "chapter_title": "Conclusion",
       "text": "Whether Tesla is worth what investors pay for it depends on something that doesn't appear in these accounts yet. That's not a question we can answer for you. But now you know exactly what's in the numbers, and what isn't.",
-      "start": 692.78,
-      "end": 705.02
+      "start": 704.86,
+      "end": 716.5
     }
   ]
 }
