@@ -75,7 +75,7 @@ export const Statement: React.FC<{kicker?: string; text: string; sub?: string; s
         </div>
         {icon ? (
           <div style={{position: 'relative', width: 460, height: 460, display: 'flex', alignItems: 'center', justifyContent: 'center', ...fade(iconP)}}>
-            <div style={{position: 'absolute', inset: 40, borderRadius: '50%', ...glass('rgba(240,181,78,0.35)')}} />
+            <div style={{position: 'absolute', inset: 40, ...glass('rgba(240,181,78,0.35)'), borderRadius: '50%'}} />
             <TechRing size={460} delay={0.3} />
             <div style={{transform: `translateY(${Math.sin(frame / fps) * 8}px)`}}>
               <IconDraw name={icon} size={200} delay={0.35} uid={`st${icon}${text.length}`} />
