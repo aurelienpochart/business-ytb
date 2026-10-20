@@ -64,7 +64,8 @@
     },
     {
      "image": "logo_ford",
-     "label": "Ford"
+     "label": "Ford",
+     "imageColor": "original"
     },
     {
      "image": "logo_gm",

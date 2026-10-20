@@ -18,7 +18,7 @@ export const useMedia = (id?: string) => {
 const clamp = {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'} as const;
 
 // Logo en blanc uni (sobre, homogène, sans les couleurs de marque) ou en or métallique (masque).
-export const Logo: React.FC<{id: string; height: number; width?: number; color?: 'white' | 'gold'; style?: React.CSSProperties}> = ({id, height, width, color = 'white', style}) => {
+export const Logo: React.FC<{id: string; height: number; width?: number; color?: 'white' | 'gold' | 'original'; style?: React.CSSProperties}> = ({id, height, width, color = 'white', style}) => {
   const frame = useCurrentFrame();
   const {fps} = useVideoConfig();
   const m = useMedia(id);
@@ -43,7 +43,8 @@ export const Logo: React.FC<{id: string; height: number; width?: number; color?:
       </div>
     );
   }
-  return <Img src={m.src} style={{height, width: width ?? 'auto', objectFit: 'contain', filter: 'brightness(0) invert(1) drop-shadow(0 0 24px rgba(255,255,255,0.25))', ...style}} />;
+  const filter = color === 'original' ? 'drop-shadow(0 0 24px rgba(255,255,255,0.15))' : 'brightness(0) invert(1) drop-shadow(0 0 24px rgba(255,255,255,0.25))';
+  return <Img src={m.src} style={{height, width: width ?? 'auto', objectFit: 'contain', filter, ...style}} />;
 };
 
 // Photo plein cadre avec lent travelling (Ken Burns) et étalonnage sombre « bleu nuit + or ».

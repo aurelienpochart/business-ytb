@@ -465,7 +465,7 @@ const TimelineEvent: React.FC<{event: Event; delay: number}> = ({event, delay}) 
 };
 
 // ---------- Tuiles à icônes (activités, acteurs, régions), avec mise en avant éventuelle ----------
-type Tile = {icon?: string; image?: string; label: string; sub?: string; value?: string; color?: string};
+type Tile = {icon?: string; image?: string; imageColor?: 'white' | 'original'; label: string; sub?: string; value?: string; color?: string};
 export const Tiles: React.FC<{title?: string; kicker?: string; items: Tile[]; focus?: number; stagger?: number; start?: number; source?: string}> = ({
   title,
   kicker,
@@ -500,7 +500,8 @@ export const Tiles: React.FC<{title?: string; kicker?: string; items: Tile[]; fo
               key={i}
               style={{
                 width: w,
-                minHeight: 470,
+                minHeight: it.image ? 380 : 470,
+                justifyContent: it.image ? 'center' : undefined,
                 padding: '50px 34px 40px',
                 display: 'flex',
                 flexDirection: 'column',
@@ -512,10 +513,10 @@ export const Tiles: React.FC<{title?: string; kicker?: string; items: Tile[]; fo
                 filter: q < 0.97 ? `blur(${(1 - q) * 8}px)` : dim > 0.05 ? `saturate(${1 - 0.6 * dim})` : undefined,
               }}
             >
-              <div style={{position: 'relative', width: 170, height: 170, display: 'flex', alignItems: 'center', justifyContent: 'center', marginBottom: 30}}>
+              <div style={{position: 'relative', width: it.image ? w - 60 : 170, height: it.image ? 300 : 170, display: 'flex', alignItems: 'center', justifyContent: 'center', marginBottom: it.image ? 0 : 30}}>
                 <div style={{position: 'absolute', inset: 0, borderRadius: '50%', background: `radial-gradient(circle, ${halo} 0%, transparent 70%)`, opacity: 0.6}} />
-                <div style={{position: 'absolute', inset: 10, borderRadius: '50%', border: `1.5px solid ${hi}55`}} />
-                {it.image ? <Logo id={it.image} height={70} style={{maxWidth: w - 90}} /> : <IconDraw name={it.icon ?? 'Circle'} size={84} delay={delay + 0.1} color={hi} uid={`tile${i}${it.icon}${n}`} />}
+                {it.image ? null : <div style={{position: 'absolute', inset: 10, borderRadius: '50%', border: `1.5px solid ${hi}55`}} />}
+                {it.image ? <Logo id={it.image} height={110} color={it.imageColor ?? 'white'} style={{maxWidth: w - 70}} /> : <IconDraw name={it.icon ?? 'Circle'} size={84} delay={delay + 0.1} color={hi} uid={`tile${i}${it.icon}${n}`} />}
               </div>
               {it.image ? null : <div style={{fontFamily: FONT.title, fontWeight: 800, fontSize: w > 360 ? 42 : 36, color: C.paper, letterSpacing: -0.5, lineHeight: 1.1}}>{it.label}</div>}
               {it.value ? (
