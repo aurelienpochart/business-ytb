@@ -13,6 +13,36 @@ def stamp(t):
     return f"{t // 3600}:{t // 60 % 60:02}:{t % 60:02}" if t >= 3600 else f"{t // 60:02}:{t % 60:02}"
 
 
+def image_credits(video):
+    """Crédits des images Wikimedia réellement utilisées (obligatoires pour CC BY / BY-SA)."""
+    media_file = video / "media.json"
+    if not media_file.exists():
+        return None
+    used = (video / "visuals.json").read_text()
+    lines = []
+    logos = False
+    for m in json.loads(media_file.read_text()):
+        if f'"{m["id"]}"' not in used:
+            continue
+        if "trademark" in (m.get("restrictions") or "") or m["id"].startswith("logo_"):
+            logos = True
+            continue
+        lic = m.get("license", "")
+        if lic.startswith("CC BY"):
+            artist = " ".join((m.get("artist") or "Unknown").split())
+            lines.append(f"- {artist}, {lic}: {m['page']}")
+    parts = []
+    if lines:
+        parts.append("Images (Wikimedia Commons)\n" + "\n".join(lines) + "\nOther images: public domain or CC0.")
+    if logos:
+        parts.append(
+            "Logos are trademarks of their respective owners, shown for identification only. "
+            "This channel is independent and not affiliated with or endorsed by Tesla, Inc. "
+            "or any company mentioned."
+        )
+    return "\n\n".join(parts) or None
+
+
 def main():
     video = Path(sys.argv[1])
     meta = json.loads((video / "metadata.json").read_text())
@@ -27,12 +57,14 @@ def main():
         "Chapters\n" + "\n".join(chapters),
         "Sources\n" + "\n".join(f"- {s}" for s in meta["sources"]),
         "\n".join(meta["credits"]),
+        image_credits(video),
         "This video is for educational purposes and is not financial advice.\n"
         "Made with the help of AI tools, including a synthetic narrator voice.",
     ]
-    text = "\n\n".join(parts) + "\n"
-    if len(text) > 5000:
-        sys.exit(f"Description trop longue pour YouTube : {len(text)} caractères (max 5000)")
+    text = "\n\n".join(p for p in parts if p) + "\n"
+    size = len(text.encode())
+    if size > 5000:
+        sys.exit(f"Description trop longue pour YouTube : {size} octets (max 5000)")
     (video / "build" / "description.txt").write_text(text)
     print(text)
 
