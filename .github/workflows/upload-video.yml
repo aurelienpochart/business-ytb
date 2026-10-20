@@ -38,7 +38,7 @@ jobs:
           YT_CLIENT_ID: ${{ secrets.YT_CLIENT_ID }}
           YT_CLIENT_SECRET: ${{ secrets.YT_CLIENT_SECRET }}
           YT_REFRESH_TOKEN: ${{ secrets.YT_REFRESH_TOKEN }}
-        run: python3 pipeline/upload_youtube.py "$VIDEO" rendu/remotion/out/video.mp4 rendu/remotion/out/thumbnail.png
+        run: python3 pipeline/upload_youtube.py "$VIDEO" rendu/video.mp4 rendu/thumbnail.png
 
       - name: Enregistrer l'identifiant YouTube
         run: |

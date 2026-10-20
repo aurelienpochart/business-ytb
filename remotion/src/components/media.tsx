@@ -145,7 +145,8 @@ export const Hero: React.FC<{photo: string; logo: string; wordmark?: string; num
   const {fps} = useVideoConfig();
   const reveal = interpolate(frame, [0.2 * fps, 2.2 * fps], [0, 1], {...clamp, easing: Easing.out(Easing.cubic)});
   const photoIn = interpolate(frame, [0, 1.6 * fps], [0, 1], clamp);
-  const toSide = spring({frame: frame - numberAt * fps, fps, config: {damping: 200}});
+  // Le logo ne se décale à gauche que s'il laisse la place à un chiffre ; sinon il reste centré.
+  const toSide = number ? spring({frame: frame - numberAt * fps, fps, config: {damping: 200}}) : 0;
   const pNum = spring({frame: frame - (numberAt + 0.3) * fps, fps, config: {damping: 200}});
   const glow = 0.5 + 0.5 * Math.sin(frame / fps * 1.4);
   return (
