@@ -1,139 +1,309 @@
 [
  {
   "id": "logo_nvidia_word",
-  "title": "File:Nvidia logo.svg"
+  "title": "File:Nvidia logo.svg",
+  "file": "media/logo_nvidia_word.svg",
+  "license": "Public domain",
+  "artist": "Nvidia",
+  "restrictions": "trademarked",
+  "page": "https://commons.wikimedia.org/wiki/File:Nvidia_logo.svg"
  },
  {
   "id": "logo_amd",
-  "title": "File:AMD Logo.svg"
+  "title": "File:AMD Logo.svg",
+  "file": "media/logo_amd.svg",
+  "license": "Public domain",
+  "artist": "Advanced Micro Devices, Inc.",
+  "restrictions": "trademarked",
+  "page": "https://commons.wikimedia.org/wiki/File:AMD_Logo.svg"
  },
  {
   "id": "logo_google",
-  "title": "File:Google 2015 logo.svg"
+  "title": "File:Google 2015 logo.svg",
+  "file": "media/logo_google.svg",
+  "license": "Public domain",
+  "artist": "Google LLC",
+  "restrictions": "trademarked",
+  "page": "https://commons.wikimedia.org/wiki/File:Google_2015_logo.svg"
  },
  {
   "id": "logo_amazon",
-  "title": "File:Amazon logo.svg"
+  "title": "File:Amazon logo.svg",
+  "file": "media/logo_amazon.svg",
+  "license": "Public domain",
+  "artist": "Amazon.com, Inc.",
+  "restrictions": "trademarked",
+  "page": "https://commons.wikimedia.org/wiki/File:Amazon_logo.svg"
  },
  {
   "id": "logo_aws",
-  "title": "File:Amazon Web Services 2025.svg"
+  "title": "File:Amazon Web Services 2025.svg",
+  "file": "media/logo_aws.svg",
+  "license": "Public domain",
+  "artist": "Amazon.com, Inc. and Koto",
+  "restrictions": "trademarked",
+  "page": "https://commons.wikimedia.org/wiki/File:Amazon_Web_Services_2025.svg"
  },
  {
   "id": "logo_microsoft",
-  "title": "File:Microsoft logo (2012).svg"
+  "title": "File:Microsoft logo (2012).svg",
+  "file": "media/logo_microsoft.svg",
+  "license": "Public domain",
+  "artist": "Microsoft Corporation — Jason Wells",
+  "restrictions": "trademarked",
+  "page": "https://commons.wikimedia.org/wiki/File:Microsoft_logo_(2012).svg"
  },
  {
   "id": "logo_meta",
-  "title": "File:Meta Platforms Inc. logo.svg"
+  "title": "File:Meta Platforms Inc. logo.svg",
+  "file": "media/logo_meta.svg",
+  "license": "Public domain",
+  "artist": "Meta Platforms",
+  "restrictions": "trademarked",
+  "page": "https://commons.wikimedia.org/wiki/File:Meta_Platforms_Inc._logo.svg"
  },
  {
   "id": "logo_openai",
-  "title": "File:OpenAI Blossom and wordmark combination 2025.svg"
+  "title": "File:OpenAI Blossom and wordmark combination 2025.svg",
+  "file": "media/logo_openai.svg",
+  "license": "Public domain",
+  "artist": "OpenAI",
+  "restrictions": "trademarked",
+  "page": "https://commons.wikimedia.org/wiki/File:OpenAI_Blossom_and_wordmark_combination_2025.svg"
  },
  {
   "id": "logo_broadcom",
-  "title": "File:Broadcom logo (2016-present).svg"
+  "title": "File:Broadcom logo (2016-present).svg",
+  "file": "media/logo_broadcom.svg",
+  "license": "Public domain",
+  "artist": "Unknown authorUnknown author",
+  "restrictions": "trademarked",
+  "page": "https://commons.wikimedia.org/wiki/File:Broadcom_logo_(2016-present).svg"
  },
  {
   "id": "logo_anthropic",
-  "title": "File:Anthropic logo.svg"
+  "title": "File:Anthropic logo.svg",
+  "file": "media/logo_anthropic.svg",
+  "license": "Public domain",
+  "artist": "Anthropic",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Anthropic_logo.svg"
  },
  {
   "id": "logo_huawei",
-  "title": "File:Huawei wordmark.svg"
+  "title": "File:Huawei wordmark.svg",
+  "file": "media/logo_huawei.svg",
+  "license": "Public domain",
+  "artist": "Original: Huawei cropped by Jeff G. Vector:  Vectorization:  Huawei wordmark.png",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Huawei_wordmark.svg"
  },
  {
   "id": "logo_deepseek",
-  "title": "File:Deepseek-logo-icon.svg"
+  "title": "File:Deepseek-logo-icon.svg",
+  "file": "media/logo_deepseek.svg",
+  "license": "CC0",
+  "artist": "Usertoop",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Deepseek-logo-icon.svg"
  },
  {
   "id": "jensen_ces",
-  "title": "File:Nvidia CEO Jensen Huang gestikuliert.jpg"
+  "title": "File:Nvidia CEO Jensen Huang gestikuliert.jpg",
+  "file": "media/jensen_ces.jpg",
+  "license": "CC BY 2.0",
+  "artist": "Maurizio Pesce",
+  "restrictions": "personality",
+  "page": "https://commons.wikimedia.org/wiki/File:Nvidia_CEO_Jensen_Huang_gestikuliert.jpg"
  },
  {
   "id": "jensen_stage",
-  "title": "File:GTC Taiwan 2016.jpg"
+  "title": "File:GTC Taiwan 2016.jpg",
+  "file": "media/jensen_stage.jpg",
+  "license": "CC BY 2.0",
+  "artist": "NVIDIA Taiwan",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:GTC_Taiwan_2016.jpg"
  },
  {
   "id": "nvidia_hq",
-  "title": "File:NVIDIA Headquarters.jpg"
+  "title": "File:NVIDIA Headquarters.jpg",
+  "file": "media/nvidia_hq.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "Coolcaesar",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:NVIDIA_Headquarters.jpg"
  },
  {
   "id": "h100",
-  "title": "File:NVIDIA H100 (极客湾Geekerwan) 011.png"
+  "title": "File:NVIDIA H100 (极客湾Geekerwan) 011.png",
+  "file": "media/h100.png",
+  "license": "CC BY 3.0",
+  "artist": "极客湾Geekerwan",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:NVIDIA_H100_(%E6%9E%81%E5%AE%A2%E6%B9%BEGeekerwan)_011.png"
  },
  {
   "id": "gb200",
-  "title": "File:Nvidia DGX GB200.jpg"
+  "title": "File:Nvidia DGX GB200.jpg",
+  "file": "media/gb200.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "Pokiiri",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Nvidia_DGX_GB200.jpg"
  },
  {
   "id": "gpu_die",
-  "title": "File:Nvidia@12nm@Turing@TU104@GeForce RTX 2080@S TAIWAN 1841A1 PKYN44.000 TU104-400-A1 DSC06357-DSC06459 - ZS-retouched (50914791621).jpg"
+  "title": "File:Nvidia@12nm@Turing@TU104@GeForce RTX 2080@S TAIWAN 1841A1 PKYN44.000 TU104-400-A1 DSC06357-DSC06459 - ZS-retouched (50914791621).jpg",
+  "file": "media/gpu_die.jpg",
+  "license": "CC0",
+  "artist": "Fritzchens Fritz from Berlin",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Nvidia@12nm@Turing@TU104@GeForce_RTX_2080@S_TAIWAN_1841A1_PKYN44.000_TU104-400-A1_DSC06357-DSC06459_-_ZS-retouched_(50914791621).jpg"
  },
  {
   "id": "gpu_chip",
-  "title": "File:Drop of liquid metal on GPU die.jpg"
+  "title": "File:Drop of liquid metal on GPU die.jpg",
+  "file": "media/gpu_chip.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "Phiarc",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Drop_of_liquid_metal_on_GPU_die.jpg"
  },
  {
   "id": "geforce",
-  "title": "File:Asus C501PS Nvidia Geforce 7600 graphics card 1.JPG"
+  "title": "File:Asus C501PS Nvidia Geforce 7600 graphics card 1.JPG",
+  "file": "media/geforce.jpg",
+  "license": "Public domain",
+  "artist": "MKFI",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Asus_C501PS_Nvidia_Geforce_7600_graphics_card_1.JPG"
  },
  {
   "id": "tpu",
-  "title": "File:Tensor Processing Unit 3.0.jpg"
+  "title": "File:Tensor Processing Unit 3.0.jpg",
+  "file": "media/tpu.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "Zinskauf",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Tensor_Processing_Unit_3.0.jpg"
  },
  {
   "id": "dc_corridor",
-  "title": "File:Virginia Tech - data center.jpg"
+  "title": "File:Virginia Tech - data center.jpg",
+  "file": "media/dc_corridor.jpg",
+  "license": "CC BY-SA 2.0",
+  "artist": "Christopher Bowns",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Virginia_Tech_-_data_center.jpg"
  },
  {
   "id": "dc_blue",
-  "title": "File:BalticServers data center.jpg"
+  "title": "File:BalticServers data center.jpg",
+  "file": "media/dc_blue.jpg",
+  "license": "CC BY-SA 3.0",
+  "artist": "BalticServers.com",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:BalticServers_data_center.jpg"
  },
  {
   "id": "dc_aerial",
-  "title": "File:Data centers in Ashburn.jpg"
+  "title": "File:Data centers in Ashburn.jpg",
+  "file": "media/dc_aerial.jpg",
+  "license": "CC0",
+  "artist": "Theodore Christopher",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Data_centers_in_Ashburn.jpg"
  },
  {
   "id": "amd_hq",
-  "title": "File:AMD headquarter 20240318.jpg"
+  "title": "File:AMD headquarter 20240318.jpg",
+  "file": "media/amd_hq.jpg",
+  "license": "CC0",
+  "artist": "Lijiaxuan",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:AMD_headquarter_20240318.jpg"
  },
  {
   "id": "beijing",
-  "title": "File:Beijing skyline at night.JPG"
+  "title": "File:Beijing skyline at night.JPG",
+  "file": "media/beijing.jpg",
+  "license": "Public domain",
+  "artist": "Scott Meltzer",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Beijing_skyline_at_night.JPG"
  },
  {
   "id": "shenzhen",
-  "title": "File:Skyline in Shenzhen (20250327).jpg"
+  "title": "File:Skyline in Shenzhen (20250327).jpg",
+  "file": "media/shenzhen.jpg",
+  "license": "CC0",
+  "artist": "Fumikas Sagisavas",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Skyline_in_Shenzhen_(20250327).jpg"
  },
  {
   "id": "white_house",
-  "title": "File:North Façade White House.JPG"
+  "title": "File:North Façade White House.JPG",
+  "file": "media/white_house.jpg",
+  "license": "Public domain",
+  "artist": "Nishkid64",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:North_Fa%C3%A7ade_White_House.JPG"
  },
  {
   "id": "nyse",
-  "title": "File:Sign of the New York Stock Exchange, Broad Street.jpg"
+  "title": "File:Sign of the New York Stock Exchange, Broad Street.jpg",
+  "file": "media/nyse.jpg",
+  "license": "CC0",
+  "artist": "Billie Grace Ward",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Sign_of_the_New_York_Stock_Exchange,_Broad_Street.jpg"
  },
  {
   "id": "google_hq",
-  "title": "File:Googleplex HQ (cropped).jpg"
+  "title": "File:Googleplex HQ (cropped).jpg",
+  "file": "media/google_hq.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "Asoundd",
+  "restrictions": "trademarked",
+  "page": "https://commons.wikimedia.org/wiki/File:Googleplex_HQ_(cropped).jpg"
  },
  {
   "id": "meta_hq",
-  "title": "File:Meta Headquarters Sign.jpg"
+  "title": "File:Meta Headquarters Sign.jpg",
+  "file": "media/meta_hq.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "Nokia621",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Meta_Headquarters_Sign.jpg"
  },
  {
   "id": "microsoft_hq",
-  "title": "File:Building92microsoft.jpg"
+  "title": "File:Building92microsoft.jpg",
+  "file": "media/microsoft_hq.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "Coolcaesar",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Building92microsoft.jpg"
  },
  {
   "id": "amazon_hq",
-  "title": "File:Amazon Spheres from 6th Avenue, April 2020.jpg"
+  "title": "File:Amazon Spheres from 6th Avenue, April 2020.jpg",
+  "file": "media/amazon_hq.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "SounderBruce",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Amazon_Spheres_from_6th_Avenue,_April_2020.jpg"
  },
  {
   "id": "power",
-  "title": "File:Pont-l'Abbé high-voltage substation 17 - Switches.jpg"
+  "title": "File:Pont-l'Abbé high-voltage substation 17 - Switches.jpg",
+  "file": "media/power.jpg",
+  "license": "CC0",
+  "artist": "PtiBzh",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Pont-l%27Abb%C3%A9_high-voltage_substation_17_-_Switches.jpg"
  },
  {
   "id": "logo_nvidia",
