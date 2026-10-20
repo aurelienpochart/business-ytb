@@ -60,12 +60,6 @@ jobs:
           bash ../pipeline/remotion_public.sh "../$VIDEO"
           npx remotion browser ensure
 
-      - name: Bande son complète (voix + effets)
-        working-directory: remotion
-        env:
-          AUDIO_ONLY: "1"
-        run: npx remotion render Video out/audio.wav --codec=wav --log=info
-
       - name: Miniature
         working-directory: remotion
         run: npx remotion still Thumbnail out/thumbnail.png --scale=1
@@ -77,7 +71,6 @@ jobs:
             ${{ inputs.video }}/build/timeline.json
             ${{ inputs.video }}/build/captions.srt
             ${{ inputs.video }}/build/narration.wav
-            remotion/out/audio.wav
             remotion/out/thumbnail.png
           retention-days: 3
 
@@ -113,11 +106,15 @@ jobs:
           [ $end -ge $total ] && end=$(( total - 1 ))
           echo "images $start-$end sur $total"
           npx remotion render Video out/part-${{ matrix.shard }}.mp4 --frames=$start-$end --scale=$SCALE --muted --log=info
+          # Son de la même tranche en WAV : 1600 échantillons par image, les tranches se recollent sans décalage.
+          AUDIO_ONLY=1 npx remotion render Video out/part-${{ matrix.shard }}.wav --codec=wav --frames=$start-$end --log=info
 
       - uses: actions/upload-artifact@v4
         with:
           name: part-${{ matrix.shard }}
-          path: remotion/out/part-${{ matrix.shard }}.mp4
+          path: |
+            remotion/out/part-${{ matrix.shard }}.mp4
+            remotion/out/part-${{ matrix.shard }}.wav
           retention-days: 3
 
   assemble:
@@ -138,7 +135,9 @@ jobs:
         run: |
           mkdir -p out
           for i in $(seq 0 $((SHARDS - 1))); do echo "file '$PWD/dl/part-$i/part-$i.mp4'"; done > parts.txt
-          ffmpeg -loglevel error -y -f concat -safe 0 -i parts.txt -i dl/prepare/remotion/out/audio.wav \
+          for i in $(seq 0 $((SHARDS - 1))); do echo "file '$PWD/dl/part-$i/part-$i.wav'"; done > sons.txt
+          ffmpeg -loglevel error -y -f concat -safe 0 -i sons.txt -c copy audio.wav
+          ffmpeg -loglevel error -y -f concat -safe 0 -i parts.txt -i audio.wav \
             -map 0:v -map 1:a -c:v copy -c:a aac -b:a 320k -ar 48000 -movflags +faststart -shortest out/video.mp4
           cp dl/prepare/remotion/out/thumbnail.png out/thumbnail.png
           cp dl/prepare/$VIDEO/build/captions.srt out/captions.srt
