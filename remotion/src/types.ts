@@ -9,6 +9,6 @@ export type Segment = {
 
 export type Timeline = {duration: number; ident: number | null; segments: Segment[]};
 
-export type Visual = {at: string; type: string; props: Record<string, unknown>};
+export type Visual = {at: string; after?: string; type: string; props: Record<string, unknown>};
 
 export type VideoProps = {timeline: Timeline; visuals: Visual[]; audio: string};
