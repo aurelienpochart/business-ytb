@@ -126,8 +126,8 @@ export const Hud: React.FC<{chapters: {num: number; title: string; start: number
 };
 
 // Écran de fin, 20 s : emplacements laissés libres pour les éléments de fin YouTube.
-// suggested : zone pour une vidéo suggérée (à partir de la 2e vidéo de la chaîne) ; sinon écran centré sur l'abonnement.
-export const EndScreen: React.FC<{suggested?: boolean}> = ({suggested = false}) => {
+// suggested : zone pour une vidéo suggérée (toutes les vidéos sauf la 01, rendue sans) ; sinon écran centré sur l'abonnement.
+export const EndScreen: React.FC<{suggested?: boolean}> = ({suggested = true}) => {
   const frame = useCurrentFrame();
   const {fps} = useVideoConfig();
   const p = useEnter(0.2);
