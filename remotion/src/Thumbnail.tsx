@@ -2,6 +2,7 @@ import React from 'react';
 import {AbsoluteFill} from 'remotion';
 import {LogoCurve} from './components/special';
 import {C, FONT, GOLD_TEXT, GRAD} from './theme';
+import {ThumbnailVariant, ThumbVariantProps} from './ThumbnailVariants';
 
 // Miniature 1280 x 720 (charte 2.5) : 3 à 5 mots, un mot en or, un chiffre fort, la courbe du logo en coin.
 export type ThumbProps = {
@@ -9,6 +10,7 @@ export type ThumbProps = {
   number?: string;
   numberLabel?: string;
   bars?: {value: number; color: string; label: string}[];
+  variant?: ThumbVariantProps['variant']; // miniature choisie parmi les variantes (prioritaire)
 };
 
 const goldText: React.CSSProperties = {
@@ -20,7 +22,8 @@ const goldText: React.CSSProperties = {
   color: 'transparent',
 };
 
-export const Thumbnail: React.FC<ThumbProps> = ({words, number, numberLabel, bars}) => {
+export const Thumbnail: React.FC<ThumbProps> = ({words, number, numberLabel, bars, variant}) => {
+  if (variant) return <ThumbnailVariant variant={variant} />;
   const max = bars ? Math.max(...bars.map((b) => b.value)) : 1;
   return (
     <AbsoluteFill style={{background: `radial-gradient(ellipse at 70% 40%, #14284A 0%, ${C.ink} 70%)`, overflow: 'hidden'}}>
