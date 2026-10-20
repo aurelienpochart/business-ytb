@@ -18,7 +18,7 @@ concurrency:
 
 env:
   VIDEO: ${{ inputs.video }}
-  SCALE: "1.3333333" # 1920x1080 -> 2560x1440 (YouTube diffuse mieux les vidéos envoyées en 1440p)
+  SCALE: "1.3333333333333333" # 1920x1080 -> 2560x1440 (YouTube diffuse mieux les vidéos envoyées en 1440p)
   SHARDS: 6
 
 jobs:
@@ -62,6 +62,8 @@ jobs:
 
       - name: Bande son complète (voix + effets)
         working-directory: remotion
+        env:
+          AUDIO_ONLY: "1"
         run: npx remotion render Video out/audio.wav --codec=wav --log=info
 
       - name: Miniature
