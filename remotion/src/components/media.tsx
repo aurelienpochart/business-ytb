@@ -1,7 +1,7 @@
 import React, {createContext, useContext} from 'react';
 import {AbsoluteFill, Easing, Img, interpolate, spring, staticFile, useCurrentFrame, useVideoConfig} from 'remotion';
 import {AMB, C, FONT, GOLD_TEXT, photoTint} from '../theme';
-import {Source, fade, useEnter} from './common';
+import {Source, StageBox, fade, useEnter, useLayout} from './common';
 import {Kicker, LightSweep, Odometer, RevealWords} from './fx';
 
 // Images de la vidéo (videos/<v>/media.json, copiées dans public/media par le workflow).
@@ -51,6 +51,7 @@ export const Logo: React.FC<{id: string; height: number; width?: number; color?:
 export const PhotoLayer: React.FC<{id: string; dim?: number; blur?: number; zoom?: 'in' | 'out'; focus?: string}> = ({id, dim = 0.55, blur = 0, zoom = 'in', focus = '50% 50%'}) => {
   const frame = useCurrentFrame();
   const {fps} = useVideoConfig();
+  const P = useLayout().portrait;
   const m = useMedia(id);
   if (!m) return null;
   const t = frame / fps;
@@ -70,7 +71,12 @@ export const PhotoLayer: React.FC<{id: string; dim?: number; blur?: number; zoom
       />
       {/* Étalonnage : ombres bleu nuit, voile sombre, lumière dorée en haut */}
       <AbsoluteFill style={{background: `linear-gradient(180deg, rgba(${AMB.inkRgb},${dim * 0.7}) 0%, rgba(${AMB.inkRgb},${dim * 0.5}) 40%, rgba(${AMB.inkRgb},${Math.min(1, dim + 0.3)}) 100%)`}} />
-      <AbsoluteFill style={{background: `linear-gradient(90deg, rgba(${AMB.inkRgb},0.85) 0%, rgba(${AMB.inkRgb},0.35) 45%, transparent 75%)`, opacity: dim > 0.5 ? 1 : 0.7}} />
+      {P ? (
+        // Portrait : sombre en haut (accroche) et en bas (sous-titres, interface Shorts), plus clair au centre.
+        <AbsoluteFill style={{background: `linear-gradient(180deg, rgba(${AMB.inkRgb},0.8) 0%, rgba(${AMB.inkRgb},0.25) 22%, rgba(${AMB.inkRgb},0.1) 42%, rgba(${AMB.inkRgb},0.7) 68%, rgba(${AMB.inkRgb},0.92) 100%)`, opacity: dim > 0.5 ? 1 : 0.8}} />
+      ) : (
+        <AbsoluteFill style={{background: `linear-gradient(90deg, rgba(${AMB.inkRgb},0.85) 0%, rgba(${AMB.inkRgb},0.35) 45%, transparent 75%)`, opacity: dim > 0.5 ? 1 : 0.7}} />
+      )}
       <AbsoluteFill style={{background: 'radial-gradient(ellipse at 75% 0%, rgba(240,181,78,0.18) 0%, transparent 55%)', mixBlendMode: 'screen'}} />
       <AbsoluteFill style={{background: AMB.photoGrade, mixBlendMode: 'color'}} />
     </AbsoluteFill>
@@ -80,9 +86,10 @@ export const PhotoLayer: React.FC<{id: string; dim?: number; blur?: number; zoom
 export const PhotoCredit: React.FC<{id: string}> = ({id}) => {
   const m = useMedia(id);
   const p = useEnter(1);
+  const P = useLayout().portrait;
   if (!m || !m.credit) return null;
   return (
-    <div style={{position: 'absolute', right: 150, bottom: 62, fontFamily: FONT.mono, fontSize: 16, color: C.mute, opacity: 0.7 * p, letterSpacing: 0.5}}>
+    <div style={P ? {position: 'absolute', right: 70, top: 6, fontFamily: FONT.mono, fontSize: 15, color: C.mute, opacity: 0.75 * p, letterSpacing: 0.5} : {position: 'absolute', right: 150, bottom: 62, fontFamily: FONT.mono, fontSize: 16, color: C.mute, opacity: 0.7 * p, letterSpacing: 0.5}}>
       PHOTO {m.credit}
     </div>
   );
@@ -102,30 +109,33 @@ export const Photo: React.FC<{photo: string; text?: string; kicker?: string; sub
   const words = (text ?? '').replace(/\*/g, '').split(/\s+/).length;
   const pSub = useEnter(0.4 + words * 0.07);
   const pLogo = useEnter(0.1);
+  const P = useLayout().portrait;
   return (
     <AbsoluteFill>
       <PhotoLayer id={photo} focus={focus} zoom={zoom} />
       <LightSweep delay={0.1} strength={0.18} />
-      <div style={{position: 'absolute', left: 150, bottom: 190, maxWidth: 1300}}>
-        {logo ? (
-          <div style={{marginBottom: 40, ...fade(pLogo)}}>
-            <Logo id={logo} height={90} />
-          </div>
-        ) : null}
-        {kicker ? (
-          <div style={{marginBottom: 30}}>
-            <Kicker text={kicker} />
-          </div>
-        ) : null}
-        {text ? (
-          <div style={{fontFamily: FONT.display, fontSize: 124, lineHeight: 1.02, color: C.paper, textShadow: '0 8px 40px rgba(0,0,0,0.6)'}}>
-            <RevealWords text={text} delay={0.2} stagger={0.075} />
-          </div>
-        ) : null}
-        {sub ? <div style={{...fade(pSub), fontFamily: FONT.title, fontWeight: 300, fontSize: 40, color: C.paper, opacity: 0.85 * Math.min(1, pSub), marginTop: 30}}>{sub}</div> : null}
-      </div>
-      <PhotoCredit id={photo} />
-      {source ? <Source text={source} /> : null}
+      <StageBox>
+        <div style={P ? {position: 'absolute', left: 70, right: 70, bottom: 80} : {position: 'absolute', left: 150, bottom: 190, maxWidth: 1300}}>
+          {logo ? (
+            <div style={{marginBottom: P ? 34 : 40, ...fade(pLogo)}}>
+              <Logo id={logo} height={P ? 80 : 90} />
+            </div>
+          ) : null}
+          {kicker ? (
+            <div style={{marginBottom: 30}}>
+              <Kicker text={kicker} />
+            </div>
+          ) : null}
+          {text ? (
+            <div style={{fontFamily: FONT.display, fontSize: P ? 104 : 124, lineHeight: 1.02, color: C.paper, textShadow: '0 8px 40px rgba(0,0,0,0.6)'}}>
+              <RevealWords text={text} delay={0.2} stagger={0.075} />
+            </div>
+          ) : null}
+          {sub ? <div style={{...fade(pSub), fontFamily: FONT.title, fontWeight: 300, fontSize: P ? 36 : 40, color: C.paper, opacity: 0.85 * Math.min(1, pSub), marginTop: 30, lineHeight: P ? 1.3 : undefined}}>{sub}</div> : null}
+        </div>
+        <PhotoCredit id={photo} />
+        {source ? <Source text={source} /> : null}
+      </StageBox>
     </AbsoluteFill>
   );
 };
@@ -145,6 +155,8 @@ export const Hero: React.FC<{photo: string; logo: string; wordmark?: string; num
 }) => {
   const frame = useCurrentFrame();
   const {fps} = useVideoConfig();
+  const L = useLayout();
+  const P = L.portrait;
   const reveal = interpolate(frame, [0.2 * fps, 2.2 * fps], [0, 1], {...clamp, easing: Easing.out(Easing.cubic)});
   const photoIn = interpolate(frame, [0, 1.6 * fps], [0, 1], clamp);
   // Le logo ne se décale à gauche que s'il laisse la place à un chiffre ; sinon il reste centré.
@@ -160,9 +172,10 @@ export const Hero: React.FC<{photo: string; logo: string; wordmark?: string; num
       <div
         style={{
           position: 'absolute',
-          left: interpolate(toSide, [0, 1], [960, 470]),
-          top: 470,
-          transform: `translate(-50%, -50%) scale(${interpolate(reveal, [0, 1], [1.35, 1]) * interpolate(toSide, [0, 1], [1, 0.82])})`,
+          // Portrait : le logo monte (au lieu d'aller à gauche) pour laisser le chiffre en dessous.
+          left: P ? 540 : interpolate(toSide, [0, 1], [960, 470]),
+          top: P ? interpolate(toSide, [0, 1], [L.top + L.height * 0.46, L.top + 210]) : 470,
+          transform: `translate(-50%, -50%) scale(${interpolate(reveal, [0, 1], [1.35, 1]) * interpolate(toSide, [0, 1], [1, P ? 0.66 : 0.82])})`,
           display: 'flex',
           flexDirection: 'column',
           alignItems: 'center',
@@ -178,16 +191,24 @@ export const Hero: React.FC<{photo: string; logo: string; wordmark?: string; num
         {wordmark ? <Logo id={wordmark} height={44} style={{opacity: 0.9}} /> : null}
       </div>
       {number ? (
-        <div style={{position: 'absolute', left: 900, top: 330, ...fade(pNum)}}>
+        <div
+          style={
+            P
+              ? {position: 'absolute', left: 60, right: 60, top: L.top + 450, display: 'flex', flexDirection: 'column', alignItems: 'center', textAlign: 'center', ...fade(pNum)}
+              : {position: 'absolute', left: 900, top: 330, ...fade(pNum)}
+          }
+        >
           {kicker ? <Kicker text={kicker} delay={numberAt + 0.2} /> : null}
-          <div style={{fontFamily: FONT.mono, fontWeight: 600, fontSize: 220, letterSpacing: -6, color: AMB.heroNum, textShadow: `0 0 50px ${AMB.heroNumGlow}`, marginTop: 10}}>
+          <div style={{fontFamily: FONT.mono, fontWeight: 600, fontSize: P ? 200 : 220, letterSpacing: -6, color: AMB.heroNum, textShadow: `0 0 50px ${AMB.heroNumGlow}`, marginTop: 10}}>
             <Odometer text={number} delay={numberAt + 0.35} />
           </div>
-          {label ? <div style={{fontFamily: FONT.title, fontWeight: 300, fontSize: 46, color: C.paper, marginTop: 10}}>{label}</div> : null}
+          {label ? <div style={{fontFamily: FONT.title, fontWeight: 300, fontSize: P ? 40 : 46, color: C.paper, marginTop: 10, maxWidth: P ? 860 : undefined, lineHeight: P ? 1.25 : undefined}}>{label}</div> : null}
         </div>
       ) : null}
-      <PhotoCredit id={photo} />
-      {source ? <Source text={source} /> : null}
+      <StageBox>
+        <PhotoCredit id={photo} />
+        {source ? <Source text={source} /> : null}
+      </StageBox>
     </AbsoluteFill>
   );
 };

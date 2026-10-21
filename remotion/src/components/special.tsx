@@ -1,7 +1,7 @@
 import React from 'react';
 import {AbsoluteFill, Easing, interpolate, random, spring, useCurrentFrame, useVideoConfig} from 'remotion';
 import {C, FONT} from '../theme';
-import {Frame, fade, glass, useEnter} from './common';
+import {Frame, fade, glass, useEnter, useLayout} from './common';
 import {GoldText, LightSweep, RevealWords, gold} from './fx';
 import {PhotoLayer} from './media';
 
@@ -170,6 +170,9 @@ export const EndScreen: React.FC<{suggested?: boolean}> = ({suggested = true}) =
 export const CreditsFlow: React.FC<{title: string; source?: string}> = ({title, source}) => {
   const frame = useCurrentFrame();
   const {fps} = useVideoConfig();
+  const P = useLayout().portrait;
+  // Géométrie : paysage (largeur utile 1620) ou portrait (940) ; les deux colonnes et les flux suivent.
+  const G = P ? {w: 940, boxA: 0, boxB: 470, left: 300, right: 640, label: 300} : {w: 1620, boxA: 80, boxB: 1080, left: 400, right: 1240, label: 650};
   const pLimit = useEnter(0.3);
   const pA = useEnter(1.2, 18);
   const pB = useEnter(2.6, 18);
@@ -181,15 +184,15 @@ export const CreditsFlow: React.FC<{title: string; source?: string}> = ({title, 
         <div style={{height: 520, position: 'relative'}}>
           <div style={{position: 'absolute', bottom: 0, left: 120, width: 230, height: emissions * Math.max(0, p), background: `linear-gradient(180deg, ${grad[1]}, ${grad[0]})`, borderRadius: '12px 12px 0 0', boxShadow: `0 0 60px ${grad[2]}, inset 0 2px 0 rgba(255,255,255,0.35)`}} />
         </div>
-        <div style={{fontFamily: FONT.title, fontWeight: 800, fontSize: 44, color: C.paper, textAlign: 'center', marginTop: 22}}>{label}</div>
-        <div style={{fontFamily: FONT.title, fontWeight: 300, fontSize: 28, color: C.paper, opacity: 0.75, textAlign: 'center'}}>{sub}</div>
+        <div style={{fontFamily: FONT.title, fontWeight: 800, fontSize: P ? 42 : 44, color: C.paper, textAlign: 'center', marginTop: 22}}>{label}</div>
+        <div style={{fontFamily: FONT.title, fontWeight: 300, fontSize: P ? 27 : 28, color: C.paper, opacity: 0.75, textAlign: 'center'}}>{sub}</div>
       </div>
     );
   };
   // Particules sur deux arcs : argent de gauche à droite (en haut), crédits de droite à gauche (en bas).
   const arc = (k: number, upper: boolean) => {
-    const x0 = upper ? 400 : 1240;
-    const x1 = upper ? 1240 : 400;
+    const x0 = upper ? G.left : G.right;
+    const x1 = upper ? G.right : G.left;
     const x = x0 + (x1 - x0) * k;
     const y = (upper ? 210 : 300) - Math.sin(k * Math.PI) * (upper ? 110 : -60);
     return {x, y};
@@ -208,18 +211,18 @@ export const CreditsFlow: React.FC<{title: string; source?: string}> = ({title, 
   return (
     <Frame title={title} source={source}>
       <div style={{position: 'absolute', inset: 0}}>
-        {box('Other carmaker', 'Many gasoline vehicles', 440, 'brick', pA, 80)}
-        {box('Tesla', 'Electric vehicles only', 40, 'teal', pB, 1080)}
+        {box('Other carmaker', 'Many gasoline vehicles', 440, 'brick', pA, G.boxA)}
+        {box('Tesla', 'Electric vehicles only', 40, 'teal', pB, G.boxB)}
         <div style={{position: 'absolute', left: 0, right: 0, bottom: 370, borderTop: `3px dashed ${C.gold}`, opacity: pLimit, filter: 'drop-shadow(0 0 8px rgba(240,181,78,0.7))', transformOrigin: 'left', transform: `scaleX(${Math.min(1, pLimit)})`}} />
-        <div style={{position: 'absolute', right: 0, bottom: 386, fontFamily: FONT.mono, fontSize: 26, letterSpacing: 4, color: C.gold, opacity: pLimit}}>EMISSIONS LIMIT</div>
-        <svg width={1620} height={500} style={{position: 'absolute', left: 0, top: 0, overflow: 'visible', opacity: flow}}>
-          <path d="M 400 210 Q 820 -10 1240 210" fill="none" stroke={C.gold} strokeOpacity={0.35} strokeWidth={2} strokeDasharray="6 10" />
-          <path d="M 1240 300 Q 820 420 400 300" fill="none" stroke={C.teal} strokeOpacity={0.35} strokeWidth={2} strokeDasharray="6 10" />
+        <div style={{position: 'absolute', right: 0, bottom: P ? 330 : 386, fontFamily: FONT.mono, fontSize: 26, letterSpacing: 4, color: C.gold, opacity: pLimit}}>EMISSIONS LIMIT</div>
+        <svg width={G.w} height={500} style={{position: 'absolute', left: 0, top: 0, overflow: 'visible', opacity: flow}}>
+          <path d={`M ${G.left} 210 Q ${(G.left + G.right) / 2} -10 ${G.right} 210`} fill="none" stroke={C.gold} strokeOpacity={0.35} strokeWidth={2} strokeDasharray="6 10" />
+          <path d={`M ${G.right} 300 Q ${(G.left + G.right) / 2} 420 ${G.left} 300`} fill="none" stroke={C.teal} strokeOpacity={0.35} strokeWidth={2} strokeDasharray="6 10" />
         </svg>
         {stream(true, C.goldLight, '$')}
         {stream(false, '#7FF5E4', '◆')}
-        <div style={{position: 'absolute', left: 650, top: 40, width: 340, textAlign: 'center', fontFamily: FONT.mono, fontSize: 28, letterSpacing: 3, color: C.gold, opacity: flow}}>MONEY →</div>
-        <div style={{position: 'absolute', left: 650, top: 400, width: 340, textAlign: 'center', fontFamily: FONT.mono, fontSize: 28, letterSpacing: 3, color: C.teal, opacity: flow}}>← CREDITS</div>
+        <div style={{position: 'absolute', left: G.label, top: 40, width: 340, textAlign: 'center', fontFamily: FONT.mono, fontSize: 28, letterSpacing: 3, color: C.gold, opacity: flow}}>MONEY →</div>
+        <div style={{position: 'absolute', left: G.label, top: 400, width: 340, textAlign: 'center', fontFamily: FONT.mono, fontSize: 28, letterSpacing: 3, color: C.teal, opacity: flow}}>← CREDITS</div>
       </div>
     </Frame>
   );

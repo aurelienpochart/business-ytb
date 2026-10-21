@@ -16,3 +16,4 @@ remotion/public/*
 !remotion/public/.gitkeep
 !remotion/public/sfx/
 videos/*/build/narration.wav
+videos/*/shorts/*/build/narration.wav

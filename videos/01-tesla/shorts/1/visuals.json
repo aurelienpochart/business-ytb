@@ -1,0 +1,9 @@
+[
+  {"at": "p0", "type": "hero", "props": {"photo": "model_s", "logo": "logo_tesla_t", "wordmark": "logo_tesla_word", "number": "$721M", "label": "net profit, its first profitable year", "kicker": "Tesla, 2020", "numberAt": {"$t": "seven hundred", "offset": -0.5}, "logoWidth": 300, "logoHeight": 300, "source": "Tesla Q4 2020 shareholder letter"}},
+  {"at": "p1", "type": "bars", "props": {"title": "Tesla, 2020 ($ millions)", "bars": [{"label": "Net profit", "value": 721, "color": "teal"}, {"label": "Paid by other carmakers", "value": 1580, "color": "amber", "note": "regulatory credits"}], "prefix": "$", "delays": [0.2, {"$t": "one billion", "offset": -0.2}], "source": "Tesla Q4 2020 shareholder letter"}},
+  {"at": "p2", "type": "tiles", "props": {"kicker": "Pollution limits, on average", "items": [{"icon": "Landmark", "label": "California"}, {"icon": "Landmark", "label": "European Union"}, {"icon": "Landmark", "label": "China"}], "stagger": 0.5}, "bg": "capitol"},
+  {"at": "p3", "type": "credits", "props": {"title": "How regulatory credits work"}},
+  {"at": "p4", "type": "statement", "props": {"kicker": "Cost to Tesla", "text": "Almost *nothing*.", "sub": "Every electric car sold generates credits", "icon": "Sparkles"}},
+  {"at": "p4", "after": "virtually pure profit", "type": "quote", "props": {"text": "Virtually pure profit.", "by": "Transport Topics, Feb. 9, 2024", "source": "Transport Topics (Feb. 9, 2024)"}},
+  {"at": "p5", "type": "bars", "props": {"title": "Tesla, 2020 ($ billions)", "bars": [{"label": "Regulatory credits", "value": 1.58, "color": "amber", "note": "more than 2×"}, {"label": "Net profit", "value": 0.72, "color": "teal"}], "prefix": "$", "decimals": 2, "delays": [0.3, {"$t": "Tesla's entire net profit", "offset": -0.2}], "source": "Tesla Q4 2020 shareholder letter"}, "bg": "model_s"}
+]

@@ -1,0 +1,8 @@
+[
+  {"at": "p0", "type": "statement", "props": {"kicker": "January 27, 2025", "text": "DeepSeek: a strong AI model for *under $6 million*.", "sub": "according to its researchers", "icon": "Sparkles", "source": "Reuters (Jan. 28, 2025)"}, "bg": "beijing"},
+  {"at": "p1", "type": "numbers", "props": {"title": "Nvidia, January 27, 2025", "items": [{"value": 593, "prefix": "−$", "suffix": "B", "label": "market value lost in one day, a Wall Street record", "color": "brick", "icon": "TrendingDown"}], "source": "Reuters (Jan. 28, 2025)"}, "bg": "nyse"},
+  {"at": "p2", "type": "statement", "props": {"text": "Cheaper AI should need *fewer chips*.", "icon": "TrendingDown"}, "bg": "nyse"},
+  {"at": "p3", "type": "tiles", "props": {"kicker": "The Jevons paradox", "items": [{"icon": "BadgePercent", "label": "Cheaper to use", "color": "slate"}, {"icon": "Lightbulb", "label": "Many new uses", "color": "amber"}, {"icon": "TrendingUp", "label": "Total demand goes up", "color": "teal"}], "delays": [0.3, {"$t": "new uses", "offset": -0.2}, {"$t": "total demand", "offset": 0}]}, "bg": "gpu_die"},
+  {"at": "p4", "type": "bars", "props": {"title": "Nvidia revenue per quarter ($ billions)", "bars": [{"label": "Nov 2024 – Jan 2025", "value": 39, "color": "slate", "note": "the DeepSeek scare"}, {"label": "May – Jul 2026", "value": 96, "color": "amber", "note": "18 months later"}], "prefix": "$", "delays": [0.3, {"$t": "Eighteen months", "offset": 0.2}], "source": "NVIDIA fiscal 2026 and Q2 fiscal 2027 results"}},
+  {"at": "p5", "type": "photo", "props": {"photo": "dc_aerial", "text": "Cheaper AI helped put AI *everywhere*."}}
+]

@@ -1,0 +1,13 @@
+{
+  "format": "Myth vs Reality",
+  "from": "chapitre 4 de la vidéo longue (DeepSeek, paradoxe de Jevons)",
+  "hook": "Cheaper AI was supposed to *sink Nvidia.*",
+  "paragraphs": [
+    "On {January twenty-seventh, 2025,|January 27, 2025,} a Chinese lab called DeepSeek said it had trained a strong AI model for under {six million dollars.|$6 million.}",
+    "That day, Nvidia lost {five hundred and ninety-three billion dollars|$593 billion} of market value, the biggest one-day loss for any company on Wall Street.",
+    "The fear made sense on paper. Cheaper AI should need fewer chips.",
+    "But economists have a name for what often happens instead: the Jevons paradox. When something becomes cheaper to use, people find so many new uses for it that total demand goes up, not down.",
+    "In the quarter of the DeepSeek scare, Nvidia's revenue was about {thirty-nine billion dollars.|$39 billion.} Eighteen months later, it was {ninety-six.|$96 billion.}",
+    "Cheaper AI didn't shrink the market for Nvidia's chips. It helped put AI everywhere. Full story on the channel."
+  ]
+}

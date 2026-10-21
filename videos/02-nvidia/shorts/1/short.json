@@ -1,0 +1,11 @@
+{
+  "format": "The Clip",
+  "from": "chapitres 0 et 5 de la vidéo longue (marge de 75 %, puces maison des clients)",
+  "hook": "Nvidia's biggest rival? *Its best customers.*",
+  "paragraphs": [
+    "Between May and July 2026, out of every dollar of Nvidia's sales, about {seventy-five cents|75 cents} was left after paying for what it cost to make them.",
+    "Now put yourself in the place of its biggest customers. Only about a quarter of what you pay Nvidia covers what the product costs to make. Build a chip that's good enough for your own needs, and you keep much of the rest.",
+    "And they are building them. Google designs its own, called TPUs. Amazon has Trainium. OpenAI is designing chips with Broadcom. And Meta's own chip is about to ship in volume.",
+    "That's the real competition. Not a rival selling the same thing. Customers deciding they'd rather make it themselves. Full story on the channel."
+  ]
+}

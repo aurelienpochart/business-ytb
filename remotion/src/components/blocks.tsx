@@ -2,7 +2,7 @@ import React from 'react';
 import {Easing, interpolate, spring, useCurrentFrame, useVideoConfig} from 'remotion';
 import {icons} from 'lucide-react';
 import {C, FONT} from '../theme';
-import {Frame, colorOf, fade, formatNumber, glass, gradOf, useEnter} from './common';
+import {Frame, colorOf, fade, formatNumber, glass, gradOf, useEnter, useLayout} from './common';
 import {Kicker, Odometer, RevealWords, TechRing} from './fx';
 import {Logo} from './media';
 
@@ -37,6 +37,7 @@ export const Statement: React.FC<{kicker?: string; text: string; sub?: string; s
   const words = text.replace(/\*/g, '').split(/\s+/).length;
   const p2 = useEnter(0.35 + words * 0.07);
   const iconP = useEnter(0.3);
+  const P = useLayout().portrait;
   const watermark = (kicker ?? text.match(/\*([^*]+)\*/)?.[1] ?? '').replace(/[.]/g, '').toUpperCase();
   return (
     <Frame source={source}>
@@ -44,11 +45,11 @@ export const Statement: React.FC<{kicker?: string; text: string; sub?: string; s
         <div
           style={{
             position: 'absolute',
-            left: -150 - frame * 0.6,
-            top: 60,
+            left: (P ? -70 : -150) - frame * 0.6,
+            top: P ? 0 : 60,
             fontFamily: FONT.title,
             fontWeight: 900,
-            fontSize: 380,
+            fontSize: P ? 250 : 380,
             whiteSpace: 'nowrap',
             color: 'transparent',
             WebkitTextStroke: '2px rgba(240,181,78,0.07)',
@@ -58,28 +59,34 @@ export const Statement: React.FC<{kicker?: string; text: string; sub?: string; s
           {watermark}
         </div>
       ) : null}
-      <div style={{position: 'absolute', inset: 0, display: 'flex', alignItems: 'center', gap: 80}}>
-        <div style={{flex: 1, display: 'flex', flexDirection: 'column', justifyContent: 'center'}}>
+      <div
+        style={
+          P
+            ? {position: 'absolute', inset: 0, display: 'flex', flexDirection: 'column-reverse', alignItems: 'center', justifyContent: 'center', gap: 40, textAlign: 'center'}
+            : {position: 'absolute', inset: 0, display: 'flex', alignItems: 'center', gap: 80}
+        }
+      >
+        <div style={P ? {display: 'flex', flexDirection: 'column', alignItems: 'center'} : {flex: 1, display: 'flex', flexDirection: 'column', justifyContent: 'center'}}>
           {kicker ? (
-            <div style={{marginBottom: 36}}>
+            <div style={{marginBottom: P ? 30 : 36}}>
               <Kicker text={kicker} />
             </div>
           ) : null}
-          <div style={{fontFamily: FONT.display, fontWeight: 400, fontSize: 132, lineHeight: 1.02, color: C.paper, maxWidth: icon ? 1100 : 1550, letterSpacing: -1}}>
+          <div style={{fontFamily: FONT.display, fontWeight: 400, fontSize: P ? 104 : 132, lineHeight: 1.02, color: C.paper, maxWidth: P ? 940 : icon ? 1100 : 1550, letterSpacing: -1}}>
             <RevealWords text={text} delay={0.15} stagger={0.075} />
           </div>
           {sub ? (
-            <div style={{...fade(p2), fontFamily: FONT.title, fontWeight: 300, fontSize: 42, color: C.paper, opacity: 0.78 * Math.min(1, p2), marginTop: 44, maxWidth: 1300, letterSpacing: 0.2}}>
+            <div style={{...fade(p2), fontFamily: FONT.title, fontWeight: 300, fontSize: P ? 36 : 42, color: C.paper, opacity: 0.78 * Math.min(1, p2), marginTop: P ? 30 : 44, maxWidth: P ? 900 : 1300, letterSpacing: 0.2, lineHeight: P ? 1.3 : undefined}}>
               {sub.replace(/\*/g, '')}
             </div>
           ) : null}
         </div>
         {icon ? (
-          <div style={{position: 'relative', width: 460, height: 460, display: 'flex', alignItems: 'center', justifyContent: 'center', ...fade(iconP)}}>
-            <div style={{position: 'absolute', inset: 40, ...glass('rgba(240,181,78,0.35)'), borderRadius: '50%'}} />
-            <TechRing size={460} delay={0.3} />
+          <div style={{position: 'relative', width: P ? 300 : 460, height: P ? 300 : 460, display: 'flex', alignItems: 'center', justifyContent: 'center', flexShrink: P ? 0 : undefined, ...fade(iconP)}}>
+            <div style={{position: 'absolute', inset: P ? 26 : 40, ...glass('rgba(240,181,78,0.35)'), borderRadius: '50%'}} />
+            <TechRing size={P ? 300 : 460} delay={0.3} />
             <div style={{transform: `translateY(${Math.sin(frame / fps) * 8}px)`}}>
-              <IconDraw name={icon} size={200} delay={0.35} uid={`st${icon}${text.length}`} />
+              <IconDraw name={icon} size={P ? 130 : 200} delay={0.35} uid={`st${icon}${text.length}`} />
             </div>
           </div>
         ) : null}
@@ -90,34 +97,38 @@ export const Statement: React.FC<{kicker?: string; text: string; sub?: string; s
 
 // ---------- Grands chiffres ----------
 type Num = {value: number; prefix?: string; suffix?: string; decimals?: number; label: string; color?: string; icon?: string};
-export const BigNumbers: React.FC<{title?: string; items: Num[]; source?: string}> = ({title, items, source}) => (
-  <Frame title={title} source={source}>
-    <div style={{position: 'absolute', inset: 0, display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 90}}>
-      {items.map((item, i) => (
-        <NumberItem key={i} item={item} delay={0.25 + i * 0.9} big={items.length === 1} />
-      ))}
-    </div>
-  </Frame>
-);
+export const BigNumbers: React.FC<{title?: string; items: Num[]; source?: string}> = ({title, items, source}) => {
+  const P = useLayout().portrait;
+  return (
+    <Frame title={title} source={source}>
+      <div style={{position: 'absolute', inset: 0, display: 'flex', flexDirection: P ? 'column' : undefined, alignItems: 'center', justifyContent: 'center', gap: P ? 10 : 90}}>
+        {items.map((item, i) => (
+          <NumberItem key={i} item={item} delay={0.25 + i * 0.9} big={items.length === 1} />
+        ))}
+      </div>
+    </Frame>
+  );
+};
 
 const NumberItem: React.FC<{item: Num; delay: number; big: boolean}> = ({item, delay, big}) => {
   const p = useEnter(delay);
   const text = `${item.prefix ?? ''}${formatNumber(Math.abs(item.value), item.decimals ?? 0)}${item.suffix ?? ''}`;
   const neg = item.value < 0;
-  const ring = big ? 620 : 520;
+  const P = useLayout().portrait;
+  const ring = P ? (big ? 580 : 370) : big ? 620 : 520;
   return (
-    <div style={{position: 'relative', width: big ? 1100 : 720, height: ring, display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', ...fade(p)}}>
+    <div style={{position: 'relative', width: P ? 940 : big ? 1100 : 720, height: ring, display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', ...fade(p)}}>
       <TechRing size={ring} delay={delay} color={gradOf(item.color ?? 'amber')[1]} />
       {item.icon ? (
         <div style={{marginBottom: 10}}>
           <IconDraw name={item.icon} size={64} delay={delay} color={gradOf(item.color ?? 'amber')[1]} uid={`n${item.icon}${delay}`} />
         </div>
       ) : null}
-      <div style={{fontFamily: FONT.mono, fontWeight: 600, fontSize: big ? 190 : 140, letterSpacing: -4, ...glowText(item.color ?? 'amber')}}>
+      <div style={{fontFamily: FONT.mono, fontWeight: 600, fontSize: P ? (big ? 170 : 124) : big ? 190 : 140, letterSpacing: -4, ...glowText(item.color ?? 'amber')}}>
         {neg ? '−' : ''}
         <Odometer text={text} delay={delay + 0.1} />
       </div>
-      <div style={{fontFamily: FONT.title, fontWeight: 400, fontSize: 36, color: C.paper, opacity: 0.85, marginTop: 26, maxWidth: 560, textAlign: 'center', letterSpacing: 1}}>
+      <div style={{fontFamily: FONT.title, fontWeight: 400, fontSize: P ? 34 : 36, color: C.paper, opacity: 0.85, marginTop: P ? 16 : 26, maxWidth: P ? 760 : 560, textAlign: 'center', letterSpacing: 1}}>
         {item.label}
       </div>
     </div>
@@ -127,7 +138,8 @@ const NumberItem: React.FC<{item: Num; delay: number; big: boolean}> = ({item, d
 // ---------- Barres ----------
 type Bar = {label: string; value: number; color?: string; note?: string};
 const CHART_H = 560;
-export const Bars: React.FC<{title: string; bars: Bar[]; prefix?: string; suffix?: string; decimals?: number; max?: number; stagger?: number; source?: string}> = ({
+const CHART_H_PORTRAIT = 640;
+export const Bars: React.FC<{title: string; bars: Bar[]; prefix?: string; suffix?: string; decimals?: number; max?: number; stagger?: number; delays?: number[]; source?: string}> = ({
   title,
   bars,
   prefix = '',
@@ -135,28 +147,31 @@ export const Bars: React.FC<{title: string; bars: Bar[]; prefix?: string; suffix
   decimals = 0,
   max,
   stagger = 0.35,
+  delays,
   source,
 }) => {
   const frame = useCurrentFrame();
   const {fps} = useVideoConfig();
+  const P = useLayout().portrait;
   const posMax = Math.max(0, ...bars.map((b) => b.value));
   const negMax = Math.max(0, ...bars.map((b) => -b.value));
   const span = (max ?? posMax + negMax) * 1.12;
-  const posH = (posMax / span) * CHART_H + (negMax ? 60 : 0);
-  const negH = (negMax / span) * CHART_H + (negMax ? 60 : 0);
+  const chartH = P ? CHART_H_PORTRAIT : CHART_H;
+  const posH = (posMax / span) * chartH + (negMax ? 60 : 0);
+  const negH = (negMax / span) * chartH + (negMax ? 60 : 0);
   const n = bars.length;
-  const width = Math.min(200, 1300 / n - 40);
+  const width = P ? Math.min(210, 900 / n - 34) : Math.min(200, 1300 / n - 40);
   const grid = interpolate(frame, [0, 0.9 * fps], [0, 1], {...clamp, easing: Easing.out(Easing.cubic)});
   return (
     <Frame title={title} source={source}>
-      <div style={{position: 'absolute', left: 0, right: 0, bottom: 90, height: posH + negH, transform: `perspective(1800px) rotateX(${9 + Math.sin(frame / fps / 3) * 1.5}deg) rotateY(${-7 + Math.sin(frame / fps / 4) * 3}deg)`, transformOrigin: '50% 100%'}}>
+      <div style={{position: 'absolute', left: 0, right: 0, bottom: P ? 130 : 90, height: posH + negH, transform: `perspective(1800px) rotateX(${9 + Math.sin(frame / fps / 3) * 1.5}deg) rotateY(${-7 + Math.sin(frame / fps / 4) * 3}deg)`, transformOrigin: '50% 100%'}}>
         {[0.25, 0.5, 0.75, 1].map((g) => (
           <div key={g} style={{position: 'absolute', left: 0, right: 0, top: posH - g * posH, height: 1, background: 'linear-gradient(90deg, transparent, rgba(255,255,255,0.08) 15%, rgba(255,255,255,0.08) 85%, transparent)', transformOrigin: 'left', transform: `scaleX(${grid})`}} />
         ))}
         <div style={{position: 'absolute', left: 0, right: 0, top: posH - 1, height: 2, background: 'linear-gradient(90deg, transparent, rgba(240,181,78,0.6), transparent)', transform: `scaleX(${grid})`, boxShadow: '0 0 18px rgba(240,181,78,0.4)'}} />
-        <div style={{position: 'absolute', inset: 0, display: 'flex', justifyContent: 'center', gap: Math.max(40, 120 - n * 10)}}>
+        <div style={{position: 'absolute', inset: 0, display: 'flex', justifyContent: 'center', gap: P ? Math.max(34, 96 - n * 10) : Math.max(40, 120 - n * 10)}}>
           {bars.map((bar, i) => (
-            <BarItem key={i} bar={bar} scale={CHART_H / span} base={posH} width={width} delay={0.4 + i * stagger} prefix={prefix} suffix={suffix} decimals={decimals}
+            <BarItem key={i} bar={bar} scale={chartH / span} base={posH} width={width} delay={delays?.[i] ?? 0.4 + i * stagger} prefix={prefix} suffix={suffix} decimals={decimals}
               labelBelow={negMax > 0 ? posH + negH + 22 : posH + 26} />
           ))}
         </div>
@@ -178,6 +193,7 @@ const BarItem: React.FC<{bar: Bar; scale: number; base: number; width: number; d
 }) => {
   const frame = useCurrentFrame();
   const {fps} = useVideoConfig();
+  const P = useLayout().portrait;
   const p = spring({frame: frame - delay * fps, fps, config: {damping: 16, mass: 0.9, stiffness: 70}});
   const h = Math.max(0, p) * Math.abs(bar.value) * scale;
   const neg = bar.value < 0;
@@ -217,11 +233,11 @@ const BarItem: React.FC<{bar: Bar; scale: number; base: number; width: number; d
           <div style={{position: 'absolute', top: base - h - 58, left: -60, right: -60}}>{label}</div>
         </>
       )}
-      <div style={{position: 'absolute', top: labelBelow, left: -80, right: -80, textAlign: 'center', fontFamily: FONT.mono, fontSize: 26, letterSpacing: 2, color: C.paper, opacity: 0.8 * Math.min(1, Math.max(0, p)), whiteSpace: 'nowrap'}}>
+      <div style={{position: 'absolute', top: labelBelow, left: P ? -Math.max(16, 60 - width / 6) : -80, right: P ? -Math.max(16, 60 - width / 6) : -80, textAlign: 'center', fontFamily: FONT.mono, fontSize: P ? 24 : 26, letterSpacing: 2, color: C.paper, opacity: 0.8 * Math.min(1, Math.max(0, p)), whiteSpace: P ? 'normal' : 'nowrap', lineHeight: P ? 1.25 : undefined}}>
         {bar.label.toUpperCase()}
       </div>
       {bar.note ? (
-        <div style={{position: 'absolute', top: labelBelow + 40, left: -100, right: -100, textAlign: 'center', fontFamily: FONT.title, fontSize: 24, color: C.gold, whiteSpace: 'nowrap', opacity: Math.min(1, Math.max(0, p))}}>{bar.note}</div>
+        <div style={{position: 'absolute', top: labelBelow + (P ? 72 : 40), left: P ? -40 : -100, right: P ? -40 : -100, textAlign: 'center', fontFamily: FONT.title, fontSize: 24, color: C.gold, whiteSpace: P ? 'normal' : 'nowrap', opacity: Math.min(1, Math.max(0, p))}}>{bar.note}</div>
       ) : null}
     </div>
   );
@@ -300,8 +316,9 @@ export const Line: React.FC<{
 }> = ({title, points, compare, name, prefix = '', suffix = '', decimals = 0, min = 0, max, color = 'amber', draw: drawSpan = [0.5, 3.4], source}) => {
   const frame = useCurrentFrame();
   const {fps} = useVideoConfig();
-  const W = 1480;
-  const H = 520;
+  const P = useLayout().portrait;
+  const W = P ? 820 : 1480;
+  const H = P ? 560 : 520;
   const all = [...points, ...(compare?.points ?? [])].map((p) => p.y);
   const top = max ?? Math.max(...all) * 1.18;
   const xs = (i: number, n: number) => (n === 1 ? W / 2 : (i / (n - 1)) * W);
@@ -365,7 +382,7 @@ export const Line: React.FC<{
   };
   return (
     <Frame title={title} source={source}>
-      <svg width={W + 280} height={H + 100} style={{overflow: 'visible', marginTop: 50, transform: `perspective(1800px) rotateX(${8 + Math.sin(frame / fps / 3) * 1.5}deg) rotateY(${-6 + Math.sin(frame / fps / 4) * 3}deg)`, transformOrigin: '50% 100%'}}>
+      <svg width={W + (P ? 120 : 280)} height={H + 100} style={{overflow: 'visible', marginTop: P ? 70 : 50, marginLeft: P ? 30 : undefined, transform: `perspective(1800px) rotateX(${8 + Math.sin(frame / fps / 3) * 1.5}deg) rotateY(${-6 + Math.sin(frame / fps / 4) * 3}deg)`, transformOrigin: '50% 100%'}}>
         {[0.25, 0.5, 0.75, 1].map((g) => (
           <line key={g} x1={0} x2={W * grid} y1={H - g * H} y2={H - g * H} stroke="rgba(255,255,255,0.07)" strokeWidth={1.5} />
         ))}
@@ -466,65 +483,85 @@ const TimelineEvent: React.FC<{event: Event; delay: number}> = ({event, delay}) 
 
 // ---------- Tuiles à icônes (activités, acteurs, régions), avec mise en avant éventuelle ----------
 type Tile = {icon?: string; image?: string; imageColor?: 'white' | 'original'; label: string; sub?: string; value?: string; color?: string};
-export const Tiles: React.FC<{title?: string; kicker?: string; items: Tile[]; focus?: number; stagger?: number; start?: number; source?: string}> = ({
+export const Tiles: React.FC<{title?: string; kicker?: string; items: Tile[]; focus?: number; stagger?: number; start?: number; delays?: number[]; source?: string}> = ({
   title,
   kicker,
   items,
   focus,
   stagger = 0.35,
   start = 0.2,
+  delays,
   source,
 }) => {
   const frame = useCurrentFrame();
   const {fps} = useVideoConfig();
-  const focusP = focus === undefined ? 0 : spring({frame: frame - (start + items.length * stagger + 0.2) * fps, fps, config: {damping: 200}});
+  const P = useLayout().portrait;
+  const delayOf = (i: number) => delays?.[i] ?? start + i * stagger;
+  const focusP = focus === undefined ? 0 : spring({frame: frame - (delays ? Math.max(...delays) + 0.6 : start + items.length * stagger + 0.2) * fps, fps, config: {damping: 200}});
   const n = items.length;
-  const w = Math.min(420, (1620 - (n - 1) * 36) / n);
+  // Portrait : 3 tuiles = 3 cartes en ligne empilées ; 4 tuiles = grille 2 x 2 ; sinon une rangée.
+  const rows = P && n === 3;
+  const cols = P ? (rows ? 1 : n === 4 ? 2 : n) : n;
+  const w = P ? (rows ? 940 : Math.min(440, (940 - (cols - 1) * 28) / cols)) : Math.min(420, (1620 - (n - 1) * 36) / n);
   return (
     <Frame title={title} source={source}>
       {kicker ? (
-        <div style={{position: 'absolute', top: title ? -10 : 40, left: 0}}>
+        <div style={{position: 'absolute', top: P ? 0 : title ? -10 : 40, left: 0}}>
           <Kicker text={kicker} />
         </div>
       ) : null}
-      <div style={{position: 'absolute', inset: 0, display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 36, perspective: 1800}}>
+      <div
+        style={
+          P
+            ? {position: 'absolute', left: 0, right: 0, top: kicker ? 64 : 0, bottom: 0, display: 'flex', flexWrap: 'wrap', alignItems: 'center', alignContent: 'center', justifyContent: 'center', gap: rows ? 24 : 28, perspective: 1800}
+            : {position: 'absolute', inset: 0, display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 36, perspective: 1800}
+        }
+      >
         {items.map((it, i) => {
-          const delay = start + i * stagger;
+          const delay = delayOf(i);
           const p = spring({frame: frame - delay * fps, fps, config: {damping: 18, mass: 0.8}});
           const q = Math.min(1, Math.max(0, p));
           const isFocus = focus === i;
           const dim = focus !== undefined && !isFocus ? focusP : 0;
           const [, hi, halo] = gradOf(it.color ?? 'amber');
+          const iconBox = P ? (rows ? 130 : 140) : 170;
+          const imageH = P ? 150 : 300;
+          const body = (
+            <>
+              {it.image ? null : <div style={{fontFamily: FONT.title, fontWeight: 800, fontSize: P ? (rows ? 44 : 38) : w > 360 ? 42 : 36, color: C.paper, letterSpacing: -0.5, lineHeight: 1.1}}>{it.label}</div>}
+              {it.value ? (
+                <div style={{fontFamily: FONT.mono, fontWeight: 600, fontSize: P ? 46 : 52, marginTop: P ? 12 : 18, ...glowText(it.color ?? 'amber')}}>
+                  <Odometer text={it.value} delay={delay + 0.2} />
+                </div>
+              ) : null}
+              {it.sub ? <div style={{fontFamily: FONT.title, fontWeight: 300, fontSize: P ? 27 : 26, color: C.paper, opacity: 0.75, marginTop: P ? 10 : 14, lineHeight: 1.3}}>{it.sub}</div> : null}
+            </>
+          );
           return (
             <div
               key={i}
               style={{
                 width: w,
-                minHeight: it.image ? 380 : 470,
-                justifyContent: it.image ? 'center' : undefined,
-                padding: '50px 34px 40px',
+                minHeight: P ? (rows ? 190 : it.image ? 340 : 380) : it.image ? 380 : 470,
+                justifyContent: it.image || rows ? 'center' : undefined,
+                padding: P ? (rows ? '26px 40px 26px 30px' : '34px 24px 30px') : '50px 34px 40px',
                 display: 'flex',
-                flexDirection: 'column',
+                flexDirection: rows ? 'row' : 'column',
                 alignItems: 'center',
-                textAlign: 'center',
+                gap: rows ? 34 : undefined,
+                textAlign: rows ? 'left' : 'center',
                 ...glass(isFocus ? `rgba(240,181,78,${0.3 + 0.5 * focusP})` : undefined),
                 opacity: q * (1 - 0.65 * dim),
                 transform: `translateY(${(1 - p) * 80}px) rotateY(${(1 - p) * (i - (n - 1) / 2) * -12}deg) scale(${1 + (isFocus ? 0.07 * focusP : -0.05 * dim)})`,
                 filter: q < 0.97 ? `blur(${(1 - q) * 8}px)` : dim > 0.05 ? `saturate(${1 - 0.6 * dim})` : undefined,
               }}
             >
-              <div style={{position: 'relative', width: it.image ? w - 60 : 170, height: it.image ? 300 : 170, display: 'flex', alignItems: 'center', justifyContent: 'center', marginBottom: it.image ? 0 : 30}}>
+              <div style={{position: 'relative', width: it.image ? w - 60 : iconBox, height: it.image ? imageH : iconBox, display: 'flex', alignItems: 'center', justifyContent: 'center', marginBottom: it.image || rows ? 0 : P ? 22 : 30, flexShrink: P ? 0 : undefined}}>
                 <div style={{position: 'absolute', inset: 0, borderRadius: '50%', background: `radial-gradient(circle, ${halo} 0%, transparent 70%)`, opacity: 0.6}} />
                 {it.image ? null : <div style={{position: 'absolute', inset: 10, borderRadius: '50%', border: `1.5px solid ${hi}55`}} />}
-                {it.image ? <Logo id={it.image} height={110} color={it.imageColor ?? 'white'} style={{maxWidth: w - 70}} /> : <IconDraw name={it.icon ?? 'Circle'} size={84} delay={delay + 0.1} color={hi} uid={`tile${i}${it.icon}${n}`} />}
+                {it.image ? <Logo id={it.image} height={P ? 84 : 110} color={it.imageColor ?? 'white'} style={{maxWidth: w - 70}} /> : <IconDraw name={it.icon ?? 'Circle'} size={P ? 70 : 84} delay={delay + 0.1} color={hi} uid={`tile${i}${it.icon}${n}`} />}
               </div>
-              {it.image ? null : <div style={{fontFamily: FONT.title, fontWeight: 800, fontSize: w > 360 ? 42 : 36, color: C.paper, letterSpacing: -0.5, lineHeight: 1.1}}>{it.label}</div>}
-              {it.value ? (
-                <div style={{fontFamily: FONT.mono, fontWeight: 600, fontSize: 52, marginTop: 18, ...glowText(it.color ?? 'amber')}}>
-                  <Odometer text={it.value} delay={delay + 0.2} />
-                </div>
-              ) : null}
-              {it.sub ? <div style={{fontFamily: FONT.title, fontWeight: 300, fontSize: 26, color: C.paper, opacity: 0.75, marginTop: 14, lineHeight: 1.3}}>{it.sub}</div> : null}
+              {rows ? <div style={{flex: 1}}>{body}</div> : body}
             </div>
           );
         })}
@@ -538,13 +575,14 @@ export const Quote: React.FC<{text: string; by: string; source?: string}> = ({te
   const frame = useCurrentFrame();
   const {fps} = useVideoConfig();
   const mark = spring({frame, fps, config: {damping: 14}});
+  const P = useLayout().portrait;
   const words = text.split(/\s+/).length;
   const pBy = useEnter(0.4 + words * 0.08);
   return (
     <Frame source={source}>
       <div style={{position: 'absolute', inset: 0, display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center', textAlign: 'center'}}>
-        <div style={{fontFamily: FONT.display, fontSize: 360, lineHeight: 0.6, height: 170, ...glowText('amber'), opacity: Math.min(1, mark), transform: `scale(${0.6 + 0.4 * mark})`}}>“</div>
-        <div style={{fontFamily: FONT.display, fontStyle: 'italic', fontSize: 140, lineHeight: 1.05, color: C.paper, maxWidth: 1500}}>
+        <div style={{fontFamily: FONT.display, fontSize: P ? 280 : 360, lineHeight: 0.6, height: P ? 130 : 170, ...glowText('amber'), opacity: Math.min(1, mark), transform: `scale(${0.6 + 0.4 * mark})`}}>“</div>
+        <div style={{fontFamily: FONT.display, fontStyle: 'italic', fontSize: P ? 108 : 140, lineHeight: 1.05, color: C.paper, maxWidth: P ? 940 : 1500}}>
           <RevealWords text={text} delay={0.3} stagger={0.09} />
         </div>
         <div style={{...fade(pBy), marginTop: 50}}>

@@ -15,7 +15,7 @@ const CARD_LEAD = 0.9; // la carte de chapitre commence pendant la pause qui pr�
 const CARD_SECONDS = 2.7;
 const CARD_DELAY = 1.6; // le premier plan du chapitre démarre ses animations après la carte
 
-const BLOCKS: Record<string, React.FC<any>> = {
+export const BLOCKS: Record<string, React.FC<any>> = {
   statement: Statement,
   numbers: BigNumbers,
   bars: Bars,
@@ -32,7 +32,7 @@ const BLOCKS: Record<string, React.FC<any>> = {
   loop: Loop,
 };
 
-const renderVisual = (v: Visual) => {
+export const renderVisual = (v: Visual) => {
   const Block = BLOCKS[v.type];
   if (!Block) throw new Error(`Type de visuel inconnu : ${v.type}`);
   return <Block {...v.props} />;

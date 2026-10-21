@@ -1,0 +1,89 @@
+name: Produire un Short
+
+# Short vertical extrait d'une vidéo longue (charte 6.5) : voix de l'extrait (Chirp 3 HD, -14 LUFS,
+# minutage mot à mot) -> rendu Remotion 1080x1920 30 i/s en qualité maximale -> aperçu léger commité.
+on:
+  workflow_dispatch:
+    inputs:
+      short:
+        description: Dossier du Short
+        default: videos/01-tesla/shorts/1
+
+permissions:
+  contents: write
+  id-token: write
+
+concurrency:
+  group: short-${{ inputs.short }}
+  cancel-in-progress: true
+
+env:
+  SHORT: ${{ inputs.short }}
+
+jobs:
+  short:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+
+      - id: auth
+        uses: google-github-actions/auth@v2
+        with:
+          workload_identity_provider: projects/22144321243/locations/global/workloadIdentityPools/github/providers/business-ytb
+          service_account: pipeline@business-ytb.iam.gserviceaccount.com
+          token_format: access_token
+
+      - name: Installer ffmpeg
+        run: command -v ffmpeg || (sudo apt-get update -q && sudo apt-get install -yq ffmpeg)
+
+      - name: Narration de l'extrait (même voix et même chaîne que la vidéo longue)
+        env:
+          GOOGLE_ACCESS_TOKEN: ${{ steps.auth.outputs.access_token }}
+        run: python3 pipeline/short.py "$SHORT"
+
+      - name: Préparer Remotion
+        working-directory: remotion
+        run: |
+          npm ci --no-audit --no-fund
+          bash ../pipeline/remotion_public_short.sh "../$SHORT"
+          npx remotion browser ensure
+
+      - name: Rendu 1080x1920 (H.264 CRF 12, AAC 320 kb/s)
+        working-directory: remotion
+        run: |
+          npx remotion render Short out/short.mp4 --crf=12 --log=info
+          ffprobe -v error -show_entries format=duration,bit_rate:stream=codec_name,width,height,r_frame_rate,sample_rate -of compact out/short.mp4
+          ffmpeg -hide_banner -nostats -i out/short.mp4 -af ebur128=peak=true -f null - 2>&1 | tail -14
+
+      - name: Aperçu léger et rendu final dans le dépôt
+        run: |
+          mkdir -p "$SHORT/build"
+          ffmpeg -loglevel error -y -i remotion/out/short.mp4 -vf scale=720:1280 -c:v libx264 -crf 26 -preset slow \
+            -c:a aac -b:a 128k -movflags +faststart "$SHORT/build/preview.mp4"
+          size=$(stat -c %s remotion/out/short.mp4)
+          if [ "$size" -lt 40000000 ]; then cp remotion/out/short.mp4 "$SHORT/build/short.mp4"; else rm -f "$SHORT/build/short.mp4"; echo "short.mp4 trop lourd ($size octets) : artefact seulement"; fi
+          ls -la "$SHORT/build"
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: short-final
+          path: |
+            remotion/out/short.mp4
+            ${{ inputs.short }}/build/captions.srt
+          retention-days: 30
+
+      - name: Enregistrer minutage, sous-titres, description et vidéos
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add "$SHORT/build"
+          git add -f "$SHORT/build/preview.mp4"
+          [ -f "$SHORT/build/short.mp4" ] && git add -f "$SHORT/build/short.mp4"
+          git diff --cached --quiet && exit 0
+          git commit -m "Short : $SHORT (narration, sous-titres, aperçu)"
+          for i in 1 2 3 4 5; do
+            git pull --rebase -q && git push && exit 0
+            sleep $((i * 5))
+          done
+          exit 1

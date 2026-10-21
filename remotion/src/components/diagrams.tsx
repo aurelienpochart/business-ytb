@@ -1,7 +1,7 @@
 import React from 'react';
 import {Easing, interpolate, spring, useCurrentFrame, useVideoConfig} from 'remotion';
 import {C, FONT} from '../theme';
-import {Frame, fade, formatNumber, glass, gradOf, useEnter} from './common';
+import {Frame, fade, formatNumber, glass, gradOf, useEnter, useLayout} from './common';
 import {Odometer, TechRing} from './fx';
 import {IconDraw} from './blocks';
 import {Logo} from './media';
@@ -22,23 +22,25 @@ export const Donut: React.FC<{
   focus?: number;
   stagger?: number;
   start?: number;
+  delays?: number[]; // instants d'apparition de chaque part (Shorts : calés sur la narration)
   source?: string;
-}> = ({title, parts, center, centerLabel, prefix = '', suffix = '', decimals = 0, focus, stagger = 1.1, start = 0.4, source}) => {
+}> = ({title, parts, center, centerLabel, prefix = '', suffix = '', decimals = 0, focus, stagger = 1.1, start = 0.4, delays, source}) => {
   const frame = useCurrentFrame();
   const {fps} = useVideoConfig();
   const sum = parts.reduce((a, b) => a + b.value, 0);
-  const R = 250;
-  const W = 92;
+  const P = useLayout().portrait;
+  const R = P ? 190 : 250;
+  const W = P ? 80 : 92;
   const size = 2 * R + W + 80;
   const cx = size / 2;
   const circ = 2 * Math.PI * R;
   const pCenter = useEnter(start + 0.1);
-  const focusP = focus === undefined ? 0 : spring({frame: frame - (start + parts.length * stagger + 0.3) * fps, fps, config: {damping: 200}});
+  const focusP = focus === undefined ? 0 : spring({frame: frame - (delays ? Math.max(...delays) + 1.4 : start + parts.length * stagger + 0.3) * fps, fps, config: {damping: 200}});
   const gapDeg = 1.6;
   let acc = 0;
   return (
     <Frame title={title} source={source}>
-      <div style={{position: 'absolute', inset: 0, display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 110}}>
+      <div style={{position: 'absolute', inset: 0, display: 'flex', flexDirection: P ? 'column' : undefined, alignItems: 'center', justifyContent: 'center', gap: P ? 36 : 110}}>
         <div style={{position: 'relative', width: size, height: size, transform: `perspective(1800px) rotateY(${-8 + Math.sin(frame / fps / 4) * 3}deg) rotateX(${6 + Math.sin(frame / fps / 3) * 1.5}deg)`}}>
           <TechRing size={size + 40} delay={start} />
           <svg width={size} height={size} style={{position: 'absolute', inset: 0, overflow: 'visible'}}>
@@ -47,7 +49,7 @@ export const Donut: React.FC<{
               const share = part.value / sum;
               const from = acc;
               acc += share;
-              const delay = start + i * stagger;
+              const delay = delays?.[i] ?? start + i * stagger;
               const p = interpolate(frame, [delay * fps, (delay + 1.1) * fps], [0, 1], {...clamp, easing: Easing.inOut(Easing.cubic)});
               const len = Math.max(0, share * circ - (gapDeg / 360) * circ) * p;
               const [lo, hi, halo] = gradOf(part.color);
@@ -72,16 +74,16 @@ export const Donut: React.FC<{
           </svg>
           {center ? (
             <div style={{position: 'absolute', inset: 0, display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', ...fade(pCenter)}}>
-              <div style={{fontFamily: FONT.mono, fontWeight: 600, fontSize: center.length > 5 ? 96 : 118, letterSpacing: -3, color: C.paper, textShadow: '0 0 40px rgba(255,255,255,0.25)'}}>
+              <div style={{fontFamily: FONT.mono, fontWeight: 600, fontSize: P ? (center.length > 5 ? 76 : 100) : center.length > 5 ? 96 : 118, letterSpacing: -3, color: C.paper, textShadow: '0 0 40px rgba(255,255,255,0.25)'}}>
                 <Odometer text={center} delay={start + 0.15} />
               </div>
               {centerLabel ? <div style={{fontFamily: FONT.title, fontWeight: 300, fontSize: 30, color: C.paper, opacity: 0.8, marginTop: 8, maxWidth: 330, textAlign: 'center', lineHeight: 1.2}}>{centerLabel}</div> : null}
             </div>
           ) : null}
         </div>
-        <div style={{display: 'flex', flexDirection: 'column', gap: 34, width: 640}}>
+        <div style={P ? {display: 'flex', gap: 40, width: 940} : {display: 'flex', flexDirection: 'column', gap: 34, width: 640}}>
           {parts.map((part, i) => (
-            <Legend key={i} part={part} delay={start + i * stagger + 0.4} dim={focus !== undefined && focus !== i ? focusP : 0} text={`${prefix}${formatNumber(part.value, decimals)}${suffix}`} />
+            <Legend key={i} part={part} delay={(delays?.[i] ?? start + i * stagger) + 0.4} dim={focus !== undefined && focus !== i ? focusP : 0} text={`${prefix}${formatNumber(part.value, decimals)}${suffix}`} />
           ))}
         </div>
       </div>
@@ -92,13 +94,14 @@ export const Donut: React.FC<{
 const Legend: React.FC<{part: Slice; delay: number; dim: number; text: string}> = ({part, delay, dim, text}) => {
   const p = useEnter(delay);
   const [, hi, halo] = gradOf(part.color);
+  const P = useLayout().portrait;
   return (
-    <div style={{...fade(p), opacity: Math.min(1, Math.max(0, p)) * (1 - 0.6 * dim), paddingLeft: 26, borderLeft: `4px solid ${hi}`}}>
-      <div style={{fontFamily: FONT.mono, fontWeight: 600, fontSize: 76, letterSpacing: -2, color: hi, textShadow: `0 0 36px ${halo}`}}>
+    <div style={{...fade(p), opacity: Math.min(1, Math.max(0, p)) * (1 - 0.6 * dim), paddingLeft: 26, borderLeft: `4px solid ${hi}`, flex: P ? 1 : undefined}}>
+      <div style={{fontFamily: FONT.mono, fontWeight: 600, fontSize: P ? 66 : 76, letterSpacing: -2, color: hi, textShadow: `0 0 36px ${halo}`}}>
         <Odometer text={text} delay={delay} />
       </div>
-      <div style={{fontFamily: FONT.title, fontWeight: 800, fontSize: 38, color: C.paper, marginTop: 4}}>{part.label}</div>
-      {part.sub ? <div style={{fontFamily: FONT.title, fontWeight: 300, fontSize: 27, color: C.paper, opacity: 0.75, marginTop: 6, lineHeight: 1.3}}>{part.sub}</div> : null}
+      <div style={{fontFamily: FONT.title, fontWeight: 800, fontSize: P ? 32 : 38, color: C.paper, marginTop: 4, lineHeight: P ? 1.15 : undefined}}>{part.label}</div>
+      {part.sub ? <div style={{fontFamily: FONT.title, fontWeight: 300, fontSize: P ? 25 : 27, color: C.paper, opacity: 0.75, marginTop: 6, lineHeight: 1.3}}>{part.sub}</div> : null}
     </div>
   );
 };

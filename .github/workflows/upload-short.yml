@@ -1,0 +1,58 @@
+name: Envoyer un Short sur YouTube (privé)
+
+# À lancer seulement après validation du Short par aurelien. Envoi en PRIVÉ ; le lien « vidéo associée »
+# et le passage en public se règlent ensuite dans YouTube Studio (non disponibles dans l'API).
+on:
+  workflow_dispatch:
+    inputs:
+      short:
+        description: Dossier du Short
+        default: videos/01-tesla/shorts/1
+      run_id:
+        description: Run « Produire un Short » (seulement si build/short.mp4 n'est pas dans le dépôt)
+        required: false
+
+permissions:
+  contents: write
+  actions: read
+
+jobs:
+  upload:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    env:
+      SHORT: ${{ inputs.short }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - if: inputs.run_id != ''
+        uses: actions/download-artifact@v4
+        with:
+          name: short-final
+          run-id: ${{ inputs.run_id }}
+          github-token: ${{ github.token }}
+          path: rendu
+
+      - name: Envoi en privé et sous-titres
+        env:
+          YT_CLIENT_ID: ${{ secrets.YT_CLIENT_ID }}
+          YT_CLIENT_SECRET: ${{ secrets.YT_CLIENT_SECRET }}
+          YT_REFRESH_TOKEN: ${{ secrets.YT_REFRESH_TOKEN }}
+        run: |
+          MP4=$(find rendu -name short.mp4 2>/dev/null | head -1)
+          [ -n "$MP4" ] || MP4="$SHORT/build/short.mp4"
+          test -f "$MP4"
+          python3 pipeline/upload_short.py "$SHORT" "$MP4"
+
+      - name: Enregistrer l'identifiant YouTube
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add "$SHORT/build/youtube.json"
+          git diff --cached --quiet && exit 0
+          git commit -m "YouTube : Short $SHORT envoyé en privé"
+          for i in 1 2 3 4 5; do
+            git pull --rebase -q && git push && exit 0
+            sleep $((i * 5))
+          done
+          exit 1
