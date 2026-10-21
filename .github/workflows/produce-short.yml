@@ -52,7 +52,14 @@ jobs:
       - name: Rendu 1080x1920 (H.264 CRF 12, AAC 320 kb/s)
         working-directory: remotion
         run: |
-          npx remotion render Short out/short.mp4 --crf=12 --log=info
+          npx remotion render Short out/raw.mp4 --crf=12 --log=info
+          # Sonie du mixage final (voix + effets) ramenée à -14 LUFS, crête vraie -1,5 dB ; image copiée sans réencodage.
+          L="I=-14:TP=-1.5:LRA=11"
+          M=$(ffmpeg -hide_banner -i out/raw.mp4 -vn -af loudnorm=$L:print_format=json -f null - 2>&1 | sed -n '/^{/,/^}/p')
+          get() { echo "$M" | python3 -c "import json,sys; print(json.load(sys.stdin)['$1'])"; }
+          ffmpeg -loglevel error -y -i out/raw.mp4 -c:v copy \
+            -af "loudnorm=$L:linear=true:measured_I=$(get input_i):measured_TP=$(get input_tp):measured_LRA=$(get input_lra):measured_thresh=$(get input_thresh):offset=$(get target_offset)" \
+            -c:a aac -b:a 320k -ar 48000 -movflags +faststart out/short.mp4
           ffprobe -v error -show_entries format=duration,bit_rate:stream=codec_name,width,height,r_frame_rate,sample_rate -of compact out/short.mp4
           ffmpeg -hide_banner -nostats -i out/short.mp4 -af ebur128=peak=true -f null - 2>&1 | tail -14
 

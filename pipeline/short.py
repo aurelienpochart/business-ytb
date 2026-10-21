@@ -41,7 +41,6 @@ MIN_GAP = 0.11        # une pause plus courte n'est pas un repère
 CARD_CHARS = 22       # sous-titres : environ 22 caractères et 4 unités au plus par carte
 CARD_UNITS = 4
 
-PUNCT_COST = {".": 0.0, "?": 0.0, "!": 0.0, ":": 0.004, ";": 0.004, ",": 0.008, "—": 0.006}
 
 
 def parse(raw):
@@ -87,34 +86,31 @@ def find_gaps(db, threshold, lo, hi):
 
 
 def weight(word):
-    return len(re.sub(r"[^\w$%]", "", word)) + 2.5
+    """Durée relative d'un mot (modèle ajusté sur les paragraphes des vidéos 01 et 02)."""
+    letters = len(re.sub(r"[^\w$%]", "", word))
+    syllables = max(1, len(re.findall(r"[aeiouy]+", word.lower())))
+    return 0.03 + 0.038 * letters + 0.087 * syllables
+
+
+def pause_after(word):
+    """Pause attendue après un mot, selon sa ponctuation (même modèle : ~0,7 s en fin de phrase)."""
+    end = word.rstrip('"\u201d\u2019)')[-1:]
+    return 0.45 if end in ".?!" else 0.25 if end in ",;:\u2014" else 0.0
 
 
 def align(words, t0, t1, gaps):
     """Débuts et fins de chaque mot. Les pauses détectées sont associées à des frontières entre mots
-    (de préférence après une ponctuation) ; la parole entre deux repères est répartie au poids."""
+    (de préférence après une ponctuation) ; la parole entre deux repères est répartie selon le modèle."""
     n = len(words)
     w = [weight(x) for x in words]
-    total_w = sum(w)
-    cum = [0.0]
-    for x in w:
-        cum.append(cum[-1] + x)
-    speech = (t1 - t0) - sum(b - a for a, b in gaps)
-    # Position de chaque pause dans le temps de parole (pauses précédentes retirées), entre 0 et 1.
-    pos, removed = [], 0.0
-    for a, b in gaps:
-        pos.append((a - t0 - removed) / speech if speech > 0 else 0)
-        removed += b - a
-    bounds = list(range(1, n))  # frontière j = après le mot j-1
-
-    def bound_cost(j):
-        last = words[j - 1][-1:]
-        if words[j - 1].endswith(('."', '?"', '!"', ',"')):
-            last = words[j - 1][-2]
-        return PUNCT_COST.get(last, 0.05)
-
-    # dp[k][j] : coût minimal en ayant traité k pauses et j frontières.
-    K, J = len(gaps), len(bounds)
+    p = [pause_after(x) for x in words]
+    cum = [0.0]  # temps modèle au début de chaque mot (pauses comprises)
+    for i in range(n):
+        cum.append(cum[-1] + w[i] + p[i])
+    scale = (t1 - t0) / (cum[n] - p[n - 1])
+    expect = lambda b: t0 + (cum[b] - p[b - 1] / 2) * scale  # milieu attendu de la frontière après le mot b-1
+    span = t1 - t0
+    K, J = len(gaps), n - 1
     INF = float("inf")
     dp = [[INF] * (J + 1) for _ in range(K + 1)]
     back = [[None] * (J + 1) for _ in range(K + 1)]
@@ -124,17 +120,17 @@ def align(words, t0, t1, gaps):
             cur = dp[k][j]
             if cur == INF:
                 continue
-            if j < J:  # frontière sans pause (pénalité si ponctuation forte)
-                b = bounds[j]
-                skip = {".": 0.02, "?": 0.02, "!": 0.02, ":": 0.01, ";": 0.01}.get(words[b - 1][-1:], 0.0)
+            if j < J:  # frontière sans pause détectée (pénalité si ponctuation forte)
+                skip = 0.02 if p[j] >= 0.45 else 0.006 if p[j] > 0 else 0.0
                 if cur + skip < dp[k][j + 1]:
                     dp[k][j + 1], back[k][j + 1] = cur + skip, (k, j, None)
             if k < K:  # pause parasite (non associée)
                 if cur + 0.03 < dp[k + 1][j]:
                     dp[k + 1][j], back[k + 1][j] = cur + 0.03, (k, j, None)
-            if k < K and j < J:  # pause k associée à la frontière j
-                b = bounds[j]
-                c = cur + abs(cum[b] / total_w - pos[k]) + bound_cost(b)
+            if k < K and j < J:  # pause k associée à la frontière après le mot j
+                b = j + 1
+                mid = (gaps[k][0] + gaps[k][1]) / 2
+                c = cur + abs(mid - expect(b)) / span + (0.0 if p[j] else 0.02)
                 if c < dp[k + 1][j + 1]:
                     dp[k + 1][j + 1], back[k + 1][j + 1] = c, (k, j, b)
     anchors = {}
@@ -144,19 +140,19 @@ def align(words, t0, t1, gaps):
         if b is not None:
             anchors[b] = gaps[pk]
         k, j = pk, pj
-    # Découpe en tronçons de parole continue.
-    cuts = sorted(anchors)
+    # Tronçons de parole continue entre deux pauses associées : mots et petites pauses au prorata.
     times = [None] * n
-    edges = [0] + cuts + [n]
+    edges = [0] + sorted(anchors) + [n]
     for s in range(len(edges) - 1):
         a, b = edges[s], edges[s + 1]
         start = t0 if a == 0 else anchors[a][1]
         end = t1 if b == n else anchors[b][0]
-        span_w = cum[b] - cum[a]
+        units = sum(w[a:b]) + sum(p[a:b - 1])
+        k_ = (end - start) / units if units > 0 else 0
+        t = start
         for i in range(a, b):
-            ws = start + (end - start) * (cum[i] - cum[a]) / span_w
-            we = start + (end - start) * (cum[i + 1] - cum[a]) / span_w
-            times[i] = (round(ws, 3), round(we, 3))
+            times[i] = (round(t, 3), round(t + w[i] * k_, 3))
+            t += (w[i] + (p[i] if i < b - 1 else 0)) * k_
     return times, len(anchors), K
 
 
@@ -228,7 +224,7 @@ def main():
         text, words, units = parse(raw)
         audio = synthesize(text, voice, token)
         db = energy(audio, rate)
-        threshold = sorted(db)[int(len(db) * 0.95)] - 24  # 24 dB sous les passages forts
+        threshold = sorted(db)[int(len(db) * 0.95)] - 30  # 30 dB sous les passages forts
         lo, hi = speech_bounds(db, threshold)
         cut_a = max(0, int((lo * WIN - KEEP_HEAD) * rate))
         cut_b = min(len(audio) // fb, int((hi * WIN + KEEP_END) * rate))
