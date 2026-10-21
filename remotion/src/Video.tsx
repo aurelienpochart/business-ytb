@@ -6,6 +6,7 @@ import {ChapterCard, CreditsFlow, EndScreen, Hud, Ident} from './components/spec
 import {Hero, MediaContext, Photo, PhotoLayer} from './components/media';
 import {Donut, Loop} from './components/diagrams';
 import {Segment, VideoProps, Visual} from './types';
+import {C, applyTint} from './theme';
 
 export const END_SCREEN_SECONDS = 20;
 const IDENT_SECONDS = 3;
@@ -46,7 +47,8 @@ const timeOf = (v: Visual, seg: Segment) => {
   return seg.start + (seg.end - seg.start) * (i / seg.text.length);
 };
 
-export const Video: React.FC<VideoProps> = ({timeline, visuals, audio, media = []}) => {
+export const Video: React.FC<VideoProps> = ({timeline, visuals, audio, media = [], tint, tintRegrade}) => {
+  applyTint(tint, tintRegrade);
   const mediaById = Object.fromEntries(media.map((m) => [m.id, m]));
   const {fps, durationInFrames} = useVideoConfig();
   const byId = new Map(timeline.segments.map((s) => [s.id, s]));
@@ -76,7 +78,7 @@ export const Video: React.FC<VideoProps> = ({timeline, visuals, audio, media = [
 
   return (
     <MediaContext.Provider value={mediaById}>
-    <AbsoluteFill style={{background: '#03060C'}}>
+    <AbsoluteFill style={{background: C.ink}}>
       <Atmosphere />
       {placed.map(({v, from, chapterStart}, i) => {
         let to = i + 1 < placed.length ? placed[i + 1].from : narrationEnd;

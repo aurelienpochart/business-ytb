@@ -1,6 +1,6 @@
 import React, {createContext, useContext} from 'react';
 import {AbsoluteFill, Easing, Img, interpolate, spring, staticFile, useCurrentFrame, useVideoConfig} from 'remotion';
-import {C, FONT, GOLD_TEXT} from '../theme';
+import {AMB, C, FONT, GOLD_TEXT, photoTint} from '../theme';
 import {Source, fade, useEnter} from './common';
 import {Kicker, LightSweep, Odometer, RevealWords} from './fx';
 
@@ -47,7 +47,7 @@ export const Logo: React.FC<{id: string; height: number; width?: number; color?:
   return <Img src={m.src} style={{height, width: width ?? 'auto', objectFit: 'contain', filter, ...style}} />;
 };
 
-// Photo plein cadre avec lent travelling (Ken Burns) et étalonnage sombre « bleu nuit + or ».
+// Photo plein cadre avec lent travelling (Ken Burns) et étalonnage sombre « bleu nuit + or » (teinte de la vidéo).
 export const PhotoLayer: React.FC<{id: string; dim?: number; blur?: number; zoom?: 'in' | 'out'; focus?: string}> = ({id, dim = 0.55, blur = 0, zoom = 'in', focus = '50% 50%'}) => {
   const frame = useCurrentFrame();
   const {fps} = useVideoConfig();
@@ -65,14 +65,14 @@ export const PhotoLayer: React.FC<{id: string; dim?: number; blur?: number; zoom
           objectFit: 'cover',
           objectPosition: focus,
           transform: `scale(${s}) translateX(${Math.sin(t / 6) * 10}px)`,
-          filter: `saturate(0.8) contrast(1.1) brightness(0.85)${blur ? ` blur(${blur}px)` : ''}`,
+          filter: `saturate(0.8) contrast(1.1) brightness(0.85)${photoTint(id) ? ` ${photoTint(id)}` : ''}${blur ? ` blur(${blur}px)` : ''}`,
         }}
       />
       {/* Étalonnage : ombres bleu nuit, voile sombre, lumière dorée en haut */}
-      <AbsoluteFill style={{background: `linear-gradient(180deg, rgba(3,6,12,${dim * 0.7}) 0%, rgba(3,6,12,${dim * 0.5}) 40%, rgba(3,6,12,${Math.min(1, dim + 0.3)}) 100%)`}} />
-      <AbsoluteFill style={{background: 'linear-gradient(90deg, rgba(3,6,12,0.85) 0%, rgba(3,6,12,0.35) 45%, transparent 75%)', opacity: dim > 0.5 ? 1 : 0.7}} />
+      <AbsoluteFill style={{background: `linear-gradient(180deg, rgba(${AMB.inkRgb},${dim * 0.7}) 0%, rgba(${AMB.inkRgb},${dim * 0.5}) 40%, rgba(${AMB.inkRgb},${Math.min(1, dim + 0.3)}) 100%)`}} />
+      <AbsoluteFill style={{background: `linear-gradient(90deg, rgba(${AMB.inkRgb},0.85) 0%, rgba(${AMB.inkRgb},0.35) 45%, transparent 75%)`, opacity: dim > 0.5 ? 1 : 0.7}} />
       <AbsoluteFill style={{background: 'radial-gradient(ellipse at 75% 0%, rgba(240,181,78,0.18) 0%, transparent 55%)', mixBlendMode: 'screen'}} />
-      <AbsoluteFill style={{background: 'rgba(20,40,80,0.25)', mixBlendMode: 'color'}} />
+      <AbsoluteFill style={{background: AMB.photoGrade, mixBlendMode: 'color'}} />
     </AbsoluteFill>
   );
 };
@@ -180,7 +180,7 @@ export const Hero: React.FC<{photo: string; logo: string; wordmark?: string; num
       {number ? (
         <div style={{position: 'absolute', left: 900, top: 330, ...fade(pNum)}}>
           {kicker ? <Kicker text={kicker} delay={numberAt + 0.2} /> : null}
-          <div style={{fontFamily: FONT.mono, fontWeight: 600, fontSize: 220, letterSpacing: -6, color: '#6FF2DF', textShadow: '0 0 50px rgba(60,203,183,0.5)', marginTop: 10}}>
+          <div style={{fontFamily: FONT.mono, fontWeight: 600, fontSize: 220, letterSpacing: -6, color: AMB.heroNum, textShadow: `0 0 50px ${AMB.heroNumGlow}`, marginTop: 10}}>
             <Odometer text={number} delay={numberAt + 0.35} />
           </div>
           {label ? <div style={{fontFamily: FONT.title, fontWeight: 300, fontSize: 46, color: C.paper, marginTop: 10}}>{label}</div> : null}

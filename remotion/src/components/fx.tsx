@@ -1,7 +1,7 @@
 import React from 'react';
 import {AbsoluteFill, Easing, interpolate, random, spring, useCurrentFrame, useVideoConfig} from 'remotion';
 import {noise2D} from '@remotion/noise';
-import {C, FONT, GOLD_TEXT} from '../theme';
+import {AMB, C, FONT, GOLD_TEXT} from '../theme';
 
 const clamp = {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'} as const;
 
@@ -34,8 +34,8 @@ export const Atmosphere: React.FC = () => {
   return (
     <AbsoluteFill style={{background: `radial-gradient(ellipse at 50% 35%, ${C.navy} 0%, ${C.ink} 75%)`, overflow: 'hidden'}}>
       {orb(width * (0.22 + 0.07 * Math.sin(t / 9)), height * (0.28 + 0.06 * Math.cos(t / 11)), 1400, 'rgba(240,181,78,0.10)')}
-      {orb(width * (0.8 + 0.05 * Math.cos(t / 13)), height * (0.75 + 0.05 * Math.sin(t / 10)), 1500, 'rgba(60,203,183,0.07)')}
-      {orb(width * 0.55, height * (1.05 + 0.03 * Math.sin(t / 7)), 1800, 'rgba(70,110,200,0.08)')}
+      {orb(width * (0.8 + 0.05 * Math.cos(t / 13)), height * (0.75 + 0.05 * Math.sin(t / 10)), 1500, AMB.orbTeal)}
+      {orb(width * 0.55, height * (1.05 + 0.03 * Math.sin(t / 7)), 1800, AMB.orbCool)}
       <Floor />
       {/* Poussière en suspension, parallaxe selon la profondeur */}
       {PARTICLES.map((p, i) => {
@@ -54,7 +54,7 @@ export const Atmosphere: React.FC = () => {
               width: size,
               height: size,
               borderRadius: '50%',
-              background: p.z > 0.75 ? C.goldLight : '#cfe3ff',
+              background: p.z > 0.75 ? C.goldLight : AMB.particle,
               opacity: (0.12 + 0.4 * p.z) * (0.5 + 0.5 * tw),
               filter: p.z > 0.85 ? 'blur(2px)' : undefined,
               boxShadow: p.z > 0.6 ? `0 0 ${6 + p.z * 10}px rgba(255,220,150,0.6)` : undefined,

@@ -36,6 +36,67 @@ export const GRAD: Record<string, [string, string, string]> = {
   paper: ['#9C9A94', '#FFFFFF', 'rgba(255,255,255,0.25)'],
 };
 
+// Ambiance (fonds, halos, étalonnage des photos) : valeurs de la teinte par défaut « bleu nuit ».
+export const AMB = {
+  inkRgb: '3,6,12', // voiles sombres : rgba(inkRgb, a)
+  night: '#172C52', // cœur lumineux des fonds de miniature
+  nightSoft: '#14284A',
+  orbCool: 'rgba(70,110,200,0.08)', // halo froid sous le sol
+  orbTeal: 'rgba(60,203,183,0.07)',
+  particle: '#cfe3ff',
+  photoGrade: 'rgba(20,40,80,0.25)', // voile coloré (mix-blend « color ») sur les photos
+  photoFilter: '', // filtre CSS ajouté à toutes les photos
+  regradeFilter: '', // filtre CSS des photos listées dans "tint_regrade" (photos très colorées, ex. data center bleu)
+  heroNum: '#6FF2DF',
+  heroNumGlow: 'rgba(60,203,183,0.5)',
+};
+
+// Teintes d'ambiance réglables par vidéo (champ "tint" de videos/<v>/metadata.json).
+// Une teinte ne remplace que les nuances froides : l'or reste l'accent principal.
+type Palette = {C: Partial<typeof C>; GRAD: Partial<typeof GRAD>; AMB: Partial<typeof AMB>};
+export const TINTS: Record<string, Palette> = {
+  nvidia: {
+    // Vert presque noir, halos verts discrets, vert Nvidia (#76B900) pour les chiffres « teal ».
+    C: {ink: '#020604', navy: '#0A1A0E', navyLight: '#132A18', mute: '#93A38F', slate: '#74876F', teal: '#8CD42A'},
+    GRAD: {
+      teal: ['#3F6A06', '#A6E848', 'rgba(118,185,0,0.42)'],
+      slate: ['#2B3A2B', '#8EA289', 'rgba(142,162,137,0.25)'],
+    },
+    AMB: {
+      inkRgb: '2,6,4',
+      night: '#183C1E',
+      nightSoft: '#163419',
+      orbCool: 'rgba(118,185,0,0.07)',
+      orbTeal: 'rgba(118,185,0,0.06)',
+      particle: '#e0f5c8',
+      photoGrade: 'rgba(30,72,22,0.24)',
+      photoFilter: '',
+      regradeFilter: 'hue-rotate(-128deg) saturate(0.6)',
+      heroNum: '#A6EB3C',
+      heroNumGlow: 'rgba(118,185,0,0.5)',
+    },
+  },
+};
+
+const DEFAULT = {C: {...C}, GRAD: {...GRAD}, AMB: {...AMB}};
+let current = '';
+let regrade: string[] = [];
+// Applique la teinte d'une vidéo (sans teinte ou inconnue : bleu nuit d'origine). Appelée en tête des
+// compositions, avant le rendu des composants qui lisent C, GRAD et AMB.
+export const applyTint = (name?: string, regradeIds: string[] = []) => {
+  const key = `${name ?? ''}|${regradeIds.join(',')}`;
+  if (key === current) return;
+  current = key;
+  regrade = regradeIds;
+  const t = (name && TINTS[name]) || {C: {}, GRAD: {}, AMB: {}};
+  Object.assign(C, DEFAULT.C, t.C);
+  Object.assign(GRAD, DEFAULT.GRAD, t.GRAD);
+  Object.assign(AMB, DEFAULT.AMB, t.AMB);
+};
+
+// Filtre CSS supplémentaire d'une photo selon la teinte ('' par défaut).
+export const photoTint = (id: string) => [AMB.photoFilter, regrade.includes(id) ? AMB.regradeFilter : ''].filter(Boolean).join(' ');
+
 export const GOLD_TEXT = 'linear-gradient(100deg, #A8701E 0%, #F0B54E 22%, #FFE7B0 40%, #FFF8E6 50%, #FFE7B0 60%, #F0B54E 78%, #A8701E 100%)';
 
 export const FONT = {

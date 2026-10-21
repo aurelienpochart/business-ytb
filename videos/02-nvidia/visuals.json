@@ -621,8 +621,8 @@
      "color": "teal"
     }
    ],
-   "stagger": 2.8,
-   "start": 5.5
+   "stagger": 4.4,
+   "start": 0.3
   },
   "bg": "dc_blue"
  },

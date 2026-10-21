@@ -54,5 +54,7 @@
   ],
   "category_id": "27",
   "contains_synthetic_media": false,
-  "made_for_kids": false
+  "made_for_kids": false,
+  "tint": "nvidia",
+  "tint_regrade": ["dc_blue"]
 }

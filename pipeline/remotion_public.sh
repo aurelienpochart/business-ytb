@@ -3,7 +3,7 @@
 # Usage : bash ../pipeline/remotion_public.sh ../videos/01-tesla
 set -euo pipefail
 V="$1"
-cp "$V/build/timeline.json" "$V/build/narration.wav" "$V/visuals.json" "$V/thumbnail.json" public/
+cp "$V/build/timeline.json" "$V/build/narration.wav" "$V/visuals.json" "$V/thumbnail.json" "$V/metadata.json" public/
 if [ -f "$V/media.json" ]; then
   cp "$V/media.json" public/
   mkdir -p public/media

@@ -1,7 +1,7 @@
 import React from 'react';
 import {AbsoluteFill, Img, staticFile} from 'remotion';
 import {LogoCurve} from './components/special';
-import {C, FONT, GOLD_TEXT} from './theme';
+import {AMB, C, FONT, GOLD_TEXT} from './theme';
 
 // Variantes de miniature 1280 x 720 avec le logo Tesla, pour choisir un style.
 export type Rival = {file: string; color?: boolean; wide?: boolean};
@@ -75,7 +75,7 @@ const Brand = () => (
 const Or = () => (
   <AbsoluteFill style={{background: C.ink, overflow: 'hidden'}}>
     <Photo file="model_s.jpg" position="40% 60%" style={{filter: 'saturate(0.5) brightness(0.45) contrast(1.2)', transform: 'scale(1.15) translateX(120px)'}} />
-    <AbsoluteFill style={{background: 'linear-gradient(90deg, rgba(3,6,12,0.97) 0%, rgba(3,6,12,0.8) 45%, rgba(3,6,12,0.25) 100%)'}} />
+    <AbsoluteFill style={{background: `linear-gradient(90deg, rgba(${AMB.inkRgb},0.97) 0%, rgba(${AMB.inkRgb},0.8) 45%, rgba(${AMB.inkRgb},0.25) 100%)`}} />
     <div style={{position: 'absolute', right: 40, top: 70, width: 600, height: 600, borderRadius: '50%', background: 'radial-gradient(circle, rgba(240,181,78,0.35) 0%, transparent 62%)'}} />
     <div style={{position: 'absolute', right: 90, top: 110}}>
       <GoldT size={500} />
@@ -91,8 +91,8 @@ const Or = () => (
 const PhotoV = () => (
   <AbsoluteFill style={{background: C.ink, overflow: 'hidden'}}>
     <Photo file="model_3.jpg" position="50% 100%" style={{filter: 'saturate(1.15) contrast(1.15) brightness(0.9)', transform: 'scale(1.5) translate(170px, 40px)', transformOrigin: '50% 100%'}} />
-    <AbsoluteFill style={{background: 'linear-gradient(90deg, rgba(3,6,12,1) 0%, rgba(3,6,12,0.92) 38%, rgba(3,6,12,0.2) 70%, transparent 100%)'}} />
-    <AbsoluteFill style={{background: 'linear-gradient(0deg, rgba(3,6,12,0.7) 0%, transparent 35%)'}} />
+    <AbsoluteFill style={{background: `linear-gradient(90deg, rgba(${AMB.inkRgb},1) 0%, rgba(${AMB.inkRgb},0.92) 38%, rgba(${AMB.inkRgb},0.2) 70%, transparent 100%)`}} />
+    <AbsoluteFill style={{background: `linear-gradient(0deg, rgba(${AMB.inkRgb},0.7) 0%, transparent 35%)`}} />
     <div style={{position: 'absolute', left: 64, top: 60, display: 'flex', alignItems: 'center', gap: 22}}>
       <WhiteLogo file="logo_tesla_t.svg" height={74} width={74} />
       <WhiteLogo file="logo_tesla_word.svg" height={30} />
@@ -117,9 +117,9 @@ const Rivaux = () => {
   const tx = 930;
   const ty = 330;
   return (
-    <AbsoluteFill style={{background: `radial-gradient(ellipse at 72% 45%, #172C52 0%, ${C.ink} 68%)`, overflow: 'hidden'}}>
+    <AbsoluteFill style={{background: `radial-gradient(ellipse at 72% 45%, ${AMB.night} 0%, ${C.ink} 68%)`, overflow: 'hidden'}}>
       <Photo file="traffic.jpg" position="20% 50%" style={{filter: 'saturate(0.3) brightness(0.3) blur(2px)', opacity: 0.4}} />
-      <AbsoluteFill style={{background: 'linear-gradient(90deg, rgba(3,6,12,0.6) 0%, transparent 60%)'}} />
+      <AbsoluteFill style={{background: `linear-gradient(90deg, rgba(${AMB.inkRgb},0.6) 0%, transparent 60%)`}} />
       <svg width={1280} height={720} style={{position: 'absolute', inset: 0}}>
         <defs>
           <linearGradient id="flow" x1="0" x2="1">
@@ -214,7 +214,7 @@ const Big: React.FC<{text: string; size: number; style: React.CSSProperties}> = 
 );
 
 const Night: React.FC<{children: React.ReactNode; glow: string; photo?: string; position?: string}> = ({children, glow, photo = 'traffic.jpg', position = '20% 50%'}) => (
-  <AbsoluteFill style={{background: `radial-gradient(ellipse at ${glow}, #172C52 0%, ${C.ink} 68%)`, overflow: 'hidden'}}>
+  <AbsoluteFill style={{background: `radial-gradient(ellipse at ${glow}, ${AMB.night} 0%, ${C.ink} 68%)`, overflow: 'hidden'}}>
     <Photo file={photo} position={position} style={{filter: 'saturate(0.3) brightness(0.3) blur(2px)', opacity: 0.4}} />
     {children}
     <Brand />
