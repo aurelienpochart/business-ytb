@@ -4,7 +4,7 @@ import {LogoCurve} from './components/special';
 import {AMB, C, FONT, GOLD_TEXT} from './theme';
 
 // Variantes de miniature 1280 x 720 avec le logo Tesla, pour choisir un style.
-export type Rival = {file: string; color?: boolean; wide?: boolean};
+export type Rival = {file: string; color?: boolean; wide?: boolean; label?: string}; // label : légende courte (variante « puce »)
 // Les champs optionnels réutilisent une mise en page pour une autre vidéo (par défaut : la vidéo 01, Tesla).
 export type ThumbVariantProps = {
   variant: 'or' | 'photo' | 'rivaux' | 'rivaux-titre' | 'rivaux-haut' | 'rivaux-miroir';
@@ -17,7 +17,7 @@ export type ThumbVariantProps = {
   photoPosition?: string;
 };
 
-const gold: React.CSSProperties = {
+export const gold: React.CSSProperties = {
   backgroundImage: GOLD_TEXT,
   backgroundSize: '200% 100%',
   backgroundPosition: '30% 0',
@@ -27,14 +27,14 @@ const gold: React.CSSProperties = {
   filter: 'drop-shadow(0 0 26px rgba(240,181,78,0.55))',
 };
 
-const Words: React.FC<{text: string; size: number; style?: React.CSSProperties}> = ({text, size, style}) => (
+export const Words: React.FC<{text: string; size: number; style?: React.CSSProperties}> = ({text, size, style}) => (
   <div style={{fontFamily: FONT.display, fontSize: size, lineHeight: 0.95, color: C.paper, textShadow: '0 6px 30px rgba(0,0,0,0.7)', ...style}}>
     {text.split(/(\*[^*]+\*)/).map((p, i) => (p.startsWith('*') ? <span key={i} style={gold}>{p.slice(1, -1)}</span> : <React.Fragment key={i}>{p}</React.Fragment>))}
   </div>
 );
 
 // « T » de Tesla en or (masque sur dégradé).
-const GoldT: React.FC<{size: number; glow?: number; file?: string; ratio?: number}> = ({size, glow = 0.6, file = 'logo_tesla_t.svg', ratio = 1}) => (
+export const GoldT: React.FC<{size: number; glow?: number; file?: string; ratio?: number}> = ({size, glow = 0.6, file = 'logo_tesla_t.svg', ratio = 1}) => (
   <div style={{filter: `drop-shadow(0 0 ${size / 8}px rgba(240,181,78,${glow}))`}}>
     <div
       style={{
@@ -52,20 +52,20 @@ const GoldT: React.FC<{size: number; glow?: number; file?: string; ratio?: numbe
   </div>
 );
 
-const WhiteLogo: React.FC<{file: string; height: number; width?: number; color?: boolean}> = ({file, height, width, color}) => (
+export const WhiteLogo: React.FC<{file: string; height: number; width?: number; color?: boolean}> = ({file, height, width, color}) => (
   <Img
     src={staticFile(`media/${file}`)}
     style={{height, width: width ?? 'auto', objectFit: 'contain', filter: color ? undefined : 'brightness(0) invert(1)'}}
   />
 );
 
-const Photo: React.FC<{file: string; position?: string; style?: React.CSSProperties}> = ({file, position = '50% 50%', style}) => (
+export const Photo: React.FC<{file: string; position?: string; style?: React.CSSProperties}> = ({file, position = '50% 50%', style}) => (
   <Img src={staticFile(`media/${file}`)} style={{position: 'absolute', inset: 0, width: '100%', height: '100%', objectFit: 'cover', objectPosition: position, ...style}} />
 );
 
-const Vignette = () => <AbsoluteFill style={{background: 'radial-gradient(ellipse at 50% 50%, transparent 55%, rgba(0,0,0,0.55) 100%)'}} />;
+export const Vignette = () => <AbsoluteFill style={{background: 'radial-gradient(ellipse at 50% 50%, transparent 55%, rgba(0,0,0,0.55) 100%)'}} />;
 
-const Brand = () => (
+export const Brand = () => (
   <div style={{position: 'absolute', right: 30, top: 24}}>
     <LogoCurve size={96} progress={1} />
   </div>
@@ -205,11 +205,11 @@ const RivalTile: React.FC<{r: Rival; x: number; y: number; scale?: number}> = ({
   </div>
 );
 
-const Halo: React.FC<{x: number; y: number; r: number}> = ({x, y, r}) => (
+export const Halo: React.FC<{x: number; y: number; r: number}> = ({x, y, r}) => (
   <div style={{position: 'absolute', left: x - r, top: y - r, width: 2 * r, height: 2 * r, borderRadius: '50%', background: 'radial-gradient(circle, rgba(240,181,78,0.4) 0%, transparent 62%)'}} />
 );
 
-const Big: React.FC<{text: string; size: number; style: React.CSSProperties}> = ({text, size, style}) => (
+export const Big: React.FC<{text: string; size: number; style: React.CSSProperties}> = ({text, size, style}) => (
   <div style={{position: 'absolute', fontFamily: FONT.mono, fontWeight: 600, fontSize: size, letterSpacing: -3, color: '#FFD98A', textShadow: '0 0 40px rgba(240,181,78,0.6)', ...style}}>{text}</div>
 );
 

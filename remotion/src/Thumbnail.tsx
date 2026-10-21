@@ -3,6 +3,7 @@ import {AbsoluteFill} from 'remotion';
 import {LogoCurve} from './components/special';
 import {AMB, C, FONT, GOLD_TEXT, GRAD, applyTint} from './theme';
 import {ThumbnailVariant, ThumbVariantProps} from './ThumbnailVariants';
+import {PlusVariant, ThumbnailVariantPlus, isPlusVariant} from './ThumbnailVariantsPlus';
 
 // Miniature 1280 x 720 (charte 2.5) : 3 à 5 mots, un mot en or, un chiffre fort, la courbe du logo en coin.
 export type ThumbProps = {
@@ -10,7 +11,8 @@ export type ThumbProps = {
   number?: string;
   numberLabel?: string;
   bars?: {value: number; color: string; label: string}[];
-  variant?: ThumbVariantProps['variant']; // miniature choisie parmi les variantes (prioritaire)
+  variant?: ThumbVariantProps['variant'] | PlusVariant; // miniature choisie parmi les variantes (prioritaire)
+  ring?: number; // variante « anneau » : part remplie de l'anneau (0 à 1)
   tint?: string; // teinte d'ambiance de la vidéo (metadata.json)
 } & Omit<Partial<ThumbVariantProps>, 'variant' | 'number' | 'numberLabel'>;
 
@@ -25,6 +27,8 @@ const goldText: React.CSSProperties = {
 
 export const Thumbnail: React.FC<ThumbProps> = ({words, number, numberLabel, bars, variant, tint, ...custom}) => {
   applyTint(tint);
+  // Compositions supplémentaires (portrait, puce, face-a-face, anneau) : tout vient de thumbnail.json.
+  if (isPlusVariant(variant)) return <ThumbnailVariantPlus variant={variant} words={words} number={number} numberLabel={numberLabel} {...custom} />;
   // La vidéo 01 ne passe que `variant` : sa miniature validée reste identique.
   if (variant) return <ThumbnailVariant variant={variant} {...(custom.logo ? {...custom, number, numberLabel} : {})} />;
   const max = bars ? Math.max(...bars.map((b) => b.value)) : 1;
