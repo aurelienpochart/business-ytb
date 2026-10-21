@@ -1,6 +1,6 @@
 {
-  "duration": 727.67,
-  "ident": 50.09,
+  "duration": 727.27,
+  "ident": 52.09,
   "segments": [
     {
       "id": "c0p0",
@@ -8,455 +8,455 @@
       "chapter_title": "Hook",
       "text": "Between May and July 2026, Nvidia sold ninety-six billion dollars' worth of products. In three months.",
       "start": 0.3,
-      "end": 8.38
+      "end": 8.14
     },
     {
       "id": "c0p1",
       "chapter": 0,
       "chapter_title": "Hook",
       "text": "And out of every dollar of those sales, about seventy-five cents was left after paying for what it cost to make them.",
-      "start": 8.83,
-      "end": 15.27
+      "start": 8.59,
+      "end": 15.59
     },
     {
       "id": "c0p2",
       "chapter": 0,
       "chapter_title": "Hook",
       "text": "That's the kind of margin you'd expect from software. Nvidia sells hardware, shipped in crates.",
-      "start": 15.72,
-      "end": 20.84
+      "start": 16.04,
+      "end": 21.48
     },
     {
       "id": "c0p3",
       "chapter": 0,
       "chapter_title": "Hook",
       "text": "A margin like that usually draws competitors in. So here's our question: who can actually beat Nvidia?",
-      "start": 21.29,
-      "end": 27.53
+      "start": 21.93,
+      "end": 27.97
     },
     {
       "id": "c0p4",
       "chapter": 0,
       "chapter_title": "Hook",
       "text": "The usual suspects are a rival chipmaker, China, or some clever lab that makes all those chips unnecessary. We'll look at all three. But the best clue is hiding in Nvidia's own annual report. In its list of competitors, it names Alphabet, Amazon and Microsoft.",
-      "start": 27.98,
-      "end": 46.42
+      "start": 28.42,
+      "end": 48.42
     },
     {
       "id": "c0p5",
       "chapter": 0,
       "chapter_title": "Hook",
       "text": "Three companies that are also among its biggest buyers.",
-      "start": 46.87,
-      "end": 49.79
+      "start": 48.87,
+      "end": 51.79
     },
     {
       "id": "c1p0",
       "chapter": 1,
       "chapter_title": "What Nvidia really sells",
       "text": "Nvidia started out making graphics cards for video games. Its chips, called GPUs, are good at doing thousands of small calculations at the same time. That turned out to be exactly what training and running AI models needs.",
-      "start": 53.39,
-      "end": 67.23
+      "start": 55.39,
+      "end": 69.43
     },
     {
       "id": "c1p1",
       "chapter": 1,
       "chapter_title": "What Nvidia really sells",
       "text": "But today, Nvidia doesn't just sell chips. It sells whole systems: racks of processors, the networking that links them, and the software that makes them work together. In its own words, hundreds of thousands of its GPUs can be connected \"to function as a single giant computer\".",
-      "start": 67.68,
-      "end": 85.48
+      "start": 69.88,
+      "end": 87.92
     },
     {
       "id": "c1p2",
       "chapter": 1,
       "chapter_title": "What Nvidia really sells",
       "text": "The software is the sticky part. It's called CUDA, and more than seven and a half million developers use it and Nvidia's other tools. Years of AI code have been written for it. Moving away means rewriting and retesting that code.",
-      "start": 85.93,
-      "end": 100.25
+      "start": 88.37,
+      "end": 104.73
     },
     {
       "id": "c1p3",
       "chapter": 1,
       "chapter_title": "What Nvidia really sells",
       "text": "The result: in its financial year that ended in January 2026, Nvidia brought in almost two hundred and sixteen billion dollars, up sixty-five percent. About ninety percent of that came from data centers. Net profit: one hundred and twenty billion dollars.",
-      "start": 100.7,
-      "end": 117.3
+      "start": 105.18,
+      "end": 122.58
     },
     {
       "id": "c1p4",
       "chapter": 1,
       "chapter_title": "What Nvidia really sells",
       "text": "And it's still speeding up. That May-to-July quarter was more than double the same quarter a year earlier. For the next one, Nvidia expects about one hundred and eight billion dollars.",
-      "start": 117.75,
-      "end": 129.83
+      "start": 123.03,
+      "end": 135.11
     },
     {
       "id": "c1p5",
       "chapter": 1,
       "chapter_title": "What Nvidia really sells",
       "text": "So who, or what, could get in the way?",
-      "start": 130.28,
-      "end": 133.08
+      "start": 135.56,
+      "end": 138.4
     },
     {
       "id": "c2p0",
       "chapter": 2,
       "chapter_title": "False lead number one: a better chip",
       "text": "The obvious answer is AMD, Nvidia's oldest rival in graphics chips.",
-      "start": 134.18,
-      "end": 140.7
+      "start": 139.5,
+      "end": 146.02
     },
     {
       "id": "c2p1",
       "chapter": 2,
       "chapter_title": "False lead number one: a better chip",
       "text": "AMD has real wins. OpenAI agreed to deploy six gigawatts of AMD chips, and AMD gave OpenAI the right to buy up to one hundred and sixty million AMD shares as those deployments grow. Anthropic signed for up to two gigawatts. And according to Reuters, AMD said it could sell Meta up to sixty billion dollars of AI chips.",
-      "start": 141.15,
-      "end": 164.79
+      "start": 146.47,
+      "end": 171.39
     },
     {
       "id": "c2p2",
       "chapter": 2,
       "chapter_title": "False lead number one: a better chip",
       "text": "But look at the scale. Between April and June 2026, AMD's entire data center business, including its regular server processors, brought in six point seven billion dollars. Nvidia's data center business brought in eighty-nine billion, in a quarter that ends just one month later.",
-      "start": 165.24,
-      "end": 182.12
+      "start": 171.84,
+      "end": 191.56
     },
     {
       "id": "c2p3",
       "chapter": 2,
       "chapter_title": "False lead number one: a better chip",
       "text": "AMD also keeps less of each sale: about fifty-six cents of gross profit per dollar, against Nvidia's seventy-five.",
-      "start": 182.57,
-      "end": 190.69
+      "start": 192.01,
+      "end": 200.13
     },
     {
       "id": "c2p4",
       "chapter": 2,
       "chapter_title": "False lead number one: a better chip",
       "text": "AMD is growing fast. Its data center sales doubled in a year. But a rival about one-thirteenth your size isn't what keeps you up at night. Not yet.",
-      "start": 191.14,
-      "end": 202.18
+      "start": 200.58,
+      "end": 210.54
     },
     {
       "id": "c3p0",
       "chapter": 3,
       "chapter_title": "False lead number two: China",
       "text": "Second suspect: China. Either Chinese chipmakers like Huawei, or governments shutting Nvidia out.",
-      "start": 203.28,
-      "end": 211.04
+      "start": 211.64,
+      "end": 218.52
     },
     {
       "id": "c3p1",
       "chapter": 3,
       "chapter_title": "False lead number two: China",
       "text": "The second part has already happened. In April 2025, Washington banned sales of the H20, a chip Nvidia had designed specially for China. Nvidia took a four and a half billion dollar charge on chips it suddenly couldn't sell.",
-      "start": 211.49,
-      "end": 228.13
+      "start": 218.97,
+      "end": 234.25
     },
     {
       "id": "c3p2",
       "chapter": 3,
       "chapter_title": "False lead number two: China",
       "text": "Rules changed again later, but the outcome didn't. In October 2025, Nvidia's chief executive, Jensen Huang, summed it up: \"We went from ninety-five percent market share to zero.\"",
-      "start": 228.58,
-      "end": 240.86
+      "start": 234.7,
+      "end": 247.3
     },
     {
       "id": "c3p3",
       "chapter": 3,
       "chapter_title": "False lead number two: China",
       "text": "In December 2025, President Trump said Nvidia could sell a more powerful chip, the H200, to approved Chinese buyers, with twenty-five percent of the money going to the US government. But Nvidia says Beijing then restricted those purchases. Last quarter, those China shipments were less than one percent of its data center revenue.",
-      "start": 241.31,
-      "end": 262.31
+      "start": 247.75,
+      "end": 268.75
     },
     {
       "id": "c3p4",
       "chapter": 3,
       "chapter_title": "False lead number two: China",
       "text": "So Nvidia has been locked out of one of the biggest computer markets in the world. And in that same financial year, its revenue went up sixty-five percent.",
-      "start": 262.76,
-      "end": 272.08
+      "start": 269.2,
+      "end": 278.52
     },
     {
       "id": "c3p5",
       "chapter": 3,
       "chapter_title": "False lead number two: China",
       "text": "China has cost Nvidia a market, and over time it may produce serious rivals: Nvidia's annual report already lists Huawei as a competitor. But China isn't what's threatening Nvidia's lead today.",
-      "start": 272.53,
-      "end": 286.05
+      "start": 278.97,
+      "end": 293.09
     },
     {
       "id": "c4p0",
       "chapter": 4,
       "chapter_title": "False lead number three: the cheap model",
       "text": "Third suspect: an idea. What if AI simply doesn't need that many chips?",
-      "start": 287.15,
-      "end": 293.39
+      "start": 294.19,
+      "end": 300.59
     },
     {
       "id": "c4p1",
       "chapter": 4,
       "chapter_title": "False lead number three: the cheap model",
       "text": "On January twenty-seventh, 2025, a Chinese lab called DeepSeek made that idea feel very real. Its researchers said they had trained a strong AI model for under six million dollars, on less powerful Nvidia chips. That day, Nvidia's shares fell almost seventeen percent. The company lost five hundred and ninety-three billion dollars of market value, the biggest one-day loss for any company on Wall Street.",
-      "start": 293.84,
-      "end": 321.52
+      "start": 301.04,
+      "end": 331.16
     },
     {
       "id": "c4p2",
       "chapter": 4,
       "chapter_title": "False lead number three: the cheap model",
       "text": "The fear made sense on paper. Cheaper AI should need fewer chips.",
-      "start": 321.97,
-      "end": 326.81
+      "start": 331.61,
+      "end": 336.37
     },
     {
       "id": "c4p3",
       "chapter": 4,
       "chapter_title": "False lead number three: the cheap model",
       "text": "But economists have a name for what often happens instead: the Jevons paradox. When something becomes cheaper to use, people find so many new uses for it that total demand goes up, not down.",
-      "start": 327.26,
-      "end": 339.34
+      "start": 336.82,
+      "end": 348.9
     },
     {
       "id": "c4p4",
       "chapter": 4,
       "chapter_title": "False lead number three: the cheap model",
       "text": "In the quarter of the DeepSeek scare, Nvidia's revenue was about thirty-nine billion dollars. Eighteen months later, it was ninety-six.",
-      "start": 339.79,
-      "end": 348.95
+      "start": 349.35,
+      "end": 358.51
     },
     {
       "id": "c4p5",
       "chapter": 4,
       "chapter_title": "False lead number three: the cheap model",
       "text": "Cheaper AI didn't shrink the market for Nvidia's chips. It helped put AI everywhere.",
-      "start": 349.4,
-      "end": 354.0
+      "start": 358.96,
+      "end": 364.24
     },
     {
       "id": "c4p6",
       "chapter": 4,
       "chapter_title": "False lead number three: the cheap model",
       "text": "So: not AMD, not China, not efficiency. Then who?",
-      "start": 354.45,
-      "end": 359.41
+      "start": 364.69,
+      "end": 368.85
     },
     {
       "id": "c5p0",
       "chapter": 5,
       "chapter_title": "The real answer: its own customers",
       "text": "Follow the money in.",
-      "start": 360.51,
-      "end": 362.15
+      "start": 369.95,
+      "end": 371.19
     },
     {
       "id": "c5p1",
       "chapter": 5,
       "chapter_title": "The real answer: its own customers",
       "text": "Nvidia now splits its data center sales in two. The first group it calls \"hyperscale\": the big public clouds and the largest consumer internet companies. Think of names like Microsoft, Amazon, Google or Meta. Between May and July 2026, that group alone paid Nvidia forty-nine billion dollars. That's more than half of all its data center sales.",
-      "start": 362.6,
-      "end": 388.04
+      "start": 371.64,
+      "end": 397.92
     },
     {
       "id": "c5p2",
       "chapter": 5,
       "chapter_title": "The real answer: its own customers",
       "text": "The filings tell the same story. In its last financial year, just two customers accounted for thirty-six percent of Nvidia's total revenue. Nvidia doesn't name them, and these direct customers can be companies that assemble servers for someone else. But the money ultimately comes from a short list of giants.",
-      "start": 388.49,
-      "end": 406.05
+      "start": 398.37,
+      "end": 415.93
     },
     {
       "id": "c5p3",
       "chapter": 5,
       "chapter_title": "The real answer: its own customers",
       "text": "Those giants plan to spend more than seven hundred billion dollars this year on data centers and equipment, roughly double what they spent in 2025.",
-      "start": 406.5,
-      "end": 415.46
+      "start": 416.38,
+      "end": 425.34
     },
     {
       "id": "c5p4",
       "chapter": 5,
       "chapter_title": "The real answer: its own customers",
       "text": "Now put yourself in their place. With a seventy-five percent gross margin, only about a quarter of every dollar you pay Nvidia covers what the product costs to make. The rest is Nvidia's gross profit. If you can build a chip that's good enough for your own needs, you keep much of that for yourself.",
-      "start": 415.91,
-      "end": 431.95
+      "start": 425.79,
+      "end": 444.55
     },
     {
       "id": "c5p5",
       "chapter": 5,
       "chapter_title": "The real answer: its own customers",
       "text": "And they are building them.",
-      "start": 432.4,
-      "end": 433.44
+      "start": 445.0,
+      "end": 447.36
     },
     {
       "id": "c5p6",
       "chapter": 5,
       "chapter_title": "The real answer: its own customers",
       "text": "Google designs its own AI chips, called TPUs, and now rents them to other companies. Anthropic signed up for up to one million of them, in a deal worth tens of billions of dollars. In February 2026, Meta reportedly signed a multi-billion dollar deal to rent Google's chips as well.",
-      "start": 433.89,
-      "end": 454.29
+      "start": 447.81,
+      "end": 468.77
     },
     {
       "id": "c5p7",
       "chapter": 5,
       "chapter_title": "The real answer: its own customers",
       "text": "Amazon has its own chip, called Trainium. When Amazon agreed to invest up to fifty billion dollars in OpenAI, OpenAI also agreed to use two gigawatts of Trainium capacity.",
-      "start": 454.74,
-      "end": 467.38
+      "start": 469.22,
+      "end": 480.94
     },
     {
       "id": "c5p8",
       "chapter": 5,
       "chapter_title": "The real answer: its own customers",
       "text": "OpenAI is designing its own chips with Broadcom, aiming for ten gigawatts of them by the end of 2029. And Meta's own chip is about to ship in volume.",
-      "start": 467.83,
-      "end": 478.07
+      "start": 481.39,
+      "end": 490.91
     },
     {
       "id": "c5p9",
       "chapter": 5,
       "chapter_title": "The real answer: its own customers",
       "text": "Broadcom, which helps build many of these custom chips, sold sixteen point seven billion dollars of AI chips in its latest quarter, more than three times as much as a year earlier. Almost three-quarters of that was custom processors.",
-      "start": 478.52,
-      "end": 493.68
+      "start": 491.36,
+      "end": 506.28
     },
     {
       "id": "c5p10",
       "chapter": 5,
       "chapter_title": "The real answer: its own customers",
       "text": "That's the real competition. Not a rival selling the same thing. Customers deciding they'd rather make it themselves.",
-      "start": 494.13,
-      "end": 500.17
+      "start": 506.73,
+      "end": 514.13
     },
     {
       "id": "c5p11",
       "chapter": 5,
       "chapter_title": "The real answer: its own customers",
       "text": "Jensen Huang's reply is that many of these custom chips are built \"for one cloud or one service\", while Nvidia's platform runs everywhere. And for now, the giants keep buying: their spending with Nvidia still grew thirteen percent in a single quarter.",
-      "start": 500.62,
-      "end": 515.34
+      "start": 514.58,
+      "end": 529.14
     },
     {
       "id": "c5p12",
       "chapter": 5,
       "chapter_title": "The real answer: its own customers",
       "text": "They're not leaving Nvidia. They're building a way out, and making sure Nvidia knows it.",
-      "start": 515.79,
-      "end": 520.19
+      "start": 529.59,
+      "end": 534.31
     },
     {
       "id": "c6p0",
       "chapter": 6,
       "chapter_title": "What it changes: Nvidia pays to build new customers",
       "text": "So if your biggest customers are also becoming your competitors, what do you do? You grow new ones. And Nvidia is paying to grow them.",
-      "start": 521.29,
-      "end": 531.09
+      "start": 535.41,
+      "end": 543.85
     },
     {
       "id": "c6p1",
       "chapter": 6,
       "chapter_title": "What it changes: Nvidia pays to build new customers",
       "text": "The other half of its data center sales comes from what it calls \"AI clouds, industrial and enterprise\": specialized AI cloud companies, governments, large corporations. That half grew one hundred and thirty-eight percent in a year, to forty billion dollars last quarter.",
-      "start": 531.54,
-      "end": 549.58
+      "start": 544.3,
+      "end": 561.06
     },
     {
       "id": "c6p2",
       "chapter": 6,
       "chapter_title": "What it changes: Nvidia pays to build new customers",
       "text": "Many of these customers are young and hungry for cash. Nvidia supplies it.",
-      "start": 550.03,
-      "end": 555.19
+      "start": 561.51,
+      "end": 566.67
     },
     {
       "id": "c6p3",
       "chapter": 6,
       "chapter_title": "What it changes: Nvidia pays to build new customers",
       "text": "In February 2026, Nvidia invested thirty billion dollars in OpenAI's latest funding round. Reuters reported that OpenAI planned to use much of its new money to buy Nvidia chips. Nvidia has also committed up to ten billion dollars to Anthropic. In August, its finance chief said Nvidia had invested \"nearly fifty billion dollars in the frontier AI labs\".",
-      "start": 555.64,
-      "end": 583.48
+      "start": 567.12,
+      "end": 592.88
     },
     {
       "id": "c6p4",
       "chapter": 6,
       "chapter_title": "What it changes: Nvidia pays to build new customers",
       "text": "Add it all up, and at the end of July 2026, Nvidia held ninety-nine billion dollars of stakes in other companies, with another twenty-five billion promised: AI model makers, data center financiers and other private firms.",
-      "start": 583.93,
-      "end": 599.45
+      "start": 593.33,
+      "end": 608.85
     },
     {
       "id": "c6p5",
       "chapter": 6,
       "chapter_title": "What it changes: Nvidia pays to build new customers",
       "text": "It goes further. Nvidia sells equipment to some AI cloud companies, and also commits to rent computing power back from them: thirty-six billion dollars of these rental commitments. And in August 2026, it agreed to guarantee part of the lease and power payments, up to one hundred and five billion dollars, for a giant data center campus in Ohio, which will host Nvidia hardware for OpenAI.",
-      "start": 599.9,
-      "end": 628.14
+      "start": 609.3,
+      "end": 634.94
     },
     {
       "id": "c6p6",
       "chapter": 6,
       "chapter_title": "What it changes: Nvidia pays to build new customers",
       "text": "You can even see it in the profits. In the first half of this financial year, about twenty-four billion dollars of Nvidia's pre-tax profit, roughly one dollar in six, came from gains on its stakes in other companies, not from selling anything.",
-      "start": 628.59,
-      "end": 646.03
+      "start": 635.39,
+      "end": 649.59
     },
     {
       "id": "c6p7",
       "chapter": 6,
       "chapter_title": "What it changes: Nvidia pays to build new customers",
       "text": "Critics call this circular: Nvidia's money goes out to customers and comes back as orders. Analysts raised that worry as soon as Nvidia's first plan with OpenAI was announced, in 2025. Nvidia calls these investments \"a once-in-a-generation opportunity\".",
-      "start": 646.48,
-      "end": 664.4
+      "start": 650.04,
+      "end": 667.08
     },
     {
       "id": "c6p8",
       "chapter": 6,
       "chapter_title": "What it changes: Nvidia pays to build new customers",
       "text": "And it isn't alone. AMD handed OpenAI those share rights. Amazon is investing in OpenAI too. Across this industry, sellers are increasingly financing their own buyers.",
-      "start": 664.85,
-      "end": 676.37
+      "start": 667.53,
+      "end": 679.09
     },
     {
       "id": "c7p0",
       "chapter": 7,
       "chapter_title": "Conclusion",
       "text": "So, who can actually beat Nvidia?",
-      "start": 677.47,
-      "end": 679.63
+      "start": 680.19,
+      "end": 682.87
     },
     {
       "id": "c7p1",
       "chapter": 7,
       "chapter_title": "Conclusion",
       "text": "Not a rival chipmaker, at least not yet. Not China, which took away a market but not the lead. Not cheaper AI, which made the market bigger.",
-      "start": 680.08,
-      "end": 689.4
+      "start": 683.32,
+      "end": 692.0
     },
     {
       "id": "c7p2",
       "chapter": 7,
       "chapter_title": "Conclusion",
       "text": "The companies best placed to beat Nvidia are the ones placing its biggest orders. They have the money, the engineers, and a reason: Nvidia's margin is their cost.",
-      "start": 689.85,
-      "end": 701.09
+      "start": 692.45,
+      "end": 701.25
     },
     {
       "id": "c7p3",
       "chapter": 7,
       "chapter_title": "Conclusion",
       "text": "Nvidia's answer is to make sure it never depends on them alone, by helping to fund a whole new generation of customers. That works as long as those customers keep growing. Which is why, with Nvidia, where the money comes from matters as much as how much there is.",
-      "start": 701.54,
-      "end": 718.42
+      "start": 701.7,
+      "end": 717.26
     },
     {
       "id": "c7p4",
       "chapter": 7,
       "chapter_title": "Conclusion",
       "text": "And the lesson goes beyond chips. A seventy-five percent margin isn't just a reward. It's an invitation to your own customers to stop needing you.",
-      "start": 718.87,
-      "end": 726.67
+      "start": 717.71,
+      "end": 726.27
     }
   ]
 }
