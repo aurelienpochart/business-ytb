@@ -1,16 +1,1 @@
-{
- "words": "Who can beat *Nvidia*?",
- "variant": "rivaux-haut",
- "logo": "logo_nvidia_word.svg",
- "logoRatio": 5.33,
- "rivals": [
-  {"file": "logo_google.svg", "wide": true},
-  {"file": "logo_amazon.svg", "wide": true},
-  {"file": "logo_microsoft.svg", "wide": true},
-  {"file": "logo_meta.svg", "wide": true}
- ],
- "number": "$49B",
- "numberLabel": "from its *rivals*",
- "photo": "dc_corridor.jpg",
- "photoPosition": "50% 50%"
-}
+{"words": "", "variant": "face-a-face", "logo": "logo_nvidia_word.svg", "logoRatio": 5.33, "rivals": [{"file": "logo_google.svg", "wide": true}, {"file": "logo_amazon.svg", "wide": true}, {"file": "logo_microsoft.svg", "wide": true}, {"file": "logo_meta.svg", "wide": true}]}
