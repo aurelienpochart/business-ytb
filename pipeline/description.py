@@ -62,7 +62,7 @@ def main():
         image_credits(video, meta.get("subject_company", "Tesla, Inc.")),
         "This video is for educational purposes and is not financial advice.\n"
         "Made with the help of AI tools, including a synthetic narrator voice"
-        + (" and original background music generated with Google Lyria." if (video / "build" / "music.json").exists() else "."),
+        + (" and AI-generated music (Google Lyria)." if (video / "build" / "music.json").exists() else "."),
     ]
     text = "\n\n".join(p for p in parts if p) + "\n"
     size = len(text.encode())
