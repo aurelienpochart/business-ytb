@@ -52,4 +52,4 @@ Other images: public domain or CC0.
 Logos are trademarks of their respective owners, shown for identification only. This channel is independent and not affiliated with or endorsed by NVIDIA Corporation or any company mentioned.
 
 This video is for educational purposes and is not financial advice.
-Made with the help of AI tools, including a synthetic narrator voice.
+Made with the help of AI tools, including a synthetic narrator voice and AI-generated music (Google Lyria).
