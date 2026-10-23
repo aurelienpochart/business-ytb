@@ -54,6 +54,7 @@ jobs:
         run: command -v ffmpeg || (sudo apt-get update -q && sudo apt-get install -yq ffmpeg)
 
       - name: Mixage
+        shell: bash -eo pipefail {0}
         run: |
           SRC=$(find rendu -name "${{ steps.kind.outputs.file }}" | head -1)
           test -f "$SRC"

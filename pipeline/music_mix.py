@@ -76,6 +76,7 @@ def main():
     k = a.start % len(clips)
     clips = clips[k:] + clips[:k]
     dur = duration(a.src)
+    Path(a.dst).parent.mkdir(parents=True, exist_ok=True)
 
     with tempfile.TemporaryDirectory() as t:
         tmp = Path(t)
