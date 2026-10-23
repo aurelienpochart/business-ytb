@@ -1,0 +1,12 @@
+{
+  "prompt": "Instrumental background underscore for a documentary voice-over. Ambient orchestral, slowly evolving deep warm pads, soft low strings, distant brass swells, subtle shimmer. Sparse, no lead melody, contemplative and inspiring but restrained. C minor, 72 BPM.",
+  "model": "lyria-002",
+  "seeds": [
+    41,
+    42,
+    43,
+    44,
+    45,
+    46
+  ]
+}
