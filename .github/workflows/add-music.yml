@@ -1,0 +1,97 @@
+name: Ajouter la musique de fond
+
+# Remixe la bande son d'un rendu existant avec une musique de music/<piste> (image copiée sans réencodage).
+# Le nouvel artefact porte le même nom (video-finale ou short-final) : on envoie ensuite ce run avec
+# upload-video.yml ou upload-short.yml.
+on:
+  workflow_dispatch:
+    inputs:
+      folder:
+        description: Dossier de la vidéo ou du Short (ex. videos/02-nvidia ou videos/02-nvidia/shorts/1)
+        required: true
+      run_id:
+        description: Run de production dont on reprend le rendu
+        required: true
+      track:
+        description: Piste de music/ (nightdrive, boardroom, circuit, horizon)
+        required: true
+      lufs:
+        description: Sonie de la musique seule, avant baisse sous la voix (vidéo -28, Short -25)
+        default: "-28"
+      start:
+        description: Premier extrait de la piste (pour varier d'une vidéo à l'autre)
+        default: "0"
+
+permissions:
+  contents: write
+  actions: read
+
+jobs:
+  mix:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    env:
+      FOLDER: ${{ inputs.folder }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Type de rendu
+        id: kind
+        run: |
+          case "$FOLDER" in
+            */shorts/*) echo "artifact=short-final" >> "$GITHUB_OUTPUT"; echo "file=short.mp4" >> "$GITHUB_OUTPUT" ;;
+            *) echo "artifact=video-finale" >> "$GITHUB_OUTPUT"; echo "file=video.mp4" >> "$GITHUB_OUTPUT" ;;
+          esac
+
+      - uses: actions/download-artifact@v4
+        with:
+          name: ${{ steps.kind.outputs.artifact }}
+          run-id: ${{ inputs.run_id }}
+          github-token: ${{ github.token }}
+          path: rendu
+
+      - name: Installer ffmpeg
+        run: command -v ffmpeg || (sudo apt-get update -q && sudo apt-get install -yq ffmpeg)
+
+      - name: Mixage
+        run: |
+          SRC=$(find rendu -name "${{ steps.kind.outputs.file }}" | head -1)
+          test -f "$SRC"
+          DIR=$(dirname "$SRC")
+          mkdir -p out
+          # Les autres fichiers de l'artefact (miniature, sous-titres) sont repris tels quels.
+          (cd rendu && find . -type f ! -name "${{ steps.kind.outputs.file }}" -exec cp --parents {} ../out/ \;)
+          python3 pipeline/music_mix.py "$SRC" "out/${SRC#rendu/}" "${{ inputs.track }}" \
+            --lufs "${{ inputs.lufs }}" --start "${{ inputs.start }}" | tee music.json
+          find out -type f | sort
+          ffmpeg -hide_banner -nostats -i "out/${SRC#rendu/}" -af ebur128=peak=true -f null - 2>&1 | tail -12
+          echo "SRC_OUT=out/${SRC#rendu/}" >> "$GITHUB_ENV"
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: ${{ steps.kind.outputs.artifact }}
+          path: out/
+          retention-days: 30
+
+      - name: Aperçu avec musique dans le dépôt
+        run: |
+          mkdir -p "$FOLDER/build"
+          if [ "${{ steps.kind.outputs.artifact }}" = short-final ]; then VF=scale=720:1280; else VF=scale=1280:-2; fi
+          ffmpeg -loglevel error -y -i "$SRC_OUT" -vf $VF -c:v libx264 -crf 28 -preset slow -c:a aac -b:a 160k \
+            -movflags +faststart "$FOLDER/build/preview-music.mp4"
+          python3 - <<PY
+          import json
+          d = json.load(open("music.json")); d["source_run"] = "${{ inputs.run_id }}"; d["music_run"] = "${{ github.run_id }}"
+          json.dump(d, open("$FOLDER/build/music.json", "w"), indent=2)
+          PY
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add "$FOLDER/build/music.json"
+          git add -f "$FOLDER/build/preview-music.mp4"
+          git diff --cached --quiet && exit 0
+          git commit -m "Musique : $FOLDER (${{ inputs.track }})"
+          for i in 1 2 3 4 5; do
+            git pull --rebase -q && git push && exit 0
+            sleep $((i * 5))
+          done
+          exit 1
