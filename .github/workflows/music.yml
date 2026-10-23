@@ -1,0 +1,50 @@
+name: Musiques de fond
+
+# Génère les musiques originales (Lyria 2, Vertex AI) décrites dans config/music.json et les commit
+# dans music/ (FLAC) + samples/musique/ (MP3 d'écoute).
+on:
+  workflow_dispatch:
+    inputs:
+      tracks:
+        description: Pistes à générer (vide = toutes)
+        required: false
+
+permissions:
+  contents: write
+  id-token: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+
+      - id: auth
+        uses: google-github-actions/auth@v2
+        with:
+          workload_identity_provider: projects/22144321243/locations/global/workloadIdentityPools/github/providers/business-ytb
+          service_account: pipeline@business-ytb.iam.gserviceaccount.com
+          token_format: access_token
+
+      - name: Installer ffmpeg
+        run: command -v ffmpeg || (sudo apt-get update -q && sudo apt-get install -yq ffmpeg)
+
+      - name: Générer
+        env:
+          GOOGLE_ACCESS_TOKEN: ${{ steps.auth.outputs.access_token }}
+        run: python3 pipeline/music_gen.py config/music.json ${{ inputs.tracks }}
+
+      - name: Enregistrer dans le dépôt
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add music samples/musique 2>/dev/null || true
+          git diff --cached --quiet && exit 0
+          git commit -m "Musiques de fond (Lyria 2)"
+          for i in 1 2 3 4 5; do
+            git pull --rebase -q && git push && exit 0
+            sleep $((i * 5))
+          done
+          exit 1
