@@ -51,7 +51,13 @@ jobs:
           path: rendu
 
       - name: Installer ffmpeg
-        run: command -v ffmpeg || (sudo apt-get update -q && sudo apt-get install -yq ffmpeg)
+        timeout-minutes: 4
+        run: |
+          command -v ffmpeg && exit 0
+          # Build statique (le miroir apt peut rester bloqué de longues minutes).
+          curl -fsSL --retry 3 https://johnvansickle.com/ffmpeg/releases/ffmpeg-release-amd64-static.tar.xz | tar -xJ -C /tmp
+          sudo cp /tmp/ffmpeg-*-static/ffmpeg /tmp/ffmpeg-*-static/ffprobe /usr/local/bin/
+          ffmpeg -version | head -1
 
       - name: Mixage
         shell: bash -eo pipefail {0}
