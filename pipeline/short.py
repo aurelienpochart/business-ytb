@@ -194,7 +194,8 @@ def description(short, long_url):
         meta["sentence"],
         f"Source: {meta['source']}",
         f"Full video: {long_url}",
-        "Made with the help of AI tools, including a synthetic narrator voice.",
+        "Made with the help of AI tools, including a synthetic narrator voice"
+        + (" and AI-generated music (Google Lyria)." if (short / "build" / "music.json").exists() else "."),
     ]) + "\n"
     if len(meta["title"]) > 60:
         sys.exit(f"Titre trop long ({len(meta['title'])} caractères, 60 au plus) : {meta['title']}")
