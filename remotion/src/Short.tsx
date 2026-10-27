@@ -189,12 +189,20 @@ export const Short: React.FC<ShortProps> = ({timeline, visuals, media = [], hook
   const f = (t: number) => Math.round(t * fps);
   const narrationEnd = f(timeline.duration);
 
-  const placed = visuals.map((v, i) => {
+  const startOf = (v: Visual, i: number) => {
     const seg = byId.get(v.at);
     if (!seg) throw new Error(`Segment inconnu dans visuals.json : ${v.at}`);
-    const from = i === 0 ? -f(PREROLL) : f(v.after ? phraseTime(v.after, seg, segs) : seg.start);
+    return {seg, from: i === 0 ? -f(PREROLL) : f(v.after ? phraseTime(v.after, seg, segs) : seg.start)};
+  };
+  // Un visuel de type "endcard" (facultatif, en dernier) avance la carte finale sur la dernière phrase
+  // (« Full story on the channel ») ; sans lui, elle commence à la fin de la narration.
+  const endVisual = visuals.length > 1 && visuals[visuals.length - 1].type === 'endcard' ? visuals[visuals.length - 1] : null;
+  const endFrom = endVisual ? startOf(endVisual, visuals.length - 1).from : narrationEnd;
+  const placed = (endVisual ? visuals.slice(0, -1) : visuals).map((v, i) => {
+    const {seg, from} = startOf(v, i);
     return {v: {...v, props: resolveTimes(v.props, from / fps, seg, segs) as Record<string, unknown>}, from};
   });
+  const scenesEnd = endVisual ? endFrom + OVERLAP : durationInFrames;
 
   return (
     <MediaContext.Provider value={mediaById}>
@@ -202,7 +210,7 @@ export const Short: React.FC<ShortProps> = ({timeline, visuals, media = [], hook
         <AbsoluteFill style={{background: C.ink}}>
           <Atmosphere />
           {placed.map(({v, from}, i) => {
-            const to = i + 1 < placed.length ? placed[i + 1].from : durationInFrames;
+            const to = i + 1 < placed.length ? placed[i + 1].from : scenesEnd;
             const dur = Math.max(1, to - from) + (i + 1 < placed.length ? OVERLAP : 0);
             return (
               <Sequence key={i} from={from} durationInFrames={dur} name={`${v.at} ${v.type}`}>
@@ -235,11 +243,12 @@ export const Short: React.FC<ShortProps> = ({timeline, visuals, media = [], hook
           <Sequence from={0} durationInFrames={durationInFrames} name="accroche">
             <Hook text={hook} />
           </Sequence>
-          <Captions cards={timeline.captions ?? []} until={timeline.duration} />
-          <Sequence from={narrationEnd} durationInFrames={durationInFrames - narrationEnd} name="carte finale">
+          <Sequence from={endFrom} durationInFrames={durationInFrames - endFrom} name="carte finale">
             <EndCard title={longTitle} />
             <Audio src={staticFile('sfx/whoosh-deep.wav')} volume={0.35} />
           </Sequence>
+          {/* Après la carte finale : si elle commence avant la fin de la narration, la dernière phrase reste sous-titrée. */}
+          <Captions cards={timeline.captions ?? []} until={timeline.duration} />
           <FilmFinish />
           <Audio src={staticFile(audio)} />
         </AbsoluteFill>

@@ -6,6 +6,7 @@ import {ChapterCard, CreditsFlow, EndScreen, Hud, Ident} from './components/spec
 import {Hero, MediaContext, Photo, PhotoLayer} from './components/media';
 import {Donut, Loop} from './components/diagrams';
 import {Cascade, Density, PriceTags, Receipt} from './components/money';
+import {Shot} from './components/shorts';
 import {Segment, VideoProps, Visual} from './types';
 import {C, applyTint} from './theme';
 
@@ -35,6 +36,7 @@ export const BLOCKS: Record<string, React.FC<any>> = {
   receipt: Receipt,
   prices: PriceTags,
   density: Density,
+  shot: Shot, // plans de Short « une idée, un chiffre »
 };
 
 export const renderVisual = (v: Visual) => {
