@@ -1,178 +1,398 @@
 [
  {
   "id": "logo_costco",
-  "title": "File:Costco Wholesale logo 2010-10-26.svg"
+  "title": "File:Costco Wholesale logo 2010-10-26.svg",
+  "file": "media/logo_costco.svg",
+  "license": "Public domain",
+  "artist": "Costco Wholesale",
+  "restrictions": "trademarked",
+  "page": "https://commons.wikimedia.org/wiki/File:Costco_Wholesale_logo_2010-10-26.svg"
  },
  {
   "id": "logo_kirkland",
-  "title": "File:Kirkland Signature logo.svg"
+  "title": "File:Kirkland Signature logo.svg",
+  "file": "media/logo_kirkland.svg",
+  "license": "Public domain",
+  "artist": "Costco Wholesale Corporation",
+  "restrictions": "trademarked",
+  "page": "https://commons.wikimedia.org/wiki/File:Kirkland_Signature_logo.svg"
  },
  {
   "id": "logo_samsclub",
-  "title": "File:Sam's Club logo 2026.svg"
+  "title": "File:Sam's Club logo 2026.svg",
+  "file": "media/logo_samsclub.svg",
+  "license": "Public domain",
+  "artist": "Walmart",
+  "restrictions": "trademarked",
+  "page": "https://commons.wikimedia.org/wiki/File:Sam%27s_Club_logo_2026.svg"
  },
  {
   "id": "logo_walmart",
-  "title": "File:Walmart logo (2025).svg"
+  "title": "File:Walmart logo (2025).svg",
+  "file": "media/logo_walmart.svg",
+  "license": "Public domain",
+  "artist": "Walmart",
+  "restrictions": "trademarked",
+  "page": "https://commons.wikimedia.org/wiki/File:Walmart_logo_(2025).svg"
  },
  {
   "id": "logo_amazon",
-  "title": "File:Amazon logo.svg"
+  "title": "File:Amazon logo.svg",
+  "file": "media/logo_amazon.svg",
+  "license": "Public domain",
+  "artist": "Amazon.com, Inc.",
+  "restrictions": "trademarked",
+  "page": "https://commons.wikimedia.org/wiki/File:Amazon_logo.svg"
  },
  {
   "id": "logo_prime",
-  "title": "File:Amazon Prime logo (2024).svg"
+  "title": "File:Amazon Prime logo (2024).svg",
+  "file": "media/logo_prime.svg",
+  "license": "Public domain",
+  "artist": "Amazon.com, Inc.",
+  "restrictions": "trademarked",
+  "page": "https://commons.wikimedia.org/wiki/File:Amazon_Prime_logo_(2024).svg"
  },
  {
   "id": "logo_bjs",
-  "title": "File:BJs Wholesale Club Logo.svg"
+  "title": "File:BJs Wholesale Club Logo.svg",
+  "file": "media/logo_bjs.svg",
+  "license": "Public domain",
+  "artist": "BJ's Wholesale Club",
+  "restrictions": "trademarked",
+  "page": "https://commons.wikimedia.org/wiki/File:BJs_Wholesale_Club_Logo.svg"
  },
  {
   "id": "logo_target",
-  "title": "File:Target Logo (2).svg"
+  "title": "File:Target Logo (2).svg",
+  "file": "media/logo_target.svg",
+  "license": "Public domain",
+  "artist": "Gibbsyspin",
+  "restrictions": "trademarked",
+  "page": "https://commons.wikimedia.org/wiki/File:Target_Logo_(2).svg"
  },
  {
   "id": "logo_kroger",
-  "title": "File:Kroger logo (1961-2019).svg"
+  "title": "File:Kroger logo (1961-2019).svg",
+  "file": "media/logo_kroger.svg",
+  "license": "Public domain",
+  "artist": "Kroger",
+  "restrictions": "trademarked",
+  "page": "https://commons.wikimedia.org/wiki/File:Kroger_logo_(1961-2019).svg"
  },
  {
   "id": "costco_front",
-  "title": "File:Costco 9821.jpg"
+  "title": "File:Costco 9821.jpg",
+  "file": "media/costco_front.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "Chris Light",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Costco_9821.jpg"
  },
  {
   "id": "costco_henderson",
-  "title": "File:Costcostorehenderson.jpg"
+  "title": "File:Costcostorehenderson.jpg",
+  "file": "media/costco_henderson.jpg",
+  "license": "CC BY-SA 3.0",
+  "artist": "No machine-readable author provided. CommonsHelper2 Bot assumed (based on copyright claims).",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Costcostorehenderson.jpg"
  },
  {
   "id": "costco_alhambra",
-  "title": "File:Alhambra, CA, USA - panoramio (43).jpg"
+  "title": "File:Alhambra, CA, USA - panoramio (43).jpg",
+  "file": "media/costco_alhambra.jpg",
+  "license": "CC BY 3.0",
+  "artist": "peter boy12qq12",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Alhambra,_CA,_USA_-_panoramio_(43).jpg"
  },
  {
   "id": "costco_montreal",
-  "title": "File:CostcoMontreal.jpg"
+  "title": "File:CostcoMontreal.jpg",
+  "file": "media/costco_montreal.jpg",
+  "license": "CC BY-SA 3.0",
+  "artist": "Mtlfiredude",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:CostcoMontreal.jpg"
  },
  {
   "id": "costco_dusk",
-  "title": "File:Thorncliffe Park Costco - 02.jpg"
+  "title": "File:Thorncliffe Park Costco - 02.jpg",
+  "file": "media/costco_dusk.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "Sikander Iqbal",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Thorncliffe_Park_Costco_-_02.jpg"
  },
  {
   "id": "costco_aerial",
-  "title": "File:Costco Ocean Township.png"
+  "title": "File:Costco Ocean Township.png",
+  "file": "media/costco_aerial.png",
+  "license": "CC BY-SA 4.0",
+  "artist": "Szeremeta",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Costco_Ocean_Township.png"
  },
  {
   "id": "costco_roof",
-  "title": "File:Aerial perspective of the Costco roof at the Docklands. March 2019.jpg"
+  "title": "File:Aerial perspective of the Costco roof at the Docklands. March 2019.jpg",
+  "file": "media/costco_roof.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "Bob Tan",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Aerial_perspective_of_the_Costco_roof_at_the_Docklands._March_2019.jpg"
  },
  {
   "id": "gas_topdown",
-  "title": "File:231217-5 1445 W Elliot Rd Costco Gasoline.jpg"
+  "title": "File:231217-5 1445 W Elliot Rd Costco Gasoline.jpg",
+  "file": "media/gas_topdown.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "Hunter Trick (TrickHunter)",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:231217-5_1445_W_Elliot_Rd_Costco_Gasoline.jpg"
  },
  {
   "id": "gas_aerial",
-  "title": "File:COSTCO gas station.jpg"
+  "title": "File:COSTCO gas station.jpg",
+  "file": "media/gas_aerial.jpg",
+  "license": "CC0",
+  "artist": "Wikideas1",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:COSTCO_gas_station.jpg"
  },
  {
   "id": "gas_station",
-  "title": "File:Costco Gas Station Gasoline (15948834050).jpg"
+  "title": "File:Costco Gas Station Gasoline (15948834050).jpg",
+  "file": "media/gas_station.jpg",
+  "license": "CC BY 2.0",
+  "artist": "Mike Mozart from Funny YouTube, USA",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Costco_Gas_Station_Gasoline_(15948834050).jpg"
  },
  {
   "id": "gas_pump",
-  "title": "File:Costco gas pump New Orleans 2 June 2026.jpg"
+  "title": "File:Costco gas pump New Orleans 2 June 2026.jpg",
+  "file": "media/gas_pump.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "Infrogmation",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Costco_gas_pump_New_Orleans_2_June_2026.jpg"
  },
  {
   "id": "aisle_pallets",
-  "title": "File:Costco 9822.jpg"
+  "title": "File:Costco 9822.jpg",
+  "file": "media/aisle_pallets.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "Chris Light",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Costco_9822.jpg"
  },
  {
   "id": "pallets",
-  "title": "File:Costco 9977.jpg"
+  "title": "File:Costco 9977.jpg",
+  "file": "media/pallets.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "Chris Light",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Costco_9977.jpg"
  },
  {
   "id": "interior_ssf",
-  "title": "File:Costco SSF interior.JPG"
+  "title": "File:Costco SSF interior.JPG",
+  "file": "media/interior_ssf.jpg",
+  "license": "CC BY-SA 3.0",
+  "artist": "BrokenSphere",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Costco_SSF_interior.JPG"
  },
  {
   "id": "aisle_water",
-  "title": "File:In Costco North Taichung 06.jpg"
+  "title": "File:In Costco North Taichung 06.jpg",
+  "file": "media/aisle_water.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "Alika113",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:In_Costco_North_Taichung_06.jpg"
  },
  {
   "id": "noodles",
-  "title": "File:Boxes of Nissin Cup Noodles on pallets at Costco, SSF ECR.JPG"
+  "title": "File:Boxes of Nissin Cup Noodles on pallets at Costco, SSF ECR.JPG",
+  "file": "media/noodles.jpg",
+  "license": "CC BY-SA 3.0",
+  "artist": "BrokenSphere",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Boxes_of_Nissin_Cup_Noodles_on_pallets_at_Costco,_SSF_ECR.JPG"
  },
  {
   "id": "panorama",
-  "title": "File:Panorama of the largest Costco Wholesale store, located in Salt Lake City, Utah, United States.jpg"
+  "title": "File:Panorama of the largest Costco Wholesale store, located in Salt Lake City, Utah, United States.jpg",
+  "file": "media/panorama.jpg",
+  "license": "CC BY 4.0",
+  "artist": "888emmanuelc888",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Panorama_of_the_largest_Costco_Wholesale_store,_located_in_Salt_Lake_City,_Utah,_United_States.jpg"
  },
  {
   "id": "checkout",
-  "title": "File:Costco before Labour Day 2026 - 01.jpg"
+  "title": "File:Costco before Labour Day 2026 - 01.jpg",
+  "file": "media/checkout.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "Sikander",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Costco_before_Labour_Day_2026_-_01.jpg"
  },
  {
   "id": "foodcourt",
-  "title": "File:Food court at Costco Wholesale Queens, October 21 2023, New York 4.jpg"
+  "title": "File:Food court at Costco Wholesale Queens, October 21 2023, New York 4.jpg",
+  "file": "media/foodcourt.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "Deans Charbal",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Food_court_at_Costco_Wholesale_Queens,_October_21_2023,_New_York_4.jpg"
  },
  {
   "id": "hotdog",
-  "title": "File:$1.5 hot-dog combo at Costco Wholesale Queens, October 21 2023, New York.jpg"
+  "title": "File:$1.5 hot-dog combo at Costco Wholesale Queens, October 21 2023, New York.jpg",
+  "file": "media/hotdog.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "Deans Charbal",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:$1.5_hot-dog_combo_at_Costco_Wholesale_Queens,_October_21_2023,_New_York.jpg"
  },
  {
   "id": "hotdog2",
-  "title": "File:Food Court of Costco Wholesale (30503545035).jpg"
+  "title": "File:Food Court of Costco Wholesale (30503545035).jpg",
+  "file": "media/hotdog2.jpg",
+  "license": "CC BY 2.0",
+  "artist": "GoToVan from Vancouver, Canada",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Food_Court_of_Costco_Wholesale_(30503545035).jpg"
  },
  {
   "id": "chicken",
-  "title": "File:Costco rotisserie chicken packaging.jpg"
+  "title": "File:Costco rotisserie chicken packaging.jpg",
+  "file": "media/chicken.jpg",
+  "license": "CC BY-SA 3.0",
+  "artist": "Cullen328",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Costco_rotisserie_chicken_packaging.jpg"
  },
  {
   "id": "kirkland_water",
-  "title": "File:Kirkland Signature water bottles (11093157244).jpg"
+  "title": "File:Kirkland Signature water bottles (11093157244).jpg",
+  "file": "media/kirkland_water.jpg",
+  "license": "CC BY 2.0",
+  "artist": "m01229",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Kirkland_Signature_water_bottles_(11093157244).jpg"
  },
  {
   "id": "card",
-  "title": "File:Icelandic Costco membership card.jpg"
+  "title": "File:Icelandic Costco membership card.jpg",
+  "file": "media/card.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "Drumstick21",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Icelandic_Costco_membership_card.jpg"
  },
  {
   "id": "walnuts",
-  "title": "File:Walnuts - whole and open with halved kernel.jpg"
+  "title": "File:Walnuts - whole and open with halved kernel.jpg",
+  "file": "media/walnuts.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "Ivar Leidus",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Walnuts_-_whole_and_open_with_halved_kernel.jpg"
  },
  {
   "id": "pepper",
-  "title": "File:Black Peppercorns.jpg"
+  "title": "File:Black Peppercorns.jpg",
+  "file": "media/pepper.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "Xitop753",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Black_Peppercorns.jpg"
  },
  {
   "id": "supermarket",
-  "title": "File:Aisle in L Intermarche supermarket in Quebec City.jpg"
+  "title": "File:Aisle in L Intermarche supermarket in Quebec City.jpg",
+  "file": "media/supermarket.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "Wilfredor",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Aisle_in_L_Intermarche_supermarket_in_Quebec_City.jpg"
  },
  {
   "id": "cereal",
-  "title": "File:Tesco Supermarket (Cereal).jpg"
+  "title": "File:Tesco Supermarket (Cereal).jpg",
+  "file": "media/cereal.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "Vauxford",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Tesco_Supermarket_(Cereal).jpg"
  },
  {
   "id": "samsclub",
-  "title": "File:Sam's Club (51788721374).jpg"
+  "title": "File:Sam's Club (51788721374).jpg",
+  "file": "media/samsclub.jpg",
+  "license": "CC BY 2.0",
+  "artist": "ajay_suresh",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Sam%27s_Club_(51788721374).jpg"
  },
  {
   "id": "samsclub2",
-  "title": "File:Sam's Club store.jpg"
+  "title": "File:Sam's Club store.jpg",
+  "file": "media/samsclub2.jpg",
+  "license": "Public domain",
+  "artist": "Caldorwards4",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Sam%27s_Club_store.jpg"
  },
  {
   "id": "walmart_store",
-  "title": "File:Walmart Supercenter, Yucca Valley.jpg"
+  "title": "File:Walmart Supercenter, Yucca Valley.jpg",
+  "file": "media/walmart_store.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "YosemiteYamper",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Walmart_Supercenter,_Yucca_Valley.jpg"
  },
  {
   "id": "costco_hq",
-  "title": "File:Costcoheadquarters.jpg"
+  "title": "File:Costcoheadquarters.jpg",
+  "file": "media/costco_hq.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "Coolcaesar",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Costcoheadquarters.jpg"
  },
  {
   "id": "costco_mexico",
-  "title": "File:Letrero de Costco en Xalapa.jpg"
+  "title": "File:Letrero de Costco en Xalapa.jpg",
+  "file": "media/costco_mexico.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "Koffermejia",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Letrero_de_Costco_en_Xalapa.jpg"
  },
  {
   "id": "costco_uk",
-  "title": "File:Costco warehouse - geograph.org.uk - 6674141.jpg"
+  "title": "File:Costco warehouse - geograph.org.uk - 6674141.jpg",
+  "file": "media/costco_uk.jpg",
+  "license": "CC BY-SA 2.0",
+  "artist": "James Emmans",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Costco_warehouse_-_geograph.org.uk_-_6674141.jpg"
  },
  {
   "id": "food_kiosk",
-  "title": "File:Costco food court self-service kiosks.jpg"
+  "title": "File:Costco food court self-service kiosks.jpg",
+  "file": "media/food_kiosk.jpg",
+  "license": "CC BY 4.0",
+  "artist": "Nielsoncaetanosalmeron",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Costco_food_court_self-service_kiosks.jpg"
  }
 ]
