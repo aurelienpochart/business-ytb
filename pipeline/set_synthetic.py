@@ -29,7 +29,7 @@ def main():
     token = access_token()
     for vid in sys.argv[1:]:
         cur = status(token, vid)
-        if cur.get("containsSyntheticMedia"):
+        if cur.get("containsSyntheticMedia") is True:
             print(f"{vid} : déjà coché")
             continue
         body = {k: cur[k] for k in WRITABLE if k in cur}
@@ -37,12 +37,16 @@ def main():
             body["selfDeclaredMadeForKids"] = cur.get("madeForKids", False)
         body["containsSyntheticMedia"] = True
         try:
-            request("PUT", f"{API}?part=status", token, json.dumps({"id": vid, "status": body}).encode(),
-                    {"Content-Type": "application/json"}).read()
+            put = json.load(request("PUT", f"{API}?part=status", token,
+                                    json.dumps({"id": vid, "status": body}).encode(),
+                                    {"Content-Type": "application/json"}))
         except urllib.error.HTTPError as e:
             sys.exit(f"{vid} : HTTP {e.code} {e.read().decode()[:500]}")
         after = status(token, vid)
-        ok = after.get("containsSyntheticMedia") is True and after.get("privacyStatus") == cur.get("privacyStatus") \
+        # La lecture n'expose pas toujours ce champ : on se fie aussi à la réponse de la mise à jour.
+        flagged = after.get("containsSyntheticMedia", put.get("status", {}).get("containsSyntheticMedia"))
+        print(f"{vid} : réponse de la mise à jour {json.dumps(put.get('status'))}")
+        ok = flagged is True and after.get("privacyStatus") == cur.get("privacyStatus") \
             and after.get("publishAt") == cur.get("publishAt")
         print(f"{vid} : {'OK' if ok else 'À VÉRIFIER'} (avant {json.dumps(cur)}, après {json.dumps(after)})")
         if not ok:
