@@ -3,7 +3,7 @@ import {AbsoluteFill, Easing, Img, interpolate, spring, useCurrentFrame, useVide
 import {AMB, C, FONT, photoTint} from '../theme';
 import {colorOf, fade, glass, gradOf, useEnter, useLayout} from './common';
 import {IconDraw} from './blocks';
-import {gold, LightSweep, Odometer, RevealWords, TechRing} from './fx';
+import {gold, LightSweep, RevealWords, TechRing} from './fx';
 import {Logo, useMedia} from './media';
 
 // Plan de Short « une idée, un chiffre » (type "shot" dans visuals.json) : photo plein cadre sous un voile
@@ -64,9 +64,8 @@ const BigNumber: React.FC<{text: string; color: string; delay: number; max?: num
   const size = fitSize(text, max);
   return (
     <div style={{fontFamily: FONT.mono, fontWeight: 600, fontSize: size, letterSpacing: -0.02 * size, lineHeight: 1, whiteSpace: 'nowrap', transform: `scale(${0.7 + 0.3 * Math.min(1.05, p)})`, opacity: Math.min(1, p * 1.5)}}>
-      <span style={numberStyle(color, frame, fps)}>
-        <Odometer text={text} delay={delay} />
-      </span>
+      {/* Pas de compteur à rouleaux : à toute image, le nombre affiché est le bon (celui de la narration). */}
+      <span style={{...numberStyle(color, frame, fps), display: 'inline-block', filter: p < 0.9 ? `blur(${(1 - Math.min(1, p)) * 14}px)` : undefined}}>{text}</span>
     </div>
   );
 };
