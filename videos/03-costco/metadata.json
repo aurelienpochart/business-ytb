@@ -1,0 +1,52 @@
+{
+  "title": "Costco's Real Product Is Its Membership Card",
+  "summary": "Costco sold $297 billion of goods last year and kept less than two cents on the dollar from those sales. Its membership fees are only about 2% of revenue, yet about half of its operating profit. Where $100 at the checkout goes, why the shelves barely break even, and what 84 million members are really paying for. Every number is sourced below.",
+  "chapter_titles": {
+    "0": "A store that barely profits on what it sells",
+    "1": "Where $100 at Costco really goes",
+    "2": "The shelves: priced to barely break even",
+    "3": "How to run a store on eleven cents",
+    "4": "The card: what members are really buying",
+    "5": "Gas, the app and the rivals",
+    "6": "So, how does Costco make money?"
+  },
+  "sources": [
+    "Costco, Q4 and fiscal 2026 results, Form 8-K (Sep. 24, 2026): https://www.sec.gov/Archives/edgar/data/0000909832/000090983226000084/costex9918-k92426.htm",
+    "Costco, 10-K fiscal 2026: https://www.sec.gov/Archives/edgar/data/0000909832/000090983226000093/cost-20260830.htm",
+    "Costco, Q4 fiscal 2026 earnings call, via Webull: https://www.webull.com/news/15660435456459776",
+    "Retail TouchPoints (Jul. 2024): https://www.retailtouchpoints.com/features/financial-news/costco-to-boost-membership-fees-for-first-time-since-2017/2",
+    "FMI, Supermarket Facts: https://fmi.org/our-research/supermarket-facts",
+    "Supermarket News (Jun. 8, 2009): https://www.supermarketnews.com/blog/brand-price-right-thanks-private-labels",
+    "Moneywise via Yahoo Finance (May 31, 2026): https://finance.yahoo.com/markets/stocks/articles/business-equivalent-taking-heroin-why-120000693.html",
+    "Grocery Dive (Dec. 16, 2024): https://www.grocerydive.com/news/costo-earnings-q1-grocery-retail/735589/",
+    "Scripps News / WPTV (Mar. 19, 2026): https://www.wptv.com/business/company-news/costcos-1-50-hot-dog-combo-faces-inflation-the-ceos-answer",
+    "Reuters via Yahoo Finance (Jan. 30, 2025): https://finance.yahoo.com/news/costco-raise-hourly-pay-most-005921551.html",
+    "PYMNTS (May 29, 2026): https://www.pymnts.com/?p=3785408",
+    "Costco, September 2026 sales results (Oct. 7, 2026): https://www.globenewswire.com/news-release/2026/10/07/3376846/0/en/index.html",
+    "Walmart, 10-K fiscal 2026: https://www.sec.gov/Archives/edgar/data/104169/000010416926000055/wmt-20260131.htm"
+  ],
+  "credits": [
+    "Fonts: Inter, IBM Plex Mono and Instrument Serif (SIL Open Font License); icons: Lucide (ISC).",
+    "Charts and animations made by The Cost Curve from the sources above. The receipt and the $100 bill are illustrations, not real documents."
+  ],
+  "subject_company": "Costco Wholesale Corporation",
+  "tags": [
+    "Costco",
+    "how Costco makes money",
+    "Costco membership",
+    "Costco business model",
+    "Costco membership fee",
+    "Kirkland Signature",
+    "Costco hot dog",
+    "Sam's Club",
+    "warehouse club",
+    "Costco earnings explained",
+    "retail business model",
+    "business explained",
+    "The Cost Curve"
+  ],
+  "category_id": "27",
+  "contains_synthetic_media": false,
+  "made_for_kids": false,
+  "tint": "costco"
+}

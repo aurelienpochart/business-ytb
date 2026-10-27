@@ -10,7 +10,7 @@ const clamp = {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'} as const;
 
 // ---------- Anneau (parts d'un total) ----------
 // Les arcs se dessinent l'un après l'autre ; légende à droite ; `focus` met une part en avant.
-type Slice = {label: string; value: number; color?: string; sub?: string};
+type Slice = {label: string; value: number; color?: string; sub?: string; display?: string};
 export const Donut: React.FC<{
   title?: string;
   parts: Slice[];
@@ -83,7 +83,7 @@ export const Donut: React.FC<{
         </div>
         <div style={P ? {display: 'flex', gap: 40, width: 940} : {display: 'flex', flexDirection: 'column', gap: 34, width: 640}}>
           {parts.map((part, i) => (
-            <Legend key={i} part={part} delay={(delays?.[i] ?? start + i * stagger) + 0.4} dim={focus !== undefined && focus !== i ? focusP : 0} text={`${prefix}${formatNumber(part.value, decimals)}${suffix}`} />
+            <Legend key={i} part={part} delay={(delays?.[i] ?? start + i * stagger) + 0.4} dim={focus !== undefined && focus !== i ? focusP : 0} text={part.display ?? `${prefix}${formatNumber(part.value, decimals)}${suffix}`} />
           ))}
         </div>
       </div>

@@ -6,7 +6,10 @@
   "license": "Public domain",
   "artist": "Costco Wholesale",
   "restrictions": "trademarked",
-  "page": "https://commons.wikimedia.org/wiki/File:Costco_Wholesale_logo_2010-10-26.svg"
+  "page": "https://commons.wikimedia.org/wiki/File:Costco_Wholesale_logo_2010-10-26.svg",
+  "svg_drop": [
+   "#FFF"
+  ]
  },
  {
   "id": "logo_kirkland",
@@ -15,7 +18,10 @@
   "license": "Public domain",
   "artist": "Costco Wholesale Corporation",
   "restrictions": "trademarked",
-  "page": "https://commons.wikimedia.org/wiki/File:Kirkland_Signature_logo.svg"
+  "page": "https://commons.wikimedia.org/wiki/File:Kirkland_Signature_logo.svg",
+  "svg_drop": [
+   "#231f20"
+  ]
  },
  {
   "id": "logo_samsclub",
@@ -60,7 +66,10 @@
   "license": "Public domain",
   "artist": "BJ's Wholesale Club",
   "restrictions": "trademarked",
-  "page": "https://commons.wikimedia.org/wiki/File:BJs_Wholesale_Club_Logo.svg"
+  "page": "https://commons.wikimedia.org/wiki/File:BJs_Wholesale_Club_Logo.svg",
+  "svg_drop": [
+   "#c23054"
+  ]
  },
  {
   "id": "logo_target",
@@ -78,7 +87,11 @@
   "license": "Public domain",
   "artist": "Kroger",
   "restrictions": "trademarked",
-  "page": "https://commons.wikimedia.org/wiki/File:Kroger_logo_(1961-2019).svg"
+  "page": "https://commons.wikimedia.org/wiki/File:Kroger_logo_(1961-2019).svg",
+  "svg_drop": [
+   "#0468b3",
+   "d:m0 0c135.84 0 245.95"
+  ]
  },
  {
   "id": "costco_front",

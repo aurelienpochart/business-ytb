@@ -76,6 +76,29 @@ export const TINTS: Record<string, Palette> = {
       heroNumGlow: 'rgba(118,185,0,0.5)',
     },
   },
+  costco: {
+    // Rouge Costco (#E31837) pour l'ambiance : nuit bordeaux presque noire, halos rouges discrets ; l'or reste
+    // l'accent principal. Les chiffres « teal » passent au bleu Costco éclairci (#005DAA, la 2e couleur de la marque),
+    // qui reste lisible sur le fond rouge sombre et ne se confond pas avec le rouge brique des baisses.
+    C: {ink: '#070203', navy: '#1C080B', navyLight: '#2C0F14', mute: '#AE9799', slate: '#8C7779', teal: '#6FB4FF'},
+    GRAD: {
+      teal: ['#0B4F9A', '#8CC6FF', 'rgba(70,150,240,0.40)'],
+      slate: ['#3A2C2E', '#A08A8C', 'rgba(160,138,140,0.25)'],
+    },
+    AMB: {
+      inkRgb: '7,2,3',
+      night: '#4A121B',
+      nightSoft: '#3D0F17',
+      orbCool: 'rgba(227,24,55,0.08)',
+      orbTeal: 'rgba(227,24,55,0.06)',
+      particle: '#ffe0e3',
+      photoGrade: 'rgba(96,18,30,0.22)',
+      photoFilter: '',
+      regradeFilter: 'saturate(0.55)',
+      heroNum: '#FF6476',
+      heroNumGlow: 'rgba(227,24,55,0.55)',
+    },
+  },
 };
 
 const DEFAULT = {C: {...C}, GRAD: {...GRAD}, AMB: {...AMB}};

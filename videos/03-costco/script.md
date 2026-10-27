@@ -25,7 +25,7 @@ Let's take the receipt apart, line by line.
 
 > Ident The Cost Curve, 3 s.
 
-## 1. The receipt: one hundred dollars at the register
+## 1. Where $100 at Costco really goes
 
 > Un billet de 100 $ se découpe en tranches, en cascade : 88,91 $ (gris), 9,15 $ (bleu-vert), 1,94 $ (ambre), puis une tranche ambre de 1,99 $ « membership » qui s'ajoute à côté.
 
@@ -129,7 +129,7 @@ Here's the deal, then, in one sentence. Members pay Costco for the right to buy 
 
 That's the real discipline behind the hot dog. Raise prices on the shelves, and you put the membership at risk. And the membership is where half the profit is.
 
-## 5. The extras: gas, the app, and the rivals
+## 5. Gas, the app and the rivals
 
 > Carte des États-Unis : 774 stations-service qui s'allument. Puis une flèche « pump → warehouse ».
 
@@ -155,7 +155,7 @@ Costco's answer is to keep building. It opened twenty-eight warehouses last year
 
 So the real fight isn't over who sells the cheapest ketchup. It's over which membership people decide is worth paying for again next year.
 
-## 6. Conclusion
+## 6. So, how does Costco make money?
 
 > Retour au billet de 100 $ : la tranche « membership » pulse en ambre ; à côté, le hot-dog à 1,50 $ et la carte de membre.
 

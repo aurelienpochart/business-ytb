@@ -136,7 +136,7 @@ const NumberItem: React.FC<{item: Num; delay: number; big: boolean}> = ({item, d
 };
 
 // ---------- Barres ----------
-type Bar = {label: string; value: number; color?: string; note?: string};
+type Bar = {label: string; value: number; color?: string; note?: string; display?: string}; // display : texte affiché à la place de la valeur (ex. « > $300M »)
 const CHART_H = 560;
 const CHART_H_PORTRAIT = 640;
 export const Bars: React.FC<{title: string; bars: Bar[]; prefix?: string; suffix?: string; decimals?: number; max?: number; stagger?: number; delays?: number[]; source?: string}> = ({
@@ -199,7 +199,7 @@ const BarItem: React.FC<{bar: Bar; scale: number; base: number; width: number; d
   const neg = bar.value < 0;
   const [lo, hi, halo] = gradOf(bar.color ?? 'teal');
   const shine = interpolate(frame, [(delay + 1.1) * fps, (delay + 1.9) * fps], [-0.4, 1.4], clamp);
-  const text = `${neg ? '−' : ''}${prefix}${formatNumber(Math.abs(bar.value), decimals)}${suffix}`;
+  const text = bar.display ?? `${neg ? '−' : ''}${prefix}${formatNumber(Math.abs(bar.value), decimals)}${suffix}`;
   const body: React.CSSProperties = {
     position: 'absolute',
     left: 0,
@@ -244,7 +244,7 @@ const BarItem: React.FC<{bar: Bar; scale: number; base: number; width: number; d
 };
 
 // ---------- Barre empilée ----------
-type Part = {label: string; value: number; color?: string};
+type Part = {label: string; value: number; color?: string; display?: string};
 export const Stacked: React.FC<{title: string; total: string; parts: Part[]; prefix?: string; suffix?: string; decimals?: number; source?: string}> = ({
   title,
   total,
@@ -291,7 +291,7 @@ const StackLabel: React.FC<{part: Part; share: number; delay: number; prefix: st
   return (
     <div style={{...fade(p), width: `${share * 100}%`, minWidth: 0, paddingLeft: 12, borderLeft: `2px solid ${gradOf(part.color)[1]}`}}>
       <div style={{fontFamily: FONT.mono, fontWeight: 600, fontSize: 48, ...glowText(part.color)}}>
-        <Odometer text={`${prefix}${formatNumber(part.value, decimals)}${suffix}`} delay={delay} />
+        <Odometer text={part.display ?? `${prefix}${formatNumber(part.value, decimals)}${suffix}`} delay={delay} />
       </div>
       <div style={{fontFamily: FONT.title, fontSize: 28, color: C.paper, opacity: 0.8, marginTop: 10, lineHeight: 1.2}}>{part.label}</div>
     </div>

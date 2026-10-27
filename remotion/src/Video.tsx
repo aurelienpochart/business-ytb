@@ -5,6 +5,7 @@ import {Atmosphere, Camera, FilmFinish, LightSweep, SceneShell} from './componen
 import {ChapterCard, CreditsFlow, EndScreen, Hud, Ident} from './components/special';
 import {Hero, MediaContext, Photo, PhotoLayer} from './components/media';
 import {Donut, Loop} from './components/diagrams';
+import {Cascade, Density, PriceTags, Receipt} from './components/money';
 import {Segment, VideoProps, Visual} from './types';
 import {C, applyTint} from './theme';
 
@@ -30,6 +31,10 @@ export const BLOCKS: Record<string, React.FC<any>> = {
   hero: Hero,
   donut: Donut,
   loop: Loop,
+  cascade: Cascade,
+  receipt: Receipt,
+  prices: PriceTags,
+  density: Density,
 };
 
 export const renderVisual = (v: Visual) => {

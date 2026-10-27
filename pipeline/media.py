@@ -11,6 +11,7 @@ Deux modes, lancés par le workflow « Médias » (le conteneur de travail n'a p
       Lit <video>/media.json ([{"id", "title"}, ...], titres « File:... » choisis dans le catalogue),
       télécharge chaque fichier en grand (2560 px de large au plus, SVG gardé tel quel) dans
       <video>/media/<id>.<ext>, et complète media.json avec licence, auteur et lien (crédits).
+      Champ facultatif "svg_drop" : couleurs de remplissage à retirer d'un logo SVG (fond, contour blanc).
 """
 
 import json
@@ -104,6 +105,21 @@ def add_viewbox(data):
     return (text[:m.start()] + tag + text[m.end():]).encode("utf-8")
 
 
+def drop_fills(data, fills):
+    """Retire d'un SVG les formes remplies d'une des couleurs données (champ "svg_drop" de media.json) : fond
+    d'un logo ou contour blanc, pour que le logo affiché en blanc uni garde le dessin de ses lettres."""
+    text = data.decode("utf-8", "replace")
+    for color in fills:
+        if color.startswith("d:"):  # forme désignée par le début de son tracé (ex. « d:m0 0c135.84 »)
+            text = re.sub(rf'<path\b[^>]*?\sd="{re.escape(color[2:])}[^"]*"[^>]*?/>', "", text)
+            continue
+        c = re.escape(color)
+        attr = rf'(?:fill="{c}"|style="[^"]*fill:\s*{c}\b[^"]*")'
+        text = re.sub(rf"<(path|rect|ellipse|circle|polygon)\b[^>]*?{attr}[^>]*?/>", "", text, flags=re.I)
+        text = re.sub(rf"<(path|rect|ellipse|circle|polygon)\b[^>]*?{attr}[^>]*?>.*?</\1>", "", text, flags=re.I | re.S)
+    return text.encode("utf-8")
+
+
 def fetch(video):
     path = video / "media.json"
     items = json.loads(path.read_text())
@@ -125,6 +141,8 @@ def fetch(video):
         data = get(url)
         if svg:
             data = add_viewbox(data)
+            if item.get("svg_drop"):
+                data = drop_fills(data, item["svg_drop"])
         target.write_bytes(data)
         item.update({"file": f"media/{target.name}", "license": meta["license"], "artist": meta["artist"],
                      "restrictions": meta["restrictions"], "page": meta["page"]})
