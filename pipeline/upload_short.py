@@ -30,7 +30,9 @@ def main():
         "tags": meta.get("tags", []),
         "category_id": meta.get("category_id", "27"),
         "made_for_kids": meta.get("made_for_kids", False),
-        "contains_synthetic_media": meta.get("contains_synthetic_media", parent["contains_synthetic_media"]),
+        # Grille C-13 : musique générée par IA (music.json présent) => divulgation obligatoire.
+        "contains_synthetic_media": (short / "build" / "music.json").exists()
+        or meta.get("contains_synthetic_media", parent["contains_synthetic_media"]),
     }
     text = description(short, long_url)
     print(f"Titre : {meta['title']}\n{text}")

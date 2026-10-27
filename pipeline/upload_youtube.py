@@ -78,6 +78,9 @@ def upload_video(token, path, meta, description):
 def main():
     video_dir, mp4, thumb = Path(sys.argv[1]), Path(sys.argv[2]), Path(sys.argv[3])
     meta = json.loads((video_dir / "metadata.json").read_text())
+    # Grille C-13 : musique générée par IA (music.json présent) => divulgation obligatoire.
+    if (video_dir / "build" / "music.json").exists():
+        meta["contains_synthetic_media"] = True
     description = (video_dir / "build" / "description.txt").read_text()
     token = access_token()
 

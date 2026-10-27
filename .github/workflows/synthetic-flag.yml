@@ -1,0 +1,27 @@
+name: Divulgation contenu synthétique
+
+# Coche containsSyntheticMedia (grille C-13) sur des vidéos déjà envoyées, sans toucher à leur
+# confidentialité ni à leur programmation.
+on:
+  workflow_dispatch:
+    inputs:
+      ids:
+        description: Identifiants YouTube séparés par des espaces
+        required: true
+
+permissions:
+  contents: read
+
+jobs:
+  flag:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - name: Cocher et vérifier
+        env:
+          YT_CLIENT_ID: ${{ secrets.YT_CLIENT_ID }}
+          YT_CLIENT_SECRET: ${{ secrets.YT_CLIENT_SECRET }}
+          YT_REFRESH_TOKEN: ${{ secrets.YT_REFRESH_TOKEN }}
+          IDS: ${{ inputs.ids }}
+        run: python3 pipeline/set_synthetic.py $IDS
