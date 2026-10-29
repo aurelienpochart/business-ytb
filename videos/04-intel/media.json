@@ -1,246 +1,551 @@
 [
  {
   "id": "logo_intel",
-  "title": "File:Intel logo (2020, dark blue).svg"
+  "title": "File:Intel logo (2020, dark blue).svg",
+  "file": "media/logo_intel.svg",
+  "license": "Public domain",
+  "artist": "Intel",
+  "restrictions": "trademarked",
+  "page": "https://commons.wikimedia.org/wiki/File:Intel_logo_(2020,_dark_blue).svg"
  },
  {
   "id": "logo_intel_2006",
-  "title": "File:Intel logo (2006-2020).svg"
+  "title": "File:Intel logo (2006-2020).svg",
+  "file": "media/logo_intel_2006.svg",
+  "license": "Public domain",
+  "artist": "The original uploader was VD64992 at English Wikipedia.",
+  "restrictions": "trademarked",
+  "page": "https://commons.wikimedia.org/wiki/File:Intel_logo_(2006-2020).svg"
  },
  {
   "id": "logo_intel_inside",
-  "title": "File:Intel Inside Logo (1991-2006).svg"
+  "title": "File:Intel Inside Logo (1991-2006).svg",
+  "file": "media/logo_intel_inside.svg",
+  "license": "Public domain",
+  "artist": "Original: Holly Dickens for Intel Corporation\nVector: Nikon1803",
+  "restrictions": "trademarked",
+  "page": "https://commons.wikimedia.org/wiki/File:Intel_Inside_Logo_(1991-2006).svg"
  },
  {
   "id": "logo_tsmc",
-  "title": "File:TSMC wordmark.svg"
+  "title": "File:TSMC wordmark.svg",
+  "file": "media/logo_tsmc.svg",
+  "license": "Public domain",
+  "artist": "Taiwan Semiconductor Manufacturing Company Limited",
+  "restrictions": "trademarked",
+  "page": "https://commons.wikimedia.org/wiki/File:TSMC_wordmark.svg"
  },
  {
   "id": "logo_apple",
-  "title": "File:Apple logo black.svg"
+  "title": "File:Apple logo black.svg",
+  "file": "media/logo_apple.svg",
+  "license": "Public domain",
+  "artist": "Original:  Rob Janoff",
+  "restrictions": "trademarked",
+  "page": "https://commons.wikimedia.org/wiki/File:Apple_logo_black.svg"
  },
  {
   "id": "logo_arm",
-  "title": "File:Arm logo 2017.svg"
+  "title": "File:Arm logo 2017.svg",
+  "file": "media/logo_arm.svg",
+  "license": "Public domain",
+  "artist": "ARM Holdings",
+  "restrictions": "trademarked",
+  "page": "https://commons.wikimedia.org/wiki/File:Arm_logo_2017.svg"
  },
  {
   "id": "logo_qualcomm",
-  "title": "File:Qualcomm-Logo.svg"
+  "title": "File:Qualcomm-Logo.svg",
+  "file": "media/logo_qualcomm.svg",
+  "license": "Public domain",
+  "artist": "Original:  Qualcomm",
+  "restrictions": "trademarked",
+  "page": "https://commons.wikimedia.org/wiki/File:Qualcomm-Logo.svg"
  },
  {
   "id": "logo_samsung",
-  "title": "File:Samsung wordmark.svg"
+  "title": "File:Samsung wordmark.svg",
+  "file": "media/logo_samsung.svg",
+  "license": "Public domain",
+  "artist": "Samsung",
+  "restrictions": "trademarked",
+  "page": "https://commons.wikimedia.org/wiki/File:Samsung_wordmark.svg"
  },
  {
   "id": "logo_softbank",
-  "title": "File:SoftBank Group logo.svg"
+  "title": "File:SoftBank Group logo.svg",
+  "file": "media/logo_softbank.svg",
+  "license": "Public domain",
+  "artist": "Unknown authorUnknown author",
+  "restrictions": "trademarked",
+  "page": "https://commons.wikimedia.org/wiki/File:SoftBank_Group_logo.svg"
  },
  {
   "id": "logo_marvell",
-  "title": "File:Marvell Logo.svg"
+  "title": "File:Marvell Logo.svg",
+  "file": "media/logo_marvell.svg",
+  "license": "Public domain",
+  "artist": "Marvell Technology Group",
+  "restrictions": "trademarked",
+  "page": "https://commons.wikimedia.org/wiki/File:Marvell_Logo.svg"
  },
  {
   "id": "logo_ibm",
-  "title": "File:IBM Logo 1967-1972.svg"
+  "title": "File:IBM Logo 1967-1972.svg",
+  "file": "media/logo_ibm.svg",
+  "license": "Public domain",
+  "artist": "Paul Rand",
+  "restrictions": "trademarked",
+  "page": "https://commons.wikimedia.org/wiki/File:IBM_Logo_1967-1972.svg"
  },
  {
   "id": "gelsinger",
-  "title": "File:Pat Gelsinger December 2025.jpg"
+  "title": "File:Pat Gelsinger December 2025.jpg",
+  "file": "media/gelsinger.jpg",
+  "license": "CC BY 4.0",
+  "artist": "TechCrunch",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Pat_Gelsinger_December_2025.jpg"
  },
  {
   "id": "gelsinger_stage",
-  "title": "File:Web Summit 2017 - SaaS Monster CG1 8444 (26490847329) (cropped).jpg"
+  "title": "File:Web Summit 2017 - SaaS Monster CG1 8444 (26490847329) (cropped).jpg",
+  "file": "media/gelsinger_stage.jpg",
+  "license": "CC BY 2.0",
+  "artist": "Web Summit",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Web_Summit_2017_-_SaaS_Monster_CG1_8444_(26490847329)_(cropped).jpg"
  },
  {
   "id": "lip_bu_tan",
-  "title": "File:Howard Lutnick with Intel CEO Lip-Bu Tan (2025).jpg"
+  "title": "File:Howard Lutnick with Intel CEO Lip-Bu Tan (2025).jpg",
+  "file": "media/lip_bu_tan.jpg",
+  "license": "Public domain",
+  "artist": "United States Department of Commerce",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Howard_Lutnick_with_Intel_CEO_Lip-Bu_Tan_(2025).jpg"
  },
  {
   "id": "founders_1978",
-  "title": "File:Andy Grove Robert Noyce Gordon Moore 1978 edit.jpg"
+  "title": "File:Andy Grove Robert Noyce Gordon Moore 1978 edit.jpg",
+  "file": "media/founders_1978.jpg",
+  "license": "CC BY-SA 2.0",
+  "artist": "Intel Free Press",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Andy_Grove_Robert_Noyce_Gordon_Moore_1978_edit.jpg"
  },
  {
   "id": "ceos",
-  "title": "File:Intel CEOs Gordon Moore Craig Barrett Andy Grove Paul Otellini.jpg"
+  "title": "File:Intel CEOs Gordon Moore Craig Barrett Andy Grove Paul Otellini.jpg",
+  "file": "media/ceos.jpg",
+  "license": "CC BY-SA 2.0",
+  "artist": "Intel Free Press",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Intel_CEOs_Gordon_Moore_Craig_Barrett_Andy_Grove_Paul_Otellini.jpg"
  },
  {
   "id": "grove_2003",
-  "title": "File:Former Intel CEO Andy Grove in 2003.jpg"
+  "title": "File:Former Intel CEO Andy Grove in 2003.jpg",
+  "file": "media/grove_2003.jpg",
+  "license": "CC BY-SA 2.0",
+  "artist": "Intel Free Press",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Former_Intel_CEO_Andy_Grove_in_2003.jpg"
  },
  {
   "id": "noyce_moore_1970",
-  "title": "File:Robert Noyce and Gordon Moore at SC1 1970.png"
+  "title": "File:Robert Noyce and Gordon Moore at SC1 1970.png",
+  "file": "media/noyce_moore_1970.png",
+  "license": "CC BY-SA 2.0",
+  "artist": "Intel Free Press",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Robert_Noyce_and_Gordon_Moore_at_SC1_1970.png"
  },
  {
   "id": "noyce_moore_desk",
-  "title": "File:Gordon Moore and Robert Noyce at Intel in 1970.png"
+  "title": "File:Gordon Moore and Robert Noyce at Intel in 1970.png",
+  "file": "media/noyce_moore_desk.png",
+  "license": "CC BY-SA 2.0",
+  "artist": "Intel Free Press",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Gordon_Moore_and_Robert_Noyce_at_Intel_in_1970.png"
  },
  {
   "id": "jobs_otellini",
-  "title": "File:Steve Jobs and Paul Otellini (541314996).jpg"
+  "title": "File:Steve Jobs and Paul Otellini (541314996).jpg",
+  "file": "media/jobs_otellini.jpg",
+  "license": "CC BY-SA 2.0",
+  "artist": "Ben Stanfield from Rockville, MD, USA",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Steve_Jobs_and_Paul_Otellini_(541314996).jpg"
  },
  {
   "id": "layout_4004",
-  "title": "File:Intel 4004 Chip Layout (29983532570).jpg"
+  "title": "File:Intel 4004 Chip Layout (29983532570).jpg",
+  "file": "media/layout_4004.jpg",
+  "license": "CC0",
+  "artist": "Wolfgang Stief from Tittmoning, Germany",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Intel_4004_Chip_Layout_(29983532570).jpg"
  },
  {
   "id": "ibm_pc",
-  "title": "File:IBM PC, 1981, Computer History Museum.jpg"
+  "title": "File:IBM PC, 1981, Computer History Museum.jpg",
+  "file": "media/ibm_pc.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "The wub",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:IBM_PC,_1981,_Computer_History_Museum.jpg"
  },
  {
   "id": "wafer_black",
-  "title": "File:4th Generation Intel® Core™ Processor Wafer Black.jpg"
+  "title": "File:4th Generation Intel® Core™ Processor Wafer Black.jpg",
+  "file": "media/wafer_black.jpg",
+  "license": "CC BY-SA 2.0",
+  "artist": "Intel in Deutschland",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:4th_Generation_Intel%C2%AE_Core%E2%84%A2_Processor_Wafer_Black.jpg"
  },
  {
   "id": "wafer_close",
-  "title": "File:4th Generation Intel® Core™ Processor Wafer 02.jpg"
+  "title": "File:4th Generation Intel® Core™ Processor Wafer 02.jpg",
+  "file": "media/wafer_close.jpg",
+  "license": "CC BY-SA 2.0",
+  "artist": "Intel in Deutschland",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:4th_Generation_Intel%C2%AE_Core%E2%84%A2_Processor_Wafer_02.jpg"
  },
  {
   "id": "wafer_full",
-  "title": "File:Full wafer of Intel quantum computers.jpg"
+  "title": "File:Full wafer of Intel quantum computers.jpg",
+  "file": "media/wafer_full.jpg",
+  "license": "CC BY 2.0",
+  "artist": "Steve Jurvetson from Menlo Park, USA",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Full_wafer_of_Intel_quantum_computers.jpg"
  },
  {
   "id": "die_angle",
-  "title": "File:Intel Wolfdale die shot (E8400) etched - 43366490815.jpg"
+  "title": "File:Intel Wolfdale die shot (E8400) etched - 43366490815.jpg",
+  "file": "media/die_angle.jpg",
+  "license": "Public domain",
+  "artist": "Martijn Boer",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Intel_Wolfdale_die_shot_(E8400)_etched_-_43366490815.jpg"
  },
  {
   "id": "die_labelled",
-  "title": "File:Intel Core i9-13900K Labelled Die Shot.jpg"
+  "title": "File:Intel Core i9-13900K Labelled Die Shot.jpg",
+  "file": "media/die_labelled.jpg",
+  "license": "CC0",
+  "artist": "JmsDoug and Fritzchens Fritz",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Intel_Core_i9-13900K_Labelled_Die_Shot.jpg"
  },
  {
   "id": "die_haswell",
-  "title": "File:4th Generation Intel® Core™ Processor Die 02.jpg"
+  "title": "File:4th Generation Intel® Core™ Processor Die 02.jpg",
+  "file": "media/die_haswell.jpg",
+  "license": "CC BY-SA 2.0",
+  "artist": "Intel in Deutschland",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:4th_Generation_Intel%C2%AE_Core%E2%84%A2_Processor_Die_02.jpg"
  },
  {
   "id": "xeon",
-  "title": "File:Xeon E5140 Processor 2022-11-29.jpg"
+  "title": "File:Xeon E5140 Processor 2022-11-29.jpg",
+  "file": "media/xeon.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "TK0130",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Xeon_E5140_Processor_2022-11-29.jpg"
  },
  {
   "id": "pentium_chip",
-  "title": "File:Intel Pentium Processor (frontside).jpg"
+  "title": "File:Intel Pentium Processor (frontside).jpg",
+  "file": "media/pentium_chip.jpg",
+  "license": "CC BY-SA 3.0",
+  "artist": "Krzysztof Burghardt",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Intel_Pentium_Processor_(frontside).jpg"
  },
  {
   "id": "fab_oregon",
-  "title": "File:Intel Ronler Acres production.JPG"
+  "title": "File:Intel Ronler Acres production.JPG",
+  "file": "media/fab_oregon.jpg",
+  "license": "CC BY 3.0",
+  "artist": "M.O. Stevens",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Intel_Ronler_Acres_production.JPG"
  },
  {
   "id": "fab_oregon_sign",
-  "title": "File:Intel Ronler Acres main entrance and sign - Hillsboro, Oregon (2024).jpg"
+  "title": "File:Intel Ronler Acres main entrance and sign - Hillsboro, Oregon (2024).jpg",
+  "file": "media/fab_oregon_sign.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "Steve Morgan",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Intel_Ronler_Acres_main_entrance_and_sign_-_Hillsboro,_Oregon_(2024).jpg"
  },
  {
   "id": "ohio_site",
-  "title": "File:P20220909KR-0277 (52517328564).jpg"
+  "title": "File:P20220909KR-0277 (52517328564).jpg",
+  "file": "media/ohio_site.jpg",
+  "license": "Public domain",
+  "artist": "The White House",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:P20220909KR-0277_(52517328564).jpg"
  },
  {
   "id": "leixlip_cranes",
-  "title": "File:Intel-3338, Leixlip, Co. Kildare, Ireland.jpg"
+  "title": "File:Intel-3338, Leixlip, Co. Kildare, Ireland.jpg",
+  "file": "media/leixlip_cranes.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "Leimanbhradain",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Intel-3338,_Leixlip,_Co._Kildare,_Ireland.jpg"
  },
  {
   "id": "leixlip_sunset",
-  "title": "File:Sunset-1270507, Leixlip, Co. Kildare, Ireland.jpg"
+  "title": "File:Sunset-1270507, Leixlip, Co. Kildare, Ireland.jpg",
+  "file": "media/leixlip_sunset.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "Leimanbhradain",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Sunset-1270507,_Leixlip,_Co._Kildare,_Ireland.jpg"
  },
  {
   "id": "kiryat_gat",
-  "title": "File:Intel factory, Kiryat Gat industry zone.jpg"
+  "title": "File:Intel factory, Kiryat Gat industry zone.jpg",
+  "file": "media/kiryat_gat.jpg",
+  "license": "CC BY 2.5",
+  "artist": "ארכיון קרית גת",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Intel_factory,_Kiryat_Gat_industry_zone.jpg"
  },
  {
   "id": "intel_hq",
-  "title": "File:Intel Headquarters in 2023.jpg"
+  "title": "File:Intel Headquarters in 2023.jpg",
+  "file": "media/intel_hq.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "Coolcaesar",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Intel_Headquarters_in_2023.jpg"
  },
  {
   "id": "tsmc_night",
-  "title": "File:TSMC Fab 12A 02.jpg"
+  "title": "File:TSMC Fab 12A 02.jpg",
+  "file": "media/tsmc_night.jpg",
+  "license": "CC BY 2.0",
+  "artist": "曾 成訓",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:TSMC_Fab_12A_02.jpg"
  },
  {
   "id": "tsmc_fab18",
-  "title": "File:Trucks entering and leaving TSMC Fab 18 May 2025.jpg"
+  "title": "File:Trucks entering and leaving TSMC Fab 18 May 2025.jpg",
+  "file": "media/tsmc_fab18.jpg",
+  "license": "CC BY 4.0",
+  "artist": "4300streetcar",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Trucks_entering_and_leaving_TSMC_Fab_18_May_2025.jpg"
  },
  {
   "id": "tsmc_hsinchu",
-  "title": "File:TSMC fabs in Hsinchu 02.jpg"
+  "title": "File:TSMC fabs in Hsinchu 02.jpg",
+  "file": "media/tsmc_hsinchu.jpg",
+  "license": "CC BY 2.0",
+  "artist": "曾 成訓",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:TSMC_fabs_in_Hsinchu_02.jpg"
  },
  {
   "id": "tsmc_arizona",
-  "title": "File:231105-1 TSMC Fab 21 construction.jpg"
+  "title": "File:231105-1 TSMC Fab 21 construction.jpg",
+  "file": "media/tsmc_arizona.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "Hunter Trick (TrickHunter)",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:231105-1_TSMC_Fab_21_construction.jpg"
  },
  {
   "id": "iphone_first",
-  "title": "File:First iPhone Macworld 2007 DSCF1286.agr.jpg"
+  "title": "File:First iPhone Macworld 2007 DSCF1286.agr.jpg",
+  "file": "media/iphone_first.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "ArnoldReinhold",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:First_iPhone_Macworld_2007_DSCF1286.agr.jpg"
  },
  {
   "id": "iphones",
-  "title": "File:Original iPhone - iPhone 3G - iPhone 4 - Flickr - Yutaka Tsutano.jpg"
+  "title": "File:Original iPhone - iPhone 3G - iPhone 4 - Flickr - Yutaka Tsutano.jpg",
+  "file": "media/iphones.jpg",
+  "license": "CC BY 2.0",
+  "artist": "Yutaka Tsutano from Lincoln, United States",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Original_iPhone_-_iPhone_3G_-_iPhone_4_-_Flickr_-_Yutaka_Tsutano.jpg"
  },
  {
   "id": "macbook",
-  "title": "File:MacBook Air .jpg"
+  "title": "File:MacBook Air .jpg",
+  "file": "media/macbook.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "令和しゃちょー",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:MacBook_Air_.jpg"
  },
  {
   "id": "m1_board",
-  "title": "File:M1 A13 comparison MacMini9 1 M1.jpg"
+  "title": "File:M1 A13 comparison MacMini9 1 M1.jpg",
+  "file": "media/m1_board.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "Sonic8400",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:M1_A13_comparison_MacMini9_1_M1.jpg"
  },
  {
   "id": "epyc_server",
-  "title": "File:AMD Epyc 9754 in Dual-CPU-Socket-Serversystem (极客湾Geekerwan) 18.png"
+  "title": "File:AMD Epyc 9754 in Dual-CPU-Socket-Serversystem (极客湾Geekerwan) 18.png",
+  "file": "media/epyc_server.png",
+  "license": "CC BY 3.0",
+  "artist": "极客湾Geekerwan",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:AMD_Epyc_9754_in_Dual-CPU-Socket-Serversystem_(%E6%9E%81%E5%AE%A2%E6%B9%BEGeekerwan)_18.png"
  },
  {
   "id": "epyc_chips",
-  "title": "File:AMD Epyc 9754 in Dual-CPU-Socket-Serversystem (极客湾Geekerwan) 03.png"
+  "title": "File:AMD Epyc 9754 in Dual-CPU-Socket-Serversystem (极客湾Geekerwan) 03.png",
+  "file": "media/epyc_chips.png",
+  "license": "CC BY 3.0",
+  "artist": "极客湾Geekerwan",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:AMD_Epyc_9754_in_Dual-CPU-Socket-Serversystem_(%E6%9E%81%E5%AE%A2%E6%B9%BEGeekerwan)_03.png"
  },
  {
   "id": "pentium_laptop",
-  "title": "File:Unisys PowerPort laptop computer from 1990s, probably Pentium (or II) processor, in Lanzarote Aeronautical Museum in 2022 (cropped and removed BG).jpg"
+  "title": "File:Unisys PowerPort laptop computer from 1990s, probably Pentium (or II) processor, in Lanzarote Aeronautical Museum in 2022 (cropped and removed BG).jpg",
+  "file": "media/pentium_laptop.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "Photograph by Mike Peel (www.mikepeel.net).",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Unisys_PowerPort_laptop_computer_from_1990s,_probably_Pentium_(or_II)_processor,_in_Lanzarote_Aeronautical_Museum_in_2022_(cropped_and_removed_BG).jpg"
  },
  {
   "id": "atom_board",
-  "title": "File:Samsung NC10 - motherboard - Intel N270 SLB73-92756.jpg"
+  "title": "File:Samsung NC10 - motherboard - Intel N270 SLB73-92756.jpg",
+  "file": "media/atom_board.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "Raimond Spekking",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Samsung_NC10_-_motherboard_-_Intel_N270_SLB73-92756.jpg"
  },
  {
   "id": "atom_tablet",
-  "title": "File:Intel Atom Tablet Tweaker.jpg"
+  "title": "File:Intel Atom Tablet Tweaker.jpg",
+  "file": "media/atom_tablet.jpg",
+  "license": "CC BY 2.0",
+  "artist": "Intel Free Press",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Intel_Atom_Tablet_Tweaker.jpg"
  },
  {
   "id": "az_sign",
-  "title": "File:上手体验英特尔下一代芯片，还参观了晶圆厂！-00.00.38.903.png"
+  "title": "File:上手体验英特尔下一代芯片，还参观了晶圆厂！-00.00.38.903.png",
+  "file": "media/az_sign.png",
+  "license": "CC BY 3.0",
+  "artist": "极客湾Geekerwan",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:%E4%B8%8A%E6%89%8B%E4%BD%93%E9%AA%8C%E8%8B%B1%E7%89%B9%E5%B0%94%E4%B8%8B%E4%B8%80%E4%BB%A3%E8%8A%AF%E7%89%87%EF%BC%8C%E8%BF%98%E5%8F%82%E8%A7%82%E4%BA%86%E6%99%B6%E5%9C%86%E5%8E%82%EF%BC%81-00.00.38.903.png"
  },
  {
   "id": "az_campus",
-  "title": "File:上手体验英特尔下一代芯片，还参观了晶圆厂！-00.00.36.274.png"
+  "title": "File:上手体验英特尔下一代芯片，还参观了晶圆厂！-00.00.36.274.png",
+  "file": "media/az_campus.png",
+  "license": "CC BY 3.0",
+  "artist": "极客湾Geekerwan",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:%E4%B8%8A%E6%89%8B%E4%BD%93%E9%AA%8C%E8%8B%B1%E7%89%B9%E5%B0%94%E4%B8%8B%E4%B8%80%E4%BB%A3%E8%8A%AF%E7%89%87%EF%BC%8C%E8%BF%98%E5%8F%82%E8%A7%82%E4%BA%86%E6%99%B6%E5%9C%86%E5%8E%82%EF%BC%81-00.00.36.274.png"
  },
  {
   "id": "az_wafer",
-  "title": "File:上手体验英特尔下一代芯片，还参观了晶圆厂！-00.11.57.179.png"
+  "title": "File:上手体验英特尔下一代芯片，还参观了晶圆厂！-00.11.57.179.png",
+  "file": "media/az_wafer.png",
+  "license": "CC BY 3.0",
+  "artist": "极客湾Geekerwan",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:%E4%B8%8A%E6%89%8B%E4%BD%93%E9%AA%8C%E8%8B%B1%E7%89%B9%E5%B0%94%E4%B8%8B%E4%B8%80%E4%BB%A3%E8%8A%AF%E7%89%87%EF%BC%8C%E8%BF%98%E5%8F%82%E8%A7%82%E4%BA%86%E6%99%B6%E5%9C%86%E5%8E%82%EF%BC%81-00.11.57.179.png"
  },
  {
   "id": "az_chip",
-  "title": "File:上手体验英特尔下一代芯片，还参观了晶圆厂！-00.11.56.532.png"
+  "title": "File:上手体验英特尔下一代芯片，还参观了晶圆厂！-00.11.56.532.png",
+  "file": "media/az_chip.png",
+  "license": "CC BY 3.0",
+  "artist": "极客湾Geekerwan",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:%E4%B8%8A%E6%89%8B%E4%BD%93%E9%AA%8C%E8%8B%B1%E7%89%B9%E5%B0%94%E4%B8%8B%E4%B8%80%E4%BB%A3%E8%8A%AF%E7%89%87%EF%BC%8C%E8%BF%98%E5%8F%82%E8%A7%82%E4%BA%86%E6%99%B6%E5%9C%86%E5%8E%82%EF%BC%81-00.11.56.532.png"
  },
  {
   "id": "commerce",
-  "title": "File:United States Department of Commerce - Herbert C. Hoover Building - Washington D.C..jpg"
+  "title": "File:United States Department of Commerce - Herbert C. Hoover Building - Washington D.C..jpg",
+  "file": "media/commerce.jpg",
+  "license": "CC BY 2.0",
+  "artist": "Tony Webster",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:United_States_Department_of_Commerce_-_Herbert_C._Hoover_Building_-_Washington_D.C..jpg"
  },
  {
   "id": "chip_8088",
-  "title": "File:Intel 8088 chip, top.jpg"
+  "title": "File:Intel 8088 chip, top.jpg",
+  "file": "media/chip_8088.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "Jud McCranie",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Intel_8088_chip,_top.jpg"
  },
  {
   "id": "ces_booth",
-  "title": "File:Intel CES 2016 booth (24109580979).jpg"
+  "title": "File:Intel CES 2016 booth (24109580979).jpg",
+  "file": "media/ces_booth.jpg",
+  "license": "CC BY 2.0",
+  "artist": "Maurizio Pesce from Milan, Italia",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Intel_CES_2016_booth_(24109580979).jpg"
  },
  {
   "id": "logo_amd",
-  "title": "File:AMD Logo.svg"
+  "title": "File:AMD Logo.svg",
+  "file": "media/logo_amd.svg",
+  "license": "Public domain",
+  "artist": "Advanced Micro Devices, Inc.",
+  "restrictions": "trademarked",
+  "page": "https://commons.wikimedia.org/wiki/File:AMD_Logo.svg"
  },
  {
   "id": "logo_nvidia",
-  "title": "File:Nvidia logo.svg"
+  "title": "File:Nvidia logo.svg",
+  "file": "media/logo_nvidia.svg",
+  "license": "Public domain",
+  "artist": "Nvidia",
+  "restrictions": "trademarked",
+  "page": "https://commons.wikimedia.org/wiki/File:Nvidia_logo.svg"
  },
  {
   "id": "logo_openai",
-  "title": "File:OpenAI Blossom and wordmark combination 2025.svg"
+  "title": "File:OpenAI Blossom and wordmark combination 2025.svg",
+  "file": "media/logo_openai.svg",
+  "license": "Public domain",
+  "artist": "OpenAI",
+  "restrictions": "trademarked",
+  "page": "https://commons.wikimedia.org/wiki/File:OpenAI_Blossom_and_wordmark_combination_2025.svg"
  },
  {
   "id": "nyse",
-  "title": "File:Sign of the New York Stock Exchange, Broad Street.jpg"
+  "title": "File:Sign of the New York Stock Exchange, Broad Street.jpg",
+  "file": "media/nyse.jpg",
+  "license": "CC0",
+  "artist": "Billie Grace Ward",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Sign_of_the_New_York_Stock_Exchange,_Broad_Street.jpg"
  }
 ]
