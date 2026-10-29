@@ -1,13 +1,13 @@
 {
   "format": "The Clip",
-  "from": "chapitre 3 de la vidéo longue (la course des procédés ; coupé : la mise en garde sur les noms de procédés, le retard du 7 nm d'Intel et la chute de l'action ; phrases resserrées)",
+  "from": "chapitre 3 de la vidéo longue (la course des procédés ; coupé : la mise en garde sur les noms de procédés, le retard du 7 nm d'Intel et la chute de l'action ; phrases resserrées pour tenir en moins d'une minute)",
   "hook": "How Intel *lost the lead*",
   "paragraphs": [
-    "In 2013, Intel said its {ten-nanometer|10 nm} chips could reach the market by 2015.",
-    "That slipped to 2016. Then to the second half of 2017. Real volume only came in 2019.",
-    "Meanwhile, TSMC started volume production of its {seven-nanometer|7 nm} process in 2018, and {five nanometers|5 nm} in 2020. The most advanced factories in the world weren't Intel's anymore.",
-    "In June 2020, Apple announced it would drop Intel processors from its Macs, for chips of its own design, built by TSMC.",
-    "AMD, with no factories of its own since 2009, rode TSMC's lead too. In 2017, it had less than {one percent|1%} of server processors. By early 2026, it earned {forty-six percent|46%} of all the money spent on x86 server processors.",
-    "Intel's great advantage, making its own chips, had become its biggest weakness. Full story on the channel."
+    "In 2013, Intel promised {ten-nanometer|10 nm} chips by 2015.",
+    "That slipped to 2016, then to late 2017. Real volume came in 2019.",
+    "Meanwhile, TSMC reached {seven nanometers|7 nm} in 2018, and {five|5 nm} in 2020. The best factories weren't Intel's anymore.",
+    "In 2020, Apple announced it would drop Intel for its own chips, built by TSMC.",
+    "And AMD, with no factories since 2009, rode TSMC too. From less than {one percent|1%} of server processors in 2017, to {forty-six percent|46%} of x86 server processor revenue in early 2026.",
+    "Intel's great advantage, its own factories, had become its biggest weakness. Full story on the channel."
   ]
 }
