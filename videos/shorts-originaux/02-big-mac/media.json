@@ -1,50 +1,110 @@
 [
  {
   "id": "logo_mcd",
-  "title": "File:McDonald's Golden Arches.svg"
+  "title": "File:McDonald's Golden Arches.svg",
+  "file": "media/logo_mcd.svg",
+  "license": "Public domain",
+  "artist": "McDonald's",
+  "restrictions": "trademarked",
+  "page": "https://commons.wikimedia.org/wiki/File:McDonald%27s_Golden_Arches.svg"
  },
  {
   "id": "bigmac",
-  "title": "File:McDonalds Big Mac hamburger cheeseburger.jpg"
+  "title": "File:McDonalds Big Mac hamburger cheeseburger.jpg",
+  "file": "media/bigmac.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "Amin",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:McDonalds_Big_Mac_hamburger_cheeseburger.jpg"
  },
  {
   "id": "bigmac2",
-  "title": "File:Big Mac hamburger.jpg"
+  "title": "File:Big Mac hamburger.jpg",
+  "file": "media/bigmac2.jpg",
+  "license": "CC0",
+  "artist": "Evan-Amos",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Big_Mac_hamburger.jpg"
  },
  {
   "id": "bigmac_box",
-  "title": "File:2021-07-22 18 53 42 McDonald\u2019s Big Mac box at the McDonald's on U.S. Route 9 in Woodbridge Township, Middlesex County, New Jersey.jpg"
+  "title": "File:2021-07-22 18 53 42 McDonald’s Big Mac box at the McDonald's on U.S. Route 9 in Woodbridge Township, Middlesex County, New Jersey.jpg",
+  "file": "media/bigmac_box.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "Famartin",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:2021-07-22_18_53_42_McDonald%E2%80%99s_Big_Mac_box_at_the_McDonald%27s_on_U.S._Route_9_in_Woodbridge_Township,_Middlesex_County,_New_Jersey.jpg"
  },
  {
   "id": "mcd_store",
-  "title": "File:McDonalds No Wake Zone.jpg"
+  "title": "File:McDonalds No Wake Zone.jpg",
+  "file": "media/mcd_store.jpg",
+  "license": "Public domain",
+  "artist": "Service Depicted:  Other ServiceOperation / Series: MIDWEST FLOODSCamera Operator: SSGT. PAUL GRIFFIN",
+  "restrictions": "trademarked",
+  "page": "https://commons.wikimedia.org/wiki/File:McDonalds_No_Wake_Zone.jpg"
  },
  {
   "id": "mcd_modern",
-  "title": "File:World's Largest Entertainment McDonald's - exterior.jpg"
+  "title": "File:World's Largest Entertainment McDonald's - exterior.jpg",
+  "file": "media/mcd_modern.jpg",
+  "license": "CC0",
+  "artist": "Mx. Granger",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:World%27s_Largest_Entertainment_McDonald%27s_-_exterior.jpg"
  },
  {
   "id": "times_square",
-  "title": "File:McDonalds Times Square.JPG"
+  "title": "File:McDonalds Times Square.JPG",
+  "file": "media/times_square.jpg",
+  "license": "Public domain",
+  "artist": "Sallicio",
+  "restrictions": "trademarked",
+  "page": "https://commons.wikimedia.org/wiki/File:McDonalds_Times_Square.JPG"
  },
  {
   "id": "mcd_night",
-  "title": "File:McDonald's Yilan Jiaoxi Restaurant at night 20240626.jpg"
+  "title": "File:McDonald's Yilan Jiaoxi Restaurant at night 20240626.jpg",
+  "file": "media/mcd_night.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "阿道",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:McDonald%27s_Yilan_Jiaoxi_Restaurant_at_night_20240626.jpg"
  },
  {
   "id": "dollar",
-  "title": "File:US one dollar bill, obverse, series 2009.jpg"
+  "title": "File:US one dollar bill, obverse, series 2009.jpg",
+  "file": "media/dollar.jpg",
+  "license": "Public domain",
+  "artist": "ESEMES",
+  "restrictions": "currency",
+  "page": "https://commons.wikimedia.org/wiki/File:US_one_dollar_bill,_obverse,_series_2009.jpg"
  },
  {
   "id": "price_tag",
-  "title": "File:Walmart (32936438182).jpg"
+  "title": "File:Walmart (32936438182).jpg",
+  "file": "media/price_tag.jpg",
+  "license": "CC0",
+  "artist": "dankeck",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Walmart_(32936438182).jpg"
  },
  {
   "id": "counter",
-  "title": "File:Late-night interior, McDonald's, Duke Street, Alexandria, Virginia.jpg"
+  "title": "File:Late-night interior, McDonald's, Duke Street, Alexandria, Virginia.jpg",
+  "file": "media/counter.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "Ser Amantio di Nicolao",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Late-night_interior,_McDonald%27s,_Duke_Street,_Alexandria,_Virginia.jpg"
  },
  {
   "id": "fries",
-  "title": "File:McDonald's French fries Potato (01).jpg"
+  "title": "File:McDonald's French fries Potato (01).jpg",
+  "file": "media/fries.jpg",
+  "license": "Public domain",
+  "artist": "No machine-readable author provided. Kici assumed (based on copyright claims).",
+  "restrictions": "trademarked",
+  "page": "https://commons.wikimedia.org/wiki/File:McDonald%27s_French_fries_Potato_(01).jpg"
  }
 ]
