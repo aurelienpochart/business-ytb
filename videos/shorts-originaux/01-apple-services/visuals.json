@@ -1,15 +1,272 @@
 [
-  {"at": "p0", "type": "shot", "props": {"photo": "store_pudong", "focus": "50% 60%", "dim": 0.66, "logo": "logo_apple", "kicker": "Myth", "text": "Apple is a *hardware company*"}},
-  {"at": "p1", "type": "shot", "props": {"photo": "store_fifth", "dim": 0.7, "kicker": "Reality check", "text": "By sales? *Mostly yes*"}},
-  {"at": "p1", "after": "devices brought", "type": "shot", "props": {"photo": "iphone_launch", "icon": "Smartphone", "color": "paper", "number": "75%", "label": "of sales: devices", "sub": "first nine months of fiscal 2026", "bar": {"parts": [{"value": 272.6, "color": "paper"}, {"value": 91.7, "color": "gold"}], "upto": 1, "focus": 0, "caption": "Apple's sales, Oct. 2025 to June 2026", "delay": 0.7}, "source": "Apple Q3 FY2026 results"}},
-  {"at": "p1", "after": "The iPhone alone", "type": "shot", "props": {"photo": "iphone17", "focus": "50% 40%", "dim": 0.6, "number": "54%", "color": "paper", "label": "from the iPhone alone", "source": "Apple Q3 FY2026 results"}},
-  {"at": "p2", "type": "shot", "props": {"photo": "music", "dim": 0.74, "header": {"number": "25%", "label": "of sales: services", "color": "gold"}, "items": [{"icon": "LayoutGrid", "label": "App Store", "color": "gold", "delay": {"$t": "the App Store", "offset": -0.1}}, {"icon": "Cloud", "label": "iCloud", "color": "gold", "delay": {"$t": "iCloud", "offset": -0.15}}, {"icon": "Music", "label": "Apple Music", "color": "gold", "delay": {"$t": "Apple Music", "offset": -0.15}}, {"icon": "ShieldCheck", "label": "AppleCare", "color": "gold", "delay": {"$t": "AppleCare", "offset": -0.15}}, {"icon": "CreditCard", "label": "Apple Pay", "color": "gold", "delay": {"$t": "Apple Pay", "offset": -0.15}}], "source": "Apple Q3 FY2026 results"}},
-  {"at": "p2", "after": "That's", "type": "shot", "props": {"photo": "store_brisbane", "icon": "Cloud", "number": "$91.7B", "numberDelay": 0.25, "color": "gold", "label": "of services sales", "sub": "in nine months, to June 2026", "source": "Apple Q3 FY2026 results"}},
-  {"at": "p2", "after": "more than Macs", "type": "shot", "props": {"photo": "macbook", "dim": 0.78, "kicker": "Nine months of sales", "compare": [{"label": "Services", "value": 91.7, "display": "$91.7B", "color": "gold", "strong": true, "delay": 0.15}, {"label": "Mac + iPad + wearables", "value": 76.1, "display": "$76.1B", "color": "slate", "delay": {"$t": "iPads", "offset": -0.2}}], "source": "Apple Q3 FY2026 results"}},
-  {"at": "p3", "type": "shot", "props": {"photo": "apple_park", "dim": 0.7, "kicker": "Gross profit", "text": "What Apple *keeps*"}},
-  {"at": "p4", "type": "shot", "props": {"photo": "iphone_launch2", "dim": 0.8, "icon": "Smartphone", "color": "paper", "number": "40¢", "numberDelay": {"$t": "about forty", "offset": -0.1}, "label": "kept per $1 of devices", "sub": "gross profit, after the cost of making them", "source": "Apple Q3 FY2026 results"}},
-  {"at": "p5", "type": "shot", "props": {"photo": "terminal", "dim": 0.82, "icon": "Cloud", "color": "gold", "number": "76¢", "numberDelay": {"$t": "seventy-six", "offset": -0.1}, "label": "kept per $1 of services", "sub": "gross profit", "source": "Apple Q3 FY2026 results"}},
-  {"at": "p6", "type": "shot", "props": {"photo": "store_pudong", "focus": "30% 50%", "dim": 0.78, "kicker": "Services", "compare": [{"label": "Share of sales", "value": 25, "display": "25%", "color": "slate", "delay": 0.3}, {"label": "Share of gross profit", "value": 39, "display": "39%", "color": "gold", "strong": true, "delay": {"$t": "almost forty", "offset": -0.2}}], "source": "Apple Q3 FY2026 results"}},
-  {"at": "p7", "type": "shot", "props": {"photo": "watch_store", "dim": 0.72, "kicker": "Hardware company?", "text": "By sales, *yes*"}},
-  {"at": "p7", "after": "By profit", "type": "shot", "props": {"photo": "airpods", "dim": 0.72, "logo": "logo_apple", "kicker": "By profit", "number": "2 in 5", "color": "gold", "label": "gross-profit dollars", "sub": "come from services", "source": "Apple Q3 FY2026 results"}}
+ {
+  "at": "p0",
+  "type": "shot",
+  "props": {
+   "photo": "store_pudong",
+   "focus": "50% 60%",
+   "dim": 0.66,
+   "logo": "logo_apple",
+   "kicker": "Myth",
+   "text": "Apple is a *hardware company*"
+  }
+ },
+ {
+  "at": "p1",
+  "type": "shot",
+  "props": {
+   "photo": "store_fifth",
+   "dim": 0.7,
+   "kicker": "Reality check",
+   "text": "By sales? *Mostly yes*"
+  }
+ },
+ {
+  "at": "p1",
+  "after": "In the first",
+  "type": "shot",
+  "props": {
+   "photo": "iphone_launch",
+   "icon": "Smartphone",
+   "color": "paper",
+   "number": "75%",
+   "label": "of sales: devices",
+   "sub": "first nine months of fiscal 2026",
+   "bar": {
+    "parts": [
+     {
+      "value": 272.6,
+      "color": "paper"
+     },
+     {
+      "value": 91.7,
+      "color": "gold"
+     }
+    ],
+    "upto": 1,
+    "focus": 0,
+    "caption": "Apple's sales, Oct. 2025 to June 2026",
+    "delay": 0.7
+   },
+   "source": "Apple Q3 FY2026 results"
+  }
+ },
+ {
+  "at": "p1",
+  "after": "The iPhone alone",
+  "type": "shot",
+  "props": {
+   "photo": "iphone17",
+   "focus": "50% 40%",
+   "dim": 0.6,
+   "number": "54%",
+   "color": "paper",
+   "label": "from the iPhone alone",
+   "source": "Apple Q3 FY2026 results"
+  }
+ },
+ {
+  "at": "p2",
+  "type": "shot",
+  "props": {
+   "photo": "music",
+   "dim": 0.74,
+   "header": {
+    "number": "25%",
+    "label": "of sales: services",
+    "color": "gold"
+   },
+   "items": [
+    {
+     "icon": "LayoutGrid",
+     "label": "App Store",
+     "color": "gold",
+     "delay": {
+      "$t": "the App Store",
+      "offset": -0.1
+     }
+    },
+    {
+     "icon": "Cloud",
+     "label": "iCloud",
+     "color": "gold",
+     "delay": {
+      "$t": "iCloud",
+      "offset": -0.15
+     }
+    },
+    {
+     "icon": "Music",
+     "label": "Apple Music",
+     "color": "gold",
+     "delay": {
+      "$t": "Apple Music",
+      "offset": -0.15
+     }
+    },
+    {
+     "icon": "ShieldCheck",
+     "label": "AppleCare",
+     "color": "gold",
+     "delay": {
+      "$t": "AppleCare",
+      "offset": -0.15
+     }
+    },
+    {
+     "icon": "CreditCard",
+     "label": "Apple Pay",
+     "color": "gold",
+     "delay": {
+      "$t": "Apple Pay",
+      "offset": -0.15
+     }
+    }
+   ],
+   "source": "Apple Q3 FY2026 results"
+  }
+ },
+ {
+  "at": "p2",
+  "after": "That's",
+  "type": "shot",
+  "props": {
+   "photo": "store_brisbane",
+   "icon": "Cloud",
+   "number": "$91.7B",
+   "numberDelay": 0.25,
+   "color": "gold",
+   "label": "of services sales",
+   "sub": "in nine months, to June 2026",
+   "source": "Apple Q3 FY2026 results"
+  }
+ },
+ {
+  "at": "p2",
+  "after": "more than Macs",
+  "type": "shot",
+  "props": {
+   "photo": "macbook",
+   "dim": 0.78,
+   "kicker": "Nine months of sales",
+   "compare": [
+    {
+     "label": "Services",
+     "value": 91.7,
+     "display": "$91.7B",
+     "color": "gold",
+     "strong": true,
+     "delay": 0.15
+    },
+    {
+     "label": "Mac + iPad + wearables",
+     "value": 76.1,
+     "display": "$76.1B",
+     "color": "slate",
+     "delay": {
+      "$t": "iPads",
+      "offset": -0.2
+     }
+    }
+   ],
+   "source": "Apple Q3 FY2026 results"
+  }
+ },
+ {
+  "at": "p3",
+  "type": "shot",
+  "props": {
+   "photo": "apple_park",
+   "dim": 0.7,
+   "kicker": "Gross profit",
+   "text": "What Apple *keeps*"
+  }
+ },
+ {
+  "at": "p4",
+  "type": "shot",
+  "props": {
+   "photo": "iphone_launch2",
+   "dim": 0.8,
+   "icon": "Smartphone",
+   "color": "paper",
+   "number": "40¢",
+   "numberDelay": 0.3,
+   "label": "kept per $1 of devices",
+   "sub": "gross profit, after the cost of making them",
+   "source": "Apple Q3 FY2026 results"
+  }
+ },
+ {
+  "at": "p5",
+  "type": "shot",
+  "props": {
+   "photo": "terminal",
+   "dim": 0.82,
+   "icon": "Cloud",
+   "color": "gold",
+   "number": "76¢",
+   "numberDelay": 0.3,
+   "label": "kept per $1 of services",
+   "sub": "gross profit",
+   "source": "Apple Q3 FY2026 results"
+  }
+ },
+ {
+  "at": "p6",
+  "type": "shot",
+  "props": {
+   "photo": "store_pudong",
+   "focus": "30% 50%",
+   "dim": 0.78,
+   "kicker": "Services",
+   "compare": [
+    {
+     "label": "Share of sales",
+     "value": 25,
+     "display": "25%",
+     "color": "slate",
+     "delay": 0.3
+    },
+    {
+     "label": "Share of gross profit",
+     "value": 39,
+     "display": "39%",
+     "color": "gold",
+     "strong": true,
+     "delay": {
+      "$t": "almost forty",
+      "offset": -0.2
+     }
+    }
+   ],
+   "source": "Apple Q3 FY2026 results"
+  }
+ },
+ {
+  "at": "p7",
+  "type": "shot",
+  "props": {
+   "photo": "watch_store",
+   "dim": 0.72,
+   "kicker": "Hardware company?",
+   "text": "By sales, *yes*"
+  }
+ },
+ {
+  "at": "p7",
+  "after": "By profit",
+  "type": "shot",
+  "props": {
+   "photo": "airpods",
+   "dim": 0.72,
+   "logo": "logo_apple",
+   "kicker": "By profit",
+   "number": "2 in 5",
+   "color": "gold",
+   "label": "gross-profit dollars",
+   "sub": "come from services",
+   "source": "Apple Q3 FY2026 results"
+  }
+ }
 ]

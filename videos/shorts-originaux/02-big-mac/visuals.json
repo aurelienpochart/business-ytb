@@ -599,7 +599,7 @@
        ]
       ],
       "end": "$6.22",
-      "delay": 0
+      "delay": -3
      },
      {
       "label": "with inflation",
@@ -1453,10 +1453,7 @@
    "dim": 0.66,
    "logo": "logo_mcd",
    "number": "+$1.37",
-   "numberDelay": {
-    "$t": "one dollar thirty",
-    "offset": -0.1
-   },
+   "numberDelay": 0.3,
    "color": "gold",
    "label": "above inflation",
    "sub": "per burger",
