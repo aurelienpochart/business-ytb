@@ -1,8 +1,11 @@
 # Shorts originaux (semaine du 2/11/2026) : Apple (Myth vs Reality) et Big Mac (Then vs Now)
-aapl-submissions.json https://data.sec.gov/submissions/CIK0000320193.json
-cpi-u-fred.csv https://fred.stlouisfed.org/graph/fredgraph.csv?id=CPIAUCNS
-cpi-fafh-fred.csv https://fred.stlouisfed.org/graph/fredgraph.csv?id=CUUR0000SEFV
-cpi-u-bls-2026.json https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SA0?startyear=2025&endyear=2026
-cpi-u-bls-1986.json https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SA0?startyear=1986&endyear=1987
-aapl-fy26-q4-pr.htm https://www.apple.com/newsroom/2026/10/apple-reports-fourth-quarter-results/
-aapl-fy26-q4-fs.pdf https://www.apple.com/newsroom/pdfs/fy2026-q4/FY26_Q4_Consolidated_Financial_Statements.pdf
+# fait : aapl-submissions.json https://data.sec.gov/submissions/CIK0000320193.json
+# fait : cpi-u-fred.csv https://fred.stlouisfed.org/graph/fredgraph.csv?id=CPIAUCNS
+# fait : cpi-fafh-fred.csv https://fred.stlouisfed.org/graph/fredgraph.csv?id=CUUR0000SEFV
+# fait : cpi-u-bls-2026.json https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SA0?startyear=2025&endyear=2026
+# fait : cpi-u-bls-1986.json https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SA0?startyear=1986&endyear=1987
+# fait : aapl-fy26-q4-pr.htm https://www.apple.com/newsroom/2026/10/apple-reports-fourth-quarter-results/
+# fait : aapl-fy26-q4-fs.pdf https://www.apple.com/newsroom/pdfs/fy2026-q4/FY26_Q4_Consolidated_Financial_Statements.pdf
+aapl-10k-list.xml https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000320193&type=10-K&dateb=&owner=include&count=10&output=atom
+aapl-8k-list.xml https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000320193&type=8-K&dateb=&owner=include&count=10&output=atom
+aapl-10q-list.xml https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000320193&type=10-Q&dateb=&owner=include&count=10&output=atom
