@@ -46,7 +46,7 @@ export const RemotionRoot: React.FC = () => (
         const timeline = await load<Timeline>('timeline.json');
         const visuals = await load<Visual[]>('visuals.json');
         const media = await load<ShortProps['media']>('media.json').catch(() => []);
-        const short = await load<{hook: string; longTitle: string; tint?: string; tintRegrade?: string[]}>('short.json');
+        const short = await load<{hook: string; longTitle: string; endKind?: 'video' | 'channel'; tint?: string; tintRegrade?: string[]}>('short.json');
         return {
           durationInFrames: Math.ceil((timeline.duration + END_CARD_SECONDS) * FPS),
           props: {...props, timeline, visuals, media, ...short},

@@ -17,6 +17,12 @@ texte ; entre deux pauses, les mots sont répartis selon leur longueur.
 Sorties dans <short>/build/ : narration.wav, timeline.json (paragraphes, mots, cartes de sous-titres),
 captions.srt, short.json (accroche, teinte, titre et lien de la vidéo longue, pour Remotion).
 Usage : python3 pipeline/short.py videos/01-tesla/shorts/1   (jeton dans GOOGLE_ACCESS_TOKEN)
+
+Short original (charte 6.3, écrit pour le format) : rangé dans videos/shorts-originaux/<n-sujet>/, avec
+"related" dans son metadata.json : {"video": "videos/03-costco"} (vidéo longue la plus proche : lien
+« Full video » et titre sur la carte finale) ou {"channel": true} (lien vers la chaîne, carte finale
+« More on the channel »). Ses images sont dans son propre dossier (media.json, media/) ; les crédits
+CC BY / CC BY-SA de ce media.json sont ajoutés à la description.
 """
 
 import array
@@ -40,6 +46,8 @@ WIN = 0.01            # fenêtre d'analyse de l'énergie (10 ms)
 MIN_GAP = 0.11        # une pause plus courte n'est pas un repère
 CARD_CHARS = 22       # sous-titres : environ 22 caractères et 4 unités au plus par carte
 CARD_UNITS = 4
+CHANNEL_URL = "https://www.youtube.com/@thecostcurvetv"
+CHANNEL_HANDLE = "@thecostcurvetv"
 
 
 
@@ -186,17 +194,48 @@ def cards(units):
     return out
 
 
-def description(short, long_url):
-    """Description du Short (charte 6.6) : une phrase, la source principale, le lien vers la vidéo longue,
-    la mention IA."""
+def related(short):
+    """Vidéo longue liée au Short : (dossier, metadata.json, lien) ; (None, {}, lien de la chaîne) pour un Short
+    original rattaché à la chaîne. Short extrait (sans "related") : la vidéo longue deux dossiers plus haut."""
     meta = json.loads((short / "metadata.json").read_text())
-    text = "\n\n".join([
+    rel = meta.get("related")
+    if rel is not None and not rel.get("video"):
+        return None, {}, CHANNEL_URL
+    video = Path(rel["video"]) if rel else short.resolve().parent.parent
+    yt = video / "build" / "youtube.json"
+    url = json.loads(yt.read_text())["url"] if yt.exists() else (meta["long_video"]["url"] if not rel or "long_video" in meta else CHANNEL_URL)
+    return video, json.loads((video / "metadata.json").read_text()), url
+
+
+def credits(short):
+    """Crédits obligatoires (C-20) des images propres au Short : licences CC BY et CC BY-SA de son media.json."""
+    path = short / "media.json"
+    if not path.exists():
+        return []
+    out = []
+    for m in json.loads(path.read_text()):
+        if re.match(r"cc by", m.get("license", ""), re.I):
+            out.append(f"{m.get('artist') or 'Unknown author'}, {m['license']}, via Wikimedia Commons: {m['page']}")
+    return out
+
+
+def description(short, long_url):
+    """Description du Short (charte 6.6) : une phrase, la source principale, le lien vers la vidéo longue
+    (ou vers la chaîne pour un Short original sans vidéo proche), les crédits d'image, la mention IA."""
+    meta = json.loads((short / "metadata.json").read_text())
+    channel = long_url == CHANNEL_URL
+    parts = [
         meta["sentence"],
-        f"Source: {meta['source']}",
-        f"Full video: {long_url}",
-        "Made with the help of AI tools, including a synthetic narrator voice"
-        + (" and AI-generated music (Google Lyria)." if (short / "build" / "music.json").exists() else "."),
-    ]) + "\n"
+        f"Source: {meta['source']}" if isinstance(meta["source"], str)
+        else "Sources:\n" + "\n".join(f"- {x}" for x in meta["source"]),
+        f"More on the channel: {long_url}" if channel else f"Full video: {long_url}",
+    ]
+    cred = credits(short)
+    if cred:
+        parts.append("Images:\n" + "\n".join(f"- {c}" for c in cred))
+    parts.append("Made with the help of AI tools, including a synthetic narrator voice"
+                 + (" and AI-generated music (Google Lyria)." if (short / "build" / "music.json").exists() else "."))
+    text = "\n\n".join(parts) + "\n"
     if len(meta["title"]) > 60:
         sys.exit(f"Titre trop long ({len(meta['title'])} caractères, 60 au plus) : {meta['title']}")
     return text
@@ -204,10 +243,9 @@ def description(short, long_url):
 
 def main():
     short = Path(sys.argv[1])
-    video = short.resolve().parent.parent
     spec = json.loads((short / "short.json").read_text())
     meta = json.loads((short / "metadata.json").read_text())
-    parent = json.loads((video / "metadata.json").read_text())
+    video, parent, long_url = related(short)
     voice = json.loads(Path("config/voice.json").read_text())
     token = os.environ["GOOGLE_ACCESS_TOKEN"]
     rate = voice["sample_rate_hertz"]
@@ -266,13 +304,12 @@ def main():
            for k, c in enumerate(caps)]
     (build / "captions.srt").write_text("\n".join(srt))
 
-    yt = video / "build" / "youtube.json"
-    long_url = json.loads(yt.read_text())["url"] if yt.exists() else meta["long_video"]["url"]
     (build / "description.txt").write_text(description(short, long_url))
     (build / "short.json").write_text(json.dumps({
         "hook": spec["hook"],
-        "longTitle": parent["title"],
+        "longTitle": parent.get("title", CHANNEL_HANDLE),
         "longUrl": long_url,
+        "endKind": "video" if video else "channel",
         "tint": meta.get("tint", parent.get("tint")),
         "tintRegrade": meta.get("tint_regrade", parent.get("tint_regrade", [])),
     }, indent=2, ensure_ascii=False) + "\n")

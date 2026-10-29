@@ -19,6 +19,12 @@ type BarPart = {value: number; color?: string; display?: string};
 type Bar = {parts: BarPart[]; upto: number; focus?: number; extra?: BarPart; caption?: string; delay?: number};
 type Item = {icon: string; label: string; delay?: number; color?: string};
 type Half = {icon: string; big: string; label: string; color?: string; delay?: number};
+// Courbe « avant / maintenant » : séries de points [x, y], tracées de gauche à droite, valeur finale au bout.
+type Series = {label?: string; color?: string; points: [number, number][]; dash?: boolean; end?: string; delay?: number};
+type Mark = {x: number; label: string; delay?: number};
+type Curve = {series: Series[]; yMax: number; yTicks?: number[]; xTicks?: number[]; prefix?: string; delay?: number; draw?: number; height?: number; mark?: Mark};
+// Barres horizontales comparées : une ligne par valeur, la largeur suit la valeur, montant au bout.
+type CompareRow = {label: string; value: number; display: string; color?: string; delay?: number; strong?: boolean};
 
 export type ShotProps = {
   photo?: string;
@@ -38,6 +44,8 @@ export type ShotProps = {
   items?: Item[];
   header?: {number: string; label: string; color?: string};
   halves?: Half[];
+  curve?: Curve;
+  compare?: CompareRow[];
   image?: string; // photo encadrée (objet, ex. la carte de membre) au-dessus du texte
   source?: string;
   align?: 'center' | 'bottom';
@@ -230,6 +238,139 @@ const Halves: React.FC<{halves: Half[]; cut?: number}> = ({halves, cut = 0.4}) =
   );
 };
 
+// Courbe avant / maintenant : axes discrets, chaque série se trace en `draw` secondes à partir de son délai,
+// un point lumineux suit l'extrémité, et la valeur finale (« end ») s'affiche au bout de la série.
+const CurveChart: React.FC<Curve> = ({series, yMax, yTicks = [], xTicks = [], prefix = '', delay = 0.3, draw = 1.6, height = 560, mark}) => {
+  const frame = useCurrentFrame();
+  const {fps} = useVideoConfig();
+  const W = WIDTH;
+  const padL = 70;
+  const padR = 150; // place pour la valeur finale à droite
+  const padT = 30;
+  const padB = 56;
+  const all = series.flatMap((s) => s.points);
+  const x0 = Math.min(...all.map((p) => p[0]));
+  const x1 = Math.max(...all.map((p) => p[0]));
+  const X = (x: number) => padL + ((x - x0) / (x1 - x0)) * (W - padL - padR);
+  const Y = (y: number) => padT + (1 - y / yMax) * (height - padT - padB);
+  const pAxis = useEnter(delay - 0.2);
+  const pMark = mark ? spring({frame: frame - (mark.delay ?? 0.5) * fps, fps, config: {damping: 200}}) : 0;
+  return (
+    <div style={{position: 'relative', width: W, height, ...fade(pAxis)}}>
+      <svg width={W} height={height} style={{position: 'absolute', inset: 0, overflow: 'visible'}}>
+        {mark ? (
+          <g opacity={pMark}>
+            <rect x={X(mark.x)} y={padT} width={Math.max(0, (W - padR + 20 - X(mark.x)) * pMark)} height={Y(0) - padT} fill="rgba(240,181,78,0.10)" />
+            <line x1={X(mark.x)} x2={X(mark.x)} y1={padT - 10} y2={Y(0)} stroke="rgba(255,231,176,0.85)" strokeWidth={3} strokeDasharray="6 8" />
+            <text x={X(mark.x)} y={padT - 22} textAnchor="middle" fill="#FFD27F" style={{fontFamily: FONT.mono, fontWeight: 600, fontSize: 38, filter: 'drop-shadow(0 3px 10px rgba(0,0,0,0.9))'}}>
+              {mark.label}
+            </text>
+          </g>
+        ) : null}
+        {yTicks.map((t) => (
+          <g key={`y${t}`}>
+            <line x1={padL} x2={W - padR + 20} y1={Y(t)} y2={Y(t)} stroke="rgba(255,255,255,0.14)" strokeWidth={2} strokeDasharray="4 10" />
+            <text x={padL - 14} y={Y(t) + 11} textAnchor="end" fill="rgba(244,239,230,0.75)" style={{fontFamily: FONT.mono, fontSize: 30}}>
+              {prefix}
+              {t}
+            </text>
+          </g>
+        ))}
+        <line x1={padL} x2={W - padR + 20} y1={Y(0)} y2={Y(0)} stroke="rgba(255,255,255,0.45)" strokeWidth={2.5} />
+        {xTicks.map((t) => (
+          <text key={`x${t}`} x={X(t)} y={height - 8} textAnchor="middle" fill="rgba(244,239,230,0.85)" style={{fontFamily: FONT.mono, fontSize: 32}}>
+            {t}
+          </text>
+        ))}
+        {series.map((s, i) => {
+          const t = tone(s.color ?? 'gold');
+          const d0 = s.delay ?? delay + i * 0.5;
+          const prog = interpolate(frame, [d0 * fps, (d0 + draw) * fps], [0, 1], {...clamp, easing: Easing.inOut(Easing.cubic)});
+          const xEnd = x0 + (x1 - x0) * prog;
+          // Points visibles jusqu'à xEnd, avec un point interpolé à l'extrémité.
+          const pts: [number, number][] = [];
+          for (let k = 0; k < s.points.length; k++) {
+            const [px, py] = s.points[k];
+            if (px <= xEnd) pts.push([px, py]);
+            else {
+              const [qx, qy] = s.points[k - 1] ?? s.points[0];
+              const r = px === qx ? 1 : (xEnd - qx) / (px - qx);
+              pts.push([xEnd, qy + (py - qy) * r]);
+              break;
+            }
+          }
+          if (pts.length < 2 || prog <= 0) return null;
+          const path = pts.map(([px, py], k) => `${k ? 'L' : 'M'}${X(px).toFixed(1)},${Y(py).toFixed(1)}`).join(' ');
+          const area = `${path} L${X(pts[pts.length - 1][0]).toFixed(1)},${Y(0)} L${X(pts[0][0]).toFixed(1)},${Y(0)} Z`;
+          const [ex, ey] = pts[pts.length - 1];
+          const pEnd = spring({frame: frame - (d0 + draw - 0.1) * fps, fps, config: {damping: 14}});
+          const color = s.color === 'gold' || !s.color ? '#FFD27F' : t.hi;
+          return (
+            <g key={i}>
+              <defs>
+                <linearGradient id={`cv${i}`} x1="0" x2="0" y1="0" y2="1">
+                  <stop offset="0%" stopColor={color} stopOpacity={s.dash ? 0 : 0.28} />
+                  <stop offset="100%" stopColor={color} stopOpacity={0} />
+                </linearGradient>
+              </defs>
+              <path d={area} fill={`url(#cv${i})`} />
+              <path d={path} fill="none" stroke={color} strokeWidth={s.dash ? 6 : 9} strokeDasharray={s.dash ? '16 14' : undefined} strokeLinecap="round" strokeLinejoin="round" style={{filter: `drop-shadow(0 0 14px ${t.halo})`}} />
+              <circle cx={X(ex)} cy={Y(ey)} r={13} fill={color} style={{filter: `drop-shadow(0 0 16px ${color})`}} />
+              {s.end ? (
+                <text x={X(ex) + 26} y={Y(ey) + 16} fill={color} opacity={Math.min(1, Math.max(0, pEnd))} style={{fontFamily: FONT.mono, fontWeight: 600, fontSize: 50, filter: 'drop-shadow(0 3px 10px rgba(0,0,0,0.9))'}}>
+                  {s.end}
+                </text>
+              ) : null}
+              {s.label ? (
+                <text x={X(ex) + 26} y={Y(ey) + 54} fill={C.paper} opacity={0.85 * Math.min(1, Math.max(0, pEnd))} style={{fontFamily: FONT.title, fontWeight: 600, fontSize: 28, filter: 'drop-shadow(0 3px 10px rgba(0,0,0,0.9))'}}>
+                  {s.label}
+                </text>
+              ) : null}
+            </g>
+          );
+        })}
+      </svg>
+    </div>
+  );
+};
+
+// Barres comparées : chaque ligne entre à son tour ; la ligne « strong » est vive, les autres atténuées.
+const Compare: React.FC<{rows: CompareRow[]}> = ({rows}) => {
+  const frame = useCurrentFrame();
+  const {fps} = useVideoConfig();
+  const max = Math.max(...rows.map((r) => r.value));
+  const barMax = WIDTH - 230;
+  return (
+    <div style={{display: 'flex', flexDirection: 'column', gap: 34, width: WIDTH}}>
+      {rows.map((r, i) => {
+        const d = r.delay ?? 0.2 + i * 0.45;
+        const grow = interpolate(frame, [d * fps, (d + 0.8) * fps], [0, 1], {...clamp, easing: Easing.out(Easing.cubic)});
+        const p = useEnter(d - 0.1);
+        const t = tone(r.color ?? 'teal');
+        const hi = r.color === 'gold' ? '#FFD27F' : t.hi;
+        return (
+          <div key={i} style={{...fade(p), display: 'flex', flexDirection: 'column', alignItems: 'flex-start', gap: 10}}>
+            <div style={{fontFamily: FONT.title, fontWeight: r.strong ? 800 : 600, fontSize: 40, color: C.paper, opacity: r.strong ? 1 : 0.85, textShadow: '0 3px 14px rgba(0,0,0,0.85)'}}>{r.label}</div>
+            <div style={{display: 'flex', alignItems: 'center', gap: 20, width: WIDTH}}>
+              <div
+                style={{
+                  height: 70,
+                  width: Math.max(8, (r.value / max) * barMax * grow),
+                  borderRadius: 14,
+                  background: `linear-gradient(90deg, ${t.lo}, ${hi})`,
+                  opacity: r.strong ? 1 : 0.55,
+                  boxShadow: r.strong ? `0 0 44px ${t.halo}, inset 0 2px 0 rgba(255,255,255,0.35)` : undefined,
+                }}
+              />
+              <div style={{fontFamily: FONT.mono, fontWeight: 600, fontSize: r.strong ? 64 : 52, color: hi, opacity: Math.min(1, grow * 1.3), textShadow: `0 0 30px ${t.halo}, 0 4px 18px rgba(0,0,0,0.8)`}}>{r.display}</div>
+            </div>
+          </div>
+        );
+      })}
+    </div>
+  );
+};
+
 // Source : courte, lisible, en bas de la scène (au-dessus des sous-titres).
 const ShotSource: React.FC<{text: string}> = ({text}) => {
   const p = useEnter(0.7);
@@ -287,7 +428,7 @@ const Inset: React.FC<{id: string}> = ({id}) => {
   );
 };
 
-export const Shot: React.FC<ShotProps> = ({image, photo, focus, dim = 0.62, zoom, logo, kicker, icon, number, numberDelay = 0.2, color = 'gold', label, sub, text, bar, items, header, halves, source, align = 'center'}) => {
+export const Shot: React.FC<ShotProps> = ({image, photo, focus, dim = 0.62, zoom, logo, kicker, icon, number, numberDelay = 0.2, color = 'gold', label, sub, text, bar, items, header, halves, curve, compare, source, align = 'center'}) => {
   const frame = useCurrentFrame();
   const {fps} = useVideoConfig();
   const L = useLayout();
@@ -358,6 +499,8 @@ export const Shot: React.FC<ShotProps> = ({image, photo, focus, dim = 0.62, zoom
         ) : null}
         {items ? <IconGrid items={items} /> : null}
         {halves ? <Halves halves={halves} /> : null}
+        {curve ? <CurveChart {...curve} /> : null}
+        {compare ? <Compare rows={compare} /> : null}
         {bar ? (
           <div style={{marginTop: 18}}>
             <MoneyBar {...bar} />

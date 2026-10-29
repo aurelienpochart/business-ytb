@@ -29,6 +29,7 @@ export type ShortProps = {
   media?: {id: string; file?: string; license?: string; artist?: string}[];
   hook: string;
   longTitle: string;
+  endKind?: 'video' | 'channel'; // Short original sans vidéo longue proche : « More on the channel »
   tint?: string;
   tintRegrade?: string[];
   audio: string;
@@ -136,8 +137,8 @@ const Captions: React.FC<{cards: CaptionCard[]; until: number}> = ({cards, until
   );
 };
 
-// Carte finale (1,6 s) : renvoi vers la vidéo complète.
-const EndCard: React.FC<{title: string}> = ({title}) => {
+// Carte finale (1,6 s) : renvoi vers la vidéo complète (ou vers la chaîne pour un Short original).
+const EndCard: React.FC<{title: string; kind?: 'video' | 'channel'}> = ({title, kind = 'video'}) => {
   const frame = useCurrentFrame();
   const {fps} = useVideoConfig();
   const bg = interpolate(frame, [0, 8], [0, 1], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'});
@@ -152,7 +153,7 @@ const EndCard: React.FC<{title: string}> = ({title}) => {
           <LogoCurve size={230} progress={draw} dot={Math.min(1, Math.max(0, p2))} />
         </div>
         <div style={{fontFamily: FONT.display, fontSize: 92, lineHeight: 1.02, color: C.paper, marginTop: 40, opacity: p, transform: `translateY(${(1 - p) * 30}px)`}}>
-          Full video
+          {kind === 'channel' ? 'More' : 'Full video'}
           <br />
           on the <GoldText>channel</GoldText>
         </div>
@@ -180,7 +181,7 @@ const EndCard: React.FC<{title: string}> = ({title}) => {
   );
 };
 
-export const Short: React.FC<ShortProps> = ({timeline, visuals, media = [], hook, longTitle, tint, tintRegrade, audio}) => {
+export const Short: React.FC<ShortProps> = ({timeline, visuals, media = [], hook, longTitle, endKind, tint, tintRegrade, audio}) => {
   applyTint(tint, tintRegrade);
   const mediaById = Object.fromEntries(media.map((m) => [m.id, m]));
   const {fps, durationInFrames} = useVideoConfig();
@@ -244,7 +245,7 @@ export const Short: React.FC<ShortProps> = ({timeline, visuals, media = [], hook
             <Hook text={hook} />
           </Sequence>
           <Sequence from={endFrom} durationInFrames={durationInFrames - endFrom} name="carte finale">
-            <EndCard title={longTitle} />
+            <EndCard title={longTitle} kind={endKind} />
             <Audio src={staticFile('sfx/whoosh-deep.wav')} volume={0.35} />
           </Sequence>
           {/* Après la carte finale : si elle commence avant la fin de la narration, la dernière phrase reste sous-titrée. */}
