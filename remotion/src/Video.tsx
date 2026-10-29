@@ -7,6 +7,7 @@ import {Hero, MediaContext, Photo, PhotoLayer} from './components/media';
 import {Donut, Loop} from './components/diagrams';
 import {Cascade, Density, PriceTags, Receipt} from './components/money';
 import {Shot} from './components/shorts';
+import {Chrono} from './components/chrono';
 import {Segment, VideoProps, Visual} from './types';
 import {C, applyTint} from './theme';
 
@@ -37,6 +38,7 @@ export const BLOCKS: Record<string, React.FC<any>> = {
   prices: PriceTags,
   density: Density,
   shot: Shot, // plans de Short « une idée, un chiffre »
+  chrono: Chrono, // chronologie animée (gabarit The Timeline)
 };
 
 export const renderVisual = (v: Visual) => {

@@ -1,0 +1,127 @@
+# Vidéo 04 : « How Intel Lost the Chip Crown » : recherche
+
+*29 octobre 2026. Pilier : Rise & Fall. Gabarit : The Timeline (la vidéo 03 Costco était un Teardown, la 02 Nvidia The Question). Sortie prévue : mardi 3 novembre 2026, 15 h UTC. Sources consultées le 29 octobre 2026.*
+
+## Angle (C-01)
+
+Une thèse nette : **Intel n'a pas perdu sa couronne en une mauvaise année, mais par une chaîne de décisions défendables sur le moment, qui reviennent toutes au même mécanisme : le volume.** En 2006, Intel vend son activité de processeurs pour mobiles et refuse la puce de l'iPhone à un prix jugé sous son coût ; les milliards de téléphones donnent à Arm et surtout à TSMC le volume qui finance la course aux procédés. Entre 2015 et 2020, ses usines glissent (10 nm, puis 7 nm), TSMC passe devant, et ses rivaux (AMD, Apple) n'ont qu'à louer l'usine de TSMC. L'IA arrive ensuite sur les puces de Nvidia. Le pari IDM 2.0 de Pat Gelsinger (reprendre l'avance et ouvrir ses usines aux autres) coûte plus de 30 Md$ de pertes en trois ans, puis le sauvetage passe par l'État américain, SoftBank et Nvidia. **Ce que la vidéo apporte** : relier chaque épisode au « cost curve » qui donne son nom à la chaîne (perdre le volume d'abord, l'avance ensuite), et montrer que l'atout d'Intel (concevoir et fabriquer) est précisément ce qui a rendu la chute si raide. **Nuance honnête** : 2026 va mieux (croissance, 18A en production, investisseurs revenus), et la vidéo ne prédit ni succès ni échec.
+
+Ton neutre : faits publiés par Intel, TSMC, Apple, Arm, AMD et la presse reconnue ; les récits de coulisses (Nvidia 2005, OpenAI 2017, départ forcé de Gelsinger) sont attribués au média qui les a publiés. Pas de conseil d'investissement, pas de prévision de cours ; la participation de l'État est décrite comme un fait financier, sans jugement politique.
+
+## Faits retenus
+
+Montants en dollars US. L'exercice d'Intel suit à peu près l'année civile (clos fin décembre). Les lignes marquées *calcul* sont nos calculs à partir des chiffres publiés.
+
+| # | Fait | Source |
+|---|---|---|
+| R1 | Exercice 2021 (publié le 26 janv. 2022) : chiffre d'affaires GAAP **79,0 Md** (+1 %) ; marge brute GAAP **55,4 %** ; bénéfice net GAAP **19,9 Md** ; DCG 25,8 Md ; CCG 40,5 Md | Intel, communiqué T4/FY2021 (1) |
+| R2 | Exercice 2025 (publié le 22 janv. 2026) : chiffre d'affaires **52,9 Md** (stable ; 53,1 Md en 2024) ; marge brute GAAP **34,8 %** (32,7 % en 2024) ; perte nette GAAP attribuable −0,3 Md (−267 M) ; CCG 32,2 Md, DCAI 16,9 Md, Intel Foundry 17,8 Md ; **perte d'exploitation d'Intel Foundry −10 318 M en 2025, −13 291 M en 2024** ; **perte nette attribuable 2024 : −18 756 M** ; effectifs : **85,1 milliers** fin 2025 contre **108,9 milliers** fin 2024 (dont Mobileye 5,4 k et NAND 4,0 k en 2024 ; Altera, ≈ 3 k, déconsolidée en sept. 2025). 18A décrit comme « the most advanced process technology developed and manufactured in the United States ». Vente de 5,0 Md d'actions à Nvidia finalisée. Intel 2022 : 63,1 Md ; 2023 : 54,2 Md, bénéfice net 1,7 Md (communiqué FY2023) | Intel, communiqué T4/FY2025 (2) ; communiqué FY2023 (3) |
+| R3 | Chronologie officielle d'Intel : fondée par Robert Noyce et Gordon Moore, constituée le 18 juillet 1968 ; 1971, le 4004, « the world's first electronically programmable microprocessor » ; 1981, IBM choisit un processeur Intel pour son PC ; 1985, « the difficult but smart decision to stop producing DRAMs » ; 1991, campagne « Intel Inside » | Intel, timeline.intel.com (4) |
+| R4 | TSMC, exercice 2025 : chiffre d'affaires **122,42 Md$** (+35,9 % en dollars ; 3 809 Md NT$) ; marge brute **59,9 %** (56,1 % en 2024) ; 7 nm et moins = 74 % du chiffre d'affaires des plaquettes. *Calcul* : 122,4 / 52,9 = 2,3 fois Intel | TelecomLead, résultats TSMC (16 janv. 2026) (5) |
+| R5 | Accord du 22 août 2025 : l'État américain achète **433,3 M d'actions nouvelles à 20,47 $**, soit **8,9 Md$**, « equivalent to a 9.9 percent stake » ; financé par les 5,7 Md$ de subventions CHIPS accordées mais non versées et 3,2 Md$ du programme Secure Enclave ; bon de souscription de 5 % supplémentaires à 20 $, exerçable seulement si Intel cesse de détenir au moins 51 % de sa fonderie ; 2,2 Md$ de subventions CHIPS déjà reçus | Intel, communiqué (6) |
+| R6 | Récit d'Andy Grove (Only the Paranoid Survive, 1996) : en 1985, il demande à Gordon Moore ce que ferait un nouveau PDG si le conseil les remplaçait ; réponse : sortir des mémoires ; « pourquoi ne pas le faire nous-mêmes ». **Citation exacte non revérifiée en ligne** : le script la paraphrase sans guillemets | Grove, Only the Paranoid Survive (Doubleday, 1996) |
+| R7 | Apple, 6 juin 2005 : « Apple to Use Intel Microprocessors Beginning in 2006 » | Apple Newsroom (7) |
+| R8 | Lisa Su (PDG d'AMD), juin 2017 : « Today we're at less than 1 percent. At our peak we were above 25 percent » (part d'AMD dans les serveurs) | Bloomberg via Data Center Knowledge, 21 juin 2017 (8) |
+| R9 | 27 juin 2006 : Marvell rachète l'activité de processeurs de communication et d'application d'Intel (XScale) pour 600 M$ | Intel, communiqué (9) |
+| R10 | 9 janvier 2007 : Steve Jobs présente l'iPhone (Macworld). *Calcul* : environ 6,5 mois après la vente à Marvell (« seven months later ») | Apple Newsroom, « Apple Reinvents the Phone with iPhone » (10) |
+| R11 | Paul Otellini à The Atlantic (Alexis Madrigal, mai 2013) : « We ended up not winning it or passing on it, depending on how you want to view it… there was a chip that they were interested in that they wanted to pay a certain price for and not a nickel more and that price was below our forecasted cost. I couldn't see it… in hindsight, the forecasted cost was wrong and the volume was 100x what anyone thought. » Page de The Atlantic bloquée depuis l'outil : citations relevées via Loop Insight et Engadget (17 mai 2013) | The Atlantic (11) via Loop Insight (12) et Engadget (13) |
+| R12 | Arm, rapport annuel (exercice clos le 31 mars 2025) : « Our energy-efficient CPUs have enabled advanced computing in greater than 99% of the world's smartphones that were sold in the fiscal year ended 31 March 2025 » | Arm, rapport annuel 2025 (6-K du 18 sept. 2025) (14) |
+| R13 | 2014 : la division Mobile and Communications perd **4,2 Md$** sur l'année ; chiffre d'affaires de la division **négatif (−6 M$) au T4 2014**, à cause des aides versées aux fabricants ; puces Intel dans **46 M de tablettes** (objectif 40 M) | FierceWireless, résultats T4 2014 (15) |
+| R14 | Calendrier du 10 nm : à l'IDF 2013, Intel dit pouvoir livrer en 2015 ; repoussé à 2016, puis au second semestre 2017 (annonce du 15 juillet 2015) ; fin du rythme « tick-tock » de deux ans | The Register, 16 juil. 2015 (16) |
+| R15 | Avril 2016 : Intel annule ses puces Atom pour smartphones et tablettes (Broxton, SoFIA) | The Register, 30 avril 2016 (17) |
+| R16 | 25 juillet 2019 : Apple rachète la majorité de l'activité de modems pour smartphones d'Intel pour 1 Md$ | Apple Newsroom (18) |
+| R17 | Les premiers processeurs 10 nm en volume (Ice Lake, 10e génération Core) sont lancés en 2019 (expédiés à partir du T2 2019, lancement officiel le 1er août 2019). Cannon Lake (2018) était très limité | Communiqué Intel T2 2020 (« accelerating its transition to 10 nm ») (19) ; presse 2019. **Date de « vrai volume » = ordre de grandeur** |
+| R18 | TSMC : « In 2018, TSMC became the first foundry to start 7nm FinFET (N7) volume production » ; « In 2020… 5nm FinFET (N5) technology into volume production » ; 3 nm en 2022 ; 2 nm au T4 2025 | TSMC, page Logic Technology (20) |
+| R19 | Intel Accelerated (26 juillet 2021) : le 10 nm Enhanced SuperFin est rebaptisé « Intel 7 », suivi d'Intel 4, Intel 3, 20A et 18A (feuille de route dite « five nodes in four years ») ; Intel dit que les noms en nm ne correspondent plus à une dimension physique et que son 10 nm est comparable en densité au 7 nm des fonderies | Digit / Hexus, juillet 2021 (21) |
+| R20 | Communiqué T2 2020 (23 juillet 2020) : « The company's 7 nm-based CPU product timing is shifting approximately six months relative to prior expectations. The primary driver is the yield of Intel's 7 nm process, which based on recent data, is now trending approximately twelve months behind the company's internal target » | Intel via TechPowerUp (19) |
+| R21 | Vendredi 24 juillet 2020 : l'action Intel perd jusqu'à 18 % en séance et clôture en baisse de **16 %** ; premiers produits 7 nm attendus « late 2022 or early 2023 » | CNN Business (22) |
+| R22 | 22 juin 2020 : Apple annonce la transition du Mac vers ses propres puces (Apple silicon) ; premier Mac M1 en nov. 2020. Fabrication par TSMC : **largement documentée mais non écrite dans le communiqué d'Apple** | Apple Newsroom (23) |
+| R23 | Mars 2009 : AMD sépare ses usines dans une coentreprise avec ATIC (Abu Dhabi), GlobalFoundries | eWeek, mars 2009 (24) |
+| R24 | Mercury Research, T1 2026 : AMD = **46,2 %** du chiffre d'affaires des processeurs serveurs x86 (record) ; 33,2 % des unités serveurs ; 38,1 % de la valeur totale du marché x86 ; Intel garde ≈ 67 % des unités x86 toutes catégories | Tom's Hardware, 14 mai 2026 (25) ; HotHardware, 4 juin 2026 (26) |
+| R25 | Selon The New York Times (oct. 2024, deux sources au fait des discussions du conseil), Paul Otellini propose en 2005 de racheter Nvidia pour « as much as » 20 Md$ ; le conseil s'y oppose ; Intel lance à la place son projet graphique Larrabee, abandonné ensuite | Tom's Hardware, 24 oct. 2024, résumant le NYT (27) |
+| R26 | Selon Reuters (7 août 2024), en 2017-2018 Intel a discuté l'achat de 15 % d'OpenAI pour 1 Md$ (plus 15 % supplémentaires en échange de matériel à prix coûtant) ; Bob Swan a écarté l'opération ; ni Intel ni OpenAI n'ont commenté | Tom's Hardware, 7 août 2024, résumant Reuters (28) |
+| R27 | Conférence du T3 2024 (31 oct. 2024) : Intel dit qu'il n'atteindra pas son objectif de 500 M$ de ventes de Gaudi en 2024 | Tom's Hardware / Benzinga, oct.-nov. 2024 (29) |
+| R28 | 13 janvier 2021 : Pat Gelsinger nommé PDG (prise de fonction le 15 février 2021) ; il avait passé 30 ans chez Intel (1979-2009), dont le poste de premier directeur technique | Intel, 8-K du 13 janv. 2021 (30) : « including 30 years at Intel where he began his career » |
+| R29 | 23 mars 2021 : stratégie « IDM 2.0 » ; environ **20 Md$** pour deux nouvelles usines sur le campus d'Ocotillo (Arizona) ; création d'Intel Foundry Services ; recours accru aux fonderies tierces | Intel, 8-K, pièce 99.1 (31) |
+| R30 | Ohio : première phase ≈ **28 Md$** (campus d'environ 100 Md$ à terme) ; 28 février 2025 : le premier module est repoussé à 2030, production entre 2030 et 2031 ; second module en 2031-2032 (le projet visait 2025 au départ) | Tom's Hardware, 28 févr. 2025 (32) |
+| R31 | 26 novembre 2024 : attribution CHIPS finalisée, jusqu'à **7,86 Md$** de subventions directes | Intel, communiqué (33) |
+| R32 | Intel Foundry, nouvelle présentation sectorielle (2 avril 2024) : perte d'exploitation de **7,0 Md$** en 2023. *Calcul* : 7,0 + 13,3 + 10,3 = **30,6 Md$** sur 2023-2025 | Constellation Research, 2 avril 2024 (34) ; R2 |
+| R33 | 1er août 2024 (résultats T2 2024) : suppression de 15 % des effectifs, dividende suspendu ; 2 août 2024 : l'action chute de **26 %**, « worst day since 1974 », plus de 30 Md$ de valeur boursière perdus | Reuters via The Star, 2 août 2024 (35) |
+| R34 | 2024 : l'action Intel perd environ **60 %** sur l'année, « worst stock performance since the company went public in 1971 » | Calcalist, 31 déc. 2024 (36) |
+| R35 | 2 décembre 2024 : Intel annonce le départ à la retraite de Pat Gelsinger (effectif le 1er déc.) ; Bloomberg : « Intel CEO Forced Out by Board Frustrated With Slow Progress » | Intel, communiqué (37) ; Bloomberg via Data Center Knowledge (38) |
+| R36 | 12 mars 2025 : Lip-Bu Tan nommé PDG (prise de fonction le 18 mars) ; ancien PDG de Cadence, ancien administrateur d'Intel (2022-2024) | Intel Newsroom (39) |
+| R37 | 14 avril 2025 : Intel vend 51 % d'Altera à Silver Lake, sur une valorisation de **8,75 Md$** ; Altera avait été rachetée en 2015 pour **16,7 Md$** ; opération finalisée le 12 sept. 2025 (communiqué T2 2026) | OPB / AP, 14 avril 2025 (40) |
+| R38 | 18 août 2025 : SoftBank Group s'engage à investir **2 Md$** en actions ordinaires Intel, à 23 $ par action | Intel, communiqué (41) |
+| R39 | 18 septembre 2025 : Nvidia investira **5 Md$** en actions Intel à 23,28 $ ; Intel fabriquera des processeurs x86 sur mesure pour les plateformes IA de Nvidia (liés par NVLink) et des SoC x86 avec puces graphiques RTX ; vente finalisée (communiqué FY2025) | Intel, communiqué (42) ; R2 |
+| R40 | 9 octobre 2025 : Intel annonce que Fab 52 (Arizona) est pleinement opérationnelle et produit en 18A ; présentation de Panther Lake | Presse, 9 oct. 2025 (43) |
+| R41 | CES 2026 (7 janv. 2026) : lancement des Core Ultra Series 3 « Panther Lake », premiers processeurs mobiles sur 18A ; portables disponibles à partir du 27 janvier 2026 (certaines tuiles graphiques restent fabriquées par TSMC) | PC Perspective, 7 janv. 2026 (44) |
+| R42 | Apple : The Wall Street Journal (vers le 8-11 mai 2026) rapporte un accord préliminaire pour qu'Intel fabrique certaines puces Apple ; 18 juin 2026 : Donald Trump annonce sur Truth Social qu'Apple travaillera avec Intel sur la conception et la fabrication de puces aux États-Unis ; ni Apple ni Intel n'ont commenté ni publié de conditions ; l'action Intel gagne 7 % « to a record » | iDrop News (45) ; Reuters via BNN Bloomberg, 18 juin 2026 (46) |
+| R43 | T2 2026 (publié le 23 juillet 2026) : chiffre d'affaires **16,1 Md$ (+25 %)** ; marge brute GAAP 40,4 % ; perte nette GAAP −11,0 Md$ (dont une perte de 12,5 Md$ de réévaluation des actions placées sous séquestre pour le ministère du Commerce) ; CCPG 8,9 Md$ (+13 %) ; **DCAI 6,3 Md$ (+59 %)** ; **Intel Foundry 5,8 Md$ (+31 %), perte d'exploitation −2 089 M$** ; prévision T3 : 15,8 à 16,8 Md$ | Intel, communiqué T2 2026 (47) |
+| R44 | 18 juin 2026 : l'action Intel monte à un record historique (dépassant celui de l'été 2000) | Reuters via BNN Bloomberg (46) |
+
+## Points de vigilance
+
+- **Résultats du T3 2026** : publiés le 29 octobre 2026 après la clôture (après l'écriture de cette version). Voir la section dédiée plus bas si elle a été complétée.
+- **Noms des procédés** (R19) : « 10 nm », « 7 nm » ne mesurent plus rien de physique ; le script le dit et précise qu'Intel 10 nm ≈ TSMC 7 nm. Ne pas présenter « TSMC 7 nm en 2018 contre Intel 10 nm en 2019 » comme une comparaison exacte de finesse.
+- **iPhone** (R11) : Otellini parle d'une puce qu'Apple voulait ; les spécialistes discutent encore de quelle puce il s'agissait. Le script cite ses mots sans préciser.
+- **Récits de coulisses** (R25, R26, R35) : attribués au NYT, à Reuters et à Bloomberg ; Intel a officiellement parlé de « retirement » pour Gelsinger, ce que le script dit aussi.
+- **Andy Grove** (R6) : anecdote célèbre du livre de 1996, paraphrasée sans guillemets.
+- **Apple et TSMC** (R22) : Apple ne nomme pas TSMC dans son communiqué de 2020 ; le fait est très largement documenté (et TSMC Arizona produit des puces Apple), mais pas par une source primaire relue ici.
+- **Accord Apple-Intel de 2026** (R42) : aucun communiqué d'Apple ni d'Intel, aucune condition publiée. Le script le dit en toutes lettres. Les listes de « clients 14A » (Apple, Nvidia, Google, Tesla…) qui circulent viennent d'analystes : **non utilisées**.
+- **Effectifs** (R2) : 108,9 k fin 2024 contre 85,1 k fin 2025, mais Altera (≈ 3 k) est sortie du périmètre ; le script dit « partly by selling businesses ».
+- **Valeur de la participation de l'État** : l'action ayant plus que quadruplé, la participation achetée 8,9 Md$ vaut beaucoup plus aujourd'hui ; **non chiffré** (pas de cours dans le script, hors le fait historique du record de juin 2026).
+- **Perte GAAP du T2 2026** (R43) : due surtout à la réévaluation d'actions sous séquestre (hausse du cours) ; trop technique, non citée.
+- **« Most of the world's PCs and servers »** : Intel ≈ 67 % des unités x86 au T1 2026 (R24) et quasi totalité des serveurs en 2017 (R8). Formulation au passé, prudente.
+- **Pas de politique partisane** : CHIPS Act (2022, administration Biden) et prise de participation (2025, administration Trump) décrits comme des faits, sans jugement. Le « should have asked for more » de Donald Trump n'est pas cité.
+- **Pas de conseil d'investissement** : la phrase sur le record de l'action décrit un fait passé (juin 2026), sans prévision ; aucun objectif de cours d'analyste n'est cité.
+- **Lien avec la vidéo Nvidia** : renvoi bref (« We told that story in our Nvidia video »), aucun chiffre de Nvidia repris.
+
+## Sources
+
+1. Intel, « Intel Reports Fourth-Quarter and Full-Year 2021 Financial Results » (26 janv. 2022) : https://www.intc.com/news-events/press-releases/detail/1522/intel-reports-fourth-quarter-and-full-year-2021-financial
+2. Intel, « Intel Reports Fourth-Quarter and Full-Year 2025 Financial Results » (22 janv. 2026) : https://www.intc.com/news-events/press-releases/detail/1759/intel-reports-fourth-quarter-and-full-year-2025-financial-results
+3. Intel, « Intel Reports Fourth-Quarter and Full-Year 2023 Financial Results » (25 janv. 2024) : https://www.intc.com/news-events/press-releases/detail/1672/intel-reports-fourth-quarter-and-full-year-2023-financial-results
+4. Intel, « Explore Intel's history » (timeline) : https://timeline.intel.com/
+5. TelecomLead, « TSMC Delivers Record 2025 Revenue and Profit… » (16 janv. 2026) : https://telecomlead.com/?p=124150
+6. Intel, « Intel and Trump Administration Reach Historic Agreement… » (22 août 2025) : https://www.intc.com/news-events/press-releases/detail/1748/intel-and-trump-administration-reach-historic-agreement-to
+7. Apple, « Apple to Use Intel Microprocessors Beginning in 2006 » (6 juin 2005) : https://apple.com/newsroom/2005/06/06Apple-to-Use-Intel-Microprocessors-Beginning-in-2006/
+8. Data Center Knowledge (Bloomberg), « AMD Server Chip Revival Effort Enlists Some Big Friends » (21 juin 2017) : https://www.datacenterknowledge.com/data-center-chips/amd-server-chip-revival-effort-enlists-some-big-friends
+9. Intel, « Marvell To Purchase Intel's Communications And Application Processor Business For $600 Million » (27 juin 2006) : https://www.intel.com/pressroom/archive/releases/2006/20060627corp.htm
+10. Apple, « Apple Reinvents the Phone with iPhone » (9 janv. 2007) : https://apple.com/newsroom/2007/01/09Apple-Reinvents-the-Phone-with-iPhone/
+11. The Atlantic, Alexis C. Madrigal, entretien avec Paul Otellini (16 mai 2013) : https://www.theatlantic.com/technology/archive/2013/05/intel-may-have-lost-the-iphone-battle-but-it-could-still-win-the-mobile-war/275825/
+12. Loop Insight, « Intel passed up on the original iPhone » (17 mai 2013) : https://www.loopinsight.com/2013/05/17/intel-passed-up-on-the-original-iphone/
+13. Engadget (17 mai 2013) : https://www.engadget.com/2013/05/17/outgoing-intel-ceo-regrets-not-getting-intel-cpu-in-iphone/
+14. Arm Holdings, rapport annuel exercice 2025 (6-K, 18 sept. 2025) : https://investors.arm.com/node/7681/html
+15. FierceWireless, « Intel racks up $4.2B in mobile losses in 2014… » (janv. 2015) : https://www.fierce-network.com/wireless/intel-racks-up-4-2b-mobile-losses-2014-but-promises-to-cut-costs-cheaper-chips
+16. The Register, plans 10 nm et 14 nm d'Intel (16 juil. 2015) : https://www.theregister.com/2015/07/16/intel_10nm_14nm_plans/
+17. The Register, annulation des Atom Broxton et SoFIA (30 avril 2016) : https://www.theregister.com/2016/04/30/intel_atoms_cancelled/
+18. Apple, « Apple to acquire the majority of Intel's smartphone modem business » (25 juil. 2019) : https://www.apple.com/newsroom/2019/07/apple-to-acquire-the-majority-of-intels-smartphone-modem-business/
+19. TechPowerUp, « Intel Reports Second-Quarter 2020 Financial Results » (texte du communiqué, 23 juil. 2020) : https://techpowerup.com/270250/intel-reports-second-quarter-2020-financial-results
+20. TSMC, « Logic Technology » : https://www.tsmc.com/english/dedicatedfoundry/technology/logic
+21. Digit, « Intel Accelerated – 10nm to 18A, RibbonFET, PowerVia and more » (juil. 2021) : https://www.digit.in/news/general/intel-accelerated-10nm-to-18a-ribbonfet-powervia-and-more-61250.html
+22. CNN Business, Intel earnings sell-off (24 juil. 2020) : https://amp.cnn.com/cnn/2020/07/24/investing/intel-earnings-stock-selloff
+23. Apple, « Apple announces Mac transition to Apple silicon » (22 juin 2020) : https://www.apple.com/newsroom/2020/06/apple-announces-mac-transition-to-apple-silicon/
+24. eWeek, « AMD Finalizes Processor Manufacturing Spinoff » (mars 2009) : https://www.eweek.com/pc-hardware/amd-finalizes-processor-manufacturing-spinoff/
+25. Tom's Hardware, « AMD reaches 46% of server x86 CPU revenue… » (14 mai 2026) : https://www.tomshardware.com/pc-components/cpus/amd-reaches-46-percent-of-server-x86-cpu-revenue-intel-still-controls-70-percent-of-the-consumer-pc-market-share
+26. HotHardware, « AMD Hits Record x86 CPU Market Share… » (4 juin 2026) : https://hothardware.com/news/amd-hits-record-x86-cpu-market-share-intel-supply-stalls
+27. Tom's Hardware, « Intel's former CEO reportedly wanted to buy Nvidia for $20 billion in 2005 » (24 oct. 2024) : https://www.tomshardware.com/tech-industry/intels-former-ceo-reportedly-wanted-to-buy-nvidia-for-usd20-billion-in-2005-nvidia-is-worth-over-usd3-trillion-today
+28. Tom's Hardware, « Intel reportedly gave up a chance to buy a stake in OpenAI in 2017 » (7 août 2024) : https://www.tomshardware.com/tech-industry/artificial-intelligence/intel-reportedly-gave-up-a-chance-to-buy-a-stake-in-openai-in-2017
+29. Tom's Hardware, « Intel says it will miss its AI goals with Gaudi 3… » (oct. 2024) : https://www.tomshardware.com/tech-industry/artificial-intelligence/intel-says-it-will-miss-its-ai-goals-with-gaudi-3-unbaked-software-leaves-intels-usd500-million-ai-goal-unachievable-as-competitors-rake-in-billions
+30. Intel, Form 8-K, pièce 99.1, « Intel Appoints Tech Industry Leader Pat Gelsinger as New CEO » (13 janv. 2021) : https://www.intc.com/filings-reports/all-sec-filings/content/0001193125-21-009142/d82915dex991.htm
+31. Intel, Form 8-K, pièce 99.1, « IDM 2.0 » (23 mars 2021) : https://www.intc.com/filings-reports/all-sec-filings/content/0001193125-21-091374/d153275dex991.htm
+32. Tom's Hardware, « Intel delays $100 billion Ohio site to next decade… » (28 févr. 2025) : https://www.tomshardware.com/tech-industry/intel-delays-usd100-billion-ohio-site-to-next-decade-first-fab-now-coming-online-in-2030
+33. Intel, « Intel, Biden-Harris Administration Finalize $7.86 Billion Funding Award Under US CHIPS Act » (26 nov. 2024) : https://www.intel.com/content/www/us/en/newsroom/news/intel-chips-act.html
+34. Constellation Research, « Intel Foundry had $7 billion operating loss in 2023 » (2 avril 2024) : https://www.constellationr.com/insights/news/intel-foundry-had-7-billion-operating-loss-2023
+35. The Star (Reuters), « Intel shares slump 26% as turnaround struggle deepens » (2 août 2024) : https://www.thestar.com.my/tech/tech-news/2024/08/02/intel-shares-set-to-fall-most-in-24-years-as-it-struggles-with-turnaround
+36. Calcalist, « Intel caps year from hell with worst-ever stock performance » (31 déc. 2024) : https://calcalistech.com/ctechnews/article/r1hky2bije
+37. Intel, « Intel Announces Retirement of CEO Pat Gelsinger » (2 déc. 2024) : https://newsroom.intel.com/corporate/intel-ceo-news-dec-2024
+38. Data Center Knowledge (Bloomberg), « Intel CEO Forced Out by Board Frustrated With Slow Progress » (déc. 2024) : https://www.datacenterknowledge.com/data-center-chips/intel-ceo-forced-out-by-board-frustrated-with-slow-progress
+39. Intel, « Intel Appoints Lip-Bu Tan as Chief Executive Officer » (12 mars 2025) : https://newsroom.intel.com/corporate/intel-appoints-lip-bu-tan-chief-executive-officer
+40. OPB (AP), « Intel sells majority stake in Altera to Silver Lake… » (14 avril 2025) : https://www.opb.org/article/2025/04/14/intel-altera-silver-lake
+41. Intel, « SoftBank Group and Intel Corporation Sign $2B Investment Agreement » (18 août 2025) : https://www.intc.com/news-events/press-releases/detail/1746/softbank-group-and-intel-corporation-sign-2b-investment
+42. Intel, « NVIDIA and Intel to Develop AI Infrastructure and Personal Computing Products » (18 sept. 2025) : https://www.intc.com/news-events/press-releases/detail/1750/nvidia-and-intel-to-develop-ai-infrastructure-and-personal
+43. Baxtel, « Intel announces new Arizona Fab 52 is fully operational » (9 oct. 2025) : https://baxtel.com/news/intel-announces-new-arizona-fab-52-is-fully-operational
+44. PC Perspective, « CES 2026: Intel Launches Core Ultra 3 Series “Panther Lake” Processors » (7 janv. 2026) : https://pcper.com/2026/01/ces-2026-intel-launches-core-ultra-3-series-panther-lake-processors/
+45. iDrop News, accord préliminaire Apple-Intel rapporté par le WSJ (mai 2026) : https://www.idropnews.com/news/apple-intel-chip-deal-2026-official/263582/
+46. BNN Bloomberg (Reuters), « Trump says Apple to partner with Intel on US chip design, production » (18 juin 2026) : https://www.bnnbloomberg.ca/business/company-news/2026/06/18/trump-says-apple-to-partner-with-intel-on-us-chip-design-production/
+47. Intel, « Intel Reports Second-Quarter 2026 Financial Results » (23 juil. 2026) : https://www.intc.com/news-events/press-releases/detail/1776/intel-reports-second-quarter-2026-financial-results

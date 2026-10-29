@@ -99,6 +99,29 @@ export const TINTS: Record<string, Palette> = {
       heroNumGlow: 'rgba(227,24,55,0.55)',
     },
   },
+  intel: {
+    // Bleu Intel (#0068B5) pour l'ambiance : nuit cobalt presque noire, halos bleu électrique plus saturés que
+    // le bleu nuit par défaut ; l'or reste l'accent principal. Les chiffres « teal » passent au cyan Intel
+    // (#00C7FD), lisible sur le fond cobalt et distinct de l'or et du rouge brique.
+    C: {ink: '#01040C', navy: '#04142E', navyLight: '#08234A', mute: '#93A6C2', slate: '#7189AD', teal: '#38D2FF'},
+    GRAD: {
+      teal: ['#005E9E', '#7FE3FF', 'rgba(0,199,253,0.42)'],
+      slate: ['#24364F', '#8BA3C4', 'rgba(139,163,196,0.25)'],
+    },
+    AMB: {
+      inkRgb: '1,4,12',
+      night: '#0B3A86',
+      nightSoft: '#0A3070',
+      orbCool: 'rgba(0,104,181,0.12)',
+      orbTeal: 'rgba(0,199,253,0.06)',
+      particle: '#d6efff',
+      photoGrade: 'rgba(0,60,140,0.26)',
+      photoFilter: '',
+      regradeFilter: 'saturate(0.6)',
+      heroNum: '#5FDcff',
+      heroNumGlow: 'rgba(0,199,253,0.55)',
+    },
+  },
 };
 
 const DEFAULT = {C: {...C}, GRAD: {...GRAD}, AMB: {...AMB}};
