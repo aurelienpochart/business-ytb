@@ -6,6 +6,9 @@
 # fait : cpi-u-bls-1986.json https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SA0?startyear=1986&endyear=1987
 # fait : aapl-fy26-q4-pr.htm https://www.apple.com/newsroom/2026/10/apple-reports-fourth-quarter-results/
 # fait : aapl-fy26-q4-fs.pdf https://www.apple.com/newsroom/pdfs/fy2026-q4/FY26_Q4_Consolidated_Financial_Statements.pdf
-aapl-10k-list.xml https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000320193&type=10-K&dateb=&owner=include&count=10&output=atom
-aapl-8k-list.xml https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000320193&type=8-K&dateb=&owner=include&count=10&output=atom
-aapl-10q-list.xml https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000320193&type=10-Q&dateb=&owner=include&count=10&output=atom
+# refusé (403) : aapl-10k-list.xml https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000320193&type=10-K&dateb=&owner=include&count=10&output=atom
+# refusé (403) : aapl-8k-list.xml https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000320193&type=8-K&dateb=&owner=include&count=10&output=atom
+# refusé (403) : aapl-10q-list.xml https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000320193&type=10-Q&dateb=&owner=include&count=10&output=atom
+aapl-q1fy26-pr.htm https://www.sec.gov/Archives/edgar/data/320193/000032019326000005/a8-kex991q1202612272025.htm
+aapl-q2fy26-pr.htm https://www.sec.gov/Archives/edgar/data/0000320193/000032019326000011/a8-kex991q2202603282026.htm
+aapl-q3fy26-pr.htm https://www.sec.gov/Archives/edgar/data/0000320193/000032019326000018/a8-kex991q3202606272026.htm
