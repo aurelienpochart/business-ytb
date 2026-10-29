@@ -56,7 +56,7 @@
      2026
     ],
     "prefix": "$",
-    "height": 600,
+    "height": 640,
     "series": [
      {
       "label": "Big Mac",
@@ -355,7 +355,7 @@
      2026
     ],
     "prefix": "$",
-    "height": 600,
+    "height": 760,
     "series": [
      {
       "label": "Big Mac",
@@ -876,7 +876,7 @@
      2026
     ],
     "prefix": "$",
-    "height": 600,
+    "height": 760,
     "series": [
      {
       "label": "Big Mac",
@@ -1403,12 +1403,10 @@
    "color": "teal",
    "kicker": "Restaurant prices",
    "number": "$5.59",
-   "numberDelay": {
-    "$t": "five fifty",
-    "offset": -0.1
-   },
-   "label": "if it tracked restaurant inflation",
-   "source": "US BLS, CPI food away from home"
+   "numberDelay": 0.5,
+   "label": "at restaurant inflation",
+   "source": "US BLS, CPI food away from home",
+   "sub": "what $1.60 would have become"
   }
  },
  {

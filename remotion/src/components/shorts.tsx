@@ -244,9 +244,9 @@ const CurveChart: React.FC<Curve> = ({series, yMax, yTicks = [], xTicks = [], pr
   const frame = useCurrentFrame();
   const {fps} = useVideoConfig();
   const W = WIDTH;
-  const padL = 70;
-  const padR = 150; // place pour la valeur finale à droite
-  const padT = 30;
+  const padL = 84;
+  const padR = 210; // place pour la valeur finale à droite
+  const padT = mark ? 80 : 30; // place pour l'étiquette du repère vertical
   const padB = 56;
   const all = series.flatMap((s) => s.points);
   const x0 = Math.min(...all.map((p) => p[0]));
@@ -270,7 +270,7 @@ const CurveChart: React.FC<Curve> = ({series, yMax, yTicks = [], xTicks = [], pr
         {yTicks.map((t) => (
           <g key={`y${t}`}>
             <line x1={padL} x2={W - padR + 20} y1={Y(t)} y2={Y(t)} stroke="rgba(255,255,255,0.14)" strokeWidth={2} strokeDasharray="4 10" />
-            <text x={padL - 14} y={Y(t) + 11} textAnchor="end" fill="rgba(244,239,230,0.75)" style={{fontFamily: FONT.mono, fontSize: 30}}>
+            <text x={padL - 14} y={Y(t) + 11} textAnchor="end" fill="rgba(244,239,230,0.75)" style={{fontFamily: FONT.mono, fontSize: 36}}>
               {prefix}
               {t}
             </text>
@@ -278,7 +278,7 @@ const CurveChart: React.FC<Curve> = ({series, yMax, yTicks = [], xTicks = [], pr
         ))}
         <line x1={padL} x2={W - padR + 20} y1={Y(0)} y2={Y(0)} stroke="rgba(255,255,255,0.45)" strokeWidth={2.5} />
         {xTicks.map((t) => (
-          <text key={`x${t}`} x={X(t)} y={height - 8} textAnchor="middle" fill="rgba(244,239,230,0.85)" style={{fontFamily: FONT.mono, fontSize: 32}}>
+          <text key={`x${t}`} x={X(t)} y={height - 8} textAnchor="middle" fill="rgba(244,239,230,0.9)" style={{fontFamily: FONT.mono, fontSize: 38}}>
             {t}
           </text>
         ))}
@@ -317,12 +317,12 @@ const CurveChart: React.FC<Curve> = ({series, yMax, yTicks = [], xTicks = [], pr
               <path d={path} fill="none" stroke={color} strokeWidth={s.dash ? 6 : 9} strokeDasharray={s.dash ? '16 14' : undefined} strokeLinecap="round" strokeLinejoin="round" style={{filter: `drop-shadow(0 0 14px ${t.halo})`}} />
               <circle cx={X(ex)} cy={Y(ey)} r={13} fill={color} style={{filter: `drop-shadow(0 0 16px ${color})`}} />
               {s.end ? (
-                <text x={X(ex) + 26} y={Y(ey) + 16} fill={color} opacity={Math.min(1, Math.max(0, pEnd))} style={{fontFamily: FONT.mono, fontWeight: 600, fontSize: 50, filter: 'drop-shadow(0 3px 10px rgba(0,0,0,0.9))'}}>
+                <text x={X(ex) + 26} y={Y(ey) + 12} fill={color} opacity={Math.min(1, Math.max(0, pEnd))} style={{fontFamily: FONT.mono, fontWeight: 600, fontSize: 58, filter: 'drop-shadow(0 3px 10px rgba(0,0,0,0.9))'}}>
                   {s.end}
                 </text>
               ) : null}
               {s.label ? (
-                <text x={X(ex) + 26} y={Y(ey) + 54} fill={C.paper} opacity={0.85 * Math.min(1, Math.max(0, pEnd))} style={{fontFamily: FONT.title, fontWeight: 600, fontSize: 28, filter: 'drop-shadow(0 3px 10px rgba(0,0,0,0.9))'}}>
+                <text x={X(ex) + 26} y={Y(ey) + 56} fill={C.paper} opacity={0.9 * Math.min(1, Math.max(0, pEnd))} style={{fontFamily: FONT.title, fontWeight: 600, fontSize: 32, filter: 'drop-shadow(0 3px 10px rgba(0,0,0,0.9))'}}>
                   {s.label}
                 </text>
               ) : null}
