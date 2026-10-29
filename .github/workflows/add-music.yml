@@ -39,7 +39,7 @@ jobs:
         id: kind
         run: |
           case "$FOLDER" in
-            */shorts/*) echo "artifact=short-final" >> "$GITHUB_OUTPUT"; echo "file=short.mp4" >> "$GITHUB_OUTPUT" ;;
+            */shorts/*|*/shorts-originaux/*) echo "artifact=short-final" >> "$GITHUB_OUTPUT"; echo "file=short.mp4" >> "$GITHUB_OUTPUT" ;;
             *) echo "artifact=video-finale" >> "$GITHUB_OUTPUT"; echo "file=video.mp4" >> "$GITHUB_OUTPUT" ;;
           esac
 
