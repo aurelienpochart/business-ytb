@@ -88,7 +88,9 @@ export const Chrono: React.FC<{
   // Géométrie verticale (zone utile du cadre : environ 1620 x 700).
   const axisY = laneMode ? 0 : 400;
   const laneH = laneMode ? Math.min(300, 620 / lanes!.length) : 0;
-  const laneY = (i: number) => 150 + i * laneH + laneH * 0.62;
+  const laneTop = laneMode && lanes!.length === 1 ? 200 : 150;
+  const laneY = (i: number) => laneTop + i * laneH + laneH * 0.62;
+  const tickTop = laneMode ? laneY(lanes!.length - 1) + 46 : axisY + 26;
 
   const step = tickStep(b - a);
   const ticks: number[] = [];
@@ -129,7 +131,7 @@ export const Chrono: React.FC<{
           const xx = x(y);
           const edge = Math.min(1, (xx - gutter) / 60, (gutter + AW - xx) / 60);
           return (
-            <div key={`t${y}`} style={{position: 'absolute', left: xx - 50, width: 100, top: laneMode ? 640 : axisY + 26, textAlign: 'center', fontFamily: FONT.mono, fontSize: 22, color: C.mute, opacity: Math.max(0, edge) * grid * 0.85}}>
+            <div key={`t${y}`} style={{position: 'absolute', left: xx - 50, width: 100, top: tickTop, textAlign: 'center', fontFamily: FONT.mono, fontSize: 22, color: C.mute, opacity: Math.max(0, edge) * grid * 0.85}}>
               {laneMode ? null : <div style={{width: 1, height: 12, background: 'rgba(255,255,255,0.3)', margin: '-26px auto 12px'}} />}
               {y}
             </div>

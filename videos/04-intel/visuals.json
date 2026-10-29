@@ -1,0 +1,2167 @@
+[
+ {
+  "at": "c0p0",
+  "type": "hero",
+  "props": {
+   "photo": "wafer_black",
+   "logo": "logo_intel",
+   "logoWidth": 560,
+   "logoHeight": 221,
+   "logoColor": "white",
+   "number": "$79.0B",
+   "label": "of chips sold in 2021",
+   "kicker": "Intel, 2021",
+   "numberAt": 1.6,
+   "source": "Intel Q4 and full-year 2021 results (Jan. 26, 2022)"
+  }
+ },
+ {
+  "at": "c0p0",
+  "after": "and kept almost",
+  "type": "bars",
+  "props": {
+   "title": "Intel, 2021 ($ billions)",
+   "bars": [
+    {
+     "label": "Revenue",
+     "value": 79.0,
+     "display": "$79.0B",
+     "color": "slate"
+    },
+    {
+     "label": "Net profit",
+     "value": 19.9,
+     "display": "$19.9B",
+     "color": "amber",
+     "note": "kept as profit"
+    }
+   ],
+   "delays": [
+    0.2,
+    0.9
+   ],
+   "source": "Intel Q4 and full-year 2021 results (Jan. 26, 2022)"
+  }
+ },
+ {
+  "at": "c0p1",
+  "type": "bars",
+  "bg": "leixlip_sunset",
+  "props": {
+   "title": "Intel net income ($ billions)",
+   "bars": [
+    {
+     "label": "2021",
+     "value": 19.9,
+     "display": "+$19.9B",
+     "color": "amber"
+    },
+    {
+     "label": "2024",
+     "value": -18.8,
+     "display": "−$18.8B",
+     "color": "brick",
+     "note": "in a single year"
+    }
+   ],
+   "delays": [
+    0.2,
+    1.3
+   ],
+   "source": "Intel full-year results 2021 and 2025"
+  }
+ },
+ {
+  "at": "c0p2",
+  "type": "photo",
+  "props": {
+   "photo": "noyce_moore_1970",
+   "kicker": "Robert Noyce and Gordon Moore, 1970",
+   "text": "Half a century *setting the pace*.",
+   "focus": "50% 35%"
+  }
+ },
+ {
+  "at": "c0p2",
+  "after": "It put a computer's brain",
+  "type": "photo",
+  "props": {
+   "photo": "layout_4004",
+   "kicker": "Intel 4004, 1971",
+   "text": "A computer's brain, *on one chip*.",
+   "zoom": "out",
+   "source": "Intel's official timeline (timeline.intel.com)"
+  }
+ },
+ {
+  "at": "c0p2",
+  "after": "and its processors ran",
+  "type": "tiles",
+  "bg": "xeon",
+  "props": {
+   "kicker": "Inside most of the world’s computers",
+   "items": [
+    {
+     "icon": "Monitor",
+     "label": "PCs",
+     "sub": "most of them, for decades",
+     "color": "amber"
+    },
+    {
+     "icon": "Server",
+     "label": "Servers",
+     "sub": "almost all of them by 2017",
+     "color": "amber"
+    }
+   ],
+   "delays": [
+    0.2,
+    0.9
+   ]
+  }
+ },
+ {
+  "at": "c0p3",
+  "type": "bars",
+  "bg": "tsmc_night",
+  "props": {
+   "title": "Revenue in 2025 ($ billions)",
+   "bars": [
+    {
+     "label": "TSMC",
+     "value": 122.4,
+     "display": "$122.4B",
+     "color": "teal",
+     "note": "makes chips for others"
+    },
+    {
+     "label": "Intel",
+     "value": 52.9,
+     "display": "$52.9B",
+     "color": "amber"
+    }
+   ],
+   "delays": [
+    0.5,
+    1.3
+   ],
+   "source": "TSMC full-year 2025 results (Jan. 2026); Intel Q4 and full-year 2025 results (Jan. 22, 2026)"
+  }
+ },
+ {
+  "at": "c0p3",
+  "after": "And the US government",
+  "type": "numbers",
+  "bg": "commerce",
+  "props": {
+   "title": "Who owns Intel?",
+   "items": [
+    {
+     "value": 9.9,
+     "decimals": 1,
+     "suffix": "%",
+     "label": "held by the US government since 2025",
+     "color": "amber",
+     "icon": "Landmark"
+    }
+   ],
+   "source": "Intel and US government agreement (Aug. 22, 2025)"
+  }
+ },
+ {
+  "at": "c0p4",
+  "type": "statement",
+  "bg": "leixlip_sunset",
+  "props": {
+   "kicker": "How do you lose a crown?",
+   "text": "Not one bad year. *A string of decisions.*",
+   "icon": "Crown"
+  }
+ },
+ {
+  "at": "c0p5",
+  "type": "chrono",
+  "props": {
+   "from": 1968,
+   "to": 2026,
+   "eras": [
+    {
+     "from": 1968,
+     "to": 2006.5,
+     "label": "The PC era",
+     "color": "amber"
+    },
+    {
+     "from": 2006.5,
+     "to": 2020,
+     "label": "Phones",
+     "color": "teal"
+    },
+    {
+     "from": 2020,
+     "to": 2026,
+     "label": "AI",
+     "color": "slate"
+    }
+   ],
+   "events": [
+    {
+     "year": 1968,
+     "label": "Intel is founded",
+     "level": 1,
+     "at": 0.3
+    },
+    {
+     "year": 1981,
+     "label": "Inside the IBM PC",
+     "level": -1,
+     "at": 0.8
+    },
+    {
+     "year": 2006.5,
+     "date": "2006",
+     "label": "Sells its phone-chip unit",
+     "level": 1,
+     "at": 1.3,
+     "color": "brick"
+    },
+    {
+     "year": 2024,
+     "label": "A $18.8B loss",
+     "level": -1,
+     "at": 1.8,
+     "color": "brick"
+    }
+   ]
+  }
+ },
+ {
+  "at": "c1p0",
+  "type": "chrono",
+  "props": {
+   "title": "Intel, the early years",
+   "from": 1965,
+   "to": 1995,
+   "view": [
+    1965,
+    1976
+   ],
+   "viewEnd": [
+    1965,
+    1980
+   ],
+   "pan": [
+    0.3,
+    9
+   ],
+   "events": [
+    {
+     "year": 1968,
+     "label": "Intel is founded",
+     "sub": "by Robert Noyce and Gordon Moore",
+     "photo": "noyce_moore_1970",
+     "level": 1,
+     "at": 0.2
+    },
+    {
+     "year": 1971,
+     "label": "The 4004 microprocessor",
+     "sub": "a computer’s brain on one chip",
+     "level": -1,
+     "at": 5.2
+    }
+   ],
+   "source": "Intel's official timeline (timeline.intel.com)"
+  }
+ },
+ {
+  "at": "c1p0",
+  "after": "which Intel calls",
+  "type": "photo",
+  "props": {
+   "photo": "layout_4004",
+   "kicker": "1971 · Intel 4004",
+   "text": "The brain of a computer, *on one chip*.",
+   "zoom": "out",
+   "source": "Intel's official timeline (timeline.intel.com)"
+  }
+ },
+ {
+  "at": "c1p1",
+  "type": "statement",
+  "bg": "die_angle",
+  "props": {
+   "kicker": "The first years",
+   "text": "Intel was mostly a *memory company*.",
+   "icon": "MemoryStick"
+  }
+ },
+ {
+  "at": "c1p1",
+  "after": "Then Japanese",
+  "type": "chrono",
+  "props": {
+   "title": "Intel, the early years",
+   "from": 1965,
+   "to": 1995,
+   "view": [
+    1966,
+    1992
+   ],
+   "events": [
+    {
+     "year": 1968,
+     "label": "Intel is founded",
+     "sub": "by Robert Noyce and Gordon Moore",
+     "photo": "noyce_moore_1970",
+     "level": 1,
+     "at": 0.2
+    },
+    {
+     "year": 1971,
+     "label": "The 4004 microprocessor",
+     "sub": "a computer’s brain on one chip",
+     "level": -1,
+     "at": 0.4
+    },
+    {
+     "year": 1985,
+     "label": "Stops making memory chips",
+     "sub": "“the difficult but smart decision”",
+     "level": 1,
+     "color": "brick",
+     "at": 3.82
+    }
+   ],
+   "source": "Intel's official timeline (timeline.intel.com)"
+  }
+ },
+ {
+  "at": "c1p2",
+  "type": "photo",
+  "props": {
+   "photo": "founders_1978",
+   "kicker": "Andy Grove, Robert Noyce, Gordon Moore (1978)",
+   "text": "What would a *new boss* do?",
+   "focus": "50% 30%"
+  }
+ },
+ {
+  "at": "c1p2",
+  "after": "Moore's answer",
+  "type": "statement",
+  "bg": "noyce_moore_1970",
+  "props": {
+   "text": "Get out of memory. *So they did it themselves.*",
+   "icon": "DoorOpen",
+   "source": "Andy Grove, Only the Paranoid Survive (1996)"
+  }
+ },
+ {
+  "at": "c1p3",
+  "type": "photo",
+  "props": {
+   "photo": "ibm_pc",
+   "kicker": "1981 · IBM Personal Computer",
+   "text": "The best customer *in the world*.",
+   "source": "Intel's official timeline (timeline.intel.com)"
+  }
+ },
+ {
+  "at": "c1p3",
+  "after": "Every PC built",
+  "type": "loop",
+  "bg": "layout_4004",
+  "props": {
+   "nodes": [
+    {
+     "icon": "Monitor",
+     "label": "IBM PC",
+     "sub": "1981"
+    },
+    {
+     "icon": "Copy",
+     "label": "Compatible PCs",
+     "sub": "built to run the same software"
+    },
+    {
+     "icon": "Cpu",
+     "label": "Intel-compatible chips",
+     "color": "teal"
+    },
+    {
+     "icon": "TrendingUp",
+     "label": "Huge volume for Intel"
+    }
+   ],
+   "stagger": 0.7,
+   "start": 0.2
+  }
+ },
+ {
+  "at": "c1p4",
+  "type": "photo",
+  "props": {
+   "photo": "xeon",
+   "logo": "logo_intel_inside",
+   "kicker": "1991 · “Intel Inside”",
+   "text": "Advertising a part *nobody sees*.",
+   "source": "Intel's official timeline (timeline.intel.com)"
+  }
+ },
+ {
+  "at": "c1p5",
+  "type": "tiles",
+  "bg": "fab_oregon",
+  "props": {
+   "kicker": "The real secret",
+   "items": [
+    {
+     "icon": "PenTool",
+     "label": "Design",
+     "sub": "Intel drew its chips…",
+     "color": "amber"
+    },
+    {
+     "icon": "Factory",
+     "label": "Factory",
+     "sub": "…and made them itself",
+     "color": "amber"
+    }
+   ],
+   "delays": [
+    0.3,
+    4.22
+   ]
+  }
+ },
+ {
+  "at": "c1p5",
+  "after": "Roughly every two years",
+  "type": "statement",
+  "bg": "die_angle",
+  "props": {
+   "text": "Every two years: *smaller transistors*, a step ahead.",
+   "icon": "Gauge"
+  }
+ },
+ {
+  "at": "c1p6",
+  "type": "photo",
+  "props": {
+   "photo": "jobs_otellini",
+   "logo": "logo_apple",
+   "kicker": "2005",
+   "text": "Even Apple *went Intel*.",
+   "source": "Apple press release (June 6, 2005)",
+   "focus": "50% 30%"
+  }
+ },
+ {
+  "at": "c1p6",
+  "after": "In servers",
+  "type": "numbers",
+  "bg": "xeon",
+  "props": {
+   "title": "AMD's share of servers, 2017",
+   "items": [
+    {
+     "value": 1,
+     "prefix": "<",
+     "suffix": "%",
+     "label": "by its own CEO's count. Intel had almost all the rest.",
+     "color": "slate",
+     "icon": "Server"
+    }
+   ],
+   "source": "Lisa Su, AMD, via Bloomberg (June 2017)"
+  }
+ },
+ {
+  "at": "c1p7",
+  "type": "donut",
+  "bg": "wafer_black",
+  "props": {
+   "title": "Intel, 2021: every dollar of sales",
+   "parts": [
+    {
+     "label": "Cost of making the chips",
+     "value": 44.6,
+     "display": "45¢",
+     "color": "slate"
+    },
+    {
+     "label": "Gross profit",
+     "value": 55.4,
+     "display": "55¢",
+     "color": "amber",
+     "sub": "gross margin 55.4%"
+    }
+   ],
+   "center": "$1",
+   "stagger": 0.7,
+   "start": 0.3,
+   "focus": 1,
+   "source": "Intel Q4 and full-year 2021 results (Jan. 26, 2022)"
+  }
+ },
+ {
+  "at": "c1p8",
+  "type": "photo",
+  "props": {
+   "photo": "iphone_first",
+   "kicker": "Meanwhile",
+   "text": "A new computer, *for every pocket*.",
+   "focus": "50% 40%"
+  }
+ },
+ {
+  "at": "c2p0",
+  "type": "chrono",
+  "props": {
+   "title": "Intel and the phone",
+   "from": 2004,
+   "to": 2010,
+   "view": [
+    2004,
+    2010
+   ],
+   "events": [
+    {
+     "year": 2006.5,
+     "date": "June 2006",
+     "label": "Sells its phone-chip business to Marvell",
+     "sub": "for $600 million",
+     "level": -1,
+     "color": "brick",
+     "at": 0.6
+    }
+   ],
+   "source": "Intel press release (June 27, 2006)"
+  }
+ },
+ {
+  "at": "c2p1",
+  "type": "chrono",
+  "props": {
+   "title": "Intel and the phone",
+   "from": 2004,
+   "to": 2010,
+   "view": [
+    2004,
+    2010
+   ],
+   "events": [
+    {
+     "year": 2006.5,
+     "date": "June 2006",
+     "label": "Sells its phone-chip business to Marvell",
+     "sub": "for $600 million",
+     "level": -1,
+     "color": "brick",
+     "at": 0.1
+    },
+    {
+     "year": 2007.03,
+     "date": "Jan. 2007",
+     "label": "Steve Jobs unveils the iPhone",
+     "photo": "iphone_first",
+     "level": 1,
+     "at": 0.6
+    }
+   ],
+   "source": "Intel (June 27, 2006); Apple (Jan. 9, 2007)"
+  }
+ },
+ {
+  "at": "c2p2",
+  "type": "photo",
+  "props": {
+   "photo": "jobs_otellini",
+   "kicker": "Steve Jobs and Paul Otellini",
+   "text": "Intel could have been *inside it*.",
+   "focus": "50% 30%"
+  }
+ },
+ {
+  "at": "c2p2",
+  "after": "and not a nickel more",
+  "type": "quote",
+  "props": {
+   "text": "And not a nickel more.",
+   "by": "Paul Otellini, Intel CEO, to The Atlantic (2013), on Apple's price",
+   "source": "The Atlantic, May 2013"
+  }
+ },
+ {
+  "at": "c2p3",
+  "type": "quote",
+  "props": {
+   "text": "I couldn't see it.",
+   "by": "Paul Otellini, The Atlantic (2013)",
+   "source": "The Atlantic, May 2013"
+  }
+ },
+ {
+  "at": "c2p3",
+  "after": "In hindsight",
+  "type": "quote",
+  "props": {
+   "text": "The volume was 100x what anyone thought.",
+   "by": "Paul Otellini, The Atlantic (2013)",
+   "source": "The Atlantic, May 2013"
+  }
+ },
+ {
+  "at": "c2p4",
+  "type": "tiles",
+  "bg": "iphone_first",
+  "props": {
+   "kicker": "Phones ran on someone else’s designs",
+   "items": [
+    {
+     "image": "logo_arm",
+     "label": "Arm",
+     "sub": "licenses chip blueprints"
+    },
+    {
+     "image": "logo_qualcomm",
+     "label": "Qualcomm"
+    },
+    {
+     "image": "logo_apple",
+     "label": "Apple"
+    },
+    {
+     "image": "logo_samsung",
+     "label": "Samsung"
+    }
+   ],
+   "focus": 0,
+   "stagger": 0.3,
+   "start": 0.3
+  }
+ },
+ {
+  "at": "c2p4",
+  "after": "says its processor designs",
+  "type": "numbers",
+  "bg": "die_labelled",
+  "props": {
+   "title": "Smartphones sold with Arm CPU designs",
+   "items": [
+    {
+     "value": 99,
+     "prefix": ">",
+     "suffix": "%",
+     "label": "according to Arm (year to March 2025)",
+     "color": "teal",
+     "icon": "Smartphone"
+    }
+   ],
+   "source": "Arm annual report 2025"
+  }
+ },
+ {
+  "at": "c2p5",
+  "type": "photo",
+  "props": {
+   "photo": "atom_board",
+   "kicker": "Intel Atom",
+   "text": "Paying its way *into tablets*.",
+   "zoom": "out"
+  }
+ },
+ {
+  "at": "c2p5",
+  "after": "In 2014",
+  "type": "tiles",
+  "bg": "iphone_first",
+  "props": {
+   "kicker": "Intel’s mobile push, 2014",
+   "items": [
+    {
+     "icon": "Tablet",
+     "label": "Tablets with Intel chips",
+     "value": "46M",
+     "color": "amber"
+    },
+    {
+     "icon": "TrendingDown",
+     "label": "Mobile division loss",
+     "value": "−$4.2B",
+     "color": "brick"
+    }
+   ],
+   "delays": [
+    0.3,
+    3.56
+   ],
+   "source": "FierceWireless, Intel's Q4 2014 results"
+  }
+ },
+ {
+  "at": "c2p6",
+  "type": "numbers",
+  "bg": "atom_board",
+  "props": {
+   "title": "Intel mobile division revenue, Q4 2014",
+   "items": [
+    {
+     "value": -6,
+     "prefix": "$",
+     "suffix": "M",
+     "label": "negative: it paid out more than it took in",
+     "color": "brick",
+     "icon": "CircleMinus"
+    }
+   ],
+   "source": "FierceWireless, Intel's Q4 2014 results"
+  }
+ },
+ {
+  "at": "c2p7",
+  "type": "chrono",
+  "props": {
+   "title": "Intel and the phone",
+   "from": 2004,
+   "to": 2021,
+   "view": [
+    2004,
+    2010
+   ],
+   "viewEnd": [
+    2004,
+    2021
+   ],
+   "pan": [
+    0.2,
+    1.6
+   ],
+   "events": [
+    {
+     "year": 2006.5,
+     "date": "June 2006",
+     "label": "Sells its phone-chip business to Marvell",
+     "sub": null,
+     "level": -1,
+     "color": "brick",
+     "at": 0.2
+    },
+    {
+     "year": 2007.03,
+     "date": "Jan. 2007",
+     "label": "Steve Jobs unveils the iPhone",
+     "photo": null,
+     "level": 1,
+     "at": 0.3
+    },
+    {
+     "year": 2016.3,
+     "date": "2016",
+     "label": "Cancels its next phone chips",
+     "level": 1,
+     "color": "brick",
+     "at": 1.7
+    },
+    {
+     "year": 2019.55,
+     "date": "July 2019",
+     "label": "Sells most of its modem business to Apple",
+     "sub": "about $1 billion",
+     "image": "logo_apple",
+     "level": -1,
+     "color": "brick",
+     "at": 2.96
+    }
+   ],
+   "source": "The Register (Apr. 2016); Apple (July 25, 2019)"
+  }
+ },
+ {
+  "at": "c2p8",
+  "type": "statement",
+  "bg": "die_labelled",
+  "props": {
+   "kicker": "Why it matters",
+   "text": "In chipmaking, *volume is everything*.",
+   "icon": "Layers"
+  }
+ },
+ {
+  "at": "c2p8",
+  "after": "Each new generation",
+  "type": "loop",
+  "props": {
+   "nodes": [
+    {
+     "icon": "Smartphone",
+     "label": "Billions of phones"
+    },
+    {
+     "icon": "Factory",
+     "label": "More chips made",
+     "color": "teal"
+    },
+    {
+     "icon": "GraduationCap",
+     "label": "Learn faster, costs fall"
+    },
+    {
+     "icon": "Coins",
+     "label": "Pay for the next factory"
+    }
+   ],
+   "centerImage": "logo_tsmc",
+   "centerImageColor": "white",
+   "stagger": 0.9,
+   "start": 0.2
+  }
+ },
+ {
+  "at": "c2p8",
+  "after": "and above all to TSMC",
+  "type": "photo",
+  "props": {
+   "photo": "tsmc_night",
+   "logo": "logo_tsmc",
+   "kicker": "Hsinchu, Taiwan",
+   "text": "Above all, *to TSMC*."
+  }
+ },
+ {
+  "at": "c2p9",
+  "type": "photo",
+  "props": {
+   "photo": "intel_hq",
+   "kicker": "Santa Clara",
+   "text": "PCs and servers *still made a fortune*."
+  }
+ },
+ {
+  "at": "c2p9",
+  "after": "The bill arrived",
+  "type": "statement",
+  "bg": "fab_oregon",
+  "props": {
+   "text": "The bill arrived *through its factories*.",
+   "icon": "Factory"
+  }
+ },
+ {
+  "at": "c3p0",
+  "type": "photo",
+  "props": {
+   "photo": "fab_oregon",
+   "kicker": "Hillsboro, Oregon",
+   "text": "A new process *every two years*."
+  }
+ },
+ {
+  "at": "c3p0",
+  "after": "Then it hit",
+  "type": "statement",
+  "bg": "die_angle",
+  "props": {
+   "text": "Then came *ten nanometers*.",
+   "icon": "Microchip"
+  }
+ },
+ {
+  "at": "c3p1",
+  "type": "chrono",
+  "props": {
+   "title": "Intel's 10 nm: promised vs. delivered",
+   "from": 2012,
+   "to": 2021,
+   "lanes": [
+    {
+     "label": "Intel",
+     "logo": "logo_intel",
+     "logoH": 70,
+     "color": "amber"
+    }
+   ],
+   "events": [],
+   "slips": [
+    {
+     "lane": 0,
+     "path": [
+      {
+       "year": 2015,
+       "tag": "2015?"
+      },
+      {
+       "year": 2016,
+       "tag": "2016?"
+      },
+      {
+       "year": 2017.6,
+       "tag": "late 2017?"
+      },
+      {
+       "year": 2019,
+       "tag": "2019"
+      }
+     ],
+     "color": "brick",
+     "final": "2019: volume",
+     "at": 2.76,
+     "step": 1.92
+    }
+   ],
+   "source": "The Register (July 2015); Intel"
+  }
+ },
+ {
+  "at": "c3p2",
+  "type": "chrono",
+  "props": {
+   "title": "10 nm at Intel, 7 nm and 5 nm at TSMC",
+   "from": 2012,
+   "to": 2021,
+   "lanes": [
+    {
+     "label": "Intel",
+     "logo": "logo_intel",
+     "logoH": 70,
+     "color": "amber"
+    },
+    {
+     "label": "TSMC",
+     "logo": "logo_tsmc",
+     "logoH": 56,
+     "color": "teal"
+    }
+   ],
+   "events": [
+    {
+     "year": 2018,
+     "label": "7 nm in volume",
+     "lane": 1,
+     "color": "teal",
+     "at": 3.1
+    },
+    {
+     "year": 2020,
+     "label": "5 nm in volume",
+     "lane": 1,
+     "color": "teal",
+     "at": 5.28
+    }
+   ],
+   "slips": [
+    {
+     "lane": 0,
+     "path": [
+      {
+       "year": 2015,
+       "tag": "2015?"
+      },
+      {
+       "year": 2016,
+       "tag": "2016?"
+      },
+      {
+       "year": 2017.6,
+       "tag": "late 2017?"
+      },
+      {
+       "year": 2019,
+       "tag": "2019"
+      }
+     ],
+     "color": "brick",
+     "final": "2019: volume",
+     "at": 0.1,
+     "step": 0.2
+    }
+   ],
+   "source": "TSMC, Logic Technology; The Register; Intel"
+  }
+ },
+ {
+  "at": "c3p3",
+  "type": "statement",
+  "bg": "die_labelled",
+  "props": {
+   "kicker": "One warning",
+   "text": "Node names no longer measure *anything physical*.",
+   "sub": "Intel 10 nm ≈ TSMC 7 nm · later renamed “Intel 7”",
+   "icon": "Ruler",
+   "source": "Intel Accelerated (July 2021)"
+  }
+ },
+ {
+  "at": "c3p3",
+  "after": "But for the first time",
+  "type": "photo",
+  "props": {
+   "photo": "tsmc_fab18",
+   "logo": "logo_tsmc",
+   "text": "The most advanced factories *weren’t Intel’s*."
+  }
+ },
+ {
+  "at": "c3p4",
+  "type": "numbers",
+  "bg": "die_angle",
+  "props": {
+   "title": "Intel's 7 nm process, July 2020",
+   "items": [
+    {
+     "value": 12,
+     "prefix": "~",
+     "suffix": " months",
+     "label": "behind its internal target",
+     "color": "brick",
+     "icon": "Clock"
+    },
+    {
+     "value": 6,
+     "prefix": "~",
+     "suffix": " months",
+     "label": "later for the first products",
+     "color": "slate",
+     "icon": "CalendarClock"
+    }
+   ],
+   "source": "Intel Q2 2020 results (July 23, 2020)"
+  }
+ },
+ {
+  "at": "c3p4",
+  "after": "The next day",
+  "type": "numbers",
+  "bg": "nyse",
+  "props": {
+   "title": "Intel shares, the next day",
+   "items": [
+    {
+     "value": -16,
+     "suffix": "%",
+     "label": "at the close, July 24, 2020",
+     "color": "brick",
+     "icon": "TrendingDown"
+    }
+   ],
+   "source": "CNN Business (July 24, 2020)"
+  }
+ },
+ {
+  "at": "c3p5",
+  "type": "photo",
+  "props": {
+   "photo": "macbook",
+   "logo": "logo_apple",
+   "kicker": "June 2020",
+   "text": "Apple leaves Intel *for its own chips*.",
+   "source": "Apple press release (June 22, 2020)"
+  }
+ },
+ {
+  "at": "c3p5",
+  "after": "Fifteen years",
+  "type": "chrono",
+  "props": {
+   "title": "Apple and Intel",
+   "from": 2003,
+   "to": 2022,
+   "events": [
+    {
+     "year": 2005.4,
+     "date": "June 2005",
+     "label": "Apple announces the switch to Intel",
+     "image": "logo_apple",
+     "level": 1,
+     "at": 0.3
+    },
+    {
+     "year": 2020.5,
+     "date": "June 2020",
+     "label": "Apple announces its own Mac chips",
+     "sub": "built by TSMC",
+     "photo": "m1_board",
+     "level": 1,
+     "at": 1.2
+    }
+   ],
+   "source": "Apple press releases (2005, 2020)"
+  }
+ },
+ {
+  "at": "c3p6",
+  "type": "photo",
+  "props": {
+   "photo": "epyc_chips",
+   "logo": "logo_amd",
+   "kicker": "AMD: no factories of its own since 2009",
+   "text": "When TSMC took the lead, *AMD took it too*.",
+   "source": "eWeek (March 2009)"
+  }
+ },
+ {
+  "at": "c3p7",
+  "type": "bars",
+  "bg": "xeon",
+  "props": {
+   "title": "AMD's share of x86 server processors",
+   "bars": [
+    {
+     "label": "2017",
+     "value": 1,
+     "display": "< 1%",
+     "color": "slate",
+     "note": "per AMD’s CEO"
+    },
+    {
+     "label": "Q1 2026",
+     "value": 46.2,
+     "display": "46.2%",
+     "color": "teal",
+     "note": "of revenue · Mercury Research"
+    }
+   ],
+   "max": 50,
+   "delays": [
+    9.25,
+    0.6
+   ],
+   "source": "Mercury Research via Tom's Hardware (May 2026); Bloomberg (2017)"
+  }
+ },
+ {
+  "at": "c3p8",
+  "type": "statement",
+  "bg": "fab_oregon",
+  "props": {
+   "kicker": "The tipping point",
+   "text": "Its great advantage became *its biggest weakness*.",
+   "icon": "Factory"
+  }
+ },
+ {
+  "at": "c3p8",
+  "after": "Its rivals could",
+  "type": "tiles",
+  "bg": "tsmc_night",
+  "props": {
+   "kicker": "Rivals could simply rent the best factories",
+   "items": [
+    {
+     "image": "logo_amd",
+     "label": "AMD"
+    },
+    {
+     "image": "logo_apple",
+     "label": "Apple"
+    },
+    {
+     "image": "logo_nvidia",
+     "label": "Nvidia"
+    },
+    {
+     "image": "logo_qualcomm",
+     "label": "Qualcomm"
+    }
+   ],
+   "stagger": 0.3
+  }
+ },
+ {
+  "at": "c4p0",
+  "type": "photo",
+  "props": {
+   "photo": "wafer_black",
+   "text": "Then came *the biggest wave*.",
+   "zoom": "out"
+  }
+ },
+ {
+  "at": "c4p1",
+  "type": "tiles",
+  "props": {
+   "kicker": "2005, according to The New York Times",
+   "items": [
+    {
+     "image": "logo_nvidia",
+     "label": "Buy Nvidia?",
+     "value": "~$20B",
+     "sub": "proposed by Paul Otellini"
+    },
+    {
+     "icon": "Ban",
+     "label": "The board",
+     "sub": "pushed back",
+     "color": "brick"
+    },
+    {
+     "icon": "Cpu",
+     "label": "Its own graphics chip",
+     "sub": "later cancelled",
+     "color": "slate"
+    }
+   ],
+   "delays": [
+    0.3,
+    7.73,
+    9.25
+   ],
+   "source": "The New York Times via Tom's Hardware (Oct. 2024)"
+  }
+ },
+ {
+  "at": "c4p2",
+  "type": "tiles",
+  "props": {
+   "kicker": "Around 2017, according to Reuters",
+   "items": [
+    {
+     "image": "logo_openai",
+     "label": "15% of OpenAI",
+     "value": "$1B",
+     "sub": "for 15% of the lab"
+    },
+    {
+     "icon": "DoorOpen",
+     "label": "Intel walked away",
+     "color": "brick"
+    }
+   ],
+   "delays": [
+    0.4,
+    8.06
+   ],
+   "source": "Reuters via Tom's Hardware (Aug. 2024)"
+  }
+ },
+ {
+  "at": "c4p3",
+  "type": "photo",
+  "props": {
+   "photo": "tsmc_night",
+   "logo": "logo_nvidia",
+   "text": "AI ran on *Nvidia's chips*, made by TSMC."
+  }
+ },
+ {
+  "at": "c4p3",
+  "after": "We told that story",
+  "type": "statement",
+  "bg": "tsmc_night",
+  "props": {
+   "text": "The full story: *our Nvidia video*.",
+   "icon": "Clapperboard"
+  }
+ },
+ {
+  "at": "c4p4",
+  "type": "numbers",
+  "bg": "wafer_black",
+  "props": {
+   "title": "Gaudi, Intel's AI chip: the 2024 goal",
+   "items": [
+    {
+     "value": 500,
+     "prefix": "$",
+     "suffix": "M",
+     "label": "of sales. In October 2024, Intel said it would miss it.",
+     "color": "slate",
+     "icon": "Target"
+    }
+   ],
+   "source": "Intel Q3 2024 earnings call, via Tom's Hardware"
+  }
+ },
+ {
+  "at": "c4p5",
+  "type": "chrono",
+  "props": {
+   "title": "Three waves, three misses",
+   "from": 2004,
+   "to": 2026,
+   "events": [
+    {
+     "year": 2006.5,
+     "label": "Phones",
+     "sub": "passed on",
+     "level": 1,
+     "color": "brick",
+     "at": 2.04
+    },
+    {
+     "year": 2018,
+     "label": "Manufacturing lead",
+     "sub": "lost to TSMC",
+     "level": -1,
+     "color": "brick",
+     "at": 3.03
+    },
+    {
+     "year": 2023,
+     "label": "The AI boom",
+     "sub": "on someone else’s chips",
+     "level": 1,
+     "color": "brick",
+     "at": 4.95
+    }
+   ]
+  }
+ },
+ {
+  "at": "c5p0",
+  "type": "photo",
+  "props": {
+   "photo": "gelsinger",
+   "kicker": "February 2021 · new CEO",
+   "text": "Pat Gelsinger *comes back*.",
+   "sub": "after 30 years at Intel earlier in his career",
+   "focus": "55% 30%",
+   "source": "Intel (Jan. 13, 2021)"
+  }
+ },
+ {
+  "at": "c5p1",
+  "type": "statement",
+  "bg": "layout_4004",
+  "props": {
+   "kicker": "IDM 2.0",
+   "text": "Win back the lead. *Open the factories to others.*",
+   "icon": "Factory",
+   "source": "Intel (Mar. 23, 2021)"
+  }
+ },
+ {
+  "at": "c5p1",
+  "after": "It started with",
+  "type": "photo",
+  "props": {
+   "photo": "az_campus",
+   "kicker": "Arizona, 2021",
+   "text": "*$20 billion* for two new factories.",
+   "source": "Intel (Mar. 23, 2021)"
+  }
+ },
+ {
+  "at": "c5p1",
+  "after": "Then came a new site",
+  "type": "photo",
+  "props": {
+   "photo": "ohio_site",
+   "kicker": "Ohio",
+   "text": "About *$28 billion* for phase one.",
+   "source": "Tom's Hardware (Feb. 2025)"
+  }
+ },
+ {
+  "at": "c5p1",
+  "after": "And a promise",
+  "type": "numbers",
+  "bg": "die_angle",
+  "props": {
+   "title": "The promise",
+   "items": [
+    {
+     "value": 5,
+     "label": "new manufacturing processes in four years",
+     "color": "amber",
+     "icon": "Rocket"
+    }
+   ],
+   "source": "Intel Accelerated (July 2021)"
+  }
+ },
+ {
+  "at": "c5p2",
+  "type": "photo",
+  "props": {
+   "photo": "commerce",
+   "kicker": "CHIPS Act · November 2024",
+   "text": "Up to *$7.86 billion* for Intel.",
+   "source": "Intel (Nov. 26, 2024)"
+  }
+ },
+ {
+  "at": "c5p3",
+  "type": "statement",
+  "bg": "leixlip_sunset",
+  "props": {
+   "text": "But the bill *came first*.",
+   "icon": "Receipt"
+  }
+ },
+ {
+  "at": "c5p4",
+  "type": "bars",
+  "bg": "fab_oregon",
+  "props": {
+   "title": "Intel Foundry operating loss ($ billions)",
+   "bars": [
+    {
+     "label": "2023",
+     "value": -7.0,
+     "display": "−$7.0B",
+     "color": "brick"
+    },
+    {
+     "label": "2024",
+     "value": -13.3,
+     "display": "−$13.3B",
+     "color": "brick"
+    },
+    {
+     "label": "2025",
+     "value": -10.3,
+     "display": "−$10.3B",
+     "color": "brick"
+    }
+   ],
+   "delays": [
+    3.29,
+    5.68,
+    8.53
+   ],
+   "source": "Intel results (Apr. 2024, Jan. 2026)"
+  }
+ },
+ {
+  "at": "c5p4",
+  "after": "More than thirty billion",
+  "type": "numbers",
+  "bg": "leixlip_sunset",
+  "props": {
+   "title": "Intel Foundry, 2023 to 2025",
+   "items": [
+    {
+     "value": 30,
+     "prefix": "$",
+     "suffix": "B+",
+     "label": "of operating losses in three years",
+     "color": "brick",
+     "icon": "Flame"
+    }
+   ],
+   "source": "The Cost Curve, from Intel results"
+  }
+ },
+ {
+  "at": "c5p5",
+  "type": "bars",
+  "bg": "intel_hq",
+  "props": {
+   "title": "Intel revenue ($ billions)",
+   "bars": [
+    {
+     "label": "2021",
+     "value": 79.0,
+     "display": "$79.0B",
+     "color": "amber"
+    },
+    {
+     "label": "2024",
+     "value": 53.1,
+     "display": "$53.1B",
+     "color": "slate"
+    }
+   ],
+   "delays": [
+    0.3,
+    6.14
+   ],
+   "source": "Intel full-year results 2021, 2025"
+  }
+ },
+ {
+  "at": "c5p6",
+  "type": "tiles",
+  "bg": "nyse",
+  "props": {
+   "kicker": "August 1–2, 2024",
+   "items": [
+    {
+     "icon": "Users",
+     "label": "Workforce cut",
+     "value": "15%",
+     "color": "brick"
+    },
+    {
+     "icon": "Ban",
+     "label": "Dividend",
+     "sub": "suspended",
+     "color": "brick"
+    },
+    {
+     "icon": "TrendingDown",
+     "label": "Shares, next day",
+     "value": "−26%",
+     "sub": "worst day since 1974",
+     "color": "brick"
+    }
+   ],
+   "delays": [
+    0.4,
+    5.08,
+    6.94
+   ],
+   "source": "Reuters via The Star (Aug. 2, 2024)"
+  }
+ },
+ {
+  "at": "c5p7",
+  "type": "numbers",
+  "bg": "leixlip_sunset",
+  "props": {
+   "title": "Intel in 2024",
+   "items": [
+    {
+     "value": -18.8,
+     "decimals": 1,
+     "prefix": "$",
+     "suffix": "B",
+     "label": "net loss for the year",
+     "color": "brick",
+     "icon": "TrendingDown"
+    },
+    {
+     "value": 60,
+     "prefix": "−",
+     "suffix": "%",
+     "label": "share price, roughly: worst year since listing in 1971",
+     "color": "brick",
+     "icon": "ChartNoAxesColumnDecreasing"
+    }
+   ],
+   "source": "Intel FY2025 results; Calcalist (Dec. 31, 2024)"
+  }
+ },
+ {
+  "at": "c5p8",
+  "type": "photo",
+  "props": {
+   "photo": "gelsinger_stage",
+   "kicker": "December 2024",
+   "text": "Gelsinger *leaves*.",
+   "sub": "Intel: a retirement. Bloomberg: forced out by the board.",
+   "focus": "55% 30%",
+   "source": "Intel (Dec. 2, 2024); Bloomberg"
+  }
+ },
+ {
+  "at": "c5p8",
+  "after": "In February 2025",
+  "type": "chrono",
+  "props": {
+   "title": "Ohio's first factory: expected opening",
+   "from": 2023,
+   "to": 2032,
+   "lanes": [
+    {
+     "label": "Ohio",
+     "color": "amber"
+    }
+   ],
+   "events": [],
+   "slips": [
+    {
+     "lane": 0,
+     "path": [
+      {
+       "year": 2025,
+       "tag": "2025"
+      },
+      {
+       "year": 2027.5,
+       "tag": "2027–28"
+      },
+      {
+       "year": 2030.5,
+       "tag": "2030–31"
+      }
+     ],
+     "at": 0.4,
+     "step": 1.0,
+     "color": "brick",
+     "final": "2030 at the earliest"
+    }
+   ],
+   "source": "Tom's Hardware (Feb. 28, 2025)"
+  }
+ },
+ {
+  "at": "c6p0",
+  "type": "photo",
+  "props": {
+   "photo": "lip_bu_tan",
+   "kicker": "March 2025 · new CEO",
+   "text": "Lip-Bu Tan *takes over*.",
+   "focus": "70% 30%",
+   "source": "Intel (Mar. 12, 2025)"
+  }
+ },
+ {
+  "at": "c6p1",
+  "type": "bars",
+  "bg": "intel_hq",
+  "props": {
+   "title": "Intel employees",
+   "bars": [
+    {
+     "label": "End of 2024",
+     "value": 108.9,
+     "display": "≈109,000",
+     "color": "slate"
+    },
+    {
+     "label": "End of 2025",
+     "value": 85.1,
+     "display": "≈85,000",
+     "color": "amber",
+     "note": "partly from selling businesses"
+    }
+   ],
+   "delays": [
+    0.6,
+    6.08
+   ],
+   "source": "Intel Q4 and full-year 2025 results (Jan. 22, 2026)"
+  }
+ },
+ {
+  "at": "c6p1",
+  "after": "One of them",
+  "type": "bars",
+  "props": {
+   "title": "Altera ($ billions)",
+   "bars": [
+    {
+     "label": "Bought, 2015",
+     "value": 16.7,
+     "display": "$16.7B",
+     "color": "slate"
+    },
+    {
+     "label": "Valued at, 2025 sale",
+     "value": 8.75,
+     "display": "$8.75B",
+     "color": "brick",
+     "note": "majority stake sold"
+    }
+   ],
+   "delays": [
+    4.35,
+    6.8
+   ],
+   "source": "AP via OPB (Apr. 14, 2025)"
+  }
+ },
+ {
+  "at": "c6p2",
+  "type": "statement",
+  "bg": "commerce",
+  "props": {
+   "text": "Then money arrived from *unusual places*.",
+   "icon": "HandCoins"
+  }
+ },
+ {
+  "at": "c6p3",
+  "type": "tiles",
+  "props": {
+   "kicker": "New shareholders",
+   "items": [
+    {
+     "image": "logo_softbank",
+     "label": "SoftBank",
+     "value": "$2B",
+     "sub": "August 2025"
+    }
+   ],
+   "delays": [
+    0.4
+   ],
+   "source": "Intel (Aug. 18, 2025)"
+  }
+ },
+ {
+  "at": "c6p4",
+  "type": "tiles",
+  "props": {
+   "kicker": "New shareholders",
+   "items": [
+    {
+     "image": "logo_softbank",
+     "label": "SoftBank",
+     "value": "$2B",
+     "sub": "August 2025"
+    },
+    {
+     "icon": "Landmark",
+     "label": "US government",
+     "value": "$8.9B",
+     "sub": "for a 9.9% stake · Aug. 2025",
+     "color": "amber"
+    }
+   ],
+   "delays": [
+    0.0,
+    0.6
+   ],
+   "source": "Intel and US government agreement (Aug. 22, 2025)"
+  }
+ },
+ {
+  "at": "c6p4",
+  "after": "paid mostly with",
+  "type": "photo",
+  "props": {
+   "photo": "commerce",
+   "kicker": "US Department of Commerce",
+   "text": "Paid with grants *already promised*.",
+   "source": "Intel and US government agreement (Aug. 22, 2025)"
+  }
+ },
+ {
+  "at": "c6p5",
+  "type": "tiles",
+  "props": {
+   "kicker": "New shareholders",
+   "items": [
+    {
+     "image": "logo_softbank",
+     "label": "SoftBank",
+     "value": "$2B",
+     "sub": "August 2025"
+    },
+    {
+     "icon": "Landmark",
+     "label": "US government",
+     "value": "$8.9B",
+     "sub": "for a 9.9% stake · Aug. 2025",
+     "color": "amber"
+    },
+    {
+     "image": "logo_nvidia",
+     "label": "Nvidia",
+     "value": "$5B",
+     "sub": "plus joint products · Sept. 2025"
+    }
+   ],
+   "delays": [
+    0.0,
+    0.0,
+    3.76
+   ],
+   "focus": 2,
+   "source": "Intel (Sept. 18, 2025)"
+  }
+ },
+ {
+  "at": "c6p6",
+  "type": "photo",
+  "props": {
+   "photo": "az_campus",
+   "kicker": "Arizona · October 2025",
+   "text": "Intel 18A: *in production*.",
+   "source": "Intel (Oct. 9, 2025)"
+  }
+ },
+ {
+  "at": "c6p6",
+  "after": "which it calls",
+  "type": "quote",
+  "props": {
+   "text": "The most advanced process technology developed and manufactured in the United States.",
+   "by": "Intel, on 18A",
+   "source": "Intel Q4 and full-year 2025 results (Jan. 22, 2026)"
+  }
+ },
+ {
+  "at": "c6p6",
+  "after": "The first laptops",
+  "type": "photo",
+  "props": {
+   "photo": "wafer_black",
+   "kicker": "Panther Lake",
+   "text": "First 18A laptops: *January 2026*.",
+   "source": "PC Perspective (Jan. 7, 2026)"
+  }
+ },
+ {
+  "at": "c6p7",
+  "type": "statement",
+  "bg": "az_campus",
+  "props": {
+   "text": "The missing piece: *outside customers*.",
+   "icon": "Users"
+  }
+ },
+ {
+  "at": "c6p7",
+  "after": "In May 2026",
+  "type": "tiles",
+  "props": {
+   "kicker": "Apple and Intel, 2026",
+   "items": [
+    {
+     "icon": "Newspaper",
+     "label": "May",
+     "sub": "WSJ: a preliminary deal",
+     "color": "slate"
+    },
+    {
+     "icon": "Megaphone",
+     "label": "June",
+     "sub": "President Trump: Apple will work with Intel",
+     "color": "slate"
+    },
+    {
+     "icon": "FileQuestionMark",
+     "label": "Terms",
+     "sub": "none published by either company",
+     "color": "amber"
+    }
+   ],
+   "delays": [
+    0.3,
+    8.72,
+    12.63
+   ],
+   "focus": 2,
+   "source": "WSJ via iDrop News (May 2026); Reuters (June 18, 2026)"
+  }
+ },
+ {
+  "at": "c7p0",
+  "type": "photo",
+  "props": {
+   "photo": "intel_hq",
+   "kicker": "Santa Clara, 2026",
+   "text": "Where Intel *stands now*."
+  }
+ },
+ {
+  "at": "c7p1",
+  "type": "numbers",
+  "bg": "intel_hq",
+  "props": {
+   "title": "Intel revenue, 2025",
+   "items": [
+    {
+     "value": 52.9,
+     "decimals": 1,
+     "prefix": "$",
+     "suffix": "B",
+     "label": "flat on the year before",
+     "color": "amber",
+     "icon": "Minus"
+    }
+   ],
+   "source": "Intel Q4 and full-year 2025 results (Jan. 22, 2026)"
+  }
+ },
+ {
+  "at": "c7p1",
+  "after": "with a gross margin",
+  "type": "bars",
+  "bg": "tsmc_night",
+  "props": {
+   "title": "Gross margin, 2025",
+   "bars": [
+    {
+     "label": "TSMC",
+     "value": 59.9,
+     "display": "59.9%",
+     "color": "teal"
+    },
+    {
+     "label": "Intel",
+     "value": 34.8,
+     "display": "34.8%",
+     "color": "amber"
+    }
+   ],
+   "max": 65,
+   "delays": [
+    0.3,
+    2.83
+   ],
+   "source": "TSMC full-year 2025 results (Jan. 2026); Intel Q4 and full-year 2025 results (Jan. 22, 2026)"
+  }
+ },
+ {
+  "at": "c7p1",
+  "after": "The margins have",
+  "type": "bars",
+  "props": {
+   "title": "Intel's gross margin",
+   "bars": [
+    {
+     "label": "2021",
+     "value": 55.4,
+     "display": "55.4%",
+     "color": "amber"
+    },
+    {
+     "label": "2025",
+     "value": 34.8,
+     "display": "34.8%",
+     "color": "brick"
+    }
+   ],
+   "max": 65,
+   "delays": [
+    0.2,
+    0.8
+   ],
+   "source": "Intel full-year results 2021 and 2025"
+  }
+ },
+ {
+  "at": "c7p2",
+  "type": "tiles",
+  "bg": "xeon",
+  "props": {
+   "kicker": "April to June 2026",
+   "items": [
+    {
+     "icon": "TrendingUp",
+     "label": "Revenue",
+     "value": "$16.1B",
+     "sub": "+25% on a year earlier",
+     "color": "amber"
+    },
+    {
+     "icon": "Server",
+     "label": "Data center",
+     "value": "+59%",
+     "color": "teal"
+    }
+   ],
+   "delays": [
+    0.4,
+    8.46
+   ],
+   "source": "Intel Q2 2026 results (July 23, 2026)"
+  }
+ },
+ {
+  "at": "c7p2",
+  "after": "The AI boom, it turns out",
+  "type": "statement",
+  "bg": "epyc_chips",
+  "props": {
+   "text": "AI also needs *ordinary processors*.",
+   "icon": "Cpu"
+  }
+ },
+ {
+  "at": "c7p2",
+  "after": "Yet in the same quarter",
+  "type": "numbers",
+  "bg": "fab_oregon",
+  "props": {
+   "title": "Intel Foundry, same quarter",
+   "items": [
+    {
+     "value": -2.1,
+     "decimals": 1,
+     "prefix": "$",
+     "suffix": "B",
+     "label": "operating loss",
+     "color": "brick",
+     "icon": "Factory"
+    }
+   ],
+   "source": "Intel Q2 2026 results (July 23, 2026)"
+  }
+ },
+ {
+  "at": "c7p3",
+  "type": "chrono",
+  "props": {
+   "title": "How Intel lost the chip crown",
+   "from": 1968,
+   "to": 2026,
+   "eras": [
+    {
+     "from": 1968,
+     "to": 2006.5,
+     "label": "The PC era",
+     "color": "amber"
+    },
+    {
+     "from": 2006.5,
+     "to": 2020,
+     "label": "Phones",
+     "color": "teal"
+    },
+    {
+     "from": 2020,
+     "to": 2026,
+     "label": "AI",
+     "color": "slate"
+    }
+   ],
+   "events": [
+    {
+     "year": 1968,
+     "label": "Founded",
+     "level": 1,
+     "at": 0.3
+    },
+    {
+     "year": 1981,
+     "label": "IBM PC",
+     "level": -1,
+     "at": 0.5
+    },
+    {
+     "year": 2006.5,
+     "date": "2006",
+     "label": "Phone chips sold",
+     "level": 1,
+     "color": "brick",
+     "at": 0.7
+    },
+    {
+     "year": 2019,
+     "label": "10 nm, at last",
+     "level": -1,
+     "color": "brick",
+     "at": 0.9
+    },
+    {
+     "year": 2024,
+     "label": "−$18.8B",
+     "level": 1,
+     "color": "brick",
+     "at": 1.1
+    },
+    {
+     "year": 2025.6,
+     "date": "2025",
+     "label": "US takes 9.9%",
+     "level": -2,
+     "at": 1.3
+    }
+   ]
+  }
+ },
+ {
+  "at": "c7p4",
+  "type": "tiles",
+  "bg": "leixlip_sunset",
+  "props": {
+   "kicker": "Not one mistake",
+   "items": [
+    {
+     "icon": "Smartphone",
+     "label": "Passed on the phone",
+     "color": "brick"
+    },
+    {
+     "icon": "Factory",
+     "label": "Factories slipped",
+     "color": "brick"
+    },
+    {
+     "icon": "Handshake",
+     "label": "Rivals rented TSMC",
+     "color": "brick"
+    },
+    {
+     "icon": "BrainCircuit",
+     "label": "AI on others’ chips",
+     "color": "brick"
+    }
+   ],
+   "delays": [
+    1.51,
+    7.0,
+    10.45,
+    12.96
+   ]
+  }
+ },
+ {
+  "at": "c7p5",
+  "type": "statement",
+  "bg": "fab_oregon",
+  "props": {
+   "text": "What made Intel great *made the fall steep*.",
+   "icon": "Factory"
+  }
+ },
+ {
+  "at": "c7p6",
+  "type": "statement",
+  "bg": "az_campus",
+  "props": {
+   "kicker": "The comeback question",
+   "text": "Will others trust Intel *to make their chips*?",
+   "icon": "Handshake"
+  }
+ },
+ {
+  "at": "c7p6",
+  "after": "Investors have already",
+  "type": "statement",
+  "bg": "nyse",
+  "props": {
+   "kicker": "Investors",
+   "text": "Shares above their *2000 record*.",
+   "icon": "TrendingUp"
+  }
+ },
+ {
+  "at": "c7p6",
+  "after": "But in chips",
+  "type": "tiles",
+  "bg": "wafer_black",
+  "props": {
+   "kicker": "Where the crown goes",
+   "items": [
+    {
+     "icon": "Microchip",
+     "label": "Most advanced chips",
+     "color": "amber"
+    },
+    {
+     "icon": "Layers",
+     "label": "Biggest volumes",
+     "color": "amber"
+    },
+    {
+     "icon": "Coins",
+     "label": "Lowest cost",
+     "color": "amber"
+    }
+   ],
+   "delays": [
+    6.21,
+    7.86,
+    9.45
+   ]
+  }
+ },
+ {
+  "at": "c7p6",
+  "after": "For now, that's TSMC",
+  "type": "photo",
+  "props": {
+   "photo": "tsmc_night",
+   "logo": "logo_tsmc",
+   "text": "For now, *that’s TSMC*."
+  }
+ },
+ {
+  "at": "c7p7",
+  "type": "statement",
+  "bg": "leixlip_sunset",
+  "props": {
+   "kicker": "The cost curve",
+   "text": "Lose the volume first. *The lead follows.*",
+   "icon": "TrendingDown"
+  }
+ }
+]

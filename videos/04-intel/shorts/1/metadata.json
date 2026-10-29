@@ -1,0 +1,20 @@
+{
+  "title": "How Intel lost the chip lead",
+  "sentence": "Intel promised 10 nm chips for 2015 and only reached volume in 2019, while TSMC reached 7 nm in 2018; Apple and AMD moved to TSMC-made chips, and AMD went from under 1% of server processors in 2017 to 46% of x86 server processor revenue in early 2026.",
+  "source": "The Register (Jul. 16, 2015): https://www.theregister.com/2015/07/16/intel_10nm_14nm_plans/ ; TSMC logic technology: https://www.tsmc.com/english/dedicatedfoundry/technology/logic ; Mercury Research via Tom's Hardware (May 14, 2026): https://www.tomshardware.com/pc-components/cpus/amd-reaches-46-percent-of-server-x86-cpu-revenue-intel-still-controls-70-percent-of-the-consumer-pc-market-share",
+  "tags": [
+    "Intel",
+    "Intel vs TSMC",
+    "Intel vs AMD",
+    "Intel 10nm",
+    "semiconductors explained",
+    "business explained",
+    "The Cost Curve"
+  ],
+  "category_id": "27",
+  "contains_synthetic_media": true,
+  "made_for_kids": false,
+  "long_video": {
+    "url": "https://www.youtube.com/watch?v=TO_BE_SET_AT_UPLOAD"
+  }
+}

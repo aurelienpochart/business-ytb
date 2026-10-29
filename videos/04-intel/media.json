@@ -105,7 +105,8 @@
   "license": "CC BY 4.0",
   "artist": "TechCrunch",
   "restrictions": "",
-  "page": "https://commons.wikimedia.org/wiki/File:Pat_Gelsinger_December_2025.jpg"
+  "page": "https://commons.wikimedia.org/w/index.php?curid=179668397",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Pat_Gelsinger_December_2025.jpg"
  },
  {
   "id": "gelsinger_stage",
@@ -114,7 +115,8 @@
   "license": "CC BY 2.0",
   "artist": "Web Summit",
   "restrictions": "",
-  "page": "https://commons.wikimedia.org/wiki/File:Web_Summit_2017_-_SaaS_Monster_CG1_8444_(26490847329)_(cropped).jpg"
+  "page": "https://commons.wikimedia.org/w/index.php?curid=103211559",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Web_Summit_2017_-_SaaS_Monster_CG1_8444_(26490847329)_(cropped).jpg"
  },
  {
   "id": "lip_bu_tan",
@@ -132,7 +134,8 @@
   "license": "CC BY-SA 2.0",
   "artist": "Intel Free Press",
   "restrictions": "",
-  "page": "https://commons.wikimedia.org/wiki/File:Andy_Grove_Robert_Noyce_Gordon_Moore_1978_edit.jpg"
+  "page": "https://commons.wikimedia.org/w/index.php?curid=38385134",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Andy_Grove_Robert_Noyce_Gordon_Moore_1978_edit.jpg"
  },
  {
   "id": "ceos",
@@ -141,7 +144,8 @@
   "license": "CC BY-SA 2.0",
   "artist": "Intel Free Press",
   "restrictions": "",
-  "page": "https://commons.wikimedia.org/wiki/File:Intel_CEOs_Gordon_Moore_Craig_Barrett_Andy_Grove_Paul_Otellini.jpg"
+  "page": "https://commons.wikimedia.org/w/index.php?curid=27919985",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Intel_CEOs_Gordon_Moore_Craig_Barrett_Andy_Grove_Paul_Otellini.jpg"
  },
  {
   "id": "grove_2003",
@@ -150,7 +154,8 @@
   "license": "CC BY-SA 2.0",
   "artist": "Intel Free Press",
   "restrictions": "",
-  "page": "https://commons.wikimedia.org/wiki/File:Former_Intel_CEO_Andy_Grove_in_2003.jpg"
+  "page": "https://commons.wikimedia.org/w/index.php?curid=27920107",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Former_Intel_CEO_Andy_Grove_in_2003.jpg"
  },
  {
   "id": "noyce_moore_1970",
@@ -159,7 +164,8 @@
   "license": "CC BY-SA 2.0",
   "artist": "Intel Free Press",
   "restrictions": "",
-  "page": "https://commons.wikimedia.org/wiki/File:Robert_Noyce_and_Gordon_Moore_at_SC1_1970.png"
+  "page": "https://commons.wikimedia.org/w/index.php?curid=27929328",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Robert_Noyce_and_Gordon_Moore_at_SC1_1970.png"
  },
  {
   "id": "noyce_moore_desk",
@@ -168,7 +174,8 @@
   "license": "CC BY-SA 2.0",
   "artist": "Intel Free Press",
   "restrictions": "",
-  "page": "https://commons.wikimedia.org/wiki/File:Gordon_Moore_and_Robert_Noyce_at_Intel_in_1970.png"
+  "page": "https://commons.wikimedia.org/w/index.php?curid=27922284",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Gordon_Moore_and_Robert_Noyce_at_Intel_in_1970.png"
  },
  {
   "id": "jobs_otellini",
@@ -177,7 +184,8 @@
   "license": "CC BY-SA 2.0",
   "artist": "Ben Stanfield from Rockville, MD, USA",
   "restrictions": "",
-  "page": "https://commons.wikimedia.org/wiki/File:Steve_Jobs_and_Paul_Otellini_(541314996).jpg"
+  "page": "https://commons.wikimedia.org/w/index.php?curid=3465082",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Steve_Jobs_and_Paul_Otellini_(541314996).jpg"
  },
  {
   "id": "layout_4004",
@@ -195,7 +203,8 @@
   "license": "CC BY-SA 4.0",
   "artist": "The wub",
   "restrictions": "",
-  "page": "https://commons.wikimedia.org/wiki/File:IBM_PC,_1981,_Computer_History_Museum.jpg"
+  "page": "https://commons.wikimedia.org/w/index.php?curid=158377042",
+  "file_page": "https://commons.wikimedia.org/wiki/File:IBM_PC,_1981,_Computer_History_Museum.jpg"
  },
  {
   "id": "wafer_black",
@@ -204,7 +213,8 @@
   "license": "CC BY-SA 2.0",
   "artist": "Intel in Deutschland",
   "restrictions": "",
-  "page": "https://commons.wikimedia.org/wiki/File:4th_Generation_Intel%C2%AE_Core%E2%84%A2_Processor_Wafer_Black.jpg"
+  "page": "https://commons.wikimedia.org/w/index.php?curid=153085500",
+  "file_page": "https://commons.wikimedia.org/wiki/File:4th_Generation_Intel%C2%AE_Core%E2%84%A2_Processor_Wafer_Black.jpg"
  },
  {
   "id": "wafer_close",
@@ -213,7 +223,8 @@
   "license": "CC BY-SA 2.0",
   "artist": "Intel in Deutschland",
   "restrictions": "",
-  "page": "https://commons.wikimedia.org/wiki/File:4th_Generation_Intel%C2%AE_Core%E2%84%A2_Processor_Wafer_02.jpg"
+  "page": "https://commons.wikimedia.org/w/index.php?curid=153085492",
+  "file_page": "https://commons.wikimedia.org/wiki/File:4th_Generation_Intel%C2%AE_Core%E2%84%A2_Processor_Wafer_02.jpg"
  },
  {
   "id": "wafer_full",
@@ -222,7 +233,8 @@
   "license": "CC BY 2.0",
   "artist": "Steve Jurvetson from Menlo Park, USA",
   "restrictions": "",
-  "page": "https://commons.wikimedia.org/wiki/File:Full_wafer_of_Intel_quantum_computers.jpg"
+  "page": "https://commons.wikimedia.org/w/index.php?curid=71232867",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Full_wafer_of_Intel_quantum_computers.jpg"
  },
  {
   "id": "die_angle",
@@ -249,7 +261,8 @@
   "license": "CC BY-SA 2.0",
   "artist": "Intel in Deutschland",
   "restrictions": "",
-  "page": "https://commons.wikimedia.org/wiki/File:4th_Generation_Intel%C2%AE_Core%E2%84%A2_Processor_Die_02.jpg"
+  "page": "https://commons.wikimedia.org/w/index.php?curid=153085478",
+  "file_page": "https://commons.wikimedia.org/wiki/File:4th_Generation_Intel%C2%AE_Core%E2%84%A2_Processor_Die_02.jpg"
  },
  {
   "id": "xeon",
@@ -258,7 +271,8 @@
   "license": "CC BY-SA 4.0",
   "artist": "TK0130",
   "restrictions": "",
-  "page": "https://commons.wikimedia.org/wiki/File:Xeon_E5140_Processor_2022-11-29.jpg"
+  "page": "https://commons.wikimedia.org/w/index.php?curid=126120218",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Xeon_E5140_Processor_2022-11-29.jpg"
  },
  {
   "id": "pentium_chip",
@@ -267,7 +281,8 @@
   "license": "CC BY-SA 3.0",
   "artist": "Krzysztof Burghardt",
   "restrictions": "",
-  "page": "https://commons.wikimedia.org/wiki/File:Intel_Pentium_Processor_(frontside).jpg"
+  "page": "https://commons.wikimedia.org/w/index.php?curid=1517568",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Intel_Pentium_Processor_(frontside).jpg"
  },
  {
   "id": "fab_oregon",
@@ -276,7 +291,8 @@
   "license": "CC BY 3.0",
   "artist": "M.O. Stevens",
   "restrictions": "",
-  "page": "https://commons.wikimedia.org/wiki/File:Intel_Ronler_Acres_production.JPG"
+  "page": "https://commons.wikimedia.org/w/index.php?curid=6950201",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Intel_Ronler_Acres_production.JPG"
  },
  {
   "id": "fab_oregon_sign",
@@ -285,7 +301,8 @@
   "license": "CC BY-SA 4.0",
   "artist": "Steve Morgan",
   "restrictions": "",
-  "page": "https://commons.wikimedia.org/wiki/File:Intel_Ronler_Acres_main_entrance_and_sign_-_Hillsboro,_Oregon_(2024).jpg"
+  "page": "https://commons.wikimedia.org/w/index.php?curid=156779655",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Intel_Ronler_Acres_main_entrance_and_sign_-_Hillsboro,_Oregon_(2024).jpg"
  },
  {
   "id": "ohio_site",
@@ -303,7 +320,8 @@
   "license": "CC BY-SA 4.0",
   "artist": "Leimanbhradain",
   "restrictions": "",
-  "page": "https://commons.wikimedia.org/wiki/File:Intel-3338,_Leixlip,_Co._Kildare,_Ireland.jpg"
+  "page": "https://commons.wikimedia.org/w/index.php?curid=114291861",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Intel-3338,_Leixlip,_Co._Kildare,_Ireland.jpg"
  },
  {
   "id": "leixlip_sunset",
@@ -312,7 +330,8 @@
   "license": "CC BY-SA 4.0",
   "artist": "Leimanbhradain",
   "restrictions": "",
-  "page": "https://commons.wikimedia.org/wiki/File:Sunset-1270507,_Leixlip,_Co._Kildare,_Ireland.jpg"
+  "page": "https://commons.wikimedia.org/w/index.php?curid=184426110",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Sunset-1270507,_Leixlip,_Co._Kildare,_Ireland.jpg"
  },
  {
   "id": "kiryat_gat",
@@ -321,7 +340,8 @@
   "license": "CC BY 2.5",
   "artist": "ארכיון קרית גת",
   "restrictions": "",
-  "page": "https://commons.wikimedia.org/wiki/File:Intel_factory,_Kiryat_Gat_industry_zone.jpg"
+  "page": "https://commons.wikimedia.org/w/index.php?curid=17870365",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Intel_factory,_Kiryat_Gat_industry_zone.jpg"
  },
  {
   "id": "intel_hq",
@@ -330,7 +350,8 @@
   "license": "CC BY-SA 4.0",
   "artist": "Coolcaesar",
   "restrictions": "",
-  "page": "https://commons.wikimedia.org/wiki/File:Intel_Headquarters_in_2023.jpg"
+  "page": "https://commons.wikimedia.org/w/index.php?curid=133964425",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Intel_Headquarters_in_2023.jpg"
  },
  {
   "id": "tsmc_night",
@@ -339,7 +360,8 @@
   "license": "CC BY 2.0",
   "artist": "曾 成訓",
   "restrictions": "",
-  "page": "https://commons.wikimedia.org/wiki/File:TSMC_Fab_12A_02.jpg"
+  "page": "https://commons.wikimedia.org/w/index.php?curid=150874255",
+  "file_page": "https://commons.wikimedia.org/wiki/File:TSMC_Fab_12A_02.jpg"
  },
  {
   "id": "tsmc_fab18",
@@ -348,7 +370,8 @@
   "license": "CC BY 4.0",
   "artist": "4300streetcar",
   "restrictions": "",
-  "page": "https://commons.wikimedia.org/wiki/File:Trucks_entering_and_leaving_TSMC_Fab_18_May_2025.jpg"
+  "page": "https://commons.wikimedia.org/w/index.php?curid=188930845",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Trucks_entering_and_leaving_TSMC_Fab_18_May_2025.jpg"
  },
  {
   "id": "tsmc_hsinchu",
@@ -357,7 +380,8 @@
   "license": "CC BY 2.0",
   "artist": "曾 成訓",
   "restrictions": "",
-  "page": "https://commons.wikimedia.org/wiki/File:TSMC_fabs_in_Hsinchu_02.jpg"
+  "page": "https://commons.wikimedia.org/w/index.php?curid=154134871",
+  "file_page": "https://commons.wikimedia.org/wiki/File:TSMC_fabs_in_Hsinchu_02.jpg"
  },
  {
   "id": "tsmc_arizona",
@@ -366,7 +390,8 @@
   "license": "CC BY-SA 4.0",
   "artist": "Hunter Trick (TrickHunter)",
   "restrictions": "",
-  "page": "https://commons.wikimedia.org/wiki/File:231105-1_TSMC_Fab_21_construction.jpg"
+  "page": "https://commons.wikimedia.org/w/index.php?curid=140332147",
+  "file_page": "https://commons.wikimedia.org/wiki/File:231105-1_TSMC_Fab_21_construction.jpg"
  },
  {
   "id": "iphone_first",
@@ -375,7 +400,8 @@
   "license": "CC BY-SA 4.0",
   "artist": "ArnoldReinhold",
   "restrictions": "",
-  "page": "https://commons.wikimedia.org/wiki/File:First_iPhone_Macworld_2007_DSCF1286.agr.jpg"
+  "page": "https://commons.wikimedia.org/w/index.php?curid=69603043",
+  "file_page": "https://commons.wikimedia.org/wiki/File:First_iPhone_Macworld_2007_DSCF1286.agr.jpg"
  },
  {
   "id": "iphones",
@@ -384,7 +410,8 @@
   "license": "CC BY 2.0",
   "artist": "Yutaka Tsutano from Lincoln, United States",
   "restrictions": "",
-  "page": "https://commons.wikimedia.org/wiki/File:Original_iPhone_-_iPhone_3G_-_iPhone_4_-_Flickr_-_Yutaka_Tsutano.jpg"
+  "page": "https://commons.wikimedia.org/w/index.php?curid=92291594",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Original_iPhone_-_iPhone_3G_-_iPhone_4_-_Flickr_-_Yutaka_Tsutano.jpg"
  },
  {
   "id": "macbook",
@@ -393,7 +420,8 @@
   "license": "CC BY-SA 4.0",
   "artist": "令和しゃちょー",
   "restrictions": "",
-  "page": "https://commons.wikimedia.org/wiki/File:MacBook_Air_.jpg"
+  "page": "https://commons.wikimedia.org/w/index.php?curid=107081025",
+  "file_page": "https://commons.wikimedia.org/wiki/File:MacBook_Air_.jpg"
  },
  {
   "id": "m1_board",
@@ -402,7 +430,8 @@
   "license": "CC BY-SA 4.0",
   "artist": "Sonic8400",
   "restrictions": "",
-  "page": "https://commons.wikimedia.org/wiki/File:M1_A13_comparison_MacMini9_1_M1.jpg"
+  "page": "https://commons.wikimedia.org/w/index.php?curid=99665121",
+  "file_page": "https://commons.wikimedia.org/wiki/File:M1_A13_comparison_MacMini9_1_M1.jpg"
  },
  {
   "id": "epyc_server",
@@ -411,7 +440,8 @@
   "license": "CC BY 3.0",
   "artist": "极客湾Geekerwan",
   "restrictions": "",
-  "page": "https://commons.wikimedia.org/wiki/File:AMD_Epyc_9754_in_Dual-CPU-Socket-Serversystem_(%E6%9E%81%E5%AE%A2%E6%B9%BEGeekerwan)_18.png"
+  "page": "https://commons.wikimedia.org/w/index.php?curid=148383642",
+  "file_page": "https://commons.wikimedia.org/wiki/File:AMD_Epyc_9754_in_Dual-CPU-Socket-Serversystem_(%E6%9E%81%E5%AE%A2%E6%B9%BEGeekerwan)_18.png"
  },
  {
   "id": "epyc_chips",
@@ -420,16 +450,18 @@
   "license": "CC BY 3.0",
   "artist": "极客湾Geekerwan",
   "restrictions": "",
-  "page": "https://commons.wikimedia.org/wiki/File:AMD_Epyc_9754_in_Dual-CPU-Socket-Serversystem_(%E6%9E%81%E5%AE%A2%E6%B9%BEGeekerwan)_03.png"
+  "page": "https://commons.wikimedia.org/w/index.php?curid=148383592",
+  "file_page": "https://commons.wikimedia.org/wiki/File:AMD_Epyc_9754_in_Dual-CPU-Socket-Serversystem_(%E6%9E%81%E5%AE%A2%E6%B9%BEGeekerwan)_03.png"
  },
  {
   "id": "pentium_laptop",
   "title": "File:Unisys PowerPort laptop computer from 1990s, probably Pentium (or II) processor, in Lanzarote Aeronautical Museum in 2022 (cropped and removed BG).jpg",
   "file": "media/pentium_laptop.jpg",
   "license": "CC BY-SA 4.0",
-  "artist": "Photograph by Mike Peel (www.mikepeel.net).",
+  "artist": "Mike Peel",
   "restrictions": "",
-  "page": "https://commons.wikimedia.org/wiki/File:Unisys_PowerPort_laptop_computer_from_1990s,_probably_Pentium_(or_II)_processor,_in_Lanzarote_Aeronautical_Museum_in_2022_(cropped_and_removed_BG).jpg"
+  "page": "https://commons.wikimedia.org/w/index.php?curid=140925751",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Unisys_PowerPort_laptop_computer_from_1990s,_probably_Pentium_(or_II)_processor,_in_Lanzarote_Aeronautical_Museum_in_2022_(cropped_and_removed_BG).jpg"
  },
  {
   "id": "atom_board",
@@ -438,7 +470,8 @@
   "license": "CC BY-SA 4.0",
   "artist": "Raimond Spekking",
   "restrictions": "",
-  "page": "https://commons.wikimedia.org/wiki/File:Samsung_NC10_-_motherboard_-_Intel_N270_SLB73-92756.jpg"
+  "page": "https://commons.wikimedia.org/w/index.php?curid=73966505",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Samsung_NC10_-_motherboard_-_Intel_N270_SLB73-92756.jpg"
  },
  {
   "id": "atom_tablet",
@@ -447,7 +480,8 @@
   "license": "CC BY 2.0",
   "artist": "Intel Free Press",
   "restrictions": "",
-  "page": "https://commons.wikimedia.org/wiki/File:Intel_Atom_Tablet_Tweaker.jpg"
+  "page": "https://commons.wikimedia.org/w/index.php?curid=28168005",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Intel_Atom_Tablet_Tweaker.jpg"
  },
  {
   "id": "az_sign",
@@ -456,7 +490,8 @@
   "license": "CC BY 3.0",
   "artist": "极客湾Geekerwan",
   "restrictions": "",
-  "page": "https://commons.wikimedia.org/wiki/File:%E4%B8%8A%E6%89%8B%E4%BD%93%E9%AA%8C%E8%8B%B1%E7%89%B9%E5%B0%94%E4%B8%8B%E4%B8%80%E4%BB%A3%E8%8A%AF%E7%89%87%EF%BC%8C%E8%BF%98%E5%8F%82%E8%A7%82%E4%BA%86%E6%99%B6%E5%9C%86%E5%8E%82%EF%BC%81-00.00.38.903.png"
+  "page": "https://commons.wikimedia.org/w/index.php?curid=176762105",
+  "file_page": "https://commons.wikimedia.org/wiki/File:%E4%B8%8A%E6%89%8B%E4%BD%93%E9%AA%8C%E8%8B%B1%E7%89%B9%E5%B0%94%E4%B8%8B%E4%B8%80%E4%BB%A3%E8%8A%AF%E7%89%87%EF%BC%8C%E8%BF%98%E5%8F%82%E8%A7%82%E4%BA%86%E6%99%B6%E5%9C%86%E5%8E%82%EF%BC%81-00.00.38.903.png"
  },
  {
   "id": "az_campus",
@@ -465,7 +500,8 @@
   "license": "CC BY 3.0",
   "artist": "极客湾Geekerwan",
   "restrictions": "",
-  "page": "https://commons.wikimedia.org/wiki/File:%E4%B8%8A%E6%89%8B%E4%BD%93%E9%AA%8C%E8%8B%B1%E7%89%B9%E5%B0%94%E4%B8%8B%E4%B8%80%E4%BB%A3%E8%8A%AF%E7%89%87%EF%BC%8C%E8%BF%98%E5%8F%82%E8%A7%82%E4%BA%86%E6%99%B6%E5%9C%86%E5%8E%82%EF%BC%81-00.00.36.274.png"
+  "page": "https://commons.wikimedia.org/w/index.php?curid=176762103",
+  "file_page": "https://commons.wikimedia.org/wiki/File:%E4%B8%8A%E6%89%8B%E4%BD%93%E9%AA%8C%E8%8B%B1%E7%89%B9%E5%B0%94%E4%B8%8B%E4%B8%80%E4%BB%A3%E8%8A%AF%E7%89%87%EF%BC%8C%E8%BF%98%E5%8F%82%E8%A7%82%E4%BA%86%E6%99%B6%E5%9C%86%E5%8E%82%EF%BC%81-00.00.36.274.png"
  },
  {
   "id": "az_wafer",
@@ -474,7 +510,8 @@
   "license": "CC BY 3.0",
   "artist": "极客湾Geekerwan",
   "restrictions": "",
-  "page": "https://commons.wikimedia.org/wiki/File:%E4%B8%8A%E6%89%8B%E4%BD%93%E9%AA%8C%E8%8B%B1%E7%89%B9%E5%B0%94%E4%B8%8B%E4%B8%80%E4%BB%A3%E8%8A%AF%E7%89%87%EF%BC%8C%E8%BF%98%E5%8F%82%E8%A7%82%E4%BA%86%E6%99%B6%E5%9C%86%E5%8E%82%EF%BC%81-00.11.57.179.png"
+  "page": "https://commons.wikimedia.org/w/index.php?curid=176762114",
+  "file_page": "https://commons.wikimedia.org/wiki/File:%E4%B8%8A%E6%89%8B%E4%BD%93%E9%AA%8C%E8%8B%B1%E7%89%B9%E5%B0%94%E4%B8%8B%E4%B8%80%E4%BB%A3%E8%8A%AF%E7%89%87%EF%BC%8C%E8%BF%98%E5%8F%82%E8%A7%82%E4%BA%86%E6%99%B6%E5%9C%86%E5%8E%82%EF%BC%81-00.11.57.179.png"
  },
  {
   "id": "az_chip",
@@ -483,7 +520,8 @@
   "license": "CC BY 3.0",
   "artist": "极客湾Geekerwan",
   "restrictions": "",
-  "page": "https://commons.wikimedia.org/wiki/File:%E4%B8%8A%E6%89%8B%E4%BD%93%E9%AA%8C%E8%8B%B1%E7%89%B9%E5%B0%94%E4%B8%8B%E4%B8%80%E4%BB%A3%E8%8A%AF%E7%89%87%EF%BC%8C%E8%BF%98%E5%8F%82%E8%A7%82%E4%BA%86%E6%99%B6%E5%9C%86%E5%8E%82%EF%BC%81-00.11.56.532.png"
+  "page": "https://commons.wikimedia.org/w/index.php?curid=176762112",
+  "file_page": "https://commons.wikimedia.org/wiki/File:%E4%B8%8A%E6%89%8B%E4%BD%93%E9%AA%8C%E8%8B%B1%E7%89%B9%E5%B0%94%E4%B8%8B%E4%B8%80%E4%BB%A3%E8%8A%AF%E7%89%87%EF%BC%8C%E8%BF%98%E5%8F%82%E8%A7%82%E4%BA%86%E6%99%B6%E5%9C%86%E5%8E%82%EF%BC%81-00.11.56.532.png"
  },
  {
   "id": "commerce",
@@ -492,7 +530,8 @@
   "license": "CC BY 2.0",
   "artist": "Tony Webster",
   "restrictions": "",
-  "page": "https://commons.wikimedia.org/wiki/File:United_States_Department_of_Commerce_-_Herbert_C._Hoover_Building_-_Washington_D.C..jpg"
+  "page": "https://commons.wikimedia.org/w/index.php?curid=160477300",
+  "file_page": "https://commons.wikimedia.org/wiki/File:United_States_Department_of_Commerce_-_Herbert_C._Hoover_Building_-_Washington_D.C..jpg"
  },
  {
   "id": "chip_8088",
@@ -501,7 +540,8 @@
   "license": "CC BY-SA 4.0",
   "artist": "Jud McCranie",
   "restrictions": "",
-  "page": "https://commons.wikimedia.org/wiki/File:Intel_8088_chip,_top.jpg"
+  "page": "https://commons.wikimedia.org/w/index.php?curid=66104581",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Intel_8088_chip,_top.jpg"
  },
  {
   "id": "ces_booth",
@@ -510,7 +550,8 @@
   "license": "CC BY 2.0",
   "artist": "Maurizio Pesce from Milan, Italia",
   "restrictions": "",
-  "page": "https://commons.wikimedia.org/wiki/File:Intel_CES_2016_booth_(24109580979).jpg"
+  "page": "https://commons.wikimedia.org/w/index.php?curid=50995903",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Intel_CES_2016_booth_(24109580979).jpg"
  },
  {
   "id": "logo_amd",

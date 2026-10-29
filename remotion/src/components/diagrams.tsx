@@ -109,11 +109,12 @@ const Legend: React.FC<{part: Slice; delay: number; dim: number; text: string}> 
 // ---------- Boucle (flux circulaire entre acteurs) ----------
 // Étapes posées sur un cercle, flèches courbes qui se dessinent, puis des « $ » qui circulent.
 type Node = {label: string; sub?: string; icon?: string; image?: string; color?: string};
-export const Loop: React.FC<{title?: string; nodes: Node[]; center?: string; centerImage?: string; stagger?: number; start?: number; flowAt?: number; source?: string}> = ({
+export const Loop: React.FC<{title?: string; nodes: Node[]; center?: string; centerImage?: string; centerImageColor?: 'gold' | 'white'; stagger?: number; start?: number; flowAt?: number; source?: string}> = ({
   title,
   nodes,
   center,
   centerImage,
+  centerImageColor = 'gold',
   stagger = 1.2,
   start = 0.3,
   flowAt,
@@ -215,7 +216,7 @@ export const Loop: React.FC<{title?: string; nodes: Node[]; center?: string; cen
         })}
         {center || centerImage ? (
           <div style={{position: 'absolute', left: cx - 260, top: cy - 90, width: 520, height: 180, display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', ...fade(pCenter)}}>
-            {centerImage ? <Logo id={centerImage} height={70} color="gold" width={160} /> : null}
+            {centerImage ? <Logo id={centerImage} height={70} color={centerImageColor === 'gold' ? 'gold' : undefined} width={160} /> : null}
             {center ? <div style={{fontFamily: FONT.display, fontStyle: 'italic', fontSize: 64, color: C.paper, marginTop: 10, textShadow: '0 4px 30px rgba(0,0,0,0.7)'}}>{center}</div> : null}
           </div>
         ) : null}

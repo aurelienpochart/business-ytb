@@ -5,6 +5,7 @@ import {AMB, C, FONT, GOLD_TEXT, GRAD, applyTint} from './theme';
 import {ThumbnailVariant, ThumbVariantProps} from './ThumbnailVariants';
 import {PlusVariant, ThumbnailVariantPlus, isPlusVariant} from './ThumbnailVariantsPlus';
 import {MoreVariant, ThumbMoreProps, ThumbnailVariantMore, isMoreVariant} from './ThumbnailVariantsMore';
+import {ThumbTimelineProps, ThumbnailVariantTimeline, TimelineVariant, isTimelineVariant} from './ThumbnailVariantsTimeline';
 
 // Miniature 1280 x 720 (charte 2.5) : 3 à 5 mots, un mot en or, un chiffre fort, la courbe du logo en coin.
 export type ThumbProps = {
@@ -12,11 +13,12 @@ export type ThumbProps = {
   number?: string;
   numberLabel?: string;
   bars?: {value: number; color: string; label: string}[];
-  variant?: ThumbVariantProps['variant'] | PlusVariant | MoreVariant; // miniature choisie parmi les variantes (prioritaire)
+  variant?: ThumbVariantProps['variant'] | PlusVariant | MoreVariant | TimelineVariant; // miniature choisie parmi les variantes (prioritaire)
   ring?: number; // variante « anneau » : part remplie de l'anneau (0 à 1)
   tint?: string; // teinte d'ambiance de la vidéo (metadata.json)
 } & Omit<Partial<ThumbVariantProps>, 'variant' | 'number' | 'numberLabel'> &
-  Omit<Partial<ThumbMoreProps>, 'variant' | 'words' | 'number' | 'numberLabel' | 'logo' | 'logoRatio' | 'photo' | 'photoPosition'>;
+  Omit<Partial<ThumbMoreProps>, 'variant' | 'words' | 'number' | 'numberLabel' | 'logo' | 'logoRatio' | 'photo' | 'photoPosition'> &
+  Pick<Partial<ThumbTimelineProps>, 'points' | 'years' | 'series'>;
 
 const goldText: React.CSSProperties = {
   backgroundImage: GOLD_TEXT,
@@ -31,6 +33,8 @@ export const Thumbnail: React.FC<ThumbProps> = ({words, number, numberLabel, bar
   applyTint(tint);
   // Compositions supplémentaires (portrait, puce, face-a-face, anneau) : tout vient de thumbnail.json.
   // Compositions « où va l'argent » (carte, ticket, billet, prix, moitie) : tout vient aussi de thumbnail.json.
+  // Compositions « ascension et chute » (courbe, couronne, croisement, fissure) : tout vient de thumbnail.json.
+  if (isTimelineVariant(variant)) return <ThumbnailVariantTimeline variant={variant} words={words || undefined} number={number} numberLabel={numberLabel} {...custom} />;
   if (isMoreVariant(variant)) return <ThumbnailVariantMore variant={variant} words={words || undefined} number={number} numberLabel={numberLabel} {...custom} />;
   if (isPlusVariant(variant)) return <ThumbnailVariantPlus variant={variant} words={words} number={number} numberLabel={numberLabel} {...custom} />;
   // La vidéo 01 ne passe que `variant` : sa miniature validée reste identique.

@@ -141,7 +141,7 @@ export const Photo: React.FC<{photo: string; text?: string; kicker?: string; sub
 };
 
 // Ouverture : le « T » de Tesla se révèle dans la lumière au-dessus d'une Tesla, puis le chiffre.
-export const Hero: React.FC<{photo: string; logo: string; wordmark?: string; number?: string; label?: string; kicker?: string; numberAt?: number; source?: string; logoWidth?: number; logoHeight?: number}> = ({
+export const Hero: React.FC<{photo: string; logo: string; wordmark?: string; number?: string; label?: string; kicker?: string; numberAt?: number; source?: string; logoWidth?: number; logoHeight?: number; logoColor?: 'gold' | 'white'}> = ({
   photo,
   logo,
   wordmark,
@@ -152,6 +152,7 @@ export const Hero: React.FC<{photo: string; logo: string; wordmark?: string; num
   source,
   logoWidth = 330,
   logoHeight = 330,
+  logoColor = 'gold',
 }) => {
   const frame = useCurrentFrame();
   const {fps} = useVideoConfig();
@@ -185,8 +186,8 @@ export const Hero: React.FC<{photo: string; logo: string; wordmark?: string; num
         }}
       >
         <div style={{position: 'relative'}}>
-          <div style={{position: 'absolute', inset: -120, borderRadius: '50%', background: `radial-gradient(circle, rgba(240,181,78,${0.22 + 0.1 * glow}) 0%, transparent 65%)`}} />
-          <Logo id={logo} height={logoHeight} width={logoWidth} color="gold" />
+          <div style={{position: 'absolute', inset: -120, borderRadius: '50%', background: logoColor === 'gold' ? `radial-gradient(circle, rgba(240,181,78,${0.22 + 0.1 * glow}) 0%, transparent 65%)` : `radial-gradient(circle, rgba(170,220,255,${0.12 + 0.06 * glow}) 0%, transparent 65%)`}} />
+          <Logo id={logo} height={logoHeight} width={logoWidth} color={logoColor === 'gold' ? 'gold' : undefined} />
         </div>
         {wordmark ? <Logo id={wordmark} height={44} style={{opacity: 0.9}} /> : null}
       </div>
