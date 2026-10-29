@@ -1921,27 +1921,35 @@
   "type": "tiles",
   "bg": "xeon",
   "props": {
-   "kicker": "April to June 2026",
+   "kicker": "July to September 2026",
    "items": [
     {
      "icon": "TrendingUp",
      "label": "Revenue",
-     "value": "$16.1B",
-     "sub": "+25% on a year earlier",
+     "value": "$16.5B",
+     "sub": "+21% on a year earlier",
      "color": "amber"
     },
     {
      "icon": "Server",
      "label": "Data center",
-     "value": "+59%",
+     "value": "+78%",
      "color": "teal"
+    },
+    {
+     "icon": "BadgeDollarSign",
+     "label": "Net profit",
+     "value": "$3.3B",
+     "sub": "back in the black",
+     "color": "amber"
     }
    ],
    "delays": [
     0.4,
-    8.46
+    8.72,
+    12.23
    ],
-   "source": "Intel Q2 2026 results (July 23, 2026)"
+   "source": "Intel Q3 2026 results (Oct. 29, 2026)"
   }
  },
  {
@@ -1963,8 +1971,8 @@
    "title": "Intel Foundry, same quarter",
    "items": [
     {
-     "value": -2.1,
-     "decimals": 1,
+     "value": -1.85,
+     "decimals": 2,
      "prefix": "$",
      "suffix": "B",
      "label": "operating loss",
@@ -1972,7 +1980,7 @@
      "icon": "Factory"
     }
    ],
-   "source": "Intel Q2 2026 results (July 23, 2026)"
+   "source": "Intel Q3 2026 results (Oct. 29, 2026)"
   }
  },
  {

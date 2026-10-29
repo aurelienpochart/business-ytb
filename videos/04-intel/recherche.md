@@ -58,6 +58,7 @@ Montants en dollars US. L'exercice d'Intel suit à peu près l'année civile (cl
 | R42 | Apple : The Wall Street Journal (vers le 8-11 mai 2026) rapporte un accord préliminaire pour qu'Intel fabrique certaines puces Apple ; 18 juin 2026 : Donald Trump annonce sur Truth Social qu'Apple travaillera avec Intel sur la conception et la fabrication de puces aux États-Unis ; ni Apple ni Intel n'ont commenté ni publié de conditions ; l'action Intel gagne 7 % « to a record » | iDrop News (45) ; Reuters via BNN Bloomberg, 18 juin 2026 (46) |
 | R43 | T2 2026 (publié le 23 juillet 2026) : chiffre d'affaires **16,1 Md$ (+25 %)** ; marge brute GAAP 40,4 % ; perte nette GAAP −11,0 Md$ (dont une perte de 12,5 Md$ de réévaluation des actions placées sous séquestre pour le ministère du Commerce) ; CCPG 8,9 Md$ (+13 %) ; **DCAI 6,3 Md$ (+59 %)** ; **Intel Foundry 5,8 Md$ (+31 %), perte d'exploitation −2 089 M$** ; prévision T3 : 15,8 à 16,8 Md$ | Intel, communiqué T2 2026 (47) |
 | R44 | 18 juin 2026 : l'action Intel monte à un record historique (dépassant celui de l'été 2000) | Reuters via BNN Bloomberg (46) |
+| R45 | T3 2026 (publié le 29 octobre 2026) : chiffre d'affaires **16,5 Md$ (+21 %)** ; marge brute GAAP 43,0 % ; **bénéfice net GAAP 3,3 Md$** (BPA 0,60 $) ; CCPG 8,1 Md$ (−5 %) ; **DCAI 7,3 Md$ (+78 %)** ; Intel Foundry 6,7 Md$ (+58 %), **perte d'exploitation −1 853 M$** ; prévision T4 : 15,0 à 16,0 Md$ ; le communiqué ne cite ni 18A ni client de la fonderie | Intel, communiqué T3 2026, Form 8-K (48) |
 
 ## Points de vigilance
 
@@ -125,3 +126,4 @@ Montants en dollars US. L'exercice d'Intel suit à peu près l'année civile (cl
 45. iDrop News, accord préliminaire Apple-Intel rapporté par le WSJ (mai 2026) : https://www.idropnews.com/news/apple-intel-chip-deal-2026-official/263582/
 46. BNN Bloomberg (Reuters), « Trump says Apple to partner with Intel on US chip design, production » (18 juin 2026) : https://www.bnnbloomberg.ca/business/company-news/2026/06/18/trump-says-apple-to-partner-with-intel-on-us-chip-design-production/
 47. Intel, « Intel Reports Second-Quarter 2026 Financial Results » (23 juil. 2026) : https://www.intc.com/news-events/press-releases/detail/1776/intel-reports-second-quarter-2026-financial-results
+48. Intel, « Intel Reports Third-Quarter 2026 Financial Results », Form 8-K (29 oct. 2026) : https://www.sec.gov/Archives/edgar/data/0000050863/000005086326000188/q326earningsrelease.htm (aussi https://www.intel.com/content/www/us/en/newsroom/news/corporate/intel-reports-third-quarter-2026-financial-results.html)

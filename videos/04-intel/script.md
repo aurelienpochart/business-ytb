@@ -181,9 +181,9 @@ So, where does that leave Intel?
 
 In 2025, its revenue was fifty-two point nine billion dollars, flat on the year before. [R2] TSMC's was one hundred and twenty-two billion, with a gross margin of almost sixty percent. Intel's was under thirty-five. [R4] [R2] The margins have swapped places.
 
-> Barres trimestrielles 2026 : chiffre d'affaires, data center +59 %, perte d'Intel Foundry.
+> Tuiles T3 2026 : chiffre d'affaires 16,5 Md$ (+21 %), data center +78 %, bénéfice net 3,3 Md$ ; puis perte d'Intel Foundry 1,85 Md$.
 
-But 2026 has been kinder. Between April and June, Intel's revenue grew twenty-five percent, to sixteen point one billion dollars. Its data center business grew fifty-nine percent. [R43] The AI boom, it turns out, also needs ordinary processors to run alongside all those AI chips. Yet in the same quarter, Intel Foundry still lost two point one billion dollars. [R43]
+But 2026 has been kinder. Between July and September, Intel's revenue grew twenty-one percent, to sixteen point five billion dollars. Its data center business grew seventy-eight percent, and Intel made a profit again: three point three billion dollars. [R45] The AI boom, it turns out, also needs ordinary processors alongside the AI chips. Yet in the same quarter, Intel Foundry still lost one point eight five billion dollars. [R45]
 
 > Chronologie complète qui se referme, de 1968 à 2026. Le mot « crown » en ambre.
 
@@ -204,4 +204,14 @@ And the lesson goes beyond Intel. In an industry that runs on a cost curve, losi
 ## Notes pour la relecture (en français)
 
 - **Ce qui est lu** : tout le texte hors titres, repères `[R…]` et lignes `>`.
-- À compléter après les résultats du T3 2026.
+- **Longueur** : environ 1 900 mots lus (≈ 12 min 40 avec l'ident et l'écran de fin, au débit de la voix Iapetus mesuré sur Costco ; vidéo 03 : ≈ 1 740 mots).
+- **Gabarit et pilier** : The Timeline (la vidéo 03 était The Teardown), pilier Rise & Fall. Fil chronologique 1968 → 2026, avec un bloc « chrono » animé (frise, couloirs Intel / TSMC, dates qui glissent) qui revient à chaque chapitre et se referme au chapitre 7.
+- **La thèse** : Intel n'a pas perdu sa couronne en une mauvaise année, mais par une chaîne de décisions qui reviennent au volume (téléphone → usines → IA). C'est une **lecture** (la nôtre), présentée comme telle ; chaque fait est sourcé dans recherche.md.
+- **Chiffres du T3 2026** (R45, communiqué du 29 octobre 2026) : 16,5 Md$ (+21 %), data center +78 %, bénéfice net GAAP 3,3 Md$, perte d'Intel Foundry 1,85 Md$. Ils remplacent ceux du T2. Le communiqué ne cite ni 18A ni client de la fonderie : le script n'en dit pas plus.
+- **Récits de presse attribués** : rachat de Nvidia envisagé en 2005 (NYT), 15 % d'OpenAI vers 2017 (Reuters), départ « forcé » de Gelsinger (Bloomberg) : toujours introduits par le nom du média. Accord Apple–Intel de 2026 : rapport du WSJ et déclaration de Donald Trump, aucune condition publiée (dit tel quel).
+- **Points à surveiller** : « built by TSMC » pour les puces Apple de 2020 est très largement documenté mais absent du communiqué d'Apple (R22) ; la citation d'Otellini vient de The Atlantic via Loop Insight ; « more than thirty billion » = notre addition des pertes d'Intel Foundry 2023-2025 (7,0 + 13,3 + 10,3).
+- **Pas de politique, pas de conseil** : la participation de l'État est décrite comme un fait financier ; le record de l'action (2026) est cité sans prévision.
+- **Renvoi à la vidéo Nvidia** : une phrase (chapitre 4), sans reprendre ses chiffres.
+- **Short extrait (The Clip)** : chapitre 3 resserré (10 nm promis pour 2015 → volume en 2019 ; TSMC 7 nm en 2018 ; Apple 2020 ; AMD < 1 % → 46 %), accroche « How Intel *lost the lead* », ≈ 50 s + carte finale.
+- **Titres alternatifs** (≤ 60 caractères) : « How Intel Fell Behind TSMC » (26), « Intel: From $20B Profit to a $19B Loss » (38), « The Decisions That Broke Intel » (30), « Why Intel Lost to TSMC » (22).
+- **Description** : sources réduites aux principales et crédits d'images avec liens courts (curid) pour tenir sous 5 000 octets, mention de musique comprise (≈ 4 770 octets mesurés).
