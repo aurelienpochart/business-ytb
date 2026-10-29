@@ -1,54 +1,119 @@
 [
  {
   "id": "logo_apple",
-  "title": "File:Apple logo black.svg"
+  "title": "File:Apple logo black.svg",
+  "file": "media/logo_apple.svg",
+  "license": "Public domain",
+  "artist": "Original:  Rob Janoff",
+  "restrictions": "trademarked",
+  "page": "https://commons.wikimedia.org/wiki/File:Apple_logo_black.svg"
  },
  {
   "id": "store_pudong",
-  "title": "File:Apple Store Pudong 20251126.jpg"
+  "title": "File:Apple Store Pudong 20251126.jpg",
+  "file": "media/store_pudong.jpg",
+  "license": "CC BY 4.0",
+  "artist": "This Photo was taken by Supanut Arunoprayote.\n\nFeel free to use any of my images, but please mention me as the author and may send me a message.  (สามารถใช้ภาพได้อิสระ แต่กรุณาใส่เครดิตผู้ถ่ายและอาจส่",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Apple_Store_Pudong_20251126.jpg"
  },
  {
   "id": "store_fifth",
-  "title": "File:Apple Store - Fifth Avenue (7181848534).jpg"
+  "title": "File:Apple Store - Fifth Avenue (7181848534).jpg",
+  "file": "media/store_fifth.jpg",
+  "license": "CC BY 2.0",
+  "artist": "Jorge Láscar from Australia",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Apple_Store_-_Fifth_Avenue_(7181848534).jpg"
  },
  {
   "id": "store_brisbane",
-  "title": "File:Apple Store, Brisbane, 2025.jpg"
+  "title": "File:Apple Store, Brisbane, 2025.jpg",
+  "file": "media/store_brisbane.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "Chris Olszewski",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Apple_Store,_Brisbane,_2025.jpg"
  },
  {
   "id": "iphone17",
-  "title": "File:Black iPhone 17.jpg"
+  "title": "File:Black iPhone 17.jpg",
+  "file": "media/iphone17.jpg",
+  "license": "CC0",
+  "artist": "Ahmad Ali Karim",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Black_iPhone_17.jpg"
  },
  {
   "id": "iphone_launch",
-  "title": "File:IPhone 17 launch at Apple TRX Malaysia 62.jpg"
+  "title": "File:IPhone 17 launch at Apple TRX Malaysia 62.jpg",
+  "file": "media/iphone_launch.jpg",
+  "license": "CC0",
+  "artist": "Ahmad Ali Karim",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:IPhone_17_launch_at_Apple_TRX_Malaysia_62.jpg"
  },
  {
   "id": "apple_park",
-  "title": "File:Apple Park aerial view, June 2024.jpg"
+  "title": "File:Apple Park aerial view, June 2024.jpg",
+  "file": "media/apple_park.jpg",
+  "license": "CC0",
+  "artist": "Nils Huenerfuerst",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Apple_Park_aerial_view,_June_2024.jpg"
  },
  {
   "id": "macbook",
-  "title": "File:Apple MacBook Pro 16\" M2 Max illuminated.jpg"
+  "title": "File:Apple MacBook Pro 16\" M2 Max illuminated.jpg",
+  "file": "media/macbook.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "SimonWaldherr",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Apple_MacBook_Pro_16%22_M2_Max_illuminated.jpg"
  },
  {
   "id": "airpods",
-  "title": "File:AirPod pro.jpg"
+  "title": "File:AirPod pro.jpg",
+  "file": "media/airpods.jpg",
+  "license": "CC0",
+  "artist": "Jackienyyy",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:AirPod_pro.jpg"
  },
  {
   "id": "watch_store",
-  "title": "File:AppleWatchAppleStore.jpg"
+  "title": "File:AppleWatchAppleStore.jpg",
+  "file": "media/watch_store.jpg",
+  "license": "CC0",
+  "artist": "Raysonho @ Open Grid Scheduler / Grid Engine",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:AppleWatchAppleStore.jpg"
  },
  {
   "id": "music",
-  "title": "File:Woman using smartphone while listening to music in a fitness setting during the day.jpg"
+  "title": "File:Woman using smartphone while listening to music in a fitness setting during the day.jpg",
+  "file": "media/music.jpg",
+  "license": "CC BY 2.0",
+  "artist": "Shixart1985",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Woman_using_smartphone_while_listening_to_music_in_a_fitness_setting_during_the_day.jpg"
  },
  {
   "id": "terminal",
-  "title": "File:CTBC payment terminal at self-checkout of Carrefour Rende Store.jpg"
+  "title": "File:CTBC payment terminal at self-checkout of Carrefour Rende Store.jpg",
+  "file": "media/terminal.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "Matt Zhuang",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:CTBC_payment_terminal_at_self-checkout_of_Carrefour_Rende_Store.jpg"
  },
  {
   "id": "iphone_launch2",
-  "title": "File:IPhone 17 launch at Apple TRX Malaysia 65.jpg"
+  "title": "File:IPhone 17 launch at Apple TRX Malaysia 65.jpg",
+  "file": "media/iphone_launch2.jpg",
+  "license": "CC0",
+  "artist": "Ahmad Ali Karim",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:IPhone_17_launch_at_Apple_TRX_Malaysia_65.jpg"
  }
 ]
