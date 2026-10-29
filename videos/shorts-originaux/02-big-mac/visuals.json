@@ -21,10 +21,7 @@
    "dim": 0.62,
    "kicker": "2026",
    "number": "$6.22",
-   "numberDelay": {
-    "$t": "six dollars",
-    "offset": -0.1
-   },
+   "numberDelay": 0.35,
    "color": "gold",
    "label": "the same burger",
    "sub": "average US price, July 2026",
