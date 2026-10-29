@@ -1,0 +1,15 @@
+A US Big Mac cost $1.60 in 1986 and $6.22 in July 2026: had it only followed inflation, it would cost about $4.85, and even restaurant prices would only take it to $5.59.
+
+Sources:
+- The Economist, Big Mac index data (US price, Sept. 1986 and July 2026): https://github.com/TheEconomist/big-mac-data
+- US Bureau of Labor Statistics, CPI-U all items (CUUR0000SA0) and food away from home (CUUR0000SEFV), Sept. 1986 and July 2026: https://www.bls.gov/cpi/data.htm
+
+More on the channel: https://www.youtube.com/@thecostcurvetv
+
+Images:
+- Amin, CC BY-SA 4.0, via Wikimedia Commons: https://commons.wikimedia.org/wiki/File:McDonalds_Big_Mac_hamburger_cheeseburger.jpg
+- Famartin, CC BY-SA 4.0, via Wikimedia Commons: https://commons.wikimedia.org/wiki/File:2021-07-22_18_53_42_McDonald%E2%80%99s_Big_Mac_box_at_the_McDonald%27s_on_U.S._Route_9_in_Woodbridge_Township,_Middlesex_County,_New_Jersey.jpg
+- 阿道, CC BY-SA 4.0, via Wikimedia Commons: https://commons.wikimedia.org/wiki/File:McDonald%27s_Yilan_Jiaoxi_Restaurant_at_night_20240626.jpg
+- Ser Amantio di Nicolao, CC BY-SA 4.0, via Wikimedia Commons: https://commons.wikimedia.org/wiki/File:Late-night_interior,_McDonald%27s,_Duke_Street,_Alexandria,_Virginia.jpg
+
+Made with the help of AI tools, including a synthetic narrator voice.
