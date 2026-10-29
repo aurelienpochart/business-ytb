@@ -16,7 +16,6 @@
   "type": "shot",
   "props": {
    "photo": "iphone_launch",
-   "icon": "Smartphone",
    "color": "paper",
    "number": "75%",
    "label": "of sales: devices",
