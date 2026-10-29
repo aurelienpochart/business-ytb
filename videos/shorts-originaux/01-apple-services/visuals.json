@@ -15,17 +15,6 @@
   "at": "p1",
   "type": "shot",
   "props": {
-   "photo": "store_fifth",
-   "dim": 0.7,
-   "kicker": "Reality check",
-   "text": "By sales? *Mostly yes*"
-  }
- },
- {
-  "at": "p1",
-  "after": "In the first",
-  "type": "shot",
-  "props": {
    "photo": "iphone_launch",
    "icon": "Smartphone",
    "color": "paper",
@@ -48,7 +37,8 @@
     "caption": "Apple's sales, Oct. 2025 to June 2026",
     "delay": 0.7
    },
-   "source": "Apple Q3 FY2026 results"
+   "source": "Apple Q3 FY2026 results",
+   "kicker": "Reality check: sales"
   }
  },
  {
