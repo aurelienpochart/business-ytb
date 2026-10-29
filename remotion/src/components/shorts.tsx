@@ -339,9 +339,9 @@ const Compare: React.FC<{rows: CompareRow[]}> = ({rows}) => {
   const frame = useCurrentFrame();
   const {fps} = useVideoConfig();
   const max = Math.max(...rows.map((r) => r.value));
-  const barMax = WIDTH - 230;
+  const barMax = WIDTH - 290;
   return (
-    <div style={{display: 'flex', flexDirection: 'column', gap: 34, width: WIDTH}}>
+    <div style={{display: 'flex', flexDirection: 'column', gap: 44, width: WIDTH}}>
       {rows.map((r, i) => {
         const d = r.delay ?? 0.2 + i * 0.45;
         const grow = interpolate(frame, [d * fps, (d + 0.8) * fps], [0, 1], {...clamp, easing: Easing.out(Easing.cubic)});
@@ -350,11 +350,11 @@ const Compare: React.FC<{rows: CompareRow[]}> = ({rows}) => {
         const hi = r.color === 'gold' ? '#FFD27F' : t.hi;
         return (
           <div key={i} style={{...fade(p), display: 'flex', flexDirection: 'column', alignItems: 'flex-start', gap: 10}}>
-            <div style={{fontFamily: FONT.title, fontWeight: r.strong ? 800 : 600, fontSize: 40, color: C.paper, opacity: r.strong ? 1 : 0.85, textShadow: '0 3px 14px rgba(0,0,0,0.85)'}}>{r.label}</div>
+            <div style={{fontFamily: FONT.title, fontWeight: r.strong ? 800 : 600, fontSize: 50, color: C.paper, opacity: r.strong ? 1 : 0.85, textShadow: '0 3px 14px rgba(0,0,0,0.85)'}}>{r.label}</div>
             <div style={{display: 'flex', alignItems: 'center', gap: 20, width: WIDTH}}>
               <div
                 style={{
-                  height: 70,
+                  height: 104,
                   width: Math.max(8, (r.value / max) * barMax * grow),
                   borderRadius: 14,
                   background: `linear-gradient(90deg, ${t.lo}, ${hi})`,
@@ -362,7 +362,7 @@ const Compare: React.FC<{rows: CompareRow[]}> = ({rows}) => {
                   boxShadow: r.strong ? `0 0 44px ${t.halo}, inset 0 2px 0 rgba(255,255,255,0.35)` : undefined,
                 }}
               />
-              <div style={{fontFamily: FONT.mono, fontWeight: 600, fontSize: r.strong ? 64 : 52, color: hi, opacity: Math.min(1, grow * 1.3), textShadow: `0 0 30px ${t.halo}, 0 4px 18px rgba(0,0,0,0.8)`}}>{r.display}</div>
+              <div style={{fontFamily: FONT.mono, fontWeight: 600, fontSize: r.strong ? 76 : 62, letterSpacing: -2, color: hi, opacity: Math.min(1, grow * 1.3), textShadow: `0 0 30px ${t.halo}, 0 4px 18px rgba(0,0,0,0.8)`}}>{r.display}</div>
             </div>
           </div>
         );

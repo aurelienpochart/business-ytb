@@ -1,0 +1,15 @@
+{
+  "format": "Then vs Now",
+  "angle": "Everyone knows burgers got more expensive; the question is whether the Big Mac just followed inflation. Using The Economist's Big Mac index and the US consumer price index, we show it did not: prices roughly tripled since 1986, the Big Mac nearly quadrupled, and it even outran restaurant prices.",
+  "hook": "The Big Mac *beat inflation*",
+  "paragraphs": [
+    "In 1986, a Big Mac cost {one dollar sixty|$1.60} in America.",
+    "Today, it costs {six dollars twenty-two|$6.22}. Almost four times as much.",
+    "But a dollar from 1986 isn't worth a dollar today. So let's adjust for inflation.",
+    "Since 1986, prices in America have roughly tripled. Had the Big Mac just kept pace, it would cost about {four dollars eighty-five|$4.85} today.",
+    "Until around {two thousand eight|2008}, the two lines crossed back and forth. Since then, the Big Mac has stayed ahead.",
+    "Even restaurant prices, which rose faster than average, would only take it to {five fifty-nine|$5.59}.",
+    "So the Big Mac didn't just keep up with inflation. It beat it, by {one dollar thirty-seven|$1.37} a burger.",
+    "Prices tripled. The Big Mac nearly quadrupled."
+  ]
+}

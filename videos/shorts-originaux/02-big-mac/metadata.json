@@ -1,0 +1,24 @@
+{
+  "title": "The Big Mac Beat Inflation by $1.37",
+  "sentence": "A US Big Mac cost $1.60 in 1986 and $6.22 in July 2026: had it only followed inflation, it would cost about $4.85, and even restaurant prices would only take it to $5.59.",
+  "source": [
+    "The Economist, Big Mac index data (US price, Sept. 1986 and July 2026): https://github.com/TheEconomist/big-mac-data",
+    "US Bureau of Labor Statistics, CPI-U all items (CUUR0000SA0) and food away from home (CUUR0000SEFV), Sept. 1986 and July 2026: https://www.bls.gov/cpi/data.htm"
+  ],
+  "related": {
+    "channel": true
+  },
+  "tags": [
+    "Big Mac",
+    "Big Mac index",
+    "inflation",
+    "McDonald's",
+    "fast food prices",
+    "economics explained",
+    "The Cost Curve"
+  ],
+  "category_id": "27",
+  "made_for_kids": false,
+  "contains_synthetic_media": true,
+  "tint": "costco"
+}

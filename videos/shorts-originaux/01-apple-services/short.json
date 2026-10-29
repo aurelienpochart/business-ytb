@@ -1,0 +1,15 @@
+{
+  "format": "Myth vs Reality",
+  "angle": "Apple is seen as a phone and computer maker. Its own income statement says that is true for sales but only partly true for profit: services are a quarter of sales yet keep 76 cents of gross profit per dollar, against about 40 cents for devices, so they bring in almost two dollars in five of Apple's gross profit.",
+  "hook": "Is Apple really a *hardware company*?",
+  "paragraphs": [
+    "Apple sells iPhones, Macs and iPads. So it's a hardware company. Right?",
+    "By sales, mostly yes. In the first nine months of fiscal {twenty twenty-six|2026}, devices brought in three dollars out of every four. The iPhone alone, more than half.",
+    "The other quarter is services: the App Store, iCloud, Apple Music, AppleCare, Apple Pay. That's {ninety-one point seven billion dollars|$91.7 billion}, more than Macs, iPads and wearables combined.",
+    "Now look at what Apple keeps after the cost of making them.",
+    "On a dollar of devices: about {forty cents|40¢} of gross profit.",
+    "On a dollar of services: {seventy-six cents|76¢}.",
+    "So services are a quarter of Apple's sales, but almost {forty percent|40%} of its gross profit.",
+    "Hardware company? By sales, yes. By profit, almost two dollars in every five come from services."
+  ]
+}

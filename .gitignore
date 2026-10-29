@@ -17,4 +17,5 @@ remotion/public/*
 !remotion/public/sfx/
 videos/*/build/narration.wav
 videos/*/shorts/*/build/narration.wav
+videos/shorts-originaux/*/build/narration.wav
 videos/*/build/segments.json
