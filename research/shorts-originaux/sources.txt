@@ -1,0 +1,8 @@
+# Shorts originaux (semaine du 2/11/2026) : Apple (Myth vs Reality) et Big Mac (Then vs Now)
+aapl-submissions.json https://data.sec.gov/submissions/CIK0000320193.json
+cpi-u-fred.csv https://fred.stlouisfed.org/graph/fredgraph.csv?id=CPIAUCNS
+cpi-fafh-fred.csv https://fred.stlouisfed.org/graph/fredgraph.csv?id=CUUR0000SEFV
+cpi-u-bls-2026.json https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SA0?startyear=2025&endyear=2026
+cpi-u-bls-1986.json https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SA0?startyear=1986&endyear=1987
+aapl-fy26-q4-pr.htm https://www.apple.com/newsroom/2026/10/apple-reports-fourth-quarter-results/
+aapl-fy26-q4-fs.pdf https://www.apple.com/newsroom/pdfs/fy2026-q4/FY26_Q4_Consolidated_Financial_Statements.pdf
