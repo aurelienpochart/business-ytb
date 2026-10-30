@@ -1,0 +1,58 @@
+In 2021, Intel kept almost $20 billion of profit. In 2024, it lost almost $19 billion. Today TSMC sells more than twice as much, and the US government owns about a tenth of Intel. The full timeline: the iPhone chip it passed on, the factory delays, the AI wave that went elsewhere, Pat Gelsinger's bet and the rescue. Main sources below.
+
+Chapters
+00:00 From $20B profit to a $19B loss
+00:51 The crown (1968-2005)
+02:56 The phone it passed on
+04:58 The tipping point: the factories slip
+06:58 The AI wave goes elsewhere
+07:58 The big bet: Gelsinger's IDM 2.0
+10:02 The rescue: Washington, SoftBank, Nvidia
+11:53 Where Intel stands now
+
+Sources
+- Intel results 2021: https://www.intc.com/news-events/press-releases/detail/1522/intel-reports-fourth-quarter-and-full-year-2021-financial
+- Intel results 2025: https://www.intc.com/news-events/press-releases/detail/1759/intel-reports-fourth-quarter-and-full-year-2025-financial-results
+- Intel Q3 2026: https://www.intel.com/content/www/us/en/newsroom/news/corporate/intel-reports-third-quarter-2026-financial-results.html
+- TSMC 2025: https://telecomlead.com/?p=124150
+- US stake: https://www.intc.com/news-events/press-releases/detail/1748/intel-and-trump-administration-reach-historic-agreement-to
+- Otellini, The Atlantic (2013): https://www.loopinsight.com/2013/05/17/intel-passed-up-on-the-original-iphone/
+- 10 nm delay: https://www.theregister.com/2015/07/16/intel_10nm_14nm_plans/
+- AMD server share: https://www.tomshardware.com/pc-components/cpus/amd-reaches-46-percent-of-server-x86-cpu-revenue-intel-still-controls-70-percent-of-the-consumer-pc-market-share
+- Aug. 2024 cuts: https://www.thestar.com.my/tech/tech-news/2024/08/02/intel-shares-set-to-fall-most-in-24-years-as-it-struggles-with-turnaround
+- Gelsinger exit (Bloomberg): https://www.datacenterknowledge.com/data-center-chips/intel-ceo-forced-out-by-board-frustrated-with-slow-progress
+- Nvidia stake: https://www.intc.com/news-events/press-releases/detail/1750/nvidia-and-intel-to-develop-ai-infrastructure-and-personal
+- Ohio delay: https://www.tomshardware.com/tech-industry/intel-delays-usd100-billion-ohio-site-to-next-decade-first-fab-now-coming-online-in-2030
+- Arm: https://investors.arm.com/node/7681/html
+- Apple and Intel, 2026: https://www.bnnbloomberg.ca/business/company-news/2026/06/18/trump-says-apple-to-partner-with-intel-on-us-chip-design-production/
+
+Fonts: Inter, IBM Plex Mono and Instrument Serif (SIL Open Font License); icons: Lucide (ISC).
+Charts, timelines and animations made by The Cost Curve from the sources above.
+
+Images (Wikimedia Commons)
+- TechCrunch, CC BY 4.0: https://commons.wikimedia.org/w/index.php?curid=179668397
+- Web Summit, CC BY 2.0: https://commons.wikimedia.org/w/index.php?curid=103211559
+- Intel Free Press, CC BY-SA 2.0: https://commons.wikimedia.org/w/index.php?curid=38385134
+- Intel Free Press, CC BY-SA 2.0: https://commons.wikimedia.org/w/index.php?curid=27929328
+- Ben Stanfield from Rockville, MD, USA, CC BY-SA 2.0: https://commons.wikimedia.org/w/index.php?curid=3465082
+- The wub, CC BY-SA 4.0: https://commons.wikimedia.org/w/index.php?curid=158377042
+- Intel in Deutschland, CC BY-SA 2.0: https://commons.wikimedia.org/w/index.php?curid=153085500
+- TK0130, CC BY-SA 4.0: https://commons.wikimedia.org/w/index.php?curid=126120218
+- M.O. Stevens, CC BY 3.0: https://commons.wikimedia.org/w/index.php?curid=6950201
+- Leimanbhradain, CC BY-SA 4.0: https://commons.wikimedia.org/w/index.php?curid=184426110
+- Coolcaesar, CC BY-SA 4.0: https://commons.wikimedia.org/w/index.php?curid=133964425
+- 曾 成訓, CC BY 2.0: https://commons.wikimedia.org/w/index.php?curid=150874255
+- 4300streetcar, CC BY 4.0: https://commons.wikimedia.org/w/index.php?curid=188930845
+- ArnoldReinhold, CC BY-SA 4.0: https://commons.wikimedia.org/w/index.php?curid=69603043
+- 令和しゃちょー, CC BY-SA 4.0: https://commons.wikimedia.org/w/index.php?curid=107081025
+- Sonic8400, CC BY-SA 4.0: https://commons.wikimedia.org/w/index.php?curid=99665121
+- 极客湾Geekerwan, CC BY 3.0: https://commons.wikimedia.org/w/index.php?curid=148383592
+- Raimond Spekking, CC BY-SA 4.0: https://commons.wikimedia.org/w/index.php?curid=73966505
+- 极客湾Geekerwan, CC BY 3.0: https://commons.wikimedia.org/w/index.php?curid=176762103
+- Tony Webster, CC BY 2.0: https://commons.wikimedia.org/w/index.php?curid=160477300
+Other images: public domain or CC0.
+
+Logos are trademarks of their respective owners, shown for identification only. This channel is independent and not affiliated with or endorsed by Intel Corporation or any company mentioned.
+
+This video is for educational purposes and is not financial advice.
+Made with the help of AI tools, including a synthetic narrator voice and AI-generated music (Google Lyria).
