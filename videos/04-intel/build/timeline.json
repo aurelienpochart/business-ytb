@@ -1,0 +1,526 @@
+{
+  "duration": 828.75,
+  "ident": 48.29,
+  "segments": [
+    {
+      "id": "c0p0",
+      "chapter": 0,
+      "chapter_title": "Hook",
+      "text": "In 2021, Intel sold seventy-nine billion dollars' worth of chips, and kept almost twenty billion of it as profit.",
+      "start": 0.3,
+      "end": 8.42
+    },
+    {
+      "id": "c0p1",
+      "chapter": 0,
+      "chapter_title": "Hook",
+      "text": "Three years later, it lost almost nineteen billion dollars in a single year.",
+      "start": 8.87,
+      "end": 13.87
+    },
+    {
+      "id": "c0p2",
+      "chapter": 0,
+      "chapter_title": "Hook",
+      "text": "For half a century, Intel set the pace for the whole chip industry. It put a computer's brain on a single chip, and its processors ran most of the world's PCs and servers.",
+      "start": 14.32,
+      "end": 26.0
+    },
+    {
+      "id": "c0p3",
+      "chapter": 0,
+      "chapter_title": "Hook",
+      "text": "Today, a company that only makes chips for others, TSMC, sells more than twice as much as Intel. And the US government owns about a tenth of it.",
+      "start": 26.45,
+      "end": 35.97
+    },
+    {
+      "id": "c0p4",
+      "chapter": 0,
+      "chapter_title": "Hook",
+      "text": "How do you lose a crown like that? Not in one bad year. It took a string of decisions that each looked reasonable at the time.",
+      "start": 36.42,
+      "end": 44.7
+    },
+    {
+      "id": "c0p5",
+      "chapter": 0,
+      "chapter_title": "Hook",
+      "text": "So let's go back to the beginning, and watch it happen.",
+      "start": 45.15,
+      "end": 47.99
+    },
+    {
+      "id": "c1p0",
+      "chapter": 1,
+      "chapter_title": "The crown",
+      "text": "Intel was founded in 1968 by Robert Noyce and Gordon Moore, in what would soon be called Silicon Valley. In 1971, it released the 4004, which Intel calls the world's first programmable microprocessor: the brain of a computer, on one chip.",
+      "start": 51.59,
+      "end": 72.07
+    },
+    {
+      "id": "c1p1",
+      "chapter": 1,
+      "chapter_title": "The crown",
+      "text": "But for its first years, Intel was mostly a memory company. Then Japanese rivals started selling memory chips for less. In 1985, Intel made what it calls \"the difficult but smart decision\" to stop making them.",
+      "start": 72.52,
+      "end": 87.68
+    },
+    {
+      "id": "c1p2",
+      "chapter": 1,
+      "chapter_title": "The crown",
+      "text": "Andy Grove, Intel's president at the time, later told the story. He asked Gordon Moore what a new boss would do if the board threw them out. Moore's answer: get out of memory. So they did it themselves.",
+      "start": 88.13,
+      "end": 100.41
+    },
+    {
+      "id": "c1p3",
+      "chapter": 1,
+      "chapter_title": "The crown",
+      "text": "That left the microprocessor. And Intel already had the best customer in the world. In 1981, IBM had picked an Intel processor for its first personal computer. Every PC built to be compatible with IBM's needed a chip compatible with Intel's.",
+      "start": 100.86,
+      "end": 120.82
+    },
+    {
+      "id": "c1p4",
+      "chapter": 1,
+      "chapter_title": "The crown",
+      "text": "In 1991, Intel launched \"Intel Inside\", an advertising campaign for a part most buyers would never see.",
+      "start": 121.27,
+      "end": 129.71
+    },
+    {
+      "id": "c1p5",
+      "chapter": 1,
+      "chapter_title": "The crown",
+      "text": "But the real secret was the factory. Intel designed its chips and made them itself, and for decades its factories were the best on earth. Roughly every two years, it shrank its transistors and left rivals a step behind.",
+      "start": 130.16,
+      "end": 144.4
+    },
+    {
+      "id": "c1p6",
+      "chapter": 1,
+      "chapter_title": "The crown",
+      "text": "In 2005, even Apple announced it would put Intel chips in its Macs. In servers, by 2017, its old rival AMD was down to less than one percent of the market, by its own boss's count.",
+      "start": 144.85,
+      "end": 159.69
+    },
+    {
+      "id": "c1p7",
+      "chapter": 1,
+      "chapter_title": "The crown",
+      "text": "And it showed in the accounts. As late as 2021, Intel kept about fifty-five cents of gross profit on every dollar of sales.",
+      "start": 160.14,
+      "end": 168.94
+    },
+    {
+      "id": "c1p8",
+      "chapter": 1,
+      "chapter_title": "The crown",
+      "text": "But while Intel was winning the desk, a new computer was about to land in everybody's pocket.",
+      "start": 169.39,
+      "end": 175.11
+    },
+    {
+      "id": "c2p0",
+      "chapter": 2,
+      "chapter_title": "The phone it passed on",
+      "text": "In June 2006, Intel sold its business making processors for phones and handheld devices to a company called Marvell, for six hundred million dollars.",
+      "start": 176.21,
+      "end": 187.45
+    },
+    {
+      "id": "c2p1",
+      "chapter": 2,
+      "chapter_title": "The phone it passed on",
+      "text": "Seven months later, Steve Jobs unveiled the iPhone.",
+      "start": 187.9,
+      "end": 192.1
+    },
+    {
+      "id": "c2p2",
+      "chapter": 2,
+      "chapter_title": "The phone it passed on",
+      "text": "Intel could have been inside it. In 2013, its outgoing chief executive, Paul Otellini, told The Atlantic that Apple wanted a chip at a certain price, \"and not a nickel more\". That price was below what Intel expected the chip to cost to make.",
+      "start": 192.55,
+      "end": 209.35
+    },
+    {
+      "id": "c2p3",
+      "chapter": 2,
+      "chapter_title": "The phone it passed on",
+      "text": "His words: \"I couldn't see it.\" And then: \"In hindsight, the forecasted cost was wrong and the volume was 100x what anyone thought.\"",
+      "start": 209.8,
+      "end": 218.88
+    },
+    {
+      "id": "c2p4",
+      "chapter": 2,
+      "chapter_title": "The phone it passed on",
+      "text": "Phones ended up running on someone else's designs. Arm, a British company that licenses chip blueprints, says its processor designs are inside more than ninety-nine percent of the smartphones sold today.",
+      "start": 219.33,
+      "end": 232.41
+    },
+    {
+      "id": "c2p5",
+      "chapter": 2,
+      "chapter_title": "The phone it passed on",
+      "text": "Intel did try to catch up, with its low-power Atom chips. To get them into tablets, it helped pay device makers' costs. In 2014, its chips went into forty-six million tablets, and its mobile division lost four point two billion dollars.",
+      "start": 232.86,
+      "end": 250.46
+    },
+    {
+      "id": "c2p6",
+      "chapter": 2,
+      "chapter_title": "The phone it passed on",
+      "text": "In the last three months of that year, the division's revenue was actually negative. It paid out more than it took in.",
+      "start": 250.91,
+      "end": 258.11
+    },
+    {
+      "id": "c2p7",
+      "chapter": 2,
+      "chapter_title": "The phone it passed on",
+      "text": "In 2016, Intel cancelled its next phone chips. In 2019, it sold most of its smartphone modem business to Apple, for about one billion dollars.",
+      "start": 258.56,
+      "end": 268.92
+    },
+    {
+      "id": "c2p8",
+      "chapter": 2,
+      "chapter_title": "The phone it passed on",
+      "text": "Why does missing phones matter so much? Because in chipmaking, volume is everything. Each new generation of factories costs more than the last, and the company that makes the most chips learns fastest and can afford the next one. Billions of phones handed that volume to the chipmakers that served them, and above all to TSMC.",
+      "start": 269.37,
+      "end": 290.73
+    },
+    {
+      "id": "c2p9",
+      "chapter": 2,
+      "chapter_title": "The phone it passed on",
+      "text": "Intel didn't feel it yet. PCs and servers still made a fortune. The bill arrived through its factories.",
+      "start": 291.18,
+      "end": 297.14
+    },
+    {
+      "id": "c3p0",
+      "chapter": 3,
+      "chapter_title": "The tipping point: the factories slip",
+      "text": "Intel's rhythm had been simple: a new manufacturing process roughly every two years. Then it hit ten nanometers.",
+      "start": 298.24,
+      "end": 305.84
+    },
+    {
+      "id": "c3p1",
+      "chapter": 3,
+      "chapter_title": "The tipping point: the factories slip",
+      "text": "In 2013, Intel said its ten-nanometer chips could reach the market by 2015. That slipped to 2016, then to the second half of 2017. Real volume only came in 2019.",
+      "start": 306.29,
+      "end": 320.21
+    },
+    {
+      "id": "c3p2",
+      "chapter": 3,
+      "chapter_title": "The tipping point: the factories slip",
+      "text": "Meanwhile, TSMC started volume production of its seven-nanometer process in 2018, and five nanometers in 2020.",
+      "start": 320.66,
+      "end": 330.58
+    },
+    {
+      "id": "c3p3",
+      "chapter": 3,
+      "chapter_title": "The tipping point: the factories slip",
+      "text": "One warning: those names no longer measure anything physical. Intel's ten nanometers roughly matched TSMC's seven, and Intel later renamed it \"Intel 7\". But for the first time, the most advanced factories in the world weren't Intel's.",
+      "start": 331.03,
+      "end": 346.79
+    },
+    {
+      "id": "c3p4",
+      "chapter": 3,
+      "chapter_title": "The tipping point: the factories slip",
+      "text": "Then, in July 2020, Intel admitted that its next process, seven nanometers, was trending about twelve months behind its internal target. The first products would slip by about six months. The next day, its shares closed down sixteen percent.",
+      "start": 347.24,
+      "end": 363.8
+    },
+    {
+      "id": "c3p5",
+      "chapter": 3,
+      "chapter_title": "The tipping point: the factories slip",
+      "text": "That same summer, Apple announced it would stop using Intel processors in its Macs, and switch to chips of its own design, built by TSMC. Fifteen years after it had joined Intel.",
+      "start": 364.25,
+      "end": 375.93
+    },
+    {
+      "id": "c3p6",
+      "chapter": 3,
+      "chapter_title": "The tipping point: the factories slip",
+      "text": "And AMD? It had spun off its own factories back in 2009. So when TSMC took the lead, AMD's chips took it too.",
+      "start": 376.38,
+      "end": 386.5
+    },
+    {
+      "id": "c3p7",
+      "chapter": 3,
+      "chapter_title": "The tipping point: the factories slip",
+      "text": "By early 2026, according to the research firm Mercury Research, AMD earned forty-six percent of all the money spent on x86 server processors. Up from less than one percent in 2017.",
+      "start": 386.95,
+      "end": 401.39
+    },
+    {
+      "id": "c3p8",
+      "chapter": 3,
+      "chapter_title": "The tipping point: the factories slip",
+      "text": "This was the tipping point. Intel's great advantage, making its own chips, had become its biggest weakness. When its factories fell behind, every Intel product fell behind with them. Its rivals could simply rent the best factories in the world.",
+      "start": 401.84,
+      "end": 417.16
+    },
+    {
+      "id": "c4p0",
+      "chapter": 4,
+      "chapter_title": "The AI wave goes elsewhere",
+      "text": "And then came the biggest wave of all.",
+      "start": 418.26,
+      "end": 420.38
+    },
+    {
+      "id": "c4p1",
+      "chapter": 4,
+      "chapter_title": "The AI wave goes elsewhere",
+      "text": "In 2005, according to The New York Times, Paul Otellini proposed buying Nvidia, for as much as twenty billion dollars. The board pushed back, and Intel built its own graphics chip instead, a project it later cancelled.",
+      "start": 420.83,
+      "end": 434.87
+    },
+    {
+      "id": "c4p2",
+      "chapter": 4,
+      "chapter_title": "The AI wave goes elsewhere",
+      "text": "Around 2017, Reuters reported, Intel discussed buying fifteen percent of a small lab called OpenAI for one billion dollars. It walked away.",
+      "start": 435.32,
+      "end": 446.32
+    },
+    {
+      "id": "c4p3",
+      "chapter": 4,
+      "chapter_title": "The AI wave goes elsewhere",
+      "text": "When artificial intelligence took off, the chips everyone wanted were Nvidia's, made by TSMC. We told that story in our Nvidia video.",
+      "start": 446.77,
+      "end": 455.85
+    },
+    {
+      "id": "c4p4",
+      "chapter": 4,
+      "chapter_title": "The AI wave goes elsewhere",
+      "text": "Intel's own AI chip, called Gaudi, had a modest goal: five hundred million dollars of sales in 2024. In October of that year, Intel said it wouldn't reach it.",
+      "start": 456.3,
+      "end": 467.1
+    },
+    {
+      "id": "c4p5",
+      "chapter": 4,
+      "chapter_title": "The AI wave goes elsewhere",
+      "text": "So by the early 2020s, Intel had missed phones, lost its manufacturing lead, and missed the AI boom. Someone had to try something drastic.",
+      "start": 467.55,
+      "end": 477.35
+    },
+    {
+      "id": "c5p0",
+      "chapter": 5,
+      "chapter_title": "The big bet",
+      "text": "In 2021, Intel brought back Pat Gelsinger, an engineer who had spent thirty years at the company.",
+      "start": 478.45,
+      "end": 485.13
+    },
+    {
+      "id": "c5p1",
+      "chapter": 5,
+      "chapter_title": "The big bet",
+      "text": "His plan was called IDM 2.0. Win back the manufacturing lead, and open Intel's factories to other chip companies, the way TSMC does. It started with twenty billion dollars for two new factories in Arizona. Then came a new site in Ohio, about twenty-eight billion dollars for its first phase. And a promise: five new manufacturing processes in four years.",
+      "start": 485.58,
+      "end": 511.46
+    },
+    {
+      "id": "c5p2",
+      "chapter": 5,
+      "chapter_title": "The big bet",
+      "text": "Washington wanted more chips made at home, too. Under the CHIPS Act, Intel's award was finalized in November 2024: up to seven point eight six billion dollars.",
+      "start": 511.91,
+      "end": 522.27
+    },
+    {
+      "id": "c5p3",
+      "chapter": 5,
+      "chapter_title": "The big bet",
+      "text": "But the bill came first.",
+      "start": 522.72,
+      "end": 524.44
+    },
+    {
+      "id": "c5p4",
+      "chapter": 5,
+      "chapter_title": "The big bet",
+      "text": "Intel's factory business, now called Intel Foundry, lost seven billion dollars in 2023. Then thirteen point three billion in 2024. Then ten point three billion in 2025. More than thirty billion dollars in three years.",
+      "start": 524.89,
+      "end": 543.25
+    },
+    {
+      "id": "c5p5",
+      "chapter": 5,
+      "chapter_title": "The big bet",
+      "text": "And the rest of Intel was selling less. Revenue fell from seventy-nine billion dollars in 2021 to fifty-three billion in 2024.",
+      "start": 543.7,
+      "end": 552.74
+    },
+    {
+      "id": "c5p6",
+      "chapter": 5,
+      "chapter_title": "The big bet",
+      "text": "In August 2024, Intel announced it would cut fifteen percent of its workforce, and suspended its dividend. The next day, its shares fell twenty-six percent, their worst day since 1974.",
+      "start": 553.19,
+      "end": 569.51
+    },
+    {
+      "id": "c5p7",
+      "chapter": 5,
+      "chapter_title": "The big bet",
+      "text": "That year, Intel lost eighteen point eight billion dollars. Its shares lost about sixty percent, their worst year since it went public in 1971.",
+      "start": 569.96,
+      "end": 582.44
+    },
+    {
+      "id": "c5p8",
+      "chapter": 5,
+      "chapter_title": "The big bet",
+      "text": "In December 2024, Gelsinger left. Intel called it a retirement. Bloomberg reported that the board had forced him out, frustrated by slow progress. In February 2025, the first Ohio factory was pushed back to 2030 at the earliest.",
+      "start": 582.89,
+      "end": 601.77
+    },
+    {
+      "id": "c6p0",
+      "chapter": 6,
+      "chapter_title": "The rescue",
+      "text": "In March 2025, Intel named a new chief executive, Lip-Bu Tan, a chip industry veteran who had sat on Intel's board.",
+      "start": 602.87,
+      "end": 612.11
+    },
+    {
+      "id": "c6p1",
+      "chapter": 6,
+      "chapter_title": "The rescue",
+      "text": "He cut hard. Intel went from about one hundred and nine thousand employees at the end of 2024 to about eighty-five thousand a year later, partly by selling businesses. One of them was Altera, a chip company Intel had bought in 2015 for sixteen point seven billion dollars. It sold a majority stake at a valuation of eight point seven five billion.",
+      "start": 612.56,
+      "end": 637.04
+    },
+    {
+      "id": "c6p2",
+      "chapter": 6,
+      "chapter_title": "The rescue",
+      "text": "Then money arrived from unusual places.",
+      "start": 637.49,
+      "end": 639.89
+    },
+    {
+      "id": "c6p3",
+      "chapter": 6,
+      "chapter_title": "The rescue",
+      "text": "In August 2025, SoftBank agreed to invest two billion dollars.",
+      "start": 640.34,
+      "end": 645.38
+    },
+    {
+      "id": "c6p4",
+      "chapter": 6,
+      "chapter_title": "The rescue",
+      "text": "Days later, the US government agreed to take a nine point nine percent stake, for eight point nine billion dollars, paid mostly with CHIPS Act grants that had already been promised to Intel.",
+      "start": 645.83,
+      "end": 658.83
+    },
+    {
+      "id": "c6p5",
+      "chapter": 6,
+      "chapter_title": "The rescue",
+      "text": "And in September, the company that had taken the AI crown, Nvidia, agreed to invest five billion dollars, and to build products together with Intel.",
+      "start": 659.28,
+      "end": 668.2
+    },
+    {
+      "id": "c6p6",
+      "chapter": 6,
+      "chapter_title": "The rescue",
+      "text": "The factories finally had some good news, too. In October 2025, Intel said its newest Arizona factory was running its 18A process, which it calls the most advanced chipmaking technology developed and manufactured in the United States. The first laptops built on it went on sale in January 2026.",
+      "start": 668.65,
+      "end": 692.29
+    },
+    {
+      "id": "c6p7",
+      "chapter": 6,
+      "chapter_title": "The rescue",
+      "text": "The missing piece is outside customers. In May 2026, The Wall Street Journal reported that Apple and Intel had reached a preliminary deal for Intel to make some Apple chips. In June, President Trump said Apple would work with Intel. Neither company has published any terms.",
+      "start": 692.74,
+      "end": 712.86
+    },
+    {
+      "id": "c7p0",
+      "chapter": 7,
+      "chapter_title": "Where Intel stands now",
+      "text": "So, where does that leave Intel?",
+      "start": 713.96,
+      "end": 715.56
+    },
+    {
+      "id": "c7p1",
+      "chapter": 7,
+      "chapter_title": "Where Intel stands now",
+      "text": "In 2025, its revenue was fifty-two point nine billion dollars, flat on the year before. TSMC's was one hundred and twenty-two billion, with a gross margin of almost sixty percent. Intel's was under thirty-five. The margins have swapped places.",
+      "start": 716.01,
+      "end": 735.05
+    },
+    {
+      "id": "c7p2",
+      "chapter": 7,
+      "chapter_title": "Where Intel stands now",
+      "text": "But 2026 has been kinder. Between July and September, Intel's revenue grew twenty-one percent, to sixteen point five billion dollars. Its data center business grew seventy-eight percent, and Intel made a profit again: three point three billion dollars. The AI boom, it turns out, also needs ordinary processors alongside the AI chips. Yet in the same quarter, Intel Foundry still lost one point eight five billion dollars.",
+      "start": 735.5,
+      "end": 763.26
+    },
+    {
+      "id": "c7p3",
+      "chapter": 7,
+      "chapter_title": "Where Intel stands now",
+      "text": "So how did Intel lose the chip crown?",
+      "start": 763.71,
+      "end": 765.91
+    },
+    {
+      "id": "c7p4",
+      "chapter": 7,
+      "chapter_title": "Where Intel stands now",
+      "text": "Not through one mistake. It passed on the phone, and with it, the biggest source of chip volume in history. Its factories slipped, just as TSMC's pulled ahead. Its rivals simply rented TSMC's lead. And the AI boom arrived on someone else's chips.",
+      "start": 766.36,
+      "end": 785.56
+    },
+    {
+      "id": "c7p5",
+      "chapter": 7,
+      "chapter_title": "Where Intel stands now",
+      "text": "What made Intel great, designing and making its own chips, is exactly what made the fall so steep.",
+      "start": 786.01,
+      "end": 792.17
+    },
+    {
+      "id": "c7p6",
+      "chapter": 7,
+      "chapter_title": "Where Intel stands now",
+      "text": "Its comeback now rests on one question: will other companies trust Intel to make their chips? Investors have already placed their bets. In 2026, Intel's share price passed its old record from the year 2000. But in chips, the crown doesn't go to the company with the best story. It goes to whoever makes the most advanced chips, in the biggest volumes, at the lowest cost. For now, that's TSMC.",
+      "start": 792.62,
+      "end": 818.46
+    },
+    {
+      "id": "c7p7",
+      "chapter": 7,
+      "chapter_title": "Where Intel stands now",
+      "text": "And the lesson goes beyond Intel. In an industry that runs on a cost curve, losing the volume comes first. Losing the lead just takes a little longer.",
+      "start": 818.91,
+      "end": 827.75
+    }
+  ]
+}
