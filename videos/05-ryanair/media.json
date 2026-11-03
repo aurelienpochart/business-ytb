@@ -1,186 +1,416 @@
 [
  {
   "id": "logo_ryanair",
-  "title": "File:Ryanair wordmark.svg"
+  "title": "File:Ryanair wordmark.svg",
+  "file": "media/logo_ryanair.svg",
+  "license": "Public domain",
+  "artist": "Ryanair Holdings plc",
+  "restrictions": "trademarked",
+  "page": "https://commons.wikimedia.org/wiki/File:Ryanair_wordmark.svg"
  },
  {
   "id": "logo_ryanair_full",
-  "title": "File:Ryanair logo.svg"
+  "title": "File:Ryanair logo.svg",
+  "file": "media/logo_ryanair_full.svg",
+  "license": "Public domain",
+  "artist": "Originally uploaded by Edmedmoped (Transferred by Trixt.).",
+  "restrictions": "trademarked",
+  "page": "https://commons.wikimedia.org/wiki/File:Ryanair_logo.svg"
  },
  {
   "id": "logo_boeing",
-  "title": "File:Boeing wordmark.svg"
+  "title": "File:Boeing wordmark.svg",
+  "file": "media/logo_boeing.svg",
+  "license": "Public domain",
+  "artist": "The Boeing Company",
+  "restrictions": "trademarked",
+  "page": "https://commons.wikimedia.org/wiki/File:Boeing_wordmark.svg"
  },
  {
   "id": "logo_wizz",
-  "title": "File:Wizz Air logo.svg"
+  "title": "File:Wizz Air logo.svg",
+  "file": "media/logo_wizz.svg",
+  "license": "Public domain",
+  "artist": "Wizz Air",
+  "restrictions": "trademarked",
+  "page": "https://commons.wikimedia.org/wiki/File:Wizz_Air_logo.svg"
  },
  {
   "id": "logo_easyjet",
-  "title": "File:EasyJet logo.svg"
+  "title": "File:EasyJet logo.svg",
+  "file": "media/logo_easyjet.svg",
+  "license": "Public domain",
+  "artist": "easyJet.",
+  "restrictions": "trademarked",
+  "page": "https://commons.wikimedia.org/wiki/File:EasyJet_logo.svg"
  },
  {
   "id": "logo_lufthansa",
-  "title": "File:Lufthansa Logo 2018.svg"
+  "title": "File:Lufthansa Logo 2018.svg",
+  "file": "media/logo_lufthansa.svg",
+  "license": "Public domain",
+  "artist": "Lufthansa Group",
+  "restrictions": "trademarked",
+  "page": "https://commons.wikimedia.org/wiki/File:Lufthansa_Logo_2018.svg"
  },
  {
   "id": "logo_iag",
-  "title": "File:Logo IAG.svg"
+  "title": "File:Logo IAG.svg",
+  "file": "media/logo_iag.svg",
+  "license": "Public domain",
+  "artist": "International Consolidated Airlines Group S.A.",
+  "restrictions": "trademarked",
+  "page": "https://commons.wikimedia.org/wiki/File:Logo_IAG.svg"
  },
  {
   "id": "logo_afklm",
-  "title": "File:Air France-KLM.svg"
+  "title": "File:Air France-KLM.svg",
+  "file": "media/logo_afklm.svg",
+  "license": "Public domain",
+  "artist": "Air France-KLM",
+  "restrictions": "trademarked",
+  "page": "https://commons.wikimedia.org/wiki/File:Air_France-KLM.svg"
  },
  {
   "id": "logo_booking",
-  "title": "File:Booking.com Logo.svg"
+  "title": "File:Booking.com Logo.svg",
+  "file": "media/logo_booking.svg",
+  "license": "Public domain",
+  "artist": "Booking.com B.V.",
+  "restrictions": "trademarked",
+  "page": "https://commons.wikimedia.org/wiki/File:Booking.com_Logo.svg"
  },
  {
   "id": "takeoff",
-  "title": "File:Ryanair - Boeing 737-800 - EI-DCW - Orio al Serio International Airport-7869.jpg"
+  "title": "File:Ryanair - Boeing 737-800 - EI-DCW - Orio al Serio International Airport-7869.jpg",
+  "file": "media/takeoff.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "Raimond Spekking",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Ryanair_-_Boeing_737-800_-_EI-DCW_-_Orio_al_Serio_International_Airport-7869.jpg"
  },
  {
   "id": "belly",
-  "title": "File:Ryanair -- Boeing 737-800 -- EI-EKD (14556911509).jpg"
+  "title": "File:Ryanair -- Boeing 737-800 -- EI-EKD (14556911509).jpg",
+  "file": "media/belly.jpg",
+  "license": "CC BY 2.0",
+  "artist": "YuJeen from Riga, Latvia",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Ryanair_--_Boeing_737-800_--_EI-EKD_(14556911509).jpg"
  },
  {
   "id": "takeoff_pd",
-  "title": "File:EI-DCG Ryanair Boeing 737-8AS(WL) - cn 33805 takeoff from Schiphol pic1.JPG"
+  "title": "File:EI-DCG Ryanair Boeing 737-8AS(WL) - cn 33805 takeoff from Schiphol pic1.JPG",
+  "file": "media/takeoff_pd.jpg",
+  "license": "Public domain",
+  "artist": "Alf van Beem",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:EI-DCG_Ryanair_Boeing_737-8AS(WL)_-_cn_33805_takeoff_from_Schiphol_pic1.JPG"
  },
  {
   "id": "landing_close",
-  "title": "File:Ryanair Boeing 737-8AS ‘EI-DWG’ landing at Bristol Airport - April 2011.jpg"
+  "title": "File:Ryanair Boeing 737-8AS ‘EI-DWG’ landing at Bristol Airport - April 2011.jpg",
+  "file": "media/landing_close.jpg",
+  "license": "CC BY-SA 2.0",
+  "artist": "Andrew Thomas",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Ryanair_Boeing_737-8AS_%E2%80%98EI-DWG%E2%80%99_landing_at_Bristol_Airport_-_April_2011.jpg"
  },
  {
   "id": "landing_sky",
-  "title": "File:9H-QCF, Ryanair, Boeing 737-800 landing at Pisa airport.jpg"
+  "title": "File:9H-QCF, Ryanair, Boeing 737-800 landing at Pisa airport.jpg",
+  "file": "media/landing_sky.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "Daniele Napolitano",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:9H-QCF,_Ryanair,_Boeing_737-800_landing_at_Pisa_airport.jpg"
  },
  {
   "id": "landing_hahn",
-  "title": "File:EI-EKA Ryanair Boeing 737-8AS(WL), landing at Frankfurt-Hahn Airport, ICAO=EDFH, IATA=HHN.JPG"
+  "title": "File:EI-EKA Ryanair Boeing 737-8AS(WL), landing at Frankfurt-Hahn Airport, ICAO=EDFH, IATA=HHN.JPG",
+  "file": "media/landing_hahn.jpg",
+  "license": "CC0",
+  "artist": "Alf van Beem",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:EI-EKA_Ryanair_Boeing_737-8AS(WL),_landing_at_Frankfurt-Hahn_Airport,_ICAO%3DEDFH,_IATA%3DHHN.JPG"
  },
  {
   "id": "gc_close",
-  "title": "File:Boeing 737 MAX 8-200 - 9H-VVI from Ryanair close view.jpg"
+  "title": "File:Boeing 737 MAX 8-200 - 9H-VVI from Ryanair close view.jpg",
+  "file": "media/gc_close.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "Hugo LUC",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Boeing_737_MAX_8-200_-_9H-VVI_from_Ryanair_close_view.jpg"
  },
  {
   "id": "gc_night",
-  "title": "File:DAV 2777-Ryanair Boeing 737 MAX 8-200 SP-RZM.jpg"
+  "title": "File:DAV 2777-Ryanair Boeing 737 MAX 8-200 SP-RZM.jpg",
+  "file": "media/gc_night.jpg",
+  "license": "CC BY 4.0",
+  "artist": "DavidivardiIL",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:DAV_2777-Ryanair_Boeing_737_MAX_8-200_SP-RZM.jpg"
  },
  {
   "id": "gc_canaria",
-  "title": "File:Ryanair – Boeing 737 MAX 8-200 (EI-HET) at Gran Canaria Airport (GCLP) December 2024.jpg"
+  "title": "File:Ryanair – Boeing 737 MAX 8-200 (EI-HET) at Gran Canaria Airport (GCLP) December 2024.jpg",
+  "file": "media/gc_canaria.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "SDKmac",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Ryanair_%E2%80%93_Boeing_737_MAX_8-200_(EI-HET)_at_Gran_Canaria_Airport_(GCLP)_December_2024.jpg"
  },
  {
   "id": "boarding",
-  "title": "File:Embarque por escalerilla en un Boeing 737-800 de Ryanair.jpg"
+  "title": "File:Embarque por escalerilla en un Boeing 737-800 de Ryanair.jpg",
+  "file": "media/boarding.jpg",
+  "license": "CC0",
+  "artist": "Wilfredor",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Embarque_por_escalerilla_en_un_Boeing_737-800_de_Ryanair.jpg"
  },
  {
   "id": "cabin",
-  "title": "File:Interior Ryanair.jpeg"
+  "title": "File:Interior Ryanair.jpeg",
+  "file": "media/cabin.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "Robot8A",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Interior_Ryanair.jpeg"
  },
  {
   "id": "cabin_wide",
-  "title": "File:RyanAir B737 NG EI-GXN (4).jpg"
+  "title": "File:RyanAir B737 NG EI-GXN (4).jpg",
+  "file": "media/cabin_wide.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "Cdmafra",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:RyanAir_B737_NG_EI-GXN_(4).jpg"
  },
  {
   "id": "window",
-  "title": "File:Original 2023-05-17 203152.261.jpg"
+  "title": "File:Original 2023-05-17 203152.261.jpg",
+  "file": "media/window.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "Pri2101",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Original_2023-05-17_203152.261.jpg"
  },
  {
   "id": "hq",
-  "title": "File:Ryanair HQ.jpg"
+  "title": "File:Ryanair HQ.jpg",
+  "file": "media/hq.jpg",
+  "license": "CC BY-SA 3.0",
+  "artist": "GainLine",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Ryanair_HQ.jpg"
  },
  {
   "id": "wing_night",
-  "title": "File:Ryanair winglet over Tel Aviv.jpg"
+  "title": "File:Ryanair winglet over Tel Aviv.jpg",
+  "file": "media/wing_night.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "Davidi Vardi",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Ryanair_winglet_over_Tel_Aviv.jpg"
  },
  {
   "id": "apron_night",
-  "title": "File:Ryanair (Bologna) in 2025.01.jpg"
+  "title": "File:Ryanair (Bologna) in 2025.01.jpg",
+  "file": "media/apron_night.jpg",
+  "license": "CC0",
+  "artist": "CAPTAIN RAJU",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Ryanair_(Bologna)_in_2025.01.jpg"
  },
  {
   "id": "budapest",
-  "title": "File:Ryanair at LHBP.jpg"
+  "title": "File:Ryanair at LHBP.jpg",
+  "file": "media/budapest.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "Davidi Vardi",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Ryanair_at_LHBP.jpg"
  },
  {
   "id": "stansted_night",
-  "title": "File:EI-DPI, Boeing 737-800 of Ryanair at London Stansted Airport, 2015.jpg"
+  "title": "File:EI-DPI, Boeing 737-800 of Ryanair at London Stansted Airport, 2015.jpg",
+  "file": "media/stansted_night.jpg",
+  "license": "CC0",
+  "artist": "soynanii",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:EI-DPI,_Boeing_737-800_of_Ryanair_at_London_Stansted_Airport,_2015.jpg"
  },
  {
   "id": "oleary",
-  "title": "File:Michael O’Leary, CEO, Ryanair (16971013908).jpg"
+  "title": "File:Michael O’Leary, CEO, Ryanair (16971013908).jpg",
+  "file": "media/oleary.jpg",
+  "license": "CC BY 2.0",
+  "artist": "World Travel &amp; Tourism Council",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Michael_O%E2%80%99Leary,_CEO,_Ryanair_(16971013908).jpg"
  },
  {
   "id": "charleroi",
-  "title": "File:Aeroport de Charleroi Bruxelles Sud.jpg"
+  "title": "File:Aeroport de Charleroi Bruxelles Sud.jpg",
+  "file": "media/charleroi.jpg",
+  "license": "CC BY 3.0",
+  "artist": "Fernandopascullo",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Aeroport_de_Charleroi_Bruxelles_Sud.jpg"
  },
  {
   "id": "charleroi_plane",
-  "title": "File:Boeing 737-8AS (EI-GSI) of Raynair at Charleroi-Brussels South Airport, 2025.jpg"
+  "title": "File:Boeing 737-8AS (EI-GSI) of Raynair at Charleroi-Brussels South Airport, 2025.jpg",
+  "file": "media/charleroi_plane.jpg",
+  "license": "CC0",
+  "artist": "Hotolmo22",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Boeing_737-8AS_(EI-GSI)_of_Raynair_at_Charleroi-Brussels_South_Airport,_2025.jpg"
  },
  {
   "id": "bergamo_night",
-  "title": "File:Boeing 737 MAX 8-200 (9H-VUH) di Ryanair all'aeroporto di Bergamo-Orio al Serio, 2025.jpg"
+  "title": "File:Boeing 737 MAX 8-200 (9H-VUH) di Ryanair all'aeroporto di Bergamo-Orio al Serio, 2025.jpg",
+  "file": "media/bergamo_night.jpg",
+  "license": "CC0",
+  "artist": "Hotolmo22",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Boeing_737_MAX_8-200_(9H-VUH)_di_Ryanair_all%27aeroporto_di_Bergamo-Orio_al_Serio,_2025.jpg"
  },
  {
   "id": "bergamo_boarding",
-  "title": "File:EI-DWY, Boeing 737-800 of Ryanair at Orio al Serio International Airport, 2008.jpg"
+  "title": "File:EI-DWY, Boeing 737-800 of Ryanair at Orio al Serio International Airport, 2008.jpg",
+  "file": "media/bergamo_boarding.jpg",
+  "license": "CC BY-SA 3.0",
+  "artist": "Paul Lenz",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:EI-DWY,_Boeing_737-800_of_Ryanair_at_Orio_al_Serio_International_Airport,_2008.jpg"
  },
  {
   "id": "angouleme",
-  "title": "File:Angou airport5.JPG"
+  "title": "File:Angou airport5.JPG",
+  "file": "media/angouleme.jpg",
+  "license": "CC BY-SA 3.0",
+  "artist": "Jack ma",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Angou_airport5.JPG"
  },
  {
   "id": "renton",
-  "title": "File:Boeing Plant in Renton, 5-18-2010 (4622746048).jpg"
+  "title": "File:Boeing Plant in Renton, 5-18-2010 (4622746048).jpg",
+  "file": "media/renton.jpg",
+  "license": "Public domain",
+  "artist": "U.S. Department of the Treasury",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Boeing_Plant_in_Renton,_5-18-2010_(4622746048).jpg"
  },
  {
   "id": "max_boeing",
-  "title": "File:Boeing, N8701Q, Boeing 737-8 MAX (2).jpg"
+  "title": "File:Boeing, N8701Q, Boeing 737-8 MAX (2).jpg",
+  "file": "media/max_boeing.jpg",
+  "license": "CC BY-SA 2.0",
+  "artist": "John Crowley from Seattle, WA, USA",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Boeing,_N8701Q,_Boeing_737-8_MAX_(2).jpg"
  },
  {
   "id": "refuel",
-  "title": "File:IBE-refueling-gua.jpg"
+  "title": "File:IBE-refueling-gua.jpg",
+  "file": "media/refuel.jpg",
+  "license": "CC BY-SA 3.0",
+  "artist": "FDV",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:IBE-refueling-gua.jpg"
  },
  {
   "id": "refuel_truck",
-  "title": "File:SWISS International Air Lines A220-300 (HB-JCI) being refueled.jpg"
+  "title": "File:SWISS International Air Lines A220-300 (HB-JCI) being refueled.jpg",
+  "file": "media/refuel_truck.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "Stimpy",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:SWISS_International_Air_Lines_A220-300_(HB-JCI)_being_refueled.jpg"
  },
  {
   "id": "checkin",
-  "title": "File:Self Check-in and Baggage Drop Kiosks at Wuhan Tianhe Airport.jpg"
+  "title": "File:Self Check-in and Baggage Drop Kiosks at Wuhan Tianhe Airport.jpg",
+  "file": "media/checkin.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "Zheng Zhou",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Self_Check-in_and_Baggage_Drop_Kiosks_at_Wuhan_Tianhe_Airport.jpg"
  },
  {
   "id": "checkin_kiosks",
-  "title": "File:Self check-in kiosks at CAE Dongzhimen Station (20211201125220).jpg"
+  "title": "File:Self check-in kiosks at CAE Dongzhimen Station (20211201125220).jpg",
+  "file": "media/checkin_kiosks.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "N509FZ",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Self_check-in_kiosks_at_CAE_Dongzhimen_Station_(20211201125220).jpg"
  },
  {
   "id": "bordeaux",
-  "title": "File:Bordeaux-Mérignac Airport.jpg"
+  "title": "File:Bordeaux-Mérignac Airport.jpg",
+  "file": "media/bordeaux.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "kallerna",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Bordeaux-M%C3%A9rignac_Airport.jpg"
  },
  {
   "id": "eu_parliament",
-  "title": "File:European Parliament Strasbourg Hemicycle - Diliff.jpg"
+  "title": "File:European Parliament Strasbourg Hemicycle - Diliff.jpg",
+  "file": "media/eu_parliament.jpg",
+  "license": "CC BY-SA 3.0",
+  "artist": "Diliff",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:European_Parliament_Strasbourg_Hemicycle_-_Diliff.jpg"
  },
  {
   "id": "berlaymont",
-  "title": "File:Belgique - Bruxelles - Schuman - Berlaymont - 01.jpg"
+  "title": "File:Belgique - Bruxelles - Schuman - Berlaymont - 01.jpg",
+  "file": "media/berlaymont.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "EmDee",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Belgique_-_Bruxelles_-_Schuman_-_Berlaymont_-_01.jpg"
  },
  {
   "id": "cockpit",
-  "title": "File:Captain and first officier in 737-800 (15689925313).jpg"
+  "title": "File:Captain and first officier in 737-800 (15689925313).jpg",
+  "file": "media/cockpit.jpg",
+  "license": "CC BY-SA 2.0",
+  "artist": "Eric Salard",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Captain_and_first_officier_in_737-800_(15689925313).jpg"
  },
  {
   "id": "departures",
-  "title": "File:Departures Board at the Paris Charles de Gaulle Airport (CDG), Roissy, France (4004735771).jpg"
+  "title": "File:Departures Board at the Paris Charles de Gaulle Airport (CDG), Roissy, France (4004735771).jpg",
+  "file": "media/departures.jpg",
+  "license": "CC BY 2.0",
+  "artist": "Charles from Port Chester, New York",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Departures_Board_at_the_Paris_Charles_de_Gaulle_Airport_(CDG),_Roissy,_France_(4004735771).jpg"
  },
  {
   "id": "refinery",
-  "title": "File:Mina-Al-Ahmadi oil refinery night.jpg"
+  "title": "File:Mina-Al-Ahmadi oil refinery night.jpg",
+  "file": "media/refinery.jpg",
+  "license": "Public domain",
+  "artist": "Grubb (talk)",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Mina-Al-Ahmadi_oil_refinery_night.jpg"
  },
  {
   "id": "vienna",
-  "title": "File:Vienna International Airport from the Air Traffic Control Tower 05.jpg"
+  "title": "File:Vienna International Airport from the Air Traffic Control Tower 05.jpg",
+  "file": "media/vienna.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "Stanislav Doronenko",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Vienna_International_Airport_from_the_Air_Traffic_Control_Tower_05.jpg"
  }
 ]
