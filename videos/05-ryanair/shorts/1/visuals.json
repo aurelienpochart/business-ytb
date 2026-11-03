@@ -1,0 +1,210 @@
+[
+ {
+  "at": "p0",
+  "type": "shot",
+  "props": {
+   "photo": "takeoff",
+   "focus": "40% 50%",
+   "logo": "logo_ryanair",
+   "kicker": "Ryanair sale, April 2026",
+   "number": "€14.99",
+   "numberDelay": {
+    "$t": "fourteen euros",
+    "offset": -0.1
+   },
+   "color": "gold",
+   "label": "one-way, on selected flights",
+   "source": "Connexion (Apr. 2026)"
+  }
+ },
+ {
+  "at": "p0",
+  "after": "Here's the strange part",
+  "type": "shot",
+  "props": {
+   "photo": "takeoff_pd",
+   "dim": 0.74,
+   "icon": "Ticket",
+   "color": "gold",
+   "text": "Here's *the strange part*"
+  }
+ },
+ {
+  "at": "p1",
+  "type": "shot",
+  "props": {
+   "photo": "cabin",
+   "dim": 0.72,
+   "kicker": "Year to March 2026",
+   "number": "€51",
+   "numberDelay": {
+    "$t": "fifty-one",
+    "offset": -0.1
+   },
+   "color": "teal",
+   "label": "the average ticket",
+   "source": "Ryanair FY26 results (May 2026); our calculation"
+  }
+ },
+ {
+  "at": "p1",
+  "after": "Flying each",
+  "type": "shot",
+  "props": {
+   "photo": "gc_close",
+   "dim": 0.74,
+   "kicker": "Year to March 2026",
+   "number": "€63",
+   "numberDelay": {
+    "$t": "sixty-three",
+    "offset": -0.1
+   },
+   "color": "brick",
+   "label": "to fly each passenger",
+   "sub": "our calculation",
+   "source": "Ryanair FY26 results (May 2026); our calculation"
+  }
+ },
+ {
+  "at": "p2",
+  "type": "shot",
+  "props": {
+   "photo": "apron_night",
+   "dim": 0.7,
+   "kicker": "On the ticket alone",
+   "number": "−€12",
+   "numberDelay": {
+    "$t": "twelve euros",
+    "offset": -0.1
+   },
+   "color": "brick",
+   "label": "short, per passenger",
+   "compare": [
+    {
+     "label": "Ticket",
+     "value": 51,
+     "display": "€51",
+     "color": "teal",
+     "delay": 0.3
+    },
+    {
+     "label": "Cost",
+     "value": 63,
+     "display": "€63",
+     "color": "brick",
+     "delay": 0.6
+    }
+   ],
+   "source": "Ryanair FY26 results (May 2026); our calculation"
+  }
+ },
+ {
+  "at": "p3",
+  "type": "shot",
+  "props": {
+   "photo": "cabin",
+   "dim": 0.8,
+   "header": {
+    "number": "Extras",
+    "label": "after you've chosen",
+    "color": "gold"
+   },
+   "items": [
+    {
+     "icon": "Luggage",
+     "label": "A bigger bag",
+     "color": "gold",
+     "delay": {
+      "$t": "a bigger bag",
+      "offset": -0.2
+     }
+    },
+    {
+     "icon": "Armchair",
+     "label": "A seat",
+     "color": "gold",
+     "delay": {
+      "$t": "a seat",
+      "offset": -0.2
+     }
+    },
+    {
+     "icon": "Timer",
+     "label": "Priority boarding",
+     "color": "gold",
+     "delay": {
+      "$t": "priority boarding",
+      "offset": -0.2
+     }
+    }
+   ]
+  }
+ },
+ {
+  "at": "p3",
+  "after": "About twenty-four",
+  "type": "shot",
+  "props": {
+   "photo": "gc_canaria",
+   "dim": 0.74,
+   "icon": "ShoppingBag",
+   "number": "€24",
+   "numberDelay": {
+    "$t": "twenty-four",
+    "offset": -0.1
+   },
+   "color": "gold",
+   "label": "of extras per passenger",
+   "sub": "a third of everything Ryanair earns",
+   "source": "Ryanair FY26 results (May 2026)"
+  }
+ },
+ {
+  "at": "p4",
+  "type": "shot",
+  "props": {
+   "photo": "apron_night",
+   "dim": 0.74,
+   "icon": "Gauge",
+   "color": "gold",
+   "text": "The lowest costs in Europe, *by Ryanair's own count*",
+   "source": "Ryanair FY26 results presentation"
+  }
+ },
+ {
+  "at": "p4",
+  "after": "and about eleven",
+  "type": "shot",
+  "props": {
+   "photo": "wing_night",
+   "dim": 0.7,
+   "logo": "logo_ryanair",
+   "number": "€11",
+   "numberDelay": {
+    "$t": "eleven euros",
+    "offset": -0.1
+   },
+   "color": "gold",
+   "label": "of profit per passenger",
+   "sub": "year to March 2026 · our calculation",
+   "source": "Ryanair FY26 results (May 2026); our calculation"
+  }
+ },
+ {
+  "at": "p5",
+  "type": "shot",
+  "props": {
+   "photo": "landing_hahn",
+   "dim": 0.7,
+   "icon": "Plane",
+   "color": "gold",
+   "text": "The cheapest seat is rarely *why the plane makes money*"
+  }
+ },
+ {
+  "at": "p5",
+  "after": "Full story",
+  "type": "endcard",
+  "props": {}
+ }
+]

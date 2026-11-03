@@ -1,0 +1,57 @@
+{
+  "title": "How Ryanair Makes Money on €15 Flights",
+  "summary": "Ryanair sells seats from €14.99, and by our calculation from its own accounts the average ticket doesn't even cover the cost of flying you. Yet it made €2.15 billion of profit this summer. We follow one cheap ticket from the search page to the runway, stop by stop, and keep the receipt: the extras, the fees, the airports that pay to be chosen, the Boeings bought in bad times, and the fuel bill that just cut its profit by 15%. Main sources below.",
+  "chapter_titles": {
+    "0": "A €15 ticket and a €2.15B profit",
+    "1": "Stop 1: The price on the screen",
+    "2": "Stop 2: Checkout",
+    "3": "Stop 3: Check-in",
+    "4": "Stop 4: An airport that wanted you",
+    "5": "Stop 5: The plane",
+    "6": "Stop 6: In the air",
+    "7": "Stop 7: The crew",
+    "8": "Landing: the receipt"
+  },
+  "sources": [
+    "Ryanair H1 FY27 results (Nov. 2, 2026): https://investor.ryanair.com/wp-content/uploads/2026/10/H1-FY27-Ryanair-Results.pdf",
+    "Ryanair FY26 results (May 18, 2026): https://investor.ryanair.com/wp-content/uploads/2026/05/FY26-Ryanair-Results.pdf",
+    "Ryanair FY26 presentation: https://investor.ryanair.com/wp-content/uploads/2026/05/FY26-Ryanair-Presentation.pdf",
+    "H1 FY27 slides and call (Investing.com): https://www.investing.com/news/company-news/ryanair-h1-fy27-slides-profit-falls-15-on-fuel-cost-lead-widens-93CH-4990933",
+    "€14.99 sale (Connexion, Apr. 2026): https://www.connexionfrance.com/news/france-uk-ryanair-flights-from-1499-included-in-mass-flash-sale/784754",
+    "Boarding pass fee (The Local, Nov. 2025): https://www.thelocal.com/20251110/europe-travel-news-ryanair-scraps-paper-boarding-passes-this-week",
+    "Italy fine (Alliance News, Dec. 2025): https://www.hl.co.uk/shares/stock-market-news/company--news/archive/italian-regulator-fines-ryanair-255m-for-abuse-of-dominant-position",
+    "Spain fine (The Local Spain, June 2025): https://www.thelocal.es/20250627/spain-court-suspends-huge-ryanair-abusive-practices-fine",
+    "EU passenger rights (Euronews, July 2026): https://www.euronews.com/travel/2026/07/10/inside-the-eus-bittersweet-deal-to-update-air-passenger-rights",
+    "State aid, 2014 (CAPA): https://centreforaviation.com/news/european-commission-adopts-package-of-decisions-regarding-aid-to-airports-and-airlines-357708",
+    "Montpellier (EU Reporter, 2019): https://www.eureporter.co/frontpage/2019/08/05/france-to-recover-e8-5-million-of-illegal-aid-to-ryanair-at-montpellier-airport/",
+    "Bordeaux plane (ch-aviation, 2018): https://www.ch-aviation.com/news/72701-ryanair-pays-05mn-to-release-b737-impounded-at-bordeaux",
+    "Boeing order, 2002 (AP): https://www.heraldnet.com/2002/01/24/huge-order-for-boeing/",
+    "737 MAX 10 certified (NPR, Oct. 2026): https://www.kuow.org/npr-news/2026-10-20/faa-clears-the-way-for-airlines-to-put-boeings-long-delayed-737-max-10-into-service",
+    "Pilot unions, 2017 (Fortune): https://fortune.com/2017/12/15/ryanair-strike-pilot-union-recognize"
+  ],
+  "credits": [
+    "Fonts: Inter, IBM Plex Mono and Instrument Serif (SIL Open Font License); icons: Lucide (ISC).",
+    "Per-passenger figures are The Cost Curve's calculations from Ryanair's published accounts. Cost comparisons with other airlines are Ryanair's own."
+  ],
+  "subject_company": "Ryanair Holdings plc",
+  "tags": [
+    "Ryanair",
+    "how Ryanair makes money",
+    "Ryanair business model",
+    "low cost airlines",
+    "budget airlines explained",
+    "Ryanair fees",
+    "Michael O'Leary",
+    "Ryanair profit",
+    "Boeing 737 MAX 10",
+    "airline economics",
+    "easyJet",
+    "Wizz Air",
+    "business explained",
+    "The Cost Curve"
+  ],
+  "category_id": "27",
+  "contains_synthetic_media": true,
+  "made_for_kids": false,
+  "tint": "ryanair"
+}

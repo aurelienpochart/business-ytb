@@ -34,19 +34,19 @@ export const Journey: React.FC<{
   const n = stops.length;
   const W = 1620;
   const hasTally = !!tally?.length;
-  const routeY = hasTally ? 190 : 330;
-  const x0 = 90;
-  const x1 = W - 90;
+  const routeY = hasTally ? 170 : 340;
+  const x0 = 80;
+  const x1 = W - 80;
   // Position de l'arrêt k (k peut être fractionnaire) : route en légère vague.
   const pos = (k: number) => {
     const t = n === 1 ? 0.5 : k / (n - 1);
     const x = x0 + (x1 - x0) * t;
-    const y = routeY - Math.sin(t * Math.PI) * 70 + Math.sin(t * Math.PI * 3) * 14;
+    const y = routeY - Math.sin(t * Math.PI) * 60 + Math.sin(t * Math.PI * 3) * 12;
     return {x, y};
   };
   const start0 = from ?? current - 1;
   const move = interpolate(frame, [travelAt * fps, (travelAt + travel) * fps], [0, 1], {...clamp, easing: Easing.inOut(Easing.cubic)});
-  const kPlane = Math.max(-0.6, Math.min(n - 1 + 0.6, start0 + (current - start0) * move));
+  const kPlane = Math.max(-0.5, Math.min(n - 1 + 0.5, start0 + (current - start0) * move));
   const pIn = useEnter(0.05);
 
   // Tracé de la route (polyligne fine).
@@ -90,11 +90,11 @@ export const Journey: React.FC<{
         const hit = spring({frame: frame - ((travelAt + travel * ((k - start0) / Math.max(0.001, current - start0))) * fps), fps, config: {damping: 12, mass: 0.6}});
         const pop = isCur && k > start0 ? 1 + 0.12 * Math.sin(Math.min(1, hit) * Math.PI) : 1;
         const Icon = (icons as Record<string, React.FC<any>>)[s.icon];
-        const size = isCur ? 118 : 92;
+        const size = isCur ? 150 : 112;
         const col = reached ? C.gold : C.slate;
         const pulse = isCur ? 0.5 + 0.5 * Math.sin(frame / 9) : 0;
         return (
-          <div key={k} style={{position: 'absolute', left: p.x - 110, top: p.y - size / 2, width: 220, display: 'flex', flexDirection: 'column', alignItems: 'center', opacity: unit(appear), transform: `translateY(${(1 - unit(appear)) * 20}px)`}}>
+          <div key={k} style={{position: 'absolute', left: p.x - 105, top: p.y - size / 2, width: 210, display: 'flex', flexDirection: 'column', alignItems: 'center', opacity: unit(appear), transform: `translateY(${(1 - unit(appear)) * 20}px)`}}>
             <div style={{position: 'relative', width: size, height: size, transform: `scale(${pop})`}}>
               {isCur ? <div style={{position: 'absolute', inset: -16 - pulse * 6, borderRadius: '50%', border: `2px solid rgba(240,181,78,${0.55 - pulse * 0.3})`, boxShadow: '0 0 40px rgba(240,181,78,0.35)'}} /> : null}
               <div style={{position: 'absolute', inset: 0, borderRadius: '50%', ...glass(reached ? 'rgba(240,181,78,0.55)' : undefined), background: reached ? 'radial-gradient(circle at 35% 30%, rgba(255,215,140,0.28), rgba(10,20,36,0.85) 70%)' : 'rgba(10,20,36,0.75)', display: 'flex', alignItems: 'center', justifyContent: 'center'}}>
@@ -106,18 +106,18 @@ export const Journey: React.FC<{
                 </div>
               ) : null}
             </div>
-            <div style={{marginTop: 18, fontFamily: FONT.mono, fontSize: 18, letterSpacing: 4, color: reached ? C.gold : C.mute, opacity: 0.9}}>{k === n - 1 && s.label.toLowerCase().includes('land') ? 'ARRIVAL' : `STOP ${k + 1}`}</div>
-            <div style={{marginTop: 6, fontFamily: FONT.title, fontWeight: isCur ? 800 : 600, fontSize: isCur ? 30 : 25, lineHeight: 1.15, textAlign: 'center', color: reached ? C.paper : C.mute}}>{s.label}</div>
+            <div style={{marginTop: 22, fontFamily: FONT.mono, fontSize: 21, letterSpacing: 4, color: reached ? C.gold : C.mute, opacity: 0.9}}>{k === n - 1 && s.label.toLowerCase().includes('land') ? 'ARRIVAL' : `STOP ${k + 1}`}</div>
+            <div style={{marginTop: 6, fontFamily: FONT.title, fontWeight: isCur ? 800 : 600, fontSize: isCur ? 36 : 30, lineHeight: 1.15, textAlign: 'center', color: reached ? C.paper : C.mute}}>{s.label}</div>
           </div>
         );
       })}
-      {kPlane > -0.6 && kPlane < n - 1 + 0.6 ? (
-        <div style={{position: 'absolute', left: planeP.x - 34, top: planeP.y - 34 - 74, width: 68, height: 68, transform: `rotate(${angle + 45}deg)`, opacity: unit(pIn * 2), filter: 'drop-shadow(0 0 16px rgba(255,231,176,0.8))'}}>
-          <Plane size={68} color={C.goldLight} fill={C.goldLight} strokeWidth={1.2} />
+      {kPlane > -0.7 && kPlane < n - 1 + 0.7 ? (
+        <div style={{position: 'absolute', left: planeP.x - 40, top: planeP.y - 40 - 100, width: 80, height: 80, transform: `rotate(${angle + 45}deg)`, opacity: unit(pIn * 2), filter: 'drop-shadow(0 0 16px rgba(255,231,176,0.8))'}}>
+          <Plane size={80} color={C.goldLight} fill={C.goldLight} strokeWidth={1.2} />
         </div>
       ) : null}
       {hasTally ? (
-        <div style={{position: 'absolute', left: 0, right: 0, top: 440, display: 'flex', flexDirection: 'column', alignItems: 'center'}}>
+        <div style={{position: 'absolute', left: 0, right: 0, top: 470, display: 'flex', flexDirection: 'column', alignItems: 'center'}}>
           {tallyTitle ? <div style={{fontFamily: FONT.mono, fontSize: 22, letterSpacing: 6, color: C.mute, marginBottom: 22, opacity: unit(pIn)}}>{tallyTitle.toUpperCase()}</div> : null}
           <div style={{display: 'flex', gap: 28, justifyContent: 'center'}}>
             {tally!.map((t, i) => {

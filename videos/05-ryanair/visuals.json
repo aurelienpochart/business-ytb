@@ -1,0 +1,2151 @@
+[
+ {
+  "at": "c0p0",
+  "type": "hero",
+  "props": {
+   "photo": "takeoff",
+   "logo": "logo_ryanair",
+   "logoWidth": 620,
+   "logoHeight": 76,
+   "logoColor": "white",
+   "number": "€14.99",
+   "label": "one-way, on selected flights",
+   "kicker": "Ryanair sale, April 2026",
+   "numberAt": 2.4,
+   "source": "Connexion (Apr. 21, 2026)"
+  }
+ },
+ {
+  "at": "c0p1",
+  "type": "bars",
+  "bg": "takeoff_pd",
+  "props": {
+   "title": "Per passenger, April to September 2026",
+   "bars": [
+    {
+     "label": "Cost of flying you",
+     "value": 61.1,
+     "display": "≈ €61",
+     "color": "brick",
+     "note": "our calculation"
+    },
+    {
+     "label": "Average ticket",
+     "value": 55.7,
+     "display": "€55.70",
+     "color": "teal",
+     "note": "not the sale price"
+    }
+   ],
+   "max": 70,
+   "delays": [
+    1.0,
+    11.36
+   ],
+   "source": "The Cost Curve calculation from Ryanair H1 FY27 results (Nov. 2, 2026)"
+  }
+ },
+ {
+  "at": "c0p2",
+  "type": "statement",
+  "bg": "landing_hahn",
+  "props": {
+   "text": "The ticket doesn’t even *cover the flight*.",
+   "icon": "Ticket"
+  }
+ },
+ {
+  "at": "c0p2",
+  "after": "And yet",
+  "type": "numbers",
+  "bg": "wing_night",
+  "props": {
+   "title": "Ryanair net profit, April to September 2026",
+   "items": [
+    {
+     "value": 2.15,
+     "decimals": 2,
+     "prefix": "€",
+     "suffix": "B",
+     "label": "in six months",
+     "color": "amber",
+     "icon": "Coins"
+    }
+   ],
+   "source": "Ryanair H1 FY27 results (Nov. 2, 2026)"
+  }
+ },
+ {
+  "at": "c0p3",
+  "type": "statement",
+  "bg": "apron_night",
+  "props": {
+   "kicker": "The ticket is the bait",
+   "text": "The money is *somewhere else*.",
+   "icon": "Search"
+  }
+ },
+ {
+  "at": "c0p3",
+  "after": "So let's buy one",
+  "type": "journey",
+  "props": {
+   "stops": [
+    {
+     "icon": "Search",
+     "label": "The price"
+    },
+    {
+     "icon": "CreditCard",
+     "label": "Checkout"
+    },
+    {
+     "icon": "Smartphone",
+     "label": "Check-in"
+    },
+    {
+     "icon": "TowerControl",
+     "label": "The airport"
+    },
+    {
+     "icon": "Plane",
+     "label": "The plane"
+    },
+    {
+     "icon": "Fuel",
+     "label": "In the air"
+    },
+    {
+     "icon": "Users",
+     "label": "The crew"
+    },
+    {
+     "icon": "PlaneLanding",
+     "label": "Landing"
+    }
+   ],
+   "current": -1,
+   "travelAt": 0.3,
+   "travel": 0.1,
+   "kicker": "Follow one €15 ticket"
+  }
+ },
+ {
+  "at": "c1p0",
+  "type": "journey",
+  "props": {
+   "stops": [
+    {
+     "icon": "Search",
+     "label": "The price"
+    },
+    {
+     "icon": "CreditCard",
+     "label": "Checkout"
+    },
+    {
+     "icon": "Smartphone",
+     "label": "Check-in"
+    },
+    {
+     "icon": "TowerControl",
+     "label": "The airport"
+    },
+    {
+     "icon": "Plane",
+     "label": "The plane"
+    },
+    {
+     "icon": "Fuel",
+     "label": "In the air"
+    },
+    {
+     "icon": "Users",
+     "label": "The crew"
+    },
+    {
+     "icon": "PlaneLanding",
+     "label": "Landing"
+    }
+   ],
+   "current": 0,
+   "travelAt": 0.2,
+   "travel": 1.8
+  }
+ },
+ {
+  "at": "c1p1",
+  "type": "photo",
+  "props": {
+   "photo": "gc_canaria",
+   "logo": "logo_ryanair",
+   "kicker": "By passengers",
+   "text": "Europe’s *biggest airline*."
+  }
+ },
+ {
+  "at": "c1p1",
+  "after": "it flew two hundred",
+  "type": "tiles",
+  "bg": "gc_close",
+  "props": {
+   "kicker": "Year to March 2026",
+   "items": [
+    {
+     "icon": "Users",
+     "label": "Passengers",
+     "value": "208M",
+     "color": "amber"
+    },
+    {
+     "icon": "Armchair",
+     "label": "Seats filled",
+     "value": "94%",
+     "color": "teal"
+    }
+   ],
+   "delays": [
+    0.2,
+    3.31
+   ],
+   "source": "Ryanair FY26 results (May 18, 2026)"
+  }
+ },
+ {
+  "at": "c1p2",
+  "type": "photo",
+  "props": {
+   "photo": "stansted_night",
+   "kicker": "November to March",
+   "text": "Winter: *loss-making*, says Ryanair.",
+   "source": "Skift (Sept. 2, 2026)"
+  }
+ },
+ {
+  "at": "c1p2",
+  "after": "So for our receipt",
+  "type": "statement",
+  "bg": "cabin",
+  "props": {
+   "kicker": "Our receipt",
+   "text": "The full year, *divided by passengers*.",
+   "sub": "April 2025 to March 2026 · 208 million passengers",
+   "icon": "Divide"
+  }
+ },
+ {
+  "at": "c1p3",
+  "type": "receipt",
+  "props": {
+   "header": "ONE PASSENGER",
+   "subheader": "Ryanair · year to March 2026",
+   "lines": [
+    {
+     "label": "Ticket",
+     "value": "€51"
+    },
+    {
+     "label": "Cost of the flight",
+     "value": "−€63"
+    },
+    {
+     "rule": true,
+     "label": ""
+    },
+    {
+     "label": "Short by",
+     "value": "−€12",
+     "strong": true,
+     "mark": true
+    }
+   ],
+   "delays": [
+    1.0,
+    3.81,
+    7.12,
+    9.49
+   ],
+   "kicker": "Our calculation",
+   "text": "The ticket alone *doesn’t pay* for the flight.",
+   "source": "The Cost Curve calculation from Ryanair FY26 results (year to March 2026)"
+  }
+ },
+ {
+  "at": "c1p4",
+  "type": "tiles",
+  "bg": "takeoff",
+  "props": {
+   "kicker": "Year to March 2026",
+   "items": [
+    {
+     "icon": "Coins",
+     "label": "Net profit",
+     "value": "€2.2B",
+     "color": "amber"
+    },
+    {
+     "icon": "User",
+     "label": "Per passenger, after tax",
+     "value": "≈ €11",
+     "color": "amber"
+    }
+   ],
+   "delays": [
+    0.3,
+    5.46
+   ],
+   "source": "Ryanair FY26 results (May 18, 2026); our calculation"
+  }
+ },
+ {
+  "at": "c1p5",
+  "type": "statement",
+  "bg": "boarding",
+  "props": {
+   "text": "Every passenger pays *€20+ on top*.",
+   "icon": "Receipt",
+   "sub": "somewhere between the search page and the runway"
+  }
+ },
+ {
+  "at": "c2p0",
+  "type": "journey",
+  "props": {
+   "stops": [
+    {
+     "icon": "Search",
+     "label": "The price"
+    },
+    {
+     "icon": "CreditCard",
+     "label": "Checkout"
+    },
+    {
+     "icon": "Smartphone",
+     "label": "Check-in"
+    },
+    {
+     "icon": "TowerControl",
+     "label": "The airport"
+    },
+    {
+     "icon": "Plane",
+     "label": "The plane"
+    },
+    {
+     "icon": "Fuel",
+     "label": "In the air"
+    },
+    {
+     "icon": "Users",
+     "label": "The crew"
+    },
+    {
+     "icon": "PlaneLanding",
+     "label": "Landing"
+    }
+   ],
+   "current": 1,
+   "travelAt": 0.3,
+   "travel": 1.8
+  }
+ },
+ {
+  "at": "c2p0",
+  "after": "A bigger bag",
+  "type": "tiles",
+  "bg": "cabin",
+  "props": {
+   "kicker": "Before you pay",
+   "items": [
+    {
+     "icon": "Luggage",
+     "label": "A bigger bag",
+     "color": "amber"
+    },
+    {
+     "icon": "Armchair",
+     "label": "Your seat",
+     "color": "amber"
+    },
+    {
+     "icon": "Timer",
+     "label": "Priority boarding",
+     "color": "amber"
+    },
+    {
+     "icon": "Car",
+     "label": "Rental car",
+     "color": "slate"
+    },
+    {
+     "icon": "BedDouble",
+     "label": "Hotel",
+     "color": "slate"
+    }
+   ],
+   "delays": [
+    0.1,
+    1.01,
+    2.66,
+    4.03,
+    5.03
+   ]
+  }
+ },
+ {
+  "at": "c2p1",
+  "type": "stacked",
+  "props": {
+   "title": "Ryanair revenue, year to March 2026",
+   "total": "€15.5B",
+   "parts": [
+    {
+     "label": "Tickets",
+     "value": 10.56,
+     "display": "€10.6B",
+     "color": "slate"
+    },
+    {
+     "label": "Extras (“ancillaries”)",
+     "value": 4.99,
+     "display": "€5.0B",
+     "color": "amber"
+    }
+   ],
+   "source": "Ryanair FY26 results (May 18, 2026)"
+  }
+ },
+ {
+  "at": "c2p1",
+  "after": "This summer",
+  "type": "numbers",
+  "bg": "cabin",
+  "props": {
+   "title": "Extras per passenger",
+   "items": [
+    {
+     "value": 24,
+     "prefix": "€",
+     "label": "year to March 2026",
+     "color": "slate",
+     "icon": "ShoppingBag"
+    },
+    {
+     "value": 24.5,
+     "decimals": 2,
+     "prefix": "€",
+     "label": "April to September 2026",
+     "color": "amber",
+     "icon": "Sun"
+    }
+   ],
+   "source": "Ryanair FY26 results (May 18, 2026); Ryanair H1 FY27 results (Nov. 2, 2026)"
+  }
+ },
+ {
+  "at": "c2p2",
+  "after": "In 2019",
+  "type": "bars",
+  "props": {
+   "title": "Extras per passenger",
+   "bars": [
+    {
+     "label": "2019",
+     "value": 17.3,
+     "display": "€17+",
+     "color": "slate",
+     "note": "year to March"
+    },
+    {
+     "label": "2026",
+     "value": 24,
+     "display": "€24",
+     "color": "amber",
+     "note": "year to March"
+    }
+   ],
+   "max": 30,
+   "delays": [
+    0.3,
+    1.3
+   ],
+   "source": "Ryanair FY19 and FY26 results"
+  }
+ },
+ {
+  "at": "c2p2",
+  "after": "Since then",
+  "type": "bars",
+  "props": {
+   "title": "Growth, year to March 2019 → year to March 2026",
+   "bars": [
+    {
+     "label": "Passengers",
+     "value": 50,
+     "display": "+50%",
+     "color": "slate",
+     "note": "139M → 208M"
+    },
+    {
+     "label": "Revenue from extras",
+     "value": 108,
+     "display": "× 2.1",
+     "color": "amber",
+     "note": "€2.4B → €5.0B"
+    }
+   ],
+   "max": 120,
+   "delays": [
+    1.0,
+    4.03
+   ],
+   "source": "Ryanair FY19 and FY26 results"
+  }
+ },
+ {
+  "at": "c2p3",
+  "type": "statement",
+  "bg": "stansted_night",
+  "props": {
+   "kicker": "Why split the price?",
+   "text": "Win on the headline. *Earn after the click.*",
+   "icon": "MousePointerClick"
+  }
+ },
+ {
+  "at": "c2p4",
+  "type": "tiles",
+  "props": {
+   "kicker": "Who sells the ticket?",
+   "items": [
+    {
+     "image": "logo_ryanair",
+     "label": "Ryanair’s website",
+     "sub": "where the extras are sold",
+     "color": "amber"
+    },
+    {
+     "image": "logo_booking",
+     "label": "Online travel agents",
+     "sub": "reselling seats without a deal"
+    }
+   ],
+   "delays": [
+    0.3,
+    3.88
+   ]
+  }
+ },
+ {
+  "at": "c2p4",
+  "after": "sites it has called",
+  "type": "quote",
+  "props": {
+   "text": "Pirates.",
+   "by": "Ryanair, on travel agents that resell its flights without an agreement",
+   "source": "Ryanair statements; Alliance News (Dec. 2025)"
+  }
+ },
+ {
+  "at": "c2p5",
+  "after": "In December 2025",
+  "type": "tiles",
+  "bg": "berlaymont",
+  "props": {
+   "kicker": "Italy · competition authority · Dec. 2025",
+   "items": [
+    {
+     "icon": "Landmark",
+     "label": "Fine",
+     "value": "€256M",
+     "sub": "abuse of a dominant position",
+     "color": "brick"
+    },
+    {
+     "icon": "Ban",
+     "label": "Agents’ bookings",
+     "sub": "blocked",
+     "color": "brick"
+    },
+    {
+     "icon": "ScanFace",
+     "label": "Facial checks",
+     "sub": "for agents’ customers",
+     "color": "brick"
+    }
+   ],
+   "delays": [
+    1.0,
+    12.15,
+    16.32
+   ],
+   "source": "Alliance News (Dec. 23, 2025)"
+  }
+ },
+ {
+  "at": "c2p5",
+  "after": "Ryanair calls it",
+  "type": "tiles",
+  "props": {
+   "kicker": "Ryanair: “legally flawed”",
+   "items": [
+    {
+     "icon": "Banknote",
+     "label": "Paid",
+     "sub": "September 2026",
+     "color": "slate"
+    },
+    {
+     "icon": "Scale",
+     "label": "Under appeal",
+     "sub": "refunded if Ryanair wins",
+     "color": "amber"
+    }
+   ],
+   "delays": [
+    1.0,
+    4.46
+   ],
+   "source": "Ryanair H1 FY27 results (Nov. 2, 2026)"
+  }
+ },
+ {
+  "at": "c3p0",
+  "type": "journey",
+  "props": {
+   "stops": [
+    {
+     "icon": "Search",
+     "label": "The price"
+    },
+    {
+     "icon": "CreditCard",
+     "label": "Checkout"
+    },
+    {
+     "icon": "Smartphone",
+     "label": "Check-in"
+    },
+    {
+     "icon": "TowerControl",
+     "label": "The airport"
+    },
+    {
+     "icon": "Plane",
+     "label": "The plane"
+    },
+    {
+     "icon": "Fuel",
+     "label": "In the air"
+    },
+    {
+     "icon": "Users",
+     "label": "The crew"
+    },
+    {
+     "icon": "PlaneLanding",
+     "label": "Landing"
+    }
+   ],
+   "current": 2,
+   "travelAt": 0.3,
+   "travel": 1.8
+  }
+ },
+ {
+  "at": "c3p1",
+  "type": "prices",
+  "bg": "checkin_kiosks",
+  "props": {
+   "kicker": "Boarding pass printed at the airport, since Nov. 2025",
+   "items": [
+    {
+     "name": "Per passenger, per flight",
+     "sub": "in most of Europe",
+     "from": "€20",
+     "to": "€55"
+    }
+   ],
+   "start": 1.0,
+   "source": "The Local (Nov. 10, 2025)"
+  }
+ },
+ {
+  "at": "c3p1",
+  "after": "The point is",
+  "type": "tiles",
+  "bg": "checkin_kiosks",
+  "props": {
+   "kicker": "The point",
+   "items": [
+    {
+     "icon": "Smartphone",
+     "label": "Everyone checks in on the app",
+     "color": "amber"
+    },
+    {
+     "icon": "UserMinus",
+     "label": "No counter to staff",
+     "color": "teal"
+    },
+    {
+     "icon": "ShoppingCart",
+     "label": "One more chance to sell",
+     "color": "amber"
+    }
+   ],
+   "delays": [
+    1.29,
+    3.59,
+    5.39
+   ]
+  }
+ },
+ {
+  "at": "c3p2",
+  "type": "photo",
+  "props": {
+   "photo": "cabin",
+   "kicker": "The cheapest fare",
+   "text": "One small bag, *under the seat*.",
+   "sub": "Anything bigger costs extra."
+  }
+ },
+ {
+  "at": "c3p3",
+  "after": "In 2024",
+  "type": "tiles",
+  "bg": "checkin_kiosks",
+  "props": {
+   "kicker": "Spain · consumer ministry · 2024",
+   "items": [
+    {
+     "icon": "Landmark",
+     "label": "Fine",
+     "value": "€107M",
+     "sub": "for practices it called abusive",
+     "color": "brick"
+    },
+    {
+     "icon": "Luggage",
+     "label": "Cabin bag fees",
+     "color": "brick"
+    },
+    {
+     "icon": "Printer",
+     "label": "Boarding pass printing",
+     "color": "brick"
+    }
+   ],
+   "delays": [
+    1.0,
+    9.27,
+    11.29
+   ],
+   "source": "The Local Spain (June 27, 2025)"
+  }
+ },
+ {
+  "at": "c3p3",
+  "after": "Michael O'Leary called",
+  "type": "quote",
+  "props": {
+   "text": "Illegal and baseless.",
+   "by": "Michael O’Leary, on the Spanish fine",
+   "source": "The Local Spain (June 27, 2025)"
+  }
+ },
+ {
+  "at": "c3p3",
+  "after": "a Madrid court",
+  "type": "statement",
+  "bg": "checkin_kiosks",
+  "props": {
+   "kicker": "June 2025",
+   "text": "A Madrid court *suspends the fine*.",
+   "sub": "while the case goes on",
+   "icon": "Scale",
+   "source": "The Local Spain (June 27, 2025)"
+  }
+ },
+ {
+  "at": "c3p4",
+  "type": "photo",
+  "props": {
+   "photo": "eu_parliament",
+   "kicker": "European Parliament · July 2026",
+   "text": "New *passenger rights*."
+  }
+ },
+ {
+  "at": "c3p4",
+  "after": "Prices shown online",
+  "type": "tiles",
+  "bg": "eu_parliament",
+  "props": {
+   "kicker": "The new EU rules",
+   "items": [
+    {
+     "icon": "Luggage",
+     "label": "A free item of hand luggage",
+     "sub": "included in the price shown",
+     "color": "amber"
+    },
+    {
+     "icon": "Baby",
+     "label": "Children under 14",
+     "sub": "seated next to a parent, free",
+     "color": "amber"
+    },
+    {
+     "icon": "CalendarClock",
+     "label": "Expected from 2027",
+     "color": "slate"
+    }
+   ],
+   "delays": [
+    0.2,
+    5.03,
+    12.15
+   ],
+   "source": "Euronews (July 10, 2026)"
+  }
+ },
+ {
+  "at": "c4p0",
+  "type": "journey",
+  "props": {
+   "stops": [
+    {
+     "icon": "Search",
+     "label": "The price"
+    },
+    {
+     "icon": "CreditCard",
+     "label": "Checkout"
+    },
+    {
+     "icon": "Smartphone",
+     "label": "Check-in"
+    },
+    {
+     "icon": "TowerControl",
+     "label": "The airport"
+    },
+    {
+     "icon": "Plane",
+     "label": "The plane"
+    },
+    {
+     "icon": "Fuel",
+     "label": "In the air"
+    },
+    {
+     "icon": "Users",
+     "label": "The crew"
+    },
+    {
+     "icon": "PlaneLanding",
+     "label": "Landing"
+    }
+   ],
+   "current": 3,
+   "travelAt": 0.3,
+   "travel": 1.8
+  }
+ },
+ {
+  "at": "c4p1",
+  "type": "bars",
+  "props": {
+   "title": "Airports and ground handling, € per passenger",
+   "bars": [
+    {
+     "label": "Ryanair",
+     "value": 8,
+     "display": "€8",
+     "color": "amber"
+    },
+    {
+     "label": "Wizz Air",
+     "value": 15,
+     "display": "€15",
+     "color": "slate"
+    },
+    {
+     "label": "easyJet",
+     "value": 27,
+     "display": "€27",
+     "color": "slate"
+    },
+    {
+     "label": "IAG",
+     "value": 50,
+     "display": "€50",
+     "color": "slate"
+    }
+   ],
+   "delays": [
+    0.3,
+    1.0,
+    7.4,
+    8.0
+   ],
+   "source": "Ryanair's own comparison, FY26 results presentation (May 2026)"
+  }
+ },
+ {
+  "at": "c4p1",
+  "after": "Part of the reason",
+  "type": "photo",
+  "props": {
+   "photo": "bergamo_night",
+   "kicker": "Bergamo, Italy",
+   "text": "Smaller airports *compete for its planes*."
+  }
+ },
+ {
+  "at": "c4p2",
+  "type": "loop",
+  "bg": "angouleme",
+  "props": {
+   "nodes": [
+    {
+     "icon": "Plane",
+     "label": "A Ryanair base"
+    },
+    {
+     "icon": "Users",
+     "label": "Tourists and jobs",
+     "color": "teal"
+    },
+    {
+     "icon": "HandCoins",
+     "label": "Discounts on fees"
+    },
+    {
+     "icon": "Megaphone",
+     "label": "Paid “marketing” on Ryanair’s website"
+    }
+   ],
+   "centerImage": "logo_ryanair",
+   "centerImageColor": "white",
+   "stagger": 1.6,
+   "start": 0.3
+  }
+ },
+ {
+  "at": "c4p3",
+  "type": "photo",
+  "props": {
+   "photo": "berlaymont",
+   "kicker": "European Commission",
+   "text": "Looking *at the deals*."
+  }
+ },
+ {
+  "at": "c4p3",
+  "after": "At Angoulême",
+  "type": "bars",
+  "props": {
+   "title": "Angoulême airport → Ryanair’s marketing subsidiary",
+   "bars": [
+    {
+     "label": "2008",
+     "value": 400,
+     "display": "€400K",
+     "color": "amber"
+    },
+    {
+     "label": "2009",
+     "value": 300,
+     "display": "€300K",
+     "color": "amber"
+    },
+    {
+     "label": "2010",
+     "value": 225,
+     "display": "€225K",
+     "color": "amber",
+     "note": "tied to a route to London"
+    }
+   ],
+   "max": 450,
+   "delays": [
+    0.6,
+    1.0,
+    1.4
+   ],
+   "source": "EU General Court, case T-111/15 (Dec. 13, 2018)"
+  }
+ },
+ {
+  "at": "c4p3",
+  "after": "In 2014",
+  "type": "tiles",
+  "bg": "berlaymont",
+  "props": {
+   "kicker": "Illegal state aid, European Commission, 2014",
+   "items": [
+    {
+     "icon": "MapPin",
+     "label": "Angoulême",
+     "color": "brick"
+    },
+    {
+     "icon": "MapPin",
+     "label": "Pau",
+     "color": "brick"
+    },
+    {
+     "icon": "MapPin",
+     "label": "Nîmes",
+     "color": "brick"
+    }
+   ],
+   "delays": [
+    0.3,
+    6.11,
+    6.61
+   ],
+   "source": "CAPA (July 24, 2014)"
+  }
+ },
+ {
+  "at": "c4p3",
+  "after": "In 2019",
+  "type": "numbers",
+  "props": {
+   "title": "Montpellier, 2019",
+   "items": [
+    {
+     "value": 8.5,
+     "decimals": 1,
+     "prefix": "€",
+     "suffix": "M",
+     "label": "to be recovered from Ryanair, ordered by the Commission",
+     "color": "brick",
+     "icon": "Landmark"
+    }
+   ],
+   "source": "EU Reporter (Aug. 5, 2019)"
+  }
+ },
+ {
+  "at": "c4p3",
+  "after": "calling it",
+  "type": "quote",
+  "props": {
+   "text": "An unfair and selective advantage over its competitors.",
+   "by": "Margrethe Vestager, European Commission, on Montpellier (2019)",
+   "source": "EU Reporter (Aug. 5, 2019)"
+  }
+ },
+ {
+  "at": "c4p4",
+  "type": "statement",
+  "bg": "charleroi_plane",
+  "props": {
+   "kicker": "Charleroi, Belgium · 2008",
+   "text": "An EU court *annuls the ruling*.",
+   "sub": "Ryanair has not lost every case",
+   "icon": "Scale",
+   "source": "La Libre Belgique (Dec. 17, 2008)"
+  }
+ },
+ {
+  "at": "c4p4",
+  "after": "But in November 2018",
+  "type": "photo",
+  "props": {
+   "photo": "bordeaux",
+   "kicker": "Bordeaux, November 2018",
+   "text": "A Ryanair plane, *grounded*.",
+   "sub": "to recover the Angoulême money",
+   "source": "ch-aviation (Nov. 2018)"
+  }
+ },
+ {
+  "at": "c4p4",
+  "after": "Ryanair paid",
+  "type": "numbers",
+  "bg": "bordeaux",
+  "props": {
+   "title": "To get the plane back",
+   "items": [
+    {
+     "value": 525000,
+     "prefix": "€",
+     "label": "paid by Ryanair (Financial Times)",
+     "color": "amber",
+     "icon": "Banknote"
+    }
+   ],
+   "source": "ch-aviation (Nov. 2018)"
+  }
+ },
+ {
+  "at": "c4p5",
+  "after": "Ryanair says",
+  "type": "tiles",
+  "props": {
+   "kicker": "Ryanair moves planes…",
+   "items": [
+    {
+     "icon": "TrendingUp",
+     "label": "Sweden",
+     "sub": "cut aviation taxes",
+     "color": "teal"
+    },
+    {
+     "icon": "TrendingUp",
+     "label": "Italy",
+     "color": "teal"
+    },
+    {
+     "icon": "TrendingUp",
+     "label": "Albania",
+     "color": "teal"
+    },
+    {
+     "icon": "TrendingUp",
+     "label": "Morocco",
+     "color": "teal"
+    }
+   ],
+   "delays": [
+    1.0,
+    5.75,
+    6.25,
+    7.12
+   ],
+   "source": "Ryanair results (2025-2026)"
+  }
+ },
+ {
+  "at": "c4p5",
+  "after": "and away from",
+  "type": "tiles",
+  "props": {
+   "kicker": "…and away from",
+   "items": [
+    {
+     "icon": "TrendingDown",
+     "label": "Germany",
+     "color": "brick"
+    },
+    {
+     "icon": "TrendingDown",
+     "label": "Austria",
+     "color": "brick"
+    },
+    {
+     "icon": "TrendingDown",
+     "label": "Regional Spain",
+     "color": "brick"
+    }
+   ],
+   "delays": [
+    0.2,
+    1.65,
+    2.52
+   ],
+   "source": "Ryanair results (2025-2026)"
+  }
+ },
+ {
+  "at": "c4p5",
+  "after": "This winter",
+  "type": "bars",
+  "props": {
+   "title": "Ryanair planes based there, this winter",
+   "bars": [
+    {
+     "label": "Charleroi",
+     "value": 19,
+     "display": "19",
+     "color": "slate",
+     "note": "before"
+    },
+    {
+     "label": "Charleroi",
+     "value": 12,
+     "display": "12",
+     "color": "brick",
+     "note": "winter 2026"
+    },
+    {
+     "label": "Vienna",
+     "value": 20,
+     "display": "20",
+     "color": "slate",
+     "note": "before"
+    },
+    {
+     "label": "Vienna",
+     "value": 14,
+     "display": "14",
+     "color": "brick",
+     "note": "winter 2026"
+    }
+   ],
+   "delays": [
+    1.0,
+    4.46,
+    5.25,
+    6.9
+   ],
+   "source": "Ryanair H1 FY27 earnings call (Nov. 2, 2026)"
+  }
+ },
+ {
+  "at": "c4p5",
+  "after": "The planes go where",
+  "type": "photo",
+  "props": {
+   "photo": "vienna",
+   "kicker": "Vienna airport",
+   "text": "The planes go where *the fees are lowest*."
+  }
+ },
+ {
+  "at": "c5p0",
+  "type": "journey",
+  "props": {
+   "stops": [
+    {
+     "icon": "Search",
+     "label": "The price"
+    },
+    {
+     "icon": "CreditCard",
+     "label": "Checkout"
+    },
+    {
+     "icon": "Smartphone",
+     "label": "Check-in"
+    },
+    {
+     "icon": "TowerControl",
+     "label": "The airport"
+    },
+    {
+     "icon": "Plane",
+     "label": "The plane"
+    },
+    {
+     "icon": "Fuel",
+     "label": "In the air"
+    },
+    {
+     "icon": "Users",
+     "label": "The crew"
+    },
+    {
+     "icon": "PlaneLanding",
+     "label": "Landing"
+    }
+   ],
+   "current": 4,
+   "travelAt": 0.3,
+   "travel": 1.8
+  }
+ },
+ {
+  "at": "c5p0",
+  "after": "Of Ryanair",
+  "type": "tiles",
+  "bg": "boarding",
+  "props": {
+   "kicker": "Ryanair’s fleet, ≈ 650 aircraft",
+   "items": [
+    {
+     "icon": "Plane",
+     "label": "Boeing 737s",
+     "value": "621",
+     "color": "amber"
+    },
+    {
+     "icon": "Plane",
+     "label": "Airbus A320s",
+     "value": "26",
+     "sub": "at its Lauda subsidiary",
+     "color": "slate"
+    }
+   ],
+   "delays": [
+    0.4,
+    3.81
+   ],
+   "source": "Ryanair H1 FY27 results (Nov. 2, 2026)"
+  }
+ },
+ {
+  "at": "c5p0",
+  "after": "One type means",
+  "type": "tiles",
+  "bg": "renton",
+  "props": {
+   "kicker": "One type of plane",
+   "items": [
+    {
+     "icon": "GraduationCap",
+     "label": "One kind of training",
+     "color": "amber"
+    },
+    {
+     "icon": "Wrench",
+     "label": "One set of spare parts",
+     "color": "amber"
+    }
+   ],
+   "delays": [
+    0.3,
+    2.59
+   ]
+  }
+ },
+ {
+  "at": "c5p1",
+  "type": "statement",
+  "bg": "renton",
+  "props": {
+   "kicker": "Rule one",
+   "text": "Buy when *nobody else is buying*.",
+   "icon": "ShoppingCart"
+  }
+ },
+ {
+  "at": "c5p1",
+  "after": "In January 2002",
+  "type": "photo",
+  "props": {
+   "photo": "renton",
+   "logo": "logo_boeing",
+   "kicker": "January 2002 · four months after 9/11",
+   "text": "100 Boeing 737s, *options for 50 more*.",
+   "sub": "$9.1 billion at catalogue prices",
+   "source": "AP via HeraldNet (Jan. 24, 2002)"
+  }
+ },
+ {
+  "at": "c5p1",
+  "after": "Boeing called",
+  "type": "quote",
+  "props": {
+   "text": "Exceptionally competitive.",
+   "by": "Boeing, on its own offer to Ryanair (2002)",
+   "source": "AP via HeraldNet (Jan. 24, 2002)"
+  }
+ },
+ {
+  "at": "c5p2",
+  "type": "photo",
+  "props": {
+   "photo": "gc_close",
+   "kicker": "Rule two: squeeze in more seats",
+   "text": "The “Gamechanger”: *197 seats*, not 189.",
+   "sub": "16% less fuel per seat, according to Ryanair",
+   "source": "Ryanair (June 16, 2021)"
+  }
+ },
+ {
+  "at": "c5p2",
+  "after": "The next one",
+  "type": "photo",
+  "props": {
+   "photo": "max_boeing",
+   "kicker": "Boeing 737 MAX family",
+   "text": "The MAX 10: *certified by the FAA*, Oct. 2026.",
+   "sub": "European approval expected by year-end · Ryanair’s first 16 in spring 2027",
+   "source": "NPR (Oct. 20, 2026); Ryanair H1 FY27 results (Nov. 2, 2026)"
+  }
+ },
+ {
+  "at": "c5p2",
+  "after": "It has ordered up to",
+  "type": "tiles",
+  "bg": "gc_canaria",
+  "props": {
+   "kicker": "Ryanair’s 737 MAX 10 order",
+   "items": [
+    {
+     "icon": "Plane",
+     "label": "Ordered",
+     "value": "up to 300",
+     "color": "amber"
+    },
+    {
+     "icon": "BadgeDollarSign",
+     "label": "At list prices",
+     "value": "$40B",
+     "color": "slate"
+    },
+    {
+     "icon": "Armchair",
+     "label": "More seats",
+     "value": "+20%",
+     "color": "teal"
+    },
+    {
+     "icon": "Fuel",
+     "label": "More fuel-efficient",
+     "value": "20%",
+     "color": "teal"
+    }
+   ],
+   "delays": [
+    0.3,
+    2.59,
+    7.33,
+    9.71
+   ],
+   "source": "Reuters via Cyprus Mail (May 10, 2023); Ryanair"
+  }
+ },
+ {
+  "at": "c5p3",
+  "type": "numbers",
+  "bg": "apron_night",
+  "props": {
+   "title": "Rule three: pay cash",
+   "items": [
+    {
+     "value": 620,
+     "label": "Boeing 737s with no debt or mortgage on them",
+     "color": "amber",
+     "icon": "Lock"
+    }
+   ],
+   "source": "Ryanair H1 FY27 results (Nov. 2, 2026)"
+  }
+ },
+ {
+  "at": "c5p3",
+  "after": "Ryanair has described",
+  "type": "statement",
+  "bg": "hq",
+  "props": {
+   "kicker": "Since May 2026",
+   "text": "“Debt-free”: *no leases, almost no interest*.",
+   "icon": "Landmark",
+   "source": "Ryanair H1 FY27 results (Nov. 2, 2026)"
+  }
+ },
+ {
+  "at": "c5p3",
+  "after": "By Ryanair",
+  "type": "bars",
+  "props": {
+   "title": "Owning and maintaining the planes, € per passenger",
+   "bars": [
+    {
+     "label": "Ryanair",
+     "value": 9,
+     "display": "€9",
+     "color": "amber"
+    },
+    {
+     "label": "easyJet",
+     "value": 15,
+     "display": "€15",
+     "color": "slate"
+    },
+    {
+     "label": "Wizz Air",
+     "value": 20,
+     "display": "€20",
+     "color": "slate"
+    }
+   ],
+   "delays": [
+    0.3,
+    1.0,
+    6.18
+   ],
+   "source": "Ryanair's own comparison, FY26 results presentation (May 2026)"
+  }
+ },
+ {
+  "at": "c6p0",
+  "type": "journey",
+  "props": {
+   "stops": [
+    {
+     "icon": "Search",
+     "label": "The price"
+    },
+    {
+     "icon": "CreditCard",
+     "label": "Checkout"
+    },
+    {
+     "icon": "Smartphone",
+     "label": "Check-in"
+    },
+    {
+     "icon": "TowerControl",
+     "label": "The airport"
+    },
+    {
+     "icon": "Plane",
+     "label": "The plane"
+    },
+    {
+     "icon": "Fuel",
+     "label": "In the air"
+    },
+    {
+     "icon": "Users",
+     "label": "The crew"
+    },
+    {
+     "icon": "PlaneLanding",
+     "label": "Landing"
+    }
+   ],
+   "current": 5,
+   "travelAt": 0.3,
+   "travel": 1.8
+  }
+ },
+ {
+  "at": "c6p0",
+  "after": "the one big cost",
+  "type": "photo",
+  "props": {
+   "photo": "refuel",
+   "kicker": "The one big cost it can’t squeeze",
+   "text": "*Fuel*."
+  }
+ },
+ {
+  "at": "c6p1",
+  "type": "donut",
+  "props": {
+   "title": "Ryanair’s costs, April to September 2026",
+   "parts": [
+    {
+     "label": "Everything else",
+     "value": 56,
+     "display": "56%",
+     "color": "slate"
+    },
+    {
+     "label": "Fuel",
+     "value": 44,
+     "display": "44%",
+     "color": "amber",
+     "sub": "41% in the year to March 2026"
+    }
+   ],
+   "center": "€7.7B",
+   "centerLabel": "costs",
+   "stagger": 0.8,
+   "start": 0.4,
+   "focus": 1,
+   "source": "Ryanair H1 FY27 results (Nov. 2, 2026); Ryanair FY26 results (May 18, 2026)"
+  }
+ },
+ {
+  "at": "c6p1",
+  "after": "To protect itself",
+  "type": "tiles",
+  "bg": "refuel",
+  "props": {
+   "kicker": "Fuel bought in advance, until March 2027",
+   "items": [
+    {
+     "icon": "Lock",
+     "label": "Locked in",
+     "value": "80%",
+     "color": "amber"
+    },
+    {
+     "icon": "Fuel",
+     "label": "Price per barrel",
+     "value": "≈ $67",
+     "color": "amber"
+    }
+   ],
+   "delays": [
+    1.0,
+    7.69
+   ],
+   "source": "Ryanair H1 FY27 results (Nov. 2, 2026)"
+  }
+ },
+ {
+  "at": "c6p2",
+  "type": "tiles",
+  "bg": "refinery",
+  "props": {
+   "kicker": "Until March 2027",
+   "items": [
+    {
+     "icon": "Lock",
+     "label": "Hedged",
+     "value": "80%",
+     "sub": "≈ $67 a barrel",
+     "color": "amber"
+    },
+    {
+     "icon": "TrendingUp",
+     "label": "Unhedged",
+     "value": "20%",
+     "sub": "price roughly doubled in 2026",
+     "color": "brick"
+    }
+   ],
+   "focus": 1,
+   "delays": [
+    0.0,
+    4.8100000000000005
+   ],
+   "source": "Ryanair H1 FY27 results (Nov. 2, 2026)"
+  }
+ },
+ {
+  "at": "c6p3",
+  "type": "tiles",
+  "bg": "wing_night",
+  "props": {
+   "kicker": "Ryanair, April to September 2026",
+   "items": [
+    {
+     "icon": "Users",
+     "label": "Passengers",
+     "value": "+6%",
+     "color": "teal"
+    },
+    {
+     "icon": "Ticket",
+     "label": "Average fare",
+     "value": "−4%",
+     "color": "brick"
+    },
+    {
+     "icon": "Coins",
+     "label": "Costs",
+     "value": "+10%",
+     "color": "brick"
+    },
+    {
+     "icon": "TrendingDown",
+     "label": "Profit",
+     "value": "−15%",
+     "sub": "to €2.15B",
+     "color": "brick"
+    }
+   ],
+   "delays": [
+    1.0,
+    8.12,
+    10.5,
+    11.93
+   ],
+   "source": "Ryanair H1 FY27 results (Nov. 2, 2026)"
+  }
+ },
+ {
+  "at": "c6p4",
+  "type": "bars",
+  "props": {
+   "title": "Share of fuel bought in advance",
+   "bars": [
+    {
+     "label": "Until March 2027",
+     "value": 80,
+     "display": "80%",
+     "color": "amber",
+     "note": "at ≈ $67 a barrel"
+    },
+    {
+     "label": "Next year",
+     "value": 25,
+     "display": "25%",
+     "color": "brick",
+     "note": "at ≈ $95 a barrel"
+    }
+   ],
+   "max": 100,
+   "delays": [
+    0.3,
+    2.8
+   ],
+   "source": "Ryanair H1 FY27 results (Nov. 2, 2026)"
+  }
+ },
+ {
+  "at": "c6p4",
+  "after": "Ryanair estimates",
+  "type": "tiles",
+  "bg": "refinery",
+  "props": {
+   "kicker": "Next year, according to Ryanair",
+   "items": [
+    {
+     "icon": "Fuel",
+     "label": "Fuel bill",
+     "value": "+€2B",
+     "sub": "at current forward prices",
+     "color": "brick"
+    },
+    {
+     "icon": "Ticket",
+     "label": "Fares needed to cover it",
+     "value": "+€10",
+     "sub": "per passenger",
+     "color": "amber"
+    }
+   ],
+   "delays": [
+    1.0,
+    8.99
+   ],
+   "source": "Ryanair H1 FY27 presentation (Nov. 2, 2026)"
+  }
+ },
+ {
+  "at": "c6p4",
+  "after": "verdict",
+  "type": "quote",
+  "props": {
+   "text": "There is no way it is going back down to the 67 dollars a barrel.",
+   "by": "Michael O’Leary, Ryanair CEO, Nov. 2, 2026",
+   "source": "Ryanair H1 FY27 earnings call, via Investing.com"
+  }
+ },
+ {
+  "at": "c6p5",
+  "type": "tiles",
+  "bg": "vienna",
+  "props": {
+   "kicker": "Other bills in the sky",
+   "items": [
+    {
+     "icon": "RadioTower",
+     "label": "Air traffic control charges",
+     "value": "+9%",
+     "sub": "April to September 2026",
+     "color": "brick"
+    },
+    {
+     "icon": "Leaf",
+     "label": "EU environmental taxes",
+     "value": "≈ €1.4B",
+     "sub": "expected this financial year",
+     "color": "brick"
+    }
+   ],
+   "delays": [
+    0.3,
+    3.67
+   ],
+   "source": "Ryanair H1 FY27 results (Nov. 2, 2026); Ryanair FY26 results (May 18, 2026)"
+  }
+ },
+ {
+  "at": "c7p0",
+  "type": "journey",
+  "props": {
+   "stops": [
+    {
+     "icon": "Search",
+     "label": "The price"
+    },
+    {
+     "icon": "CreditCard",
+     "label": "Checkout"
+    },
+    {
+     "icon": "Smartphone",
+     "label": "Check-in"
+    },
+    {
+     "icon": "TowerControl",
+     "label": "The airport"
+    },
+    {
+     "icon": "Plane",
+     "label": "The plane"
+    },
+    {
+     "icon": "Fuel",
+     "label": "In the air"
+    },
+    {
+     "icon": "Users",
+     "label": "The crew"
+    },
+    {
+     "icon": "PlaneLanding",
+     "label": "Landing"
+    }
+   ],
+   "current": 6,
+   "travelAt": 0.3,
+   "travel": 1.8
+  }
+ },
+ {
+  "at": "c7p0",
+  "after": "By Ryanair",
+  "type": "bars",
+  "props": {
+   "title": "Staff costs, € per passenger",
+   "bars": [
+    {
+     "label": "Ryanair",
+     "value": 9,
+     "display": "€9",
+     "color": "amber"
+    },
+    {
+     "label": "easyJet",
+     "value": 15,
+     "display": "€15",
+     "color": "slate"
+    },
+    {
+     "label": "IAG",
+     "value": 54,
+     "display": "€54",
+     "color": "slate",
+     "note": "British Airways, Iberia…"
+    }
+   ],
+   "delays": [
+    0.3,
+    5.03,
+    6.33
+   ],
+   "source": "Ryanair's own comparison, FY26 results presentation (May 2026)"
+  }
+ },
+ {
+  "at": "c7p0",
+  "after": "Full planes",
+  "type": "statement",
+  "bg": "cabin",
+  "props": {
+   "text": "Full planes, quick turnarounds: *more passengers per crew*.",
+   "icon": "Timer"
+  }
+ },
+ {
+  "at": "c7p1",
+  "type": "photo",
+  "props": {
+   "photo": "cockpit",
+   "kicker": "For decades",
+   "text": "No *unions*."
+  }
+ },
+ {
+  "at": "c7p1",
+  "after": "That changed",
+  "type": "tiles",
+  "bg": "cockpit",
+  "props": {
+   "kicker": "December 2017",
+   "items": [
+    {
+     "icon": "CalendarX",
+     "label": "Flights cancelled",
+     "value": "≈ 20,000",
+     "sub": "after a pilot rostering mistake",
+     "color": "brick"
+    },
+    {
+     "icon": "Handshake",
+     "label": "Unions recognized",
+     "sub": "a first in Ryanair’s history",
+     "color": "amber"
+    }
+   ],
+   "delays": [
+    1.0,
+    10.5
+   ],
+   "source": "Fortune (Dec. 15, 2017)"
+  }
+ },
+ {
+  "at": "c7p2",
+  "type": "statement",
+  "bg": "apron_night",
+  "props": {
+   "text": "Now, *the whole cost machine*.",
+   "sub": "cost per passenger, without fuel",
+   "icon": "Gauge"
+  }
+ },
+ {
+  "at": "c7p2",
+  "after": "Ryanair: thirty-six",
+  "type": "bars",
+  "props": {
+   "title": "Cost per passenger excluding fuel (€)",
+   "bars": [
+    {
+     "label": "Ryanair",
+     "value": 36,
+     "display": "€36",
+     "color": "amber"
+    },
+    {
+     "label": "Wizz Air",
+     "value": 65,
+     "display": "€65",
+     "color": "slate"
+    },
+    {
+     "label": "easyJet",
+     "value": 90,
+     "display": "€90",
+     "color": "slate"
+    },
+    {
+     "label": "Southwest",
+     "value": 147,
+     "display": "€147",
+     "color": "slate"
+    },
+    {
+     "label": "IAG",
+     "value": 178,
+     "display": "€178",
+     "color": "slate"
+    },
+    {
+     "label": "Lufthansa",
+     "value": 178,
+     "display": "€178",
+     "color": "slate"
+    },
+    {
+     "label": "Air France-KLM",
+     "value": 253,
+     "display": "€253",
+     "color": "brick"
+    }
+   ],
+   "delays": [
+    0.2,
+    1.94,
+    3.52,
+    4.74,
+    7.62,
+    8.120000000000001,
+    11.21
+   ],
+   "source": "Ryanair's own comparison, H1 FY27 presentation (Nov. 2, 2026)"
+  }
+ },
+ {
+  "at": "c7p3",
+  "type": "statement",
+  "bg": "bergamo_night",
+  "props": {
+   "text": "On short flights in Europe, *nobody comes close*.",
+   "sub": "Long-haul and business class cost money: not the same business.",
+   "icon": "Plane"
+  }
+ },
+ {
+  "at": "c8p0",
+  "type": "journey",
+  "props": {
+   "stops": [
+    {
+     "icon": "Search",
+     "label": "The price"
+    },
+    {
+     "icon": "CreditCard",
+     "label": "Checkout"
+    },
+    {
+     "icon": "Smartphone",
+     "label": "Check-in"
+    },
+    {
+     "icon": "TowerControl",
+     "label": "The airport"
+    },
+    {
+     "icon": "Plane",
+     "label": "The plane"
+    },
+    {
+     "icon": "Fuel",
+     "label": "In the air"
+    },
+    {
+     "icon": "Users",
+     "label": "The crew"
+    },
+    {
+     "icon": "PlaneLanding",
+     "label": "Landing"
+    }
+   ],
+   "current": 7,
+   "travelAt": 0.3,
+   "travel": 1.8,
+   "tallyTitle": "One passenger · year to March 2026 · our calculation",
+   "tally": [
+    {
+     "label": "Ticket",
+     "value": "€51",
+     "color": "teal",
+     "delay": 4.98
+    },
+    {
+     "label": "Extras",
+     "value": "+€24",
+     "color": "amber",
+     "delay": 7.21
+    },
+    {
+     "label": "Cost of flying you",
+     "value": "−€63",
+     "color": "brick",
+     "delay": 9.35
+    },
+    {
+     "label": "Profit",
+     "value": "€11",
+     "color": "amber",
+     "strong": true,
+     "delay": 12.44
+    }
+   ],
+   "source": "The Cost Curve calculation from Ryanair FY26 results (year to March 2026)"
+  }
+ },
+ {
+  "at": "c8p1",
+  "type": "statement",
+  "bg": "takeoff_pd",
+  "props": {
+   "kicker": "How does Ryanair make money on €15 flights?",
+   "text": "Not on *the ticket*.",
+   "icon": "Ticket"
+  }
+ },
+ {
+  "at": "c8p1",
+  "after": "The money comes from",
+  "type": "tiles",
+  "bg": "apron_night",
+  "props": {
+   "kicker": "Where the money comes from",
+   "items": [
+    {
+     "icon": "ShoppingBag",
+     "label": "Extras",
+     "sub": "sold after you choose",
+     "color": "amber"
+    },
+    {
+     "icon": "Gauge",
+     "label": "The lowest costs",
+     "sub": "by its own count",
+     "color": "amber"
+    },
+    {
+     "icon": "Plane",
+     "label": "Planes",
+     "sub": "bought in bad times, paid in cash",
+     "color": "amber"
+    },
+    {
+     "icon": "TowerControl",
+     "label": "Airports and countries",
+     "sub": "competing for its planes",
+     "color": "amber"
+    }
+   ],
+   "delays": [
+    1.51,
+    4.39,
+    8.77,
+    12.65
+   ]
+  }
+ },
+ {
+  "at": "c8p2",
+  "type": "bars",
+  "props": {
+   "title": "Margins, latest financial year (approximate, measures differ)",
+   "bars": [
+    {
+     "label": "Ryanair",
+     "value": 15.8,
+     "display": "≈ 16%",
+     "color": "amber",
+     "note": "operating"
+    },
+    {
+     "label": "IAG",
+     "value": 15.1,
+     "display": "15%",
+     "color": "slate",
+     "note": "operating"
+    },
+    {
+     "label": "easyJet",
+     "value": 6.6,
+     "display": "≈ 7%",
+     "color": "slate",
+     "note": "pre-tax"
+    },
+    {
+     "label": "Lufthansa",
+     "value": 4.9,
+     "display": "≈ 5%",
+     "color": "slate",
+     "note": "adj. EBIT"
+    },
+    {
+     "label": "Wizz Air",
+     "value": 2.5,
+     "display": "≈ 2%",
+     "color": "brick",
+     "note": "operating · net ≈ 0"
+    }
+   ],
+   "max": 20,
+   "delays": [
+    0.3,
+    1.0,
+    1.6,
+    2.2,
+    6.69
+   ],
+   "source": "Our calculations from Ryanair, IAG, easyJet, Lufthansa and Wizz Air annual results"
+  }
+ },
+ {
+  "at": "c8p2",
+  "after": "the one line on the receipt",
+  "type": "photo",
+  "props": {
+   "photo": "refinery",
+   "kicker": "The one line it can’t control",
+   "text": "The price *of oil*."
+  }
+ },
+ {
+  "at": "c8p3",
+  "type": "statement",
+  "bg": "takeoff",
+  "props": {
+   "text": "The cheapest seat is rarely *why the plane makes money*."
+  }
+ }
+]
