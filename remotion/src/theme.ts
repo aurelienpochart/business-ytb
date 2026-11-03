@@ -122,6 +122,29 @@ export const TINTS: Record<string, Palette> = {
       heroNumGlow: 'rgba(0,199,253,0.55)',
     },
   },
+  ryanair: {
+    // Bleu Ryanair (#073590) pour l'ambiance : nuit bleu roi presque noire, halos bleu roi ; l'or reste
+    // l'accent principal et rejoint le jaune Ryanair (#F1C933) pour les grands chiffres des photos. Les chiffres
+    // « teal » passent à un bleu ciel (#4FA8FF), lisible sur le bleu roi et distinct de l'or et du rouge brique.
+    C: {ink: '#01030B', navy: '#05112E', navyLight: '#0A1D4A', mute: '#97A5C6', slate: '#7286B2', teal: '#4FA8FF'},
+    GRAD: {
+      teal: ['#0B4FA8', '#8CC8FF', 'rgba(79,168,255,0.42)'],
+      slate: ['#26355A', '#8C9DC6', 'rgba(140,157,198,0.25)'],
+    },
+    AMB: {
+      inkRgb: '1,3,11',
+      night: '#0A2C7A',
+      nightSoft: '#082566',
+      orbCool: 'rgba(7,53,144,0.16)',
+      orbTeal: 'rgba(241,201,51,0.05)',
+      particle: '#fff3c9',
+      photoGrade: 'rgba(7,40,120,0.28)',
+      photoFilter: '',
+      regradeFilter: 'saturate(0.6)',
+      heroNum: '#F7D54A',
+      heroNumGlow: 'rgba(241,201,51,0.55)',
+    },
+  },
 };
 
 const DEFAULT = {C: {...C}, GRAD: {...GRAD}, AMB: {...AMB}};
