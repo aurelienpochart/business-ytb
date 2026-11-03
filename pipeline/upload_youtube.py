@@ -1,8 +1,9 @@
-"""Envoie une vidéo sur YouTube, toujours en PRIVÉ, avec miniature et sous-titres.
+"""Envoie une vidéo sur YouTube en PRIVÉ, programmée (publishAt) selon la charte, avec miniature et sous-titres.
 
 Usage : python pipeline/upload_youtube.py <dossier_video> <fichier.mp4> <miniature.png>
 Secrets (GitHub Actions) : YT_CLIENT_ID, YT_CLIENT_SECRET, YT_REFRESH_TOKEN.
-Le passage en public reste une action manuelle d'aurelien dans YouTube Studio (validation C-08).
+Date de sortie : pipeline/schedule.py (variable PUBLISH_AT : auto par défaut, none = privé sans date,
+ou une date ISO). YouTube publie seul à cette date ; aurelien peut bloquer avant dans Studio.
 """
 
 import json
@@ -11,6 +12,9 @@ import sys
 import urllib.parse
 import urllib.request
 from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+import schedule  # noqa: E402
 
 CHUNK = 64 * 1024 * 1024
 
@@ -32,7 +36,7 @@ def request(method, url, token, body=None, headers=None):
     return urllib.request.urlopen(req, timeout=600)
 
 
-def upload_video(token, path, meta, description):
+def upload_video(token, path, meta, description, publish_at=None):
     resource = {
         "snippet": {
             "title": meta["title"],
@@ -48,6 +52,8 @@ def upload_video(token, path, meta, description):
             "containsSyntheticMedia": meta["contains_synthetic_media"],
         },
     }
+    if publish_at:
+        resource["status"]["publishAt"] = publish_at
     size = path.stat().st_size
     init = request(
         "POST",
@@ -82,11 +88,15 @@ def main():
     if (video_dir / "build" / "music.json").exists():
         meta["contains_synthetic_media"] = True
     description = (video_dir / "build" / "description.txt").read_text()
+    folder = video_dir
+    when = schedule.choose(folder, "long")
     token = access_token()
 
-    video = upload_video(token, mp4, meta, description)
+    video = upload_video(token, mp4, meta, description, schedule.rfc3339(when) if when else None)
     video_id = video["id"]
-    print(f"Vidéo envoyée en privé : https://youtu.be/{video_id}")
+    print(f"Vidéo envoyée en privé : https://youtu.be/{video_id}"
+          + (f", programmée le {schedule.rfc3339(when)}" if when else " (sans date)"))
+    schedule.record(folder, "long", video_id, when)
 
     request("POST", f"https://www.googleapis.com/upload/youtube/v3/thumbnails/set?videoId={video_id}",
             token, thumb.read_bytes(), {"Content-Type": "image/png"})
@@ -104,7 +114,8 @@ def main():
     print("Sous-titres anglais ajoutés")
 
     (video_dir / "build" / "youtube.json").write_text(json.dumps(
-        {"video_id": video_id, "url": f"https://youtu.be/{video_id}", "privacy": "private"}, indent=2) + "\n")
+        {"video_id": video_id, "url": f"https://youtu.be/{video_id}", "privacy": "private",
+         "publish_at": schedule.rfc3339(when) if when else None}, indent=2) + "\n")
 
 
 if __name__ == "__main__":

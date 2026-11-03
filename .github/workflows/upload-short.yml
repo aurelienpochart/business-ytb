@@ -1,7 +1,7 @@
-name: Envoyer un Short sur YouTube (privé)
+name: Envoyer un Short sur YouTube (privé, programmé)
 
-# À lancer seulement après validation du Short par aurelien. Envoi en PRIVÉ ; le lien « vidéo associée »
-# et le passage en public se règlent ensuite dans YouTube Studio (non disponibles dans l'API).
+# Envoi en PRIVÉ programmé (publishAt, pipeline/schedule.py) ; le lien « vidéo associée » se règle dans
+# YouTube Studio (absent de l'API).
 on:
   workflow_dispatch:
     inputs:
@@ -11,6 +11,9 @@ on:
       run_id:
         description: Run « Produire un Short » (seulement si build/short.mp4 n'est pas dans le dépôt)
         required: false
+      publish_at:
+        description: "Date de sortie : auto (charte), none (privé sans date) ou date UTC (2026-11-10T15:00:00Z)"
+        default: auto
 
 permissions:
   contents: write
@@ -38,6 +41,7 @@ jobs:
           YT_CLIENT_ID: ${{ secrets.YT_CLIENT_ID }}
           YT_CLIENT_SECRET: ${{ secrets.YT_CLIENT_SECRET }}
           YT_REFRESH_TOKEN: ${{ secrets.YT_REFRESH_TOKEN }}
+          PUBLISH_AT: ${{ inputs.publish_at }}
         run: |
           MP4=$(find rendu -name short.mp4 2>/dev/null | head -1)
           [ -n "$MP4" ] || MP4="$SHORT/build/short.mp4"
@@ -48,7 +52,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add "$SHORT/build/youtube.json"
+          git add "$SHORT/build/youtube.json" config/calendar.json
           git diff --cached --quiet && exit 0
           git commit -m "YouTube : Short $SHORT envoyé en privé"
           for i in 1 2 3 4 5; do

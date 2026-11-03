@@ -8,8 +8,8 @@ extrait, sauf si le metadata.json du Short la précise (obligatoire pour un Shor
 Short original (videos/shorts-originaux/<n-sujet>, champ "related") : lien vers la vidéo longue la plus
 proche ou vers la chaîne (voir pipeline/short.py).
 Non automatisable : le lien « vidéo associée » (related video) d'un Short n'existe pas dans l'API YouTube
-Data v3 (aucune propriété de la ressource videos) ; il se règle dans YouTube Studio. Le passage en public
-reste une action manuelle d'aurelien (validation C-08).
+Data v3 (aucune propriété de la ressource videos) ; il se règle dans YouTube Studio. Date de sortie :
+pipeline/schedule.py (extrait : J+2 de sa vidéo longue ; original : prochain jour libre), PUBLISH_AT pour forcer.
 """
 
 import json
@@ -19,6 +19,7 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from short import description, related  # noqa: E402
 from upload_youtube import access_token, request, upload_video  # noqa: E402
+import schedule  # noqa: E402
 
 
 def main():
@@ -38,10 +39,14 @@ def main():
     }
     text = description(short, long_url)
     print(f"Titre : {meta['title']}\n{text}")
+    folder = short
+    when = schedule.choose(folder, "short", video if video else None)
     token = access_token()
-    result = upload_video(token, mp4, resource_meta, text)
+    result = upload_video(token, mp4, resource_meta, text, schedule.rfc3339(when) if when else None)
     video_id = result["id"]
-    print(f"Short envoyé en privé : https://youtu.be/{video_id}")
+    print(f"Short envoyé en privé : https://youtu.be/{video_id}"
+          + (f", programmé le {schedule.rfc3339(when)}" if when else " (sans date)"))
+    schedule.record(folder, "short", video_id, when)
 
     srt = (short / "build" / "captions.srt").read_bytes()
     boundary = "thecostcurve-caption"
@@ -56,7 +61,7 @@ def main():
 
     (short / "build" / "youtube.json").write_text(json.dumps(
         {"video_id": video_id, "url": f"https://youtu.be/{video_id}", "privacy": "private",
-         "related_video": long_url if video else None, "related_video_set": False}, indent=2) + "\n")
+         "publish_at": schedule.rfc3339(when) if when else None, "related_video": long_url if video else None, "related_video_set": False}, indent=2) + "\n")
     print(f"À faire dans YouTube Studio : vidéo associée -> {long_url}" if video else "Short original : pas de vidéo associée (lien vers la chaîne)")
 
 

@@ -1,0 +1,17 @@
+{
+  "_doc": "Calendrier de publication (pipeline/schedule.py). Mis à jour automatiquement par upload-video.yml et upload-short.yml. Heures en UTC.",
+  "items": [
+    {"kind": "long", "folder": "videos/01-tesla", "video_id": "7u5rmYz2k-M", "publish_at": "2026-10-23T15:00:00Z"},
+    {"kind": "long", "folder": "videos/02-nvidia", "video_id": "SkjDDFQuy_k", "publish_at": "2026-10-27T15:00:00Z"},
+    {"kind": "long", "folder": "videos/03-costco", "video_id": "GwBL1gpKZeE", "publish_at": "2026-10-30T15:00:00Z"},
+    {"kind": "long", "folder": "videos/04-intel", "video_id": "sOiLMcA4evs", "publish_at": "2026-11-03T15:00:00Z"},
+    {"kind": "short", "folder": "videos/01-tesla/shorts/1", "video_id": "cKCUly3HTNY", "publish_at": "2026-10-25T17:00:00Z"},
+    {"kind": "short", "folder": "videos/01-tesla/shorts/2", "video_id": "S4I-0n9ZBOg", "publish_at": "2026-10-28T17:00:00Z"},
+    {"kind": "short", "folder": "videos/02-nvidia/shorts/1", "video_id": "t_Na39nFVpg", "publish_at": "2026-10-29T17:00:00Z"},
+    {"kind": "short", "folder": "videos/02-nvidia/shorts/2", "video_id": "7OwXK42wfQs", "publish_at": "2026-11-01T17:00:00Z"},
+    {"kind": "short", "folder": "videos/03-costco/shorts/1", "video_id": "hOpx7IU0XvU", "publish_at": "2026-11-02T17:00:00Z"},
+    {"kind": "short", "folder": "videos/shorts-originaux/01-apple-services", "video_id": "gYGStBTm6Hk", "publish_at": "2026-11-04T17:00:00Z"},
+    {"kind": "short", "folder": "videos/04-intel/shorts/1", "video_id": "HfdxtZrA6YQ", "publish_at": "2026-11-05T17:00:00Z"},
+    {"kind": "short", "folder": "videos/shorts-originaux/02-big-mac", "video_id": "77hbDSs27bk", "publish_at": "2026-11-07T17:00:00Z"}
+  ]
+}

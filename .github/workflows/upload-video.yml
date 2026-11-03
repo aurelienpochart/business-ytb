@@ -1,4 +1,4 @@
-name: Envoyer sur YouTube (privé)
+name: Envoyer sur YouTube (privé, programmé)
 
 on:
   workflow_dispatch:
@@ -9,6 +9,9 @@ on:
       run_id:
         description: Numéro du run « Produire une vidéo » dont on envoie le rendu
         required: true
+      publish_at:
+        description: "Date de sortie : auto (charte), none (privé sans date) ou date UTC (2026-11-10T15:00:00Z)"
+        default: auto
 
 permissions:
   contents: write
@@ -38,13 +41,14 @@ jobs:
           YT_CLIENT_ID: ${{ secrets.YT_CLIENT_ID }}
           YT_CLIENT_SECRET: ${{ secrets.YT_CLIENT_SECRET }}
           YT_REFRESH_TOKEN: ${{ secrets.YT_REFRESH_TOKEN }}
+          PUBLISH_AT: ${{ inputs.publish_at }}
         run: python3 pipeline/upload_youtube.py "$VIDEO" rendu/video.mp4 "$VIDEO/build/thumbnail.png"
 
       - name: Enregistrer l'identifiant YouTube
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add "$VIDEO/build"
+          git add "$VIDEO/build" config/calendar.json
           git diff --cached --quiet || git commit -m "YouTube : $VIDEO envoyée en privé"
           git pull --rebase -q
           git push
