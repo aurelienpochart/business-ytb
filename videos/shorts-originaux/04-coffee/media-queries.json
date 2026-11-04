@@ -1,18 +1,16 @@
 {
- "night_earth": "Earth at night equirectangular NASA Black Marble",
- "world_map": "equirectangular world map dark",
  "beans": "roasted coffee beans close-up",
  "cherries": "coffee cherries on branch",
  "brazil_farm": "coffee plantation Minas Gerais Brazil",
- "brazil_harvest": "coffee harvest Brazil",
- "vietnam_farm": "coffee farm Vietnam Central Highlands",
  "colombia": "coffee plantation Colombia",
  "ethiopia": "Ethiopian coffee ceremony",
- "sacks": "coffee sacks jute warehouse",
  "santos": "Port of Santos container ship",
  "espresso": "espresso cup",
  "cafe": "coffee shop barista",
  "roastery": "coffee roasting roaster",
- "blank_map": "BlankMap World Equirectangular svg",
- "blue_marble": "Whole world land and oceans NASA"
+ "vn_daklak": "coffee Dak Lak",
+ "vn_bmt": "Buon Ma Thuot coffee",
+ "vn_phin": "Vietnamese coffee phin",
+ "vn_farm2": "Vietnam coffee plantation",
+ "green_sacks": "green coffee beans sacks"
 }
