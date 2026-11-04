@@ -13,3 +13,7 @@ https://www.youtube.com/@thecostcurvetv et carte finale « More on the channel �
 
 Production : workflow « Produire un Short » avec `short: videos/shorts-originaux/<n>-<sujet>` ; images :
 workflow « Médias » lancé à la main (`mode` search ou fetch, `video` = le dossier du Short).
+
+Format The Map : champ `map` d'un plan `shot` (planisphère équirectangulaire du dossier, `view` et `from`
+= centre [lon, lat] et degrés de longitude visibles, `pins` avec valeur et libellé, `arcs` pour les flux) ;
+exemple : `04-coffee/visuals.json`.
