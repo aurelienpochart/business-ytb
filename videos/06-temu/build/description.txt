@@ -1,0 +1,54 @@
+Temu sold two-dollar socks shipped from China for free. Cheap factories, burning cash and Super Bowl ads are only part of the story: the real trick was sending every order as its own parcel under the US "de minimis" rule, duty-free. We check each explanation against PDD's own accounts, then follow how the US closed that door in 2025 and 2026, how Temu moved to local warehouses and Europe, and whether it can survive as the same company. Main sources below.
+
+Chapters
+00:00 Two-dollar socks, shipped free
+00:48 Who is Temu?
+01:58 False trail 1: cheap factories
+03:10 False trail 2: burning cash
+04:23 False trail 3: the ads
+05:20 The real answer: the parcel
+07:28 The door closes
+08:42 Plan B: warehouses and Europe
+10:43 So, can Temu survive?
+
+Sources
+- PDD Q2 2026 results (Aug. 24, 2026): https://www.globenewswire.com/news-release/2026/08/24/3349572/0/en/pdd-holdings-announces-second-quarter-2026-unaudited-financial-results.html
+- PDD FY2025 results (Mar. 25, 2026): https://www.sec.gov/Archives/edgar/data/1737806/000110465926034813/tm269789d1_ex99-1.htm
+- PDD FY2023 results: https://www.sec.gov/Archives/edgar/data/1737806/000110465924036850/tm249325d1_ex99-1.htm
+- PDD annual report 2025 (20-F): https://www.sec.gov/Archives/edgar/data/0001737806/000110465926050727/pdd-20251231x20f.htm
+- CBP de minimis rule (June 24, 2026): https://www.federalregister.gov/d/2026-12670
+- Supreme Court ruling and de minimis (White & Case): https://www.whitecase.com/insight-alert/united-states-terminates-ieepa-based-tariffs-following-supreme-court-decision
+- House Select Committee on the CCP (June 22, 2023): https://chinaselectcommittee.house.gov/media/press-releases/select-committee-releases-interim-findings-shein-temu-forced-labor
+- WIRED (May 26, 2023): https://www.wired.com/story/temu-is-losing-millions-of-dollars-to-send-you-cheap-socks/
+- Bloomberg via The Star (Feb. 13, 2025): https://www.thestar.com.my/business/business-news/2025/02/13/temu-overhauls-supply-chain-due-to-tariffs-risks-price-hikes
+- CNN on the Super Bowl (Feb. 12, 2024): https://abc17news.com/money/cnn-business-consumer/2024/02/12/online-superstore-temu-doubles-down-on-super-bowl-with-tv-ad-and-15-million-in-giveaways/
+- NBC News (Apr. 2025): https://www.nbcnews.com/news/amp/rcna201616
+- Reuters on Temu users (June 4, 2025): https://www.investing.com/news/economy-news/retailer-temus-daily-us-users-nearly-halve-following-end-of-de-minimis-loophole-4081081
+- CBS News (May 5, 2025): https://www.cbsnews.com/news/temu-halts-shipments-to-us-from-china-de-minimis-tariffs/
+- Postal duties, May 2025 (STR): https://www.strtrade.com/trade-news-resources/str-trade-report/trade-report/may/u-s-lowers-tariffs-on-low-value-shipments-from-china
+- The Conveyor (Sept. 1, 2026): https://www.theconveyor.co/p/pdd-temu-local-fulfillment-rebuild
+- EU €3 parcel duty (Reuters, Dec. 12, 2025): https://cyprus-mail.com/2025/12/12/eu-to-impose-e3-duty-on-e-commerce-parcels-from-july-2026
+- EU fine (Irish Times, May 28, 2026): https://www.irishtimes.com/business/2026/05/28/eu-fines-chinas-temu-200mn-for-failing-to-prevent-sale-of-illegal-goods/
+
+Fonts: Inter, IBM Plex Mono and Instrument Serif (SIL Open Font License); icons: Lucide (ISC).
+PDD does not report Temu separately. Per-day and percentage figures marked as ours are The Cost Curve's calculations from the sources above.
+
+Images (Wikimedia Commons)
+- Olivier Cleynen, CC BY-SA 3.0: https://commons.wikimedia.org/w/index.php?curid=17419556
+- Evan Blaser from san francisco, ca, usa, CC BY 2.0: https://commons.wikimedia.org/w/index.php?curid=15206102
+- YeraC, CC BY-SA 4.0: https://commons.wikimedia.org/w/index.php?curid=178976054
+- Whisper of the heart, CC BY-SA 4.0: https://commons.wikimedia.org/w/index.php?curid=73953344
+- https://www.flickr.com/photos/pixelm/ iamdanw, CC BY 2.0: https://commons.wikimedia.org/w/index.php?curid=36875132
+- Fred Romero from Paris, France, CC BY 2.0: https://commons.wikimedia.org/w/index.php?curid=70681306
+- Metro Centric, CC BY 2.0: https://commons.wikimedia.org/w/index.php?curid=85071567
+- Shixart1985, CC BY 2.0: https://commons.wikimedia.org/w/index.php?curid=186777184
+- Tecnowey, CC BY-SA 3.0: https://commons.wikimedia.org/w/index.php?curid=25443288
+- Henry Söderlund, CC BY 2.0: https://commons.wikimedia.org/w/index.php?curid=139907477
+- WillNemoy, CC BY-SA 4.0: https://commons.wikimedia.org/w/index.php?curid=125509860
+- Gannu03, CC BY-SA 4.0: https://commons.wikimedia.org/w/index.php?curid=180130336
+Other images: public domain or CC0.
+
+Logos are trademarks of their respective owners, shown for identification only. This channel is independent and not affiliated with or endorsed by PDD Holdings Inc. (Temu) or any company mentioned.
+
+This video is for educational purposes and is not financial advice.
+Made with the help of AI tools, including a synthetic narrator voice and AI-generated music (Google Lyria).
