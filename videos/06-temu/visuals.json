@@ -1,0 +1,1730 @@
+[
+ {
+  "at": "c0p0",
+  "type": "hero",
+  "props": {
+   "photo": "freighter_nose",
+   "logo": "logo_temu",
+   "logoWidth": 520,
+   "logoHeight": 125,
+   "logoColor": "white",
+   "number": "$2",
+   "label": "socks, shipped from China",
+   "kicker": "Temu’s promise",
+   "numberAt": 1.0
+  }
+ },
+ {
+  "at": "c0p0",
+  "after": "Shipped from a factory",
+  "type": "chain",
+  "props": {
+   "kicker": "Free shipping",
+   "rows": [
+    {
+     "nodes": [
+      {
+       "label": "A factory",
+       "sub": "in China",
+       "icon": "Factory"
+      },
+      {
+       "label": "One parcel",
+       "sub": "by air",
+       "icon": "Plane"
+      },
+      {
+       "label": "A front door",
+       "sub": "in Ohio",
+       "icon": "House",
+       "strong": true
+      }
+     ]
+    }
+   ],
+   "start": 0.1,
+   "stagger": 0.45
+  }
+ },
+ {
+  "at": "c0p1",
+  "type": "photo",
+  "props": {
+   "photo": "cart_laptop",
+   "kicker": "Temu arrives in America",
+   "text": "*September 2022.*",
+   "focus": "50% 50%"
+  }
+ },
+ {
+  "at": "c0p1",
+  "after": "Less than a year",
+  "type": "bars",
+  "props": {
+   "title": "Temu users in the US, per month",
+   "bars": [
+    {
+     "label": "January 2023",
+     "value": 13,
+     "display": "13M",
+     "color": "slate"
+    },
+    {
+     "label": "January 2024",
+     "value": 51,
+     "display": "51M",
+     "color": "amber"
+    }
+   ],
+   "max": 60,
+   "delays": [
+    0.3,
+    1.0
+   ],
+   "source": "Sensor Tower, via CNN (Feb. 12, 2024)"
+  }
+ },
+ {
+  "at": "c0p2",
+  "type": "statement",
+  "bg": "capitol",
+  "props": {
+   "kicker": "2025",
+   "text": "The door to *duty-free parcels* closed.",
+   "icon": "DoorClosed"
+  }
+ },
+ {
+  "at": "c0p3",
+  "type": "statement",
+  "bg": "hqb_market",
+  "props": {
+   "kicker": "Our question",
+   "text": "How did Temu get *so cheap*?",
+   "icon": "CircleQuestionMark"
+  }
+ },
+ {
+  "at": "c0p3",
+  "after": "And can it survive",
+  "type": "statement",
+  "bg": "port_night",
+  "props": {
+   "kicker": "And now",
+   "text": "Can it survive *without that door*?",
+   "icon": "DoorClosed"
+  }
+ },
+ {
+  "at": "c0p4",
+  "type": "trails",
+  "props": {
+   "question": "How did Temu get so cheap?",
+   "trails": [
+    {
+     "label": "Cheap factories",
+     "icon": "Factory"
+    },
+    {
+     "label": "Burning cash",
+     "icon": "Flame"
+    },
+    {
+     "label": "A flood of ads",
+     "icon": "Megaphone"
+    }
+   ],
+   "current": -1
+  }
+ },
+ {
+  "at": "c1p0",
+  "type": "photo",
+  "props": {
+   "photo": "dublin",
+   "kicker": "PDD Holdings",
+   "text": "Based in Dublin. *Rooted in China.*",
+   "focus": "50% 50%"
+  }
+ },
+ {
+  "at": "c1p0",
+  "after": "whose roots",
+  "type": "tiles",
+  "bg": "shanghai",
+  "props": {
+   "kicker": "PDD Holdings: two apps",
+   "items": [
+    {
+     "image": "logo_pinduoduo",
+     "label": "Pinduoduo",
+     "sub": "China, since 2015"
+    },
+    {
+     "image": "logo_temu",
+     "label": "Temu",
+     "sub": "abroad, since 2022",
+     "color": "amber"
+    }
+   ],
+   "delays": [
+    0.2,
+    0.8
+   ]
+  }
+ },
+ {
+  "at": "c1p1",
+  "type": "statement",
+  "bg": "hqb_market",
+  "props": {
+   "kicker": "Pinduoduo’s “team purchase”",
+   "text": "Buy together, *pay less*.",
+   "icon": "Users"
+  }
+ },
+ {
+  "at": "c1p1",
+  "after": "PDD says",
+  "type": "quote",
+  "props": {
+   "text": "The same value propositions and operational model.",
+   "by": "PDD Holdings, annual report 2025, on Pinduoduo and Temu",
+   "source": "PDD Holdings Form 20-F, 2025"
+  }
+ },
+ {
+  "at": "c1p2",
+  "type": "chrono",
+  "props": {
+   "title": "Temu goes global",
+   "from": 2022.4,
+   "to": 2023.6,
+   "events": [
+    {
+     "year": 2022.7,
+     "date": "Sept. 2022",
+     "label": "United States",
+     "image": "logo_temu",
+     "level": 1,
+     "at": 0.3
+    },
+    {
+     "year": 2023.2,
+     "date": "Mar. 2023",
+     "label": "Australia and New Zealand",
+     "level": -1,
+     "at": 2.0
+    },
+    {
+     "year": 2023.28,
+     "date": "Apr. 2023",
+     "label": "Europe",
+     "level": 1,
+     "at": 3.6,
+     "color": "teal"
+    }
+   ],
+   "source": "PDD Holdings Form 20-F, 2025"
+  }
+ },
+ {
+  "at": "c1p3",
+  "type": "bars",
+  "props": {
+   "title": "PDD transaction services (the line that includes Temu), RMB billions",
+   "bars": [
+    {
+     "label": "2022",
+     "value": 27.6,
+     "display": "27.6",
+     "color": "slate"
+    },
+    {
+     "label": "2023",
+     "value": 94.1,
+     "display": "94.1",
+     "color": "slate"
+    },
+    {
+     "label": "2024",
+     "value": 195.9,
+     "display": "195.9",
+     "color": "slate"
+    },
+    {
+     "label": "2025",
+     "value": 214.1,
+     "display": "214.1",
+     "color": "amber",
+     "note": "almost ×8"
+    }
+   ],
+   "max": 240,
+   "delays": [
+    3.0,
+    4.2,
+    5.0,
+    5.8
+   ],
+   "source": "PDD FY2023 results (Mar. 2024); PDD FY2025 results (Mar. 25, 2026)"
+  }
+ },
+ {
+  "at": "c1p4",
+  "type": "statement",
+  "bg": "container_yard",
+  "props": {
+   "text": "Whatever Temu did, *it worked*.",
+   "sub": "Now, how?",
+   "icon": "TrendingUp"
+  }
+ },
+ {
+  "at": "c2p0",
+  "type": "trails",
+  "props": {
+   "question": "How did Temu get so cheap?",
+   "trails": [
+    {
+     "label": "Cheap factories",
+     "icon": "Factory"
+    },
+    {
+     "label": "Burning cash",
+     "icon": "Flame"
+    },
+    {
+     "label": "A flood of ads",
+     "icon": "Megaphone"
+    }
+   ],
+   "current": 0
+  }
+ },
+ {
+  "at": "c2p0",
+  "after": "Chinese factories are cheap",
+  "type": "photo",
+  "props": {
+   "photo": "garment_factory",
+   "kicker": "False trail 1",
+   "text": "Made in China = *cheap*?",
+   "focus": "50% 45%"
+  }
+ },
+ {
+  "at": "c2p1",
+  "type": "tiles",
+  "bg": "yiwu_shelves",
+  "props": {
+   "kicker": "They buy from Chinese factories too",
+   "items": [
+    {
+     "image": "logo_amazon",
+     "label": "Amazon sellers"
+    },
+    {
+     "image": "logo_walmart",
+     "label": "Walmart suppliers"
+    },
+    {
+     "image": "logo_shein",
+     "label": "Shein"
+    },
+    {
+     "image": "logo_aliexpress",
+     "label": "AliExpress"
+    }
+   ],
+   "stagger": 0.5,
+   "start": 0.2
+  }
+ },
+ {
+  "at": "c2p1",
+  "after": "The difference isn",
+  "type": "statement",
+  "bg": "yiwu_market",
+  "props": {
+   "text": "It’s what happens *after the factory door*.",
+   "icon": "DoorOpen"
+  }
+ },
+ {
+  "at": "c2p2",
+  "type": "chain",
+  "props": {
+   "title": "From factory to shopper, the usual way",
+   "rows": [
+    {
+     "nodes": [
+      {
+       "label": "Factory",
+       "icon": "Factory"
+      },
+      {
+       "label": "Importer",
+       "icon": "Ship",
+       "cut": true
+      },
+      {
+       "label": "Distributor",
+       "icon": "Truck",
+       "cut": true
+      },
+      {
+       "label": "Warehouse",
+       "icon": "Warehouse",
+       "cut": true
+      },
+      {
+       "label": "Retailer",
+       "icon": "Store",
+       "cut": true
+      },
+      {
+       "label": "You",
+       "icon": "User",
+       "strong": true
+      }
+     ]
+    }
+   ],
+   "notes": [
+    {
+     "text": "each one adds its margin",
+     "icon": "Percent",
+     "under": [
+      1,
+      4
+     ]
+    }
+   ],
+   "start": 0.3,
+   "stagger": 0.55,
+   "notesAt": 4.6,
+   "cutAt": 7.6
+  }
+ },
+ {
+  "at": "c2p3",
+  "type": "quote",
+  "props": {
+   "text": "Sellers leave everything – price-setting, shipping and marketing included – to Temu.",
+   "by": "Bloomberg, on Temu’s original “fully managed” model (Feb. 2025)",
+   "source": "Bloomberg, via The Star (Feb. 13, 2025)"
+  }
+ },
+ {
+  "at": "c2p3",
+  "after": "The factory supplied",
+  "type": "chain",
+  "props": {
+   "kicker": "“Fully managed”",
+   "rows": [
+    {
+     "nodes": [
+      {
+       "label": "Factory",
+       "sub": "supplies the goods",
+       "icon": "Factory"
+      },
+      {
+       "label": "Temu",
+       "sub": "sets the price, ships, markets",
+       "logo": "logo_temu",
+       "strong": true
+      },
+      {
+       "label": "You",
+       "sub": "pay Temu’s price",
+       "icon": "User"
+      }
+     ]
+    }
+   ],
+   "start": 0.1,
+   "stagger": 0.5
+  }
+ },
+ {
+  "at": "c2p4",
+  "type": "quote",
+  "props": {
+   "text": "We are working for Temu for free.",
+   "by": "A Temu seller, speaking to WIRED (May 2023)",
+   "source": "WIRED (May 26, 2023)"
+  }
+ },
+ {
+  "at": "c2p5",
+  "type": "trails",
+  "props": {
+   "question": "How did Temu get so cheap?",
+   "trails": [
+    {
+     "label": "Cheap factories",
+     "icon": "Factory"
+    },
+    {
+     "label": "Burning cash",
+     "icon": "Flame"
+    },
+    {
+     "label": "A flood of ads",
+     "icon": "Megaphone"
+    }
+   ],
+   "current": 0,
+   "stampAt": 1.2
+  }
+ },
+ {
+  "at": "c3p0",
+  "type": "trails",
+  "props": {
+   "question": "How did Temu get so cheap?",
+   "trails": [
+    {
+     "label": "Cheap factories",
+     "icon": "Factory"
+    },
+    {
+     "label": "Burning cash",
+     "icon": "Flame"
+    },
+    {
+     "label": "A flood of ads",
+     "icon": "Megaphone"
+    }
+   ],
+   "current": 1,
+   "stamped": [
+    0
+   ]
+  }
+ },
+ {
+  "at": "c3p1",
+  "type": "receipt",
+  "props": {
+   "header": "ONE US ORDER, 2023",
+   "subheader": "estimates reported by WIRED",
+   "lines": [
+    {
+     "label": "Average order",
+     "value": "≈ $25"
+    },
+    {
+     "label": "Shipping one small parcel",
+     "value": "≈ $14"
+    },
+    {
+     "rule": true,
+     "label": ""
+    },
+    {
+     "label": "Estimated loss per order",
+     "value": "≈ −$30",
+     "strong": true,
+     "mark": true
+    }
+   ],
+   "delays": [
+    6.0,
+    7.4,
+    8.0,
+    1.2
+   ],
+   "kicker": "Estimates, 2023",
+   "text": "Losing money *on purpose*?",
+   "source": "WIRED (May 26, 2023), citing its own analysis, Haitong International and Zhanglian"
+  }
+ },
+ {
+  "at": "c3p2",
+  "type": "statement",
+  "bg": "cart_laptop",
+  "props": {
+   "kicker": "A land grab",
+   "text": "Pay for the first order. *Hope they come back.*",
+   "icon": "Magnet"
+  }
+ },
+ {
+  "at": "c3p3",
+  "type": "bars",
+  "props": {
+   "title": "PDD net profit, RMB billions",
+   "bars": [
+    {
+     "label": "2022",
+     "value": 31.5,
+     "display": "31.5",
+     "color": "slate"
+    },
+    {
+     "label": "2023",
+     "value": 60.0,
+     "display": "60.0",
+     "color": "slate"
+    },
+    {
+     "label": "2024",
+     "value": 112.4,
+     "display": "112.4",
+     "color": "amber",
+     "note": "more than ×3"
+    },
+    {
+     "label": "2025",
+     "value": 99.4,
+     "display": "99.4",
+     "color": "slate"
+    }
+   ],
+   "max": 130,
+   "delays": [
+    2.6,
+    3.4,
+    4.4,
+    5.2
+   ],
+   "source": "PDD FY2023 results (Mar. 2024); PDD FY2025 results (Mar. 25, 2026)"
+  }
+ },
+ {
+  "at": "c3p4",
+  "type": "numbers",
+  "bg": "shanghai",
+  "props": {
+   "title": "PDD Holdings, April to June 2026",
+   "items": [
+    {
+     "value": 4.0,
+     "decimals": 1,
+     "prefix": "$",
+     "suffix": "B",
+     "label": "profit in one quarter",
+     "color": "amber",
+     "icon": "Coins"
+    },
+    {
+     "value": 67.3,
+     "decimals": 1,
+     "prefix": "$",
+     "suffix": "B",
+     "label": "cash and short-term investments",
+     "color": "teal",
+     "icon": "Landmark"
+    }
+   ],
+   "source": "PDD Q2 2026 results (Aug. 24, 2026)"
+  }
+ },
+ {
+  "at": "c3p5",
+  "type": "statement",
+  "bg": "ship_sea",
+  "props": {
+   "text": "Not a startup. A profitable company *spending abroad*.",
+   "icon": "Globe"
+  }
+ },
+ {
+  "at": "c3p5",
+  "after": "And a lot of that money",
+  "type": "trails",
+  "props": {
+   "question": "How did Temu get so cheap?",
+   "trails": [
+    {
+     "label": "Cheap factories",
+     "icon": "Factory"
+    },
+    {
+     "label": "Burning cash",
+     "icon": "Flame"
+    },
+    {
+     "label": "A flood of ads",
+     "icon": "Megaphone"
+    }
+   ],
+   "current": 1,
+   "stamped": [
+    0
+   ],
+   "stampAt": 0.5
+  }
+ },
+ {
+  "at": "c4p0",
+  "type": "trails",
+  "props": {
+   "question": "How did Temu get so cheap?",
+   "trails": [
+    {
+     "label": "Cheap factories",
+     "icon": "Factory"
+    },
+    {
+     "label": "Burning cash",
+     "icon": "Flame"
+    },
+    {
+     "label": "A flood of ads",
+     "icon": "Megaphone"
+    }
+   ],
+   "current": 2,
+   "stamped": [
+    0,
+    1
+   ]
+  }
+ },
+ {
+  "at": "c4p0",
+  "after": "Temu bought three",
+  "type": "hero",
+  "props": {
+   "photo": "stadium",
+   "logo": "logo_temu",
+   "logoWidth": 420,
+   "logoHeight": 100,
+   "logoColor": "white",
+   "number": "5 ads",
+   "label": "3 during the game, 2 after",
+   "kicker": "Super Bowl, February 2024",
+   "numberAt": 0.8,
+   "source": "CNN (Feb. 12, 2024)"
+  }
+ },
+ {
+  "at": "c4p0",
+  "after": "at roughly six",
+  "type": "numbers",
+  "bg": "sb_sign",
+  "props": {
+   "title": "Temu at the 2024 Super Bowl",
+   "items": [
+    {
+     "value": 6.5,
+     "decimals": 1,
+     "prefix": "$",
+     "suffix": "M+",
+     "label": "per 30-second spot",
+     "color": "slate",
+     "icon": "Tv"
+    },
+    {
+     "value": 15,
+     "prefix": "$",
+     "suffix": "M+",
+     "label": "in coupons and giveaways",
+     "color": "amber",
+     "icon": "Gift"
+    }
+   ],
+   "source": "CNN (Feb. 12, 2024)"
+  }
+ },
+ {
+  "at": "c4p1",
+  "type": "bars",
+  "props": {
+   "title": "PDD sales and marketing spending, RMB billions",
+   "bars": [
+    {
+     "label": "2022",
+     "value": 54.3,
+     "display": "54.3",
+     "color": "slate"
+    },
+    {
+     "label": "2023",
+     "value": 82.2,
+     "display": "82.2",
+     "color": "slate"
+    },
+    {
+     "label": "2024",
+     "value": 111.3,
+     "display": "111.3",
+     "color": "slate"
+    },
+    {
+     "label": "2025",
+     "value": 125.3,
+     "display": "125.3",
+     "color": "amber"
+    }
+   ],
+   "max": 145,
+   "delays": [
+    1.8,
+    2.4,
+    3.0,
+    3.8
+   ],
+   "source": "PDD FY2023 results (Mar. 2024); PDD FY2025 results (Mar. 25, 2026)"
+  }
+ },
+ {
+  "at": "c4p1",
+  "after": "That's more than",
+  "type": "numbers",
+  "bg": "times_square",
+  "props": {
+   "title": "PDD sales and marketing, 2025",
+   "items": [
+    {
+     "value": 17,
+     "prefix": "$",
+     "suffix": "B+",
+     "label": "mostly promotion and advertising",
+     "color": "amber",
+     "icon": "Megaphone"
+    }
+   ],
+   "source": "PDD FY2025 results (Mar. 25, 2026); our conversion at 6.8–7.2 yuan per dollar"
+  }
+ },
+ {
+  "at": "c4p2",
+  "type": "numbers",
+  "bg": "phone",
+  "props": {
+   "title": "Google Shopping ads in the US, early April 2025",
+   "items": [
+    {
+     "value": 20,
+     "prefix": "≈ ",
+     "suffix": "%",
+     "label": "of ad impressions were Temu’s",
+     "color": "amber",
+     "icon": "Search"
+    }
+   ],
+   "source": "Tinuiti, via NBC News (Apr. 2025)"
+  }
+ },
+ {
+  "at": "c4p3",
+  "type": "statement",
+  "bg": "boxes",
+  "props": {
+   "text": "Ads bring people in. *The parcel* sets the price.",
+   "icon": "Package"
+  }
+ },
+ {
+  "at": "c4p3",
+  "after": "For that, the parcel",
+  "type": "trails",
+  "props": {
+   "question": "How did Temu get so cheap?",
+   "trails": [
+    {
+     "label": "Cheap factories",
+     "icon": "Factory"
+    },
+    {
+     "label": "Burning cash",
+     "icon": "Flame"
+    },
+    {
+     "label": "A flood of ads",
+     "icon": "Megaphone"
+    }
+   ],
+   "current": 2,
+   "stamped": [
+    0,
+    1
+   ],
+   "stampAt": 0.6
+  }
+ },
+ {
+  "at": "c5p0",
+  "type": "trails",
+  "props": {
+   "question": "How did Temu get so cheap?",
+   "trails": [
+    {
+     "label": "Cheap factories",
+     "icon": "Factory"
+    },
+    {
+     "label": "Burning cash",
+     "icon": "Flame"
+    },
+    {
+     "label": "A flood of ads",
+     "icon": "Megaphone"
+    }
+   ],
+   "answer": {
+    "label": "One parcel at a time",
+    "icon": "Package",
+    "sub": "the “de minimis” rule"
+   },
+   "stamped": [
+    0,
+    1,
+    2
+   ],
+   "revealAt": 0.4
+  }
+ },
+ {
+  "at": "c5p0",
+  "after": "It dates back",
+  "type": "chrono",
+  "props": {
+   "title": "The de minimis rule",
+   "from": 1930,
+   "to": 2026,
+   "events": [
+    {
+     "year": 1938,
+     "label": "Created",
+     "sub": "Section 321, Tariff Act",
+     "level": 1,
+     "at": 0.2
+    },
+    {
+     "year": 2016,
+     "label": "$200 → $800",
+     "sub": "raised by Congress",
+     "level": -1,
+     "at": 2.8,
+     "color": "amber"
+    }
+   ],
+   "source": "CBP rule, Federal Register (June 24, 2026)"
+  }
+ },
+ {
+  "at": "c5p0",
+  "after": "Any shipment under",
+  "type": "statement",
+  "bg": "hkg_aerial",
+  "props": {
+   "kicker": "Under $800, one person, one day",
+   "text": "*No duty.* Minimal data.",
+   "icon": "PackageOpen"
+  }
+ },
+ {
+  "at": "c5p1",
+  "type": "parcels",
+  "props": {
+   "title": "Ten thousand phone cases",
+   "left": {
+    "label": "One container",
+    "value": "Duty paid",
+    "sub": "full import declaration",
+    "color": "brick"
+   },
+   "right": {
+    "label": "10,000 separate parcels",
+    "value": "$0 duty",
+    "sub": "one per customer",
+    "color": "teal"
+   },
+   "splitAt": 6.5
+  }
+ },
+ {
+  "at": "c5p2",
+  "type": "photo",
+  "props": {
+   "photo": "uld_loader",
+   "kicker": "Temu’s model",
+   "text": "One order, *one parcel*, by air.",
+   "focus": "50% 55%"
+  }
+ },
+ {
+  "at": "c5p2",
+  "after": "In 2015",
+  "type": "bars",
+  "props": {
+   "title": "De minimis shipments handled by US customs",
+   "bars": [
+    {
+     "label": "2015",
+     "value": 139,
+     "display": "139M",
+     "color": "slate"
+    },
+    {
+     "label": "Fiscal 2024",
+     "value": 1360,
+     "display": "1.36B",
+     "color": "amber",
+     "note": "almost ×10"
+    }
+   ],
+   "max": 1550,
+   "delays": [
+    0.4,
+    2.6
+   ],
+   "source": "CBP rule, Federal Register (June 24, 2026)"
+  }
+ },
+ {
+  "at": "c5p2",
+  "after": "About three point",
+  "type": "numbers",
+  "bg": "hkg_aerial",
+  "props": {
+   "title": "De minimis parcels, fiscal 2024",
+   "items": [
+    {
+     "value": 3.7,
+     "decimals": 1,
+     "suffix": "M",
+     "label": "a day, on average",
+     "color": "amber",
+     "icon": "Package"
+    }
+   ],
+   "source": "Our calculation: 1.36 billion ÷ 365 (CBP)"
+  }
+ },
+ {
+  "at": "c5p3",
+  "type": "numbers",
+  "bg": "cargo_loading",
+  "props": {
+   "items": [
+    {
+     "value": 30,
+     "suffix": "%+",
+     "label": "of de minimis parcels: Temu and Shein (House committee estimate, 2023)",
+     "color": "amber",
+     "icon": "Package"
+    },
+    {
+     "value": 50,
+     "prefix": "≈ ",
+     "suffix": "%",
+     "label": "of China–US air cargo capacity: e-commerce (Xeneta)",
+     "color": "teal",
+     "icon": "Plane"
+    }
+   ],
+   "source": "House Select Committee on the CCP (June 22, 2023); Xeneta, via The Conveyor (Sept. 2026)"
+  }
+ },
+ {
+  "at": "c5p4",
+  "type": "quote",
+  "props": {
+   "text": "Temu conducts no audits.",
+   "by": "House Select Committee on the CCP, interim findings (June 2023)",
+   "source": "House Select Committee on the CCP (June 22, 2023); findings described as preliminary"
+  }
+ },
+ {
+  "at": "c5p4",
+  "after": "and concluded",
+  "type": "quote",
+  "props": {
+   "text": "An extremely high risk that Temu’s supply chains are contaminated with forced labor.",
+   "by": "The committee’s conclusion (preliminary findings, June 2023)",
+   "source": "House Select Committee on the CCP (June 22, 2023)"
+  }
+ },
+ {
+  "at": "c5p5",
+  "type": "chain",
+  "props": {
+   "title": "How Temu got so cheap",
+   "rows": [
+    {
+     "nodes": [
+      {
+       "label": "Factory",
+       "sub": "sells directly",
+       "icon": "Factory"
+      },
+      {
+       "label": "Temu",
+       "sub": "sets the price, ships",
+       "logo": "logo_temu",
+       "strong": true
+      },
+      {
+       "label": "One parcel",
+       "sub": "per order",
+       "icon": "Package"
+      },
+      {
+       "label": "Under $800",
+       "sub": "no duty",
+       "icon": "BadgeDollarSign",
+       "color": "amber"
+      },
+      {
+       "label": "You",
+       "icon": "User"
+      }
+     ]
+    }
+   ],
+   "notes": [
+    {
+     "text": "Pinduoduo’s profits pay for the ads",
+     "logo": "logo_pinduoduo"
+    }
+   ],
+   "start": 2.0,
+   "stagger": 0.9,
+   "notesAt": 9.0
+  }
+ },
+ {
+  "at": "c5p6",
+  "type": "statement",
+  "bg": "white_house",
+  "props": {
+   "kicker": "2025",
+   "text": "Washington took away *the parcel*.",
+   "icon": "PackageX"
+  }
+ },
+ {
+  "at": "c6p0",
+  "type": "chrono",
+  "props": {
+   "title": "Closing the door on duty-free parcels",
+   "from": 2025,
+   "to": 2027.8,
+   "events": [
+    {
+     "year": 2025.33,
+     "date": "May 2, 2025",
+     "label": "Ends for China and Hong Kong",
+     "level": 1,
+     "color": "brick",
+     "at": 0.4
+    }
+   ],
+   "source": "STR Trade Report (May 2025)"
+  }
+ },
+ {
+  "at": "c6p0",
+  "after": "Postal parcels",
+  "type": "prices",
+  "bg": "cbp_container",
+  "props": {
+   "kicker": "Duty on postal parcels from China, May 2025",
+   "items": [
+    {
+     "name": "May 2 → May 14, 2025",
+     "sub": "after the Geneva talks",
+     "from": "120%",
+     "to": "54%"
+    }
+   ],
+   "start": 0.8,
+   "source": "STR Trade Report (May 2025); RTÉ (May 13, 2025)"
+  }
+ },
+ {
+  "at": "c6p1",
+  "type": "chrono",
+  "props": {
+   "title": "Closing the door on duty-free parcels",
+   "from": 2025,
+   "to": 2027.8,
+   "events": [
+    {
+     "year": 2025.33,
+     "date": "May 2, 2025",
+     "label": "Ends for China and Hong Kong",
+     "level": 1,
+     "color": "brick",
+     "at": 0.1
+    },
+    {
+     "year": 2025.66,
+     "date": "Aug. 29, 2025",
+     "label": "Suspended for all countries",
+     "level": -1,
+     "color": "brick",
+     "at": 0.5
+    },
+    {
+     "year": 2027.5,
+     "date": "July 1, 2027",
+     "label": "Repealed by law",
+     "level": 1,
+     "color": "brick",
+     "at": 4.0
+    }
+   ],
+   "source": "KPMG (Aug. 2025); Supply Chain Dive (July 2025)"
+  }
+ },
+ {
+  "at": "c6p2",
+  "type": "photo",
+  "props": {
+   "photo": "capitol",
+   "kicker": "Learning Resources v. Trump, Feb. 20, 2026",
+   "text": "Emergency tariffs *struck down*.",
+   "focus": "50% 50%"
+  }
+ },
+ {
+  "at": "c6p2",
+  "after": "But the same day",
+  "type": "statement",
+  "bg": "white_house",
+  "props": {
+   "kicker": "The same day",
+   "text": "De minimis suspension kept *“without modification.”*",
+   "icon": "Lock"
+  }
+ },
+ {
+  "at": "c6p3",
+  "type": "photo",
+  "props": {
+   "photo": "cbp_officers",
+   "kicker": "U.S. Customs and Border Protection, June 2026",
+   "text": "Written into *customs rules*.",
+   "focus": "50% 40%"
+  }
+ },
+ {
+  "at": "c6p3",
+  "after": "It says it has",
+  "type": "numbers",
+  "bg": "cbp_container",
+  "props": {
+   "title": "Since the phase-out began, according to CBP",
+   "items": [
+    {
+     "value": 1,
+     "prefix": "$",
+     "suffix": "B+",
+     "label": "in duties collected",
+     "color": "amber",
+     "icon": "Coins"
+    },
+    {
+     "value": 246,
+     "suffix": "M+",
+     "label": "shipments",
+     "color": "teal",
+     "icon": "Package"
+    }
+   ],
+   "source": "CBP, via The Conveyor (June 25, 2026)"
+  }
+ },
+ {
+  "at": "c6p4",
+  "type": "statement",
+  "bg": "container_yard",
+  "props": {
+   "text": "Tariff rates: *always moving*. Duty-free entry: *gone*.",
+   "icon": "Ban"
+  }
+ },
+ {
+  "at": "c6p4",
+  "after": "A cheap parcel",
+  "type": "chrono",
+  "props": {
+   "title": "Closing the door on duty-free parcels",
+   "from": 2025,
+   "to": 2027.8,
+   "events": [
+    {
+     "year": 2025.33,
+     "date": "May 2, 2025",
+     "label": "Ends for China and Hong Kong",
+     "level": 1,
+     "color": "brick",
+     "at": 0.1
+    },
+    {
+     "year": 2025.66,
+     "date": "Aug. 29, 2025",
+     "label": "Suspended for all countries",
+     "level": -1,
+     "color": "brick",
+     "at": 0.3
+    },
+    {
+     "year": 2026.14,
+     "date": "Feb. 20, 2026",
+     "label": "Supreme Court: emergency tariffs struck down",
+     "sub": "de minimis suspension kept",
+     "level": 1,
+     "at": 0.5
+    },
+    {
+     "year": 2026.48,
+     "date": "June 24, 2026",
+     "label": "Written into customs rules",
+     "level": -1,
+     "at": 0.7
+    },
+    {
+     "year": 2027.5,
+     "date": "July 1, 2027",
+     "label": "Repealed by law",
+     "level": 1,
+     "color": "brick",
+     "at": 0.9
+    }
+   ],
+   "source": "CBP; White House; White & Case (Mar. 2026); Federal Register (June 24, 2026)"
+  }
+ },
+ {
+  "at": "c6p5",
+  "type": "photo",
+  "props": {
+   "photo": "boxes_warehouse",
+   "kicker": "Plan B",
+   "text": "So what did *Temu* do?",
+   "focus": "50% 50%"
+  }
+ },
+ {
+  "at": "c7p0",
+  "type": "line",
+  "props": {
+   "title": "Temu’s share of US Google Shopping ad impressions, April 2025",
+   "points": [
+    {
+     "x": "Apr. 5",
+     "y": 20,
+     "label": "20%"
+    },
+    {
+     "x": "Apr. 12",
+     "y": 0,
+     "label": "0%"
+    }
+   ],
+   "suffix": "%",
+   "max": 25,
+   "color": "brick",
+   "draw": [
+    0.6,
+    3.0
+   ],
+   "source": "Tinuiti, via NBC News (Apr. 2025)"
+  }
+ },
+ {
+  "at": "c7p0",
+  "after": "By May",
+  "type": "numbers",
+  "bg": "phone",
+  "props": {
+   "title": "Temu’s daily users in the US, May vs. March 2025",
+   "items": [
+    {
+     "value": -48,
+     "suffix": "%",
+     "label": "according to Sensor Tower",
+     "color": "brick",
+     "icon": "TrendingDown"
+    }
+   ],
+   "source": "Sensor Tower, via Reuters (June 4, 2025)"
+  }
+ },
+ {
+  "at": "c7p1",
+  "type": "quote",
+  "props": {
+   "text": "All sales in the U.S. are now handled by locally based sellers, with orders fulfilled from within the country.",
+   "by": "Temu, May 2025",
+   "source": "CBS News (May 5, 2025)"
+  }
+ },
+ {
+  "at": "c7p1",
+  "after": "It had started",
+  "type": "photo",
+  "props": {
+   "photo": "conveyor",
+   "kicker": "Since 2024",
+   "text": "Bulk shipments to *US warehouses*.",
+   "focus": "50% 50%"
+  }
+ },
+ {
+  "at": "c7p2",
+  "type": "chain",
+  "props": {
+   "title": "How a Temu order reaches America",
+   "rows": [
+    {
+     "label": "Before",
+     "dim": true,
+     "nodes": [
+      {
+       "label": "Factory",
+       "icon": "Factory"
+      },
+      {
+       "label": "One parcel",
+       "sub": "per order",
+       "icon": "Package"
+      },
+      {
+       "label": "No duty",
+       "sub": "de minimis",
+       "icon": "BadgeDollarSign"
+      },
+      {
+       "label": "You",
+       "icon": "User"
+      }
+     ]
+    },
+    {
+     "label": "Now",
+     "nodes": [
+      {
+       "label": "Factory",
+       "icon": "Factory"
+      },
+      {
+       "label": "A container",
+       "sub": "duty paid",
+       "icon": "Container",
+       "color": "brick"
+      },
+      {
+       "label": "US warehouse",
+       "sub": "rent, stock, risk",
+       "icon": "Warehouse",
+       "color": "brick"
+      },
+      {
+       "label": "You",
+       "icon": "User",
+       "strong": true
+      }
+     ]
+    }
+   ],
+   "start": 0.3,
+   "stagger": 0.45
+  }
+ },
+ {
+  "at": "c7p2",
+  "after": "Prices can still",
+  "type": "statement",
+  "bg": "boxes",
+  "props": {
+   "text": "Prices can still be low. *The magic trick is gone.*",
+   "icon": "Sparkles"
+  }
+ },
+ {
+  "at": "c7p3",
+  "type": "donut",
+  "props": {
+   "title": "Where Temu sells, by one analyst’s estimate",
+   "parts": [
+    {
+     "label": "Europe",
+     "value": 40,
+     "display": "≈ 40%",
+     "color": "amber"
+    },
+    {
+     "label": "United States",
+     "value": 30,
+     "display": "≈ 30%",
+     "color": "teal"
+    },
+    {
+     "label": "Rest of the world",
+     "value": 30,
+     "display": "≈ 30%",
+     "color": "slate"
+    }
+   ],
+   "center": "Temu",
+   "centerLabel": "share of sales",
+   "stagger": 0.9,
+   "start": 2.0,
+   "focus": 0,
+   "source": "Analyst Ed Sander, via The Conveyor (Sept. 1, 2026); estimate"
+  }
+ },
+ {
+  "at": "c7p4",
+  "type": "numbers",
+  "bg": "berlaymont",
+  "props": {
+   "title": "Low-value parcels entering the EU, 2024",
+   "items": [
+    {
+     "value": 4.6,
+     "decimals": 1,
+     "suffix": "B",
+     "label": "parcels",
+     "color": "teal",
+     "icon": "Package"
+    },
+    {
+     "value": 90,
+     "suffix": "%+",
+     "label": "from China",
+     "color": "amber",
+     "icon": "MapPin"
+    }
+   ],
+   "source": "EU Council, via Reuters (Dec. 12, 2025)"
+  }
+ },
+ {
+  "at": "c7p4",
+  "after": "Since July 2026",
+  "type": "prices",
+  "bg": "berlaymont",
+  "props": {
+   "kicker": "EU customs duty on a low-value parcel",
+   "items": [
+    {
+     "name": "Since July 1, 2026",
+     "sub": "until the €150 exemption is scrapped",
+     "from": "€0",
+     "to": "€3"
+    }
+   ],
+   "start": 0.6,
+   "source": "EU Council, via Reuters (Dec. 12, 2025)"
+  }
+ },
+ {
+  "at": "c7p4",
+  "after": "On a five-euro",
+  "type": "numbers",
+  "props": {
+   "title": "€3 on a €5 item",
+   "items": [
+    {
+     "value": 60,
+     "prefix": "+",
+     "suffix": "%",
+     "label": "surcharge",
+     "color": "brick",
+     "icon": "Percent"
+    }
+   ],
+   "source": "Our calculation"
+  }
+ },
+ {
+  "at": "c7p5",
+  "type": "numbers",
+  "bg": "berlaymont",
+  "props": {
+   "title": "European Commission, Digital Services Act, May 2026",
+   "items": [
+    {
+     "value": 200,
+     "prefix": "€",
+     "suffix": "M",
+     "label": "fine over the risk of illegal products",
+     "color": "brick",
+     "icon": "Gavel"
+    }
+   ],
+   "source": "The Irish Times (May 28, 2026)"
+  }
+ },
+ {
+  "at": "c7p5",
+  "after": "Temu disagrees",
+  "type": "statement",
+  "props": {
+   "kicker": "Temu’s response",
+   "text": "Temu *disagrees*.",
+   "sub": "It calls the fine disproportionate and says it has since strengthened its systems.",
+   "icon": "MessageSquare"
+  }
+ },
+ {
+  "at": "c7p6",
+  "type": "quote",
+  "props": {
+   "text": "Lower fulfillment efficiency and higher costs.",
+   "by": "Lei Chen, PDD co-CEO, on cross-border orders in markets like Europe",
+   "source": "The Conveyor (Sept. 1, 2026)"
+  }
+ },
+ {
+  "at": "c8p0",
+  "type": "tiles",
+  "props": {
+   "title": "PDD, April to June 2026, vs. a year earlier",
+   "items": [
+    {
+     "icon": "TrendingUp",
+     "label": "Revenue",
+     "value": "+8%",
+     "color": "teal"
+    },
+    {
+     "icon": "ShoppingCart",
+     "label": "Transaction services",
+     "sub": "includes Temu",
+     "value": "+13%",
+     "color": "teal"
+    },
+    {
+     "icon": "TrendingDown",
+     "label": "Net profit",
+     "value": "−12%",
+     "color": "brick"
+    }
+   ],
+   "delays": [
+    3.4,
+    4.6,
+    6.0
+   ],
+   "source": "PDD Q2 2026 results (Aug. 24, 2026)"
+  }
+ },
+ {
+  "at": "c8p1",
+  "after": "Yes, Temu can",
+  "type": "statement",
+  "bg": "conveyor",
+  "props": {
+   "kicker": "Our answer",
+   "text": "Yes. Temu *can survive*.",
+   "sub": "A year and a half without duty-free parcels in America, and a parent that earns billions a quarter.",
+   "icon": "ShieldCheck"
+  }
+ },
+ {
+  "at": "c8p2",
+  "type": "list",
+  "bg": "boxes_warehouse",
+  "props": {
+   "title": "But it can’t stay the same company",
+   "items": [
+    {
+     "label": "Local warehouses",
+     "icon": "Warehouse"
+    },
+    {
+     "label": "Sellers who pay customs duty",
+     "icon": "Receipt"
+    },
+    {
+     "label": "Faster delivery",
+     "icon": "Truck"
+    },
+    {
+     "label": "Low prices, not impossible ones",
+     "icon": "Tag",
+     "highlight": true
+    }
+   ],
+   "columns": 1,
+   "stagger": 1.6,
+   "start": 7.0
+  }
+ },
+ {
+  "at": "c8p3",
+  "type": "tiles",
+  "bg": "ship_sea",
+  "props": {
+   "kicker": "The strangest part",
+   "items": [
+    {
+     "image": "logo_amazon",
+     "label": "Amazon Haul",
+     "sub": "items under $20, shipped from China",
+     "color": "amber"
+    }
+   ],
+   "delays": [
+    0.4
+   ],
+   "source": "Marketplace Pulse"
+  }
+ },
+ {
+  "at": "c8p4",
+  "type": "trails",
+  "props": {
+   "question": "How did Temu get so cheap?",
+   "trails": [
+    {
+     "label": "Cheap factories",
+     "icon": "Factory"
+    },
+    {
+     "label": "Burning cash",
+     "icon": "Flame"
+    },
+    {
+     "label": "A flood of ads",
+     "icon": "Megaphone"
+    }
+   ],
+   "answer": {
+    "label": "One parcel at a time",
+    "icon": "Package",
+    "sub": "the “de minimis” rule"
+   },
+   "stamped": [
+    0,
+    1,
+    2
+   ],
+   "revealed": true
+  }
+ },
+ {
+  "at": "c8p4",
+  "after": "It was a customs rule",
+  "type": "statement",
+  "bg": "freighter_nose",
+  "props": {
+   "kicker": "1938",
+   "text": "The trick was never the factory. *It was the parcel.*",
+   "icon": "Package"
+  }
+ },
+ {
+  "at": "c8p5",
+  "type": "statement",
+  "bg": "cargo_loading",
+  "props": {
+   "kicker": "Next on The Cost Curve",
+   "text": "Another price that looks *too low to be real*.",
+   "sub": "Ryanair: follow a €15 ticket to the runway.",
+   "icon": "Plane"
+  }
+ }
+]

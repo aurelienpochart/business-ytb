@@ -1,0 +1,58 @@
+{
+  "title": "Can Temu Survive Without Duty-Free Shipping?",
+  "summary": "Temu sold two-dollar socks shipped from China for free. Cheap factories, burning cash and Super Bowl ads are only part of the story: the real trick was sending every order as its own parcel under the US \"de minimis\" rule, duty-free. We check each explanation against PDD's own accounts, then follow how the US closed that door in 2025 and 2026, how Temu moved to local warehouses and Europe, and whether it can survive as the same company. Main sources below.",
+  "chapter_titles": {
+    "0": "Two-dollar socks, shipped free",
+    "1": "Who is Temu?",
+    "2": "False trail 1: cheap factories",
+    "3": "False trail 2: burning cash",
+    "4": "False trail 3: the ads",
+    "5": "The real answer: one parcel at a time",
+    "6": "The door closes",
+    "7": "Plan B: warehouses and Europe",
+    "8": "So, can Temu survive?"
+  },
+  "sources": [
+    "PDD Q2 2026 results (Aug. 24, 2026): https://www.globenewswire.com/news-release/2026/08/24/3349572/0/en/pdd-holdings-announces-second-quarter-2026-unaudited-financial-results.html",
+    "PDD FY2025 results (Mar. 25, 2026): https://www.sec.gov/Archives/edgar/data/1737806/000110465926034813/tm269789d1_ex99-1.htm",
+    "PDD FY2023 results: https://www.sec.gov/Archives/edgar/data/1737806/000110465924036850/tm249325d1_ex99-1.htm",
+    "PDD annual report 2025 (20-F): https://www.sec.gov/Archives/edgar/data/0001737806/000110465926050727/pdd-20251231x20f.htm",
+    "CBP de minimis rule (June 24, 2026): https://www.federalregister.gov/d/2026-12670",
+    "Supreme Court ruling and de minimis (White & Case): https://www.whitecase.com/insight-alert/united-states-terminates-ieepa-based-tariffs-following-supreme-court-decision",
+    "House Select Committee on the CCP (June 22, 2023): https://chinaselectcommittee.house.gov/media/press-releases/select-committee-releases-interim-findings-shein-temu-forced-labor",
+    "WIRED (May 26, 2023): https://www.wired.com/story/temu-is-losing-millions-of-dollars-to-send-you-cheap-socks/",
+    "Bloomberg via The Star (Feb. 13, 2025): https://www.thestar.com.my/business/business-news/2025/02/13/temu-overhauls-supply-chain-due-to-tariffs-risks-price-hikes",
+    "CNN on the Super Bowl (Feb. 12, 2024): https://abc17news.com/money/cnn-business-consumer/2024/02/12/online-superstore-temu-doubles-down-on-super-bowl-with-tv-ad-and-15-million-in-giveaways/",
+    "NBC News (Apr. 2025): https://www.nbcnews.com/news/amp/rcna201616",
+    "Reuters on Temu users (June 4, 2025): https://www.investing.com/news/economy-news/retailer-temus-daily-us-users-nearly-halve-following-end-of-de-minimis-loophole-4081081",
+    "CBS News (May 5, 2025): https://www.cbsnews.com/news/temu-halts-shipments-to-us-from-china-de-minimis-tariffs/",
+    "Postal duties, May 2025 (STR): https://www.strtrade.com/trade-news-resources/str-trade-report/trade-report/may/u-s-lowers-tariffs-on-low-value-shipments-from-china",
+    "The Conveyor (Sept. 1, 2026): https://www.theconveyor.co/p/pdd-temu-local-fulfillment-rebuild",
+    "EU €3 parcel duty (Reuters, Dec. 12, 2025): https://cyprus-mail.com/2025/12/12/eu-to-impose-e3-duty-on-e-commerce-parcels-from-july-2026",
+    "EU fine (Irish Times, May 28, 2026): https://www.irishtimes.com/business/2026/05/28/eu-fines-chinas-temu-200mn-for-failing-to-prevent-sale-of-illegal-goods/"
+  ],
+  "credits": [
+    "Fonts: Inter, IBM Plex Mono and Instrument Serif (SIL Open Font License); icons: Lucide (ISC).",
+    "PDD does not report Temu separately. Per-day and percentage figures marked as ours are The Cost Curve's calculations from the sources above."
+  ],
+  "subject_company": "PDD Holdings Inc. (Temu)",
+  "tags": [
+    "Temu",
+    "how is Temu so cheap",
+    "Temu business model",
+    "PDD Holdings",
+    "Pinduoduo",
+    "de minimis",
+    "de minimis exemption",
+    "tariffs",
+    "Shein",
+    "Amazon Haul",
+    "e-commerce explained",
+    "business explained",
+    "The Cost Curve"
+  ],
+  "category_id": "27",
+  "contains_synthetic_media": true,
+  "made_for_kids": false,
+  "tint": "temu"
+}

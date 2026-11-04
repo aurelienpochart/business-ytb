@@ -7,6 +7,7 @@ import {PlusVariant, ThumbnailVariantPlus, isPlusVariant} from './ThumbnailVaria
 import {MoreVariant, ThumbMoreProps, ThumbnailVariantMore, isMoreVariant} from './ThumbnailVariantsMore';
 import {ThumbTimelineProps, ThumbnailVariantTimeline, TimelineVariant, isTimelineVariant} from './ThumbnailVariantsTimeline';
 import {JourneyVariant, ThumbJourneyProps, ThumbnailVariantJourney, isJourneyVariant} from './ThumbnailVariantsJourney';
+import {QuestionVariant, ThumbQuestionProps, ThumbnailVariantQuestion, isQuestionVariant} from './ThumbnailVariantsQuestion';
 
 // Miniature 1280 x 720 (charte 2.5) : 3 à 5 mots, un mot en or, un chiffre fort, la courbe du logo en coin.
 export type ThumbProps = {
@@ -14,13 +15,14 @@ export type ThumbProps = {
   number?: string;
   numberLabel?: string;
   bars?: {value: number; color: string; label: string}[];
-  variant?: ThumbVariantProps['variant'] | PlusVariant | MoreVariant | TimelineVariant | JourneyVariant; // miniature choisie parmi les variantes (prioritaire)
+  variant?: ThumbVariantProps['variant'] | PlusVariant | MoreVariant | TimelineVariant | JourneyVariant | QuestionVariant; // miniature choisie parmi les variantes (prioritaire)
   ring?: number; // variante « anneau » : part remplie de l'anneau (0 à 1)
   tint?: string; // teinte d'ambiance de la vidéo (metadata.json)
 } & Omit<Partial<ThumbVariantProps>, 'variant' | 'number' | 'numberLabel'> &
   Omit<Partial<ThumbMoreProps>, 'variant' | 'words' | 'number' | 'numberLabel' | 'logo' | 'logoRatio' | 'photo' | 'photoPosition'> &
   Pick<Partial<ThumbTimelineProps>, 'points' | 'years' | 'series'> &
-  Pick<Partial<ThumbJourneyProps>, 'number2' | 'label2' | 'from' | 'to'>;
+  Pick<Partial<ThumbJourneyProps>, 'number2' | 'label2' | 'from' | 'to'> &
+  Pick<Partial<ThumbQuestionProps>, 'stamp' | 'label'>;
 
 const goldText: React.CSSProperties = {
   backgroundImage: GOLD_TEXT,
@@ -37,6 +39,8 @@ export const Thumbnail: React.FC<ThumbProps> = ({words, number, numberLabel, bar
   // Compositions « où va l'argent » (carte, ticket, billet, prix, moitie) : tout vient aussi de thumbnail.json.
   // Compositions « ascension et chute » (courbe, couronne, croisement, fissure) : tout vient de thumbnail.json.
   // Compositions « voyage » (embarquement, iceberg, trajet, hublot) : tout vient de thumbnail.json.
+  // Compositions « question » (colis, tampon, interrogation, etiquette) : tout vient de thumbnail.json.
+  if (isQuestionVariant(variant)) return <ThumbnailVariantQuestion variant={variant} words={words || undefined} number={number} numberLabel={numberLabel} {...(custom as any)} />;
   if (isJourneyVariant(variant)) return <ThumbnailVariantJourney variant={variant} words={words || undefined} number={number} numberLabel={numberLabel} {...(custom as any)} />;
   if (isTimelineVariant(variant)) return <ThumbnailVariantTimeline variant={variant} words={words || undefined} number={number} numberLabel={numberLabel} {...custom} />;
   if (isMoreVariant(variant)) return <ThumbnailVariantMore variant={variant} words={words || undefined} number={number} numberLabel={numberLabel} {...custom} />;

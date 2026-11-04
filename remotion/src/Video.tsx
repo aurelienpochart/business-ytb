@@ -9,6 +9,7 @@ import {Cascade, Density, PriceTags, Receipt} from './components/money';
 import {Shot} from './components/shorts';
 import {Chrono} from './components/chrono';
 import {Journey} from './components/journey';
+import {Chain, Parcels, Trails} from './components/question';
 import {Segment, VideoProps, Visual} from './types';
 import {C, applyTint} from './theme';
 
@@ -41,6 +42,9 @@ export const BLOCKS: Record<string, React.FC<any>> = {
   shot: Shot, // plans de Short « une idée, un chiffre »
   chrono: Chrono, // chronologie animée (gabarit The Timeline)
   journey: Journey, // parcours du passager et son reçu (gabarit The Journey)
+  trails: Trails, // tableau de la question et de ses fausses pistes (gabarit The Question)
+  parcels: Parcels, // un conteneur contre des milliers de petits colis
+  chain: Chain, // chaîne de maillons, intermédiaires barrés
 };
 
 export const renderVisual = (v: Visual) => {

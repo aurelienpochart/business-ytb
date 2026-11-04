@@ -1,0 +1,168 @@
+[
+  {
+    "at": "p0",
+    "type": "shot",
+    "props": {
+      "photo": "cart_laptop",
+      "dim": 0.72,
+      "logo": "logo_temu",
+      "text": "Why was Temu *so cheap*?"
+    }
+  },
+  {
+    "at": "p0",
+    "after": "The real trick",
+    "type": "shot",
+    "props": {
+      "photo": "cargo_loading",
+      "dim": 0.72,
+      "icon": "Package",
+      "color": "gold",
+      "text": "The real trick: *the parcel*"
+    }
+  },
+  {
+    "at": "p1",
+    "type": "shot",
+    "props": {
+      "photo": "cbp_officers",
+      "dim": 0.74,
+      "kicker": "US customs rule: de minimis",
+      "number": "$800",
+      "numberDelay": {
+        "$t": "eight hundred",
+        "offset": -0.1
+      },
+      "color": "gold",
+      "label": "or less, to one person",
+      "sub": "came in with no duties",
+      "source": "CBP interim rule (Federal Register, June 2026)"
+    }
+  },
+  {
+    "at": "p2",
+    "type": "shot",
+    "props": {
+      "photo": "container_yard",
+      "dim": 0.72,
+      "icon": "Container",
+      "color": "brick",
+      "kicker": "10,000 phone cases, one container",
+      "text": "Duty on *every one*"
+    }
+  },
+  {
+    "at": "p2",
+    "after": "Ten thousand separate",
+    "type": "shot",
+    "props": {
+      "photo": "boxes",
+      "dim": 0.74,
+      "icon": "Package",
+      "color": "teal",
+      "kicker": "10,000 separate parcels",
+      "text": "*No duty* at all"
+    }
+  },
+  {
+    "at": "p3",
+    "type": "shot",
+    "props": {
+      "photo": "freighter_nose",
+      "dim": 0.7,
+      "icon": "Plane",
+      "color": "gold",
+      "text": "Every order *flew alone*"
+    }
+  },
+  {
+    "at": "p3",
+    "after": "In fiscal 2024",
+    "type": "shot",
+    "props": {
+      "photo": "uld_loader",
+      "dim": 0.72,
+      "kicker": "US fiscal year 2024",
+      "number": "1.36B",
+      "numberDelay": {
+        "$t": "one point three six billion",
+        "offset": -0.1
+      },
+      "color": "teal",
+      "label": "de minimis parcels",
+      "sub": "139 million in 2015",
+      "source": "CBP interim rule (Federal Register, June 2026)"
+    }
+  },
+  {
+    "at": "p3",
+    "after": "About three point seven",
+    "type": "shot",
+    "props": {
+      "photo": "conveyor",
+      "dim": 0.72,
+      "number": "3.7M",
+      "numberDelay": {
+        "$t": "three point seven million",
+        "offset": -0.1
+      },
+      "color": "gold",
+      "label": "parcels a day",
+      "sub": "our calculation",
+      "source": "CBP interim rule (Federal Register, June 2026)"
+    }
+  },
+  {
+    "at": "p4",
+    "type": "shot",
+    "props": {
+      "photo": "white_house",
+      "dim": 0.72,
+      "icon": "Ban",
+      "color": "brick",
+      "items": [
+        {
+          "icon": "Ban",
+          "label": "China: May 2025",
+          "color": "brick",
+          "delay": {
+            "$t": "May 2025",
+            "offset": -0.2
+          }
+        },
+        {
+          "icon": "Globe",
+          "label": "Every country: Aug. 2025",
+          "color": "brick",
+          "delay": {
+            "$t": "August 2025",
+            "offset": -0.2
+          }
+        }
+      ],
+      "header": {
+        "number": "Duty-free",
+        "label": "the door closed",
+        "color": "brick"
+      },
+      "source": "White House orders; CBP"
+    }
+  },
+  {
+    "at": "p5",
+    "type": "shot",
+    "props": {
+      "photo": "port_night",
+      "dim": 0.7,
+      "logo": "logo_temu",
+      "color": "gold",
+      "text": "So can Temu *survive*?"
+    }
+  },
+  {
+    "at": "p5",
+    "after": "Full story",
+    "type": "endcard",
+    "props": {}
+  }
+]
