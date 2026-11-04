@@ -1,54 +1,119 @@
 [
  {
   "id": "logo_disney",
-  "title": "File:Disney wordmark.svg"
+  "title": "File:Disney wordmark.svg",
+  "file": "media/logo_disney.svg",
+  "license": "Public domain",
+  "artist": "Disney Enterprises, Inc.",
+  "restrictions": "trademarked",
+  "page": "https://commons.wikimedia.org/wiki/File:Disney_wordmark.svg"
  },
  {
   "id": "castle",
-  "title": "File:Cinderella Castle, Magic Kingdom Walt Disney World (2024).jpg"
+  "title": "File:Cinderella Castle, Magic Kingdom Walt Disney World (2024).jpg",
+  "file": "media/castle.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "Jedi94",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Cinderella_Castle,_Magic_Kingdom_Walt_Disney_World_(2024).jpg"
  },
  {
   "id": "castle_fw",
-  "title": "File:Disneyworld fireworks - 0219.jpg"
+  "title": "File:Disneyworld fireworks - 0219.jpg",
+  "file": "media/castle_fw.jpg",
+  "license": "CC BY-SA 3.0",
+  "artist": "Jorge Royan",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Disneyworld_fireworks_-_0219.jpg"
  },
  {
   "id": "crowd",
-  "title": "File:Nighttime Main Street crowd, Cinderella Castle lights in distance, Magic Kingdom, June 2006 - ThrillZing.jpg"
+  "title": "File:Nighttime Main Street crowd, Cinderella Castle lights in distance, Magic Kingdom, June 2006 - ThrillZing.jpg",
+  "file": "media/crowd.jpg",
+  "license": "CC BY 4.0",
+  "artist": "ThrillZing",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Nighttime_Main_Street_crowd,_Cinderella_Castle_lights_in_distance,_Magic_Kingdom,_June_2006_-_ThrillZing.jpg"
  },
  {
   "id": "mainstreet",
-  "title": "File:Post-Fireworks Crowd (49560220418).jpg"
+  "title": "File:Post-Fireworks Crowd (49560220418).jpg",
+  "file": "media/mainstreet.jpg",
+  "license": "CC BY 2.0",
+  "artist": "Eden, Janine and Jim from New York City",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Post-Fireworks_Crowd_(49560220418).jpg"
  },
  {
   "id": "cruise",
-  "title": "File:Disney Wish at Castaway Cay cropped.jpg"
+  "title": "File:Disney Wish at Castaway Cay cropped.jpg",
+  "file": "media/cruise.jpg",
+  "license": "Public domain",
+  "artist": "Declan M. Martin",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Disney_Wish_at_Castaway_Cay_cropped.jpg"
  },
  {
   "id": "cruise_dusk",
-  "title": "File:Disney Wish in Papenburg after sunset (51907981918) (cropped).jpg"
+  "title": "File:Disney Wish in Papenburg after sunset (51907981918) (cropped).jpg",
+  "file": "media/cruise_dusk.jpg",
+  "license": "CC BY-SA 2.0",
+  "artist": "Wessel Blokzijl",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Disney_Wish_in_Papenburg_after_sunset_(51907981918)_(cropped).jpg"
  },
  {
   "id": "resort",
-  "title": "File:Disney Resort courtyard pool.jpg"
+  "title": "File:Disney Resort courtyard pool.jpg",
+  "file": "media/resort.jpg",
+  "license": "Public domain",
+  "artist": "LlamasTasteFunny at English Wikipedia",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Disney_Resort_courtyard_pool.jpg"
  },
  {
   "id": "studios",
-  "title": "File:Walt Disney Studios Alameda Entrance.jpg"
+  "title": "File:Walt Disney Studios Alameda Entrance.jpg",
+  "file": "media/studios.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "Coolcaesar",
+  "restrictions": "trademarked",
+  "page": "https://commons.wikimedia.org/wiki/File:Walt_Disney_Studios_Alameda_Entrance.jpg"
  },
  {
   "id": "epcot",
-  "title": "File:Spaceship Earth at night.jpg"
+  "title": "File:Spaceship Earth at night.jpg",
+  "file": "media/epcot.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "Benjamin D. Esham (bdesham)",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Spaceship_Earth_at_night.jpg"
  },
  {
   "id": "castle_dl_night",
-  "title": "File:Disneyland Sleeping Beauty Winter Castle.jpg"
+  "title": "File:Disneyland Sleeping Beauty Winter Castle.jpg",
+  "file": "media/castle_dl_night.jpg",
+  "license": "Public domain",
+  "artist": "Hurricanefreak",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Disneyland_Sleeping_Beauty_Winter_Castle.jpg"
  },
  {
   "id": "ride",
-  "title": "File:Rock 'n' Roller Coaster starring Aerosmith 1.jpg"
+  "title": "File:Rock 'n' Roller Coaster starring Aerosmith 1.jpg",
+  "file": "media/ride.jpg",
+  "license": "CC BY-SA 2.0",
+  "artist": "gardener41",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Rock_%27n%27_Roller_Coaster_starring_Aerosmith_1.jpg"
  },
  {
   "id": "tokyo_night",
-  "title": "File:Castle in Tokyo Disneyland.JPG"
+  "title": "File:Castle in Tokyo Disneyland.JPG",
+  "file": "media/tokyo_night.jpg",
+  "license": "CC BY-SA 3.0",
+  "artist": "Saqib Qayyum",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Castle_in_Tokyo_Disneyland.JPG"
  }
 ]
