@@ -118,7 +118,6 @@
     "props": {
       "photo": "white_house",
       "dim": 0.72,
-      "icon": "Ban",
       "color": "brick",
       "items": [
         {
@@ -141,8 +140,8 @@
         }
       ],
       "header": {
-        "number": "Duty-free",
-        "label": "the door closed",
+        "number": "Closed",
+        "label": "duty-free entry",
         "color": "brick"
       },
       "source": "White House orders; CBP"
