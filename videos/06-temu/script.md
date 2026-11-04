@@ -109,7 +109,7 @@ In early April 2025, Temu accounted for about a fifth of all ad impressions on G
 
 But ads only bring people to the app. They don't make a phone case cost two dollars on your doorstep. For that, the parcel itself had to be cheap. And that's where the real answer lies.
 
-## 5. The real answer: one parcel at a time
+## 5. The real answer: the parcel
 
 > Photo de conteneurs aériens sur le tarmac. Texte : « Section 321 — de minimis: $800 ».
 
