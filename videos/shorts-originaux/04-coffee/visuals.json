@@ -1,0 +1,404 @@
+[
+ {
+  "at": "p0",
+  "type": "shot",
+  "props": {
+   "kicker": "Where coffee grows",
+   "map": {
+    "image": "worldmap",
+    "height": 680,
+    "filter": "brightness(0.38) saturate(1.5) contrast(1.35)",
+    "view": {
+     "center": [
+      12,
+      3
+     ],
+     "span": 240
+    },
+    "pins": [
+     {
+      "lon": -47,
+      "lat": -15,
+      "label": "Brazil",
+      "side": "bottom",
+      "r": 20,
+      "delay": 0.6
+     },
+     {
+      "lon": 108,
+      "lat": 13,
+      "label": "Vietnam",
+      "side": "left",
+      "r": 20,
+      "delay": {
+       "$t": "two countries",
+       "offset": 0
+      }
+     }
+    ]
+   },
+   "source": "USDA FAS, July 2026"
+  }
+ },
+ {
+  "at": "p1",
+  "type": "shot",
+  "props": {
+   "kicker": "No. 1",
+   "map": {
+    "image": "worldmap",
+    "height": 680,
+    "filter": "brightness(0.38) saturate(1.5) contrast(1.35)",
+    "view": {
+     "center": [
+      -52,
+      -14
+     ],
+     "span": 62
+    },
+    "from": {
+     "center": [
+      12,
+      3
+     ],
+     "span": 240
+    },
+    "move": 1.2,
+    "pins": [
+     {
+      "lon": -45,
+      "lat": -18,
+      "value": "71.9M",
+      "label": "bags · Brazil",
+      "side": "top",
+      "r": 22,
+      "strong": true,
+      "delay": {
+       "$t": "seventy-one",
+       "offset": -0.1
+      }
+     }
+    ]
+   },
+   "source": "USDA FAS, July 2026"
+  }
+ },
+ {
+  "at": "p1",
+  "after": "Almost two bags",
+  "type": "shot",
+  "props": {
+   "photo": "brazil_hills",
+   "dim": 0.62,
+   "icon": "Sprout",
+   "color": "gold",
+   "number": "38%",
+   "numberDelay": 0.2,
+   "label": "of the world's coffee",
+   "sub": "Brazil, 2026/27 forecast",
+   "source": "USDA FAS, July 2026"
+  }
+ },
+ {
+  "at": "p2",
+  "type": "shot",
+  "props": {
+   "kicker": "No. 2",
+   "map": {
+    "image": "worldmap",
+    "height": 680,
+    "filter": "brightness(0.38) saturate(1.5) contrast(1.35)",
+    "view": {
+     "center": [
+      106,
+      12
+     ],
+     "span": 56
+    },
+    "from": {
+     "center": [
+      -52,
+      -14
+     ],
+     "span": 62
+    },
+    "move": 1.6,
+    "pins": [
+     {
+      "lon": 108,
+      "lat": 13,
+      "value": "32.5M",
+      "label": "bags · Vietnam",
+      "side": "left",
+      "r": 22,
+      "strong": true,
+      "delay": {
+       "$t": "thirty-two",
+       "offset": -0.1
+      }
+     }
+    ]
+   },
+   "source": "USDA FAS, July 2026"
+  }
+ },
+ {
+  "at": "p2",
+  "after": "almost all of it",
+  "type": "shot",
+  "props": {
+   "photo": "vn_tree",
+   "focus": "50% 40%",
+   "dim": 0.64,
+   "icon": "Bean",
+   "color": "teal",
+   "number": "97%",
+   "numberDelay": 0.2,
+   "label": "robusta",
+   "sub": "share of Vietnam's crop",
+   "source": "USDA FAS, July 2026"
+  }
+ },
+ {
+  "at": "p3",
+  "type": "shot",
+  "props": {
+   "photo": "green_beans",
+   "dim": 0.78,
+   "header": {
+    "number": "55%",
+    "label": "of the world's coffee",
+    "color": "gold"
+   },
+   "halves": [
+    {
+     "icon": "Sprout",
+     "big": "38%",
+     "label": "Brazil",
+     "color": "gold",
+     "delay": 0.3
+    },
+    {
+     "icon": "Sprout",
+     "big": "17%",
+     "label": "Vietnam",
+     "color": "teal",
+     "delay": 0.9
+    }
+   ],
+   "source": "USDA FAS, July 2026"
+  }
+ },
+ {
+  "at": "p4",
+  "type": "shot",
+  "props": {
+   "kicker": "Next: one bag in five",
+   "map": {
+    "image": "worldmap",
+    "height": 680,
+    "filter": "brightness(0.38) saturate(1.5) contrast(1.35)",
+    "view": {
+     "center": [
+      12,
+      3
+     ],
+     "span": 240
+    },
+    "from": {
+     "center": [
+      106,
+      12
+     ],
+     "span": 56
+    },
+    "move": 1.0,
+    "pins": [
+     {
+      "lon": -47,
+      "lat": -15,
+      "r": 52,
+      "delay": 0.2
+     },
+     {
+      "lon": 108,
+      "lat": 13,
+      "r": 35,
+      "delay": 0.3
+     },
+     {
+      "lon": -74,
+      "lat": 4.5,
+      "r": 22,
+      "value": "13.4M",
+      "label": "Colombia",
+      "side": "top",
+      "delay": {
+       "$t": "Colombia",
+       "offset": -0.1
+      }
+     },
+     {
+      "lon": 39,
+      "lat": 8,
+      "r": 21,
+      "value": "12.1M",
+      "label": "Ethiopia",
+      "side": "top",
+      "delay": {
+       "$t": "Ethiopia",
+       "offset": -0.1
+      }
+     },
+     {
+      "lon": 104,
+      "lat": -5,
+      "r": 21,
+      "value": "11.4M",
+      "label": "Indonesia",
+      "side": "bottom",
+      "delay": {
+       "$t": "Indonesia",
+       "offset": -0.1
+      }
+     }
+    ]
+   },
+   "source": "USDA FAS, July 2026"
+  }
+ },
+ {
+  "at": "p5",
+  "type": "shot",
+  "props": {
+   "kicker": "Where the beans go",
+   "map": {
+    "image": "worldmap",
+    "height": 680,
+    "filter": "brightness(0.38) saturate(1.5) contrast(1.35)",
+    "view": {
+     "center": [
+      12,
+      3
+     ],
+     "span": 240
+    },
+    "arcs": [
+     {
+      "from": [
+       -47,
+       -15
+      ],
+      "to": [
+       10,
+       50
+      ],
+      "delay": 0.4
+     },
+     {
+      "from": [
+       108,
+       13
+      ],
+      "to": [
+       10,
+       50
+      ],
+      "delay": 0.7
+     },
+     {
+      "from": [
+       -47,
+       -15
+      ],
+      "to": [
+       -95,
+       38
+      ],
+      "delay": {
+       "$t": "The United States",
+       "offset": -0.3
+      },
+      "color": "teal"
+     },
+     {
+      "from": [
+       -74,
+       4.5
+      ],
+      "to": [
+       -95,
+       38
+      ],
+      "delay": {
+       "$t": "The United States",
+       "offset": 0
+      },
+      "color": "teal"
+     }
+    ],
+    "pins": [
+     {
+      "lon": 10,
+      "lat": 50,
+      "value": "50M",
+      "label": "bags · EU",
+      "side": "top",
+      "r": 18,
+      "delay": {
+       "$t": "European Union",
+       "offset": 0
+      }
+     },
+     {
+      "lon": -95,
+      "lat": 38,
+      "value": "26.9M",
+      "label": "bags · US",
+      "side": "bottom",
+      "r": 18,
+      "color": "teal",
+      "delay": {
+       "$t": "The United States",
+       "offset": 0.4
+      }
+     }
+    ]
+   },
+   "source": "USDA FAS, July 2026, imports"
+  }
+ },
+ {
+  "at": "p5",
+  "after": "nearly everything",
+  "type": "shot",
+  "props": {
+   "photo": "barista",
+   "dim": 0.7,
+   "icon": "Coffee",
+   "color": "teal",
+   "kicker": "United States",
+   "number": "26.9M",
+   "numberDelay": 0.15,
+   "label": "bags imported",
+   "sub": "for 27.0M bags drunk, 2026/27 forecast",
+   "source": "USDA FAS, July 2026"
+  }
+ },
+ {
+  "at": "p6",
+  "type": "shot",
+  "props": {
+   "photo": "beans2",
+   "dim": 0.7,
+   "kicker": "Two countries",
+   "text": "*More than half* the world's coffee"
+  }
+ },
+ {
+  "at": "p6",
+  "after": "More on the channel",
+  "type": "endcard",
+  "props": {}
+ }
+]
