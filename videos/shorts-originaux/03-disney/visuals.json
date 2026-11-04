@@ -1,0 +1,29 @@
+[
+ {"at": "p0", "type": "shot", "props": {"photo": "studios", "focus": "50% 50%", "dim": 0.66, "logo": "logo_disney", "kicker": "Famous for", "text": "Disney = *movies*?"}},
+ {"at": "p1", "type": "shot", "props": {"photo": "castle", "focus": "50% 30%", "dim": 0.62, "icon": "Wallet", "color": "gold", "number": "$14.8B", "numberDelay": {"$t": "fourteen point", "offset": -0.1}, "label": "operating income", "sub": "all four divisions, Oct. 2025 to June 2026", "source": "Disney Q3 FY2026 results"}},
+ {"at": "p2", "type": "shot", "props": {"photo": "castle_fw", "focus": "50% 40%", "dim": 0.6, "kicker": "One division", "number": "61%", "numberDelay": 0.15, "color": "gold", "label": "came from Experiences", "source": "Disney Q3 FY2026 results"}},
+ {"at": "p2", "after": "Theme parks", "type": "shot", "props": {"photo": "resort", "dim": 0.78, "header": {"number": "61%", "label": "of Disney's profit", "color": "gold"}, "items": [
+   {"icon": "Castle", "label": "Theme parks", "color": "gold", "delay": 0.1},
+   {"icon": "Hotel", "label": "Resorts", "color": "gold", "delay": {"$t": "resorts", "offset": -0.15}},
+   {"icon": "Ship", "label": "Cruises", "color": "gold", "delay": {"$t": "cruises", "offset": -0.15}},
+   {"icon": "ShoppingBag", "label": "Merchandise", "color": "gold", "delay": {"$t": "merchandise", "offset": -0.15}}
+ ], "source": "Disney Q3 FY2026 results"}},
+ {"at": "p3", "type": "shot", "props": {"photo": "epcot", "dim": 0.8, "kicker": "Share of operating income", "compare": [
+   {"label": "Parks & experiences", "value": 60.6, "display": "61%", "color": "gold", "strong": true, "delay": 0.1},
+   {"label": "Movies, TV & Disney+", "value": 27.9, "display": "28%", "color": "teal", "delay": {"$t": "twenty-eight", "offset": -0.2}},
+   {"label": "Sports (ESPN)", "value": 11.5, "display": "12%", "color": "slate", "delay": {"$t": "Sports", "offset": -0.1}}
+ ], "source": "Disney Q3 FY2026 results"}},
+ {"at": "p4", "type": "shot", "props": {"photo": "studios", "focus": "30% 50%", "dim": 0.8, "kicker": "But by revenue", "compare": [
+   {"label": "Movies, TV & Disney+", "value": 34.7, "display": "$34.7B", "color": "teal", "strong": true, "delay": {"$t": "thirty-four", "offset": -0.2}},
+   {"label": "Parks & experiences", "value": 29.5, "display": "$29.5B", "color": "gold", "delay": {"$t": "twenty-nine", "offset": -0.2}}
+ ], "source": "Disney Q3 FY2026 results"}},
+ {"at": "p5", "type": "shot", "props": {"photo": "ride", "dim": 0.74, "icon": "Ticket", "color": "gold", "kicker": "Experiences", "number": "30¢", "numberDelay": {"$t": "thirty cents", "offset": -0.1}, "label": "kept per $1 of sales", "sub": "segment operating income", "source": "Disney Q3 FY2026 results"}},
+ {"at": "p5", "after": "Entertainment kept", "type": "shot", "props": {"photo": "cruise_dusk", "dim": 0.8, "header": {"number": "$1", "label": "of sales: what's kept", "color": "paper"}, "halves": [
+   {"icon": "Castle", "big": "30¢", "label": "parks & more", "color": "gold", "delay": 0.1},
+   {"icon": "Clapperboard", "big": "12¢", "label": "movies & TV", "color": "teal", "delay": {"$t": "twelve", "offset": -0.1}}
+ ], "source": "Disney Q3 FY2026 results"}},
+ {"at": "p6", "type": "shot", "props": {"photo": "crowd", "dim": 0.66, "icon": "Users", "color": "teal", "kicker": "April to June 2026", "number": "+3%", "numberDelay": {"$t": "three percent", "offset": -0.1}, "label": "US park attendance", "source": "Disney Q3 FY2026 results"}},
+ {"at": "p6", "after": "and each guest", "type": "shot", "props": {"photo": "mainstreet", "dim": 0.66, "icon": "ShoppingBag", "color": "gold", "kicker": "April to June 2026", "number": "+4%", "numberDelay": {"$t": "four percent", "offset": -0.1}, "label": "spending per guest", "source": "Disney Q3 FY2026 results"}},
+ {"at": "p7", "type": "shot", "props": {"photo": "castle_dl_night", "focus": "50% 50%", "dim": 0.6, "logo": "logo_disney", "kicker": "Disney makes the movies", "text": "The parks make *the money*"}},
+ {"at": "p7", "after": "More on the channel", "type": "endcard", "props": {}}
+]

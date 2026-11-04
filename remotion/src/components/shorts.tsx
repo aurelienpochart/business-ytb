@@ -26,6 +26,13 @@ type Curve = {series: Series[]; yMax: number; yTicks?: number[]; xTicks?: number
 // Barres horizontales comparées : une ligne par valeur, la largeur suit la valeur, montant au bout.
 type CompareRow = {label: string; value: number; display: string; color?: string; delay?: number; strong?: boolean};
 
+// Carte (format The Map) : planisphère équirectangulaire (image du Short), caméra qui glisse d'un cadrage à
+// l'autre, pastilles (taille au choix) avec valeur et libellé, arcs animés pour les flux.
+type MapView = {center: [number, number]; span: number}; // centre [lon, lat], degrés de longitude visibles
+type MapPin = {lon: number; lat: number; label?: string; value?: string; color?: string; r?: number; delay?: number; side?: 'left' | 'right' | 'top' | 'bottom'; strong?: boolean};
+type MapArc = {from: [number, number]; to: [number, number]; color?: string; delay?: number; draw?: number; bend?: number};
+type MapSpec = {image: string; extent?: [number, number, number, number]; view: MapView; from?: MapView; move?: number; moveDelay?: number; height?: number; pins?: MapPin[]; arcs?: MapArc[]; filter?: string};
+
 export type ShotProps = {
   photo?: string;
   focus?: string; // cadrage de la photo (object-position)
@@ -46,6 +53,7 @@ export type ShotProps = {
   halves?: Half[];
   curve?: Curve;
   compare?: CompareRow[];
+  map?: MapSpec;
   image?: string; // photo encadrée (objet, ex. la carte de membre) au-dessus du texte
   source?: string;
   align?: 'center' | 'bottom';
@@ -371,6 +379,108 @@ const Compare: React.FC<{rows: CompareRow[]}> = ({rows}) => {
   );
 };
 
+// Carte animée : la caméra passe de `from` à `view` (zoom géométrique), puis les pastilles et les arcs entrent
+// à leur délai. Les étiquettes restent dans le cadre de la carte (rien de rogné).
+const WorldMap: React.FC<MapSpec> = ({image, extent = [-180, 180, -90, 90], view, from, move = 1.4, moveDelay = 0.1, height = 760, pins = [], arcs = [], filter}) => {
+  const frame = useCurrentFrame();
+  const {fps} = useVideoConfig();
+  const m = useMedia(image);
+  const W = WIDTH;
+  const H = height;
+  const pIn = useEnter(0.02);
+  const a = from ?? view;
+  const q = interpolate(frame, [moveDelay * fps, (moveDelay + move) * fps], [0, 1], {...clamp, easing: Easing.inOut(Easing.cubic)});
+  const span = a.span * Math.pow(view.span / a.span, q);
+  const cLon = a.center[0] + (view.center[0] - a.center[0]) * q;
+  const cLat = a.center[1] + (view.center[1] - a.center[1]) * q;
+  const k = W / span;
+  const [lonW, lonE, latS, latN] = extent;
+  const X = (lon: number) => W / 2 + (lon - cLon) * k;
+  const Y = (lat: number) => H / 2 - (lat - cLat) * k;
+  const t = frame / fps;
+  return (
+    <div style={{position: 'relative', width: W, height: H, borderRadius: 28, overflow: 'hidden', border: '1.5px solid rgba(255,255,255,0.22)', boxShadow: '0 30px 80px rgba(0,0,0,0.65), 0 0 60px rgba(240,181,78,0.12)', background: '#050b16', ...fade(pIn)}}>
+      {m ? (
+        <Img
+          src={m.src}
+          style={{position: 'absolute', left: X(lonW), top: Y(latN), width: (lonE - lonW) * k, height: (latN - latS) * k, maxWidth: 'none', filter: filter ?? 'saturate(0.55) brightness(0.8) contrast(1.1)'}}
+        />
+      ) : null}
+      <div style={{position: 'absolute', inset: 0, background: 'radial-gradient(ellipse 80% 70% at 50% 50%, transparent 55%, rgba(0,0,0,0.55) 100%)'}} />
+      <svg width={W} height={H} style={{position: 'absolute', inset: 0, overflow: 'visible'}}>
+        {arcs.map((arc, i) => {
+          const d0 = arc.delay ?? 0.6 + i * 0.4;
+          const draw = arc.draw ?? 1.1;
+          const prog = interpolate(frame, [d0 * fps, (d0 + draw) * fps], [0, 1], {...clamp, easing: Easing.inOut(Easing.cubic)});
+          if (prog <= 0) return null;
+          const x1 = X(arc.from[0]), y1 = Y(arc.from[1]), x2 = X(arc.to[0]), y2 = Y(arc.to[1]);
+          const dx = x2 - x1, dy = y2 - y1, len = Math.hypot(dx, dy) || 1;
+          const bend = arc.bend ?? 0.28;
+          // Point de contrôle décalé perpendiculairement, du côté du haut de l'écran.
+          let nx = -dy / len, ny = dx / len;
+          if (ny > 0) { nx = -nx; ny = -ny; }
+          const cx = (x1 + x2) / 2 + nx * len * bend, cy = (y1 + y2) / 2 + ny * len * bend;
+          const N = 60;
+          const pts: string[] = [];
+          let ex = x1, ey = y1;
+          for (let j = 0; j <= N * prog; j++) {
+            const u = j / N;
+            ex = (1 - u) * (1 - u) * x1 + 2 * (1 - u) * u * cx + u * u * x2;
+            ey = (1 - u) * (1 - u) * y1 + 2 * (1 - u) * u * cy + u * u * y2;
+            pts.push(`${j ? 'L' : 'M'}${ex.toFixed(1)},${ey.toFixed(1)}`);
+          }
+          const col = arc.color === 'teal' ? tone('teal').hi : '#FFD27F';
+          return (
+            <g key={`a${i}`}>
+              <path d={pts.join(' ')} fill="none" stroke={col} strokeWidth={7} strokeLinecap="round" strokeDasharray="2 14" style={{filter: `drop-shadow(0 0 10px ${col})`}} />
+              <circle cx={ex} cy={ey} r={11} fill={col} style={{filter: `drop-shadow(0 0 14px ${col})`}} />
+            </g>
+          );
+        })}
+        {pins.map((pin, i) => {
+          const d = pin.delay ?? 0.5 + i * 0.35;
+          const p = spring({frame: frame - d * fps, fps, config: {damping: 13, stiffness: 120}});
+          if (p <= 0.001) return null;
+          const col = pin.color && pin.color !== 'gold' ? tone(pin.color).hi : '#FFD27F';
+          const r = (pin.r ?? 16) * Math.min(1.08, p);
+          const pulse = ((t - d) % 1.6) / 1.6;
+          return (
+            <g key={`p${i}`} opacity={Math.min(1, p * 1.5)}>
+              <circle cx={X(pin.lon)} cy={Y(pin.lat)} r={r} fill={col} fillOpacity={pin.r && pin.r > 30 ? 0.42 : 0.95} stroke={col} strokeWidth={3} style={{filter: `drop-shadow(0 0 18px ${col})`}} />
+              {pulse >= 0 ? <circle cx={X(pin.lon)} cy={Y(pin.lat)} r={r + 10 + pulse * 40} fill="none" stroke={col} strokeWidth={3} opacity={(1 - pulse) * 0.7} /> : null}
+            </g>
+          );
+        })}
+      </svg>
+      {pins.map((pin, i) => {
+        if (!pin.label && !pin.value) return null;
+        const d = (pin.delay ?? 0.5 + i * 0.35) + 0.15;
+        const p = useEnter(d);
+        const col = pin.color && pin.color !== 'gold' ? tone(pin.color).hi : '#FFD27F';
+        const side = pin.side ?? 'right';
+        const r = pin.r ?? 16;
+        const vSize = pin.strong ? 72 : 52;
+        const lW = 420;
+        const lH = (pin.value ? vSize : 0) + (pin.label ? 44 : 0);
+        let left = X(pin.lon), top = Y(pin.lat);
+        if (side === 'right') { left += r + 22; top -= lH / 2; }
+        if (side === 'left') { left -= r + 22 + lW; top -= lH / 2; }
+        if (side === 'top') { left -= lW / 2; top -= r + 18 + lH; }
+        if (side === 'bottom') { left -= lW / 2; top += r + 18; }
+        left = Math.max(16, Math.min(W - lW - 16, left));
+        top = Math.max(12, Math.min(H - lH - 12, top));
+        const align = side === 'left' ? 'flex-end' : side === 'right' ? 'flex-start' : 'center';
+        return (
+          <div key={`l${i}`} style={{position: 'absolute', left, top, width: lW, display: 'flex', flexDirection: 'column', alignItems: align, ...fade(p)}}>
+            {pin.value ? <div style={{fontFamily: FONT.mono, fontWeight: 600, fontSize: vSize, lineHeight: 1, letterSpacing: -2, color: col, textShadow: `0 0 30px ${col}88, 0 4px 18px rgba(0,0,0,0.95)`}}>{pin.value}</div> : null}
+            {pin.label ? <div style={{fontFamily: FONT.title, fontWeight: 700, fontSize: 38, lineHeight: 1.15, color: C.paper, textShadow: '0 3px 14px rgba(0,0,0,0.95), 0 0 4px rgba(0,0,0,0.9)', whiteSpace: 'nowrap'}}>{pin.label}</div> : null}
+          </div>
+        );
+      })}
+    </div>
+  );
+};
+
 // Source : courte, lisible, en bas de la scène (au-dessus des sous-titres).
 const ShotSource: React.FC<{text: string}> = ({text}) => {
   const p = useEnter(0.7);
@@ -428,7 +538,7 @@ const Inset: React.FC<{id: string}> = ({id}) => {
   );
 };
 
-export const Shot: React.FC<ShotProps> = ({image, photo, focus, dim = 0.62, zoom, logo, kicker, icon, number, numberDelay = 0.2, color = 'gold', label, sub, text, bar, items, header, halves, curve, compare, source, align = 'center'}) => {
+export const Shot: React.FC<ShotProps> = ({image, photo, focus, dim = 0.62, zoom, logo, kicker, icon, number, numberDelay = 0.2, color = 'gold', label, sub, text, bar, items, header, halves, curve, compare, map, source, align = 'center'}) => {
   const frame = useCurrentFrame();
   const {fps} = useVideoConfig();
   const L = useLayout();
@@ -501,6 +611,7 @@ export const Shot: React.FC<ShotProps> = ({image, photo, focus, dim = 0.62, zoom
         {halves ? <Halves halves={halves} /> : null}
         {curve ? <CurveChart {...curve} /> : null}
         {compare ? <Compare rows={compare} /> : null}
+        {map ? <WorldMap {...map} /> : null}
         {bar ? (
           <div style={{marginTop: 18}}>
             <MoneyBar {...bar} />
