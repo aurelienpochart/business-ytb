@@ -1,70 +1,155 @@
 [
  {
   "id": "worldmap",
-  "title": "File:World location map.svg"
+  "title": "File:World location map.svg",
+  "file": "media/worldmap.svg",
+  "license": "Public domain",
+  "artist": "STyx",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:World_location_map.svg"
  },
  {
   "id": "beans",
-  "title": "File:Roasted Coffee Beans Texture.jpg"
+  "title": "File:Roasted Coffee Beans Texture.jpg",
+  "file": "media/beans.jpg",
+  "license": "CC BY-SA 3.0",
+  "artist": "freestock.ca",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Roasted_Coffee_Beans_Texture.jpg"
  },
  {
   "id": "beans2",
-  "title": "File:Coffee beans2.jpg"
+  "title": "File:Coffee beans2.jpg",
+  "file": "media/beans2.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "Popo le Chien",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Coffee_beans2.jpg"
  },
  {
   "id": "cherries",
-  "title": "File:Coffee Berries.jpg"
+  "title": "File:Coffee Berries.jpg",
+  "file": "media/cherries.jpg",
+  "license": "CC BY-SA 3.0",
+  "artist": "Jonathan Wilkins",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Coffee_Berries.jpg"
  },
  {
   "id": "brazil",
-  "title": "File:Fazenda Da Lagoa.jpg"
+  "title": "File:Fazenda Da Lagoa.jpg",
+  "file": "media/brazil.jpg",
+  "license": "CC BY 3.0 de",
+  "artist": "Knase",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Fazenda_Da_Lagoa.jpg"
  },
  {
   "id": "brazil_hills",
-  "title": "File:Carmo de Minas MG Brasil - Cafezal - panoramio.jpg"
+  "title": "File:Carmo de Minas MG Brasil - Cafezal - panoramio.jpg",
+  "file": "media/brazil_hills.jpg",
+  "license": "CC BY 3.0",
+  "artist": "Josue Marinho",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Carmo_de_Minas_MG_Brasil_-_Cafezal_-_panoramio.jpg"
  },
  {
   "id": "vietnam",
-  "title": "File:Vietnam - coffee plantation.jpg"
+  "title": "File:Vietnam - coffee plantation.jpg",
+  "file": "media/vietnam.jpg",
+  "license": "CC BY 4.0",
+  "artist": "P. Hughes",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Vietnam_-_coffee_plantation.jpg"
  },
  {
   "id": "vn_tree",
-  "title": "File:Cây cà phê ở Việt Nam.jpg"
+  "title": "File:Cây cà phê ở Việt Nam.jpg",
+  "file": "media/vn_tree.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "ThiênĐế98",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:C%C3%A2y_c%C3%A0_ph%C3%AA_%E1%BB%9F_Vi%E1%BB%87t_Nam.jpg"
  },
  {
   "id": "phin",
-  "title": "File:Vietnamese iced coffee - Jan 31, 2018.jpg"
+  "title": "File:Vietnamese iced coffee - Jan 31, 2018.jpg",
+  "file": "media/phin.jpg",
+  "license": "CC BY 2.0",
+  "artist": "Vinnie Cartabiano",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Vietnamese_iced_coffee_-_Jan_31,_2018.jpg"
  },
  {
   "id": "colombia",
-  "title": "File:Coffee Farm (45255016475).jpg"
+  "title": "File:Coffee Farm (45255016475).jpg",
+  "file": "media/colombia.jpg",
+  "license": "CC BY 2.0",
+  "artist": "Paul from Hacketts Cove, Canada",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Coffee_Farm_(45255016475).jpg"
  },
  {
   "id": "ethiopia",
-  "title": "File:Coffee ceremony of Ethiopia and Eritrea 1.jpg"
+  "title": "File:Coffee ceremony of Ethiopia and Eritrea 1.jpg",
+  "file": "media/ethiopia.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "ProtoplasmaKid",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Coffee_ceremony_of_Ethiopia_and_Eritrea_1.jpg"
  },
  {
   "id": "green_beans",
-  "title": "File:Green Bean Coffee.jpg"
+  "title": "File:Green Bean Coffee.jpg",
+  "file": "media/green_beans.jpg",
+  "license": "CC BY-SA 2.0",
+  "artist": "DeaPeaJay",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Green_Bean_Coffee.jpg"
  },
  {
   "id": "port",
-  "title": "File:Port Santos.jpg"
+  "title": "File:Port Santos.jpg",
+  "file": "media/port.jpg",
+  "license": "CC BY 3.0",
+  "artist": "Claus Bunks aka Afrobrasil on flickr",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Port_Santos.jpg"
  },
  {
   "id": "ship",
-  "title": "File:KOTA SANTOS, IMO 9293765, Rio de Janeiro.jpg"
+  "title": "File:KOTA SANTOS, IMO 9293765, Rio de Janeiro.jpg",
+  "file": "media/ship.jpg",
+  "license": "CC0",
+  "artist": "Wilfredor",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:KOTA_SANTOS,_IMO_9293765,_Rio_de_Janeiro.jpg"
  },
  {
   "id": "barista",
-  "title": "File:Barista prepares espresso at coffee shop.jpg"
+  "title": "File:Barista prepares espresso at coffee shop.jpg",
+  "file": "media/barista.jpg",
+  "license": "CC BY 2.0",
+  "artist": "Shixart1985",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Barista_prepares_espresso_at_coffee_shop.jpg"
  },
  {
   "id": "cup",
-  "title": "File:Espresso Coffee 01.jpg"
+  "title": "File:Espresso Coffee 01.jpg",
+  "file": "media/cup.jpg",
+  "license": "CC0",
+  "artist": "Jubair1985",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Espresso_Coffee_01.jpg"
  },
  {
   "id": "roaster",
-  "title": "File:Coffee Roaster (27317205).jpg"
+  "title": "File:Coffee Roaster (27317205).jpg",
+  "file": "media/roaster.jpg",
+  "license": "CC BY-SA 2.0",
+  "artist": "Aaron Gustafson from Chattanooga, TN, USA",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Coffee_Roaster_(27317205).jpg"
  }
 ]
