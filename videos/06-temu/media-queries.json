@@ -38,5 +38,22 @@
  "delivery_van": "delivery van parcel courier",
  "phone_shopping": "smartphone shopping app hand",
  "toys": "plastic toys store shelf",
- "hk_airport_cargo": "Hong Kong airport cargo terminal"
+ "hk_airport_cargo": "Hong Kong airport cargo terminal",
+ "warehouse2": "fulfillment center interior conveyor",
+ "boxes": "stack of cardboard boxes",
+ "parcel_delivery": "parcel delivery doorstep package",
+ "ups_hub": "UPS Worldport sorting",
+ "pdd_office": "Pinduoduo headquarters Shanghai",
+ "baiyun_cargo": "Guangzhou Baiyun International Airport cargo",
+ "jfk_mail": "John F. Kennedy International Airport aerial",
+ "ship_sea": "container ship at sea aerial",
+ "app_store": "smartphone home screen apps",
+ "cheap_goods": "dollar store shelves products",
+ "socks": "socks pile colorful",
+ "phone_case": "phone accessories market stall China",
+ "shenzhen_market": "Huaqiangbei electronics market Shenzhen",
+ "sewing": "textile factory sewing machines workers Asia",
+ "santa_monica_ad": "Times Square billboards night",
+ "lv_stadium": "Super Bowl LVIII game field",
+ "credit_card": "credit card payment online"
 }
