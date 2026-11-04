@@ -1,6 +1,6 @@
 {
-  "duration": 740.11,
-  "ident": 48.48,
+  "duration": 736.03,
+  "ident": 45.44,
   "segments": [
     {
       "id": "c0p0",
@@ -8,415 +8,415 @@
       "chapter_title": "Hook",
       "text": "Two-dollar socks. A phone case for less than a coffee. Shipped from a factory in China to a front door in Ohio, for free.",
       "start": 0.3,
-      "end": 8.38
+      "end": 7.9
     },
     {
       "id": "c0p1",
       "chapter": 0,
       "chapter_title": "Hook",
       "text": "That was Temu's promise when it arrived in America in September 2022. Less than a year and a half later, fifty-one million Americans were using it every month, according to Sensor Tower.",
-      "start": 8.83,
-      "end": 21.03
+      "start": 8.35,
+      "end": 18.71
     },
     {
       "id": "c0p2",
       "chapter": 0,
       "chapter_title": "Hook",
       "text": "Then, in 2025, the United States shut the door that model was built on: the rule that let small parcels into the country without paying any customs duty.",
-      "start": 21.48,
-      "end": 32.16
+      "start": 19.16,
+      "end": 29.04
     },
     {
       "id": "c0p3",
       "chapter": 0,
       "chapter_title": "Hook",
       "text": "So here's our question. How did Temu sell things that cheap in the first place? And can it survive without that door?",
-      "start": 32.61,
-      "end": 39.33
+      "start": 29.49,
+      "end": 35.53
     },
     {
       "id": "c0p4",
       "chapter": 0,
       "chapter_title": "Hook",
       "text": "The usual answers are cheap factories, burning cash, and a flood of ads. Each one is partly true. None of them is the whole story.",
-      "start": 39.78,
-      "end": 48.18
+      "start": 35.98,
+      "end": 45.14
     },
     {
       "id": "c1p0",
       "chapter": 1,
       "chapter_title": "Who is Temu?",
       "text": "Temu belongs to PDD Holdings, a company officially based in Dublin, whose roots, and most of its money, are in China.",
-      "start": 51.78,
-      "end": 60.06
+      "start": 48.74,
+      "end": 57.06
     },
     {
       "id": "c1p1",
       "chapter": 1,
       "chapter_title": "Who is Temu?",
       "text": "Its other app is Pinduoduo, one of China's biggest shopping platforms. It started in 2015 with what it calls \"team purchase\": if enough friends buy a product together, everyone gets a lower price. PDD says Pinduoduo and Temu have \"the same value propositions and operational model\". Temu is Pinduoduo's playbook, exported.",
-      "start": 60.51,
-      "end": 83.79
+      "start": 57.51,
+      "end": 84.27
     },
     {
       "id": "c1p2",
       "chapter": 1,
       "chapter_title": "Who is Temu?",
       "text": "Temu launched in the United States in September 2022, reached Australia six months later, and Europe a month after that.",
-      "start": 84.24,
-      "end": 93.28
+      "start": 84.72,
+      "end": 93.76
     },
     {
       "id": "c1p3",
       "chapter": 1,
       "chapter_title": "Who is Temu?",
       "text": "PDD doesn't publish separate accounts for Temu. But one line of its results includes Temu's marketplace fees: transaction services. In 2022, it brought in about twenty-eight billion yuan. By 2025, two hundred and fourteen billion. Almost eight times more in three years.",
-      "start": 93.73,
-      "end": 114.65
+      "start": 94.21,
+      "end": 114.57
     },
     {
       "id": "c1p4",
       "chapter": 1,
       "chapter_title": "Who is Temu?",
       "text": "So whatever Temu did, it worked. Now, how?",
-      "start": 115.1,
-      "end": 118.18
+      "start": 115.02,
+      "end": 117.82
     },
     {
       "id": "c2p0",
       "chapter": 2,
       "chapter_title": "False trail one: cheap factories",
       "text": "The first answer most people give: things are made in China, Chinese factories are cheap, so Temu is cheap.",
-      "start": 119.28,
-      "end": 126.16
+      "start": 118.92,
+      "end": 126.04
     },
     {
       "id": "c2p1",
       "chapter": 2,
       "chapter_title": "False trail one: cheap factories",
       "text": "But Amazon sellers buy from Chinese factories too. So do Walmart's suppliers, and Shein, and AliExpress. The difference isn't where things are made. It's what happens after the factory door.",
-      "start": 126.61,
-      "end": 138.21
+      "start": 126.49,
+      "end": 139.09
     },
     {
       "id": "c2p2",
       "chapter": 2,
       "chapter_title": "False trail one: cheap factories",
       "text": "A product sold in an American store usually passes through an importer, a distributor, a warehouse and a retailer, and each one adds its margin. Temu cut most of them out. The order went from the factory, more or less directly, to you.",
-      "start": 138.66,
-      "end": 154.58
+      "start": 139.54,
+      "end": 155.3
     },
     {
       "id": "c2p3",
       "chapter": 2,
       "chapter_title": "False trail one: cheap factories",
       "text": "And under Temu's original model, known as \"fully managed\", sellers left everything, in Bloomberg's words, \"price-setting, shipping and marketing included\", to Temu. The factory supplied the goods. Temu decided what you'd pay.",
-      "start": 155.03,
-      "end": 169.51
+      "start": 155.75,
+      "end": 170.23
     },
     {
       "id": "c2p4",
       "chapter": 2,
       "chapter_title": "False trail one: cheap factories",
       "text": "That gave Temu enormous pressure on prices. Sellers interviewed by WIRED in 2023 said they had no say over prices. One put it this way: \"We are working for Temu for free\".",
-      "start": 169.96,
-      "end": 185.16
+      "start": 170.68,
+      "end": 183.04
     },
     {
       "id": "c2p5",
       "chapter": 2,
       "chapter_title": "False trail one: cheap factories",
       "text": "So the factories were cheap, yes. But it was Temu that squeezed the margins out of everything around them.",
-      "start": 185.61,
-      "end": 191.53
+      "start": 183.49,
+      "end": 189.41
     },
     {
       "id": "c3p0",
       "chapter": 3,
       "chapter_title": "False trail two: burning cash",
       "text": "The second answer: Temu was simply losing money on every order, to buy customers.",
-      "start": 192.63,
-      "end": 198.23
+      "start": 190.51,
+      "end": 196.63
     },
     {
       "id": "c3p1",
       "chapter": 3,
       "chapter_title": "False trail two: burning cash",
       "text": "That's partly true, at least at the start. In May 2023, WIRED estimated that Temu was losing about thirty dollars per order in the United States. One brokerage figured that sending a single small parcel from Guangzhou to the US cost around fourteen dollars, on an average order of about twenty-five.",
-      "start": 198.68,
-      "end": 219.32
+      "start": 197.08,
+      "end": 215.92
     },
     {
       "id": "c3p2",
       "chapter": 3,
       "chapter_title": "False trail two: burning cash",
       "text": "That's what a land grab looks like: pay for the first order, and hope the customer comes back. But it doesn't explain how Temu kept going for years.",
-      "start": 219.77,
-      "end": 228.05
+      "start": 216.37,
+      "end": 225.21
     },
     {
       "id": "c3p3",
       "chapter": 3,
       "chapter_title": "False trail two: burning cash",
       "text": "Look at its owner. PDD's profit didn't collapse while Temu expanded. It more than tripled, from thirty-one billion yuan in 2022 to one hundred and twelve billion in 2024.",
-      "start": 228.5,
-      "end": 241.22
+      "start": 225.66,
+      "end": 239.18
     },
     {
       "id": "c3p4",
       "chapter": 3,
       "chapter_title": "False trail two: burning cash",
       "text": "Even from April to June 2026, PDD made four billion dollars of profit in a single quarter, and held sixty-seven billion dollars in cash and short-term investments.",
-      "start": 241.67,
-      "end": 253.35
+      "start": 239.63,
+      "end": 251.31
     },
     {
       "id": "c3p5",
       "chapter": 3,
       "chapter_title": "False trail two: burning cash",
       "text": "So Temu wasn't a startup betting its last dollar. It was a very profitable Chinese company choosing to spend part of its profits abroad. And a lot of that money bought ads.",
-      "start": 253.8,
-      "end": 263.68
+      "start": 251.76,
+      "end": 262.08
     },
     {
       "id": "c4p0",
       "chapter": 4,
       "chapter_title": "False trail three: the ads",
       "text": "At the Super Bowl in February 2024, Temu bought three ad slots during the game and two more after it, at roughly six and a half to seven million dollars for thirty seconds, plus more than fifteen million dollars in coupons and giveaways.",
-      "start": 264.78,
-      "end": 279.02
+      "start": 263.18,
+      "end": 278.14
     },
     {
       "id": "c4p1",
       "chapter": 4,
       "chapter_title": "False trail three: the ads",
       "text": "PDD's sales and marketing spending went from fifty-four billion yuan in 2022 to one hundred and twenty-five billion in 2025. That's more than seventeen billion dollars in a single year, mostly, the company says, on promotion and advertising.",
-      "start": 279.47,
-      "end": 297.55
+      "start": 278.59,
+      "end": 296.99
     },
     {
       "id": "c4p2",
       "chapter": 4,
       "chapter_title": "False trail three: the ads",
       "text": "In early April 2025, Temu accounted for about a fifth of all ad impressions on Google Shopping in the United States, according to the ad agency Tinuiti.",
-      "start": 298.0,
-      "end": 308.84
+      "start": 297.44,
+      "end": 308.28
     },
     {
       "id": "c4p3",
       "chapter": 4,
       "chapter_title": "False trail three: the ads",
       "text": "But ads only bring people to the app. They don't make a phone case cost two dollars on your doorstep. For that, the parcel itself had to be cheap. And that's where the real answer lies.",
-      "start": 309.29,
-      "end": 320.93
+      "start": 308.73,
+      "end": 319.01
     },
     {
       "id": "c5p0",
       "chapter": 5,
-      "chapter_title": "The real answer: one parcel at a time",
+      "chapter_title": "The real answer: the parcel",
       "text": "American customs law has a rule called \"de minimis\", from a Latin phrase about things too small to matter. It dates back to 1938. In 2016, Congress raised its limit from two hundred dollars to eight hundred. Any shipment under that line, imported by one person on one day, came in without duties or taxes, and with only minimal data for customs.",
-      "start": 322.03,
-      "end": 347.99
+      "start": 320.11,
+      "end": 343.15
     },
     {
       "id": "c5p1",
       "chapter": 5,
-      "chapter_title": "The real answer: one parcel at a time",
+      "chapter_title": "The real answer: the parcel",
       "text": "Think about what that means. A store that imports ten thousand phone cases in a container pays duty on all of them, and files a full declaration. But ten thousand phone cases sent as ten thousand separate parcels, each to a different customer? No duty at all.",
-      "start": 348.44,
-      "end": 366.68
+      "start": 343.6,
+      "end": 360.28
     },
     {
       "id": "c5p2",
       "chapter": 5,
-      "chapter_title": "The real answer: one parcel at a time",
+      "chapter_title": "The real answer: the parcel",
       "text": "That was the heart of Temu's model. Every order left China as its own little parcel, mostly by air, straight to the buyer. In 2015, US customs handled one hundred and thirty-nine million de minimis shipments. In the 2024 fiscal year, one point three six billion. About three point seven million parcels a day.",
-      "start": 367.13,
-      "end": 387.65
+      "start": 360.73,
+      "end": 381.29
     },
     {
       "id": "c5p3",
       "chapter": 5,
-      "chapter_title": "The real answer: one parcel at a time",
+      "chapter_title": "The real answer: the parcel",
       "text": "A House committee estimated in 2023 that Temu and Shein together probably sent more than thirty percent of them. And e-commerce parcels filled about half of all air cargo capacity from China to the US, according to the freight analysts at Xeneta.",
-      "start": 388.1,
-      "end": 404.38
+      "start": 381.74,
+      "end": 398.74
     },
     {
       "id": "c5p4",
       "chapter": 5,
-      "chapter_title": "The real answer: one parcel at a time",
+      "chapter_title": "The real answer: the parcel",
       "text": "Those light checks worried lawmakers. In June 2023, the House Select Committee on China said that Temu \"conducts no audits\" of its suppliers for forced labor, and concluded there was \"an extremely high risk\" that forced labor had entered its supply chains. The committee called these findings preliminary.",
-      "start": 404.83,
-      "end": 425.47
+      "start": 399.19,
+      "end": 420.15
     },
     {
       "id": "c5p5",
       "chapter": 5,
-      "chapter_title": "The real answer: one parcel at a time",
+      "chapter_title": "The real answer: the parcel",
       "text": "So here's the real answer. Not one trick, but a system. The factory sold directly. Temu set the price and handled shipping. Each order travelled alone, under the eight-hundred-dollar line, duty-free. And Pinduoduo's profits paid for the ads that filled the funnel.",
-      "start": 425.92,
-      "end": 444.48
+      "start": 420.6,
+      "end": 439.16
     },
     {
       "id": "c5p6",
       "chapter": 5,
-      "chapter_title": "The real answer: one parcel at a time",
+      "chapter_title": "The real answer: the parcel",
       "text": "Take away one piece, and the whole thing has to change. In 2025, Washington took away the parcel.",
-      "start": 444.93,
-      "end": 452.53
+      "start": 439.61,
+      "end": 447.05
     },
     {
       "id": "c6p0",
       "chapter": 6,
       "chapter_title": "The door closes",
       "text": "On May second, 2025, the exemption ended for goods from China and Hong Kong. Postal parcels were first hit with a duty of one hundred and twenty percent, cut to fifty-four percent twelve days later.",
-      "start": 453.63,
-      "end": 468.07
+      "start": 448.15,
+      "end": 460.87
     },
     {
       "id": "c6p1",
       "chapter": 6,
       "chapter_title": "The door closes",
       "text": "On August twenty-ninth, 2025, it was suspended for every country in the world. And Congress had already voted to repeal it in law, from July 2027.",
-      "start": 468.52,
-      "end": 479.16
+      "start": 461.32,
+      "end": 473.16
     },
     {
       "id": "c6p2",
       "chapter": 6,
       "chapter_title": "The door closes",
       "text": "The door might have reopened once. In February 2026, the Supreme Court ruled that the emergency law behind many tariffs could not be used to impose them. But the same day, the White House put the de minimis suspension on a different legal footing, and customs kept it \"without modification\".",
-      "start": 479.61,
-      "end": 498.69
+      "start": 473.61,
+      "end": 492.33
     },
     {
       "id": "c6p3",
       "chapter": 6,
       "chapter_title": "The door closes",
       "text": "In June 2026, US Customs wrote the suspension into its own regulations. It says it has collected more than a billion dollars of duties on more than two hundred and forty-six million shipments since the phase-out began.",
-      "start": 499.14,
-      "end": 513.26
+      "start": 492.78,
+      "end": 508.22
     },
     {
       "id": "c6p4",
       "chapter": 6,
       "chapter_title": "The door closes",
       "text": "The tariff rates on top have changed again and again, and may keep changing. But the key fact for Temu hasn't moved. A cheap parcel from China no longer gets into America for free.",
-      "start": 513.71,
-      "end": 527.07
+      "start": 508.67,
+      "end": 519.75
     },
     {
       "id": "c6p5",
       "chapter": 6,
       "chapter_title": "The door closes",
       "text": "So what did Temu do?",
-      "start": 527.52,
-      "end": 529.44
+      "start": 520.2,
+      "end": 521.8
     },
     {
       "id": "c7p0",
       "chapter": 7,
       "chapter_title": "Plan B: warehouses and Europe",
       "text": "First, it went quiet. In April 2025, its share of Google Shopping ads in the US fell from about twenty percent to zero in a single week. By May, Temu's daily users in the US had fallen by forty-eight percent compared with March, according to Sensor Tower.",
-      "start": 530.54,
-      "end": 548.54
+      "start": 522.9,
+      "end": 541.94
     },
     {
       "id": "c7p1",
       "chapter": 7,
       "chapter_title": "Plan B: warehouses and Europe",
       "text": "Second, it changed how it ships. In May 2025, Temu said that \"all sales in the U.S. are now handled by locally based sellers, with orders fulfilled from within the country\". It had started down that road in 2024, with factories shipping goods in bulk to American warehouses.",
-      "start": 548.99,
-      "end": 568.87
+      "start": 542.39,
+      "end": 561.31
     },
     {
       "id": "c7p2",
       "chapter": 7,
       "chapter_title": "Plan B: warehouses and Europe",
       "text": "But a container shipped to a US warehouse pays customs duty, like any other import. Someone has to rent the warehouse, hold the stock, and take the risk that it doesn't sell. That's exactly the cost the old model avoided. Prices can still be low. But the magic trick is gone.",
-      "start": 569.32,
-      "end": 587.12
+      "start": 561.76,
+      "end": 579.56
     },
     {
       "id": "c7p3",
       "chapter": 7,
       "chapter_title": "Plan B: warehouses and Europe",
       "text": "Third, it leaned on the rest of the world. According to analyst Ed Sander, Europe now makes up about forty percent of Temu's sales, and the United States about thirty.",
-      "start": 587.57,
-      "end": 598.29
+      "start": 580.01,
+      "end": 590.57
     },
     {
       "id": "c7p4",
       "chapter": 7,
       "chapter_title": "Plan B: warehouses and Europe",
       "text": "But Europe is closing its own door. In 2024, four point six billion low-value parcels entered the European Union, more than ninety percent of them from China. Since July 2026, they pay a flat customs duty of three euros. On a five-euro item, that's a sixty percent surcharge.",
-      "start": 598.74,
-      "end": 618.34
+      "start": 591.02,
+      "end": 610.62
     },
     {
       "id": "c7p5",
       "chapter": 7,
       "chapter_title": "Plan B: warehouses and Europe",
       "text": "Brussels is also watching what's inside them. In May 2026, the European Commission fined Temu two hundred million euros for failing to properly assess and limit the risk of illegal products on its platform. Temu disagrees, calls the fine disproportionate, and says it has since strengthened its systems.",
-      "start": 618.79,
-      "end": 640.35
+      "start": 611.07,
+      "end": 631.75
     },
     {
       "id": "c7p6",
       "chapter": 7,
       "chapter_title": "Plan B: warehouses and Europe",
       "text": "PDD's co-chief executive, Lei Chen, has warned that cross-border orders in those markets will face \"lower fulfillment efficiency and higher costs\" in the short term.",
-      "start": 640.8,
-      "end": 650.6
+      "start": 632.2,
+      "end": 642.32
     },
     {
       "id": "c8p0",
       "chapter": 8,
       "chapter_title": "So, can Temu survive?",
       "text": "PDD's latest results, for April to June 2026, show a business still growing, but more slowly, and paying for it. Revenue was up eight percent. The line that includes Temu grew thirteen percent. Profit fell twelve percent.",
-      "start": 651.7,
-      "end": 666.9
+      "start": 643.42,
+      "end": 658.82
     },
     {
       "id": "c8p1",
       "chapter": 8,
       "chapter_title": "So, can Temu survive?",
       "text": "So here's our answer. Yes, Temu can survive without duty-free shipping. It has already lived without it in America for a year and a half. And its parent makes billions of dollars a quarter.",
-      "start": 667.35,
-      "end": 678.95
+      "start": 659.27,
+      "end": 671.31
     },
     {
       "id": "c8p2",
       "chapter": 8,
       "chapter_title": "So, can Temu survive?",
       "text": "But it can't survive as the same company. The Temu that shipped two-dollar parcels one by one from a factory in China, duty-free, is gone in America and fading in Europe. What's replacing it looks more like a regular marketplace: local warehouses, sellers who pay customs duty, faster delivery, and prices that are low, but no longer impossible.",
-      "start": 679.4,
-      "end": 700.6
+      "start": 671.76,
+      "end": 694.64
     },
     {
       "id": "c8p3",
       "chapter": 8,
       "chapter_title": "So, can Temu survive?",
       "text": "The strangest part? The old model worked so well that Amazon copied it, with a direct-from-China store of items under twenty dollars, just as the rules that made it possible were disappearing.",
-      "start": 701.05,
-      "end": 711.41
+      "start": 695.09,
+      "end": 707.33
     },
     {
       "id": "c8p4",
       "chapter": 8,
       "chapter_title": "So, can Temu survive?",
       "text": "So the secret of Temu was never just cheap factories, or cash, or ads. It was a customs rule written in 1938, long before anyone could order socks from a phone. When the rule changed, the price of a parcel changed, and so did Temu.",
-      "start": 711.86,
-      "end": 728.06
+      "start": 707.78,
+      "end": 723.86
     },
     {
       "id": "c8p5",
       "chapter": 8,
       "chapter_title": "So, can Temu survive?",
       "text": "If you want to see another company built on prices that look too low to be real, our video on Ryanair follows a fifteen-euro ticket all the way to the runway. Thanks for watching.",
-      "start": 728.51,
-      "end": 739.11
+      "start": 724.31,
+      "end": 735.03
     }
   ]
 }
