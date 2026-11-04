@@ -6,7 +6,6 @@
  "brazil_farm": "coffee plantation Minas Gerais Brazil",
  "brazil_harvest": "coffee harvest Brazil",
  "vietnam_farm": "coffee farm Vietnam Central Highlands",
- "robusta": "robusta coffee Vietnam",
  "colombia": "coffee plantation Colombia",
  "ethiopia": "Ethiopian coffee ceremony",
  "sacks": "coffee sacks jute warehouse",
@@ -14,5 +13,6 @@
  "espresso": "espresso cup",
  "cafe": "coffee shop barista",
  "roastery": "coffee roasting roaster",
- "latte": "latte art cup"
+ "blank_map": "BlankMap World Equirectangular svg",
+ "blue_marble": "Whole world land and oceans NASA"
 }
