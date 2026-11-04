@@ -1,3 +1,4 @@
+# Shorts originaux (semaine du 9/11/2026) : Disney (One Number) et café (The Map)
 # Shorts originaux (semaine du 2/11/2026) : Apple (Myth vs Reality) et Big Mac (Then vs Now)
 # 8-K Apple : nouvel essai après échec du push (course avec un autre workflow)
 # fait : aapl-submissions.json https://data.sec.gov/submissions/CIK0000320193.json
@@ -10,6 +11,8 @@
 # refusé (403) : aapl-10k-list.xml https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000320193&type=10-K&dateb=&owner=include&count=10&output=atom
 # refusé (403) : aapl-8k-list.xml https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000320193&type=8-K&dateb=&owner=include&count=10&output=atom
 # refusé (403) : aapl-10q-list.xml https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000320193&type=10-Q&dateb=&owner=include&count=10&output=atom
-aapl-q1fy26-pr.htm https://www.sec.gov/Archives/edgar/data/320193/000032019326000005/a8-kex991q1202612272025.htm
-aapl-q2fy26-pr.htm https://www.sec.gov/Archives/edgar/data/0000320193/000032019326000011/a8-kex991q2202603282026.htm
-aapl-q3fy26-pr.htm https://www.sec.gov/Archives/edgar/data/0000320193/000032019326000018/a8-kex991q3202606272026.htm
+# fait/essayé (Apple) : aapl-q1fy26-pr.htm https://www.sec.gov/Archives/edgar/data/320193/000032019326000005/a8-kex991q1202612272025.htm
+# fait/essayé (Apple) : aapl-q2fy26-pr.htm https://www.sec.gov/Archives/edgar/data/0000320193/000032019326000011/a8-kex991q2202603282026.htm
+# fait/essayé (Apple) : aapl-q3fy26-pr.htm https://www.sec.gov/Archives/edgar/data/0000320193/000032019326000018/a8-kex991q3202606272026.htm
+dis-q3fy26-pr.htm https://www.sec.gov/Archives/edgar/data/0001744489/000174448926000056/fy2026_q3xerxex991.htm
+usda-coffee-2026-07.pdf https://apps.fas.usda.gov/psdonline/circulars/2026/07/coffee.pdf
