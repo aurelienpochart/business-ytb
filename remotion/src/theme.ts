@@ -145,6 +145,29 @@ export const TINTS: Record<string, Palette> = {
       heroNumGlow: 'rgba(241,201,51,0.55)',
     },
   },
+  temu: {
+    // Orange Temu (#FB7701) pour l'ambiance : nuit brun-orangé presque noire, halos orange ; l'or reste l'accent
+    // principal (plus clair et plus jaune que l'orange, donc distinct). Les chiffres « teal » passent à un
+    // turquoise clair (#4FD8E0), complémentaire de l'orange, lisible et distinct de l'or et du rouge brique.
+    C: {ink: '#070301', navy: '#1E0D04', navyLight: '#311708', mute: '#B39C8C', slate: '#8F7766', teal: '#4FD8E0'},
+    GRAD: {
+      teal: ['#11727A', '#8DF0F5', 'rgba(79,216,224,0.40)'],
+      slate: ['#3D2C22', '#A58E7E', 'rgba(165,142,126,0.25)'],
+    },
+    AMB: {
+      inkRgb: '7,3,1',
+      night: '#5A2406',
+      nightSoft: '#4A1E06',
+      orbCool: 'rgba(251,119,1,0.10)',
+      orbTeal: 'rgba(251,119,1,0.06)',
+      particle: '#ffe6cc',
+      photoGrade: 'rgba(120,52,8,0.24)',
+      photoFilter: '',
+      regradeFilter: 'saturate(0.6)',
+      heroNum: '#FF9A3C',
+      heroNumGlow: 'rgba(251,119,1,0.55)',
+    },
+  },
 };
 
 const DEFAULT = {C: {...C}, GRAD: {...GRAD}, AMB: {...AMB}};

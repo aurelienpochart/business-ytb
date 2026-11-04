@@ -1,0 +1,89 @@
+# Vidéo 06 : « Can Temu Survive Without Duty-Free Shipping? » : recherche
+
+*4 novembre 2026. Pilier : The Business Model (avec une part de Supply Chain). Gabarit : **The Question** (la vidéo 05 Ryanair était The Journey, la 04 Intel The Timeline, la 02 Nvidia la dernière en The Question). Sources consultées le 4 novembre 2026. Derniers résultats publiés de PDD : T2 2026 (24 août 2026) ; le T3 2026 n'est pas encore sorti.*
+
+## Angle (C-01)
+
+**La question** : Temu vend des chaussettes à deux dollars livrées depuis la Chine. Comment ? Et que reste-t-il de ce modèle maintenant que les États-Unis ont fermé la porte aux colis exonérés de droits ?
+
+On écarte trois fausses pistes, chacune vraie en partie : 1) « les usines chinoises sont bon marché » (tout le monde achète dans les mêmes usines) ; 2) « Temu perd de l'argent sur chaque commande » (vrai au début selon WIRED, mais le groupe PDD gagne environ 4 milliards de dollars par trimestre) ; 3) « c'est la pub » (les dépenses marketing de PDD ont plus que doublé de 2022 à 2025, mais la pub amène des clients, elle ne fait pas les prix). **La vraie réponse** : un système, où chaque commande partait de l'usine en Chine, en un colis individuel de moins de 800 $, qui entrait aux États-Unis sans droits de douane et avec un contrôle allégé (exemption « de minimis »), Temu fixant les prix et gérant l'expédition, le tout financé par la machine à profits de Pinduoduo en Chine.
+
+**Ce qui a changé** : fin de l'exemption pour la Chine (2 mai 2025), puis pour tous les pays (29 août 2025), maintenue après l'arrêt de la Cour suprême sur les droits de douane IEEPA (20 février 2026), inscrite dans les règlements de la CBP (24 juin 2026) et dans la loi à partir de juillet 2027. Temu a coupé sa pub, perdu près de la moitié de ses utilisateurs quotidiens américains, basculé vers des entrepôts et des vendeurs locaux, et misé sur l'Europe, qui ferme à son tour sa propre exemption (3 € par article depuis le 1er juillet 2026).
+
+**Notre réponse** : oui, Temu peut survivre, mais pas en restant le même. Sans colis exonérés, il devient une place de marché avec des stocks locaux, plus proche d'Amazon, avec des prix moins spectaculaires ; et il peut se le permettre parce que Pinduoduo paie. Le spectateur repart avec le mécanisme complet (de minimis, modèle « fully managed », financement par la Chine) et la chronologie juridique exacte, que les vidéos concurrentes de 2024-2025 n'ont pas.
+
+Ton neutre : on décrit le modèle et les décisions publiques, sans dire s'il faut acheter sur Temu ni s'il fallait fermer l'exemption (pas de politique partisane, charte 4.5). Travail forcé, sécurité des produits et données : uniquement attribués à leur source officielle, avec la réponse de Temu quand elle existe.
+
+## Faits retenus
+
+Montants en yuans (RMB) ou en dollars selon la source. « T2 2026 » = avril-juin 2026. Les lignes marquées *calcul* sont nos calculs à partir des chiffres publiés.
+
+| # | Fait | Source |
+|---|---|---|
+| T1 | « Temu was founded in September 2022 in Boston, Massachusetts » ; Océanie en mars 2023, Europe en avril 2023, puis d'autres pays ; fin 2025, présent notamment aux États-Unis, au Japon, en Allemagne, au Royaume-Uni, en France, au Canada et en Italie | PDD 20-F 2025 (1) |
+| T2 | PDD Holdings : siège à Dublin (25 St Stephen's Green), société des îles Caïmans. « Pinduoduo and Temu have the same value propositions and operational model. » « Substantially all of our revenues were derived from third-party merchants in China » (exercice 2025). Pinduoduo figure sur la liste des « notorious markets » de l'USTR depuis 2019 | PDD 20-F 2025 (1) |
+| T3 | Chiffre d'affaires PDD (Md RMB) : 2022 130,6 ; 2023 247,6 (+90 %) ; 2024 393,8 ; 2025 431,8 (+10 %). **Services de transaction** (la ligne qui inclut les frais de place de marché et de traitement des commandes de Temu, selon la presse) : 2022 27,6 ; 2023 94,1 (+241 %) ; 2024 195,9 ; 2025 214,1. *Calcul* : × 7,7 en trois ans | Communiqués FY2023 (2) et FY2025 (3) ; The Conveyor, 1er sept. 2026 (16) |
+| T4 | **Dépenses commerciales et marketing** PDD (Md RMB) : 2022 54,3 ; 2023 82,2 ; 2024 111,3 ; 2025 125,3 (+13 %, « mainly due to increased promotion and advertising spending »). *Calcul* : 125,3 Md RMB ≈ plus de 17 Md $ | (2) ; (3) |
+| T5 | Bénéfice net PDD (Md RMB) : 2022 31,5 ; 2023 60,0 ; 2024 112,4 ; 2025 99,4 (−12 %). Résultat d'exploitation 2025 : 94,6 (−13 %). Trésorerie et placements courts : 422,3 Md RMB fin 2025. Coûts des ventes 2025 +23 % (« fulfilment fees », serveurs, paiement). Jiazhen Zhao : « supply chain investment is where we will place our greatest conviction » | (2) ; (3) |
+| T6 | **T2 2026** (publié le 24 août 2026) : chiffre d'affaires 112,4 Md RMB (16,6 Md $, +8 %) ; services de transaction 54,7 Md (+13 %) ; marketing en ligne 57,6 Md (+3 %) ; dépenses marketing 29,7 Md (4,4 Md $) ; bénéfice net 27,2 Md RMB (**4,0 Md $, −12 %**) ; trésorerie et placements courts 456,4 Md RMB (67,3 Md $). Lei Chen : le commerce mondial et la réglementation créent « significant challenges while also presenting new opportunities ». Taux : 6,7851 RMB pour 1 $ | Communiqué T2 2026 (4) |
+| T7 | Modèle d'origine (« fully managed ») : « sellers leave everything – price-setting, shipping and marketing included – to Temu ». Modèle « semi-managed » introduit début 2024 : les usines envoient leurs produits en gros vers des entrepôts américains | Bloomberg, repris par The Star, 13 févr. 2025 (5) |
+| T8 | WIRED, mai 2023 : Temu perdrait en moyenne **environ 30 $ par commande** aux États-Unis (analyse de WIRED confirmée par un employé) ; un petit colis Guangzhou → États-Unis coûterait environ 14 $ (Haitong International) ; commande moyenne ≈ 25 $ (Zhanglian). Une vendeuse : « We are working for Temu for free » ; un autre, sur les prix : « You don't have a say over it ». Temu n'a pas répondu | WIRED, 26 mai 2023 (6) |
+| T9 | Super Bowl 2024 : Temu achète trois spots pendant le match et deux après ; un spot de 30 s vaut environ 6,5 à 7 M$ ; plus de 15 M$ de coupons et cadeaux. Sensor Tower : 51 M d'utilisateurs mensuels aux États-Unis en janvier 2024 contre 13 M un an plus tôt | CNN, repris par ABC17, 12 févr. 2024 (7) |
+| T10 | De minimis : colis de 800 $ ou moins, entrés sans droits ni taxes. **1,36 milliard de colis de minimis traités par la CBP en 2024 (exercice fiscal), contre 139 M en 2015**, « an almost ten-fold increase ». *Calcul* : ≈ 3,7 M par jour | Règle provisoire de la CBP, Federal Register, 24 juin 2026 (8) |
+| T11 | Commission spéciale de la Chambre sur le PCC (rapport intermédiaire, 22 juin 2023) : Temu et Shein représentent probablement « more than 30 percent » des colis de minimis envoyés chaque jour aux États-Unis ; « Temu conducts no audits » de ses fournisseurs (seulement des conditions générales qui interdisent le travail forcé) ; conclusion de la commission : « an extremely high risk » que la chaîne d'approvisionnement de Temu soit contaminée par le travail forcé. Constats présentés comme préliminaires | Select Committee on the CCP, 22 juin 2023 (9) |
+| T12 | Fin du de minimis pour la Chine et Hong Kong le 2 mai 2025. Colis postaux : droits de 120 % (ou forfait par colis) au départ, ramenés à 54 % le 14 mai 2025 après l'accord de Genève | STR Trade Report, mai 2025 (10) ; RTÉ, 13 mai 2025 (11) |
+| T13 | Temu, mai 2025 : « All sales in the U.S. are now handled by locally based sellers, with orders fulfilled from within the country » ; « Temu's pricing for U.S. consumers remains unchanged ». Les droits de douane sur les produits chinois avaient atteint 145 % | CBS News, 5 mai 2025 (12) |
+| T14 | Avril 2025 : part de Temu dans les impressions Google Shopping aux États-Unis : 20 % le 5 avril, zéro une semaine plus tard (Tinuiti) ; trafic payant −77 % depuis le 11 avril (Similarweb) ; Temu tombe au 69e rang des applis gratuites (Sensor Tower), après des mois dans le top 10 | NBC News, avr. 2025 (13) |
+| T15 | Utilisateurs quotidiens de Temu aux États-Unis : **−48 % en mai 2025 par rapport à mars** (Sensor Tower, via Reuters). Temu dit garder des prix stables et travailler avec des vendeurs locaux | Investing.com / Reuters, 4 juin 2025 (14) |
+| T16 | 29 août 2025 : suspension du de minimis pour **tous les pays** (décret présidentiel). Loi « One Big Beautiful Bill Act » (signée le 4 juil. 2025) : abrogation légale du de minimis au **1er juillet 2027** | KPMG (15) ; Supply Chain Dive, juil. 2025 (17) |
+| T17 | Cour suprême, *Learning Resources, Inc. v. Trump*, 20 févr. 2026 : l'IEEPA ne permet pas d'imposer des droits de douane ; fin des droits IEEPA le 24 févr. 2026. Le même jour, le décret 14388 change la base juridique de la suspension du de minimis, maintenue « without modification » (CBP, 23 févr. 2026) | White & Case, mars 2026 (18) |
+| T18 | 24 juin 2026 : deux règles provisoires de la CBP inscrivent la suspension illimitée du de minimis dans ses règlements (section 321 du Tariff Act) ; envois postaux un mois plus tard. Depuis le début de la suppression, plus de 1 Md$ de droits perçus sur plus de 246 M d'envois (selon la CBP) | Federal Register (8) ; The Conveyor, 25 juin 2026 (19) |
+| T19 | Droits de douane : surtaxe mondiale « section 122 » de 15 % du 24 févr. au 24 juil. 2026 ; depuis le 24 juil. 2026, droit « section 301 » de 12,5 % (10 % pour certains pays) visant les pays sans interdiction effective des importations issues du travail forcé, qui s'ajoute aux droits section 301 de 2018-2019 sur la Chine (7,5 % à 25 %) | TariffLens, 15 juin 2026 (20) ; USTR, 23 juil. 2026 (21) ; Coppersmith, août 2026 (22) |
+| T20 | UE : droit de douane de **3 € sur les colis de faible valeur** (moins de 150 €) à partir du 1er juillet 2026, accord des ministres des Finances du 12 déc. 2025 ; 4,6 milliards de colis de faible valeur en 2024 (deux fois plus qu'en 2023), plus de 90 % venus de Chine | Cyprus Mail / Reuters, 12 déc. 2025 (23) |
+| T21 | 28 mai 2026 : la Commission européenne inflige à Temu **200 M€** d'amende au titre du DSA pour ne pas avoir suffisamment évalué et limité le risque de produits illégaux sur sa plateforme (première évaluation de risques, 2024). Une enquête distincte porte sur la vente effective de produits non conformes. Temu conteste, juge l'amende disproportionnée et dit avoir renforcé ses systèmes | Irish Times, 28 mai 2026 (24) |
+| T22 | 25 juin 2024 : le procureur général de l'Arkansas poursuit Temu (PDD et WhaleCo), accusant l'appli de collecter bien plus de données que nécessaire. Temu : « We categorically deny the allegations and will vigorously defend ourselves » | Talk Business & Politics, 25 juin 2024 (25) |
+| T23 | Ventes locales : juillet 2024, environ 20 % des ventes américaines de Temu expédiées depuis des entrepôts locaux (Marketplace Pulse). Utilisateurs mensuels américains −51 % de mars à juin 2025 (Sensor Tower). Selon l'analyste Ed Sander, les États-Unis pèsent environ 30 % des ventes de Temu et l'Europe environ 40 %. Programme de vendeurs locaux dans 37 marchés (Digital Commerce 360). Après la baisse des droits postaux à 54 %, Temu a repris une partie des envois directs depuis la Chine (PYMNTS) | The Conveyor, 1er sept. 2026 (16) ; Marketplace Pulse (26) |
+| T24 | Lei Chen (PDD) : en Europe, les commandes transfrontalières « will face lower fulfillment efficiency and higher costs » à court terme ; Temu applique le même modèle de vendeurs locaux en Europe | The Conveyor, 1er sept. 2026 (16) |
+| T25 | Amazon Haul : programme d'expédition directe depuis la Chine, articles à moins de 20 $, livrés en deux semaines au plus ; présent aux États-Unis et dans 7 autres pays | Marketplace Pulse (26) |
+| T26 | Section 321 ajoutée au Tariff Act de 1930 par le Customs Administrative Act de **1938** (exemption de minimis d'origine). **En 2016**, la loi TFTEA relève le plafond **de 200 $ à 800 $**. Ces envois n'étaient pas soumis « to the same formal customs entry procedures and data requirements » ; la CBP demandait « minimal data » | Federal Register, 24 juin 2026 (8) |
+| T27 | Avant la fin du de minimis, le commerce en ligne remplissait environ la moitié des capacités de fret aérien Chine → États-Unis (Xeneta) ; volumes aériens e-commerce Chine → États-Unis −33 % en avril (année non précisée, 2025 d'après le contexte) | The Conveyor, 1er sept. 2026 (16) |
+| T28 | Pinduoduo a « commenced its commercial operations in 2015 » ; modèle d'« achat en équipe » : les acheteurs partagent un produit sur les réseaux sociaux et forment des équipes « to enjoy the more attractive prices » ; agriculteurs vendant directement aux consommateurs | PDD 20-F 2025 (1) |
+| T29 | UE : fin complète de l'exemption de 150 € prévue en 2028, cadre provisoire en 2026 | Marketplace Pulse (26) |
+
+## Points de vigilance
+
+- **PDD ne publie pas les comptes de Temu.** Les services de transaction incluent Temu mais aussi Pinduoduo ; on dit « the line that includes Temu », jamais « Temu's revenue ». Les pertes par commande (T8) sont une estimation de WIRED de 2023, attribuée et datée.
+- **Travail forcé (T11)** : constats d'une commission du Congrès, présentés comme préliminaires, attribués mot pour mot. Le droit « section 301 » de juillet 2026 (T19) vise les pays sans interdiction d'importation, pas Temu : ne pas mélanger.
+- **Sécurité des produits (T21)** : l'amende porte sur l'évaluation du risque, pas sur une vente prouvée ; réponse de Temu citée. **Données (T22)** : accusation d'un État, contestée ; on cite la réponse de Temu.
+- **Droits de douane** : les taux ont changé de nombreuses fois (145 %, 54 %, 15 %, 12,5 %…). Le script s'en tient à ce qui est stable : la fin de l'entrée en franchise, maintenue malgré l'arrêt de la Cour suprême.
+- **Conversion** : 125,3 Md RMB à 6,8-7,2 RMB/$ = 17 à 18 Md $ ; on dit « more than seventeen billion dollars ».
+- **Parts de marché par région (T23)** : estimation d'un analyste, attribuée.
+
+## Sources
+
+1. PDD Holdings, Form 20-F 2025 (SEC) : https://www.sec.gov/Archives/edgar/data/0001737806/000110465926050727/pdd-20251231x20f.htm
+2. PDD Holdings, résultats T4 et exercice 2023 (6-K) : https://www.sec.gov/Archives/edgar/data/1737806/000110465924036850/tm249325d1_ex99-1.htm
+3. PDD Holdings, résultats T4 et exercice 2025 (6-K, 25 mars 2026) : https://www.sec.gov/Archives/edgar/data/1737806/000110465926034813/tm269789d1_ex99-1.htm
+4. PDD Holdings, résultats T2 2026 (24 août 2026) : https://www.globenewswire.com/news-release/2026/08/24/3349572/0/en/pdd-holdings-announces-second-quarter-2026-unaudited-financial-results.html
+5. The Star / Bloomberg, « Temu overhauls supply chain due to tariffs », 13 févr. 2025 : https://www.thestar.com.my/business/business-news/2025/02/13/temu-overhauls-supply-chain-due-to-tariffs-risks-price-hikes
+6. WIRED, « Temu Is Losing Millions of Dollars to Send You Cheap Socks », 26 mai 2023 : https://www.wired.com/story/temu-is-losing-millions-of-dollars-to-send-you-cheap-socks/
+7. CNN (ABC17), Temu et le Super Bowl, 12 févr. 2024 : https://abc17news.com/money/cnn-business-consumer/2024/02/12/online-superstore-temu-doubles-down-on-super-bowl-with-tv-ad-and-15-million-in-giveaways/
+8. CBP, règle provisoire, Federal Register, 24 juin 2026 : https://www.federalregister.gov/documents/2026/06/24/2026-12670/indefinite-suspension-of-the-de-minimis-exemption-for-merchandise-arriving-through-all-modes-other
+9. House Select Committee on the CCP, 22 juin 2023 : https://chinaselectcommittee.house.gov/media/press-releases/select-committee-releases-interim-findings-shein-temu-forced-labor
+10. STR, « U.S. lowers tariffs on low-value shipments from China », mai 2025 : https://www.strtrade.com/trade-news-resources/str-trade-report/trade-report/may/u-s-lowers-tariffs-on-low-value-shipments-from-china
+11. RTÉ, 13 mai 2025 : https://www.rte.ie/news/business/2025/0513/1512538-us-to-cut-de-minimis-tariff-on-china-shipments-to-54
+12. CBS News, 5 mai 2025 : https://www.cbsnews.com/news/temu-halts-shipments-to-us-from-china-de-minimis-tariffs/
+13. NBC News, avr. 2025 : https://www.nbcnews.com/news/amp/rcna201616
+14. Investing.com / Reuters, 4 juin 2025 : https://www.investing.com/news/economy-news/retailer-temus-daily-us-users-nearly-halve-following-end-of-de-minimis-loophole-4081081
+15. KPMG, suspension du de minimis au 29 août 2025 : https://kpmg.com/us/en/taxnewsflash/news/2025/08/us-cbp-implements-eo-suspending-duty-free-de-minimis-treatment.html
+16. The Conveyor, « PDD's results show the cost of Temu's local-fulfillment rebuild », 1er sept. 2026 : https://www.theconveyor.co/p/pdd-temu-local-fulfillment-rebuild
+17. Supply Chain Dive, juil. 2025 : https://www.supplychaindive.com/news/de-minimis-ends-trump-big-beautiful-bill/751935/
+18. White & Case, mars 2026 : https://www.whitecase.com/insight-alert/united-states-terminates-ieepa-based-tariffs-following-supreme-court-decision
+19. The Conveyor, 25 juin 2026 : https://www.theconveyor.co/p/cbp-de-minimis-suspension-tariffs
+20. TariffLens, 15 juin 2026 : https://www.tarifflens.ai/blog/section-122-tariff-expiration-july-2026-what-comes-next
+21. USTR, 23 juil. 2026 : https://ustr.gov/about/policy-offices/press-office/press-releases/2026/july/ustr-takes-action-forced-labor-section-301-investigations
+22. Coppersmith, août 2026 : https://www.coppersmith.com/china-section-301-12-5-tariff/
+23. Cyprus Mail / Reuters, 12 déc. 2025 : https://cyprus-mail.com/2025/12/12/eu-to-impose-e3-duty-on-e-commerce-parcels-from-july-2026
+24. The Irish Times, 28 mai 2026 : https://www.irishtimes.com/business/2026/05/28/eu-fines-chinas-temu-200mn-for-failing-to-prevent-sale-of-illegal-goods/
+25. Talk Business & Politics, 25 juin 2024 : https://talkbusiness.net/2024/06/ag-griffin-sues-temu-says-chinese-online-seller-app-malware/
+26. Marketplace Pulse, « The Great Supply Chain Reversal » : https://www.marketplacepulse.com/articles/the-great-supply-chain-reversal
