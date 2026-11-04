@@ -248,10 +248,7 @@
    "color": "teal",
    "kicker": "April to June 2026",
    "number": "+3%",
-   "numberDelay": {
-    "$t": "three percent",
-    "offset": -0.1
-   },
+   "numberDelay": 0.5,
    "label": "US park attendance",
    "source": "Disney Q3 FY2026 results"
   }
@@ -267,10 +264,7 @@
    "color": "gold",
    "kicker": "April to June 2026",
    "number": "+4%",
-   "numberDelay": {
-    "$t": "four percent",
-    "offset": -0.1
-   },
+   "numberDelay": 0.5,
    "label": "spending per guest",
    "source": "Disney Q3 FY2026 results"
   }
