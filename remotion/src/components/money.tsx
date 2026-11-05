@@ -30,8 +30,9 @@ export const Cascade: React.FC<{
   stagger?: number;
   start?: number;
   focus?: 'extra' | 'result' | number; // élément mis en avant (pulsation)
+  bill?: {value?: string; top?: string; bottom?: string}; // textes du billet (défaut : billet de 100 « spent at the checkout »)
   source?: string;
-}> = ({title, total, parts, extra, result, shown = 0, show, delays, stagger, start, focus, source}) => {
+}> = ({title, total, parts, extra, result, shown = 0, show, delays, stagger, start, focus, bill, source}) => {
   const frame = useCurrentFrame();
   const {fps} = useVideoConfig();
   const L = useLayout();
@@ -72,12 +73,12 @@ export const Cascade: React.FC<{
         <div style={{position: 'absolute', inset: P ? 14 : 18, border: '1px solid rgba(240,181,78,0.25)', borderRadius: 4}} />
         {[0, 1].map((side) => (
           <div key={side} style={{position: 'absolute', top: 0, bottom: 0, [side ? 'right' : 'left']: P ? 22 : 34, display: 'flex', alignItems: 'center', fontFamily: FONT.display, fontSize: P ? 84 : 104, lineHeight: 1, backgroundImage: GOLD_TEXT, backgroundSize: '200% 100%', WebkitBackgroundClip: 'text', backgroundClip: 'text', color: 'transparent'}}>
-            100
+            {bill?.value ?? '100'}
           </div>
         ))}
         <div style={{position: 'absolute', left: BW / 2 - BH * 0.36, top: BH * 0.14, width: BH * 0.72, height: BH * 0.72, borderRadius: '50%', border: '2px solid rgba(240,181,78,0.5)', background: 'radial-gradient(circle at 40% 35%, rgba(255,231,176,0.18), rgba(0,0,0,0.25))'}} />
-        <div style={{position: 'absolute', left: 0, right: 0, bottom: P ? 14 : 20, textAlign: 'center', fontFamily: FONT.mono, fontSize: P ? 13 : 17, letterSpacing: P ? 4 : 7, color: 'rgba(255,231,176,0.75)'}}>ONE HUNDRED DOLLARS</div>
-        <div style={{position: 'absolute', left: 0, right: 0, top: P ? 14 : 20, textAlign: 'center', fontFamily: FONT.mono, fontSize: P ? 12 : 15, letterSpacing: P ? 4 : 6, color: 'rgba(255,231,176,0.55)'}}>SPENT AT THE CHECKOUT</div>
+        <div style={{position: 'absolute', left: 0, right: 0, bottom: P ? 14 : 20, textAlign: 'center', fontFamily: FONT.mono, fontSize: P ? 13 : 17, letterSpacing: P ? 4 : 7, color: 'rgba(255,231,176,0.75)'}}>{bill?.bottom ?? 'ONE HUNDRED DOLLARS'}</div>
+        <div style={{position: 'absolute', left: 0, right: 0, top: P ? 14 : 20, textAlign: 'center', fontFamily: FONT.mono, fontSize: P ? 12 : 15, letterSpacing: P ? 4 : 6, color: 'rgba(255,231,176,0.55)'}}>{bill?.top ?? 'SPENT AT THE CHECKOUT'}</div>
         {tint ? <div style={{position: 'absolute', inset: 0, background: tint, opacity: strength, mixBlendMode: 'hard-light'}} /> : null}
       </div>
     </div>

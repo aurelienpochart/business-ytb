@@ -10,6 +10,7 @@ import {Shot} from './components/shorts';
 import {Chrono} from './components/chrono';
 import {Journey} from './components/journey';
 import {Chain, Parcels, Trails} from './components/question';
+import {Gap, Levers, Spread} from './components/teardown';
 import {Segment, VideoProps, Visual} from './types';
 import {C, applyTint} from './theme';
 
@@ -45,6 +46,9 @@ export const BLOCKS: Record<string, React.FC<any>> = {
   trails: Trails, // tableau de la question et de ses fausses pistes (gabarit The Question)
   parcels: Parcels, // un conteneur contre des milliers de petits colis
   chain: Chain, // chaîne de maillons, intermédiaires barrés
+  levers: Levers, // console des leviers sur un coût fixe (gabarit The Teardown)
+  gap: Gap, // revenus contre coût fixe, l'écart qui s'ouvre
+  spread: Spread, // paiement d'avance, charge étalée (amortissement)
 };
 
 export const renderVisual = (v: Visual) => {

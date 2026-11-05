@@ -1,0 +1,165 @@
+[
+ {
+  "at": "p0",
+  "type": "shot",
+  "props": {
+   "photo": "couch",
+   "dim": 0.72,
+   "logo": "logo_netflix",
+   "text": "Where does a Netflix *dollar* go?"
+  }
+ },
+ {
+  "at": "p0",
+  "after": "We took apart",
+  "type": "shot",
+  "props": {
+   "photo": "netflix_hq",
+   "dim": 0.72,
+   "kicker": "July to September 2026",
+   "number": "$12.9B",
+   "color": "teal",
+   "label": "of revenue in three months",
+   "source": "Netflix Q3 2026 shareholder letter"
+  }
+ },
+ {
+  "at": "p1",
+  "type": "shot",
+  "props": {
+   "photo": "film_crew",
+   "dim": 0.74,
+   "kicker": "Out of every $1",
+   "number": "33¢",
+   "numberDelay": {
+    "$t": "thirty-three cents",
+    "offset": -0.1
+   },
+   "color": "brick",
+   "label": "content",
+   "sub": "shows and films, spread over time",
+   "source": "Netflix Q3 2026 shareholder letter; our calculation"
+  }
+ },
+ {
+  "at": "p2",
+  "type": "shot",
+  "props": {
+   "photo": "data_center",
+   "dim": 0.74,
+   "kicker": "Out of every $1",
+   "number": "14¢",
+   "numberDelay": {
+    "$t": "fourteen cents",
+    "offset": -0.1
+   },
+   "color": "teal",
+   "label": "running the service",
+   "sub": "streaming, payment fees, other costs",
+   "source": "Netflix Q3 2026 shareholder letter; our calculation"
+  }
+ },
+ {
+  "at": "p3",
+  "type": "shot",
+  "props": {
+   "photo": "netflix_la",
+   "dim": 0.74,
+   "color": "gold",
+   "header": {
+    "number": "18¢",
+    "label": "everything else",
+    "color": "teal"
+   },
+   "items": [
+    {
+     "icon": "Cpu",
+     "label": "Technology: 8¢",
+     "color": "teal",
+     "delay": {
+      "$t": "eight cents",
+      "offset": -0.1
+     }
+    },
+    {
+     "icon": "Megaphone",
+     "label": "Marketing: 6.5¢",
+     "color": "teal",
+     "delay": {
+      "$t": "six and a half",
+      "offset": -0.1
+     }
+    },
+    {
+     "icon": "Building2",
+     "label": "General costs: 3.6¢",
+     "color": "teal",
+     "delay": {
+      "$t": "three and a half",
+      "offset": -0.1
+     }
+    }
+   ],
+   "source": "Netflix Q3 2026 shareholder letter; our calculation"
+  }
+ },
+ {
+  "at": "p4",
+  "type": "shot",
+  "props": {
+   "photo": "times_square",
+   "dim": 0.74,
+   "kicker": "What's left",
+   "number": "34.6¢",
+   "numberDelay": {
+    "$t": "Thirty-four point six",
+    "offset": -0.1
+   },
+   "color": "gold",
+   "label": "operating profit",
+   "sub": "out of every dollar",
+   "source": "Netflix Q3 2026 shareholder letter; our calculation"
+  }
+ },
+ {
+  "at": "p4",
+  "after": "A third of every",
+  "type": "shot",
+  "props": {
+   "photo": "remote",
+   "dim": 0.72,
+   "icon": "ChartPie",
+   "color": "gold",
+   "text": "A *third* of every dollar"
+  }
+ },
+ {
+  "at": "p5",
+  "type": "shot",
+  "props": {
+   "photo": "soundstage",
+   "dim": 0.72,
+   "icon": "Clapperboard",
+   "color": "gold",
+   "text": "Same cost for *1 viewer*"
+  }
+ },
+ {
+  "at": "p5",
+  "after": "or three hundred million",
+  "type": "shot",
+  "props": {
+   "photo": "stadium_inside",
+   "dim": 0.72,
+   "icon": "Users",
+   "color": "teal",
+   "text": "or *300 million*"
+  }
+ },
+ {
+  "at": "p5",
+  "after": "Full story",
+  "type": "endcard",
+  "props": {}
+ }
+]

@@ -168,6 +168,29 @@ export const TINTS: Record<string, Palette> = {
       heroNumGlow: 'rgba(251,119,1,0.55)',
     },
   },
+  netflix: {
+    // Rouge Netflix (#E50914) pour l'ambiance : nuit d'un noir rouge, plus sombre et plus « salle de cinéma » que
+    // le bordeaux de Costco, halos rouge vif ; l'or reste l'accent principal. Les chiffres « teal » passent à un
+    // bleu glacier (#8FD8FF), lisible sur le fond rouge sombre et distinct de l'or et du rouge brique des baisses.
+    C: {ink: '#060101', navy: '#160304', navyLight: '#260608', mute: '#B29A9B', slate: '#8E7576', teal: '#8FD8FF'},
+    GRAD: {
+      teal: ['#1F6E9E', '#B5E6FF', 'rgba(143,216,255,0.40)'],
+      slate: ['#3A2627', '#A38C8D', 'rgba(163,140,141,0.25)'],
+    },
+    AMB: {
+      inkRgb: '6,1,1',
+      night: '#520A10',
+      nightSoft: '#43080D',
+      orbCool: 'rgba(229,9,20,0.11)',
+      orbTeal: 'rgba(229,9,20,0.06)',
+      particle: '#ffd9db',
+      photoGrade: 'rgba(110,8,16,0.26)',
+      photoFilter: '',
+      regradeFilter: 'saturate(0.55)',
+      heroNum: '#FF2E3A',
+      heroNumGlow: 'rgba(229,9,20,0.6)',
+    },
+  },
 };
 
 const DEFAULT = {C: {...C}, GRAD: {...GRAD}, AMB: {...AMB}};

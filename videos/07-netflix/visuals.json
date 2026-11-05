@@ -1,0 +1,1926 @@
+[
+ {
+  "at": "c0p0",
+  "type": "hero",
+  "props": {
+   "photo": "couch",
+   "logo": "logo_netflix",
+   "logoWidth": 520,
+   "logoHeight": 140,
+   "logoColor": "white",
+   "number": "−200K",
+   "label": "subscribers lost in three months",
+   "kicker": "April 2022",
+   "numberAt": 2.4,
+   "source": "MacRumors (Apr. 19, 2022)"
+  }
+ },
+ {
+  "at": "c0p0",
+  "after": "Streaming, people said",
+  "type": "statement",
+  "bg": "remote",
+  "props": {
+   "kicker": "2022",
+   "text": "Streaming, people said, *had peaked*.",
+   "icon": "TrendingDown"
+  }
+ },
+ {
+  "at": "c0p1",
+  "type": "numbers",
+  "bg": "netflix_la",
+  "props": {
+   "title": "Netflix, July to September 2026",
+   "items": [
+    {
+     "value": 12.9,
+     "prefix": "$",
+     "suffix": "B",
+     "decimals": 1,
+     "label": "revenue in three months",
+     "color": "teal",
+     "icon": "Wallet"
+    }
+   ],
+   "source": "Netflix Q3 2026 shareholder letter (Oct. 20, 2026)"
+  }
+ },
+ {
+  "at": "c0p1",
+  "after": "And out of every dollar",
+  "type": "numbers",
+  "props": {
+   "title": "Out of every dollar of revenue",
+   "items": [
+    {
+     "value": 34.6,
+     "suffix": "¢",
+     "decimals": 1,
+     "label": "operating profit",
+     "color": "amber",
+     "icon": "Coins"
+    }
+   ],
+   "source": "Netflix Q3 2026 shareholder letter (Oct. 20, 2026)"
+  }
+ },
+ {
+  "at": "c0p2",
+  "type": "statement",
+  "bg": "remote2",
+  "props": {
+   "kicker": "Our question",
+   "text": "How does Netflix *actually* make money?",
+   "icon": "CircleQuestionMark"
+  }
+ },
+ {
+  "at": "c0p2",
+  "after": "It still sells",
+  "type": "statement",
+  "bg": "couch",
+  "props": {
+   "kicker": "Same business",
+   "text": "One subscription. *One library.*",
+   "sub": "Squeezed far harder.",
+   "icon": "Clapperboard"
+  }
+ },
+ {
+  "at": "c0p3",
+  "type": "cascade",
+  "props": {
+   "title": "One Netflix dollar",
+   "total": {
+    "label": "of revenue",
+    "display": "$1.00",
+    "value": 100
+   },
+   "parts": [
+    {
+     "label": "where it goes",
+     "value": 65.4,
+     "display": "65¢",
+     "color": "slate"
+    },
+    {
+     "label": "what's left",
+     "value": 34.6,
+     "display": "35¢",
+     "color": "amber"
+    }
+   ],
+   "bill": {
+    "value": "1",
+    "top": "ONE NETFLIX DOLLAR",
+    "bottom": "JULY TO SEPTEMBER 2026"
+   },
+   "delays": [
+    0.4,
+    7.54,
+    9.2
+   ]
+  }
+ },
+ {
+  "at": "c1p0",
+  "type": "photo",
+  "props": {
+   "photo": "netflix_hq",
+   "kicker": "Netflix, Los Gatos",
+   "text": "The latest accounts: *July to September 2026*.",
+   "focus": "50% 55%"
+  }
+ },
+ {
+  "at": "c1p0",
+  "after": "Revenue:",
+  "type": "tiles",
+  "props": {
+   "title": "Netflix, July to September 2026",
+   "items": [
+    {
+     "icon": "TrendingUp",
+     "label": "Revenue",
+     "value": "$12.9B",
+     "sub": "+12% in a year",
+     "color": "teal"
+    },
+    {
+     "icon": "Coins",
+     "label": "Operating profit",
+     "value": "$4.5B",
+     "sub": "+37% in a year",
+     "color": "amber"
+    }
+   ],
+   "delays": [
+    0.65,
+    5.29
+   ],
+   "source": "Netflix Q3 2026 shareholder letter (Oct. 20, 2026)"
+  }
+ },
+ {
+  "at": "c1p1",
+  "type": "bars",
+  "props": {
+   "title": "Revenue by region, July to September 2026",
+   "bars": [
+    {
+     "label": "US & Canada",
+     "value": 5.628,
+     "display": "$5.6B",
+     "color": "amber",
+     "note": "44¢"
+    },
+    {
+     "label": "Europe, Middle East, Africa",
+     "value": 4.107,
+     "display": "$4.1B",
+     "color": "teal",
+     "note": "32¢"
+    },
+    {
+     "label": "Latin America",
+     "value": 1.603,
+     "display": "$1.6B",
+     "color": "slate",
+     "note": "12¢"
+    },
+    {
+     "label": "Asia-Pacific",
+     "value": 1.537,
+     "display": "$1.5B",
+     "color": "slate",
+     "note": "12¢"
+    }
+   ],
+   "max": 6.5,
+   "delays": [
+    0.6,
+    5.94,
+    9.71,
+    11.01
+   ],
+   "source": "Netflix Q3 2026 shareholder letter (Oct. 20, 2026)"
+  }
+ },
+ {
+  "at": "c1p2",
+  "type": "donut",
+  "props": {
+   "title": "Netflix revenue, 2026 forecast",
+   "parts": [
+    {
+     "label": "Subscriptions",
+     "value": 48.4,
+     "display": "≈ 95%",
+     "color": "slate"
+    },
+    {
+     "label": "Advertising",
+     "value": 2.7,
+     "display": "≈ $2.7B, 5%",
+     "color": "amber"
+    }
+   ],
+   "center": "$51.1B",
+   "centerLabel": "2026 forecast",
+   "start": 0.4,
+   "delays": [
+    0.4,
+    4.71
+   ],
+   "focus": 1,
+   "source": "Netflix Q3 2026 shareholder letter; our calculation"
+  }
+ },
+ {
+  "at": "c1p3",
+  "type": "cascade",
+  "props": {
+   "title": "Where one Netflix dollar goes, July to September 2026",
+   "total": {
+    "label": "of revenue",
+    "display": "$1.00",
+    "value": 100
+   },
+   "parts": [
+    {
+     "label": "content",
+     "value": 32.9,
+     "display": "32.9¢",
+     "color": "brick",
+     "sub": "shows and films, spread over time"
+    },
+    {
+     "label": "running the service",
+     "value": 14.3,
+     "display": "14.3¢",
+     "color": "slate",
+     "sub": "streaming, payment fees, other costs"
+    },
+    {
+     "label": "technology, marketing, general",
+     "value": 18.1,
+     "display": "18.1¢",
+     "color": "slate",
+     "sub": "8¢ + 6.5¢ + 3.6¢"
+    },
+    {
+     "label": "operating profit",
+     "value": 34.6,
+     "display": "34.6¢",
+     "color": "amber"
+    }
+   ],
+   "bill": {
+    "value": "1",
+    "top": "ONE NETFLIX DOLLAR",
+    "bottom": "JULY TO SEPTEMBER 2026"
+   },
+   "source": "The Cost Curve calculation from Netflix Q3 2026 shareholder letter (Oct. 20, 2026)",
+   "show": 2,
+   "delays": [
+    0.4,
+    4.06
+   ]
+  }
+ },
+ {
+  "at": "c1p4",
+  "type": "cascade",
+  "props": {
+   "title": "Where one Netflix dollar goes, July to September 2026",
+   "total": {
+    "label": "of revenue",
+    "display": "$1.00",
+    "value": 100
+   },
+   "parts": [
+    {
+     "label": "content",
+     "value": 32.9,
+     "display": "32.9¢",
+     "color": "brick",
+     "sub": "shows and films, spread over time"
+    },
+    {
+     "label": "running the service",
+     "value": 14.3,
+     "display": "14.3¢",
+     "color": "slate",
+     "sub": "streaming, payment fees, other costs"
+    },
+    {
+     "label": "technology, marketing, general",
+     "value": 18.1,
+     "display": "18.1¢",
+     "color": "slate",
+     "sub": "8¢ + 6.5¢ + 3.6¢"
+    },
+    {
+     "label": "operating profit",
+     "value": 34.6,
+     "display": "34.6¢",
+     "color": "amber"
+    }
+   ],
+   "bill": {
+    "value": "1",
+    "top": "ONE NETFLIX DOLLAR",
+    "bottom": "JULY TO SEPTEMBER 2026"
+   },
+   "source": "The Cost Curve calculation from Netflix Q3 2026 shareholder letter (Oct. 20, 2026)",
+   "shown": 2,
+   "show": 4,
+   "delays": [
+    0.5,
+    8.7
+   ]
+  }
+ },
+ {
+  "at": "c1p5",
+  "type": "cascade",
+  "props": {
+   "title": "Where one Netflix dollar goes, July to September 2026",
+   "total": {
+    "label": "of revenue",
+    "display": "$1.00",
+    "value": 100
+   },
+   "parts": [
+    {
+     "label": "content",
+     "value": 32.9,
+     "display": "32.9¢",
+     "color": "brick",
+     "sub": "shows and films, spread over time"
+    },
+    {
+     "label": "running the service",
+     "value": 14.3,
+     "display": "14.3¢",
+     "color": "slate",
+     "sub": "streaming, payment fees, other costs"
+    },
+    {
+     "label": "technology, marketing, general",
+     "value": 18.1,
+     "display": "18.1¢",
+     "color": "slate",
+     "sub": "8¢ + 6.5¢ + 3.6¢"
+    },
+    {
+     "label": "operating profit",
+     "value": 34.6,
+     "display": "34.6¢",
+     "color": "amber"
+    }
+   ],
+   "bill": {
+    "value": "1",
+    "top": "ONE NETFLIX DOLLAR",
+    "bottom": "JULY TO SEPTEMBER 2026"
+   },
+   "source": "The Cost Curve calculation from Netflix Q3 2026 shareholder letter (Oct. 20, 2026)",
+   "shown": 4,
+   "focus": 3,
+   "delays": [
+    0.4
+   ]
+  }
+ },
+ {
+  "at": "c1p5",
+  "after": "After interest",
+  "type": "receipt",
+  "props": {
+   "header": "ONE NETFLIX DOLLAR",
+   "subheader": "July to September 2026",
+   "lines": [
+    {
+     "label": "Operating profit",
+     "value": "34.6¢"
+    },
+    {
+     "label": "Interest, other, taxes",
+     "value": "−6.1¢"
+    },
+    {
+     "rule": true,
+     "label": ""
+    },
+    {
+     "label": "Net profit",
+     "value": "28.5¢",
+     "strong": true,
+     "mark": true
+    }
+   ],
+   "delays": [
+    0.3,
+    1.2,
+    2.0,
+    2.6
+   ],
+   "kicker": "After tax",
+   "text": "About *28 cents* of net profit.",
+   "source": "The Cost Curve calculation from Netflix Q3 2026 shareholder letter (Oct. 20, 2026)"
+  }
+ },
+ {
+  "at": "c1p6",
+  "type": "statement",
+  "bg": "netflix_la",
+  "props": {
+   "kicker": "Before tax",
+   "text": "A third of *every dollar*.",
+   "icon": "ChartPie"
+  }
+ },
+ {
+  "at": "c1p6",
+  "after": "To see where",
+  "type": "statement",
+  "bg": "film_crew",
+  "props": {
+   "kicker": "The key fact",
+   "text": "What does a TV show *really* cost?",
+   "icon": "Clapperboard"
+  }
+ },
+ {
+  "at": "c2p0",
+  "type": "photo",
+  "props": {
+   "photo": "film_crew",
+   "kicker": "One show",
+   "text": "Same cost for *one viewer* or *300 million*.",
+   "focus": "50% 50%"
+  }
+ },
+ {
+  "at": "c2p1",
+  "type": "statement",
+  "bg": "albuquerque",
+  "props": {
+   "kicker": "Economists call it",
+   "text": "*Operating* leverage.",
+   "sub": "Cover the fixed costs, and almost every extra dollar becomes profit.",
+   "icon": "Gauge"
+  }
+ },
+ {
+  "at": "c2p2",
+  "type": "bars",
+  "props": {
+   "title": "Revenue vs. content expense, $ billions",
+   "bars": [
+    {
+     "label": "Revenue 2019",
+     "value": 20.2,
+     "display": "$20.2B",
+     "color": "teal"
+    },
+    {
+     "label": "Content 2019",
+     "value": 9.2,
+     "display": "$9.2B",
+     "color": "brick"
+    },
+    {
+     "label": "Revenue 2025",
+     "value": 45.2,
+     "display": "$45.2B",
+     "color": "teal"
+    },
+    {
+     "label": "Content 2025",
+     "value": 16.4,
+     "display": "$16.4B",
+     "color": "brick"
+    }
+   ],
+   "max": 52,
+   "delays": [
+    4.06,
+    6.96,
+    11.96,
+    14.71
+   ],
+   "source": "Netflix Q4 2020 and Q4 2025 shareholder letters (content amortization)"
+  }
+ },
+ {
+  "at": "c2p3",
+  "type": "gap",
+  "props": {
+   "title": "Revenue vs. content expense, $ billions",
+   "points": [
+    {
+     "year": 2019,
+     "top": 20.2,
+     "bottom": 9.2
+    },
+    {
+     "year": 2020,
+     "top": 25.0,
+     "bottom": 10.8
+    },
+    {
+     "year": 2024,
+     "top": 39.0,
+     "bottom": 15.3
+    },
+    {
+     "year": 2025,
+     "top": 45.2,
+     "bottom": 16.4
+    }
+   ],
+   "topName": "Revenue ×2.2",
+   "bottomName": "Content ×1.8",
+   "max": 52,
+   "draw": [
+    0.4,
+    4.0
+   ],
+   "source": "Netflix Q4 2020, Q4 2024 and Q4 2025 shareholder letters"
+  }
+ },
+ {
+  "at": "c2p3",
+  "after": "Content went from",
+  "type": "numbers",
+  "props": {
+   "title": "Content expense per dollar of revenue",
+   "items": [
+    {
+     "value": 46,
+     "suffix": "¢",
+     "label": "2019",
+     "color": "slate"
+    },
+    {
+     "value": 36,
+     "suffix": "¢",
+     "label": "2025",
+     "color": "teal"
+    },
+    {
+     "value": 33,
+     "suffix": "¢",
+     "label": "July–Sept. 2026",
+     "color": "amber"
+    }
+   ],
+   "source": "The Cost Curve calculation from Netflix shareholder letters"
+  }
+ },
+ {
+  "at": "c2p4",
+  "type": "line",
+  "props": {
+   "title": "Netflix operating margin",
+   "points": [
+    {
+     "x": "2019",
+     "y": 12.9,
+     "label": "13%"
+    },
+    {
+     "x": "2020",
+     "y": 18,
+     "label": "18%"
+    },
+    {
+     "x": "2021",
+     "y": 21,
+     "label": "21%"
+    },
+    {
+     "x": "2022",
+     "y": 18,
+     "label": "18%"
+    },
+    {
+     "x": "2023",
+     "y": 21,
+     "label": "21%"
+    },
+    {
+     "x": "2024",
+     "y": 26.7,
+     "label": "27%"
+    },
+    {
+     "x": "2025",
+     "y": 29.5,
+     "label": "29.5%"
+    },
+    {
+     "x": "2026",
+     "y": 31.5,
+     "label": "31.5% target"
+    }
+   ],
+   "suffix": "%",
+   "max": 38,
+   "color": "amber",
+   "draw": [
+    0.5,
+    10.28
+   ],
+   "source": "Netflix shareholder letters, Q4 2020 to Q3 2026"
+  }
+ },
+ {
+  "at": "c2p5",
+  "type": "receipt",
+  "props": {
+   "header": "AVERAGE MEMBERSHIP, 2025",
+   "subheader": "per month, our estimate",
+   "lines": [
+    {
+     "label": "Revenue",
+     "value": "≈ $12.00"
+    },
+    {
+     "label": "of which content",
+     "value": "≈ $4.40",
+     "mark": true
+    },
+    {
+     "rule": true,
+     "label": ""
+    },
+    {
+     "label": "The goal",
+     "value": "$12 ↑ faster than $4.40",
+     "strong": true
+    }
+   ],
+   "delays": [
+    5.8,
+    8.84,
+    11.52,
+    12.02
+   ],
+   "kicker": "Our estimate",
+   "text": "Grow the *twelve* faster than the *four forty*.",
+   "source": "The Cost Curve calculation from Netflix Q4 2024 and Q4 2025 shareholder letters"
+  }
+ },
+ {
+  "at": "c2p6",
+  "type": "levers",
+  "props": {
+   "kicker": "Four levers",
+   "base": {
+    "label": "Content bill",
+    "sub": "mostly fixed"
+   },
+   "levers": [
+    {
+     "label": "Price",
+     "icon": "Tag",
+     "sub": "charge more"
+    },
+    {
+     "label": "Paid sharing",
+     "icon": "KeyRound",
+     "sub": "more payers"
+    },
+    {
+     "label": "Ads",
+     "icon": "Megaphone",
+     "sub": "a second payer"
+    },
+    {
+     "label": "Live",
+     "icon": "Radio",
+     "sub": "events"
+    }
+   ],
+   "margin": {
+    "from": 13,
+    "to": 31.5,
+    "decimals": 1,
+    "label": "Operating margin"
+   },
+   "start": 2.61,
+   "stagger": 1.1
+  }
+ },
+ {
+  "at": "c3p0",
+  "type": "levers",
+  "props": {
+   "kicker": "Lever one",
+   "base": {
+    "label": "Content bill",
+    "sub": "mostly fixed"
+   },
+   "levers": [
+    {
+     "label": "Price",
+     "icon": "Tag",
+     "sub": "charge more"
+    },
+    {
+     "label": "Paid sharing",
+     "icon": "KeyRound",
+     "sub": "more payers"
+    },
+    {
+     "label": "Ads",
+     "icon": "Megaphone",
+     "sub": "a second payer"
+    },
+    {
+     "label": "Live",
+     "icon": "Radio",
+     "sub": "events"
+    }
+   ],
+   "active": 0,
+   "start": 0.6
+  }
+ },
+ {
+  "at": "c3p0",
+  "after": "The plan with ads",
+  "type": "tiles",
+  "bg": "remote",
+  "props": {
+   "title": "Netflix US prices per month, since March 2026",
+   "items": [
+    {
+     "icon": "Megaphone",
+     "label": "Standard with ads",
+     "value": "$8.99",
+     "sub": "was $7.99",
+     "color": "teal"
+    },
+    {
+     "icon": "Tv",
+     "label": "Standard",
+     "value": "$19.99",
+     "sub": "was $17.99",
+     "color": "amber"
+    },
+    {
+     "icon": "Crown",
+     "label": "Premium",
+     "value": "$26.99",
+     "sub": "was $24.99",
+     "color": "amber"
+    }
+   ],
+   "delays": [
+    0.4,
+    5.51,
+    10.0
+   ],
+   "source": "CBS News (Mar. 27, 2026)"
+  }
+ },
+ {
+  "at": "c3p1",
+  "type": "quote",
+  "props": {
+   "text": "Consistent with prior adjustments and our expectations.",
+   "by": "Netflix, on member response to its 2026 price changes",
+   "source": "Netflix Q3 2026 shareholder letter (Oct. 20, 2026)"
+  }
+ },
+ {
+  "at": "c3p1",
+  "after": "and cancellations",
+  "type": "tiles",
+  "props": {
+   "kicker": "Cancellations",
+   "items": [
+    {
+     "icon": "TrendingDown",
+     "label": "Churn",
+     "value": "lower",
+     "sub": "than a year earlier",
+     "color": "teal"
+    }
+   ],
+   "delays": [
+    0.3
+   ],
+   "source": "Netflix Q3 2026 shareholder letter (Oct. 20, 2026)"
+  }
+ },
+ {
+  "at": "c3p2",
+  "type": "loop",
+  "props": {
+   "nodes": [
+    {
+     "icon": "Tag",
+     "label": "+$2 a month"
+    },
+    {
+     "icon": "Clapperboard",
+     "label": "No extra show",
+     "color": "teal"
+    },
+    {
+     "icon": "Lock",
+     "label": "Content bill unchanged"
+    },
+    {
+     "icon": "Coins",
+     "label": "Almost all profit"
+    }
+   ],
+   "centerImage": "logo_netflix",
+   "centerImageColor": "white",
+   "stagger": 1.4,
+   "start": 0.3
+  }
+ },
+ {
+  "at": "c3p2",
+  "after": "The balancing act",
+  "type": "statement",
+  "bg": "couch",
+  "props": {
+   "kicker": "The balancing act",
+   "text": "Leaving must *feel like a loss*.",
+   "icon": "Scale"
+  }
+ },
+ {
+  "at": "c4p0",
+  "type": "levers",
+  "props": {
+   "kicker": "Lever two",
+   "base": {
+    "label": "Content bill",
+    "sub": "mostly fixed"
+   },
+   "levers": [
+    {
+     "label": "Price",
+     "icon": "Tag",
+     "sub": "charge more"
+    },
+    {
+     "label": "Paid sharing",
+     "icon": "KeyRound",
+     "sub": "more payers"
+    },
+    {
+     "label": "Ads",
+     "icon": "Megaphone",
+     "sub": "a second payer"
+    },
+    {
+     "label": "Live",
+     "icon": "Radio",
+     "sub": "events"
+    }
+   ],
+   "done": 1,
+   "active": 1,
+   "start": 0.6
+  }
+ },
+ {
+  "at": "c4p0",
+  "after": "two hundred and twenty-two",
+  "type": "numbers",
+  "bg": "password",
+  "props": {
+   "title": "Netflix's own estimate, April 2022",
+   "items": [
+    {
+     "value": 222,
+     "suffix": "M",
+     "label": "paying households",
+     "color": "teal",
+     "icon": "House"
+    },
+    {
+     "value": 100,
+     "prefix": "+",
+     "suffix": "M",
+     "label": "households watching free",
+     "color": "brick",
+     "icon": "KeyRound"
+    }
+   ],
+   "source": "MacRumors (Apr. 19, 2022), citing Netflix"
+  }
+ },
+ {
+  "at": "c4p1",
+  "type": "timeline",
+  "props": {
+   "title": "Paid sharing",
+   "events": [
+    {
+     "date": "2023",
+     "text": "One account, *one household*"
+    },
+    {
+     "date": "Outside it",
+     "text": "Open your own account, or be an *extra member*",
+     "color": "teal"
+    },
+    {
+     "date": "US today",
+     "text": "Extra member: *$7.99* with ads, *$9.99* without"
+    }
+   ],
+   "stagger": 4.2,
+   "start": 2.83,
+   "source": "Netflix Q4 2022 shareholder letter; CBS News (Mar. 27, 2026)"
+  }
+ },
+ {
+  "at": "c4p2",
+  "type": "bars",
+  "props": {
+   "title": "Netflix paid memberships, end of year",
+   "bars": [
+    {
+     "label": "2022",
+     "value": 231,
+     "display": "231M",
+     "color": "slate"
+    },
+    {
+     "label": "2023",
+     "value": 260,
+     "display": "260M",
+     "color": "teal",
+     "note": "+29.5M"
+    },
+    {
+     "label": "2024",
+     "value": 302,
+     "display": "302M",
+     "color": "teal",
+     "note": "+41M record"
+    },
+    {
+     "label": "2025",
+     "value": 325,
+     "display": "325M+",
+     "color": "amber"
+    }
+   ],
+   "max": 360,
+   "delays": [
+    0.4,
+    4.57,
+    8.33,
+    13.91
+   ],
+   "source": "Netflix Q4 2022, Q4 2023, Q4 2024 and Q4 2025 shareholder letters"
+  }
+ },
+ {
+  "at": "c4p3",
+  "type": "statement",
+  "bg": "netflix_hq",
+  "props": {
+   "kicker": "Since 2025",
+   "text": "No more *subscriber counts*.",
+   "sub": "Judge us on revenue and profit, says Netflix.",
+   "icon": "EyeOff"
+  }
+ },
+ {
+  "at": "c4p4",
+  "type": "loop",
+  "props": {
+   "nodes": [
+    {
+     "icon": "KeyRound",
+     "label": "Sharers already watching"
+    },
+    {
+     "icon": "CreditCard",
+     "label": "Now paying",
+     "color": "teal"
+    },
+    {
+     "icon": "Clapperboard",
+     "label": "Same shows"
+    },
+    {
+     "icon": "Coins",
+     "label": "Same costs, more revenue"
+    }
+   ],
+   "centerImage": "logo_netflix",
+   "centerImageColor": "white",
+   "stagger": 1.3,
+   "start": 0.4
+  }
+ },
+ {
+  "at": "c5p0",
+  "type": "levers",
+  "props": {
+   "kicker": "Lever three",
+   "base": {
+    "label": "Content bill",
+    "sub": "mostly fixed"
+   },
+   "levers": [
+    {
+     "label": "Price",
+     "icon": "Tag",
+     "sub": "charge more"
+    },
+    {
+     "label": "Paid sharing",
+     "icon": "KeyRound",
+     "sub": "more payers"
+    },
+    {
+     "label": "Ads",
+     "icon": "Megaphone",
+     "sub": "a second payer"
+    },
+    {
+     "label": "Live",
+     "icon": "Radio",
+     "sub": "events"
+    }
+   ],
+   "done": 2,
+   "active": 2,
+   "start": 0.6
+  }
+ },
+ {
+  "at": "c5p0",
+  "after": "launched a cheaper plan",
+  "type": "statement",
+  "bg": "times_square",
+  "props": {
+   "kicker": "November 2022",
+   "text": "A cheaper plan, *with ads*.",
+   "sub": "Launched in 12 countries.",
+   "icon": "Megaphone"
+  }
+ },
+ {
+  "at": "c5p1",
+  "type": "bars",
+  "props": {
+   "title": "Share of sign-ups on the ad plan, where offered",
+   "bars": [
+    {
+     "label": "End of 2023",
+     "value": 40,
+     "display": "40%",
+     "color": "teal"
+    },
+    {
+     "label": "End of 2024",
+     "value": 55,
+     "display": "55%+",
+     "color": "amber"
+    }
+   ],
+   "max": 70,
+   "delays": [
+    4.06,
+    7.54
+   ],
+   "source": "Netflix Q4 2023 and Q4 2024 shareholder letters"
+  }
+ },
+ {
+  "at": "c5p2",
+  "type": "bars",
+  "props": {
+   "title": "Netflix advertising revenue",
+   "bars": [
+    {
+     "label": "2025",
+     "value": 1.5,
+     "display": "$1.5B+",
+     "color": "teal",
+     "note": "×2.5 in a year"
+    },
+    {
+     "label": "2026, January goal",
+     "value": 3.0,
+     "display": "≈ $3B",
+     "color": "slate",
+     "note": "roughly double"
+    },
+    {
+     "label": "2026, October forecast",
+     "value": 2.7,
+     "display": "≈ $2.7B",
+     "color": "brick",
+     "note": "cut"
+    }
+   ],
+   "max": 3.6,
+   "delays": [
+    0.5,
+    7.32,
+    11.23
+   ],
+   "source": "Netflix Q4 2025 and Q3 2026 shareholder letters"
+  }
+ },
+ {
+  "at": "c5p2",
+  "after": "blaming",
+  "type": "quote",
+  "props": {
+   "text": "Slightly slower than expected rollout of some ad product capabilities.",
+   "by": "Netflix, on its lower 2026 ad forecast",
+   "source": "Netflix Q3 2026 shareholder letter (Oct. 20, 2026)"
+  }
+ },
+ {
+  "at": "c5p3",
+  "type": "numbers",
+  "bg": "times_square",
+  "props": {
+   "title": "Ad plan reach claimed by Netflix, May 2026",
+   "items": [
+    {
+     "value": 250,
+     "suffix": "M+",
+     "label": "“monthly active viewers”",
+     "color": "amber",
+     "icon": "Eye"
+    }
+   ],
+   "source": "Variety (May 14, 2026); Netflix's own method, changed in 2026"
+  }
+ },
+ {
+  "at": "c5p3",
+  "after": "a figure based",
+  "type": "statement",
+  "props": {
+   "kicker": "How it's counted",
+   "text": "Households × Netflix's *own estimate* of people per home.",
+   "icon": "Calculator"
+  }
+ },
+ {
+  "at": "c5p4",
+  "after": "Because they solve",
+  "type": "receipt",
+  "props": {
+   "header": "THE AD PLAN, US",
+   "subheader": "per member, per month",
+   "lines": [
+    {
+     "label": "Subscriber pays",
+     "value": "$8.99"
+    },
+    {
+     "label": "Advertisers pay",
+     "value": "the rest"
+    },
+    {
+     "rule": true,
+     "label": ""
+    },
+    {
+     "label": "Standard, no ads",
+     "value": "$19.99",
+     "strong": true
+    }
+   ],
+   "delays": [
+    4.2,
+    12.1,
+    12.9,
+    14.28
+   ],
+   "kicker": "Two payers",
+   "text": "A cheap ticket, *without* a cheap viewer.",
+   "source": "CBS News (Mar. 27, 2026)"
+  }
+ },
+ {
+  "at": "c5p4",
+  "after": "Next year",
+  "type": "tiles",
+  "props": {
+   "kicker": "From March 2027",
+   "items": [
+    {
+     "icon": "Globe",
+     "label": "Ad plan",
+     "value": "+15",
+     "sub": "new countries",
+     "color": "amber"
+    }
+   ],
+   "delays": [
+    0.3
+   ],
+   "source": "Netflix Q3 2026 shareholder letter (Oct. 20, 2026)"
+  }
+ },
+ {
+  "at": "c6p0",
+  "type": "photo",
+  "props": {
+   "photo": "soundstage",
+   "kicker": "Back to the content bill",
+   "text": "Paid once. *Expensed over time.*",
+   "focus": "50% 50%"
+  }
+ },
+ {
+  "at": "c6p0",
+  "after": "It records the show",
+  "type": "spread",
+  "props": {
+   "title": "How a show's cost reaches the accounts (illustrative)",
+   "cash": {
+    "label": "paid for the show",
+    "display": "$100"
+   },
+   "bars": [
+    {
+     "label": "Year 1",
+     "value": 45,
+     "display": "≈ 45"
+    },
+    {
+     "label": "Year 2",
+     "value": 25,
+     "display": "≈ 25"
+    },
+    {
+     "label": "Year 3",
+     "value": 15,
+     "display": "≈ 15"
+    },
+    {
+     "label": "Year 4",
+     "value": 8,
+     "display": "≈ 8"
+    },
+    {
+     "label": "Later",
+     "value": 7,
+     "display": "…"
+    }
+   ],
+   "note": "“Over 90%” expensed within four years",
+   "splitAt": 1.6,
+   "stagger": 0.7,
+   "source": "Netflix, Overview of Content Accounting (May 2026); yearly split illustrative"
+  }
+ },
+ {
+  "at": "c6p1",
+  "type": "bars",
+  "props": {
+   "title": "2019: cash vs. expense on content, $ billions",
+   "bars": [
+    {
+     "label": "Cash paid",
+     "value": 13.9,
+     "display": "$13.9B",
+     "color": "brick"
+    },
+    {
+     "label": "Expense in the accounts",
+     "value": 9.2,
+     "display": "$9.2B",
+     "color": "slate"
+    }
+   ],
+   "max": 20,
+   "delays": [
+    4.78,
+    10.65
+   ],
+   "source": "Netflix Q4 2020 shareholder letter (2019 figures)"
+  }
+ },
+ {
+  "at": "c6p1",
+  "after": "In reality",
+  "type": "numbers",
+  "bg": "data_center",
+  "props": {
+   "title": "Netflix free cash flow, 2019",
+   "items": [
+    {
+     "value": -3.3,
+     "prefix": "$",
+     "suffix": "B",
+     "decimals": 1,
+     "label": "the worst year in its history",
+     "color": "brick",
+     "icon": "Flame"
+    }
+   ],
+   "source": "The Motley Fool (Jan. 25, 2020), citing Netflix"
+  }
+ },
+ {
+  "at": "c6p2",
+  "after": "By 2025",
+  "type": "bars",
+  "props": {
+   "title": "2025: cash vs. expense on content, $ billions",
+   "bars": [
+    {
+     "label": "Cash paid",
+     "value": 17.7,
+     "display": "≈ $17.7B",
+     "color": "teal"
+    },
+    {
+     "label": "Expense in the accounts",
+     "value": 16.4,
+     "display": "$16.4B",
+     "color": "slate",
+     "note": "ratio ≈ 1.1×"
+    }
+   ],
+   "max": 20,
+   "delays": [
+    1.3,
+    5.58
+   ],
+   "source": "Netflix, Overview of Content Accounting (May 2026)"
+  }
+ },
+ {
+  "at": "c6p2",
+  "after": "Free cash flow",
+  "type": "line",
+  "props": {
+   "title": "Netflix free cash flow, $ billions",
+   "points": [
+    {
+     "x": "2019",
+     "y": -3.3,
+     "label": "−$3.3B"
+    },
+    {
+     "x": "2020",
+     "y": 1.9,
+     "label": "$1.9B"
+    },
+    {
+     "x": "2023",
+     "y": 6.9,
+     "label": "$6.9B"
+    },
+    {
+     "x": "2024",
+     "y": 6.9,
+     "label": "$6.9B"
+    },
+    {
+     "x": "2025",
+     "y": 9.5,
+     "label": "$9.5B"
+    },
+    {
+     "x": "2026",
+     "y": 12,
+     "label": "≈ $12B forecast"
+    }
+   ],
+   "prefix": "$",
+   "min": -5,
+   "max": 15,
+   "color": "teal",
+   "draw": [
+    0.4,
+    3.4
+   ],
+   "source": "Netflix shareholder letters, Q4 2020 to Q3 2026; Motley Fool (2019)"
+  }
+ },
+ {
+  "at": "c6p3",
+  "type": "numbers",
+  "bg": "times_square",
+  "props": {
+   "title": "Share buybacks, July to September 2026",
+   "items": [
+    {
+     "value": 4.8,
+     "prefix": "$",
+     "suffix": "B",
+     "decimals": 1,
+     "label": "its biggest quarter ever",
+     "color": "amber",
+     "icon": "RefreshCcw"
+    }
+   ],
+   "source": "Netflix Q3 2026 shareholder letter (Oct. 20, 2026)"
+  }
+ },
+ {
+  "at": "c6p4",
+  "type": "tiles",
+  "props": {
+   "title": "That 34.6% margin, in context",
+   "items": [
+    {
+     "icon": "Clock",
+     "label": "Timing of expenses",
+     "sub": "helped the quarter",
+     "color": "slate"
+    },
+    {
+     "icon": "Landmark",
+     "label": "A year earlier",
+     "value": "−$619M",
+     "sub": "Brazil tax charge",
+     "color": "brick"
+    },
+    {
+     "icon": "Target",
+     "label": "Full-year 2026",
+     "value": "31.5%",
+     "sub": "target",
+     "color": "teal"
+    },
+    {
+     "icon": "CalendarDays",
+     "label": "Oct.–Dec. 2026",
+     "value": "26%",
+     "sub": "forecast",
+     "color": "amber"
+    }
+   ],
+   "delays": [
+    8.33,
+    11.23,
+    19.28,
+    24.2
+   ],
+   "source": "Netflix Q3 2025 and Q3 2026 shareholder letters"
+  }
+ },
+ {
+  "at": "c7p0",
+  "type": "levers",
+  "props": {
+   "kicker": "Lever four",
+   "base": {
+    "label": "Content bill",
+    "sub": "mostly fixed"
+   },
+   "levers": [
+    {
+     "label": "Price",
+     "icon": "Tag",
+     "sub": "charge more"
+    },
+    {
+     "label": "Paid sharing",
+     "icon": "KeyRound",
+     "sub": "more payers"
+    },
+    {
+     "label": "Ads",
+     "icon": "Megaphone",
+     "sub": "a second payer"
+    },
+    {
+     "label": "Live",
+     "icon": "Radio",
+     "sub": "events"
+    }
+   ],
+   "done": 3,
+   "active": 3,
+   "start": 0.6
+  }
+ },
+ {
+  "at": "c7p0",
+  "after": "The opposite of",
+  "type": "photo",
+  "props": {
+   "photo": "football_night",
+   "kicker": "Live sports",
+   "text": "Expensive, and worth *almost nothing* the next day.",
+   "focus": "50% 50%"
+  }
+ },
+ {
+  "at": "c7p1",
+  "after": "In November 2024",
+  "type": "hero",
+  "props": {
+   "photo": "stadium",
+   "logo": "logo_netflix",
+   "logoWidth": 420,
+   "logoHeight": 113,
+   "logoColor": "white",
+   "number": "65M",
+   "label": "concurrent streams, by Netflix's count",
+   "kicker": "Paul vs. Tyson, November 2024",
+   "numberAt": 1.6,
+   "source": "Netflix, via Straight Arrow News (Jan. 2025)"
+  }
+ },
+ {
+  "at": "c7p1",
+  "after": "A month later",
+  "type": "photo",
+  "props": {
+   "photo": "stadium_inside",
+   "kicker": "December 25, 2024",
+   "text": "Its first *NFL* games, on Christmas Day.",
+   "logo": "logo_nfl",
+   "focus": "50% 50%"
+  }
+ },
+ {
+  "at": "c7p2",
+  "type": "tiles",
+  "bg": "wwe",
+  "props": {
+   "kicker": "Netflix goes live",
+   "items": [
+    {
+     "icon": "Tv",
+     "label": "WWE Raw",
+     "value": "$5B+",
+     "sub": "10 years, since Jan. 2025",
+     "color": "amber"
+    },
+    {
+     "image": "logo_nfl",
+     "label": "NFL",
+     "sub": "Thanksgiving Eve + Christmas doubleheader",
+     "color": "teal"
+    },
+    {
+     "icon": "Swords",
+     "label": "Boxing",
+     "sub": "Fury vs. Joshua",
+     "color": "teal"
+    }
+   ],
+   "delays": [
+    0.4,
+    11.23,
+    16.52
+   ],
+   "source": "Straight Arrow News (Jan. 2025); Netflix Q3 2026 shareholder letter"
+  }
+ },
+ {
+  "at": "c7p3",
+  "type": "loop",
+  "props": {
+   "nodes": [
+    {
+     "icon": "CalendarClock",
+     "label": "A date: tonight"
+    },
+    {
+     "icon": "UserPlus",
+     "label": "Sign-ups and comebacks",
+     "color": "teal"
+    },
+    {
+     "icon": "Megaphone",
+     "label": "Huge live audiences for advertisers"
+    },
+    {
+     "icon": "Repeat",
+     "label": "A reason not to cancel"
+    }
+   ],
+   "centerImage": "logo_netflix",
+   "centerImageColor": "white",
+   "stagger": 3.2,
+   "start": 4.28
+  }
+ },
+ {
+  "at": "c7p3",
+  "after": "It's the one lever",
+  "type": "statement",
+  "bg": "football_night",
+  "props": {
+   "kicker": "The catch",
+   "text": "The one lever that *adds real cost*.",
+   "icon": "Receipt"
+  }
+ },
+ {
+  "at": "c8p0",
+  "type": "numbers",
+  "bg": "couch",
+  "props": {
+   "title": "Hours watched on Netflix, second half of 2025",
+   "items": [
+    {
+     "value": 96,
+     "suffix": "B",
+     "label": "hours",
+     "color": "teal",
+     "icon": "Clock"
+    },
+    {
+     "value": 2,
+     "prefix": "+",
+     "suffix": "%",
+     "label": "vs. a year earlier",
+     "color": "brick",
+     "icon": "TrendingUp"
+    }
+   ],
+   "source": "Netflix Q4 2025 shareholder letter"
+  }
+ },
+ {
+  "at": "c8p0",
+  "after": "In October",
+  "type": "quote",
+  "props": {
+   "text": "We know there's some investor concern about our view hours growth.",
+   "by": "Netflix, shareholder letter, October 2026",
+   "source": "Netflix Q3 2026 shareholder letter (Oct. 20, 2026)"
+  }
+ },
+ {
+  "at": "c8p1",
+  "type": "statement",
+  "bg": "remote2",
+  "props": {
+   "kicker": "The assumption",
+   "text": "People must find enough value to *keep paying more*.",
+   "icon": "Scale"
+  }
+ },
+ {
+  "at": "c8p2",
+  "type": "tiles",
+  "props": {
+   "title": "Crack two",
+   "items": [
+    {
+     "icon": "Megaphone",
+     "label": "Ads",
+     "value": "$2.7B",
+     "sub": "vs. ≈ $3B planned",
+     "color": "brick"
+    },
+    {
+     "icon": "UserMinus",
+     "label": "Job cuts",
+     "value": "−1.2 pts",
+     "sub": "Oct.–Dec. margin",
+     "color": "brick"
+    }
+   ],
+   "delays": [
+    0.4,
+    6.38
+   ],
+   "source": "Netflix Q3 2026 shareholder letter (Oct. 20, 2026)"
+  }
+ },
+ {
+  "at": "c8p3",
+  "type": "photo",
+  "props": {
+   "photo": "warner_tower",
+   "kicker": "December 2025",
+   "text": "Netflix agrees to buy *Warner Bros.*",
+   "logo": "logo_warner",
+   "focus": "50% 40%"
+  }
+ },
+ {
+  "at": "c8p3",
+  "after": "Paramount Skydance",
+  "type": "timeline",
+  "bg": "paramount_gate",
+  "props": {
+   "title": "The Warner Bros. deal",
+   "events": [
+    {
+     "date": "Dec. 4, 2025",
+     "text": "Netflix signs: *$27.75* per Warner share, in cash"
+    },
+    {
+     "date": "Then",
+     "text": "Paramount Skydance *outbids* Netflix",
+     "color": "brick"
+    },
+    {
+     "date": "Feb. 27, 2026",
+     "text": "Warner ends the deal; Paramount pays a *$2.8B* break-up fee"
+    }
+   ],
+   "stagger": 3.0,
+   "start": 0.4,
+   "source": "Netflix Q4 2025 shareholder letter; Netflix 10-Q, Q1 2026"
+  }
+ },
+ {
+  "at": "c8p4",
+  "type": "numbers",
+  "bg": "hollywood",
+  "props": {
+   "title": "Break-up fee received, January to March 2026",
+   "items": [
+    {
+     "value": 2.8,
+     "prefix": "$",
+     "suffix": "B",
+     "decimals": 1,
+     "label": "booked as other income",
+     "color": "amber",
+     "icon": "HandCoins"
+    }
+   ],
+   "source": "Netflix 10-Q, Q1 2026"
+  }
+ },
+ {
+  "at": "c8p4",
+  "after": "But it also",
+  "type": "statement",
+  "props": {
+   "kicker": "What it tells us",
+   "text": "Even at 325 million members, Netflix wanted *more content*.",
+   "icon": "Library"
+  }
+ },
+ {
+  "at": "c9p0",
+  "type": "levers",
+  "props": {
+   "kicker": "How Netflix makes money",
+   "base": {
+    "label": "Content bill",
+    "sub": "mostly fixed"
+   },
+   "levers": [
+    {
+     "label": "Price",
+     "icon": "Tag",
+     "sub": "charge more"
+    },
+    {
+     "label": "Paid sharing",
+     "icon": "KeyRound",
+     "sub": "more payers"
+    },
+    {
+     "label": "Ads",
+     "icon": "Megaphone",
+     "sub": "a second payer"
+    },
+    {
+     "label": "Live",
+     "icon": "Radio",
+     "sub": "events"
+    }
+   ],
+   "lift": 4,
+   "margin": {
+    "from": 13,
+    "to": 34.6,
+    "decimals": 1,
+    "label": "Operating margin"
+   },
+   "start": 11.38,
+   "stagger": 1.5
+  }
+ },
+ {
+  "at": "c9p1",
+  "type": "gap",
+  "props": {
+   "title": "Revenue vs. content expense, $ billions",
+   "points": [
+    {
+     "year": 2019,
+     "top": 20.2,
+     "bottom": 9.2
+    },
+    {
+     "year": 2020,
+     "top": 25.0,
+     "bottom": 10.8
+    },
+    {
+     "year": 2024,
+     "top": 39.0,
+     "bottom": 15.3
+    },
+    {
+     "year": 2025,
+     "top": 45.2,
+     "bottom": 16.4
+    }
+   ],
+   "topName": "Revenue",
+   "bottomName": "Content",
+   "gapName": "the gap",
+   "max": 52,
+   "draw": [
+    0.4,
+    4.5
+   ],
+   "source": "Netflix Q4 2020, Q4 2024 and Q4 2025 shareholder letters"
+  }
+ },
+ {
+  "at": "c9p1",
+  "after": "Thirteen cents",
+  "type": "cascade",
+  "props": {
+   "title": "One Netflix dollar today",
+   "total": {
+    "label": "of revenue",
+    "display": "$1.00",
+    "value": 100
+   },
+   "parts": [
+    {
+     "label": "content",
+     "value": 32.9,
+     "display": "32.9¢",
+     "color": "brick",
+     "sub": "shows and films, spread over time"
+    },
+    {
+     "label": "running the service",
+     "value": 14.3,
+     "display": "14.3¢",
+     "color": "slate",
+     "sub": "streaming, payment fees, other costs"
+    },
+    {
+     "label": "technology, marketing, general",
+     "value": 18.1,
+     "display": "18.1¢",
+     "color": "slate",
+     "sub": "8¢ + 6.5¢ + 3.6¢"
+    },
+    {
+     "label": "operating profit",
+     "value": 34.6,
+     "display": "34.6¢",
+     "color": "amber"
+    }
+   ],
+   "bill": {
+    "value": "1",
+    "top": "ONE NETFLIX DOLLAR",
+    "bottom": "JULY TO SEPTEMBER 2026"
+   },
+   "source": "The Cost Curve calculation from Netflix Q3 2026 shareholder letter (Oct. 20, 2026)",
+   "shown": 5,
+   "focus": 3
+  }
+ },
+ {
+  "at": "c9p2",
+  "type": "statement",
+  "bg": "couch",
+  "props": {
+   "kicker": "The real product",
+   "text": "Not a show. The feeling *you'd miss it*.",
+   "icon": "Heart"
+  }
+ },
+ {
+  "at": "c9p2",
+  "after": "That's what Netflix",
+  "type": "statement",
+  "props": {
+   "kicker": "The Cost Curve",
+   "text": "The library is fixed. *The price isn't.*",
+   "icon": "Tag"
+  }
+ }
+]
