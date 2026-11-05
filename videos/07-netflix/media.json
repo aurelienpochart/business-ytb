@@ -1,90 +1,200 @@
 [
  {
   "id": "logo_netflix",
-  "title": "File:Netflix 2015 logo.svg"
+  "title": "File:Netflix 2015 logo.svg",
+  "file": "media/logo_netflix.svg",
+  "license": "Public domain",
+  "artist": "TM/®Netflix Inc.",
+  "restrictions": "trademarked",
+  "page": "https://commons.wikimedia.org/wiki/File:Netflix_2015_logo.svg"
  },
  {
   "id": "logo_nfl",
-  "title": "File:NFL wordmark logo 2008.svg"
+  "title": "File:NFL wordmark logo 2008.svg",
+  "file": "media/logo_nfl.svg",
+  "license": "Public domain",
+  "artist": "National Football League",
+  "restrictions": "trademarked",
+  "page": "https://commons.wikimedia.org/wiki/File:NFL_wordmark_logo_2008.svg"
  },
  {
   "id": "logo_wwe",
-  "title": "File:WWE official logo.svg"
+  "title": "File:WWE official logo.svg",
+  "file": "media/logo_wwe.svg",
+  "license": "Public domain",
+  "artist": "WWE/John Lefteratos",
+  "restrictions": "trademarked",
+  "page": "https://commons.wikimedia.org/wiki/File:WWE_official_logo.svg"
  },
  {
   "id": "logo_warner",
-  "title": "File:Warner Bros. Discovery.svg"
+  "title": "File:Warner Bros. Discovery.svg",
+  "file": "media/logo_warner.svg",
+  "license": "Public domain",
+  "artist": "Warner Bros. Entertainment (Warner Bros. Discovery)",
+  "restrictions": "trademarked",
+  "page": "https://commons.wikimedia.org/wiki/File:Warner_Bros._Discovery.svg"
  },
  {
   "id": "netflix_hq",
-  "title": "File:Netflix headquarters.jpg"
+  "title": "File:Netflix headquarters.jpg",
+  "file": "media/netflix_hq.jpg",
+  "license": "CC BY-SA 3.0",
+  "artist": "Coolcaesar at English Wikipedia",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Netflix_headquarters.jpg"
  },
  {
   "id": "netflix_la",
-  "title": "File:Netflix Los Angeles office.jpg"
+  "title": "File:Netflix Los Angeles office.jpg",
+  "file": "media/netflix_la.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "Kstanhope of Netflix",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Netflix_Los_Angeles_office.jpg"
  },
  {
   "id": "remote",
-  "title": "File:Netflix button remote (40062279010).jpg"
+  "title": "File:Netflix button remote (40062279010).jpg",
+  "file": "media/remote.jpg",
+  "license": "CC BY 2.0",
+  "artist": "Flickr Stock Catalog",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Netflix_button_remote_(40062279010).jpg"
  },
  {
   "id": "remote2",
-  "title": "File:Philips remote control with a Netflix button, Finsterwolde (2019) 04.jpg"
+  "title": "File:Philips remote control with a Netflix button, Finsterwolde (2019) 04.jpg",
+  "file": "media/remote2.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "Donald Trung Quoc Don (Chữ Hán: 徵國單) - Wikimedia Commons - © CC BY-SA 4.0 International.(Want to use this image?)Original publication 📤: --Donald Trung 『徵國單』 (No Fake News 💬) (WikiProject Numismatics ",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Philips_remote_control_with_a_Netflix_button,_Finsterwolde_(2019)_04.jpg"
  },
  {
   "id": "couch",
-  "title": "File:Woman sitting on a couch watching television while covered with a blanket.jpg"
+  "title": "File:Woman sitting on a couch watching television while covered with a blanket.jpg",
+  "file": "media/couch.jpg",
+  "license": "CC BY 2.0",
+  "artist": "Shixart1985",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Woman_sitting_on_a_couch_watching_television_while_covered_with_a_blanket.jpg"
  },
  {
   "id": "film_crew",
-  "title": "File:Michael Bay at filming of Transformers at Edwards AFB 2006-09-08 1.jpg"
+  "title": "File:Michael Bay at filming of Transformers at Edwards AFB 2006-09-08 1.jpg",
+  "file": "media/film_crew.jpg",
+  "license": "Public domain",
+  "artist": "Capt. Corinna Jones, USAF",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Michael_Bay_at_filming_of_Transformers_at_Edwards_AFB_2006-09-08_1.jpg"
  },
  {
   "id": "albuquerque",
-  "title": "File:Albuquerque Studios.jpg"
+  "title": "File:Albuquerque Studios.jpg",
+  "file": "media/albuquerque.jpg",
+  "license": "Public domain",
+  "artist": "AllenS",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Albuquerque_Studios.jpg"
  },
  {
   "id": "soundstage",
-  "title": "File:Filming of Transformers at Edwards AFB 2007-02-28 1.jpg"
+  "title": "File:Filming of Transformers at Edwards AFB 2007-02-28 1.jpg",
+  "file": "media/soundstage.jpg",
+  "license": "Public domain",
+  "artist": "1st Lt. Brad Kimberly, USAF",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Filming_of_Transformers_at_Edwards_AFB_2007-02-28_1.jpg"
  },
  {
   "id": "data_center",
-  "title": "File:Rear of rack at NERSC data center - closeup.jpg"
+  "title": "File:Rear of rack at NERSC data center - closeup.jpg",
+  "file": "media/data_center.jpg",
+  "license": "CC0",
+  "artist": "Derrick Coetzee from Berkeley, CA, USA",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Rear_of_rack_at_NERSC_data_center_-_closeup.jpg"
  },
  {
   "id": "password",
-  "title": "File:Mediawiki 1.25 sign in form.png"
+  "title": "File:Mediawiki 1.25 sign in form.png",
+  "file": "media/password.png",
+  "license": "Public domain",
+  "artist": "The Mediawiki developers",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Mediawiki_1.25_sign_in_form.png"
  },
  {
   "id": "times_square",
-  "title": "File:View North on 7th Avenue in Times Square, 2025.jpg"
+  "title": "File:View North on 7th Avenue in Times Square, 2025.jpg",
+  "file": "media/times_square.jpg",
+  "license": "CC0",
+  "artist": "Julian Lupyan",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:View_North_on_7th_Avenue_in_Times_Square,_2025.jpg"
  },
  {
   "id": "football_night",
-  "title": "File:Johns Hopkins Takes Down Army In Physical Season Finale (8711299520).jpg"
+  "title": "File:Johns Hopkins Takes Down Army In Physical Season Finale (8711299520).jpg",
+  "file": "media/football_night.jpg",
+  "license": "Public domain",
+  "artist": "U.S. Army Photo by Tommy Gilligan/USMA PAO",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Johns_Hopkins_Takes_Down_Army_In_Physical_Season_Finale_(8711299520).jpg"
  },
  {
   "id": "stadium",
-  "title": "File:Cowboys Stadium, a domed stadium with a retractable roof in Arlington, Texas LCCN2013650777.tif"
+  "title": "File:Cowboys Stadium, a domed stadium with a retractable roof in Arlington, Texas LCCN2013650777.tif",
+  "file": "media/stadium.jpg",
+  "license": "Public domain",
+  "artist": "Carol M. Highsmith",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Cowboys_Stadium,_a_domed_stadium_with_a_retractable_roof_in_Arlington,_Texas_LCCN2013650777.tif"
  },
  {
   "id": "stadium_inside",
-  "title": "File:All Star 2010.jpg"
+  "title": "File:All Star 2010.jpg",
+  "file": "media/stadium_inside.jpg",
+  "license": "CC BY-SA 2.0",
+  "artist": "Rondo Estrello",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:All_Star_2010.jpg"
  },
  {
   "id": "wwe",
-  "title": "File:Jeff-Hardy-&-Triple-H on Stage,-RLA-Melb-10.11.2007.jpg"
+  "title": "File:Jeff-Hardy-&-Triple-H on Stage,-RLA-Melb-10.11.2007.jpg",
+  "file": "media/wwe.jpg",
+  "license": "CC BY-SA 3.0",
+  "artist": "Jjron",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Jeff-Hardy-%26-Triple-H_on_Stage,-RLA-Melb-10.11.2007.jpg"
  },
  {
   "id": "warner_tower",
-  "title": "File:Warner Bros. Studios Water Tower 2020.jpg"
+  "title": "File:Warner Bros. Studios Water Tower 2020.jpg",
+  "file": "media/warner_tower.jpg",
+  "license": "CC BY 2.0",
+  "artist": "Chris Yarzab",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Warner_Bros._Studios_Water_Tower_2020.jpg"
  },
  {
   "id": "paramount_gate",
-  "title": "File:Paramount Pictures Melrose Gate.jpg"
+  "title": "File:Paramount Pictures Melrose Gate.jpg",
+  "file": "media/paramount_gate.jpg",
+  "license": "CC BY 2.0",
+  "artist": "Chris Brown (zoonabar)",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Paramount_Pictures_Melrose_Gate.jpg"
  },
  {
   "id": "hollywood",
-  "title": "File:Hollywood sign 053004.jpg"
+  "title": "File:Hollywood sign 053004.jpg",
+  "file": "media/hollywood.jpg",
+  "license": "Public domain",
+  "artist": "Jon Sullivan",
+  "restrictions": "trademarked",
+  "page": "https://commons.wikimedia.org/wiki/File:Hollywood_sign_053004.jpg"
  }
 ]
