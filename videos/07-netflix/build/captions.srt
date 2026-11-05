@@ -1,0 +1,835 @@
+1
+00:00:00,300 --> 00:00:01,124
+April 2022.
+
+2
+00:00:01,124 --> 00:00:05,472
+For the first time in ten years, Netflix lost subscribers.
+
+3
+00:00:05,472 --> 00:00:08,919
+Two hundred thousand of them, in three months,
+
+4
+00:00:08,919 --> 00:00:12,517
+and it warned that two million more could leave.
+
+5
+00:00:12,517 --> 00:00:15,140
+Streaming, people said, had peaked.
+
+6
+00:00:15,590 --> 00:00:17,964
+Fast forward to the summer of 2026.
+
+7
+00:00:17,964 --> 00:00:22,576
+In three months, Netflix brought in almost thirteen billion dollars.
+
+8
+00:00:22,576 --> 00:00:28,070
+And out of every dollar, it kept thirty-four point six cents as operating profit.
+
+9
+00:00:28,520 --> 00:00:30,442
+So what happened in between?
+
+10
+00:00:30,442 --> 00:00:32,845
+Netflix didn't find a new business.
+
+11
+00:00:32,845 --> 00:00:37,651
+It still sells a monthly subscription to a library of shows and films.
+
+12
+00:00:37,651 --> 00:00:43,280
+But it found a handful of ways to squeeze far more money out of that same library.
+
+13
+00:00:43,730 --> 00:00:49,203
+In this video, we take Netflix's latest accounts apart, dollar by dollar:
+
+14
+00:00:49,203 --> 00:00:52,501
+where each dollar comes from, where it goes,
+
+15
+00:00:52,501 --> 00:00:55,650
+and how the part that's left grew so fast.
+
+16
+00:00:59,250 --> 00:01:02,314
+Let's start with the latest numbers Netflix
+
+17
+00:01:02,314 --> 00:01:05,307
+has published, for July to September 2026.
+
+18
+00:01:05,307 --> 00:01:10,438
+Revenue: twelve point nine billion dollars, up twelve percent in a year.
+
+19
+00:01:10,438 --> 00:01:13,930
+Operating profit: almost four and a half billion.
+
+20
+00:01:14,380 --> 00:01:19,750
+About forty-four cents of each dollar came from the United States and Canada,
+
+21
+00:01:19,750 --> 00:01:23,586
+and thirty-two from Europe, the Middle East and Africa.
+
+22
+00:01:23,586 --> 00:01:27,980
+Latin America and Asia-Pacific brought about twelve cents each.
+
+23
+00:01:28,430 --> 00:01:31,133
+Almost all of it comes from subscriptions.
+
+24
+00:01:31,133 --> 00:01:34,738
+Netflix expects about two point seven billion dollars of
+
+25
+00:01:34,738 --> 00:01:38,343
+advertising revenue this year, out of fifty-one billion.
+
+26
+00:01:38,343 --> 00:01:39,630
+Around five percent.
+
+27
+00:01:40,080 --> 00:01:42,677
+Now, where does a Netflix dollar go?
+
+28
+00:01:42,677 --> 00:01:46,789
+The biggest slice, almost thirty-three cents, is content:
+
+29
+00:01:46,789 --> 00:01:50,396
+the cost of the shows and films, spread over time.
+
+30
+00:01:50,396 --> 00:01:56,240
+We'll come back to how that spreading works, because it's key to the whole story.
+
+31
+00:01:56,690 --> 00:02:01,071
+Another fourteen cents covers the rest of running the service:
+
+32
+00:02:01,071 --> 00:02:04,674
+streaming the video, payment fees, and other costs.
+
+33
+00:02:04,674 --> 00:02:09,125
+Then eight cents go to technology, six and a half to marketing,
+
+34
+00:02:09,125 --> 00:02:11,810
+and three and a half to general costs.
+
+35
+00:02:12,260 --> 00:02:16,248
+What's left is thirty-four point six cents of operating profit.
+
+36
+00:02:16,248 --> 00:02:21,060
+After interest and taxes, about twenty-eight and a half cents of net profit.
+
+37
+00:02:21,510 --> 00:02:23,862
+A third of every dollar, before tax.
+
+38
+00:02:23,862 --> 00:02:28,305
+For a company that spends billions on television, that's remarkable.
+
+39
+00:02:28,305 --> 00:02:33,270
+To see where it comes from, we need one simple fact about a television show.
+
+40
+00:02:34,370 --> 00:02:38,055
+A show costs the same to make whether one
+
+41
+00:02:38,055 --> 00:02:42,189
+person watches it or three hundred million do.
+
+42
+00:02:42,189 --> 00:02:48,570
+Once the bill is paid, every extra viewer costs Netflix almost nothing.
+
+43
+00:02:49,020 --> 00:02:52,812
+That makes content something close to a fixed cost.
+
+44
+00:02:52,812 --> 00:02:56,009
+And once a business covers its fixed costs,
+
+45
+00:02:56,009 --> 00:02:59,875
+almost every extra dollar of revenue becomes profit.
+
+46
+00:02:59,875 --> 00:03:02,700
+Economists call it operating leverage.
+
+47
+00:03:03,150 --> 00:03:06,095
+Here's what that looks like at Netflix.
+
+48
+00:03:06,095 --> 00:03:09,795
+In 2019, it had twenty billion dollars of revenue
+
+49
+00:03:09,795 --> 00:03:13,118
+and a content expense of about nine billion.
+
+50
+00:03:13,118 --> 00:03:16,818
+By 2025, revenue had grown to forty-five billion.
+
+51
+00:03:16,818 --> 00:03:18,102
+The content bill?
+
+52
+00:03:18,102 --> 00:03:19,310
+Sixteen billion.
+
+53
+00:03:19,760 --> 00:03:25,333
+Revenue more than doubled, while content costs grew by about three quarters.
+
+54
+00:03:25,333 --> 00:03:30,027
+Content went from forty-six cents of every dollar to thirty-six,
+
+55
+00:03:30,027 --> 00:03:32,960
+and in the latest quarter, thirty-three.
+
+56
+00:03:33,410 --> 00:03:35,950
+The operating margin followed.
+
+57
+00:03:35,950 --> 00:03:38,066
+Thirteen percent in 2019.
+
+58
+00:03:38,066 --> 00:03:39,675
+Twenty-one in 2023.
+
+59
+00:03:39,675 --> 00:03:42,300
+Twenty-nine and a half in 2025.
+
+60
+00:03:42,300 --> 00:03:47,210
+And Netflix is aiming for thirty-one and a half this year.
+
+61
+00:03:47,660 --> 00:03:48,877
+Put it another way.
+
+62
+00:03:48,877 --> 00:03:53,167
+In 2025, by our estimate, the average membership brought in roughly
+
+63
+00:03:53,167 --> 00:03:57,649
+twelve dollars a month, and about four dollars forty paid for content.
+
+64
+00:03:57,649 --> 00:04:02,260
+The trick is to make the twelve dollars grow faster than the four forty.
+
+65
+00:04:02,710 --> 00:04:05,384
+Netflix has four levers to do that.
+
+66
+00:04:05,384 --> 00:04:06,300
+Charge more.
+
+67
+00:04:06,300 --> 00:04:07,905
+Make more people pay.
+
+68
+00:04:07,905 --> 00:04:08,592
+Sell ads.
+
+69
+00:04:08,592 --> 00:04:12,870
+And add something its library doesn't have: live events.
+
+70
+00:04:13,970 --> 00:04:16,576
+The simplest lever is the price tag.
+
+71
+00:04:16,576 --> 00:04:20,630
+In March 2026, Netflix raised its American prices again.
+
+72
+00:04:20,630 --> 00:04:26,060
+The plan with ads went from seven ninety-nine to eight ninety-nine a month.
+
+73
+00:04:26,060 --> 00:04:30,476
+Standard, from seventeen ninety-nine to nineteen ninety-nine.
+
+74
+00:04:30,476 --> 00:04:33,010
+Premium, to twenty-six ninety-nine.
+
+75
+00:04:33,460 --> 00:04:34,475
+Did people leave?
+
+76
+00:04:34,475 --> 00:04:36,326
+Not many, according to Netflix.
+
+77
+00:04:36,326 --> 00:04:41,164
+It wrote that "member response to our 2026 price changes is consistent with prior
+
+78
+00:04:41,164 --> 00:04:46,180
+adjustments and our expectations", and cancellations were lower than a year earlier.
+
+79
+00:04:46,630 --> 00:04:49,126
+When Netflix adds two dollars to a plan,
+
+80
+00:04:49,126 --> 00:04:51,871
+it doesn't have to make a single extra show.
+
+81
+00:04:51,871 --> 00:04:55,989
+The content bill stays where it was, so apart from taxes and fees,
+
+82
+00:04:55,989 --> 00:04:59,046
+those two dollars flow almost straight to profit.
+
+83
+00:04:59,046 --> 00:05:01,542
+The balancing act is to keep the library
+
+84
+00:05:01,542 --> 00:05:04,350
+strong enough that leaving feels like a loss.
+
+85
+00:05:05,450 --> 00:05:08,197
+The second lever came out of that 2022 crisis.
+
+86
+00:05:08,197 --> 00:05:11,841
+Netflix estimated that its two hundred and twenty-two million
+
+87
+00:05:11,841 --> 00:05:15,245
+paying households were sharing their accounts with around
+
+88
+00:05:15,245 --> 00:05:18,530
+one hundred million other households that paid nothing.
+
+89
+00:05:18,980 --> 00:05:22,014
+In 2023, it rolled out "paid sharing".
+
+90
+00:05:22,014 --> 00:05:24,968
+An account was tied to one household.
+
+91
+00:05:24,968 --> 00:05:28,801
+Viewers outside it could open their own account,
+
+92
+00:05:28,801 --> 00:05:32,873
+or be added as an "extra member" for a monthly fee.
+
+93
+00:05:32,873 --> 00:05:39,260
+Today in the US, that's seven ninety-nine with ads, or nine ninety-nine without.
+
+94
+00:05:39,710 --> 00:05:42,083
+People predicted an angry exodus.
+
+95
+00:05:42,083 --> 00:05:47,835
+Instead, Netflix added about twenty-nine and a half million memberships in 2023.
+
+96
+00:05:47,835 --> 00:05:53,300
+In 2024, a record forty-one million, reaching three hundred and two million.
+
+97
+00:05:53,300 --> 00:05:58,190
+By the end of 2025, more than three hundred and twenty-five million.
+
+98
+00:05:58,640 --> 00:06:00,495
+Then it stopped telling us.
+
+99
+00:06:00,495 --> 00:06:05,787
+Since 2025, Netflix no longer publishes its subscriber numbers every quarter,
+
+100
+00:06:05,787 --> 00:06:09,360
+and asks to be judged on revenue and profit instead.
+
+101
+00:06:09,810 --> 00:06:12,566
+The crackdown fits the fixed-cost logic perfectly.
+
+102
+00:06:12,566 --> 00:06:16,699
+Those new members watched shows the sharers were already watching for free.
+
+103
+00:06:16,699 --> 00:06:19,730
+Netflix got paid for viewing it was already delivering.
+
+104
+00:06:20,830 --> 00:06:23,040
+The third lever is advertising.
+
+105
+00:06:23,040 --> 00:06:26,961
+In November 2022, Netflix, which had long resisted ads,
+
+106
+00:06:26,961 --> 00:06:31,310
+launched a cheaper plan with commercials in twelve countries.
+
+107
+00:06:31,760 --> 00:06:32,982
+It caught on fast.
+
+108
+00:06:32,982 --> 00:06:38,682
+By the end of 2023, it accounted for forty percent of sign-ups where it was offered.
+
+109
+00:06:38,682 --> 00:06:41,600
+A year later, more than fifty-five percent.
+
+110
+00:06:42,050 --> 00:06:43,696
+The money took longer.
+
+111
+00:06:43,696 --> 00:06:49,455
+Ad revenue more than doubled in 2025, to over one and a half billion dollars.
+
+112
+00:06:49,455 --> 00:06:53,046
+For 2026, Netflix aimed for about three billion,
+
+113
+00:06:53,046 --> 00:06:58,132
+then trimmed that to two point seven in October, blaming a "slightly
+
+114
+00:06:58,132 --> 00:07:02,770
+slower than expected rollout of some ad product capabilities".
+
+115
+00:07:03,220 --> 00:07:07,158
+Netflix tells advertisers its ad plan reaches more than two
+
+116
+00:07:07,158 --> 00:07:10,561
+hundred and fifty million "monthly active viewers",
+
+117
+00:07:10,561 --> 00:07:15,700
+a figure based on its own estimate of how many people live in each household.
+
+118
+00:07:16,150 --> 00:07:19,586
+So why bother, if ads are only five percent of revenue?
+
+119
+00:07:19,586 --> 00:07:21,898
+Because they solve a pricing problem.
+
+120
+00:07:21,898 --> 00:07:26,833
+The ad plan keeps a cheap entry ticket, at eight ninety-nine, without giving up
+
+121
+00:07:26,833 --> 00:07:31,706
+on revenue per viewer: the subscriber pays part, the advertisers pay the rest.
+
+122
+00:07:31,706 --> 00:07:36,391
+And every price rise on the other plans nudges a few more people toward it.
+
+123
+00:07:36,391 --> 00:07:39,390
+Next year, it arrives in fifteen more countries.
+
+124
+00:07:40,490 --> 00:07:42,146
+Back to that content bill.
+
+125
+00:07:42,146 --> 00:07:47,303
+When Netflix pays for a show, it doesn't count the whole cost on the day it pays.
+
+126
+00:07:47,303 --> 00:07:49,341
+It records the show as an asset,
+
+127
+00:07:49,341 --> 00:07:52,906
+then expenses it bit by bit from the month it comes out.
+
+128
+00:07:52,906 --> 00:07:54,180
+That's amortization.
+
+129
+00:07:54,180 --> 00:07:57,937
+Netflix front-loads it, because most viewing happens early:
+
+130
+00:07:57,937 --> 00:08:02,330
+"over ninety percent" of a show's cost is expensed within four years.
+
+131
+00:08:02,780 --> 00:08:05,987
+This creates a gap between profit and cash.
+
+132
+00:08:05,987 --> 00:08:11,505
+In 2019, Netflix paid almost fourteen billion dollars in cash for content,
+
+133
+00:08:11,505 --> 00:08:16,427
+while its accounts showed a content expense of about nine billion.
+
+134
+00:08:16,427 --> 00:08:18,515
+On paper, it was profitable.
+
+135
+00:08:18,515 --> 00:08:24,033
+In reality, it burned three point three billion dollars of cash that year,
+
+136
+00:08:24,033 --> 00:08:28,060
+the worst in its history, and borrowed the difference.
+
+137
+00:08:28,510 --> 00:08:30,008
+Then the gap closed.
+
+138
+00:08:30,008 --> 00:08:35,852
+In 2020, Netflix said it no longer needed to borrow for day-to-day operations.
+
+139
+00:08:35,852 --> 00:08:40,122
+By 2025, it spent nearly eighteen billion dollars in cash
+
+140
+00:08:40,122 --> 00:08:44,392
+on content against sixteen point four billion of expense.
+
+141
+00:08:44,392 --> 00:08:47,388
+Free cash flow: nine and a half billion.
+
+142
+00:08:47,388 --> 00:08:50,310
+For 2026, Netflix expects about twelve.
+
+143
+00:08:50,760 --> 00:08:52,731
+And that cash is coming back out.
+
+144
+00:08:52,731 --> 00:08:56,196
+Last quarter alone, Netflix spent four point eight billion
+
+145
+00:08:56,196 --> 00:08:59,840
+dollars buying back its own shares, its biggest quarter ever.
+
+146
+00:09:00,290 --> 00:09:03,566
+One caveat on that thirty-four point six percent.
+
+147
+00:09:03,566 --> 00:09:09,181
+Netflix says the quarter beat its forecast mostly because of the timing of expenses.
+
+148
+00:09:09,181 --> 00:09:13,259
+And a year earlier, a Brazilian tax dispute cost it about six
+
+149
+00:09:13,259 --> 00:09:17,805
+hundred and nineteen million dollars, which flatters the comparison.
+
+150
+00:09:17,805 --> 00:09:22,017
+For the full year, the target is thirty-one and a half percent,
+
+151
+00:09:22,017 --> 00:09:24,825
+and for the last quarter, just twenty-six.
+
+152
+00:09:24,825 --> 00:09:27,566
+Why so much lower at the end of the year?
+
+153
+00:09:27,566 --> 00:09:29,170
+That's the fourth lever.
+
+154
+00:09:30,270 --> 00:09:33,759
+For most of its life, Netflix stayed away from live sports.
+
+155
+00:09:33,759 --> 00:09:38,076
+Rights are expensive, and once a game is over, it's worth almost nothing.
+
+156
+00:09:38,076 --> 00:09:41,270
+The opposite of a library show people watch for years.
+
+157
+00:09:41,720 --> 00:09:43,524
+Then it changed its mind.
+
+158
+00:09:43,524 --> 00:09:48,142
+In November 2024, the Jake Paul against Mike Tyson fight reached
+
+159
+00:09:48,142 --> 00:09:52,327
+sixty-five million concurrent streams, by Netflix's count.
+
+160
+00:09:52,327 --> 00:09:56,440
+A month later came its first NFL games, on Christmas Day.
+
+161
+00:09:56,890 --> 00:10:00,558
+It signed a ten-year deal for WWE's weekly show Raw,
+
+162
+00:10:00,558 --> 00:10:03,168
+worth more than five billion dollars.
+
+163
+00:10:03,168 --> 00:10:07,612
+And this quarter is its "biggest quarterly live slate to date":
+
+164
+00:10:07,612 --> 00:10:11,422
+the NFL's first Thanksgiving Eve game, a Christmas Day
+
+165
+00:10:11,422 --> 00:10:15,090
+doubleheader, and Tyson Fury against Anthony Joshua.
+
+166
+00:10:15,540 --> 00:10:19,368
+Why pay for something that loses value the moment it ends?
+
+167
+00:10:19,368 --> 00:10:23,197
+Because live creates a date: you have to be there tonight,
+
+168
+00:10:23,197 --> 00:10:25,309
+so people sign up, or come back.
+
+169
+00:10:25,309 --> 00:10:30,853
+It gathers huge audiences at the same moment, exactly what advertisers pay most for.
+
+170
+00:10:30,853 --> 00:10:34,285
+And a weekly show gives fans a reason not to cancel.
+
+171
+00:10:34,285 --> 00:10:36,860
+It's the one lever that adds real cost,
+
+172
+00:10:36,860 --> 00:10:40,820
+which is partly why the margin dips at the end of each year.
+
+173
+00:10:41,920 --> 00:10:43,295
+Is it all smooth?
+
+174
+00:10:43,295 --> 00:10:44,104
+Not quite.
+
+175
+00:10:44,104 --> 00:10:46,046
+The first crack is time.
+
+176
+00:10:46,046 --> 00:10:51,062
+In the second half of 2025, members watched ninety-six billion
+
+177
+00:10:51,062 --> 00:10:55,916
+hours of Netflix, only two percent more than a year earlier.
+
+178
+00:10:55,916 --> 00:10:59,799
+In October, Netflix wrote: "We know there's some
+
+179
+00:10:59,799 --> 00:11:03,520
+investor concern about our view hours growth."
+
+180
+00:11:03,970 --> 00:11:07,090
+The fixed-cost machine runs on one assumption:
+
+181
+00:11:07,090 --> 00:11:10,480
+that people find enough value to keep paying more.
+
+182
+00:11:10,480 --> 00:11:15,770
+If viewing stalls while prices rise, the price lever eventually stops working.
+
+183
+00:11:16,220 --> 00:11:19,907
+The second crack: ads are growing more slowly than planned,
+
+184
+00:11:19,907 --> 00:11:23,406
+and this quarter Netflix is cutting jobs, a cost it says
+
+185
+00:11:23,406 --> 00:11:26,780
+will knock more than a point off the quarter's margin.
+
+186
+00:11:27,230 --> 00:11:29,497
+The third is a road not taken.
+
+187
+00:11:29,497 --> 00:11:33,502
+In December 2025, Netflix agreed to buy Warner Bros.,
+
+188
+00:11:33,502 --> 00:11:37,659
+at twenty-seven seventy-five per Warner share, in cash.
+
+189
+00:11:37,659 --> 00:11:39,850
+Paramount Skydance outbid it.
+
+190
+00:11:39,850 --> 00:11:44,309
+In February 2026, Warner ended the deal, and Paramount paid
+
+191
+00:11:44,309 --> 00:11:48,390
+Netflix a two point eight billion dollar break-up fee.
+
+192
+00:11:48,840 --> 00:11:52,012
+That fee inflates Netflix's net profit this year.
+
+193
+00:11:52,012 --> 00:11:57,321
+But it also tells you something: even with more than three hundred and twenty-five
+
+194
+00:11:57,321 --> 00:11:59,976
+million memberships, Netflix was ready to
+
+195
+00:11:59,976 --> 00:12:02,760
+spend tens of billions to own more content.
+
+196
+00:12:03,860 --> 00:12:06,772
+So, how does Netflix actually make money?
+
+197
+00:12:06,772 --> 00:12:12,667
+It sells access to a library whose cost barely depends on how many people watch it.
+
+198
+00:12:12,667 --> 00:12:17,568
+Then it stacks revenue on top: higher prices, households that used to
+
+199
+00:12:17,568 --> 00:12:22,540
+share a password, advertisers, and live events that bring people back.
+
+200
+00:12:22,990 --> 00:12:27,382
+The content bill still grows, by about ten percent this year.
+
+201
+00:12:27,382 --> 00:12:29,974
+But as long as revenue grows faster,
+
+202
+00:12:29,974 --> 00:12:33,646
+the gap keeps widening, and that gap is the profit.
+
+203
+00:12:33,646 --> 00:12:36,310
+Thirteen cents on the dollar in 2019.
+
+204
+00:12:36,310 --> 00:12:37,750
+About a third today.
+
+205
+00:12:38,200 --> 00:12:42,806
+It all rests on one question: will people keep watching
+
+206
+00:12:42,806 --> 00:12:46,909
+enough to accept paying a little more every year?
+
+207
+00:12:46,909 --> 00:12:47,914
+So far, yes.
+
+208
+00:12:47,914 --> 00:12:51,683
+That's what Netflix really sells: not a show,
+
+209
+00:12:51,683 --> 00:12:55,200
+but the feeling you'd miss it if you left.

@@ -1,0 +1,390 @@
+{
+  "duration": 776.2,
+  "ident": 55.95,
+  "segments": [
+    {
+      "id": "c0p0",
+      "chapter": 0,
+      "chapter_title": "Hook",
+      "text": "April 2022. For the first time in ten years, Netflix lost subscribers. Two hundred thousand of them, in three months, and it warned that two million more could leave. Streaming, people said, had peaked.",
+      "start": 0.3,
+      "end": 15.14
+    },
+    {
+      "id": "c0p1",
+      "chapter": 0,
+      "chapter_title": "Hook",
+      "text": "Fast forward to the summer of 2026. In three months, Netflix brought in almost thirteen billion dollars. And out of every dollar, it kept thirty-four point six cents as operating profit.",
+      "start": 15.59,
+      "end": 28.07
+    },
+    {
+      "id": "c0p2",
+      "chapter": 0,
+      "chapter_title": "Hook",
+      "text": "So what happened in between? Netflix didn't find a new business. It still sells a monthly subscription to a library of shows and films. But it found a handful of ways to squeeze far more money out of that same library.",
+      "start": 28.52,
+      "end": 43.28
+    },
+    {
+      "id": "c0p3",
+      "chapter": 0,
+      "chapter_title": "Hook",
+      "text": "In this video, we take Netflix's latest accounts apart, dollar by dollar: where each dollar comes from, where it goes, and how the part that's left grew so fast.",
+      "start": 43.73,
+      "end": 55.65
+    },
+    {
+      "id": "c1p0",
+      "chapter": 1,
+      "chapter_title": "One Netflix dollar",
+      "text": "Let's start with the latest numbers Netflix has published, for July to September 2026. Revenue: twelve point nine billion dollars, up twelve percent in a year. Operating profit: almost four and a half billion.",
+      "start": 59.25,
+      "end": 73.93
+    },
+    {
+      "id": "c1p1",
+      "chapter": 1,
+      "chapter_title": "One Netflix dollar",
+      "text": "About forty-four cents of each dollar came from the United States and Canada, and thirty-two from Europe, the Middle East and Africa. Latin America and Asia-Pacific brought about twelve cents each.",
+      "start": 74.38,
+      "end": 87.98
+    },
+    {
+      "id": "c1p2",
+      "chapter": 1,
+      "chapter_title": "One Netflix dollar",
+      "text": "Almost all of it comes from subscriptions. Netflix expects about two point seven billion dollars of advertising revenue this year, out of fifty-one billion. Around five percent.",
+      "start": 88.43,
+      "end": 99.63
+    },
+    {
+      "id": "c1p3",
+      "chapter": 1,
+      "chapter_title": "One Netflix dollar",
+      "text": "Now, where does a Netflix dollar go? The biggest slice, almost thirty-three cents, is content: the cost of the shows and films, spread over time. We'll come back to how that spreading works, because it's key to the whole story.",
+      "start": 100.08,
+      "end": 116.24
+    },
+    {
+      "id": "c1p4",
+      "chapter": 1,
+      "chapter_title": "One Netflix dollar",
+      "text": "Another fourteen cents covers the rest of running the service: streaming the video, payment fees, and other costs. Then eight cents go to technology, six and a half to marketing, and three and a half to general costs.",
+      "start": 116.69,
+      "end": 131.81
+    },
+    {
+      "id": "c1p5",
+      "chapter": 1,
+      "chapter_title": "One Netflix dollar",
+      "text": "What's left is thirty-four point six cents of operating profit. After interest and taxes, about twenty-eight and a half cents of net profit.",
+      "start": 132.26,
+      "end": 141.06
+    },
+    {
+      "id": "c1p6",
+      "chapter": 1,
+      "chapter_title": "One Netflix dollar",
+      "text": "A third of every dollar, before tax. For a company that spends billions on television, that's remarkable. To see where it comes from, we need one simple fact about a television show.",
+      "start": 141.51,
+      "end": 153.27
+    },
+    {
+      "id": "c2p0",
+      "chapter": 2,
+      "chapter_title": "The fixed-cost machine",
+      "text": "A show costs the same to make whether one person watches it or three hundred million do. Once the bill is paid, every extra viewer costs Netflix almost nothing.",
+      "start": 154.37,
+      "end": 168.57
+    },
+    {
+      "id": "c2p1",
+      "chapter": 2,
+      "chapter_title": "The fixed-cost machine",
+      "text": "That makes content something close to a fixed cost. And once a business covers its fixed costs, almost every extra dollar of revenue becomes profit. Economists call it operating leverage.",
+      "start": 169.02,
+      "end": 182.7
+    },
+    {
+      "id": "c2p2",
+      "chapter": 2,
+      "chapter_title": "The fixed-cost machine",
+      "text": "Here's what that looks like at Netflix. In 2019, it had twenty billion dollars of revenue and a content expense of about nine billion. By 2025, revenue had grown to forty-five billion. The content bill? Sixteen billion.",
+      "start": 183.15,
+      "end": 199.31
+    },
+    {
+      "id": "c2p3",
+      "chapter": 2,
+      "chapter_title": "The fixed-cost machine",
+      "text": "Revenue more than doubled, while content costs grew by about three quarters. Content went from forty-six cents of every dollar to thirty-six, and in the latest quarter, thirty-three.",
+      "start": 199.76,
+      "end": 212.96
+    },
+    {
+      "id": "c2p4",
+      "chapter": 2,
+      "chapter_title": "The fixed-cost machine",
+      "text": "The operating margin followed. Thirteen percent in 2019. Twenty-one in 2023. Twenty-nine and a half in 2025. And Netflix is aiming for thirty-one and a half this year.",
+      "start": 213.41,
+      "end": 227.21
+    },
+    {
+      "id": "c2p5",
+      "chapter": 2,
+      "chapter_title": "The fixed-cost machine",
+      "text": "Put it another way. In 2025, by our estimate, the average membership brought in roughly twelve dollars a month, and about four dollars forty paid for content. The trick is to make the twelve dollars grow faster than the four forty.",
+      "start": 227.66,
+      "end": 242.26
+    },
+    {
+      "id": "c2p6",
+      "chapter": 2,
+      "chapter_title": "The fixed-cost machine",
+      "text": "Netflix has four levers to do that. Charge more. Make more people pay. Sell ads. And add something its library doesn't have: live events.",
+      "start": 242.71,
+      "end": 252.87
+    },
+    {
+      "id": "c3p0",
+      "chapter": 3,
+      "chapter_title": "Lever one: the price",
+      "text": "The simplest lever is the price tag. In March 2026, Netflix raised its American prices again. The plan with ads went from seven ninety-nine to eight ninety-nine a month. Standard, from seventeen ninety-nine to nineteen ninety-nine. Premium, to twenty-six ninety-nine.",
+      "start": 253.97,
+      "end": 273.01
+    },
+    {
+      "id": "c3p1",
+      "chapter": 3,
+      "chapter_title": "Lever one: the price",
+      "text": "Did people leave? Not many, according to Netflix. It wrote that \"member response to our 2026 price changes is consistent with prior adjustments and our expectations\", and cancellations were lower than a year earlier.",
+      "start": 273.46,
+      "end": 286.18
+    },
+    {
+      "id": "c3p2",
+      "chapter": 3,
+      "chapter_title": "Lever one: the price",
+      "text": "When Netflix adds two dollars to a plan, it doesn't have to make a single extra show. The content bill stays where it was, so apart from taxes and fees, those two dollars flow almost straight to profit. The balancing act is to keep the library strong enough that leaving feels like a loss.",
+      "start": 286.63,
+      "end": 304.35
+    },
+    {
+      "id": "c4p0",
+      "chapter": 4,
+      "chapter_title": "Lever two: the password",
+      "text": "The second lever came out of that 2022 crisis. Netflix estimated that its two hundred and twenty-two million paying households were sharing their accounts with around one hundred million other households that paid nothing.",
+      "start": 305.45,
+      "end": 318.53
+    },
+    {
+      "id": "c4p1",
+      "chapter": 4,
+      "chapter_title": "Lever two: the password",
+      "text": "In 2023, it rolled out \"paid sharing\". An account was tied to one household. Viewers outside it could open their own account, or be added as an \"extra member\" for a monthly fee. Today in the US, that's seven ninety-nine with ads, or nine ninety-nine without.",
+      "start": 318.98,
+      "end": 339.26
+    },
+    {
+      "id": "c4p2",
+      "chapter": 4,
+      "chapter_title": "Lever two: the password",
+      "text": "People predicted an angry exodus. Instead, Netflix added about twenty-nine and a half million memberships in 2023. In 2024, a record forty-one million, reaching three hundred and two million. By the end of 2025, more than three hundred and twenty-five million.",
+      "start": 339.71,
+      "end": 358.19
+    },
+    {
+      "id": "c4p3",
+      "chapter": 4,
+      "chapter_title": "Lever two: the password",
+      "text": "Then it stopped telling us. Since 2025, Netflix no longer publishes its subscriber numbers every quarter, and asks to be judged on revenue and profit instead.",
+      "start": 358.64,
+      "end": 369.36
+    },
+    {
+      "id": "c4p4",
+      "chapter": 4,
+      "chapter_title": "Lever two: the password",
+      "text": "The crackdown fits the fixed-cost logic perfectly. Those new members watched shows the sharers were already watching for free. Netflix got paid for viewing it was already delivering.",
+      "start": 369.81,
+      "end": 379.73
+    },
+    {
+      "id": "c5p0",
+      "chapter": 5,
+      "chapter_title": "Lever three: the ads",
+      "text": "The third lever is advertising. In November 2022, Netflix, which had long resisted ads, launched a cheaper plan with commercials in twelve countries.",
+      "start": 380.83,
+      "end": 391.31
+    },
+    {
+      "id": "c5p1",
+      "chapter": 5,
+      "chapter_title": "Lever three: the ads",
+      "text": "It caught on fast. By the end of 2023, it accounted for forty percent of sign-ups where it was offered. A year later, more than fifty-five percent.",
+      "start": 391.76,
+      "end": 401.6
+    },
+    {
+      "id": "c5p2",
+      "chapter": 5,
+      "chapter_title": "Lever three: the ads",
+      "text": "The money took longer. Ad revenue more than doubled in 2025, to over one and a half billion dollars. For 2026, Netflix aimed for about three billion, then trimmed that to two point seven in October, blaming a \"slightly slower than expected rollout of some ad product capabilities\".",
+      "start": 402.05,
+      "end": 422.77
+    },
+    {
+      "id": "c5p3",
+      "chapter": 5,
+      "chapter_title": "Lever three: the ads",
+      "text": "Netflix tells advertisers its ad plan reaches more than two hundred and fifty million \"monthly active viewers\", a figure based on its own estimate of how many people live in each household.",
+      "start": 423.22,
+      "end": 435.7
+    },
+    {
+      "id": "c5p4",
+      "chapter": 5,
+      "chapter_title": "Lever three: the ads",
+      "text": "So why bother, if ads are only five percent of revenue? Because they solve a pricing problem. The ad plan keeps a cheap entry ticket, at eight ninety-nine, without giving up on revenue per viewer: the subscriber pays part, the advertisers pay the rest. And every price rise on the other plans nudges a few more people toward it. Next year, it arrives in fifteen more countries.",
+      "start": 436.15,
+      "end": 459.39
+    },
+    {
+      "id": "c6p0",
+      "chapter": 6,
+      "chapter_title": "The amortization trick",
+      "text": "Back to that content bill. When Netflix pays for a show, it doesn't count the whole cost on the day it pays. It records the show as an asset, then expenses it bit by bit from the month it comes out. That's amortization. Netflix front-loads it, because most viewing happens early: \"over ninety percent\" of a show's cost is expensed within four years.",
+      "start": 460.49,
+      "end": 482.33
+    },
+    {
+      "id": "c6p1",
+      "chapter": 6,
+      "chapter_title": "The amortization trick",
+      "text": "This creates a gap between profit and cash. In 2019, Netflix paid almost fourteen billion dollars in cash for content, while its accounts showed a content expense of about nine billion. On paper, it was profitable. In reality, it burned three point three billion dollars of cash that year, the worst in its history, and borrowed the difference.",
+      "start": 482.78,
+      "end": 508.06
+    },
+    {
+      "id": "c6p2",
+      "chapter": 6,
+      "chapter_title": "The amortization trick",
+      "text": "Then the gap closed. In 2020, Netflix said it no longer needed to borrow for day-to-day operations. By 2025, it spent nearly eighteen billion dollars in cash on content against sixteen point four billion of expense. Free cash flow: nine and a half billion. For 2026, Netflix expects about twelve.",
+      "start": 508.51,
+      "end": 530.31
+    },
+    {
+      "id": "c6p3",
+      "chapter": 6,
+      "chapter_title": "The amortization trick",
+      "text": "And that cash is coming back out. Last quarter alone, Netflix spent four point eight billion dollars buying back its own shares, its biggest quarter ever.",
+      "start": 530.76,
+      "end": 539.84
+    },
+    {
+      "id": "c6p4",
+      "chapter": 6,
+      "chapter_title": "The amortization trick",
+      "text": "One caveat on that thirty-four point six percent. Netflix says the quarter beat its forecast mostly because of the timing of expenses. And a year earlier, a Brazilian tax dispute cost it about six hundred and nineteen million dollars, which flatters the comparison. For the full year, the target is thirty-one and a half percent, and for the last quarter, just twenty-six. Why so much lower at the end of the year? That's the fourth lever.",
+      "start": 540.29,
+      "end": 569.17
+    },
+    {
+      "id": "c7p0",
+      "chapter": 7,
+      "chapter_title": "Lever four: live and sports",
+      "text": "For most of its life, Netflix stayed away from live sports. Rights are expensive, and once a game is over, it's worth almost nothing. The opposite of a library show people watch for years.",
+      "start": 570.27,
+      "end": 581.27
+    },
+    {
+      "id": "c7p1",
+      "chapter": 7,
+      "chapter_title": "Lever four: live and sports",
+      "text": "Then it changed its mind. In November 2024, the Jake Paul against Mike Tyson fight reached sixty-five million concurrent streams, by Netflix's count. A month later came its first NFL games, on Christmas Day.",
+      "start": 581.72,
+      "end": 596.44
+    },
+    {
+      "id": "c7p2",
+      "chapter": 7,
+      "chapter_title": "Lever four: live and sports",
+      "text": "It signed a ten-year deal for WWE's weekly show Raw, worth more than five billion dollars. And this quarter is its \"biggest quarterly live slate to date\": the NFL's first Thanksgiving Eve game, a Christmas Day doubleheader, and Tyson Fury against Anthony Joshua.",
+      "start": 596.89,
+      "end": 615.09
+    },
+    {
+      "id": "c7p3",
+      "chapter": 7,
+      "chapter_title": "Lever four: live and sports",
+      "text": "Why pay for something that loses value the moment it ends? Because live creates a date: you have to be there tonight, so people sign up, or come back. It gathers huge audiences at the same moment, exactly what advertisers pay most for. And a weekly show gives fans a reason not to cancel. It's the one lever that adds real cost, which is partly why the margin dips at the end of each year.",
+      "start": 615.54,
+      "end": 640.82
+    },
+    {
+      "id": "c8p0",
+      "chapter": 8,
+      "chapter_title": "The cracks",
+      "text": "Is it all smooth? Not quite. The first crack is time. In the second half of 2025, members watched ninety-six billion hours of Netflix, only two percent more than a year earlier. In October, Netflix wrote: \"We know there's some investor concern about our view hours growth.\"",
+      "start": 641.92,
+      "end": 663.52
+    },
+    {
+      "id": "c8p1",
+      "chapter": 8,
+      "chapter_title": "The cracks",
+      "text": "The fixed-cost machine runs on one assumption: that people find enough value to keep paying more. If viewing stalls while prices rise, the price lever eventually stops working.",
+      "start": 663.97,
+      "end": 675.77
+    },
+    {
+      "id": "c8p2",
+      "chapter": 8,
+      "chapter_title": "The cracks",
+      "text": "The second crack: ads are growing more slowly than planned, and this quarter Netflix is cutting jobs, a cost it says will knock more than a point off the quarter's margin.",
+      "start": 676.22,
+      "end": 686.78
+    },
+    {
+      "id": "c8p3",
+      "chapter": 8,
+      "chapter_title": "The cracks",
+      "text": "The third is a road not taken. In December 2025, Netflix agreed to buy Warner Bros., at twenty-seven seventy-five per Warner share, in cash. Paramount Skydance outbid it. In February 2026, Warner ended the deal, and Paramount paid Netflix a two point eight billion dollar break-up fee.",
+      "start": 687.23,
+      "end": 708.39
+    },
+    {
+      "id": "c8p4",
+      "chapter": 8,
+      "chapter_title": "The cracks",
+      "text": "That fee inflates Netflix's net profit this year. But it also tells you something: even with more than three hundred and twenty-five million memberships, Netflix was ready to spend tens of billions to own more content.",
+      "start": 708.84,
+      "end": 722.76
+    },
+    {
+      "id": "c9p0",
+      "chapter": 9,
+      "chapter_title": "So, how does Netflix make money?",
+      "text": "So, how does Netflix actually make money? It sells access to a library whose cost barely depends on how many people watch it. Then it stacks revenue on top: higher prices, households that used to share a password, advertisers, and live events that bring people back.",
+      "start": 723.86,
+      "end": 742.54
+    },
+    {
+      "id": "c9p1",
+      "chapter": 9,
+      "chapter_title": "So, how does Netflix make money?",
+      "text": "The content bill still grows, by about ten percent this year. But as long as revenue grows faster, the gap keeps widening, and that gap is the profit. Thirteen cents on the dollar in 2019. About a third today.",
+      "start": 742.99,
+      "end": 757.75
+    },
+    {
+      "id": "c9p2",
+      "chapter": 9,
+      "chapter_title": "So, how does Netflix make money?",
+      "text": "It all rests on one question: will people keep watching enough to accept paying a little more every year? So far, yes. That's what Netflix really sells: not a show, but the feeling you'd miss it if you left.",
+      "start": 758.2,
+      "end": 775.2
+    }
+  ]
+}
