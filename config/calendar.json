@@ -108,6 +108,12 @@
       "folder": "videos/06-temu/shorts/1",
       "video_id": "nm-oGn4lrZY",
       "publish_at": "2026-11-12T17:00:00Z"
+    },
+    {
+      "kind": "long",
+      "folder": "videos/07-netflix",
+      "video_id": "VXVrAVBo0Uw",
+      "publish_at": "2026-11-13T15:00:00Z"
     }
   ]
 }

@@ -1,0 +1,50 @@
+In 2022, Netflix lost subscribers for the first time in a decade. In mid-2026, it kept 34.6 cents of operating profit from every dollar it earned. We take Netflix's latest shareholder letter apart, dollar by dollar: where the money comes from, where it goes, and the four levers behind the margin (higher prices, the password-sharing crackdown, the ad plan, and live sports), plus the content accounting that turned years of cash burn into billions of free cash flow. Main sources below.
+
+Chapters
+00:00 From losing members to 34.6 cents
+00:59 One Netflix dollar
+02:34 The fixed-cost machine
+04:13 Lever one: the price
+05:05 Lever two: the password
+06:20 Lever three: the ads
+07:40 The amortization trick
+09:30 Lever four: live and sports
+10:41 The cracks
+12:03 So, how does it make money?
+
+Sources
+- Netflix Q3 2026 shareholder letter (Oct. 20, 2026): https://www.sec.gov/Archives/edgar/data/0001065280/000106528026000290/ex991_q326.htm
+- Netflix Q4 2025 shareholder letter (Jan. 20, 2026): https://www.sec.gov/Archives/edgar/data/1065280/000106528026000033/ex991_q425.htm
+- Netflix, Overview of Content Accounting (May 2026): https://s22.q4cdn.com/959853165/files/doc_downloads/2026/08/IR-Content-Accounting-Slides-May-2026.pdf
+- Netflix Q1 2026 10-Q: https://www.sec.gov/Archives/edgar/data/1065280/000106528026000138/nflx-20260331.htm
+- Netflix Q3 2025 shareholder letter: https://www.sec.gov/Archives/edgar/data/1065280/000106528025000404/ex991_q325.htm
+- Netflix Q4 2024 shareholder letter: https://www.sec.gov/Archives/edgar/data/1065280/000106528025000033/ex991_q424.htm
+- Netflix Q1 2024 shareholder letter: https://www.sec.gov/Archives/edgar/data/1065280/000106528024000127/ex991_q124.htm
+- Netflix Q4 2023 shareholder letter: https://www.sec.gov/Archives/edgar/data/1065280/000106528024000029/ex991_q423.htm
+- Netflix Q4 2022 shareholder letter: https://www.sec.gov/Archives/edgar/data/1065280/000106528023000034/ex991_q422.htm
+- Netflix Q4 2020 shareholder letter: https://www.sec.gov/Archives/edgar/data/1065280/000106528021000037/ex991_q420.htm
+- Motley Fool on Netflix's 2019 cash flow (Jan. 25, 2020): https://www.fool.com/investing/2020/01/25/3-must-see-quotes-from-netflixs-q4-shareholder-let.aspx
+- MacRumors on Q1 2022 subscriber loss (Apr. 19, 2022): https://macrumors.com/2022/04/19/netflix-loses-subscribers-q1-2022
+- CBS News on 2026 US prices (Mar. 27, 2026): https://www.cbsnews.com/news/netflix-price-increase-2026-subscription-fees
+- Variety on ad-tier viewers (May 14, 2026): https://au.variety.com/2026/tv/news/netflix-claims-ad-tier-reaches-250-million-viewers-36559/
+- Straight Arrow News on WWE Raw (Jan. 2025): https://san.com/cc/wwe-netflix-begin-new-raw-era-for-a-global-audience/
+
+Fonts: Inter, IBM Plex Mono and Instrument Serif (SIL Open Font License); icons: Lucide (ISC).
+Per-dollar splits, revenue per membership and content cost per membership are The Cost Curve's calculations from Netflix's published accounts.
+
+Images (Wikimedia Commons)
+- Coolcaesar at English Wikipedia, CC BY-SA 3.0: https://commons.wikimedia.org/wiki/File:Netflix_headquarters.jpg
+- Kstanhope of Netflix, CC BY-SA 4.0: https://commons.wikimedia.org/wiki/File:Netflix_Los_Angeles_office.jpg
+- Flickr Stock Catalog, CC BY 2.0: https://commons.wikimedia.org/wiki/File:Netflix_button_remote_(40062279010).jpg
+- Donald Trung Quoc Don, CC BY-SA 4.0: https://commons.wikimedia.org/wiki/File:Philips_remote_control_with_a_Netflix_button,_Finsterwolde_(2019)_04.jpg
+- Shixart1985, CC BY 2.0: https://commons.wikimedia.org/wiki/File:Woman_sitting_on_a_couch_watching_television_while_covered_with_a_blanket.jpg
+- Rondo Estrello, CC BY-SA 2.0: https://commons.wikimedia.org/wiki/File:All_Star_2010.jpg
+- Jjron, CC BY-SA 3.0: https://commons.wikimedia.org/wiki/File:Jeff-Hardy-%26-Triple-H_on_Stage,-RLA-Melb-10.11.2007.jpg
+- Chris Yarzab, CC BY 2.0: https://commons.wikimedia.org/wiki/File:Warner_Bros._Studios_Water_Tower_2020.jpg
+- Chris Brown (zoonabar), CC BY 2.0: https://commons.wikimedia.org/wiki/File:Paramount_Pictures_Melrose_Gate.jpg
+Other images: public domain or CC0.
+
+Logos are trademarks of their respective owners, shown for identification only. This channel is independent and not affiliated with or endorsed by Netflix, Inc. or any company mentioned.
+
+This video is for educational purposes and is not financial advice.
+Made with the help of AI tools, including a synthetic narrator voice and AI-generated music (Google Lyria).
