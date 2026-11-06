@@ -1,54 +1,119 @@
 [
  {
   "id": "logo_ferrari",
-  "title": "File:Ferrari wordmark.svg"
+  "title": "File:Ferrari wordmark.svg",
+  "file": "media/logo_ferrari.svg",
+  "license": "Public domain",
+  "artist": "Ferrari",
+  "restrictions": "trademarked",
+  "page": "https://commons.wikimedia.org/wiki/File:Ferrari_wordmark.svg"
  },
  {
   "id": "logo_toyota",
-  "title": "File:Toyota logo.svg"
+  "title": "File:Toyota logo.svg",
+  "file": "media/logo_toyota.svg",
+  "license": "Public domain",
+  "artist": "Toyota",
+  "restrictions": "trademarked",
+  "page": "https://commons.wikimedia.org/wiki/File:Toyota_logo.svg"
  },
  {
   "id": "ferrari_red",
-  "title": "File:Ferrari SF90 Stradale Mayfair.jpg"
+  "title": "File:Ferrari SF90 Stradale Mayfair.jpg",
+  "file": "media/ferrari_red.jpg",
+  "license": "CC BY 4.0",
+  "artist": "Calreyn88",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Ferrari_SF90_Stradale_Mayfair.jpg"
  },
  {
   "id": "maranello",
-  "title": "File:Ferrari Factory (Maranello, Modena) in 2018.07.jpg"
+  "title": "File:Ferrari Factory (Maranello, Modena) in 2018.07.jpg",
+  "file": "media/maranello.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "CAPTAIN RAJU",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Ferrari_Factory_(Maranello,_Modena)_in_2018.07.jpg"
  },
  {
   "id": "ferrari_296",
-  "title": "File:Ferrari 296 GTB (51370).jpg"
+  "title": "File:Ferrari 296 GTB (51370).jpg",
+  "file": "media/ferrari_296.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "Calreyn88",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Ferrari_296_GTB_(51370).jpg"
  },
  {
   "id": "ferrari_roma",
-  "title": "File:2021 Ferrari Roma 8.jpg"
+  "title": "File:2021 Ferrari Roma 8.jpg",
+  "file": "media/ferrari_roma.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "Calreyn88",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:2021_Ferrari_Roma_8.jpg"
  },
  {
   "id": "purosangue",
-  "title": "File:Ferrari Purosangue at the 2025 Shannons Adelaide Rally (028A4470).jpg"
+  "title": "File:Ferrari Purosangue at the 2025 Shannons Adelaide Rally (028A4470).jpg",
+  "file": "media/purosangue.jpg",
+  "license": "CC BY 4.0",
+  "artist": "Yu Chu Chin",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Ferrari_Purosangue_at_the_2025_Shannons_Adelaide_Rally_(028A4470).jpg"
  },
  {
   "id": "ferrari_show",
-  "title": "File:Ferrari LaFerrari Berkeley Square 2023-11-20.jpg"
+  "title": "File:Ferrari LaFerrari Berkeley Square 2023-11-20.jpg",
+  "file": "media/ferrari_show.jpg",
+  "license": "CC BY-SA 2.0",
+  "artist": "Loco Steve",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Ferrari_LaFerrari_Berkeley_Square_2023-11-20.jpg"
  },
  {
   "id": "ferrari_night",
-  "title": "File:Ferrari F12, Zurich 07.jpg"
+  "title": "File:Ferrari F12, Zurich 07.jpg",
+  "file": "media/ferrari_night.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "Ank Kumar",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Ferrari_F12,_Zurich_07.jpg"
  },
  {
   "id": "toyota_hq",
-  "title": "File:Headquarter of Toyota Motor Corporation 1.JPG"
+  "title": "File:Headquarter of Toyota Motor Corporation 1.JPG",
+  "file": "media/toyota_hq.jpg",
+  "license": "CC0",
+  "artist": "Tokumeigakarinoaoshima",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Headquarter_of_Toyota_Motor_Corporation_1.JPG"
  },
  {
   "id": "toyota_show",
-  "title": "File:Toyota Centrum Wrocław (2025-11-07).jpg"
+  "title": "File:Toyota Centrum Wrocław (2025-11-07).jpg",
+  "file": "media/toyota_show.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "Olgierd Rudak",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Toyota_Centrum_Wroc%C5%82aw_(2025-11-07).jpg"
  },
  {
   "id": "toyota_night",
-  "title": "File:Jemca Toyota, The Hyde - geograph.org.uk - 5188704.jpg"
+  "title": "File:Jemca Toyota, The Hyde - geograph.org.uk - 5188704.jpg",
+  "file": "media/toyota_night.jpg",
+  "license": "CC BY-SA 2.0",
+  "artist": "David Howard",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Jemca_Toyota,_The_Hyde_-_geograph.org.uk_-_5188704.jpg"
  },
  {
   "id": "corolla",
-  "title": "File:2023 Toyota Corolla Touring Sports Hybrid (E210) IMG 7679.jpg"
+  "title": "File:2023 Toyota Corolla Touring Sports Hybrid (E210) IMG 7679.jpg",
+  "file": "media/corolla.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "Alexander-93",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:2023_Toyota_Corolla_Touring_Sports_Hybrid_(E210)_IMG_7679.jpg"
  }
 ]
