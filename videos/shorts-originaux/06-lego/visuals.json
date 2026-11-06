@@ -14,49 +14,39 @@
   "type": "shot",
   "props": {
    "photo": "grey_pile",
-   "dim": 0.78,
-   "header": {
-    "number": "2004",
-    "label": "in Danish kroner",
-    "color": "paper"
+   "dim": 0.7,
+   "kicker": "Sales, 2004",
+   "number": "6.3B",
+   "numberDelay": {
+    "$t": "six point",
+    "offset": -0.1
    },
-   "halves": [
-    {
-     "icon": "Package",
-     "big": "6.3B",
-     "label": "sales",
-     "color": "slate",
-     "delay": {
-      "$t": "six point",
-      "offset": -0.1
-     }
-    },
-    {
-     "icon": "TrendingDown",
-     "big": "−1.8B",
-     "label": "net loss",
-     "color": "brick",
-     "delay": {
-      "$t": "one point eight",
-      "offset": -0.1
-     }
-    }
-   ],
+   "color": "slate",
+   "label": "Danish kroner (DKK)",
+   "source": "LEGO Group annual reports"
+  }
+ },
+ {
+  "at": "p1",
+  "after": "And it lost",
+  "type": "shot",
+  "props": {
+   "photo": "hq",
+   "dim": 0.72,
+   "icon": "TrendingDown",
+   "color": "brick",
+   "kicker": "Net result, 2004",
+   "number": "−1.8B",
+   "numberDelay": {
+    "$t": "one point eight",
+    "offset": -0.1
+   },
+   "label": "kroner lost in one year",
    "source": "LEGO Group annual reports"
   }
  },
  {
   "at": "p2",
-  "type": "shot",
-  "props": {
-   "photo": "bricks2",
-   "dim": 0.62,
-   "kicker": "Then",
-   "text": "Back to *the brick*"
-  }
- },
- {
-  "at": "p3",
   "type": "shot",
   "props": {
    "photo": "store",
@@ -80,8 +70,8 @@
      2025
     ],
     "height": 640,
-    "draw": 3.0,
-    "delay": 0.2,
+    "draw": 4.5,
+    "delay": 0.4,
     "series": [
      {
       "label": "Sales",
@@ -180,9 +170,9 @@
      }
     ]
    },
-   "source": "LEGO Group annual reports"
-  },
-  "after": "sales were"
+   "source": "LEGO Group annual reports",
+   "kicker": "Then, back to the brick"
+  }
  },
  {
   "at": "p4",
@@ -197,26 +187,7 @@
     "offset": -0.1
    },
    "color": "gold",
-   "label": "Danish kroner (DKK)",
-   "source": "LEGO Group annual reports"
-  }
- },
- {
-  "at": "p4",
-  "after": "billion. Thirteen",
-  "type": "shot",
-  "props": {
-   "photo": "bricks",
-   "dim": 0.66,
-   "icon": "TrendingUp",
-   "color": "gold",
-   "kicker": "Sales vs 2004",
-   "number": "13×",
-   "numberDelay": {
-    "$t": "Thirteen",
-    "offset": -0.1
-   },
-   "label": "in 21 years",
+   "label": "kroner: 13× 2004 sales",
    "source": "LEGO Group annual reports"
   }
  },
@@ -324,15 +295,26 @@
   "at": "p8",
   "type": "shot",
   "props": {
-   "photo": "legoland",
-   "dim": 0.6,
-   "kicker": "Now",
-   "text": "Profit beats *old sales*"
+   "photo": "bricks2",
+   "dim": 0.62,
+   "kicker": "Then",
+   "text": "LEGO lost *money*"
   }
  },
  {
   "at": "p8",
-  "after": "old sales.",
+  "type": "shot",
+  "props": {
+   "photo": "legoland",
+   "dim": 0.6,
+   "kicker": "Now",
+   "text": "Profit beats *old sales*"
+  },
+  "after": "Now its"
+ },
+ {
+  "at": "p8",
+  "after": "More on the channel",
   "type": "endcard",
   "props": {}
  }
