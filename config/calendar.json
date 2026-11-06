@@ -120,6 +120,12 @@
       "folder": "videos/07-netflix/shorts/1",
       "video_id": "AXyq5w7AZq0",
       "publish_at": "2026-11-15T17:00:00Z"
+    },
+    {
+      "kind": "short",
+      "folder": "videos/shorts-originaux/05-ferrari",
+      "video_id": "9FgVT2qzy7o",
+      "publish_at": "2026-11-16T17:00:00Z"
     }
   ]
 }
