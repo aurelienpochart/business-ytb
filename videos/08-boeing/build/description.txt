@@ -1,0 +1,50 @@
+In 2018, Boeing delivered more airplanes than anyone on earth. From 2019 to 2024, it lost almost $36 billion. The full timeline: the engineers' company that bet everything on the 707 and 747, the 1997 McDonnell Douglas merger, the outsourced 787 Dreamliner, the 737 MAX crashes that killed 346 people, the Alaska Airlines door plug, the 2024 strike, and Boeing's latest results. At every turning point, we put a price on the decision. Main sources below.
+
+Chapters
+00:00 From 806 jets to a $36B loss
+01:06 Bet the company (1954-1994)
+02:08 The 1997 merger
+03:29 The Dreamliner
+05:13 The 737 MAX
+07:45 The door plug (2024)
+09:46 The strike
+10:50 Where Boeing stands now
+12:31 The real cost
+
+Sources
+- Boeing Q3 2026 results: https://boeing.mediaroom.com/2026-10-27-Boeing-Reports-Third-Quarter-Results
+- Boeing Q4 2025 results: https://www.nasdaq.com/press-release/boeing-reports-fourth-quarter-results-2026-01-27
+- Boeing net income 2016-2023 (10-K data): https://portfoliosavvy.com/stock-tag/0000012927/us-gaap/netincomeloss/usd?freq=y
+- 2018 deliveries: https://ohsonline.com/articles/2019/01/14/boeing-airbus-record-deliveries-in-2018.aspx
+- Merger, 1997 (Airways): https://airwaysmag.com/new-post/boeing-mcdonnell-douglas-finalize-merger
+- Merger and culture (Quartz): https://qz.com/1776080/how-the-mcdonnell-douglas-boeing-merger-led-to-the-737-max-crisis
+- Buybacks, 787, MAX (Fortune): https://fortune.com/longform/boeing-737-max-crisis-shareholder-first-culture
+- Dash 80 (Smithsonian): https://www.smithsonianmag.com/air-space-magazine/dash-80-81791575/
+- 787 outsourcing (YaleGlobal): https://archive-yaleglobal.yale.edu/content/wing-and-prayer-outsourcing-boeing
+- 787 delivery pause (AIN): https://oldain.ainonline.com/aviation-news/air-transport/2022-08-10/boeing-resumes-787-deliveries-after-14-month-pause
+- House 737 MAX report (Reuters): https://www.insurancejournal.com/news/national/2020/09/17/582821.htm
+- Criminal case dismissed: https://www.aljazeera.com/economy/2025/11/6/us-judge-approves-doj-decision-to-drop-boeing-criminal-case
+- NTSB, door plug bolts: https://alaskapublic.org/2024/02/06/ntsb-says-key-bolts-were-missing-from-the-door-plug-that-blew-off-a-boeing-737-max-9
+- NTSB board meeting (AP): https://www.claimsjournal.com/news/national/2025/06/24/331410.htm
+- FAA updates on the 737-9: https://www.faa.gov/newsroom/updates-boeing-737-9-max-aircraft
+- 2024 strike (Fortune): https://www.fortune.com/2024/11/05/boeing-machinists-strike-ends-workers-accept-contract-38-raise-no-pension
+- 2025 orders vs Airbus: https://www.euronews.com/2026/01/14/the-trump-bump-boeing-orders-soar-past-airbus-after-seven-sluggish-years
+
+Fonts: Inter, IBM Plex Mono and Instrument Serif (SIL Open Font License); icons: Lucide (ISC).
+Charts, timelines and animations made by The Cost Curve from the sources above. Cumulative losses are our sum of Boeing's annual results.
+
+Images (Wikimedia Commons)
+- 4300streetcar, CC BY 4.0: https://commons.wikimedia.org/wiki/File:Boeing_747-100_prototype_N7470_%22City_of_Everett%22_rear_September_2011_2.jpg
+- skinnylawyer from Los Angeles, California, USA, CC BY-SA 2.0: https://commons.wikimedia.org/wiki/File:United_Airlines_-_N771UA_-_Flickr_-_skinnylawyer_(4).jpg
+- 787_First_Flight.jpg: Dave Sizer derivative work: Altair78 (talk), CC BY 2.0: https://commons.wikimedia.org/wiki/File:Boeing_787_first_flight.jpg
+- 4300streetcar, CC BY 4.0: https://commons.wikimedia.org/wiki/File:Avianca_Airbus_A320neo_N962AV_departing_Boston_June_2025_2.jpg
+- Jeff Hitchcock from Seattle, WA, USA, CC BY 2.0: https://commons.wikimedia.org/wiki/File:Boeing,_N7379E,_Boeing_737-9_MAX_(cropped).jpg
+- Pete Macklin, CC BY 2.0: https://commons.wikimedia.org/wiki/File:52_4-3-20_N327SK_Moses_Lake_(52619585269).jpg
+- 4300streetcar, CC BY 4.0: https://commons.wikimedia.org/wiki/File:Alaska_Airlines_Boeing_737-9_MAX_N928AK_departing_Boston_June_2025_2.jpg
+- Jeremy Elson, CC BY-SA 3.0: https://commons.wikimedia.org/wiki/File:Aerial_Boeing_Everett_Factory_October_2011.jpg
+Other images: public domain or CC0.
+
+Logos are trademarks of their respective owners, shown for identification only. This channel is independent and not affiliated with or endorsed by The Boeing Company or any company mentioned.
+
+This video is for educational purposes and is not financial advice.
+Made with the help of AI tools, including a synthetic narrator voice and AI-generated music (Google Lyria).

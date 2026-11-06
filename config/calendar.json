@@ -126,6 +126,12 @@
       "folder": "videos/shorts-originaux/05-ferrari",
       "video_id": "9FgVT2qzy7o",
       "publish_at": "2026-11-16T17:00:00Z"
+    },
+    {
+      "kind": "long",
+      "folder": "videos/08-boeing",
+      "video_id": "wTI0-V7peZQ",
+      "publish_at": "2026-11-17T15:00:00Z"
     }
   ]
 }
