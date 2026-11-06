@@ -64,3 +64,8 @@ description par `pipeline/short.py`. Logos : usage d'identification, affichés e
 ## Divulgation (C-13)
 
 Voix de synthèse ; musique générée par IA ajoutée ensuite → `contains_synthetic_media: true`.
+
+## Production (6/11/2026)
+
+Rendu 42207061484 (47,2 s, 12 plans), mix 42208495717 (circuit, -25 LUFS, start 0), envoi 42209925365 →
+PRIVÉ https://youtu.be/9FgVT2qzy7o, publish_at 2026-11-16T17:00:00Z.

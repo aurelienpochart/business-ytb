@@ -76,3 +76,10 @@ Wikimedia Commons, voir `media.json`. Crédits CC BY et CC BY-SA ajoutés à la 
 ## Divulgation (C-13)
 
 Voix de synthèse ; musique générée par IA ajoutée ensuite → `contains_synthetic_media: true`.
+
+## Production (6/11/2026)
+
+Rendu 42212754775 (47,4 s, 11 plans), mix 42214192461 (circuit, -25 LUFS, start 3), envoi 42214581880 →
+PRIVÉ https://youtu.be/T9brXDbiXIE, publish_at 2026-11-18T17:00:00Z (l'envoi a réussi ; seul le commit
+automatique de youtube.json a échoué sur un conflit de config/calendar.json avec la session Boeing, corrigé
+à la main). Logo LEGO non utilisé : le SVG de Commons est un carré rouge plein, qui deviendrait un carré blanc.
