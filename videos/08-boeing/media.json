@@ -1,154 +1,344 @@
 [
  {
   "id": "logo_boeing",
-  "title": "File:Boeing full logo.svg"
+  "title": "File:Boeing full logo.svg",
+  "file": "media/logo_boeing.svg",
+  "license": "Public domain",
+  "artist": "Boeing, Richard Burch Eiber",
+  "restrictions": "trademarked",
+  "page": "https://commons.wikimedia.org/wiki/File:Boeing_full_logo.svg"
  },
  {
   "id": "logo_boeing_wordmark",
-  "title": "File:Boeing wordmark.svg"
+  "title": "File:Boeing wordmark.svg",
+  "file": "media/logo_boeing_wordmark.svg",
+  "license": "Public domain",
+  "artist": "The Boeing Company",
+  "restrictions": "trademarked",
+  "page": "https://commons.wikimedia.org/wiki/File:Boeing_wordmark.svg"
  },
  {
   "id": "logo_mdd",
-  "title": "File:McDonnell Douglas logo.svg"
+  "title": "File:McDonnell Douglas logo.svg",
+  "file": "media/logo_mdd.svg",
+  "license": "Public domain",
+  "artist": "Great Brightstar",
+  "restrictions": "trademarked",
+  "page": "https://commons.wikimedia.org/wiki/File:McDonnell_Douglas_logo.svg"
  },
  {
   "id": "logo_airbus",
-  "title": "File:Airbus Logo 2017.svg"
+  "title": "File:Airbus Logo 2017.svg",
+  "file": "media/logo_airbus.svg",
+  "license": "Public domain",
+  "artist": "Airbus SEvector version by BegbertBiggs Own work based on: File:Airbus Group Logo 2014.svg",
+  "restrictions": "trademarked",
+  "page": "https://commons.wikimedia.org/wiki/File:Airbus_Logo_2017.svg"
  },
  {
   "id": "logo_faa",
-  "title": "File:Seal of the United States Federal Aviation Administration.svg"
+  "title": "File:Seal of the United States Federal Aviation Administration.svg",
+  "file": "media/logo_faa.svg",
+  "license": "Public domain",
+  "artist": "U.S. Government",
+  "restrictions": "insignia",
+  "page": "https://commons.wikimedia.org/wiki/File:Seal_of_the_United_States_Federal_Aviation_Administration.svg"
  },
  {
   "id": "logo_ntsb",
-  "title": "File:Seal of the United States National Transportation Safety Board.svg"
+  "title": "File:Seal of the United States National Transportation Safety Board.svg",
+  "file": "media/logo_ntsb.svg",
+  "license": "Public domain",
+  "artist": "U.S. Government",
+  "restrictions": "insignia",
+  "page": "https://commons.wikimedia.org/wiki/File:Seal_of_the_United_States_National_Transportation_Safety_Board.svg"
  },
  {
   "id": "logo_spirit",
-  "title": "File:Spirit AeroSystems logo.svg"
+  "title": "File:Spirit AeroSystems logo.svg",
+  "file": "media/logo_spirit.svg",
+  "license": "Public domain",
+  "artist": "Spirit AeroSystems",
+  "restrictions": "trademarked",
+  "page": "https://commons.wikimedia.org/wiki/File:Spirit_AeroSystems_logo.svg"
  },
  {
   "id": "bill_boeing",
-  "title": "File:William E. Boeing.jpg"
+  "title": "File:William E. Boeing.jpg",
+  "file": "media/bill_boeing.jpg",
+  "license": "Public domain",
+  "artist": "San Diego Air &amp; Space Museum Archives",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:William_E._Boeing.jpg"
  },
  {
   "id": "dash80_air",
-  "title": "File:Boeing 367-80 in flight.jpg"
+  "title": "File:Boeing 367-80 in flight.jpg",
+  "file": "media/dash80_air.jpg",
+  "license": "Public domain",
+  "artist": "Boeing Dreamscape",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Boeing_367-80_in_flight.jpg"
  },
  {
   "id": "dash80_mtn",
-  "title": "File:Air to air photo of the Dash 80 FA239925.jpg"
+  "title": "File:Air to air photo of the Dash 80 FA239925.jpg",
+  "file": "media/dash80_mtn.jpg",
+  "license": "Public domain",
+  "artist": "Boeing Dreamscape",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Air_to_air_photo_of_the_Dash_80_FA239925.jpg"
  },
  {
   "id": "b707_panam",
-  "title": "File:Three Pan Am Boeing 707 awaiting delivery.jpg"
+  "title": "File:Three Pan Am Boeing 707 awaiting delivery.jpg",
+  "file": "media/b707_panam.jpg",
+  "license": "Public domain",
+  "artist": "Unknown authorUnknown author",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Three_Pan_Am_Boeing_707_awaiting_delivery.jpg"
  },
  {
   "id": "b747_first",
-  "title": "File:Boeing 747-100 prototype N7470 \"City of Everett\" rear September 2011 2.jpg"
+  "title": "File:Boeing 747-100 prototype N7470 \"City of Everett\" rear September 2011 2.jpg",
+  "file": "media/b747_first.jpg",
+  "license": "CC BY 4.0",
+  "artist": "4300streetcar",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Boeing_747-100_prototype_N7470_%22City_of_Everett%22_rear_September_2011_2.jpg"
  },
  {
   "id": "b777",
-  "title": "File:United Airlines - N771UA - Flickr - skinnylawyer (4).jpg"
+  "title": "File:United Airlines - N771UA - Flickr - skinnylawyer (4).jpg",
+  "file": "media/b777.jpg",
+  "license": "CC BY-SA 2.0",
+  "artist": "skinnylawyer from Los Angeles, California, USA",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:United_Airlines_-_N771UA_-_Flickr_-_skinnylawyer_(4).jpg"
  },
  {
   "id": "md80",
-  "title": "File:McDonnell Douglas MD-80 Laser Airlines.jpg"
+  "title": "File:McDonnell Douglas MD-80 Laser Airlines.jpg",
+  "file": "media/md80.jpg",
+  "license": "CC0",
+  "artist": "Wilfredor",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:McDonnell_Douglas_MD-80_Laser_Airlines.jpg"
  },
  {
   "id": "chicago_hq",
-  "title": "File:BoeingChicagoHQ.jpg"
+  "title": "File:BoeingChicagoHQ.jpg",
+  "file": "media/chicago_hq.jpg",
+  "license": "CC0",
+  "artist": "Raysonho @ Open Grid Scheduler / Scalable Grid Engine",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:BoeingChicagoHQ.jpg"
  },
  {
   "id": "b787_first",
-  "title": "File:Boeing 787 first flight.jpg"
+  "title": "File:Boeing 787 first flight.jpg",
+  "file": "media/b787_first.jpg",
+  "license": "CC BY 2.0",
+  "artist": "787_First_Flight.jpg: Dave Sizer\nderivative work: Altair78 (talk)",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Boeing_787_first_flight.jpg"
  },
  {
   "id": "b787_battery",
-  "title": "File:Boeing Dreamliner battery original and damaged.jpg"
+  "title": "File:Boeing Dreamliner battery original and damaged.jpg",
+  "file": "media/b787_battery.jpg",
+  "license": "Public domain",
+  "artist": "National Transportation Safety Board (NTSB)",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Boeing_Dreamliner_battery_original_and_damaged.jpg"
  },
  {
   "id": "ntsb_hearing",
-  "title": "File:787 Battery Fire Investigative Hearing (8675587380).jpg"
+  "title": "File:787 Battery Fire Investigative Hearing (8675587380).jpg",
+  "file": "media/ntsb_hearing.jpg",
+  "license": "Public domain",
+  "artist": "NTSBgov",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:787_Battery_Fire_Investigative_Hearing_(8675587380).jpg"
  },
  {
   "id": "a320neo",
-  "title": "File:Avianca Airbus A320neo N962AV departing Boston June 2025 2.jpg"
+  "title": "File:Avianca Airbus A320neo N962AV departing Boston June 2025 2.jpg",
+  "file": "media/a320neo.jpg",
+  "license": "CC BY 4.0",
+  "artist": "4300streetcar",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Avianca_Airbus_A320neo_N962AV_departing_Boston_June_2025_2.jpg"
  },
  {
   "id": "max_house",
-  "title": "File:Boeing, N7379E, Boeing 737-9 MAX (cropped).jpg"
+  "title": "File:Boeing, N7379E, Boeing 737-9 MAX (cropped).jpg",
+  "file": "media/max_house.jpg",
+  "license": "CC BY 2.0",
+  "artist": "Jeff Hitchcock from Seattle, WA, USA",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Boeing,_N7379E,_Boeing_737-9_MAX_(cropped).jpg"
  },
  {
   "id": "house_report",
-  "title": "File:Final Committee Report on the Design, Development and Certification of the B737 MAX.pdf"
+  "title": "File:Final Committee Report on the Design, Development and Certification of the B737 MAX.pdf",
+  "file": "media/house_report.jpg",
+  "license": "Public domain",
+  "artist": "House Committee on Transportation and Infrastructure",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Final_Committee_Report_on_the_Design,_Development_and_Certification_of_the_B737_MAX.pdf"
  },
  {
   "id": "leap1b",
-  "title": "File:CFMI LEAP 1B engine from a Boeing 737-8 MAX.jpg"
+  "title": "File:CFMI LEAP 1B engine from a Boeing 737-8 MAX.jpg",
+  "file": "media/leap1b.jpg",
+  "license": "CC0",
+  "artist": "Thyrome",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:CFMI_LEAP_1B_engine_from_a_Boeing_737-8_MAX.jpg"
  },
  {
   "id": "max_moses",
-  "title": "File:52 4-3-20 N327SK Moses Lake (52619585269).jpg"
+  "title": "File:52 4-3-20 N327SK Moses Lake (52619585269).jpg",
+  "file": "media/max_moses.jpg",
+  "license": "CC BY 2.0",
+  "artist": "Pete Macklin",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:52_4-3-20_N327SK_Moses_Lake_(52619585269).jpg"
  },
  {
   "id": "renton_line",
-  "title": "File:Boeing Plant in Renton, 5-18-2010 (4622746048).jpg"
+  "title": "File:Boeing Plant in Renton, 5-18-2010 (4622746048).jpg",
+  "file": "media/renton_line.jpg",
+  "license": "Public domain",
+  "artist": "U.S. Department of the Treasury",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Boeing_Plant_in_Renton,_5-18-2010_(4622746048).jpg"
  },
  {
   "id": "renton_visit",
-  "title": "File:Boeing Co. Officials Show Secretary Kerry 737 Assembly Line Following Trade Speech at Plant in Washington (17685396230).jpg"
+  "title": "File:Boeing Co. Officials Show Secretary Kerry 737 Assembly Line Following Trade Speech at Plant in Washington (17685396230).jpg",
+  "file": "media/renton_visit.jpg",
+  "license": "Public domain",
+  "artist": "U.S. Department of State from United States",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Boeing_Co._Officials_Show_Secretary_Kerry_737_Assembly_Line_Following_Trade_Speech_at_Plant_in_Washington_(17685396230).jpg"
  },
  {
   "id": "alaska_max9",
-  "title": "File:Alaska Airlines Boeing 737-9 MAX N928AK departing Boston June 2025 2.jpg"
+  "title": "File:Alaska Airlines Boeing 737-9 MAX N928AK departing Boston June 2025 2.jpg",
+  "file": "media/alaska_max9.jpg",
+  "license": "CC BY 4.0",
+  "artist": "4300streetcar",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Alaska_Airlines_Boeing_737-9_MAX_N928AK_departing_Boston_June_2025_2.jpg"
  },
  {
   "id": "door_plug_lab",
-  "title": "File:Alaska Airlines door plug inspected at NTSB lab.jpg"
+  "title": "File:Alaska Airlines door plug inspected at NTSB lab.jpg",
+  "file": "media/door_plug_lab.jpg",
+  "license": "Public domain",
+  "artist": "National Transportation Safety Board",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Alaska_Airlines_door_plug_inspected_at_NTSB_lab.jpg"
  },
  {
   "id": "door_plug_found",
-  "title": "File:Alaska 1282 door plug NTSB 02.jpg"
+  "title": "File:Alaska 1282 door plug NTSB 02.jpg",
+  "file": "media/door_plug_found.jpg",
+  "license": "Public domain",
+  "artist": "National Transportation Safety Board",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Alaska_1282_door_plug_NTSB_02.jpg"
  },
  {
   "id": "ntsb_1282",
-  "title": "File:NTSB investigation of the January 5, 2023 accident involving Alaska Airlines Flight 1282 on a Boeing 737-9 MAX - 6.jpg"
+  "title": "File:NTSB investigation of the January 5, 2023 accident involving Alaska Airlines Flight 1282 on a Boeing 737-9 MAX - 6.jpg",
+  "file": "media/ntsb_1282.jpg",
+  "license": "Public domain",
+  "artist": "NTSBgov",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:NTSB_investigation_of_the_January_5,_2023_accident_involving_Alaska_Airlines_Flight_1282_on_a_Boeing_737-9_MAX_-_6.jpg"
  },
  {
   "id": "homendy",
-  "title": "File:Jennifer Homendy official photo.jpg"
+  "title": "File:Jennifer Homendy official photo.jpg",
+  "file": "media/homendy.jpg",
+  "license": "Public domain",
+  "artist": "National Transportation Safety Board",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Jennifer_Homendy_official_photo.jpg"
  },
  {
   "id": "whitaker",
-  "title": "File:Michael Whitaker 2023 FAA Portrait.jpg"
+  "title": "File:Michael Whitaker 2023 FAA Portrait.jpg",
+  "file": "media/whitaker.jpg",
+  "license": "Public domain",
+  "artist": "Federal Aviation Administration",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Michael_Whitaker_2023_FAA_Portrait.jpg"
  },
  {
   "id": "calhoun",
-  "title": "File:David Calhoun (cropped).png"
+  "title": "File:David Calhoun (cropped).png",
+  "file": "media/calhoun.png",
+  "license": "CC BY 3.0",
+  "artist": "PMO India",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:David_Calhoun_(cropped).png"
  },
  {
   "id": "capitol",
-  "title": "File:United States Capitol - west front.jpg"
+  "title": "File:United States Capitol - west front.jpg",
+  "file": "media/capitol.jpg",
+  "license": "Public domain",
+  "artist": "Architect of the Capitol",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:United_States_Capitol_-_west_front.jpg"
  },
  {
   "id": "ortberg",
-  "title": "File:Ortberg-Senate (cropped).png"
+  "title": "File:Ortberg-Senate (cropped).png",
+  "file": "media/ortberg.png",
+  "license": "Public domain",
+  "artist": "Senate Committee on Commerce, Science, and Transportation",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Ortberg-Senate_(cropped).png"
  },
  {
   "id": "spirit_wichita",
-  "title": "File:Spirit rolls out KC-46A selection 130726-F-GR156-858.jpg"
+  "title": "File:Spirit rolls out KC-46A selection 130726-F-GR156-858.jpg",
+  "file": "media/spirit_wichita.jpg",
+  "license": "Public domain",
+  "artist": "Airman 1st Class John Linzmeier",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Spirit_rolls_out_KC-46A_selection_130726-F-GR156-858.jpg"
  },
  {
   "id": "wind_tunnel",
-  "title": "File:BOEING LCF INLET IN THE 9X15 FOOT WIND TUNNEL - NARA - 17468060.jpg"
+  "title": "File:BOEING LCF INLET IN THE 9X15 FOOT WIND TUNNEL - NARA - 17468060.jpg",
+  "file": "media/wind_tunnel.jpg",
+  "license": "Public domain",
+  "artist": "Donald Huebler",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:BOEING_LCF_INLET_IN_THE_9X15_FOOT_WIND_TUNNEL_-_NARA_-_17468060.jpg"
  },
  {
   "id": "museum_flight",
-  "title": "File:Museum of Flight, Seattle.jpg"
+  "title": "File:Museum of Flight, Seattle.jpg",
+  "file": "media/museum_flight.jpg",
+  "license": "Public domain",
+  "artist": "Fawcett5 at English Wikipedia",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Museum_of_Flight,_Seattle.jpg"
  },
  {
   "id": "everett_aerial",
-  "title": "File:Aerial Boeing Everett Factory October 2011.jpg"
+  "title": "File:Aerial Boeing Everett Factory October 2011.jpg",
+  "file": "media/everett_aerial.jpg",
+  "license": "CC BY-SA 3.0",
+  "artist": "Jeremy Elson",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Aerial_Boeing_Everett_Factory_October_2011.jpg"
  }
 ]
