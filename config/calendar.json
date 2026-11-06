@@ -132,6 +132,12 @@
       "folder": "videos/08-boeing",
       "video_id": "wTI0-V7peZQ",
       "publish_at": "2026-11-17T15:00:00Z"
+    },
+    {
+      "kind": "short",
+      "folder": "videos/shorts-originaux/06-lego",
+      "video_id": "T9brXDbiXIE",
+      "publish_at": "2026-11-18T17:00:00Z"
     }
   ]
 }
