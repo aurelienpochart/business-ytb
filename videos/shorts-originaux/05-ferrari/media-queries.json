@@ -8,9 +8,11 @@
  "purosangue": "Ferrari Purosangue",
  "ferrari_show": "Ferrari showroom",
  "ferrari_night": "Ferrari night street",
- "toyota_plant": "Toyota assembly line plant",
- "toyota_lot": "new cars parking lot export port Toyota",
  "corolla": "Toyota Corolla 2023",
- "rav4": "Toyota RAV4 2024",
- "traffic": "traffic jam Tokyo cars"
+ "toyota_plant": "Toyota Motor Manufacturing Kentucky",
+ "toyota_line": "Toyota factory production line",
+ "car_ship": "car carrier ship loading cars",
+ "car_port": "new cars port terminal export",
+ "toyota_hq": "Toyota headquarters Toyota City",
+ "toyota_dealer": "Toyota dealership"
 }

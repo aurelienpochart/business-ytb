@@ -1,0 +1,208 @@
+[
+ {
+  "at": "p0",
+  "type": "shot",
+  "props": {
+   "photo": "ferrari_red",
+   "dim": 0.62,
+   "logo": "logo_ferrari",
+   "kicker": "Myth",
+   "text": "More cars = *more profit*"
+  }
+ },
+ {
+  "at": "p1",
+  "type": "shot",
+  "props": {
+   "photo": "toyota_lot",
+   "dim": 0.66,
+   "logo": "logo_toyota",
+   "icon": "Car",
+   "color": "teal",
+   "number": "9.6M",
+   "numberDelay": {
+    "$t": "nine point",
+    "offset": -0.1
+   },
+   "label": "vehicles sold by Toyota",
+   "sub": "April 2025 to March 2026",
+   "source": "Toyota FY2026 results"
+  }
+ },
+ {
+  "at": "p2",
+  "type": "shot",
+  "props": {
+   "photo": "maranello",
+   "dim": 0.64,
+   "logo": "logo_ferrari",
+   "kicker": "Ferrari, 2025",
+   "number": "13,640",
+   "numberDelay": {
+    "$t": "Thirteen thousand",
+    "offset": -0.1
+   },
+   "color": "gold",
+   "label": "cars shipped",
+   "source": "Ferrari FY2025 results"
+  }
+ },
+ {
+  "at": "p2",
+  "after": "Toyota sells",
+  "type": "shot",
+  "props": {
+   "photo": "toyota_plant",
+   "dim": 0.7,
+   "icon": "Clock",
+   "color": "teal",
+   "kicker": "Toyota sells as many in",
+   "number": "12 hours",
+   "numberDelay": {
+    "$t": "twelve hours",
+    "offset": -0.1
+   },
+   "label": "on an average day",
+   "source": "Toyota FY2026 results"
+  }
+ },
+ {
+  "at": "p3",
+  "type": "shot",
+  "props": {
+   "photo": "ferrari_296",
+   "dim": 0.66,
+   "kicker": "Ferrari, 2025 vs 2024",
+   "number": "−112",
+   "numberDelay": {
+    "$t": "hundred",
+    "offset": -0.2
+   },
+   "color": "slate",
+   "label": "cars shipped",
+   "source": "Ferrari FY2025 results"
+  }
+ },
+ {
+  "at": "p3",
+  "after": "Yet its",
+  "type": "shot",
+  "props": {
+   "photo": "ferrari_night",
+   "dim": 0.66,
+   "icon": "TrendingUp",
+   "color": "gold",
+   "kicker": "Yet profit",
+   "number": "+12%",
+   "numberDelay": {
+    "$t": "twelve percent",
+    "offset": -0.1
+   },
+   "label": "operating profit, 2025",
+   "source": "Ferrari FY2025 results"
+  }
+ },
+ {
+  "at": "p4",
+  "type": "shot",
+  "props": {
+   "photo": "ferrari_show",
+   "dim": 0.66,
+   "kicker": "Operating profit, 2025",
+   "number": "€2.1B",
+   "numberDelay": {
+    "$t": "two point one",
+    "offset": -0.1
+   },
+   "color": "gold",
+   "label": "Ferrari",
+   "source": "Ferrari FY2025 results"
+  }
+ },
+ {
+  "at": "p4",
+  "after": "or about",
+  "type": "shot",
+  "props": {
+   "photo": "ferrari_roma",
+   "dim": 0.68,
+   "icon": "Coins",
+   "color": "gold",
+   "kicker": "Per Ferrari",
+   "number": "€155K",
+   "numberDelay": {
+    "$t": "hundred fifty-five",
+    "offset": -0.15
+   },
+   "label": "profit per car",
+   "sub": "operating profit ÷ cars shipped",
+   "source": "Ferrari FY2025 results"
+  }
+ },
+ {
+  "at": "p5",
+  "type": "shot",
+  "props": {
+   "photo": "corolla",
+   "dim": 0.78,
+   "kicker": "Profit per car",
+   "compare": [
+    {
+     "label": "Ferrari",
+     "value": 154.7,
+     "display": "€155K",
+     "color": "gold",
+     "strong": true,
+     "delay": 0.1
+    },
+    {
+     "label": "Toyota",
+     "value": 2.24,
+     "display": "€2.2K",
+     "color": "teal",
+     "delay": {
+      "$t": "two thousand",
+      "offset": -0.15
+     }
+    }
+   ],
+   "source": "Ferrari FY2025, Toyota FY2026 results"
+  }
+ },
+ {
+  "at": "p6",
+  "type": "shot",
+  "props": {
+   "photo": "purosangue",
+   "dim": 0.66,
+   "logo": "logo_ferrari",
+   "kicker": "Profit per car vs Toyota",
+   "number": "69×",
+   "numberDelay": {
+    "$t": "sixty-nine",
+    "offset": -0.1
+   },
+   "color": "gold",
+   "label": "more for Ferrari",
+   "source": "Ferrari FY2025, Toyota FY2026 results"
+  }
+ },
+ {
+  "at": "p7",
+  "type": "shot",
+  "props": {
+   "photo": "ferrari_red",
+   "focus": "50% 60%",
+   "dim": 0.6,
+   "logo": "logo_ferrari",
+   "kicker": "Reality",
+   "text": "Fewer cars, *for more*"
+  }
+ },
+ {
+  "at": "p7",
+  "after": "More on the channel",
+  "type": "endcard",
+  "props": {}
+ }
+]

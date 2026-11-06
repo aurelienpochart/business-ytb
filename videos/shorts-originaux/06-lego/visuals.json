@@ -1,0 +1,308 @@
+[
+ {
+  "at": "p0",
+  "type": "shot",
+  "props": {
+   "photo": "bricks",
+   "dim": 0.62,
+   "logo": "logo_lego",
+   "kicker": "2004",
+   "text": "LEGO was *in trouble*"
+  }
+ },
+ {
+  "at": "p1",
+  "type": "shot",
+  "props": {
+   "photo": "bricks_pile",
+   "dim": 0.7,
+   "kicker": "Sales, 2004",
+   "number": "6.3B",
+   "numberDelay": {
+    "$t": "six point",
+    "offset": -0.1
+   },
+   "color": "slate",
+   "label": "Danish kroner (DKK)",
+   "source": "LEGO Group annual reports"
+  }
+ },
+ {
+  "at": "p1",
+  "after": "And it lost",
+  "type": "shot",
+  "props": {
+   "photo": "billund",
+   "dim": 0.72,
+   "icon": "TrendingDown",
+   "color": "brick",
+   "kicker": "Net result, 2004",
+   "number": "−1.8B",
+   "numberDelay": {
+    "$t": "one point eight",
+    "offset": -0.1
+   },
+   "label": "kroner lost in one year",
+   "source": "LEGO Group annual reports"
+  }
+ },
+ {
+  "at": "p2",
+  "type": "shot",
+  "props": {
+   "photo": "build",
+   "dim": 0.62,
+   "kicker": "Then",
+   "text": "Back to *the brick*"
+  }
+ },
+ {
+  "at": "p3",
+  "type": "shot",
+  "props": {
+   "photo": "store",
+   "dim": 0.8,
+   "header": {
+    "number": "DKK",
+    "label": "LEGO sales, billions",
+    "color": "gold"
+   },
+   "curve": {
+    "yMax": 90,
+    "yTicks": [
+     20,
+     40,
+     60,
+     80
+    ],
+    "xTicks": [
+     2004,
+     2015,
+     2025
+    ],
+    "height": 640,
+    "draw": 5.5,
+    "delay": 0.2,
+    "series": [
+     {
+      "label": "Sales",
+      "color": "gold",
+      "end": "83.5B",
+      "points": [
+       [
+        2004,
+        6.29
+       ],
+       [
+        2005,
+        7.03
+       ],
+       [
+        2006,
+        7.8
+       ],
+       [
+        2007,
+        8.03
+       ],
+       [
+        2008,
+        9.53
+       ],
+       [
+        2009,
+        11.66
+       ],
+       [
+        2010,
+        16.01
+       ],
+       [
+        2011,
+        18.73
+       ],
+       [
+        2012,
+        23.09
+       ],
+       [
+        2013,
+        25.29
+       ],
+       [
+        2014,
+        28.58
+       ],
+       [
+        2015,
+        35.78
+       ],
+       [
+        2016,
+        37.93
+       ],
+       [
+        2017,
+        34.99
+       ],
+       [
+        2018,
+        36.39
+       ],
+       [
+        2019,
+        38.54
+       ],
+       [
+        2020,
+        43.66
+       ],
+       [
+        2021,
+        55.29
+       ],
+       [
+        2022,
+        64.65
+       ],
+       [
+        2023,
+        65.91
+       ],
+       [
+        2024,
+        74.33
+       ],
+       [
+        2025,
+        83.53
+       ]
+      ]
+     }
+    ]
+   },
+   "source": "LEGO Group annual reports"
+  }
+ },
+ {
+  "at": "p4",
+  "after": "eighty-three",
+  "type": "shot",
+  "props": {
+   "photo": "lego_house",
+   "dim": 0.66,
+   "logo": "logo_lego",
+   "kicker": "Sales, 2025",
+   "number": "83.5B",
+   "numberDelay": 0.1,
+   "color": "gold",
+   "label": "Danish kroner (DKK)",
+   "source": "LEGO Group annual reports"
+  }
+ },
+ {
+  "at": "p4",
+  "after": "Thirteen times",
+  "type": "shot",
+  "props": {
+   "photo": "minifig",
+   "dim": 0.66,
+   "icon": "TrendingUp",
+   "color": "gold",
+   "kicker": "Sales vs 2004",
+   "number": "13×",
+   "numberDelay": {
+    "$t": "Thirteen",
+    "offset": -0.1
+   },
+   "label": "in 21 years",
+   "source": "LEGO Group annual reports"
+  }
+ },
+ {
+  "at": "p5",
+  "type": "shot",
+  "props": {
+   "photo": "city",
+   "dim": 0.8,
+   "header": {
+    "number": "Profit",
+    "label": "net result, DKK",
+    "color": "paper"
+   },
+   "halves": [
+    {
+     "icon": "TrendingDown",
+     "big": "−1.8B",
+     "label": "2004",
+     "color": "brick",
+     "delay": 0.1
+    },
+    {
+     "icon": "TrendingUp",
+     "big": "+16.7B",
+     "label": "2025",
+     "color": "gold",
+     "delay": {
+      "$t": "sixteen point",
+      "offset": -0.1
+     }
+    }
+   ],
+   "source": "LEGO Group annual reports"
+  }
+ },
+ {
+  "at": "p6",
+  "type": "shot",
+  "props": {
+   "photo": "technic",
+   "dim": 0.7,
+   "kicker": "2025 profit vs 2004 sales",
+   "number": "2.65×",
+   "numberDelay": {
+    "$t": "two and a half",
+    "offset": -0.1
+   },
+   "color": "gold",
+   "label": "LEGO's entire 2004 sales",
+   "source": "LEGO Group annual reports"
+  }
+ },
+ {
+  "at": "p7",
+  "type": "shot",
+  "props": {
+   "photo": "store",
+   "focus": "30% 50%",
+   "dim": 0.68,
+   "icon": "ShoppingBag",
+   "color": "gold",
+   "kicker": "Consumer sales, 2025",
+   "number": "+16%",
+   "numberDelay": {
+    "$t": "sixteen percent",
+    "offset": -0.1
+   },
+   "label": "toy market: +7%",
+   "source": "LEGO Group, 2025 results"
+  }
+ },
+ {
+  "at": "p8",
+  "type": "shot",
+  "props": {
+   "photo": "legoland",
+   "dim": 0.6,
+   "logo": "logo_lego",
+   "kicker": "Now",
+   "text": "Profit beats *old sales*"
+  }
+ },
+ {
+  "at": "p8",
+  "after": "More on the channel",
+  "type": "endcard",
+  "props": {}
+ }
+]

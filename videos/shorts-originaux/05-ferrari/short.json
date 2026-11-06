@@ -1,0 +1,15 @@
+{
+  "format": "Myth vs Reality",
+  "angle": "The usual idea is that carmakers win by volume. Ferrari's own 2025 results say the opposite: it shipped 13,640 cars, 112 fewer than in 2024, yet operating profit rose 12% to €2.1 billion, about €155,000 per car, against roughly €2,200 per vehicle for Toyota, which sold 9.6 million.",
+  "hook": "More cars = *more profit*?",
+  "paragraphs": [
+    "Myth: the more cars you sell, the more money you make.",
+    "Toyota sold {nine point six million|9.6 million} vehicles in its last fiscal year.",
+    "Ferrari, in {twenty twenty-five|2025}? {Thirteen thousand six hundred forty|13,640} cars. Toyota sells that many in twelve hours.",
+    "Ferrari sold {a hundred and twelve|112} fewer cars than the year before. Yet its profit rose {twelve percent|12%}.",
+    "That's {two point one billion euros|€2.1 billion} of operating profit, or about {a hundred fifty-five thousand|€155,000} per car.",
+    "Toyota makes about {two thousand two hundred euros|€2,200} per vehicle.",
+    "Ferrari makes {sixty-nine times|69 times} more on each car.",
+    "Reality: Ferrari sells fewer cars, for more. More on the channel."
+  ]
+}
