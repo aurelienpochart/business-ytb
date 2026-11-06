@@ -12,6 +12,7 @@ import {Journey} from './components/journey';
 import {Chain, Parcels, Trails} from './components/question';
 import {Gap, Levers, Spread} from './components/teardown';
 import {Segment, VideoProps, Visual} from './types';
+import {Airframe, Gauge} from './components/aviation';
 import {C, applyTint} from './theme';
 
 export const END_SCREEN_SECONDS = 20;
@@ -49,6 +50,8 @@ export const BLOCKS: Record<string, React.FC<any>> = {
   levers: Levers, // console des leviers sur un coût fixe (gabarit The Teardown)
   gap: Gap, // revenus contre coût fixe, l'écart qui s'ouvre
   spread: Spread, // paiement d'avance, charge étalée (amortissement)
+  airframe: Airframe, // avion de ligne en profil façon plan d'ingénieur (vidéo 08 Boeing)
+  gauge: Gauge, // instrument de cockpit : cadence, plafond
 };
 
 export const renderVisual = (v: Visual) => {

@@ -191,6 +191,30 @@ export const TINTS: Record<string, Palette> = {
       heroNumGlow: 'rgba(229,9,20,0.6)',
     },
   },
+  boeing: {
+    // Bleu Boeing (#0033A1) pour l'ambiance : nuit saphir presque noire, plus « ciel de haute altitude » que le
+    // cobalt d'Intel et le bleu roi de Ryanair (halos plus froids, légèrement acier) ; l'or reste l'accent
+    // principal. Les chiffres « teal » passent à un bleu ciel pâle (#7CC4FF), lisible sur le saphir et distinct
+    // de l'or et du rouge brique.
+    C: {ink: '#01030A', navy: '#041029', navyLight: '#0A1C42', mute: '#9BAAC4', slate: '#7A8CAE', teal: '#7CC4FF'},
+    GRAD: {
+      teal: ['#1A5AA8', '#B2DCFF', 'rgba(124,196,255,0.42)'],
+      slate: ['#26344F', '#93A5C6', 'rgba(147,165,198,0.25)'],
+    },
+    AMB: {
+      inkRgb: '1,3,10',
+      night: '#0A2A6E',
+      nightSoft: '#08235C',
+      orbCool: 'rgba(0,51,161,0.16)',
+      orbTeal: 'rgba(124,196,255,0.05)',
+      particle: '#dcebff',
+      photoGrade: 'rgba(0,40,120,0.26)',
+      photoFilter: '',
+      regradeFilter: 'saturate(0.6)',
+      heroNum: '#9AD2FF',
+      heroNumGlow: 'rgba(80,160,255,0.55)',
+    },
+  },
 };
 
 const DEFAULT = {C: {...C}, GRAD: {...GRAD}, AMB: {...AMB}};

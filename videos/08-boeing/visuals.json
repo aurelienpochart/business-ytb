@@ -1,0 +1,1709 @@
+[
+ {
+  "at": "c0p0",
+  "type": "hero",
+  "props": {
+   "photo": "renton_line",
+   "logo": "logo_boeing",
+   "logoWidth": 560,
+   "logoHeight": 130,
+   "logoColor": "white",
+   "number": "806",
+   "label": "airplanes delivered in 2018, a record",
+   "kicker": "Boeing, 2018",
+   "numberAt": 1.0,
+   "source": "Reuters via OHS Online (Jan. 14, 2019)"
+  }
+ },
+ {
+  "at": "c0p0",
+  "after": "That year",
+  "type": "numbers",
+  "bg": "b707_panam",
+  "props": {
+   "title": "Boeing, 2018",
+   "items": [
+    {
+     "value": 10.5,
+     "prefix": "$",
+     "suffix": "B",
+     "decimals": 1,
+     "label": "net profit",
+     "color": "amber",
+     "icon": "Coins"
+    }
+   ],
+   "source": "Boeing annual results, 10-K data 2018-2023; Boeing Q4 2025 results"
+  }
+ },
+ {
+  "at": "c0p1",
+  "type": "bars",
+  "props": {
+   "title": "Boeing net income ($ billions)",
+   "bars": [
+    {
+     "label": "2018",
+     "value": 10.46,
+     "display": "+$10.5B",
+     "color": "amber"
+    },
+    {
+     "label": "2019",
+     "value": -0.64,
+     "display": "−$0.6B",
+     "color": "brick"
+    },
+    {
+     "label": "2020",
+     "value": -11.87,
+     "display": "−$11.9B",
+     "color": "brick"
+    },
+    {
+     "label": "2021",
+     "value": -4.2,
+     "display": "−$4.2B",
+     "color": "brick"
+    },
+    {
+     "label": "2022",
+     "value": -4.94,
+     "display": "−$4.9B",
+     "color": "brick"
+    },
+    {
+     "label": "2023",
+     "value": -2.22,
+     "display": "−$2.2B",
+     "color": "brick"
+    },
+    {
+     "label": "2024",
+     "value": -11.82,
+     "display": "−$11.8B",
+     "color": "brick",
+     "note": "total: −$35.7B"
+    }
+   ],
+   "delays": [
+    0.2,
+    1.81,
+    2.06,
+    2.31,
+    2.56,
+    2.81,
+    3.06
+   ],
+   "source": "Boeing annual results, 10-K data 2018-2023; Boeing Q4 2025 results"
+  }
+ },
+ {
+  "at": "c0p1",
+  "after": "In the same years",
+  "type": "tiles",
+  "props": {
+   "kicker": "2019 to 2024",
+   "items": [
+    {
+     "icon": "Plane",
+     "label": "Two crashes",
+     "sub": "346 people killed",
+     "color": "brick"
+    },
+    {
+     "icon": "DoorOpen",
+     "label": "A panel blew out",
+     "sub": "January 2024",
+     "color": "amber"
+    },
+    {
+     "icon": "Factory",
+     "label": "A strike",
+     "sub": "53 days, 2024",
+     "color": "amber"
+    }
+   ],
+   "delays": [
+    0.2,
+    5.36,
+    8.84
+   ]
+  }
+ },
+ {
+  "at": "c0p2",
+  "type": "statement",
+  "bg": "ntsb_hearing",
+  "props": {
+   "kicker": "A strange detail",
+   "text": "First losing year *since 1997*.",
+   "icon": "CalendarClock",
+   "source": "AFP via Capital FM (Jan. 29, 2020)"
+  }
+ },
+ {
+  "at": "c0p2",
+  "after": "That is the year",
+  "type": "photo",
+  "props": {
+   "photo": "md80",
+   "logo": "logo_mdd",
+   "kicker": "1997",
+   "text": "The year Boeing bought *McDonnell Douglas*.",
+   "focus": "50% 55%"
+  }
+ },
+ {
+  "at": "c0p3",
+  "type": "photo",
+  "props": {
+   "photo": "dash80_mtn",
+   "kicker": "For most of a century",
+   "text": "The *engineers'* company.",
+   "focus": "50% 50%"
+  }
+ },
+ {
+  "at": "c0p4",
+  "type": "statement",
+  "bg": "everett_aerial",
+  "props": {
+   "kicker": "Not one bad airplane",
+   "text": "A slow change in *what it optimized*.",
+   "icon": "Compass"
+  }
+ },
+ {
+  "at": "c0p5",
+  "type": "photo",
+  "props": {
+   "photo": "museum_flight",
+   "kicker": "Seattle",
+   "text": "Back to *1954*.",
+   "focus": "50% 50%"
+  }
+ },
+ {
+  "at": "c1p0",
+  "type": "photo",
+  "props": {
+   "photo": "dash80_air",
+   "kicker": "Seattle, July 15, 1954",
+   "text": "The *Dash 80* takes off.",
+   "focus": "50% 50%",
+   "source": "Smithsonian Air & Space"
+  }
+ },
+ {
+  "at": "c1p1",
+  "type": "numbers",
+  "bg": "dash80_mtn",
+  "props": {
+   "title": "The Dash 80: nobody had ordered it",
+   "items": [
+    {
+     "value": 16,
+     "prefix": "$",
+     "suffix": "M",
+     "label": "of Boeing's own money",
+     "color": "amber",
+     "icon": "Coins"
+    }
+   ],
+   "source": "Smithsonian Air & Space"
+  }
+ },
+ {
+  "at": "c1p1",
+  "after": "One account",
+  "type": "quote",
+  "props": {
+   "text": "Bet every penny in Boeing's coffers.",
+   "by": "How the board was persuaded, per Smithsonian Air & Space",
+   "source": "Smithsonian Air & Space"
+  }
+ },
+ {
+  "at": "c1p1",
+  "after": "It worked.",
+  "type": "photo",
+  "props": {
+   "photo": "b707_panam",
+   "kicker": "Pan Am 707s awaiting delivery",
+   "text": "The *jet age* begins.",
+   "focus": "50% 60%"
+  }
+ },
+ {
+  "at": "c1p2",
+  "type": "photo",
+  "props": {
+   "photo": "b747_first",
+   "kicker": "Everett, February 9, 1969",
+   "text": "The first *747*.",
+   "focus": "50% 50%",
+   "source": "The Everett Herald"
+  }
+ },
+ {
+  "at": "c1p3",
+  "type": "photo",
+  "props": {
+   "photo": "b777",
+   "kicker": "The 777, first flight June 12, 1994",
+   "text": "Designed *entirely on computers*.",
+   "focus": "50% 50%"
+  }
+ },
+ {
+  "at": "c1p3",
+  "after": "the first jetliner",
+  "type": "tiles",
+  "props": {
+   "title": "The 777, early 1990s",
+   "items": [
+    {
+     "icon": "Box",
+     "label": "100% digital",
+     "sub": "3D design, no full mock-up",
+     "color": "teal"
+    },
+    {
+     "icon": "Users",
+     "label": "8 airlines",
+     "sub": "in the design room",
+     "color": "amber"
+    }
+   ],
+   "delays": [
+    0.2,
+    3.7
+   ],
+   "source": "Airways Magazine"
+  }
+ },
+ {
+  "at": "c1p4",
+  "type": "airframe",
+  "props": {
+   "kicker": "The old pattern",
+   "name": "Engineering first",
+   "zones": [
+    {
+     "zone": "nose",
+     "label": "Design",
+     "sub": "in-house"
+    },
+    {
+     "zone": "center",
+     "label": "Build",
+     "sub": "in-house"
+    },
+    {
+     "zone": "tail",
+     "label": "Test",
+     "sub": "in-house"
+    }
+   ],
+   "start": 0.9,
+   "stagger": 1.1
+  }
+ },
+ {
+  "at": "c1p5",
+  "type": "statement",
+  "bg": "md80",
+  "props": {
+   "kicker": "Mid-1990s",
+   "text": "A third planemaker *running out of road*.",
+   "icon": "TrendingDown"
+  }
+ },
+ {
+  "at": "c2p0",
+  "type": "donut",
+  "props": {
+   "title": "New airliner orders, 1996",
+   "parts": [
+    {
+     "label": "Boeing",
+     "value": 60,
+     "display": "≈ 60%",
+     "color": "teal"
+    },
+    {
+     "label": "Airbus",
+     "value": 35,
+     "display": "≈ 35%",
+     "color": "slate"
+    },
+    {
+     "label": "McDonnell Douglas",
+     "value": 5,
+     "display": "≈ 5%",
+     "color": "amber"
+    }
+   ],
+   "center": "1996",
+   "start": 0.4,
+   "delays": [
+    1.0,
+    1.7,
+    8.62
+   ],
+   "focus": 2,
+   "source": "Quartz"
+  }
+ },
+ {
+  "at": "c2p1",
+  "type": "chrono",
+  "props": {
+   "title": "The merger",
+   "from": 1995,
+   "to": 2002,
+   "events": [
+    {
+     "year": 1996.95,
+     "date": "Dec. 1996",
+     "label": "Deal announced",
+     "sub": "$13.3B in stock",
+     "image": "logo_mdd",
+     "level": 1,
+     "at": 0.4
+    },
+    {
+     "year": 1997.58,
+     "date": "Aug. 1, 1997",
+     "label": "Merger closes",
+     "level": -1,
+     "at": 7.39,
+     "color": "amber",
+     "big": true
+    }
+   ],
+   "source": "Airways Magazine"
+  }
+ },
+ {
+  "at": "c2p2",
+  "type": "statement",
+  "bg": "museum_flight",
+  "props": {
+   "kicker": "Boeing was the buyer",
+   "text": "But McDonnell Douglas *ran it*.",
+   "sub": "Harry Stonecipher: president, then chief executive",
+   "icon": "Building2"
+  }
+ },
+ {
+  "at": "c2p3",
+  "type": "quote",
+  "props": {
+   "text": "Quit behaving like a family and become more like a team.",
+   "by": "Harry Stonecipher, 1998",
+   "source": "Quartz"
+  }
+ },
+ {
+  "at": "c2p4",
+  "type": "quote",
+  "props": {
+   "text": "…so that it's run like a business rather than a great engineering firm.",
+   "by": "Harry Stonecipher, Chicago Tribune, 2004",
+   "source": "Quartz; Fortune"
+  }
+ },
+ {
+  "at": "c2p5",
+  "type": "photo",
+  "props": {
+   "photo": "chicago_hq",
+   "kicker": "Chicago, 2001",
+   "text": "A headquarters *1,700 miles* from the factories.",
+   "focus": "50% 40%",
+   "source": "HBS Working Knowledge; our distance estimate"
+  }
+ },
+ {
+  "at": "c2p5",
+  "after": "helped by",
+  "type": "tiles",
+  "props": {
+   "title": "Seattle → Chicago, 2001",
+   "items": [
+    {
+     "icon": "Landmark",
+     "label": "$60M",
+     "sub": "tax credits over 20 years",
+     "color": "amber"
+    },
+    {
+     "icon": "Ruler",
+     "label": "≈ 1,700 mi",
+     "sub": "from the factories",
+     "color": "teal"
+    }
+   ],
+   "delays": [
+    0.2,
+    3.91
+   ],
+   "source": "HBS Working Knowledge; our estimate"
+  }
+ },
+ {
+  "at": "c2p6",
+  "type": "statement",
+  "bg": "wind_tunnel",
+  "props": {
+   "kicker": "In aviation",
+   "text": "The engineering *is* the business.",
+   "icon": "Wrench"
+  }
+ },
+ {
+  "at": "c3p0",
+  "type": "photo",
+  "props": {
+   "photo": "b787_first",
+   "kicker": "The 787 Dreamliner",
+   "text": "A new jet, *built a new way*.",
+   "focus": "50% 50%"
+  }
+ },
+ {
+  "at": "c3p1",
+  "type": "airframe",
+  "props": {
+   "kicker": "The 787 model",
+   "name": "Boeing 787",
+   "zones": [
+    {
+     "zone": "wing",
+     "label": "Wings",
+     "sub": "partner"
+    },
+    {
+     "zone": "forward",
+     "label": "Forward body",
+     "sub": "partner"
+    },
+    {
+     "zone": "center",
+     "label": "Center body",
+     "sub": "partner"
+    },
+    {
+     "zone": "aft",
+     "label": "Aft body",
+     "sub": "partner"
+    },
+    {
+     "zone": "tail",
+     "label": "Tail",
+     "sub": "partner"
+    }
+   ],
+   "counter": {
+    "value": "65%",
+    "label": "of the airframe by partners",
+    "at": 7.83
+   },
+   "start": 4.819999999999999,
+   "stagger": 0.7,
+   "source": "YaleGlobal Online (Mar. 11, 2011)"
+  }
+ },
+ {
+  "at": "c3p1",
+  "after": "Whole sections",
+  "type": "photo",
+  "props": {
+   "photo": "spirit_wichita",
+   "kicker": "50+ partners worldwide",
+   "text": "Sections arrive *ready-made*.",
+   "focus": "50% 50%"
+  }
+ },
+ {
+  "at": "c3p2",
+  "type": "statement",
+  "bg": "everett_aerial",
+  "props": {
+   "kicker": "The idea",
+   "text": "Less cash up front. *More risk later.*",
+   "icon": "Scale"
+  }
+ },
+ {
+  "at": "c3p3",
+  "type": "chrono",
+  "props": {
+   "title": "The Dreamliner",
+   "from": 2003,
+   "to": 2023,
+   "events": [
+    {
+     "year": 2004,
+     "label": "Program launched",
+     "level": 1,
+     "at": 0.3
+    },
+    {
+     "year": 2011,
+     "label": "First delivery, to ANA",
+     "sub": "about 3 years late",
+     "level": -1,
+     "at": 0.6,
+     "color": "brick"
+    },
+    {
+     "year": 2013,
+     "label": "Batteries: fleet grounded",
+     "sub": "about 3 months",
+     "level": 1,
+     "at": 11.38,
+     "color": "brick"
+    },
+    {
+     "year": 2021.4,
+     "date": "2021–22",
+     "label": "Deliveries halted",
+     "sub": "≈ 120 jets waiting",
+     "level": -1,
+     "at": 15.11,
+     "color": "brick"
+    }
+   ],
+   "source": "YaleGlobal; Fortune; The Columbian; AIN"
+  }
+ },
+ {
+  "at": "c3p3",
+  "after": "One estimate",
+  "type": "numbers",
+  "props": {
+   "title": "The 787 program",
+   "items": [
+    {
+     "value": 25,
+     "prefix": "$",
+     "suffix": "B",
+     "label": "over budget, one estimate",
+     "color": "brick",
+     "icon": "TrendingUp"
+    }
+   ],
+   "source": "Fortune"
+  }
+ },
+ {
+  "at": "c3p3",
+  "after": "In January 2013",
+  "type": "photo",
+  "props": {
+   "photo": "b787_battery",
+   "kicker": "January 2013",
+   "text": "A normal battery, and the *damaged* one.",
+   "focus": "50% 50%",
+   "source": "NTSB"
+  }
+ },
+ {
+  "at": "c3p4",
+  "type": "numbers",
+  "bg": "museum_flight",
+  "props": {
+   "title": "787 deliveries halted, 2021 to August 2022",
+   "items": [
+    {
+     "value": 14,
+     "suffix": " months",
+     "label": "of interrupted deliveries",
+     "color": "brick",
+     "icon": "CirclePause"
+    },
+    {
+     "value": 120,
+     "prefix": "≈ ",
+     "label": "finished jets waiting",
+     "color": "amber",
+     "icon": "Plane"
+    }
+   ],
+   "source": "AIN (Aug. 10, 2022)"
+  }
+ },
+ {
+  "at": "c3p5",
+  "type": "bars",
+  "props": {
+   "title": "Boeing, 2013 to 2019 ($ billions)",
+   "bars": [
+    {
+     "label": "Share buybacks",
+     "value": 43.4,
+     "display": "$43.4B",
+     "color": "amber"
+    },
+    {
+     "label": "Commercial airplane R&D",
+     "value": 15.7,
+     "display": "$15.7B",
+     "color": "teal"
+    }
+   ],
+   "delays": [
+    5.43,
+    14.35
+   ],
+   "source": "Fortune (2019)"
+  }
+ },
+ {
+  "at": "c3p5",
+  "after": "In 2016",
+  "type": "statement",
+  "props": {
+   "kicker": "2016",
+   "text": "*100%* of free cash flow back to shareholders.",
+   "icon": "HandCoins",
+   "source": "Fortune (2019)"
+  }
+ },
+ {
+  "at": "c3p6",
+  "type": "statement",
+  "bg": "renton_line",
+  "props": {
+   "kicker": "Buybacks are legal",
+   "text": "But that money *isn't* the next airplane.",
+   "icon": "PlaneTakeoff"
+  }
+ },
+ {
+  "at": "c4p0",
+  "type": "photo",
+  "props": {
+   "photo": "a320neo",
+   "logo": "logo_airbus",
+   "kicker": "2010",
+   "text": "Airbus launches the *A320neo*.",
+   "focus": "50% 50%"
+  }
+ },
+ {
+  "at": "c4p1",
+  "type": "tiles",
+  "props": {
+   "title": "2011: Boeing's choice",
+   "items": [
+    {
+     "icon": "PencilRuler",
+     "label": "A new airplane",
+     "sub": "many years, many billions",
+     "color": "slate"
+    },
+    {
+     "icon": "Wrench",
+     "label": "New engines on the 737",
+     "sub": "faster, much cheaper",
+     "color": "amber"
+    }
+   ],
+   "delays": [
+    0.3,
+    6.09
+   ],
+   "source": "Fortune"
+  }
+ },
+ {
+  "at": "c4p1",
+  "after": "One analyst",
+  "type": "quote",
+  "props": {
+   "text": "Their hand was forced.",
+   "by": "Scott Hamilton, aviation analyst, to Fortune",
+   "source": "Fortune (2019)"
+  }
+ },
+ {
+  "at": "c4p1",
+  "after": "That plane was",
+  "type": "photo",
+  "props": {
+   "photo": "max_house",
+   "kicker": "The 737 MAX",
+   "text": "An old jet, *new engines*.",
+   "focus": "50% 50%"
+  }
+ },
+ {
+  "at": "c4p2",
+  "type": "airframe",
+  "props": {
+   "kicker": "The 737 MAX",
+   "name": "Boeing 737 MAX",
+   "engineShift": 0.8,
+   "markers": [
+    {
+     "at": "sensor",
+     "label": "MCAS",
+     "sub": "one sensor",
+     "color": "brick",
+     "time": 9.62
+    }
+   ],
+   "start": 0.8,
+   "source": "House Transportation Committee report (Sept. 2020), via Reuters"
+  }
+ },
+ {
+  "at": "c4p3",
+  "type": "photo",
+  "props": {
+   "photo": "house_report",
+   "kicker": "House committee, final report, 2020",
+   "text": "MCAS: *not* in the pilots' manuals.",
+   "focus": "50% 30%"
+  }
+ },
+ {
+  "at": "c4p4",
+  "type": "statement",
+  "props": {
+   "kicker": "October 2018",
+   "text": "Lion Air: *189* people.",
+   "icon": "Ribbon"
+  }
+ },
+ {
+  "at": "c4p4",
+  "after": "Five months later",
+  "type": "statement",
+  "props": {
+   "kicker": "March 2019",
+   "text": "Ethiopian Airlines 302: *157* people.",
+   "icon": "Ribbon"
+  }
+ },
+ {
+  "at": "c4p5",
+  "type": "numbers",
+  "props": {
+   "title": "The two crashes",
+   "items": [
+    {
+     "value": 346,
+     "label": "people killed",
+     "color": "paper"
+    }
+   ],
+   "source": "US House Transportation Committee, via Reuters"
+  }
+ },
+ {
+  "at": "c4p6",
+  "type": "photo",
+  "props": {
+   "photo": "max_moses",
+   "kicker": "Moses Lake, Washington, 2020",
+   "text": "Grounded for *20 months*.",
+   "focus": "50% 55%",
+   "source": "Fortune (Nov. 18, 2020)"
+  }
+ },
+ {
+  "at": "c4p6",
+  "after": "after Boeing changed",
+  "type": "tiles",
+  "props": {
+   "title": "The fix",
+   "items": [
+    {
+     "icon": "Gauge",
+     "label": "Before",
+     "sub": "one sensor",
+     "color": "brick"
+    },
+    {
+     "icon": "Gauge",
+     "label": "After",
+     "sub": "two sensors",
+     "color": "teal"
+    }
+   ],
+   "delays": [
+    0.2,
+    0.8
+   ],
+   "source": "House Transportation Committee report, via Reuters"
+  }
+ },
+ {
+  "at": "c4p7",
+  "type": "quote",
+  "bg": "capitol",
+  "props": {
+   "text": "Horrific culmination… faulty design and performance assumptions.",
+   "by": "US House Transportation Committee, 2020",
+   "source": "Reuters via Insurance Journal (Sept. 17, 2020)"
+  }
+ },
+ {
+  "at": "c4p8",
+  "type": "receipt",
+  "props": {
+   "header": "THE MAX GROUNDING",
+   "subheader": "direct costs, one count",
+   "lines": [
+    {
+     "label": "Compensation to airlines",
+     "value": "$8.6B"
+    },
+    {
+     "label": "Abnormal production costs",
+     "value": "$5.0B"
+    },
+    {
+     "label": "Higher program costs",
+     "value": "$6.3B"
+    },
+    {
+     "rule": true,
+     "label": ""
+    },
+    {
+     "label": "Total, with other costs",
+     "value": "≈ $20B",
+     "strong": true,
+     "mark": true
+    }
+   ],
+   "delays": [
+    0.3,
+    0.9,
+    1.5,
+    2.0,
+    2.4
+   ],
+   "kicker": "By one count",
+   "text": "About *$20 billion*.",
+   "source": "CNN Business via Hartford Business Journal (Nov. 2020)"
+  }
+ },
+ {
+  "at": "c4p8",
+  "after": "In 2021",
+  "type": "chrono",
+  "props": {
+   "title": "The criminal case",
+   "from": 2020,
+   "to": 2026,
+   "events": [
+    {
+     "year": 2021,
+     "label": "Fraud charge",
+     "sub": "deferred prosecution",
+     "level": 1,
+     "at": 0.3
+    },
+    {
+     "year": 2025.85,
+     "date": "Nov. 2025",
+     "label": "Case dismissed",
+     "sub": "at the department's request",
+     "level": -1,
+     "at": 6.52,
+     "color": "amber"
+    }
+   ],
+   "source": "Al Jazeera (Nov. 6, 2025)"
+  }
+ },
+ {
+  "at": "c4p8",
+  "after": "The judge wrote",
+  "type": "quote",
+  "props": {
+   "text": "Fails to secure the necessary accountability.",
+   "by": "Judge Reed O'Connor, November 2025",
+   "source": "Al Jazeera (Nov. 6, 2025)"
+  }
+ },
+ {
+  "at": "c4p9",
+  "type": "statement",
+  "bg": "alaska_max9",
+  "props": {
+   "kicker": "The MAX flies again",
+   "text": "Then came *January 2024*.",
+   "icon": "CalendarDays"
+  }
+ },
+ {
+  "at": "c5p0",
+  "type": "photo",
+  "props": {
+   "photo": "alaska_max9",
+   "kicker": "Alaska Airlines 737 MAX 9",
+   "text": "Portland, *January 5, 2024*.",
+   "focus": "50% 50%",
+   "source": "Alaska Public Media / NPR (Feb. 6, 2024)"
+  }
+ },
+ {
+  "at": "c5p0",
+  "after": "at about fourteen",
+  "type": "airframe",
+  "props": {
+   "kicker": "Flight 1282",
+   "name": "Boeing 737 MAX 9",
+   "markers": [
+    {
+     "at": "plug",
+     "label": "Door plug",
+     "sub": "≈ 14,800 ft",
+     "color": "brick",
+     "time": 3.71
+    }
+   ],
+   "start": 0.6
+  }
+ },
+ {
+  "at": "c5p1",
+  "type": "photo",
+  "props": {
+   "photo": "ntsb_1282",
+   "kicker": "NTSB investigators, January 2024",
+   "text": "A *door plug*, for an unused exit.",
+   "focus": "50% 50%",
+   "source": "NTSB"
+  }
+ },
+ {
+  "at": "c5p1",
+  "after": "The crew turned",
+  "type": "tiles",
+  "props": {
+   "title": "Flight 1282",
+   "items": [
+    {
+     "icon": "PlaneLanding",
+     "label": "Landed",
+     "sub": "back in Portland",
+     "color": "teal"
+    },
+    {
+     "icon": "HeartPulse",
+     "label": "No one killed",
+     "sub": "8 minor injuries",
+     "color": "amber"
+    }
+   ],
+   "delays": [
+    0.3,
+    3.26
+   ],
+   "source": "AP via Claims Journal (June 24, 2025)"
+  }
+ },
+ {
+  "at": "c5p2",
+  "type": "numbers",
+  "bg": "door_plug_lab",
+  "props": {
+   "title": "What investigators found",
+   "items": [
+    {
+     "value": 4,
+     "label": "bolts missing",
+     "color": "brick",
+     "icon": "Bolt"
+    }
+   ],
+   "source": "NTSB preliminary report (Feb. 6, 2024), via Alaska Public Media"
+  }
+ },
+ {
+  "at": "c5p2",
+  "after": "The plug was",
+  "type": "chain",
+  "props": {
+   "kicker": "The door plug's path",
+   "rows": [
+    {
+     "nodes": [
+      {
+       "label": "Spirit AeroSystems",
+       "sub": "Wichita, Kansas",
+       "icon": "Factory"
+      },
+      {
+       "label": "Boeing Renton",
+       "sub": "rivets repaired",
+       "icon": "Wrench"
+      },
+      {
+       "label": "Closed again",
+       "sub": "without the bolts",
+       "icon": "TriangleAlert",
+       "strong": true
+      }
+     ]
+    }
+   ],
+   "start": 0.4,
+   "stagger": 3.37,
+   "source": "NTSB preliminary report, via Alaska Public Media"
+  }
+ },
+ {
+  "at": "c5p3",
+  "type": "photo",
+  "props": {
+   "photo": "renton_visit",
+   "kicker": "Renton, the 737 line",
+   "text": "No record *of the work*.",
+   "focus": "50% 45%",
+   "source": "AP via Claims Journal"
+  }
+ },
+ {
+  "at": "c5p3",
+  "after": "Its chief",
+  "type": "quote",
+  "props": {
+   "text": "Whatever final conclusions are reached, Boeing is accountable for what happened.",
+   "by": "Dave Calhoun, Boeing CEO, 2024",
+   "source": "Alaska Public Media / NPR"
+  }
+ },
+ {
+  "at": "c5p4",
+  "type": "tiles",
+  "props": {
+   "title": "The FAA steps in",
+   "items": [
+    {
+     "icon": "PlaneLanding",
+     "label": "171 jets",
+     "sub": "737 MAX 9s grounded",
+     "color": "brick"
+    },
+    {
+     "icon": "Gauge",
+     "label": "38 a month",
+     "sub": "MAX production cap",
+     "color": "amber"
+    },
+    {
+     "icon": "ClipboardCheck",
+     "label": "Audit",
+     "sub": "quality rules not met",
+     "color": "brick"
+    }
+   ],
+   "delays": [
+    0.3,
+    5.0,
+    8.62
+   ],
+   "source": "FAA; AP via Claims Journal"
+  }
+ },
+ {
+  "at": "c5p4",
+  "after": "The FAA's chief",
+  "type": "quote",
+  "props": {
+   "text": "Boeing must commit to real and profound improvements.",
+   "by": "Mike Whitaker, FAA Administrator, Feb. 2024",
+   "source": "FAA"
+  }
+ },
+ {
+  "at": "c5p5",
+  "type": "photo",
+  "props": {
+   "photo": "door_plug_lab",
+   "kicker": "NTSB, June 2025",
+   "text": "Boeing's procedures, and the FAA's *oversight*.",
+   "focus": "50% 50%"
+  }
+ },
+ {
+  "at": "c5p5",
+  "after": "Its chair",
+  "type": "quote",
+  "props": {
+   "text": "The crew shouldn't have had to be heroes, because this accident never should have happened.",
+   "by": "Jennifer Homendy, NTSB chair, June 2025",
+   "source": "AP via Claims Journal (June 24, 2025)"
+  }
+ },
+ {
+  "at": "c5p6",
+  "type": "chrono",
+  "bg": "spirit_wichita",
+  "props": {
+   "title": "Spirit AeroSystems, Wichita",
+   "from": 2003,
+   "to": 2027,
+   "events": [
+    {
+     "year": 2005,
+     "label": "Boeing sells the plant",
+     "sub": "to Onex",
+     "image": "logo_spirit",
+     "level": 1,
+     "at": 4.78
+    },
+    {
+     "year": 2025.93,
+     "date": "Dec. 2025",
+     "label": "Boeing buys it back",
+     "sub": "$4.7B at closing",
+     "level": -1,
+     "at": 6.52,
+     "color": "amber"
+    }
+   ],
+   "source": "Reuters via The National (Dec. 9, 2025)"
+  }
+ },
+ {
+  "at": "c6p0",
+  "type": "statement",
+  "bg": "renton_visit",
+  "props": {
+   "kicker": "March 25, 2024",
+   "text": "Dave Calhoun will *step down*.",
+   "icon": "DoorOpen",
+   "source": "Boeing (Mar. 25, 2024)"
+  }
+ },
+ {
+  "at": "c6p0",
+  "after": "In August",
+  "type": "photo",
+  "props": {
+   "photo": "ortberg",
+   "kicker": "Kelly Ortberg",
+   "text": "CEO since *August 2024*.",
+   "focus": "50% 30%",
+   "source": "Via Satellite (Aug. 1, 2024)"
+  }
+ },
+ {
+  "at": "c6p1",
+  "type": "numbers",
+  "bg": "everett_aerial",
+  "props": {
+   "title": "The 2024 machinists' strike",
+   "items": [
+    {
+     "value": 33000,
+     "label": "workers",
+     "color": "teal",
+     "icon": "Users"
+    },
+    {
+     "value": 53,
+     "label": "days",
+     "color": "brick",
+     "icon": "CalendarX"
+    }
+   ],
+   "source": "Fortune (Nov. 5, 2024)"
+  }
+ },
+ {
+  "at": "c6p2",
+  "type": "tiles",
+  "props": {
+   "title": "The deal, November 2024",
+   "items": [
+    {
+     "icon": "TrendingUp",
+     "label": "+38%",
+     "sub": "pay over four years",
+     "color": "amber"
+    },
+    {
+     "icon": "Ban",
+     "label": "No pension",
+     "sub": "not restored",
+     "color": "brick"
+    },
+    {
+     "icon": "Flame",
+     "label": "≈ $50M a day",
+     "sub": "cost, Bank of America",
+     "color": "brick"
+    }
+   ],
+   "delays": [
+    0.3,
+    5.65,
+    7.17
+   ],
+   "source": "Fortune (Nov. 5, 2024)"
+  }
+ },
+ {
+  "at": "c6p3",
+  "type": "receipt",
+  "props": {
+   "header": "OCTOBER 2024",
+   "subheader": "Ortberg's first moves",
+   "lines": [
+    {
+     "label": "Job cuts",
+     "value": "≈ 17,000"
+    },
+    {
+     "label": "New shares sold",
+     "value": "up to $24.3B"
+    },
+    {
+     "rule": true,
+     "label": ""
+    },
+    {
+     "label": "Goal",
+     "value": "keep the credit rating",
+     "strong": true,
+     "mark": true
+    }
+   ],
+   "delays": [
+    0.4,
+    4.93,
+    9.13,
+    9.530000000000001
+   ],
+   "kicker": "Ortberg moved fast",
+   "text": "Cut jobs, *raise cash*.",
+   "source": "Fortune; Reuters via Zawya (Oct. 28, 2024)"
+  }
+ },
+ {
+  "at": "c6p3",
+  "after": "Five years earlier",
+  "type": "statement",
+  "bg": "chicago_hq",
+  "props": {
+   "kicker": "2019 → 2024",
+   "text": "From buying its shares to *selling them*.",
+   "icon": "Repeat"
+  }
+ },
+ {
+  "at": "c6p4",
+  "type": "bars",
+  "props": {
+   "title": "Boeing, 2024 ($ billions)",
+   "bars": [
+    {
+     "label": "Net loss",
+     "value": -11.8,
+     "display": "−$11.8B",
+     "color": "brick"
+    },
+    {
+     "label": "Free cash flow",
+     "value": -14.3,
+     "display": "−$14.3B",
+     "color": "brick"
+    }
+   ],
+   "delays": [
+    0.3,
+    3.84
+   ],
+   "source": "Boeing Q4 2025 results (Jan. 27, 2026)"
+  }
+ },
+ {
+  "at": "c7p0",
+  "type": "bars",
+  "props": {
+   "title": "Commercial deliveries, 2025",
+   "bars": [
+    {
+     "label": "Boeing",
+     "value": 600,
+     "display": "600",
+     "color": "teal",
+     "note": "most since 2018"
+    },
+    {
+     "label": "Airbus",
+     "value": 793,
+     "display": "793",
+     "color": "slate"
+    }
+   ],
+   "delays": [
+    0.4,
+    6.52
+   ],
+   "source": "Boeing Q4 2025 results; Airbus (Jan. 2026)"
+  }
+ },
+ {
+  "at": "c7p0",
+  "after": "But for the first",
+  "type": "bars",
+  "props": {
+   "title": "Net orders, 2025",
+   "bars": [
+    {
+     "label": "Boeing",
+     "value": 1173,
+     "display": "1,173",
+     "color": "amber",
+     "note": "first lead in 7 years"
+    },
+    {
+     "label": "Airbus",
+     "value": 889,
+     "display": "889",
+     "color": "slate"
+    }
+   ],
+   "delays": [
+    0.3,
+    0.9
+   ],
+   "source": "Euronews (Jan. 14, 2026)"
+  }
+ },
+ {
+  "at": "c7p1",
+  "type": "gauge",
+  "props": {
+   "title": "737 MAX production rate",
+   "unit": "jets per month",
+   "name": "737 rate",
+   "max": 60,
+   "ticks": 10,
+   "cap": {
+    "value": 38,
+    "label": "cap 2024"
+   },
+   "steps": [
+    {
+     "value": 38,
+     "label": "FAA cap",
+     "sub": "January 2024",
+     "color": "brick",
+     "at": 0.6
+    },
+    {
+     "value": 42,
+     "label": "Cap raised",
+     "sub": "October 2025",
+     "at": 2.83
+    },
+    {
+     "value": 47,
+     "label": "Next step",
+     "sub": "2026",
+     "at": 8.19
+    }
+   ],
+   "source": "FAA via Flying Magazine; Boeing Q3 2026 results"
+  }
+ },
+ {
+  "at": "c7p2",
+  "type": "receipt",
+  "props": {
+   "header": "BOEING, 2025",
+   "subheader": "net profit, explained",
+   "lines": [
+    {
+     "label": "Net profit",
+     "value": "$2.2B"
+    },
+    {
+     "label": "of which gain on a sale",
+     "value": "$9.6B",
+     "mark": true
+    },
+    {
+     "rule": true,
+     "label": ""
+    },
+    {
+     "label": "Without it",
+     "value": "a loss",
+     "strong": true
+    }
+   ],
+   "delays": [
+    0.3,
+    5.29,
+    6.09,
+    6.59
+   ],
+   "kicker": "2025",
+   "text": "A profit, *thanks to a sale*.",
+   "source": "Boeing Q4 2025 results; AVweb"
+  }
+ },
+ {
+  "at": "c7p3",
+  "type": "tiles",
+  "bg": "renton_line",
+  "props": {
+   "title": "Boeing, July to September 2026",
+   "items": [
+    {
+     "icon": "Wallet",
+     "label": "Revenue",
+     "value": "$24.2B",
+     "sub": "+4% in a year",
+     "color": "teal"
+    },
+    {
+     "icon": "TrendingDown",
+     "label": "Net loss",
+     "value": "−$0.1B",
+     "sub": "was −$5.3B",
+     "color": "amber"
+    },
+    {
+     "icon": "Coins",
+     "label": "Free cash flow",
+     "value": "+$0.5B",
+     "sub": "positive",
+     "color": "teal"
+    }
+   ],
+   "delays": [
+    3.77,
+    7.25,
+    13.77
+   ],
+   "source": "Boeing Q3 2026 results (Oct. 27, 2026)"
+  }
+ },
+ {
+  "at": "c7p4",
+  "type": "bars",
+  "props": {
+   "title": "Operating margin by division, Q3 2026",
+   "bars": [
+    {
+     "label": "Services",
+     "value": 18.3,
+     "display": "+18.3%",
+     "color": "teal"
+    },
+    {
+     "label": "Defense & space",
+     "value": 6.2,
+     "display": "+6.2%",
+     "color": "slate"
+    },
+    {
+     "label": "Airliners",
+     "value": -6.5,
+     "display": "−6.5%",
+     "color": "brick"
+    }
+   ],
+   "delays": [
+    1.23,
+    1.83,
+    7.03
+   ],
+   "source": "Boeing Q3 2026 results (Oct. 27, 2026)"
+  }
+ },
+ {
+  "at": "c7p5",
+  "type": "tiles",
+  "props": {
+   "title": "Boeing, September 30, 2026",
+   "items": [
+    {
+     "icon": "Landmark",
+     "label": "Debt",
+     "value": "$45.9B",
+     "color": "brick"
+    },
+    {
+     "icon": "Vault",
+     "label": "Cash",
+     "value": "$20.7B",
+     "color": "teal"
+    },
+    {
+     "icon": "ClipboardList",
+     "label": "Backlog",
+     "value": "$745B",
+     "sub": "6,300+ airliners",
+     "color": "amber"
+    }
+   ],
+   "delays": [
+    0.3,
+    3.26,
+    6.3
+   ],
+   "source": "Boeing Q3 2026 results (Oct. 27, 2026)"
+  }
+ },
+ {
+  "at": "c7p6",
+  "type": "chrono",
+  "props": {
+   "title": "What's next",
+   "from": 2024,
+   "to": 2028,
+   "events": [
+    {
+     "year": 2025.8,
+     "date": "Oct. 2025",
+     "label": "777X: $4.9B charge",
+     "level": 1,
+     "at": 4.64,
+     "color": "brick"
+    },
+    {
+     "year": 2026.8,
+     "date": "Oct. 2026",
+     "label": "737-10 certified",
+     "level": -1,
+     "at": 0.4,
+     "color": "teal"
+    },
+    {
+     "year": 2027,
+     "label": "First 777X delivery",
+     "sub": "target",
+     "level": 1,
+     "at": 9.06,
+     "color": "amber"
+    }
+   ],
+   "source": "Boeing Q3 2026 results; AVweb (Oct. 29, 2025)"
+  }
+ },
+ {
+  "at": "c7p7",
+  "type": "quote",
+  "bg": "renton_line",
+  "props": {
+   "text": "But we are not done.",
+   "by": "Kelly Ortberg, Boeing CEO, October 2026",
+   "source": "Boeing Q3 2026 results (Oct. 27, 2026)"
+  }
+ },
+ {
+  "at": "c8p0",
+  "type": "chrono",
+  "props": {
+   "title": "Each decision saved something at first",
+   "from": 1995,
+   "to": 2026,
+   "events": [
+    {
+     "year": 1997,
+     "label": "Merger",
+     "sub": "finance-first culture",
+     "level": 1,
+     "at": 0.5
+    },
+    {
+     "year": 2004,
+     "label": "Outsourced 787",
+     "level": -1,
+     "at": 1.6
+    },
+    {
+     "year": 2011,
+     "label": "Re-engined 737",
+     "level": 1,
+     "at": 14.57
+    },
+    {
+     "year": 2016,
+     "label": "Buybacks",
+     "sub": "$43.4B, 2013-19",
+     "level": -1,
+     "at": 16.67
+    }
+   ]
+  }
+ },
+ {
+  "at": "c8p1",
+  "type": "receipt",
+  "props": {
+   "header": "THE BILL",
+   "subheader": "paid later",
+   "lines": [
+    {
+     "label": "MAX grounding",
+     "value": "≈ $20B"
+    },
+    {
+     "label": "Dreamliner",
+     "value": "≈ 3 years late"
+    },
+    {
+     "label": "Losses, 2019–2024",
+     "value": "$35.7B"
+    },
+    {
+     "rule": true,
+     "label": ""
+    },
+    {
+     "label": "Lives lost",
+     "value": "346",
+     "strong": true
+    }
+   ],
+   "delays": [
+    3.48,
+    5.94,
+    8.91,
+    12.54,
+    15.0
+   ],
+   "kicker": "Saved early",
+   "text": "Paid *later*, and bigger.",
+   "source": "Sources in the description"
+  }
+ },
+ {
+  "at": "c8p2",
+  "type": "statement",
+  "bg": "wind_tunnel",
+  "props": {
+   "kicker": "In aviation",
+   "text": "Cutting corners *moves* the cost. It doesn't remove it.",
+   "icon": "Hourglass"
+  }
+ },
+ {
+  "at": "c8p3",
+  "type": "photo",
+  "props": {
+   "photo": "renton_line",
+   "kicker": "Renton, the 737 line",
+   "text": "The answer is on *the factory floor*.",
+   "focus": "50% 50%"
+  }
+ }
+]

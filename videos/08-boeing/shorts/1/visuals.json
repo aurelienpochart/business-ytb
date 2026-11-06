@@ -1,0 +1,159 @@
+[
+ {
+  "at": "p0",
+  "type": "shot",
+  "props": {
+   "photo": "renton_line",
+   "dim": 0.72,
+   "logo": "logo_boeing",
+   "text": "Boeing's *$43B* bet on itself"
+  }
+ },
+ {
+  "at": "p0",
+  "after": "buying back",
+  "type": "shot",
+  "props": {
+   "photo": "chicago_hq",
+   "dim": 0.74,
+   "kicker": "2013 to 2019",
+   "number": "$43.4B",
+   "numberDelay": {
+    "$t": "forty-three billion",
+    "offset": -0.1
+   },
+   "color": "gold",
+   "label": "on its own shares",
+   "sub": "share buybacks",
+   "source": "Fortune (2019)"
+  }
+ },
+ {
+  "at": "p1",
+  "type": "shot",
+  "props": {
+   "photo": "wind_tunnel",
+   "dim": 0.74,
+   "kicker": "Same six years",
+   "number": "$15.7B",
+   "numberDelay": {
+    "$t": "sixteen billion",
+    "offset": -0.1
+   },
+   "color": "teal",
+   "label": "on airliner R&D",
+   "sub": "commercial airplanes",
+   "source": "Fortune (2019)"
+  }
+ },
+ {
+  "at": "p2",
+  "type": "shot",
+  "props": {
+   "photo": "capitol",
+   "dim": 0.74,
+   "kicker": "2016 promise",
+   "number": "100%",
+   "color": "gold",
+   "label": "of free cash flow",
+   "sub": "back to shareholders",
+   "source": "Fortune (2019)"
+  }
+ },
+ {
+  "at": "p3",
+  "type": "shot",
+  "props": {
+   "photo": "b707_panam",
+   "dim": 0.72,
+   "icon": "CalendarClock",
+   "color": "teal",
+   "text": "A *1960s* design"
+  }
+ },
+ {
+  "at": "p3",
+  "after": "Instead of a new plane",
+  "type": "shot",
+  "props": {
+   "photo": "leap1b",
+   "dim": 0.7,
+   "icon": "Wrench",
+   "color": "gold",
+   "text": "New engines, *old jet*"
+  }
+ },
+ {
+  "at": "p4",
+  "type": "shot",
+  "props": {
+   "photo": "max_moses",
+   "dim": 0.76,
+   "kicker": "Two crashes",
+   "number": "346",
+   "numberDelay": {
+    "$t": "three hundred",
+    "offset": -0.1
+   },
+   "color": "paper",
+   "label": "people killed",
+   "sub": "2018 and 2019",
+   "source": "US House Transportation Committee, via Reuters"
+  }
+ },
+ {
+  "at": "p4",
+  "after": "About",
+  "type": "shot",
+  "props": {
+   "photo": "max_moses",
+   "dim": 0.8,
+   "kicker": "20-month grounding",
+   "number": "≈ $20B",
+   "numberDelay": {
+    "$t": "twenty billion",
+    "offset": -0.1
+   },
+   "color": "brick",
+   "label": "in direct costs",
+   "sub": "one count",
+   "source": "CNN Business (Nov. 2020)"
+  }
+ },
+ {
+  "at": "p5",
+  "type": "shot",
+  "props": {
+   "photo": "everett_aerial",
+   "dim": 0.76,
+   "kicker": "2019 to 2024",
+   "number": "−$35.7B",
+   "numberDelay": {
+    "$t": "thirty-six",
+    "offset": -0.1
+   },
+   "color": "brick",
+   "label": "in net losses",
+   "sub": "our sum of Boeing's results",
+   "source": "Boeing annual results"
+  }
+ },
+ {
+  "at": "p5",
+  "after": "Then it had to sell",
+  "type": "shot",
+  "props": {
+   "photo": "renton_visit",
+   "dim": 0.74,
+   "icon": "Repeat",
+   "color": "gold",
+   "text": "Then it *sold* new shares"
+  }
+ },
+ {
+  "at": "p5",
+  "after": "Full story",
+  "type": "endcard",
+  "props": {}
+ }
+]
