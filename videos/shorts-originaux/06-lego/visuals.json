@@ -46,7 +46,7 @@
   }
  },
  {
-  "at": "p2",
+  "at": "p3",
   "type": "shot",
   "props": {
    "photo": "store",
@@ -70,8 +70,8 @@
      2025
     ],
     "height": 640,
-    "draw": 4.5,
-    "delay": 0.4,
+    "draw": 3.5,
+    "delay": 0.3,
     "series": [
      {
       "label": "Sales",
@@ -171,7 +171,7 @@
     ]
    },
    "source": "LEGO Group annual reports",
-   "kicker": "Then, back to the brick"
+   "kicker": "The comeback"
   }
  },
  {
@@ -295,22 +295,11 @@
   "at": "p8",
   "type": "shot",
   "props": {
-   "photo": "bricks2",
-   "dim": 0.62,
-   "kicker": "Then",
-   "text": "LEGO lost *money*"
-  }
- },
- {
-  "at": "p8",
-  "type": "shot",
-  "props": {
    "photo": "legoland",
    "dim": 0.6,
-   "kicker": "Now",
+   "kicker": "Then and now",
    "text": "Profit beats *old sales*"
-  },
-  "after": "Now its"
+  }
  },
  {
   "at": "p8",
