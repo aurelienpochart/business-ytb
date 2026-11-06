@@ -1,0 +1,807 @@
+1
+00:00:00,300 --> 00:00:04,656
+In 2018, Boeing delivered eight hundred and six airplanes,
+
+2
+00:00:04,656 --> 00:00:07,434
+more than any other company on earth.
+
+3
+00:00:07,434 --> 00:00:11,940
+That year, it kept ten and a half billion dollars as profit.
+
+4
+00:00:12,390 --> 00:00:14,267
+Then the numbers turned.
+
+5
+00:00:14,267 --> 00:00:19,352
+From 2019 to 2024, Boeing lost almost thirty-six billion dollars.
+
+6
+00:00:19,352 --> 00:00:25,063
+In the same years, two crashes killed three hundred and forty-six people,
+
+7
+00:00:25,063 --> 00:00:28,740
+a panel blew out of a brand-new jet in mid-air,
+
+8
+00:00:28,740 --> 00:00:33,590
+and a strike shut its biggest factories for almost two months.
+
+9
+00:00:34,040 --> 00:00:35,769
+Here's a strange detail.
+
+10
+00:00:35,769 --> 00:00:38,435
+When Boeing posted its loss for 2019,
+
+11
+00:00:38,435 --> 00:00:42,037
+it was the company's first losing year since 1997.
+
+12
+00:00:42,037 --> 00:00:46,360
+That is the year Boeing bought its rival, McDonnell Douglas.
+
+13
+00:00:46,810 --> 00:00:50,821
+For most of a century, Boeing was the engineers' company.
+
+14
+00:00:50,821 --> 00:00:52,650
+So how did it end up here?
+
+15
+00:00:53,100 --> 00:00:54,572
+Not with one bad airplane.
+
+16
+00:00:54,572 --> 00:00:58,140
+With a slow change in what the company was trying to get right.
+
+17
+00:00:58,590 --> 00:01:02,590
+Let's go back to when Boeing was run by people who built airplanes.
+
+18
+00:01:06,190 --> 00:01:13,127
+In 1954, a prototype called the Dash 80 took off from Boeing Field in Seattle.
+
+19
+00:01:13,127 --> 00:01:15,350
+It became the Boeing 707.
+
+20
+00:01:15,800 --> 00:01:17,352
+Nobody had ordered it.
+
+21
+00:01:17,352 --> 00:01:22,221
+Boeing paid for it with its own money, about sixteen million dollars.
+
+22
+00:01:22,221 --> 00:01:25,396
+One account says the boss persuaded the board
+
+23
+00:01:25,396 --> 00:01:28,288
+to "bet every penny in Boeing's coffers".
+
+24
+00:01:28,288 --> 00:01:28,994
+It worked.
+
+25
+00:01:28,994 --> 00:01:31,040
+The 707 launched the jet age.
+
+26
+00:01:31,490 --> 00:01:34,733
+Fifteen years later, Boeing did it again.
+
+27
+00:01:34,733 --> 00:01:40,428
+In February 1969, the first 747 took off from Everett, north of Seattle.
+
+28
+00:01:40,428 --> 00:01:42,010
+The first jumbo jet.
+
+29
+00:01:42,460 --> 00:01:47,368
+And in the early nineties came the 777, the first jetliner designed
+
+30
+00:01:47,368 --> 00:01:52,350
+entirely on computers, with eight airlines sitting in on the design.
+
+31
+00:01:52,350 --> 00:01:55,500
+Boeing called the group "Working Together".
+
+32
+00:01:55,950 --> 00:01:58,076
+The pattern was always the same.
+
+33
+00:01:58,076 --> 00:02:01,531
+Spend a fortune up front, get the engineering right,
+
+34
+00:02:01,531 --> 00:02:03,790
+and the money follows for decades.
+
+35
+00:02:04,240 --> 00:02:07,440
+By the mid-nineties, a third planemaker was running out of road.
+
+36
+00:02:08,540 --> 00:02:10,885
+McDonnell Douglas, based in St.
+
+37
+00:02:10,885 --> 00:02:15,045
+Louis, built fighter jets and airliners like the MD-11.
+
+38
+00:02:15,045 --> 00:02:20,113
+But by 1996, it won only about five percent of new airliner orders.
+
+39
+00:02:20,113 --> 00:02:24,500
+Boeing had around sixty percent, Airbus about thirty-five.
+
+40
+00:02:24,950 --> 00:02:29,140
+In December 1996, Boeing agreed to buy it in a stock
+
+41
+00:02:29,140 --> 00:02:33,007
+deal worth thirteen point three billion dollars.
+
+42
+00:02:33,007 --> 00:02:36,230
+The merger closed on August first, 1997.
+
+43
+00:02:36,680 --> 00:02:37,923
+Boeing was the buyer.
+
+44
+00:02:37,923 --> 00:02:42,362
+But many of the people who ended up running it came from McDonnell Douglas,
+
+45
+00:02:42,362 --> 00:02:46,920
+above all Harry Stonecipher, who became president, and later chief executive.
+
+46
+00:02:47,370 --> 00:02:50,670
+In 1998, Stonecipher told employees to "quit
+
+47
+00:02:50,670 --> 00:02:54,570
+behaving like a family and become more like a team".
+
+48
+00:02:55,020 --> 00:02:59,140
+Years later, in 2004, he said it even more clearly: "When people
+
+49
+00:02:59,140 --> 00:03:02,809
+say I changed the culture of Boeing, that was the intent,
+
+50
+00:03:02,809 --> 00:03:07,380
+so that it's run like a business rather than a great engineering firm."
+
+51
+00:03:07,830 --> 00:03:12,188
+In 2001, Boeing moved its headquarters from Seattle to Chicago,
+
+52
+00:03:12,188 --> 00:03:15,853
+helped by about sixty million dollars of tax credits.
+
+53
+00:03:15,853 --> 00:03:21,110
+Its top executives now sat about seventeen hundred miles from the factories.
+
+54
+00:03:21,560 --> 00:03:23,008
+None of this was unusual.
+
+55
+00:03:23,008 --> 00:03:25,962
+Plenty of companies want to be run like a business.
+
+56
+00:03:25,962 --> 00:03:28,800
+But in aviation, the engineering is the business.
+
+57
+00:03:29,900 --> 00:03:35,783
+The test was the 787 Dreamliner, a long-range jet made largely of carbon fiber.
+
+58
+00:03:35,783 --> 00:03:39,060
+Boeing also wanted to build it in a new way.
+
+59
+00:03:39,510 --> 00:03:41,926
+Instead of building most of the plane itself,
+
+60
+00:03:41,926 --> 00:03:45,201
+it spread the work across more than fifty partners worldwide.
+
+61
+00:03:45,201 --> 00:03:49,550
+By Boeing's own figure, partners would supply sixty-five percent of the airframe.
+
+62
+00:03:49,550 --> 00:03:53,630
+Whole sections would arrive ready-made, and Boeing would snap them together.
+
+63
+00:03:54,080 --> 00:03:58,047
+The idea was to put in less cash up front and share the risk.
+
+64
+00:03:58,047 --> 00:04:02,600
+Instead, parts arrived late or unfinished, and Boeing had to fix them.
+
+65
+00:04:03,050 --> 00:04:05,503
+The first 787 reached a customer,
+
+66
+00:04:05,503 --> 00:04:09,368
+All Nippon Airways, in 2011, about three years late.
+
+67
+00:04:09,368 --> 00:04:14,498
+One estimate put the program twenty-five billion dollars over budget.
+
+68
+00:04:14,498 --> 00:04:20,370
+In January 2013, battery fires grounded the whole fleet for about three months.
+
+69
+00:04:20,820 --> 00:04:22,871
+And it didn't end there.
+
+70
+00:04:22,871 --> 00:04:27,657
+From 2021 to August 2022, Boeing stopped delivering 787s
+
+71
+00:04:27,657 --> 00:04:32,699
+over manufacturing defects, like tiny gaps in the fuselage.
+
+72
+00:04:32,699 --> 00:04:38,340
+About a hundred and twenty finished Dreamliners piled up, waiting.
+
+73
+00:04:38,790 --> 00:04:42,031
+Meanwhile, money was going somewhere else.
+
+74
+00:04:42,031 --> 00:04:46,584
+From 2013 to 2019, Boeing spent forty-three billion dollars
+
+75
+00:04:46,584 --> 00:04:51,214
+buying back its own shares, according to a Fortune analysis.
+
+76
+00:04:51,214 --> 00:04:55,767
+Over the same six years, it spent less than sixteen billion
+
+77
+00:04:55,767 --> 00:05:00,165
+on research and development for its commercial airplanes.
+
+78
+00:05:00,165 --> 00:05:06,030
+In 2016, it promised to hand back all of its free cash flow to shareholders.
+
+79
+00:05:06,480 --> 00:05:08,352
+Buybacks are legal and common.
+
+80
+00:05:08,352 --> 00:05:11,347
+But that money isn't spent on the next airplane.
+
+81
+00:05:11,347 --> 00:05:12,720
+And Boeing needed one.
+
+82
+00:05:13,820 --> 00:05:19,762
+Its best-selling plane, the 737, dated back to the 1960s.
+
+83
+00:05:19,762 --> 00:05:25,809
+In 2010, Airbus put new, fuel-saving engines on its rival,
+
+84
+00:05:25,809 --> 00:05:30,500
+the A320neo, and airlines rushed to order it.
+
+85
+00:05:30,950 --> 00:05:38,249
+Boeing could design a brand-new airplane, which takes many years and many billions.
+
+86
+00:05:38,249 --> 00:05:43,437
+Or put new engines on the old 737, faster and much cheaper.
+
+87
+00:05:43,437 --> 00:05:45,987
+In 2011, it chose the second.
+
+88
+00:05:45,987 --> 00:05:52,670
+One analyst later said, "Their hand was forced." That plane was the 737 MAX.
+
+89
+00:05:53,120 --> 00:05:57,130
+The new engines were bigger, so they sat further forward,
+
+90
+00:05:57,130 --> 00:06:00,859
+and changed how the plane handled in some situations.
+
+91
+00:06:00,859 --> 00:06:05,714
+Boeing added software called MCAS to make it feel like the older 737.
+
+92
+00:06:05,714 --> 00:06:08,880
+And it could be triggered by a single sensor.
+
+93
+00:06:09,330 --> 00:06:13,992
+A congressional report later accused Boeing of "concealing
+
+94
+00:06:13,992 --> 00:06:17,850
+the very existence of MCAS from 737 MAX pilots".
+
+95
+00:06:18,300 --> 00:06:22,987
+In October 2018, a Lion Air 737 MAX crashed in Indonesia.
+
+96
+00:06:22,987 --> 00:06:27,344
+All one hundred and eighty-nine people on board died.
+
+97
+00:06:27,344 --> 00:06:30,058
+Five months later, in March 2019,
+
+98
+00:06:30,058 --> 00:06:34,251
+an Ethiopian Airlines MAX crashed near Addis Ababa.
+
+99
+00:06:34,251 --> 00:06:37,540
+One hundred and fifty-seven people died.
+
+100
+00:06:37,990 --> 00:06:39,830
+Three hundred and forty-six people in total.
+
+101
+00:06:40,280 --> 00:06:42,865
+Regulators grounded the MAX in March 2019.
+
+102
+00:06:42,865 --> 00:06:46,434
+It stayed grounded for twenty months, until November 2020,
+
+103
+00:06:46,434 --> 00:06:50,680
+after Boeing changed the software to read two sensors instead of one.
+
+104
+00:06:51,130 --> 00:06:56,593
+In 2020, a US House committee called the crashes the "horrific culmination"
+
+105
+00:06:56,593 --> 00:07:01,838
+of "faulty design and performance assumptions", "a lack of transparency"
+
+106
+00:07:01,838 --> 00:07:07,010
+by Boeing's management, and failed oversight by the regulator, the FAA.
+
+107
+00:07:07,460 --> 00:07:10,657
+By one count, the grounding cost Boeing about
+
+108
+00:07:10,657 --> 00:07:13,428
+twenty billion dollars in direct costs.
+
+109
+00:07:13,428 --> 00:07:16,697
+In 2021, the Justice Department charged Boeing
+
+110
+00:07:16,697 --> 00:07:19,681
+with fraud over the plane's certification.
+
+111
+00:07:19,681 --> 00:07:24,726
+In November 2025, a judge dropped the case at the department's request,
+
+112
+00:07:24,726 --> 00:07:28,633
+after Boeing agreed to pay over a billion dollars more,
+
+113
+00:07:28,633 --> 00:07:31,191
+including for the victims' families.
+
+114
+00:07:31,191 --> 00:07:35,454
+The judge wrote that the deal "fails to secure the necessary
+
+115
+00:07:35,454 --> 00:07:39,220
+accountability", but that he had no power to stop it.
+
+116
+00:07:39,670 --> 00:07:42,191
+The MAX was flying again.
+
+117
+00:07:42,191 --> 00:07:44,510
+Then came January 2024.
+
+118
+00:07:45,610 --> 00:07:49,667
+On January fifth, 2024, Alaska Airlines Flight twelve eighty-two
+
+119
+00:07:49,667 --> 00:07:53,723
+was climbing out of Portland, Oregon, at about fourteen thousand
+
+120
+00:07:53,723 --> 00:07:57,970
+eight hundred feet, when a panel blew out of the side of the cabin.
+
+121
+00:07:58,420 --> 00:08:04,293
+The panel was a door plug, covering an extra emergency exit this airline didn't use.
+
+122
+00:08:04,293 --> 00:08:06,740
+The cabin lost pressure in seconds.
+
+123
+00:08:06,740 --> 00:08:09,817
+The crew turned back and landed in Portland.
+
+124
+00:08:09,817 --> 00:08:11,075
+No one was killed.
+
+125
+00:08:11,075 --> 00:08:15,340
+Seven passengers and one flight attendant had minor injuries.
+
+126
+00:08:15,790 --> 00:08:17,505
+The plane was almost new.
+
+127
+00:08:17,505 --> 00:08:20,592
+Investigators found that the four bolts meant
+
+128
+00:08:20,592 --> 00:08:23,268
+to hold the plug in place were missing.
+
+129
+00:08:23,268 --> 00:08:26,355
+The plug was installed by Spirit AeroSystems,
+
+130
+00:08:26,355 --> 00:08:29,511
+Boeing's fuselage supplier in Wichita, Kansas.
+
+131
+00:08:29,511 --> 00:08:34,725
+At Boeing's factory in Renton, near Seattle, it was opened to repair rivets,
+
+132
+00:08:34,725 --> 00:08:38,430
+and photos show it was closed again without the bolts.
+
+133
+00:08:38,880 --> 00:08:41,308
+Boeing said there was no record of the work.
+
+134
+00:08:41,308 --> 00:08:44,398
+Its chief executive, Dave Calhoun, said: "Whatever final
+
+135
+00:08:44,398 --> 00:08:48,040
+conclusions are reached, Boeing is accountable for what happened."
+
+136
+00:08:48,490 --> 00:08:54,124
+The next day, the FAA grounded a hundred and seventy-one 737 MAX 9s.
+
+137
+00:08:54,124 --> 00:09:01,001
+It capped MAX production at thirty-eight a month, and its audit found Boeing hadn't
+
+138
+00:09:01,001 --> 00:09:07,713
+complied with quality rules on how it controlled its processes and handled parts.
+
+139
+00:09:07,713 --> 00:09:14,010
+The FAA's chief said Boeing "must commit to real and profound improvements".
+
+140
+00:09:14,460 --> 00:09:19,481
+In June 2025, the safety board, the NTSB, blamed Boeing's failure to
+
+141
+00:09:19,481 --> 00:09:24,723
+follow its own manufacturing procedures, and weak oversight by the FAA.
+
+142
+00:09:24,723 --> 00:09:29,375
+Its chair, Jennifer Homendy, said: "the crew shouldn't have had
+
+143
+00:09:29,375 --> 00:09:34,100
+to be heroes, because this accident never should have happened."
+
+144
+00:09:34,550 --> 00:09:35,823
+One more twist.
+
+145
+00:09:35,823 --> 00:09:39,980
+Spirit's Wichita plant used to be part of Boeing.
+
+146
+00:09:39,980 --> 00:09:45,070
+Boeing sold it in 2005, and bought it back in December 2025.
+
+147
+00:09:46,170 --> 00:09:50,216
+By March 2024, Calhoun had announced he would step down.
+
+148
+00:09:50,216 --> 00:09:56,069
+In August, Boeing brought in an outsider, Kelly Ortberg, an engineer by training.
+
+149
+00:09:56,069 --> 00:09:59,610
+He had barely arrived when the factories stopped.
+
+150
+00:10:00,060 --> 00:10:03,411
+On September thirteenth, 2024, thirty-three thousand
+
+151
+00:10:03,411 --> 00:10:06,440
+machinists walked out, in Seattle and Portland.
+
+152
+00:10:06,440 --> 00:10:11,724
+They wanted big raises, and their old pension back, frozen about a decade earlier.
+
+153
+00:10:11,724 --> 00:10:13,980
+The strike lasted fifty-three days.
+
+154
+00:10:14,430 --> 00:10:17,200
+They went back in November with a thirty-eight
+
+155
+00:10:17,200 --> 00:10:20,272
+percent raise over four years, but not the pension.
+
+156
+00:10:20,272 --> 00:10:25,270
+Bank of America estimated the strike cost Boeing about fifty million dollars a day.
+
+157
+00:10:25,720 --> 00:10:26,999
+Ortberg moved fast.
+
+158
+00:10:26,999 --> 00:10:31,979
+He announced about seventeen thousand job cuts, and sold up to twenty-four
+
+159
+00:10:31,979 --> 00:10:36,353
+billion dollars of new shares, to protect Boeing's credit rating.
+
+160
+00:10:36,353 --> 00:10:39,919
+Five years earlier, Boeing was buying back its stock.
+
+161
+00:10:39,919 --> 00:10:41,400
+Now it was selling it.
+
+162
+00:10:41,850 --> 00:10:45,819
+For 2024, Boeing lost almost twelve billion dollars,
+
+163
+00:10:45,819 --> 00:10:49,330
+and burned more than fourteen billion in cash.
+
+164
+00:10:50,430 --> 00:10:52,167
+So where is Boeing now?
+
+165
+00:10:52,167 --> 00:10:57,075
+In 2025, it delivered six hundred airplanes, its most since 2018.
+
+166
+00:10:57,075 --> 00:11:00,700
+Airbus delivered seven hundred and ninety-three.
+
+167
+00:11:00,700 --> 00:11:06,590
+But for the first time in seven years, Boeing won more new orders than Airbus.
+
+168
+00:11:07,040 --> 00:11:12,645
+The FAA let it raise 737 production to forty-two a month in October 2025,
+
+169
+00:11:12,645 --> 00:11:16,560
+and Boeing says it's now moving toward forty-seven.
+
+170
+00:11:17,010 --> 00:11:21,728
+It even reported a profit for 2025, about two point two billion dollars,
+
+171
+00:11:21,728 --> 00:11:26,970
+but only thanks to a nine point six billion dollar gain from selling a business.
+
+172
+00:11:27,420 --> 00:11:30,903
+The latest numbers are from July to September 2026.
+
+173
+00:11:30,903 --> 00:11:34,113
+Revenue: twenty-four point two billion dollars.
+
+174
+00:11:34,113 --> 00:11:36,844
+Net loss: a hundred and sixteen million,
+
+175
+00:11:36,844 --> 00:11:40,122
+down from more than five billion a year earlier.
+
+176
+00:11:40,122 --> 00:11:44,220
+And it generated almost half a billion dollars of free cash.
+
+177
+00:11:44,670 --> 00:11:45,684
+But look inside.
+
+178
+00:11:45,684 --> 00:11:50,692
+Boeing's services business made about eighteen cents of profit on every dollar.
+
+179
+00:11:50,692 --> 00:11:53,544
+The division that builds airliners still lost
+
+180
+00:11:53,544 --> 00:11:56,270
+about six and a half cents on every dollar.
+
+181
+00:11:56,720 --> 00:11:59,878
+Boeing owes about forty-six billion dollars,
+
+182
+00:11:59,878 --> 00:12:02,821
+against about twenty-one billion in cash.
+
+183
+00:12:02,821 --> 00:12:08,348
+And it has orders worth seven hundred and forty-five billion dollars waiting,
+
+184
+00:12:08,348 --> 00:12:12,440
+including more than six thousand three hundred airplanes.
+
+185
+00:12:12,890 --> 00:12:17,584
+The smallest and largest versions of the MAX are now certified.
+
+186
+00:12:17,584 --> 00:12:22,055
+The new 777X, after a four point nine billion dollar charge,
+
+187
+00:12:22,055 --> 00:12:25,930
+should reach its first customer in 2027, years late.
+
+188
+00:12:26,380 --> 00:12:30,460
+As Ortberg put it in October: "But we are not done."
+
+189
+00:12:31,560 --> 00:12:33,854
+So what really went wrong at Boeing?
+
+190
+00:12:33,854 --> 00:12:38,953
+Not one decision, but a long series of them, each saving money or time at first:
+
+191
+00:12:38,953 --> 00:12:44,179
+a merger that brought in a finance-first culture, a Dreamliner built by outsiders,
+
+192
+00:12:44,179 --> 00:12:48,640
+an old jet with new engines, and billions handed back to shareholders.
+
+193
+00:12:49,090 --> 00:12:52,342
+And each time, the bill came later, and bigger.
+
+194
+00:12:52,342 --> 00:12:54,626
+Twenty billion for the grounding.
+
+195
+00:12:54,626 --> 00:12:57,394
+Three years of delays on the Dreamliner.
+
+196
+00:12:57,394 --> 00:13:00,785
+Almost thirty-six billion in losses in six years.
+
+197
+00:13:00,785 --> 00:13:05,490
+And a cost no number can measure: three hundred and forty-six lives.
+
+198
+00:13:05,940 --> 00:13:09,399
+In most industries, cutting costs makes a product cheaper.
+
+199
+00:13:09,399 --> 00:13:12,559
+In aviation, cutting corners doesn't remove the cost.
+
+200
+00:13:12,559 --> 00:13:15,660
+It moves it into the future, where it's much bigger.
+
+201
+00:13:16,110 --> 00:13:19,814
+Boeing is now trying to pay that bill down, one airplane at a time.
+
+202
+00:13:19,814 --> 00:13:24,070
+Whether it can, we'll know from the factory floor, not from the next quarter.
