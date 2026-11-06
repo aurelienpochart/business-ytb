@@ -14,34 +14,34 @@
   "type": "shot",
   "props": {
    "photo": "grey_pile",
-   "dim": 0.7,
-   "kicker": "Sales, 2004",
-   "number": "6.3B",
-   "numberDelay": {
-    "$t": "six point",
-    "offset": -0.1
+   "dim": 0.78,
+   "header": {
+    "number": "2004",
+    "label": "in Danish kroner",
+    "color": "paper"
    },
-   "color": "slate",
-   "label": "Danish kroner (DKK)",
-   "source": "LEGO Group annual reports"
-  }
- },
- {
-  "at": "p1",
-  "after": "And it lost",
-  "type": "shot",
-  "props": {
-   "photo": "hq",
-   "dim": 0.72,
-   "icon": "TrendingDown",
-   "color": "brick",
-   "kicker": "Net result, 2004",
-   "number": "−1.8B",
-   "numberDelay": {
-    "$t": "one point eight",
-    "offset": -0.1
-   },
-   "label": "kroner lost in one year",
+   "halves": [
+    {
+     "icon": "Package",
+     "big": "6.3B",
+     "label": "sales",
+     "color": "slate",
+     "delay": {
+      "$t": "six point",
+      "offset": -0.1
+     }
+    },
+    {
+     "icon": "TrendingDown",
+     "big": "−1.8B",
+     "label": "net loss",
+     "color": "brick",
+     "delay": {
+      "$t": "one point eight",
+      "offset": -0.1
+     }
+    }
+   ],
    "source": "LEGO Group annual reports"
   }
  },
@@ -80,7 +80,7 @@
      2025
     ],
     "height": 640,
-    "draw": 3.4,
+    "draw": 3.0,
     "delay": 0.2,
     "series": [
      {
@@ -181,18 +181,21 @@
     ]
    },
    "source": "LEGO Group annual reports"
-  }
+  },
+  "after": "sales were"
  },
  {
   "at": "p4",
-  "after": "eighty-three",
   "type": "shot",
   "props": {
    "photo": "house",
    "dim": 0.66,
    "kicker": "Sales, 2025",
    "number": "83.5B",
-   "numberDelay": 0.1,
+   "numberDelay": {
+    "$t": "eighty-three",
+    "offset": -0.1
+   },
    "color": "gold",
    "label": "Danish kroner (DKK)",
    "source": "LEGO Group annual reports"
@@ -200,10 +203,10 @@
  },
  {
   "at": "p4",
-  "after": "Thirteen times",
+  "after": "billion. Thirteen",
   "type": "shot",
   "props": {
-   "photo": "house_in",
+   "photo": "bricks",
    "dim": 0.66,
    "icon": "TrendingUp",
    "color": "gold",
@@ -221,7 +224,7 @@
   "at": "p5",
   "type": "shot",
   "props": {
-   "photo": "city",
+   "photo": "house_in",
    "dim": 0.8,
    "header": {
     "number": "Profit",
@@ -281,7 +284,39 @@
     "$t": "sixteen percent",
     "offset": -0.1
    },
-   "label": "toy market: +7%",
+   "label": "spent on LEGO by shoppers",
+   "source": "LEGO Group, 2025 results"
+  }
+ },
+ {
+  "at": "p7",
+  "after": "on LEGO",
+  "type": "shot",
+  "props": {
+   "photo": "city",
+   "focus": "50% 30%",
+   "dim": 0.8,
+   "kicker": "Consumer sales growth, 2025",
+   "compare": [
+    {
+     "label": "LEGO",
+     "value": 16,
+     "display": "+16%",
+     "color": "gold",
+     "strong": true,
+     "delay": 0.1
+    },
+    {
+     "label": "Toy market",
+     "value": 7,
+     "display": "+7%",
+     "color": "teal",
+     "delay": {
+      "$t": "twice",
+      "offset": -0.1
+     }
+    }
+   ],
    "source": "LEGO Group, 2025 results"
   }
  },
@@ -297,7 +332,7 @@
  },
  {
   "at": "p8",
-  "after": "More on the channel",
+  "after": "old sales.",
   "type": "endcard",
   "props": {}
  }

@@ -20,14 +20,11 @@
    "icon": "Car",
    "color": "teal",
    "number": "9.6M",
-   "numberDelay": {
-    "$t": "nine point",
-    "offset": -0.1
-   },
+   "numberDelay": 0.1,
    "label": "vehicles sold by Toyota",
-   "sub": "April 2025 to March 2026",
    "source": "Toyota FY2026 results"
-  }
+  },
+  "after": "nine"
  },
  {
   "at": "p2",
@@ -36,7 +33,7 @@
    "photo": "maranello",
    "dim": 0.64,
    "logo": "logo_ferrari",
-   "kicker": "Ferrari, 2025",
+   "kicker": "Shipped in 2025",
    "number": "13,640",
    "numberDelay": {
     "$t": "Thirteen thousand",
@@ -49,7 +46,7 @@
  },
  {
   "at": "p2",
-  "after": "Toyota sells",
+  "after": "cars.",
   "type": "shot",
   "props": {
    "photo": "toyota_show",
@@ -85,7 +82,7 @@
  },
  {
   "at": "p3",
-  "after": "Yet its",
+  "after": "before.",
   "type": "shot",
   "props": {
    "photo": "ferrari_night",
@@ -167,7 +164,8 @@
     }
    ],
    "source": "Ferrari FY2025, Toyota FY2026 results"
-  }
+  },
+  "after": "makes about"
  },
  {
   "at": "p6",
