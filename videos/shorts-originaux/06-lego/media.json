@@ -1,46 +1,101 @@
 [
  {
   "id": "bricks",
-  "title": "File:Lego Color Bricks.jpg"
+  "title": "File:Lego Color Bricks.jpg",
+  "file": "media/bricks.jpg",
+  "license": "CC BY-SA 2.0",
+  "artist": "Alan Chia",
+  "restrictions": "trademarked",
+  "page": "https://commons.wikimedia.org/wiki/File:Lego_Color_Bricks.jpg"
  },
  {
   "id": "bricks2",
-  "title": "File:Pile of lego blocks.jpg"
+  "title": "File:Pile of lego blocks.jpg",
+  "file": "media/bricks2.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "GTurnbull925",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Pile_of_lego_blocks.jpg"
  },
  {
   "id": "grey_pile",
-  "title": "File:Pile of light gray LEGO bricks at a LEGO store.jpg"
+  "title": "File:Pile of light gray LEGO bricks at a LEGO store.jpg",
+  "file": "media/grey_pile.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "Grendelkhan",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Pile_of_light_gray_LEGO_bricks_at_a_LEGO_store.jpg"
  },
  {
   "id": "hq",
-  "title": "File:Lego corporate headquarters 2024-08-02.jpg"
+  "title": "File:Lego corporate headquarters 2024-08-02.jpg",
+  "file": "media/hq.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "Quinntropy",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Lego_corporate_headquarters_2024-08-02.jpg"
  },
  {
   "id": "store",
-  "title": "File:LEGO® Store Ngee Ann City (154207).jpg"
+  "title": "File:LEGO® Store Ngee Ann City (154207).jpg",
+  "file": "media/store.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "Moheen Reeyad",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:LEGO%C2%AE_Store_Ngee_Ann_City_(154207).jpg"
  },
  {
   "id": "store2",
-  "title": "File:Lego Store Leicester Square London Lester 2.jpg"
+  "title": "File:Lego Store Leicester Square London Lester 2.jpg",
+  "file": "media/store2.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "Simeon87",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Lego_Store_Leicester_Square_London_Lester_2.jpg"
  },
  {
   "id": "house_in",
-  "title": "File:LEGO house interior stairs.jpg"
+  "title": "File:LEGO house interior stairs.jpg",
+  "file": "media/house_in.jpg",
+  "license": "CC0",
+  "artist": "Sintakso",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:LEGO_house_interior_stairs.jpg"
  },
  {
   "id": "house",
-  "title": "File:Billund Lego House 02.jpg"
+  "title": "File:Billund Lego House 02.jpg",
+  "file": "media/house.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "Andrzej Otrębski",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Billund_Lego_House_02.jpg"
  },
  {
   "id": "legoland",
-  "title": "File:Legoland Billund - Lufthavnen.jpg"
+  "title": "File:Legoland Billund - Lufthavnen.jpg",
+  "file": "media/legoland.jpg",
+  "license": "CC BY 3.0",
+  "artist": "Legoland Billund Resort",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Legoland_Billund_-_Lufthavnen.jpg"
  },
  {
   "id": "technic",
-  "title": "File:LEGO Technic John Deere 6130R.jpg"
+  "title": "File:LEGO Technic John Deere 6130R.jpg",
+  "file": "media/technic.jpg",
+  "license": "Public domain",
+  "artist": "Lasse Deleuran",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:LEGO_Technic_John_Deere_6130R.jpg"
  },
  {
   "id": "city",
-  "title": "File:Lego Marina City, Lego Store, Chicago, IL, USA (2024).jpg"
+  "title": "File:Lego Marina City, Lego Store, Chicago, IL, USA (2024).jpg",
+  "file": "media/city.jpg",
+  "license": "CC0",
+  "artist": "PxBx",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Lego_Marina_City,_Lego_Store,_Chicago,_IL,_USA_(2024).jpg"
  }
 ]
