@@ -62,8 +62,8 @@
    "photo": "store",
    "dim": 0.8,
    "header": {
-    "number": "DKK",
-    "label": "LEGO sales, billions",
+    "number": "Sales",
+    "label": "billions of kroner",
     "color": "gold"
    },
    "curve": {
@@ -80,7 +80,7 @@
      2025
     ],
     "height": 640,
-    "draw": 5.5,
+    "draw": 3.4,
     "delay": 0.2,
     "series": [
      {
