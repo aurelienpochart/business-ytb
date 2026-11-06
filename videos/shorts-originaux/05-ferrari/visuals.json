@@ -14,7 +14,7 @@
   "at": "p1",
   "type": "shot",
   "props": {
-   "photo": "toyota_lot",
+   "photo": "toyota_hq",
    "dim": 0.66,
    "logo": "logo_toyota",
    "icon": "Car",
@@ -52,7 +52,7 @@
   "after": "Toyota sells",
   "type": "shot",
   "props": {
-   "photo": "toyota_plant",
+   "photo": "toyota_show",
    "dim": 0.7,
    "icon": "Clock",
    "color": "teal",
@@ -143,7 +143,7 @@
   "at": "p5",
   "type": "shot",
   "props": {
-   "photo": "corolla",
+   "photo": "toyota_night",
    "dim": 0.78,
    "kicker": "Profit per car",
    "compare": [

@@ -5,7 +5,6 @@
   "props": {
    "photo": "bricks",
    "dim": 0.62,
-   "logo": "logo_lego",
    "kicker": "2004",
    "text": "LEGO was *in trouble*"
   }
@@ -14,7 +13,7 @@
   "at": "p1",
   "type": "shot",
   "props": {
-   "photo": "bricks_pile",
+   "photo": "grey_pile",
    "dim": 0.7,
    "kicker": "Sales, 2004",
    "number": "6.3B",
@@ -32,7 +31,7 @@
   "after": "And it lost",
   "type": "shot",
   "props": {
-   "photo": "billund",
+   "photo": "hq",
    "dim": 0.72,
    "icon": "TrendingDown",
    "color": "brick",
@@ -50,7 +49,7 @@
   "at": "p2",
   "type": "shot",
   "props": {
-   "photo": "build",
+   "photo": "bricks2",
    "dim": 0.62,
    "kicker": "Then",
    "text": "Back to *the brick*"
@@ -189,9 +188,8 @@
   "after": "eighty-three",
   "type": "shot",
   "props": {
-   "photo": "lego_house",
+   "photo": "house",
    "dim": 0.66,
-   "logo": "logo_lego",
    "kicker": "Sales, 2025",
    "number": "83.5B",
    "numberDelay": 0.1,
@@ -205,7 +203,7 @@
   "after": "Thirteen times",
   "type": "shot",
   "props": {
-   "photo": "minifig",
+   "photo": "house_in",
    "dim": 0.66,
    "icon": "TrendingUp",
    "color": "gold",
@@ -273,8 +271,7 @@
   "at": "p7",
   "type": "shot",
   "props": {
-   "photo": "store",
-   "focus": "30% 50%",
+   "photo": "store2",
    "dim": 0.68,
    "icon": "ShoppingBag",
    "color": "gold",
@@ -294,7 +291,6 @@
   "props": {
    "photo": "legoland",
    "dim": 0.6,
-   "logo": "logo_lego",
    "kicker": "Now",
    "text": "Profit beats *old sales*"
   }
