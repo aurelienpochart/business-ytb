@@ -1,0 +1,16 @@
+{
+  "format": "Then vs Now",
+  "angle": "A viewer pointed out that paychecks rose too. So we price the US Big Mac in minutes of work at the average hourly wage of production and nonsupervisory workers (BLS): 13 minutes in April 1990, 11.5 minutes in July 2026. Pay grew 3.2 times, the burger 2.8 times. Not a straight line: the cheapest point was 2001, at about 9.3 minutes, and it has crept back up since.",
+  "hook": "A Big Mac, in *minutes of work*",
+  "paragraphs": [
+    "A Big Mac costs more than ever: {six dollars twenty-two|$6.22}.",
+    "But pay went up too. So let's price it in minutes of work.",
+    "In {nineteen ninety|1990}, a Big Mac cost {two dollars twenty|$2.20}. The average American worker earned {ten dollars twelve|$10.12} an hour.",
+    "That's thirteen minutes of work.",
+    "Today, that worker earns {thirty-two dollars forty-two|$32.42} an hour.",
+    "So the {six dollars twenty-two|$6.22} Big Mac takes eleven and a half minutes.",
+    "Pay grew three point two times. The Big Mac, only two point eight.",
+    "It wasn't a straight line. The cheapest Big Mac came in {two thousand one|2001}, at about nine minutes. Since then, it has crept back up.",
+    "But next to {nineteen ninety|1990}, it costs a minute and a half less work. More on the channel."
+  ]
+}

@@ -1,0 +1,467 @@
+[
+ {
+  "at": "p0",
+  "type": "shot",
+  "props": {
+   "photo": "bigmac",
+   "dim": 0.55,
+   "logo": "logo_mcd",
+   "kicker": "Today",
+   "number": "$6.22",
+   "color": "gold",
+   "label": "a Big Mac in America",
+   "sub": "average US price, July 2026",
+   "source": "The Economist, Big Mac index"
+  }
+ },
+ {
+  "at": "p1",
+  "type": "shot",
+  "props": {
+   "photo": "cash",
+   "dim": 0.72,
+   "icon": "Clock",
+   "color": "teal",
+   "text": "Price it in *minutes of work*"
+  }
+ },
+ {
+  "at": "p2",
+  "type": "shot",
+  "props": {
+   "photo": "mcd_night",
+   "dim": 0.7,
+   "kicker": "1990",
+   "number": "$2.20",
+   "numberDelay": 0.3,
+   "color": "gold",
+   "label": "a Big Mac",
+   "source": "The Economist, Big Mac index"
+  }
+ },
+ {
+  "at": "p2",
+  "after": "The average American",
+  "type": "shot",
+  "props": {
+   "photo": "worker",
+   "dim": 0.68,
+   "kicker": "1990",
+   "number": "$10.12",
+   "numberDelay": {
+    "$t": "ten dollars",
+    "offset": -0.1
+   },
+   "color": "teal",
+   "label": "average hourly pay",
+   "sub": "production and nonsupervisory workers",
+   "source": "US BLS, average hourly earnings"
+  }
+ },
+ {
+  "at": "p3",
+  "type": "shot",
+  "props": {
+   "photo": "clock",
+   "dim": 0.66,
+   "kicker": "1990",
+   "number": "13 min",
+   "numberDelay": {
+    "$t": "thirteen",
+    "offset": -0.1
+   },
+   "color": "gold",
+   "label": "of work for one Big Mac",
+   "source": "The Economist; US BLS"
+  }
+ },
+ {
+  "at": "p4",
+  "type": "shot",
+  "props": {
+   "photo": "site",
+   "dim": 0.68,
+   "kicker": "2026",
+   "number": "$32.42",
+   "numberDelay": {
+    "$t": "thirty-two",
+    "offset": -0.1
+   },
+   "color": "teal",
+   "label": "average hourly pay",
+   "sub": "July 2026",
+   "source": "US BLS, average hourly earnings"
+  }
+ },
+ {
+  "at": "p5",
+  "type": "shot",
+  "props": {
+   "photo": "stopwatch",
+   "dim": 0.66,
+   "kicker": "2026",
+   "number": "11.5 min",
+   "numberDelay": {
+    "$t": "eleven and a half",
+    "offset": -0.1
+   },
+   "color": "gold",
+   "label": "of work for one Big Mac",
+   "source": "The Economist; US BLS"
+  }
+ },
+ {
+  "at": "p6",
+  "type": "shot",
+  "props": {
+   "photo": "counter",
+   "dim": 0.8,
+   "header": {
+    "number": "1990 to 2026",
+    "label": "how much each grew",
+    "color": "paper"
+   },
+   "halves": [
+    {
+     "icon": "Banknote",
+     "big": "×3.2",
+     "label": "hourly pay",
+     "color": "teal",
+     "delay": 0.2
+    },
+    {
+     "icon": "Hamburger",
+     "big": "×2.8",
+     "label": "the Big Mac",
+     "color": "gold",
+     "delay": {
+      "$t": "The Big Mac",
+      "offset": 0
+     }
+    }
+   ],
+   "source": "The Economist; US BLS"
+  }
+ },
+ {
+  "at": "p7",
+  "type": "shot",
+  "props": {
+   "photo": "times_square",
+   "dim": 0.82,
+   "header": {
+    "number": "Minutes",
+    "label": "of work per Big Mac",
+    "color": "gold"
+   },
+   "curve": {
+    "yMax": 16,
+    "yTicks": [
+     5,
+     10,
+     15
+    ],
+    "xTicks": [
+     1990,
+     2008,
+     2026
+    ],
+    "prefix": "",
+    "height": 640,
+    "draw": 2.6,
+    "delay": 0.1,
+    "series": [
+     {
+      "label": "Big Mac",
+      "color": "gold",
+      "points": [
+       [
+        1990.25,
+        13.04
+       ],
+       [
+        1991.25,
+        12.91
+       ],
+       [
+        1992.25,
+        12.26
+       ],
+       [
+        1993.25,
+        12.45
+       ],
+       [
+        1994.25,
+        12.24
+       ],
+       [
+        1995.25,
+        12.04
+       ],
+       [
+        1996.25,
+        11.84
+       ],
+       [
+        1997.25,
+        11.72
+       ],
+       [
+        1998.25,
+        11.89
+       ],
+       [
+        1999.17,
+        10.93
+       ],
+       [
+        2000.25,
+        9.68
+       ],
+       [
+        2001.25,
+        9.31
+       ],
+       [
+        2002.25,
+        9.5
+       ],
+       [
+        2003.25,
+        9.66
+       ],
+       [
+        2004.33,
+        9.48
+       ],
+       [
+        2005.42,
+        9.63
+       ],
+       [
+        2006.0,
+        9.76
+       ],
+       [
+        2006.33,
+        10.02
+       ],
+       [
+        2007.0,
+        10.15
+       ],
+       [
+        2007.42,
+        10.34
+       ],
+       [
+        2008.42,
+        10.68
+       ],
+       [
+        2009.5,
+        11.07
+       ],
+       [
+        2010.0,
+        10.9
+       ],
+       [
+        2010.5,
+        11.12
+       ],
+       [
+        2011.5,
+        11.21
+       ],
+       [
+        2012.0,
+        11.67
+       ],
+       [
+        2012.5,
+        12.03
+       ],
+       [
+        2013.0,
+        12.13
+       ],
+       [
+        2013.5,
+        12.45
+       ],
+       [
+        2014.0,
+        12.48
+       ],
+       [
+        2014.5,
+        12.49
+       ],
+       [
+        2015.0,
+        12.38
+       ],
+       [
+        2015.5,
+        12.24
+       ],
+       [
+        2016.0,
+        12.08
+       ],
+       [
+        2016.5,
+        12.51
+       ],
+       [
+        2017.0,
+        12.37
+       ],
+       [
+        2017.5,
+        12.23
+       ],
+       [
+        2018.0,
+        12.37
+       ],
+       [
+        2018.5,
+        12.21
+       ],
+       [
+        2019.0,
+        12.22
+       ],
+       [
+        2019.5,
+        12.01
+       ],
+       [
+        2020.0,
+        12.1
+       ],
+       [
+        2020.5,
+        11.71
+       ],
+       [
+        2021.0,
+        11.66
+       ],
+       [
+        2021.5,
+        11.39
+       ],
+       [
+        2022.0,
+        11.24
+       ],
+       [
+        2022.5,
+        11.17
+       ],
+       [
+        2023.0,
+        11.36
+       ],
+       [
+        2023.5,
+        11.54
+       ],
+       [
+        2024.0,
+        11.53
+       ],
+       [
+        2024.5,
+        11.32
+       ],
+       [
+        2025.0,
+        11.28
+       ],
+       [
+        2025.5,
+        11.49
+       ],
+       [
+        2026.0,
+        11.5
+       ],
+       [
+        2026.5,
+        11.51
+       ]
+      ],
+      "end": "11.5",
+      "delay": 0
+     }
+    ],
+    "mark": {
+     "x": 2001.25,
+     "label": "2001",
+     "delay": {
+      "$t": "two thousand one",
+      "offset": -0.2
+     }
+    }
+   },
+   "source": "The Economist; US BLS"
+  }
+ },
+ {
+  "at": "p7",
+  "after": "Since then",
+  "type": "shot",
+  "props": {
+   "photo": "bigmac_box",
+   "dim": 0.7,
+   "icon": "TrendingUp",
+   "kicker": "2001 to 2026",
+   "number": "+2.2 min",
+   "numberDelay": 0.2,
+   "color": "brick",
+   "label": "of work per Big Mac",
+   "source": "The Economist; US BLS"
+  }
+ },
+ {
+  "at": "p8",
+  "type": "shot",
+  "props": {
+   "photo": "mcd_modern",
+   "dim": 0.8,
+   "kicker": "Minutes of work per Big Mac",
+   "compare": [
+    {
+     "label": "1990",
+     "value": 13.04,
+     "display": "13 min",
+     "color": "slate",
+     "delay": 0.2
+    },
+    {
+     "label": "2026",
+     "value": 11.51,
+     "display": "11.5 min",
+     "color": "gold",
+     "strong": true,
+     "delay": {
+      "$t": "a minute and a half",
+      "offset": -0.2
+     }
+    }
+   ],
+   "source": "The Economist; US BLS"
+  }
+ },
+ {
+  "at": "p8",
+  "after": "More on the channel",
+  "type": "endcard",
+  "props": {}
+ }
+]
