@@ -117,8 +117,8 @@
    "photo": "counter",
    "dim": 0.8,
    "header": {
-    "number": "1990 to 2026",
-    "label": "how much each grew",
+    "number": "Growth",
+    "label": "1990 to 2026",
     "color": "paper"
    },
    "halves": [
@@ -151,7 +151,7 @@
    "dim": 0.82,
    "header": {
     "number": "Minutes",
-    "label": "of work per Big Mac",
+    "label": "per Big Mac",
     "color": "gold"
    },
    "curve": {
