@@ -45,4 +45,5 @@ jobs:
         run: python3 pipeline/upload_youtube.py "$VIDEO" rendu/video.mp4 "$VIDEO/build/thumbnail.png"
 
       - name: Enregistrer l'identifiant YouTube
-        run: pipeline/commit_upload.sh "$VIDEO" long "YouTube : $VIDEO envoyée en privé"
+        run: |
+          pipeline/commit_upload.sh "$VIDEO" long "YouTube : $VIDEO envoyée en privé"

@@ -49,4 +49,5 @@ jobs:
           python3 pipeline/upload_short.py "$SHORT" "$MP4"
 
       - name: Enregistrer l'identifiant YouTube
-        run: pipeline/commit_upload.sh "$SHORT" short "YouTube : Short $SHORT envoyé en privé"
+        run: |
+          pipeline/commit_upload.sh "$SHORT" short "YouTube : Short $SHORT envoyé en privé"
