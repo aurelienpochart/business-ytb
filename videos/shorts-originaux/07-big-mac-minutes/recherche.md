@@ -50,3 +50,8 @@ Crédits CC BY / CC BY-SA ajoutés à la description par `pipeline/short.py`.
 ## Divulgation (C-13)
 
 Voix de synthèse ; musique générée par IA → `contains_synthetic_media: true`.
+
+## Production
+
+Rendu 42611180351 (49 s, 12 plans), musique circuit 42612934776 (start 2, -25 LUFS), envoi PRIVÉ
+https://youtu.be/8OHKuzjuGp0, publish_at 2026-11-10T17:00:00Z (lien chaîne, pas de vidéo associée).
