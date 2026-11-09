@@ -1,0 +1,9 @@
+# Short original 07 : minutes de travail pour un Big Mac (salaire horaire moyen US, 1990 vs 2026)
+ahetpi-fred.csv https://fred.stlouisfed.org/graph/fredgraph.csv?id=AHETPI
+ceu-prod-fred.csv https://fred.stlouisfed.org/graph/fredgraph.csv?id=CEU0500000008
+ces-all-fred.csv https://fred.stlouisfed.org/graph/fredgraph.csv?id=CES0500000003
+fedmin-fred.csv https://fred.stlouisfed.org/graph/fredgraph.csv?id=FEDMINNFRWG
+bls-ahe-prod-1990.json https://api.bls.gov/publicAPI/v2/timeseries/data/CES0500000008?startyear=1990&endyear=1990
+bls-ahe-prod-1996.json https://api.bls.gov/publicAPI/v2/timeseries/data/CES0500000008?startyear=1996&endyear=1996
+bls-ahe-prod-2026.json https://api.bls.gov/publicAPI/v2/timeseries/data/CES0500000008?startyear=2025&endyear=2026
+bls-ahe-all-2026.json https://api.bls.gov/publicAPI/v2/timeseries/data/CES0500000003?startyear=2025&endyear=2026
