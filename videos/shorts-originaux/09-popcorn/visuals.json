@@ -1,0 +1,127 @@
+[
+ {
+  "at": "p0",
+  "type": "shot",
+  "props": {
+   "photo": "amc_front",
+   "dim": 0.66,
+   "logo": "logo_amc",
+   "kicker": "Your movie ticket",
+   "text": "Half goes *to the studio*"
+  }
+ },
+ {
+  "at": "p1",
+  "type": "shot",
+  "props": {
+   "photo": "screen",
+   "dim": 0.7,
+   "icon": "Film",
+   "color": "teal",
+   "kicker": "Paid to studios, Q3 2026",
+   "number": "50¢",
+   "numberDelay": {
+    "$t": "fifty cents",
+    "offset": -0.1
+   },
+   "label": "of every ticket dollar",
+   "source": "AMC 10-Q, quarter to Sept. 30, 2026 (our calculation)"
+  }
+ },
+ {
+  "at": "p2",
+  "type": "shot",
+  "props": {
+   "photo": "popcorn",
+   "dim": 0.66,
+   "kicker": "Popcorn",
+   "text": "Is *different*"
+  }
+ },
+ {
+  "at": "p2",
+  "after": "For every dollar of snacks",
+  "type": "shot",
+  "props": {
+   "photo": "kernels",
+   "dim": 0.72,
+   "icon": "Popcorn",
+   "color": "teal",
+   "kicker": "Cost of the food itself",
+   "number": "18¢",
+   "numberDelay": {
+    "$t": "eighteen cents",
+    "offset": -0.1
+   },
+   "label": "per snack dollar",
+   "source": "AMC 10-Q, quarter to Sept. 30, 2026 (our calculation)"
+  }
+ },
+ {
+  "at": "p3",
+  "type": "shot",
+  "props": {
+   "photo": "concession",
+   "dim": 0.72,
+   "icon": "Coins",
+   "color": "gold",
+   "kicker": "Kept by AMC",
+   "number": "82¢",
+   "numberDelay": {
+    "$t": "eighty-two cents",
+    "offset": -0.1
+   },
+   "label": "of every snack dollar",
+   "sub": "before staff and rent",
+   "source": "AMC 10-Q, quarter to Sept. 30, 2026 (our calculation)"
+  }
+ },
+ {
+  "at": "p4",
+  "type": "shot",
+  "props": {
+   "photo": "seats",
+   "dim": 0.78,
+   "kicker": "Average AMC customer, 2025",
+   "halves": [
+    {
+     "icon": "Ticket",
+     "big": "$12.09",
+     "label": "on the ticket",
+     "color": "teal",
+     "delay": {
+      "$t": "twelve dollars",
+      "offset": -0.1
+     }
+    },
+    {
+     "icon": "Popcorn",
+     "big": "$7.62",
+     "label": "on snacks",
+     "color": "gold",
+     "delay": {
+      "$t": "seven sixty-two",
+      "offset": -0.1
+     }
+    }
+   ],
+   "source": "AMC Q4 2025 earnings (Feb. 2026)"
+  }
+ },
+ {
+  "at": "p5",
+  "type": "shot",
+  "props": {
+   "photo": "machine",
+   "dim": 0.66,
+   "kicker": "The movie business",
+   "text": "Popcorn *pays the rent*"
+  }
+ },
+ {
+  "at": "p5",
+  "after": "More on the channel",
+  "type": "endcard",
+  "props": {}
+ }
+]
