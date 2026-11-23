@@ -1,0 +1,14 @@
+{
+  "title": "Why Movie Theater Popcorn Costs So Much",
+  "sentence": "In the quarter to Sept. 30, 2026, AMC's film exhibition costs were about 50% of its admissions revenue, while its food and beverage costs were about 18% of food and beverage revenue (our calculation from AMC's 10-Q); in 2025 the average patron spent $12.09 on admissions and $7.62 on food and drinks.",
+  "source": [
+    "AMC Entertainment Holdings, Form 10-Q for the quarter ended Sept. 30, 2026: https://www.sec.gov/Archives/edgar/data/1411579/000141157926000075/amc-20260930x10q.htm",
+    "AMC Q4 2025 earnings call highlights (per-patron figures): https://finance.yahoo.com/news/amc-entertainment-holdings-inc-amc-050151905.html"
+  ],
+  "related": {"channel": true},
+  "tags": ["movie popcorn", "why is movie popcorn so expensive", "AMC Theatres", "movie theater business", "concessions", "how movie theaters make money", "business explained", "The Cost Curve"],
+  "category_id": "27",
+  "made_for_kids": false,
+  "contains_synthetic_media": true,
+  "tint": "netflix"
+}

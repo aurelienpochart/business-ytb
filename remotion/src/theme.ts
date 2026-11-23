@@ -215,6 +215,29 @@ export const TINTS: Record<string, Palette> = {
       heroNumGlow: 'rgba(80,160,255,0.55)',
     },
   },
+  eggs: {
+    // Œufs (vidéo 09) : nuit brun grange presque noire, halos terre cuite chaude comme une coquille brune sous
+    // une lampe ; l'or reste l'accent principal et rejoint le jaune d'œuf pour les grands chiffres. Les chiffres
+    // « teal » passent à un vert sauge (#93D9A6), lisible sur le brun et distinct de l'or et du rouge brique.
+    C: {ink: '#080502', navy: '#1A1006', navyLight: '#2B1C0C', mute: '#B5A48F', slate: '#907D66', teal: '#93D9A6'},
+    GRAD: {
+      teal: ['#2F7A4A', '#C2F0CF', 'rgba(147,217,166,0.40)'],
+      slate: ['#3D3022', '#A8957E', 'rgba(168,149,126,0.25)'],
+    },
+    AMB: {
+      inkRgb: '8,5,2',
+      night: '#5A3510',
+      nightSoft: '#4A2C0E',
+      orbCool: 'rgba(196,110,40,0.11)',
+      orbTeal: 'rgba(255,196,80,0.05)',
+      particle: '#fff0d6',
+      photoGrade: 'rgba(110,60,14,0.24)',
+      photoFilter: '',
+      regradeFilter: 'saturate(0.6)',
+      heroNum: '#FFC23D',
+      heroNumGlow: 'rgba(255,170,30,0.55)',
+    },
+  },
 };
 
 const DEFAULT = {C: {...C}, GRAD: {...GRAD}, AMB: {...AMB}};

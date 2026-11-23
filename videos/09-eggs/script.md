@@ -77,9 +77,9 @@ And we had seen this movie before. In January 2023, after the first wave of the 
 
 So far, this is a supply chain story. But who decides what that wholesale price is?
 
-## 3. The quote
+## 3. The benchmark
 
-> Parcours : « The quote » s'allume. Énoncé : « Urner Barry. »
+> Parcours : « The benchmark » s'allume. Énoncé : « Urner Barry. »
 
 Most eggs aren't sold at auction. Big buyers, like supermarket chains and food makers, sign contracts with egg farms. And many of those contracts don't fix a price. They point to a benchmark: a daily price published by a private company called Urner Barry. [E11]
 

@@ -1,0 +1,55 @@
+{
+  "title": "Who Really Got Paid for $6 Eggs?",
+  "summary": "In March 2025, a dozen eggs in America cost a record $6.23. By October 2026, it was $2.32. Bird flu was the official explanation, and it was real. But in June 2026, the Justice Department and 17 states accused three of the biggest egg producers of pushing up a price most Americans have never heard of: the Urner Barry benchmark. We follow one dozen eggs from the hen to the shelf, through the virus, the benchmark, the alleged bids, the record profits, the crash to 22 cents wholesale, and the supermarket price that fell much more slowly. The companies denied wrongdoing and settled without admitting any. Main sources below.",
+  "chapter_titles": {
+    "0": "From $1.93 to $6.23",
+    "1": "The hen",
+    "2": "The virus",
+    "3": "The benchmark",
+    "4": "The bids",
+    "5": "The winner",
+    "6": "The glut",
+    "7": "The shelf",
+    "8": "Who really got paid"
+  },
+  "sources": [
+    "Retail egg prices, BLS series APU0000708111 (monthly table): https://crumbcounts.com/prices/eggs/",
+    "Egg prices adjusted for inflation (BLS): https://www.usinflationcalculator.com/inflation/egg-prices-adjusted-for-inflation/",
+    "DOJ antitrust probe, March 2025 (Fortune/Bloomberg): https://www.fortune.com/2025/03/08/justice-department-antitrust-probe-egg-price-spike-cal-maine-foods-rose-acre-farms",
+    "Record retail price and flock size (Fortune/AP): https://fortune.com/2025/04/10/egg-prices-hit-new-record-high-despite-bird-flu-slowing",
+    "Wholesale collapse, January 2026 (USA Today): https://www.centraloregondaily.com/news/consumer/egg-prices-drop-after-bird-flu-surge/article_117f5534-b2b8-42ed-ab46-f5978cf3ecb5.html",
+    "Oversupply and producer margins (WATTPoultry): https://www.wattagnet.com/egg/article/15826363/why-oversupply-egg-prices-are-hurting-us-producer-margins",
+    "American Egg Board, why wholesale prices fell: https://www.incredibleegg.org/professionals/manufacturers/market-trends/white-papers/why-wholesale-egg-prices-fell-2026/",
+    "USDA Egg Markets Overview, Sept. 2026 (IndexBox summary): https://www.indexbox.io/blog/usda-egg-market-data-september-28-2026-wholesale-prices-inventories-and-demand/",
+    "Bird flu in egg-laying flocks (APHIS data): https://the-scramble.com/hpai/layer-flocks",
+    "Cage-free share (USDA data, The Humane League): https://thehumaneleague.org/article/45-percent-cage-free-in-the-us",
+    "DOJ and states' settlement, June 2026 (Duane Morris): https://www.duanemorris.com/alerts/egg_price_fixing_settlements_signal_dojs_intensifying_focus_commodity_benchmark_0726.html",
+    "Settlement details and company statements (Quartz/Yahoo Finance): https://finance.yahoo.com/markets/commodities/articles/doj-states-settle-egg-price-171229878.html",
+    "Cal-Maine fiscal 2026 results: https://www.globenewswire.com/news-release/2026/07/22/3331159/0/en/cal-maine-foods-reports-fourth-quarter-and-fiscal-2026-results.html",
+    "Cal-Maine (Wikipedia): https://en.wikipedia.org/wiki/Cal-Maine"
+  ],
+  "credits": [
+    "Fonts: Inter, IBM Plex Mono and Instrument Serif (SIL Open Font License); icons: Lucide (ISC).",
+    "Charts, timelines and animations made by The Cost Curve from the sources above. The allegations are those of the U.S. Department of Justice and 17 states; the companies denied wrongdoing and settled without admitting liability."
+  ],
+  "subject_company": "Cal-Maine Foods",
+  "tags": [
+    "egg prices",
+    "why are eggs so expensive",
+    "egg prices 2026",
+    "bird flu eggs",
+    "Cal-Maine Foods",
+    "egg price fixing",
+    "Urner Barry",
+    "DOJ egg settlement",
+    "grocery prices",
+    "food inflation",
+    "supply chain explained",
+    "business explained",
+    "The Cost Curve"
+  ],
+  "category_id": "27",
+  "contains_synthetic_media": true,
+  "made_for_kids": false,
+  "tint": "eggs"
+}
