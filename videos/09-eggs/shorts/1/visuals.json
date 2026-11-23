@@ -1,10 +1,123 @@
 [
- {"at": "p0", "type": "shot", "props": {"photo": "shelf_full", "dim": 0.7, "kicker": "A dozen eggs", "text": "Not priced *at the store*"}},
- {"at": "p0", "after": "They're priced off", "type": "shot", "props": {"photo": "eggs_closeup", "dim": 0.74, "icon": "Gauge", "color": "gold", "kicker": "A daily benchmark", "text": "*Urner Barry*", "source": "DOJ complaint via Duane Morris (July 2026)"}},
- {"at": "p1", "type": "shot", "props": {"photo": "conveyor", "dim": 0.72, "icon": "MonitorSmartphone", "color": "teal", "kicker": "Fed by", "text": "A *small* trading platform", "sub": "the Egg Clearinghouse (ECI)"}},
- {"at": "p2", "type": "shot", "props": {"photo": "doj_bldg", "dim": 0.7, "logo": "logo_doj", "kicker": "June 2026", "number": "17", "numberDelay": {"$t": "seventeen", "offset": -0.1}, "color": "gold", "label": "states + the Justice Department", "source": "Duane Morris (July 7, 2026)"}},
- {"at": "p2", "after": "said three big egg companies", "type": "shot", "props": {"photo": "egg_collect", "dim": 0.74, "icon": "TrendingUp", "color": "brick", "kicker": "The allegation, 2022 to 2025", "text": "Bid together. *Push it up.*", "source": "DOJ complaint via Duane Morris"}},
- {"at": "p3", "type": "shot", "props": {"photo": "courthouse", "dim": 0.74, "icon": "Mail", "color": "gold", "kicker": "Email, December 2022", "text": "“Strong bids, *early and often*”", "source": "New York attorney general via Quartz (June 30, 2026)"}},
- {"at": "p4", "type": "shot", "props": {"photo": "food_bank", "dim": 0.72, "kicker": "The settlement", "halves": [{"icon": "Coins", "big": "$3.3M", "label": "paid", "color": "gold", "delay": {"$t": "three point three", "offset": -0.1}}, {"icon": "Egg", "big": "53M", "label": "eggs to food banks", "color": "teal", "delay": {"$t": "fifty-three", "offset": -0.1}}], "source": "Duane Morris (July 7, 2026)"}},
- {"at": "p4", "after": "Full story on the channel", "type": "endcard", "props": {}}
+ {
+  "at": "p0",
+  "type": "shot",
+  "props": {
+   "photo": "shelf_full",
+   "dim": 0.7,
+   "kicker": "A dozen eggs",
+   "text": "Not priced *at the store*"
+  }
+ },
+ {
+  "at": "p0",
+  "after": "They're priced off",
+  "type": "shot",
+  "props": {
+   "photo": "eggs_closeup",
+   "dim": 0.74,
+   "icon": "Gauge",
+   "color": "gold",
+   "kicker": "A daily benchmark",
+   "text": "*Urner Barry*",
+   "source": "DOJ complaint via Duane Morris (July 2026)"
+  }
+ },
+ {
+  "at": "p1",
+  "type": "shot",
+  "props": {
+   "photo": "conveyor",
+   "dim": 0.72,
+   "icon": "MonitorSmartphone",
+   "color": "teal",
+   "kicker": "Fed by",
+   "text": "A *small* trading platform",
+   "sub": "the Egg Clearinghouse (ECI)"
+  }
+ },
+ {
+  "at": "p2",
+  "type": "shot",
+  "props": {
+   "photo": "doj_bldg",
+   "dim": 0.7,
+   "logo": "logo_doj",
+   "kicker": "June 2026",
+   "number": "17",
+   "numberDelay": {
+    "$t": "seventeen",
+    "offset": -0.1
+   },
+   "color": "gold",
+   "label": "states + the Justice Department",
+   "source": "Duane Morris (July 7, 2026)",
+   "logoColor": "original"
+  }
+ },
+ {
+  "at": "p2",
+  "after": "said three big egg companies",
+  "type": "shot",
+  "props": {
+   "photo": "egg_collect",
+   "dim": 0.74,
+   "icon": "TrendingUp",
+   "color": "brick",
+   "kicker": "The allegation, 2022 to 2025",
+   "text": "Bid together. *Push it up.*",
+   "source": "DOJ complaint via Duane Morris"
+  }
+ },
+ {
+  "at": "p3",
+  "type": "shot",
+  "props": {
+   "photo": "courthouse",
+   "dim": 0.74,
+   "icon": "Mail",
+   "color": "gold",
+   "kicker": "Email, December 2022",
+   "text": "“Strong bids, *early and often*”",
+   "source": "New York attorney general via Quartz (June 30, 2026)"
+  }
+ },
+ {
+  "at": "p4",
+  "type": "shot",
+  "props": {
+   "photo": "food_bank",
+   "dim": 0.72,
+   "kicker": "The settlement",
+   "halves": [
+    {
+     "icon": "Coins",
+     "big": "$3.3M",
+     "label": "paid",
+     "color": "gold",
+     "delay": {
+      "$t": "three point three",
+      "offset": -0.1
+     }
+    },
+    {
+     "icon": "Egg",
+     "big": "53M",
+     "label": "eggs to food banks",
+     "color": "teal",
+     "delay": {
+      "$t": "fifty-three",
+      "offset": -0.1
+     }
+    }
+   ],
+   "source": "Duane Morris (July 7, 2026)"
+  }
+ },
+ {
+  "at": "p4",
+  "after": "Full story on the channel",
+  "type": "endcard",
+  "props": {}
+ }
 ]

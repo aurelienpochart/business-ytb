@@ -110,7 +110,8 @@
    "kicker": "June 2026",
    "text": "*17 states.* 3 egg companies.",
    "focus": "50% 50%",
-   "source": "DOJ and 17 states' complaint, per Duane Morris (July 7, 2026)"
+   "source": "DOJ and 17 states' complaint, per Duane Morris (July 7, 2026)",
+   "logoColor": "original"
   }
  },
  {
@@ -1692,7 +1693,7 @@
   "at": "c8p3",
   "type": "hero",
   "props": {
-   "photo": "carton_eb",
+   "photo": "brown_eggs",
    "number": "$2.32",
    "label": "a dozen eggs, October 2026",
    "kicker": "U.S. average retail price",

@@ -96,12 +96,13 @@ export const PhotoCredit: React.FC<{id: string}> = ({id}) => {
 };
 
 // Plan photo : image plein cadre + phrase, logo éventuel.
-export const Photo: React.FC<{photo: string; text?: string; kicker?: string; sub?: string; logo?: string; focus?: string; zoom?: 'in' | 'out'; source?: string}> = ({
+export const Photo: React.FC<{photo: string; text?: string; kicker?: string; sub?: string; logo?: string; logoColor?: 'white' | 'gold' | 'original'; focus?: string; zoom?: 'in' | 'out'; source?: string}> = ({
   photo,
   text,
   kicker,
   sub,
   logo,
+  logoColor = 'white',
   focus,
   zoom,
   source,
@@ -118,7 +119,7 @@ export const Photo: React.FC<{photo: string; text?: string; kicker?: string; sub
         <div style={P ? {position: 'absolute', left: 70, right: 70, bottom: 80} : {position: 'absolute', left: 150, bottom: 190, maxWidth: 1300}}>
           {logo ? (
             <div style={{marginBottom: P ? 34 : 40, ...fade(pLogo)}}>
-              <Logo id={logo} height={P ? 80 : 90} />
+              <Logo id={logo} height={P ? 80 : 90} color={logoColor} />
             </div>
           ) : null}
           {kicker ? (

@@ -39,6 +39,7 @@ export type ShotProps = {
   dim?: number; // voile sombre sur la photo (0 à 1)
   zoom?: 'in' | 'out';
   logo?: string; // logo en blanc au-dessus du contenu
+  logoColor?: 'white' | 'gold' | 'original'; // « original » pour un sceau en couleurs
   kicker?: string;
   icon?: string;
   number?: string; // nombre géant (texte affiché tel quel)
@@ -538,7 +539,7 @@ const Inset: React.FC<{id: string}> = ({id}) => {
   );
 };
 
-export const Shot: React.FC<ShotProps> = ({image, photo, focus, dim = 0.62, zoom, logo, kicker, icon, number, numberDelay = 0.2, color = 'gold', label, sub, text, bar, items, header, halves, curve, compare, map, source, align = 'center'}) => {
+export const Shot: React.FC<ShotProps> = ({image, photo, focus, dim = 0.62, zoom, logo, logoColor = 'white', kicker, icon, number, numberDelay = 0.2, color = 'gold', label, sub, text, bar, items, header, halves, curve, compare, map, source, align = 'center'}) => {
   const frame = useCurrentFrame();
   const {fps} = useVideoConfig();
   const L = useLayout();
@@ -573,7 +574,7 @@ export const Shot: React.FC<ShotProps> = ({image, photo, focus, dim = 0.62, zoom
       >
         {logo ? (
           <div style={{...fade(pLogo), marginBottom: 6}}>
-            <Logo id={logo} height={86} />
+            <Logo id={logo} height={86} color={logoColor} />
           </div>
         ) : null}
         {image ? <Inset id={image} /> : null}
