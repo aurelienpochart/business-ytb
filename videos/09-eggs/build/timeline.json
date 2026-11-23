@@ -1,0 +1,382 @@
+{
+  "duration": 666.5,
+  "ident": 59.0,
+  "segments": [
+    {
+      "id": "c0p0",
+      "chapter": 0,
+      "chapter_title": "Hook",
+      "text": "In January 2022, a dozen eggs in America cost one dollar and ninety-three cents on average. By March 2025, the same dozen cost six dollars and twenty-three cents. The highest price ever recorded.",
+      "start": 0.3,
+      "end": 17.02
+    },
+    {
+      "id": "c0p1",
+      "chapter": 0,
+      "chapter_title": "Hook",
+      "text": "Then it fell. In October 2026, the average dozen was back to two dollars and thirty-two cents.",
+      "start": 17.47,
+      "end": 23.39
+    },
+    {
+      "id": "c0p2",
+      "chapter": 0,
+      "chapter_title": "Hook",
+      "text": "The official explanation was simple: bird flu. And bird flu was real. Tens of millions of hens died. But it's not the whole story.",
+      "start": 23.84,
+      "end": 33.44
+    },
+    {
+      "id": "c0p3",
+      "chapter": 0,
+      "chapter_title": "Hook",
+      "text": "In June 2026, the Justice Department and seventeen states accused three of the biggest egg companies in America of pushing up a price that almost nobody has heard of. The companies denied it, and settled.",
+      "start": 33.89,
+      "end": 48.25
+    },
+    {
+      "id": "c0p4",
+      "chapter": 0,
+      "chapter_title": "Hook",
+      "text": "So when you paid six dollars for a dozen eggs, who actually got the money? To find out, let's follow one dozen eggs, from the hen to your fridge.",
+      "start": 48.7,
+      "end": 58.7
+    },
+    {
+      "id": "c1p0",
+      "chapter": 1,
+      "chapter_title": "The hen",
+      "text": "Our dozen starts in a barn with a few hundred thousand hens. America has around three hundred million laying hens, and a good hen lays an egg most days.",
+      "start": 62.3,
+      "end": 73.42
+    },
+    {
+      "id": "c1p1",
+      "chapter": 1,
+      "chapter_title": "The hen",
+      "text": "There's a good chance our hen belongs to Cal-Maine Foods. It started in Mississippi in 1957. Today it's the biggest egg company in the country, with about thirteen billion eggs a year. That's about one in every five eggs sold in America.",
+      "start": 73.87,
+      "end": 90.03
+    },
+    {
+      "id": "c1p2",
+      "chapter": 1,
+      "chapter_title": "The hen",
+      "text": "Here's the first thing to know about eggs. An egg from one big farm is almost the same as an egg from another. So farms don't really compete on brand. They compete on price. And that price moves every single day.",
+      "start": 90.48,
+      "end": 104.84
+    },
+    {
+      "id": "c1p3",
+      "chapter": 1,
+      "chapter_title": "The hen",
+      "text": "One more change matters. More and more hens live cage-free, almost half of them by mid 2025, because several states and many big retailers now demand it. Cage-free eggs cost more to produce. But they're not why prices tripled.",
+      "start": 105.29,
+      "end": 120.81
+    },
+    {
+      "id": "c2p0",
+      "chapter": 2,
+      "chapter_title": "The virus",
+      "text": "In early 2022, a deadly strain of bird flu reached American farms. It spreads fast. And when it's found in a barn, the rule is harsh: the whole flock is destroyed, sometimes millions of hens at once.",
+      "start": 121.91,
+      "end": 138.19
+    },
+    {
+      "id": "c2p1",
+      "chapter": 2,
+      "chapter_title": "The virus",
+      "text": "By April 2025, more than a hundred and sixty-eight million birds had been culled since the outbreak began. In the worst stretch, from late 2024 to early 2025, egg farms lost fifty million laying hens.",
+      "start": 138.64,
+      "end": 153.56
+    },
+    {
+      "id": "c2p2",
+      "chapter": 2,
+      "chapter_title": "The virus",
+      "text": "Before the outbreak, America had more than three hundred and fifteen million laying hens. By March 2025, it was down to about two hundred and eighty-five million.",
+      "start": 154.01,
+      "end": 166.01
+    },
+    {
+      "id": "c2p3",
+      "chapter": 2,
+      "chapter_title": "The virus",
+      "text": "Now, a shortage of ten percent doesn't usually triple a price. But eggs are special. People keep buying them, for breakfast, for baking, in thousands of products. When supply drops and demand barely moves, the price has to jump a lot before anyone stops buying.",
+      "start": 166.46,
+      "end": 185.26
+    },
+    {
+      "id": "c2p4",
+      "chapter": 2,
+      "chapter_title": "The virus",
+      "text": "On February twenty-eighth, 2025, a dozen large eggs sold wholesale in the Midwest for eight dollars and forty-one cents. A record, and more than three times the year before.",
+      "start": 185.71,
+      "end": 197.99
+    },
+    {
+      "id": "c2p5",
+      "chapter": 2,
+      "chapter_title": "The virus",
+      "text": "And we had seen this movie before. In January 2023, after the first wave of the virus, the average dozen hit four dollars and eighty-two cents. By August, it was back to two dollars and four cents. Then the virus came back, and the price climbed again, higher than ever.",
+      "start": 198.44,
+      "end": 215.32
+    },
+    {
+      "id": "c2p6",
+      "chapter": 2,
+      "chapter_title": "The virus",
+      "text": "So far, this is a supply chain story. But who decides what that wholesale price is?",
+      "start": 215.77,
+      "end": 220.73
+    },
+    {
+      "id": "c3p0",
+      "chapter": 3,
+      "chapter_title": "The benchmark",
+      "text": "Most eggs aren't sold at auction. Big buyers, like supermarket chains and food makers, sign contracts with egg farms. And many of those contracts don't fix a price. They point to a benchmark: a daily price published by a private company called Urner Barry.",
+      "start": 221.83,
+      "end": 239.11
+    },
+    {
+      "id": "c3p1",
+      "chapter": 3,
+      "chapter_title": "The benchmark",
+      "text": "Think of it like a thermostat. Whatever number Urner Barry prints today, millions of eggs in those contracts follow it.",
+      "start": 239.56,
+      "end": 247.24
+    },
+    {
+      "id": "c3p2",
+      "chapter": 3,
+      "chapter_title": "The benchmark",
+      "text": "So how does Urner Barry find its number? One of its inputs is an electronic trading platform called the Egg Clearinghouse, or E C I, where producers and buyers trade spare eggs day by day. It's a small market. But what happens there helps set the price for a much bigger one.",
+      "start": 247.69,
+      "end": 263.57
+    },
+    {
+      "id": "c3p3",
+      "chapter": 3,
+      "chapter_title": "The benchmark",
+      "text": "That creates a strange incentive. If you sell a lot of eggs at the benchmark price, a higher number on that small platform can be worth a fortune on everything else you sell.",
+      "start": 264.02,
+      "end": 273.94
+    },
+    {
+      "id": "c4p0",
+      "chapter": 4,
+      "chapter_title": "The bids",
+      "text": "That's exactly what the government says happened. On June twenty-ninth, 2026, the Justice Department and seventeen states filed an antitrust complaint against Cal-Maine, Versova and Hickman's Egg Ranch, three of the country's largest egg producers.",
+      "start": 275.04,
+      "end": 290.88
+    },
+    {
+      "id": "c4p1",
+      "chapter": 4,
+      "chapter_title": "The bids",
+      "text": "The complaint alleges that from June 2022 to March 2025, right through the bird flu crisis, the three companies coordinated their bids on the Egg Clearinghouse, to push Urner Barry's quotes higher.",
+      "start": 291.33,
+      "end": 304.81
+    },
+    {
+      "id": "c4p2",
+      "chapter": 4,
+      "chapter_title": "The bids",
+      "text": "Here's the twist. Some of them were, in the complaint's words, \"net short\". They had promised supermarkets more eggs than their own hens laid. So they bought eggs on the platform to fill the gap. Bidding more for those eggs sounds like a bad deal. Unless it lifts the benchmark that sets the price on all your other contracts.",
+      "start": 305.26,
+      "end": 325.46
+    },
+    {
+      "id": "c4p3",
+      "chapter": 4,
+      "chapter_title": "The bids",
+      "text": "New York's attorney general gave one example. In December 2022, Hickman's chief executive at the time emailed executives at Versova and Cal-Maine, urging \"strong bids, early and often\". The three companies then placed dozens of higher bids, and Urner Barry raised its quotes.",
+      "start": 325.91,
+      "end": 344.11
+    },
+    {
+      "id": "c4p4",
+      "chapter": 4,
+      "chapter_title": "The bids",
+      "text": "In March 2025, the Justice Department opened its investigation. And according to the complaint, once the companies learned about it, the quotes \"dropped significantly\".",
+      "start": 344.56,
+      "end": 355.44
+    },
+    {
+      "id": "c4p5",
+      "chapter": 4,
+      "chapter_title": "The bids",
+      "text": "The case never went to trial. The three companies settled for three point three million dollars in total, plus fifty-three million eggs donated to food banks. None of them admitted wrongdoing. Cal-Maine said its conduct was lawful, and its chief executive said the deal lets the company \"move forward\".",
+      "start": 355.89,
+      "end": 374.97
+    },
+    {
+      "id": "c4p6",
+      "chapter": 4,
+      "chapter_title": "The bids",
+      "text": "To be clear, nobody has proved in court that these bids raised what you paid. Bird flu was the main shock. But the case shows how a few bids on a small platform could ripple through the price of a dozen eggs across the country.",
+      "start": 375.42,
+      "end": 390.42
+    },
+    {
+      "id": "c5p0",
+      "chapter": 5,
+      "chapter_title": "The winner",
+      "text": "So who made money during the shortage? Look at the biggest producer. In its fiscal year to May 2025, Cal-Maine's sales reached four point three billion dollars. Its profit: one point two two billion dollars.",
+      "start": 391.52,
+      "end": 405.92
+    },
+    {
+      "id": "c5p1",
+      "chapter": 5,
+      "chapter_title": "The winner",
+      "text": "Bird flu destroyed hens all over the country. But when prices triple, the farms that still have hens can earn more than ever, even selling fewer eggs.",
+      "start": 406.37,
+      "end": 415.77
+    },
+    {
+      "id": "c5p2",
+      "chapter": 5,
+      "chapter_title": "The winner",
+      "text": "Now compare. Cal-Maine's share of the settlement was one and a half million dollars. One law firm worked out that it was about zero point one two percent of that year's profit.",
+      "start": 416.22,
+      "end": 427.38
+    },
+    {
+      "id": "c5p3",
+      "chapter": 5,
+      "chapter_title": "The winner",
+      "text": "In other words, for every thousand dollars Cal-Maine earned that year, the settlement cost it about a dollar and twenty cents.",
+      "start": 427.83,
+      "end": 435.63
+    },
+    {
+      "id": "c6p0",
+      "chapter": 6,
+      "chapter_title": "The glut",
+      "text": "Then the cycle turned, as it always does in farming. High prices pulled new hens into barns everywhere. Farms rebuilt their flocks. Hundreds of small new farms opened. By the end of September 2026, America had about three hundred and eighteen million laying hens, more than before the outbreak.",
+      "start": 436.73,
+      "end": 457.61
+    },
+    {
+      "id": "c6p1",
+      "chapter": 6,
+      "chapter_title": "The glut",
+      "text": "The wholesale price collapsed. In January 2026, a dozen large eggs sold wholesale for thirty-six cents, down almost ninety percent in seven months. By April, it was twenty-two cents a dozen, below what it costs most farms to produce them.",
+      "start": 458.06,
+      "end": 477.7
+    },
+    {
+      "id": "c6p2",
+      "chapter": 6,
+      "chapter_title": "The glut",
+      "text": "The industry's own marketing group put it this way: \"There's never been a better time to buy eggs.\"",
+      "start": 478.15,
+      "end": 483.51
+    },
+    {
+      "id": "c6p3",
+      "chapter": 6,
+      "chapter_title": "The glut",
+      "text": "For Cal-Maine, the boom became a bust. In its fiscal year to May 2026, profit fell seventy-four percent, to three hundred and seventeen million dollars. In the last quarter, it lost money. Its chief executive blamed \"industry oversupply\".",
+      "start": 483.96,
+      "end": 502.12
+    },
+    {
+      "id": "c6p4",
+      "chapter": 6,
+      "chapter_title": "The glut",
+      "text": "So the company is trying to depend less on that wild daily price. It's spending fifty-four million dollars to make more prepared foods, like egg bites and breakfast products, where prices don't swing every day.",
+      "start": 502.57,
+      "end": 514.61
+    },
+    {
+      "id": "c7p0",
+      "chapter": 7,
+      "chapter_title": "The shelf",
+      "text": "Last stop: the supermarket. And this is where it gets interesting for you.",
+      "start": 515.71,
+      "end": 520.79
+    },
+    {
+      "id": "c7p1",
+      "chapter": 7,
+      "chapter_title": "The shelf",
+      "text": "Between the farm and your cart, our dozen passes through several hands. It's washed, graded and packed, often by the producer itself. Then it's trucked to a distribution center, and finally to the store. Each step takes a cut. When wholesale prices are high, the farm's cut is the biggest. When they crash, the farm's cut almost disappears.",
+      "start": 521.24,
+      "end": 542.8
+    },
+    {
+      "id": "c7p2",
+      "chapter": 7,
+      "chapter_title": "The shelf",
+      "text": "In April 2026, when farms were getting twenty-two cents a dozen, the average advertised price in stores was a dollar sixty-eight. That's more than seven times the wholesale price. And the average shelf price that month, across all stores, was two dollars and twenty-five cents.",
+      "start": 543.25,
+      "end": 561.25
+    },
+    {
+      "id": "c7p3",
+      "chapter": 7,
+      "chapter_title": "The shelf",
+      "text": "By late September, wholesale was thirty-nine cents. The average shelf price was still two dollars and twenty-seven.",
+      "start": 561.7,
+      "end": 568.46
+    },
+    {
+      "id": "c7p4",
+      "chapter": 7,
+      "chapter_title": "The shelf",
+      "text": "Put it another way. Out of the twelve eggs you paid for, the farm's price covered about two.",
+      "start": 568.91,
+      "end": 574.11
+    },
+    {
+      "id": "c7p5",
+      "chapter": 7,
+      "chapter_title": "The shelf",
+      "text": "Part of that gap is normal. Eggs need washing, grading, packing, trucks, and a store. And many retailers buy on contracts that last three or six months, so lower prices reach the shelf late.",
+      "start": 574.56,
+      "end": 586.08
+    },
+    {
+      "id": "c7p6",
+      "chapter": 7,
+      "chapter_title": "The shelf",
+      "text": "To be fair, it works both ways. At the peak, some stores sold eggs at a loss to keep shoppers coming in. But for most of the past year, the gap has been wide, and shoppers have paid for it.",
+      "start": 586.53,
+      "end": 598.93
+    },
+    {
+      "id": "c8p0",
+      "chapter": 8,
+      "chapter_title": "The real cost",
+      "text": "So, who really got paid for six-dollar eggs? Not the hens. Not most small farms, which now sell below cost. The money went to whoever held eggs when they were scarce: the biggest producers, with one point two billion dollars of profit at Cal-Maine alone. And now that eggs are cheap again, most of your two dollars goes to everyone after the farm: the packers, the trucks, and the store.",
+      "start": 600.03,
+      "end": 623.91
+    },
+    {
+      "id": "c8p1",
+      "chapter": 8,
+      "chapter_title": "The real cost",
+      "text": "The deeper lesson is about how that price is made. A dozen eggs in your cart is priced off a benchmark, fed by a small trading platform, that most Americans have never heard of. When that number moves, the whole country pays.",
+      "start": 624.36,
+      "end": 639.36
+    },
+    {
+      "id": "c8p2",
+      "chapter": 8,
+      "chapter_title": "The real cost",
+      "text": "The government says three companies tried to move it. They paid three point three million dollars and gave away fifty-three million eggs, without admitting anything.",
+      "start": 639.81,
+      "end": 650.29
+    },
+    {
+      "id": "c8p3",
+      "chapter": 8,
+      "chapter_title": "The real cost",
+      "text": "Today a dozen costs about two dollars and thirty-two cents. And bird flu is still out there, eighteen million hens lost this year alone. Next time the price jumps, you'll know where to look. Not just at the barn. At the number.",
+      "start": 650.74,
+      "end": 665.5
+    }
+  ]
+}
