@@ -15,7 +15,7 @@
   "at": "c0p0",
   "after": "By March 2025",
   "type": "prices",
-  "bg": "eggs_supermarket",
+  "bg": "shelf_full",
   "props": {
    "kicker": "A dozen eggs, U.S. average",
    "items": [
@@ -83,7 +83,7 @@
  {
   "at": "c0p2",
   "type": "statement",
-  "bg": "bird_flu",
+  "bg": "hen_dark",
   "props": {
    "kicker": "The official explanation",
    "text": "*Bird flu.*",
@@ -222,7 +222,7 @@
   "after": "America has",
   "type": "photo",
   "props": {
-   "photo": "egg_farm",
+   "photo": "cages_dense",
    "kicker": "A few hundred thousand hens per barn",
    "text": "About *300 million* laying hens.",
    "focus": "50% 50%",
@@ -233,7 +233,7 @@
   "at": "c1p1",
   "type": "photo",
   "props": {
-   "photo": "barns_aerial",
+   "photo": "egg_collect",
    "logo": "logo_calmaine",
    "logoColor": "white",
    "kicker": "Cal-Maine Foods",
@@ -289,7 +289,7 @@
   "at": "c1p2",
   "after": "They compete on price",
   "type": "statement",
-  "bg": "egg_sorting",
+  "bg": "brown_eggs",
   "props": {
    "kicker": "No brand. Just a price",
    "text": "A price that moves *every day*.",
@@ -299,7 +299,7 @@
  {
   "at": "c1p3",
   "type": "donut",
-  "bg": "aviary_hens",
+  "bg": "cages_hens",
   "props": {
    "title": "U.S. egg-laying hens, June 2025",
    "parts": [
@@ -327,7 +327,7 @@
   "at": "c1p3",
   "after": "But they're not why",
   "type": "statement",
-  "bg": "aviary_hens",
+  "bg": "cages_hens",
   "props": {
    "kicker": "Costs more",
    "text": "But not why prices *tripled*.",
@@ -379,7 +379,7 @@
   "after": "It spreads fast",
   "type": "photo",
   "props": {
-   "photo": "wild_ducks",
+   "photo": "hen_nest",
    "kicker": "Carried by wild birds",
    "text": "It *spreads fast*.",
    "focus": "50% 50%"
@@ -389,7 +389,7 @@
   "at": "c2p0",
   "after": "the rule is harsh",
   "type": "statement",
-  "bg": "bird_flu",
+  "bg": "hen_dark",
   "props": {
    "kicker": "One positive test",
    "text": "The *whole flock* is destroyed.",
@@ -399,7 +399,7 @@
  {
   "at": "c2p1",
   "type": "numbers",
-  "bg": "barns_aerial",
+  "bg": "hen_dark",
   "props": {
    "title": "Birds culled since 2022, as of April 2025",
    "items": [
@@ -418,7 +418,7 @@
   "at": "c2p1",
   "after": "In the worst stretch",
   "type": "numbers",
-  "bg": "egg_farm",
+  "bg": "hen_dark",
   "props": {
    "title": "Late 2024 to early 2025",
    "items": [
@@ -506,7 +506,7 @@
  {
   "at": "c2p4",
   "type": "numbers",
-  "bg": "egg_packing",
+  "bg": "brown_eggs",
   "props": {
    "title": "Wholesale, a dozen large eggs, Midwest, Feb. 28, 2025",
    "items": [
@@ -571,7 +571,7 @@
  {
   "at": "c2p6",
   "type": "statement",
-  "bg": "egg_sorting",
+  "bg": "conveyor",
   "props": {
    "kicker": "So far, a supply story",
    "text": "But who *sets the price*?",
@@ -664,7 +664,7 @@
  {
   "at": "c3p1",
   "type": "statement",
-  "bg": "warehouse",
+  "bg": "semi_truck",
   "props": {
    "kicker": "Think of it like a thermostat",
    "text": "One number. *Millions of eggs* follow it.",
@@ -831,7 +831,7 @@
  {
   "at": "c4p2",
   "type": "statement",
-  "bg": "egg_packing",
+  "bg": "egg_collect",
   "props": {
    "kicker": "In the complaint's words",
    "text": "*Net short.*",
@@ -973,7 +973,7 @@
   "at": "c4p6",
   "after": "But the case shows",
   "type": "statement",
-  "bg": "eggs_supermarket",
+  "bg": "shelf_full",
   "props": {
    "kicker": "What the case shows",
    "text": "A few bids can ripple to *every carton*.",
@@ -1024,7 +1024,7 @@
   "at": "c5p0",
   "after": "Cal-Maine's sales",
   "type": "numbers",
-  "bg": "barns_aerial",
+  "bg": "egg_collect",
   "props": {
    "title": "Cal-Maine, fiscal year to May 2025",
    "items": [
@@ -1053,7 +1053,7 @@
  {
   "at": "c5p1",
   "type": "statement",
-  "bg": "egg_farm",
+  "bg": "egg_collect",
   "props": {
    "kicker": "The shortage economy",
    "text": "Fewer hens. *More money.*",
@@ -1168,7 +1168,7 @@
   "at": "c6p0",
   "after": "Hundreds of small",
   "type": "numbers",
-  "bg": "farmer_hens",
+  "bg": "hen_nest",
   "props": {
    "title": "New egg farms registered in 2025",
    "items": [
@@ -1256,7 +1256,7 @@
   "at": "c6p1",
   "after": "below what it costs",
   "type": "statement",
-  "bg": "egg_packing",
+  "bg": "conveyor",
   "props": {
    "kicker": "April 2026",
    "text": "*Below* the cost of production.",
@@ -1452,7 +1452,7 @@
  {
   "at": "c7p3",
   "type": "prices",
-  "bg": "eggs_supermarket",
+  "bg": "shelf_full",
   "props": {
    "kicker": "Late September 2026, one dozen",
    "items": [
@@ -1524,7 +1524,7 @@
   "at": "c7p6",
   "after": "But for most of the past year",
   "type": "statement",
-  "bg": "eggs_supermarket",
+  "bg": "shelf_full",
   "props": {
    "kicker": "Since then",
    "text": "A wide gap. *Shoppers paid* for it.",
@@ -1704,7 +1704,7 @@
   "at": "c8p3",
   "after": "And bird flu",
   "type": "numbers",
-  "bg": "wild_ducks",
+  "bg": "hen_dark",
   "props": {
    "title": "Egg-laying hens lost to bird flu in 2026 (to Nov. 4)",
    "items": [
@@ -1724,7 +1724,7 @@
   "at": "c8p3",
   "after": "Next time",
   "type": "statement",
-  "bg": "egg_sorting",
+  "bg": "carton_side",
   "props": {
    "kicker": "Next time the price jumps",
    "text": "Look at *the number*.",
