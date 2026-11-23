@@ -1,0 +1,176 @@
+[
+ {
+  "at": "p0",
+  "type": "shot",
+  "props": {
+   "photo": "turkey",
+   "dim": 0.66,
+   "kicker": "Thanksgiving 2026, dinner for 10",
+   "number": "$58.63",
+   "numberDelay": {
+    "$t": "fifty-eight",
+    "offset": -0.1
+   },
+   "color": "gold",
+   "label": "the classic menu",
+   "source": "American Farm Bureau Federation (Nov. 18, 2026)"
+  }
+ },
+ {
+  "at": "p1",
+  "type": "shot",
+  "props": {
+   "photo": "spread",
+   "dim": 0.72,
+   "kicker": "Per person",
+   "number": "$5.86",
+   "numberDelay": {
+    "$t": "five eighty-six",
+    "offset": -0.1
+   },
+   "color": "gold",
+   "label": "for the whole meal",
+   "source": "American Farm Bureau Federation (Nov. 18, 2026)"
+  }
+ },
+ {
+  "at": "p1",
+  "after": "six percent",
+  "type": "shot",
+  "props": {
+   "photo": "feast",
+   "dim": 0.74,
+   "icon": "TrendingUp",
+   "color": "brick",
+   "kicker": "vs. 2025",
+   "number": "+6%",
+   "label": "more than last year",
+   "source": "American Farm Bureau Federation (Nov. 18, 2026)"
+  }
+ },
+ {
+  "at": "p2",
+  "type": "shot",
+  "props": {
+   "photo": "turkey_barn",
+   "dim": 0.7,
+   "kicker": "The biggest jump",
+   "text": "The *turkey*"
+  }
+ },
+ {
+  "at": "p2",
+  "after": "A sixteen-pound bird",
+  "type": "shot",
+  "props": {
+   "photo": "frozen",
+   "dim": 0.72,
+   "kicker": "16-lb frozen turkey",
+   "number": "$23.68",
+   "numberDelay": {
+    "$t": "twenty-three",
+    "offset": -0.1
+   },
+   "color": "gold",
+   "label": "up 10% in a year",
+   "sub": "$1.48 a pound",
+   "source": "American Farm Bureau Federation (Nov. 18, 2026)"
+  }
+ },
+ {
+  "at": "p3",
+  "type": "shot",
+  "props": {
+   "photo": "bog",
+   "dim": 0.7,
+   "icon": "TrendingUp",
+   "color": "brick",
+   "kicker": "Fresh cranberries, 12 oz",
+   "number": "+8.8%",
+   "numberDelay": {
+    "$t": "nine percent",
+    "offset": -0.1
+   },
+   "label": "now $2.48",
+   "source": "American Farm Bureau Federation (Nov. 18, 2026)"
+  }
+ },
+ {
+  "at": "p3",
+  "after": "A gallon of milk",
+  "type": "shot",
+  "props": {
+   "photo": "checkout",
+   "dim": 0.74,
+   "icon": "TrendingUp",
+   "color": "brick",
+   "kicker": "Whole milk, one gallon",
+   "number": "+8.6%",
+   "numberDelay": {
+    "$t": "eight point six",
+    "offset": -0.1
+   },
+   "label": "now $4.05",
+   "source": "American Farm Bureau Federation (Nov. 18, 2026)"
+  }
+ },
+ {
+  "at": "p4",
+  "type": "shot",
+  "props": {
+   "photo": "pie",
+   "dim": 0.68,
+   "icon": "TrendingDown",
+   "color": "teal",
+   "kicker": "Cheaper this year",
+   "text": "Veggie tray, pie crusts, *cream*",
+   "source": "American Farm Bureau Federation (Nov. 18, 2026)"
+  }
+ },
+ {
+  "at": "p5",
+  "type": "shot",
+  "props": {
+   "photo": "rolls",
+   "dim": 0.78,
+   "kicker": "Dinner for 10",
+   "compare": [
+    {
+     "label": "2022 record",
+     "value": 64.05,
+     "display": "$64.05",
+     "color": "slate",
+     "delay": 0.1
+    },
+    {
+     "label": "2026",
+     "value": 58.63,
+     "display": "$58.63",
+     "color": "gold",
+     "strong": true,
+     "delay": {
+      "$t": "when the same",
+      "offset": -0.1
+     }
+    }
+   ],
+   "source": "American Farm Bureau Federation (Nov. 18, 2026)"
+  }
+ },
+ {
+  "at": "p6",
+  "type": "shot",
+  "props": {
+   "photo": "truck",
+   "dim": 0.66,
+   "kicker": "Why prices rose",
+   "text": "Diesel, labor, *the trip*"
+  }
+ },
+ {
+  "at": "p6",
+  "after": "More on the channel",
+  "type": "endcard",
+  "props": {}
+ }
+]
