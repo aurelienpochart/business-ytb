@@ -1,46 +1,101 @@
 [
  {
   "id": "amc_front",
-  "title": "File:AMC Dine-In Yorktown 18 Theater 01.jpg"
+  "title": "File:AMC Dine-In Yorktown 18 Theater 01.jpg",
+  "file": "media/amc_front.jpg",
+  "license": "CC0",
+  "artist": "SimLibrarian",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:AMC_Dine-In_Yorktown_18_Theater_01.jpg"
  },
  {
   "id": "amc_night",
-  "title": "File:AMC Veterans 24 exterior in Tampa, Florida, US, at night on 14 March 2025.jpg"
+  "title": "File:AMC Veterans 24 exterior in Tampa, Florida, US, at night on 14 March 2025.jpg",
+  "file": "media/amc_night.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "MatthewHoobin",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:AMC_Veterans_24_exterior_in_Tampa,_Florida,_US,_at_night_on_14_March_2025.jpg"
  },
  {
   "id": "logo_amc",
-  "title": "File:AMC Theatres logo.svg"
+  "title": "File:AMC Theatres logo.svg",
+  "file": "media/logo_amc.svg",
+  "license": "Public domain",
+  "artist": "AMC Theatres",
+  "restrictions": "trademarked",
+  "page": "https://commons.wikimedia.org/wiki/File:AMC_Theatres_logo.svg"
  },
  {
   "id": "kiosks",
-  "title": "File:MC 澳門銀河電影院 UA Galaxy Cinemas interior n visitors ticket box office n seat table monitors Nov 2016 SSG 03.jpg"
+  "title": "File:MC 澳門銀河電影院 UA Galaxy Cinemas interior n visitors ticket box office n seat table monitors Nov 2016 SSG 03.jpg",
+  "file": "media/kiosks.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "Lok Gaeu Ren",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:MC_%E6%BE%B3%E9%96%80%E9%8A%80%E6%B2%B3%E9%9B%BB%E5%BD%B1%E9%99%A2_UA_Galaxy_Cinemas_interior_n_visitors_ticket_box_office_n_seat_table_monitors_Nov_2016_SSG_03.jpg"
  },
  {
   "id": "screen",
-  "title": "File:Tengis Movie Theater - Screen.jpg"
+  "title": "File:Tengis Movie Theater - Screen.jpg",
+  "file": "media/screen.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "Fred Cherrygarden",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Tengis_Movie_Theater_-_Screen.jpg"
  },
  {
   "id": "seats",
-  "title": "File:4DX seats in cinema (motion and environmental effects synced with the on-screen action) bench rows in a movie theater hall Kinostoler kinosal Kilden kino Tønsberg, Norway 2023 IMG 7849.jpg"
+  "title": "File:4DX seats in cinema (motion and environmental effects synced with the on-screen action) bench rows in a movie theater hall Kinostoler kinosal Kilden kino Tønsberg, Norway 2023 IMG 7849.jpg",
+  "file": "media/seats.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "Wolfmann",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:4DX_seats_in_cinema_(motion_and_environmental_effects_synced_with_the_on-screen_action)_bench_rows_in_a_movie_theater_hall_Kinostoler_kinosal_Kilden_kino_T%C3%B8nsberg,_Norway_2023_IMG_7849.jpg"
  },
  {
   "id": "popcorn",
-  "title": "File:Popcorn 9.jpg"
+  "title": "File:Popcorn 9.jpg",
+  "file": "media/popcorn.jpg",
+  "license": "CC0",
+  "artist": "ViajeroExtraviado",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Popcorn_9.jpg"
  },
  {
   "id": "kernels",
-  "title": "File:Popcorn - Studio - 2011.jpg"
+  "title": "File:Popcorn - Studio - 2011.jpg",
+  "file": "media/kernels.jpg",
+  "license": "CC BY-SA 3.0",
+  "artist": "Bill Ebbesen",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Popcorn_-_Studio_-_2011.jpg"
  },
  {
   "id": "machine",
-  "title": "File:Movie theater popcorn machine.jpg"
+  "title": "File:Movie theater popcorn machine.jpg",
+  "file": "media/machine.jpg",
+  "license": "CC BY-SA 2.0",
+  "artist": "Tim Evanson",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Movie_theater_popcorn_machine.jpg"
  },
  {
   "id": "concession",
-  "title": "File:A movie theater concession stand in Hiawassee, Georgia.jpg"
+  "title": "File:A movie theater concession stand in Hiawassee, Georgia.jpg",
+  "file": "media/concession.jpg",
+  "license": "CC BY 4.0",
+  "artist": "Harrison Keely",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:A_movie_theater_concession_stand_in_Hiawassee,_Georgia.jpg"
  },
  {
   "id": "reel",
-  "title": "File:Birmingham IMAX Tour - Film Reels for the Projector (Close).jpg"
+  "title": "File:Birmingham IMAX Tour - Film Reels for the Projector (Close).jpg",
+  "file": "media/reel.jpg",
+  "license": "CC BY-SA 2.0",
+  "artist": "William Hook",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Birmingham_IMAX_Tour_-_Film_Reels_for_the_Projector_(Close).jpg"
  }
 ]
