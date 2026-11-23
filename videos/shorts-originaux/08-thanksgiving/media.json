@@ -1,50 +1,110 @@
 [
  {
   "id": "turkey",
-  "title": "File:2021 roast turkey.jpg"
+  "title": "File:2021 roast turkey.jpg",
+  "file": "media/turkey.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "Mark Miller",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:2021_roast_turkey.jpg"
  },
  {
   "id": "feast",
-  "title": "File:Our (Almost Traditional) Thanksgiving Dinner.jpg"
+  "title": "File:Our (Almost Traditional) Thanksgiving Dinner.jpg",
+  "file": "media/feast.jpg",
+  "license": "CC BY 2.0",
+  "artist": "Ms Jones from California, USA",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Our_(Almost_Traditional)_Thanksgiving_Dinner.jpg"
  },
  {
   "id": "spread",
-  "title": "File:Liat Portal for Foodie Disorder - Thanksgiving dinner spread.jpg"
+  "title": "File:Liat Portal for Foodie Disorder - Thanksgiving dinner spread.jpg",
+  "file": "media/spread.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "HaJunkiyada",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Liat_Portal_for_Foodie_Disorder_-_Thanksgiving_dinner_spread.jpg"
  },
  {
   "id": "frozen",
-  "title": "File:HK SW 上環 Sheung Wan 皇后大道西 Queen's Road West Fook Sing Court Fusion by ParknShop frozen food 火雞 Turkey December 2020 SS2 01.jpg"
+  "title": "File:HK SW 上環 Sheung Wan 皇后大道西 Queen's Road West Fook Sing Court Fusion by ParknShop frozen food 火雞 Turkey December 2020 SS2 01.jpg",
+  "file": "media/frozen.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "Goraemhcak slA",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:HK_SW_%E4%B8%8A%E7%92%B0_Sheung_Wan_%E7%9A%87%E5%90%8E%E5%A4%A7%E9%81%93%E8%A5%BF_Queen%27s_Road_West_Fook_Sing_Court_Fusion_by_ParknShop_frozen_food_%E7%81%AB%E9%9B%9E_Turkey_December_2020_SS2_01.jpg"
  },
  {
   "id": "turkey_barn",
-  "title": "File:This turkey farm barn near Bristol, Illinois, holds 4,500 birds LCCN2011631673.tif"
+  "title": "File:This turkey farm barn near Bristol, Illinois, holds 4,500 birds LCCN2011631673.tif",
+  "file": "media/turkey_barn.jpg",
+  "license": "Public domain",
+  "artist": "Carol M. Highsmith",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:This_turkey_farm_barn_near_Bristol,_Illinois,_holds_4,500_birds_LCCN2011631673.tif"
  },
  {
   "id": "bog",
-  "title": "File:Cranberrys beim Ernten.jpeg"
+  "title": "File:Cranberrys beim Ernten.jpeg",
+  "file": "media/bog.jpg",
+  "license": "Public domain",
+  "artist": "Keith Weller, USDA-ARS",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Cranberrys_beim_Ernten.jpeg"
  },
  {
   "id": "sauce",
-  "title": "File:Fresh Cranberry-Orange Sauce.jpg"
+  "title": "File:Fresh Cranberry-Orange Sauce.jpg",
+  "file": "media/sauce.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "DrKathyShaginaw",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Fresh_Cranberry-Orange_Sauce.jpg"
  },
  {
   "id": "checkout",
-  "title": "File:REMA 1000 Supermarket interior grocery store Tønsberg, Norway 2017-11-03 cashier checkout a.jpg"
+  "title": "File:REMA 1000 Supermarket interior grocery store Tønsberg, Norway 2017-11-03 cashier checkout a.jpg",
+  "file": "media/checkout.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "Wolfmann",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:REMA_1000_Supermarket_interior_grocery_store_T%C3%B8nsberg,_Norway_2017-11-03_cashier_checkout_a.jpg"
  },
  {
   "id": "rolls",
-  "title": "File:Fresh hot dinner rolls (8214213532).jpg"
+  "title": "File:Fresh hot dinner rolls (8214213532).jpg",
+  "file": "media/rolls.jpg",
+  "license": "CC BY 2.0",
+  "artist": "jeffreyw",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Fresh_hot_dinner_rolls_(8214213532).jpg"
  },
  {
   "id": "pie",
-  "title": "File:Pumpkin Pie.jpg"
+  "title": "File:Pumpkin Pie.jpg",
+  "file": "media/pie.jpg",
+  "license": "Public domain",
+  "artist": "Peggy Greb",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Pumpkin_Pie.jpg"
  },
  {
   "id": "truck",
-  "title": "File:CSIRO ScienceImage 3497 Truck on highway rural NSW.jpg"
+  "title": "File:CSIRO ScienceImage 3497 Truck on highway rural NSW.jpg",
+  "file": "media/truck.jpg",
+  "license": "CC BY 3.0",
+  "artist": "Carl Davies, CSIRO",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:CSIRO_ScienceImage_3497_Truck_on_highway_rural_NSW.jpg"
  },
  {
   "id": "tractor",
-  "title": "File:Harvest Time, Priory Farm - geograph.org.uk - 215420.jpg"
+  "title": "File:Harvest Time, Priory Farm - geograph.org.uk - 215420.jpg",
+  "file": "media/tractor.jpg",
+  "license": "CC BY-SA 2.0",
+  "artist": "Simon Carey",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Harvest_Time,_Priory_Farm_-_geograph.org.uk_-_215420.jpg"
  }
 ]
