@@ -150,6 +150,12 @@
       "folder": "videos/08-boeing/shorts/1",
       "video_id": "FGzGglp-YKg",
       "publish_at": "2026-11-19T17:00:00Z"
+    },
+    {
+      "kind": "short",
+      "folder": "videos/shorts-originaux/08-thanksgiving",
+      "video_id": "dRFCKP3rZ4w",
+      "publish_at": "2026-11-24T17:00:00Z"
     }
   ]
 }
