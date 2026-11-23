@@ -31,8 +31,8 @@ export const Carton: React.FC<{
   const pIn = useEnter(0.05);
   const cols = P ? 4 : 6;
   const rows = 12 / cols;
-  const cell = P ? 170 : 200;
-  const gap = P ? 18 : 22;
+  const cell = P ? 170 : 150;
+  const gap = P ? 18 : 18;
   const W = cols * cell + (cols - 1) * gap + 60;
   const H = rows * cell + (rows - 1) * gap + 60;
   const [lo, hi, halo] = gradOf(color);
@@ -114,9 +114,9 @@ export const Carton: React.FC<{
             const p = legendIn(lightAt + 0.4 + k * 0.7);
             const [, top, h] = gradOf(l.color ?? (k === 0 ? color : 'slate'));
             return (
-              <div key={k} style={{...fade(p), minWidth: P ? 380 : 420, padding: '26px 34px 24px', ...glass(k === 0 ? 'rgba(240,181,78,0.55)' : undefined), display: 'flex', flexDirection: 'column'}}>
+              <div key={k} style={{...fade(p), minWidth: P ? 380 : 400, maxWidth: P ? 440 : 460, padding: '24px 32px 22px', ...glass(k === 0 ? 'rgba(240,181,78,0.55)' : undefined), display: 'flex', flexDirection: 'column'}}>
                 <div style={{fontFamily: FONT.mono, fontSize: 21, letterSpacing: 4, color: C.mute}}>{l.label.toUpperCase()}</div>
-                <div style={{fontFamily: FONT.mono, fontWeight: 600, fontSize: 80, letterSpacing: -2, color: top, textShadow: `0 0 36px ${h}`, marginTop: 6}}>{l.value}</div>
+                <div style={{fontFamily: FONT.mono, fontWeight: 600, fontSize: 64, whiteSpace: 'nowrap', letterSpacing: -2, color: top, textShadow: `0 0 36px ${h}`, marginTop: 6}}>{l.value}</div>
                 {l.sub ? <div style={{fontFamily: FONT.title, fontWeight: 300, fontSize: 26, color: C.paper, opacity: 0.82, marginTop: 4}}>{l.sub}</div> : null}
               </div>
             );
