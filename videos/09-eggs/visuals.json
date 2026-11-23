@@ -1,0 +1,1734 @@
+[
+ {
+  "at": "c0p0",
+  "type": "hero",
+  "props": {
+   "photo": "carton_open",
+   "number": "$6.23",
+   "label": "for a dozen eggs, March 2025: the record",
+   "kicker": "U.S. average retail price",
+   "numberAt": 5.5,
+   "source": "BLS average price, Grade A large eggs (via CrumbCounts)"
+  }
+ },
+ {
+  "at": "c0p0",
+  "after": "By March 2025",
+  "type": "prices",
+  "bg": "eggs_supermarket",
+  "props": {
+   "kicker": "A dozen eggs, U.S. average",
+   "items": [
+    {
+     "name": "Grade A large",
+     "sub": "January 2022 → March 2025",
+     "from": "$1.93",
+     "to": "$6.23"
+    }
+   ],
+   "start": 0.3,
+   "source": "BLS average price, Grade A large eggs (via CrumbCounts)"
+  }
+ },
+ {
+  "at": "c0p1",
+  "type": "line",
+  "props": {
+   "title": "A dozen eggs, U.S. average retail price",
+   "points": [
+    {
+     "x": "Jan 22",
+     "y": 1.93
+    },
+    {
+     "x": "Jan 23",
+     "y": 4.82
+    },
+    {
+     "x": "Aug 23",
+     "y": 2.04
+    },
+    {
+     "x": "Dec 24",
+     "y": 4.15
+    },
+    {
+     "x": "Mar 25",
+     "y": 6.23
+    },
+    {
+     "x": "Sep 25",
+     "y": 3.49
+    },
+    {
+     "x": "Apr 26",
+     "y": 2.25
+    },
+    {
+     "x": "Oct 26",
+     "y": 2.32
+    }
+   ],
+   "prefix": "$",
+   "decimals": 2,
+   "min": 0,
+   "max": 7,
+   "draw": [
+    0.4,
+    5.5
+   ],
+   "source": "BLS average price, Grade A large eggs (via CrumbCounts)"
+  }
+ },
+ {
+  "at": "c0p2",
+  "type": "statement",
+  "bg": "bird_flu",
+  "props": {
+   "kicker": "The official explanation",
+   "text": "*Bird flu.*",
+   "icon": "Biohazard"
+  }
+ },
+ {
+  "at": "c0p2",
+  "after": "But it's not",
+  "type": "statement",
+  "bg": "cracked_egg",
+  "props": {
+   "kicker": "But",
+   "text": "Not the *whole story*.",
+   "icon": "Search"
+  }
+ },
+ {
+  "at": "c0p3",
+  "type": "photo",
+  "props": {
+   "photo": "doj_bldg",
+   "logo": "logo_doj",
+   "kicker": "June 2026",
+   "text": "*17 states.* 3 egg companies.",
+   "focus": "50% 50%",
+   "source": "DOJ and 17 states' complaint, per Duane Morris (July 7, 2026)"
+  }
+ },
+ {
+  "at": "c0p3",
+  "after": "The companies denied",
+  "type": "statement",
+  "bg": "courthouse",
+  "props": {
+   "kicker": "The companies",
+   "text": "Denied it. And *settled*.",
+   "icon": "Scale",
+   "source": "Quartz via Yahoo Finance (June 30, 2026)"
+  }
+ },
+ {
+  "at": "c0p4",
+  "type": "statement",
+  "bg": "carton_side",
+  "props": {
+   "kicker": "Six dollars a dozen",
+   "text": "Who really *got paid*?",
+   "icon": "CircleDollarSign"
+  }
+ },
+ {
+  "at": "c0p4",
+  "type": "journey",
+  "props": {
+   "stops": [
+    {
+     "icon": "Bird",
+     "label": "The hen"
+    },
+    {
+     "icon": "Biohazard",
+     "label": "The virus"
+    },
+    {
+     "icon": "Gauge",
+     "label": "The benchmark"
+    },
+    {
+     "icon": "Gavel",
+     "label": "The bids"
+    },
+    {
+     "icon": "Trophy",
+     "label": "The winner"
+    },
+    {
+     "icon": "Boxes",
+     "label": "The glut"
+    },
+    {
+     "icon": "ShoppingCart",
+     "label": "The shelf"
+    }
+   ],
+   "current": -1,
+   "travelAt": 99,
+   "travel": 1.8,
+   "traveler": "Egg",
+   "kicker": "Follow one dozen eggs"
+  },
+  "after": "let's follow"
+ },
+ {
+  "at": "c1p0",
+  "type": "journey",
+  "props": {
+   "stops": [
+    {
+     "icon": "Bird",
+     "label": "The hen"
+    },
+    {
+     "icon": "Biohazard",
+     "label": "The virus"
+    },
+    {
+     "icon": "Gauge",
+     "label": "The benchmark"
+    },
+    {
+     "icon": "Gavel",
+     "label": "The bids"
+    },
+    {
+     "icon": "Trophy",
+     "label": "The winner"
+    },
+    {
+     "icon": "Boxes",
+     "label": "The glut"
+    },
+    {
+     "icon": "ShoppingCart",
+     "label": "The shelf"
+    }
+   ],
+   "current": 0,
+   "travelAt": 0.3,
+   "travel": 1.8,
+   "traveler": "Egg"
+  }
+ },
+ {
+  "at": "c1p0",
+  "after": "America has",
+  "type": "photo",
+  "props": {
+   "photo": "egg_farm",
+   "kicker": "A few hundred thousand hens per barn",
+   "text": "About *300 million* laying hens.",
+   "focus": "50% 50%",
+   "source": "USDA via Fortune/AP (2025) and IndexBox (Sept. 2026)"
+  }
+ },
+ {
+  "at": "c1p1",
+  "type": "photo",
+  "props": {
+   "photo": "barns_aerial",
+   "logo": "logo_calmaine",
+   "logoColor": "white",
+   "kicker": "Cal-Maine Foods",
+   "text": "The biggest egg company in *America*.",
+   "focus": "50% 50%"
+  }
+ },
+ {
+  "at": "c1p1",
+  "after": "It started in Mississippi",
+  "type": "tiles",
+  "props": {
+   "kicker": "Cal-Maine Foods",
+   "items": [
+    {
+     "icon": "CalendarClock",
+     "label": "Founded 1957",
+     "sub": "Mississippi",
+     "color": "teal"
+    },
+    {
+     "icon": "Egg",
+     "label": "13 billion eggs",
+     "sub": "a year",
+     "color": "amber"
+    },
+    {
+     "icon": "ChartPie",
+     "label": "1 in 5",
+     "sub": "U.S. eggs",
+     "color": "amber"
+    }
+   ],
+   "delays": [
+    0.2,
+    4.2,
+    7.6
+   ],
+   "source": "Wikipedia, Cal-Maine; Cal-Maine fiscal 2026 results"
+  }
+ },
+ {
+  "at": "c1p2",
+  "type": "photo",
+  "props": {
+   "photo": "eggs_closeup",
+   "kicker": "Lesson one",
+   "text": "An egg is an *egg*.",
+   "focus": "50% 50%"
+  }
+ },
+ {
+  "at": "c1p2",
+  "after": "They compete on price",
+  "type": "statement",
+  "bg": "egg_sorting",
+  "props": {
+   "kicker": "No brand. Just a price",
+   "text": "A price that moves *every day*.",
+   "icon": "Activity"
+  }
+ },
+ {
+  "at": "c1p3",
+  "type": "donut",
+  "bg": "aviary_hens",
+  "props": {
+   "title": "U.S. egg-laying hens, June 2025",
+   "parts": [
+    {
+     "label": "Cage-free",
+     "value": 45.7,
+     "color": "teal",
+     "sub": "45.7%"
+    },
+    {
+     "label": "In cages",
+     "value": 54.3,
+     "color": "slate"
+    }
+   ],
+   "center": "Hens",
+   "suffix": "%",
+   "start": 0.3,
+   "stagger": 1.0,
+   "focus": 0,
+   "source": "USDA data via The Humane League (July 7, 2025)"
+  }
+ },
+ {
+  "at": "c1p3",
+  "after": "But they're not why",
+  "type": "statement",
+  "bg": "aviary_hens",
+  "props": {
+   "kicker": "Costs more",
+   "text": "But not why prices *tripled*.",
+   "icon": "TrendingUp"
+  }
+ },
+ {
+  "at": "c2p0",
+  "type": "journey",
+  "props": {
+   "stops": [
+    {
+     "icon": "Bird",
+     "label": "The hen"
+    },
+    {
+     "icon": "Biohazard",
+     "label": "The virus"
+    },
+    {
+     "icon": "Gauge",
+     "label": "The benchmark"
+    },
+    {
+     "icon": "Gavel",
+     "label": "The bids"
+    },
+    {
+     "icon": "Trophy",
+     "label": "The winner"
+    },
+    {
+     "icon": "Boxes",
+     "label": "The glut"
+    },
+    {
+     "icon": "ShoppingCart",
+     "label": "The shelf"
+    }
+   ],
+   "current": 1,
+   "travelAt": 0.3,
+   "travel": 1.8,
+   "traveler": "Egg"
+  }
+ },
+ {
+  "at": "c2p0",
+  "after": "It spreads fast",
+  "type": "photo",
+  "props": {
+   "photo": "wild_ducks",
+   "kicker": "Carried by wild birds",
+   "text": "It *spreads fast*.",
+   "focus": "50% 50%"
+  }
+ },
+ {
+  "at": "c2p0",
+  "after": "the rule is harsh",
+  "type": "statement",
+  "bg": "bird_flu",
+  "props": {
+   "kicker": "One positive test",
+   "text": "The *whole flock* is destroyed.",
+   "icon": "Biohazard"
+  }
+ },
+ {
+  "at": "c2p1",
+  "type": "numbers",
+  "bg": "barns_aerial",
+  "props": {
+   "title": "Birds culled since 2022, as of April 2025",
+   "items": [
+    {
+     "value": 168,
+     "suffix": "M+",
+     "label": "birds",
+     "color": "brick",
+     "icon": "Bird"
+    }
+   ],
+   "source": "USDA via Fortune/AP (Apr. 10, 2025)"
+  }
+ },
+ {
+  "at": "c2p1",
+  "after": "In the worst stretch",
+  "type": "numbers",
+  "bg": "egg_farm",
+  "props": {
+   "title": "Late 2024 to early 2025",
+   "items": [
+    {
+     "value": 50,
+     "suffix": "M",
+     "label": "laying hens lost",
+     "color": "brick",
+     "icon": "TrendingDown"
+    }
+   ],
+   "source": "American Egg Board via USA Today (Feb. 13, 2026)"
+  }
+ },
+ {
+  "at": "c2p2",
+  "type": "bars",
+  "props": {
+   "title": "U.S. laying hens (millions)",
+   "bars": [
+    {
+     "label": "Before the outbreak",
+     "value": 315,
+     "display": "315M+",
+     "color": "teal"
+    },
+    {
+     "label": "March 2025",
+     "value": 285,
+     "display": "285M",
+     "color": "brick",
+     "note": "−10%"
+    }
+   ],
+   "delays": [
+    0.3,
+    4.0
+   ],
+   "source": "USDA via Fortune/AP (Apr. 10, 2025)"
+  }
+ },
+ {
+  "at": "c2p3",
+  "type": "statement",
+  "bg": "breakfast_diner",
+  "props": {
+   "kicker": "Why a small shortage",
+   "text": "Nobody skips *breakfast*.",
+   "icon": "EggFried"
+  }
+ },
+ {
+  "at": "c2p3",
+  "after": "When supply drops",
+  "type": "tiles",
+  "props": {
+   "kicker": "How eggs behave",
+   "items": [
+    {
+     "icon": "TrendingDown",
+     "label": "Supply drops",
+     "sub": "10%",
+     "color": "brick"
+    },
+    {
+     "icon": "ShoppingCart",
+     "label": "Demand holds",
+     "sub": "people still buy",
+     "color": "teal"
+    },
+    {
+     "icon": "TrendingUp",
+     "label": "The price jumps",
+     "sub": "a lot",
+     "color": "amber"
+    }
+   ],
+   "delays": [
+    0.2,
+    1.6,
+    3.4
+   ]
+  }
+ },
+ {
+  "at": "c2p4",
+  "type": "numbers",
+  "bg": "egg_packing",
+  "props": {
+   "title": "Wholesale, a dozen large eggs, Midwest, Feb. 28, 2025",
+   "items": [
+    {
+     "value": 8.41,
+     "prefix": "$",
+     "decimals": 2,
+     "label": "a record",
+     "color": "amber",
+     "icon": "TrendingUp"
+    },
+    {
+     "value": 200,
+     "prefix": "+",
+     "suffix": "%",
+     "label": "in one year",
+     "color": "brick",
+     "icon": "CalendarClock"
+    }
+   ],
+   "source": "USDA via Fortune/Bloomberg (Mar. 8, 2025)"
+  }
+ },
+ {
+  "at": "c2p5",
+  "type": "line",
+  "props": {
+   "title": "Retail price of a dozen, the first wave",
+   "points": [
+    {
+     "x": "Jan 22",
+     "y": 1.93
+    },
+    {
+     "x": "Dec 22",
+     "y": 4.25
+    },
+    {
+     "x": "Jan 23",
+     "y": 4.82
+    },
+    {
+     "x": "Aug 23",
+     "y": 2.04
+    },
+    {
+     "x": "Mar 25",
+     "y": 6.23
+    }
+   ],
+   "prefix": "$",
+   "decimals": 2,
+   "min": 0,
+   "max": 7,
+   "draw": [
+    0.5,
+    11
+   ],
+   "source": "BLS average price, Grade A large eggs (via CrumbCounts)"
+  }
+ },
+ {
+  "at": "c2p6",
+  "type": "statement",
+  "bg": "egg_sorting",
+  "props": {
+   "kicker": "So far, a supply story",
+   "text": "But who *sets the price*?",
+   "icon": "Gauge"
+  }
+ },
+ {
+  "at": "c3p0",
+  "type": "journey",
+  "props": {
+   "stops": [
+    {
+     "icon": "Bird",
+     "label": "The hen"
+    },
+    {
+     "icon": "Biohazard",
+     "label": "The virus"
+    },
+    {
+     "icon": "Gauge",
+     "label": "The benchmark"
+    },
+    {
+     "icon": "Gavel",
+     "label": "The bids"
+    },
+    {
+     "icon": "Trophy",
+     "label": "The winner"
+    },
+    {
+     "icon": "Boxes",
+     "label": "The glut"
+    },
+    {
+     "icon": "ShoppingCart",
+     "label": "The shelf"
+    }
+   ],
+   "current": 2,
+   "travelAt": 0.3,
+   "travel": 1.8,
+   "traveler": "Egg"
+  }
+ },
+ {
+  "at": "c3p0",
+  "after": "Big buyers",
+  "type": "chain",
+  "props": {
+   "kicker": "How most eggs are sold",
+   "rows": [
+    {
+     "nodes": [
+      {
+       "label": "Egg farm",
+       "sub": "producer",
+       "icon": "Warehouse"
+      },
+      {
+       "label": "Contract",
+       "sub": "no fixed price",
+       "icon": "FileText"
+      },
+      {
+       "label": "Supermarket",
+       "sub": "or food maker",
+       "icon": "Store"
+      }
+     ]
+    }
+   ],
+   "start": 0.1,
+   "stagger": 0.6
+  }
+ },
+ {
+  "at": "c3p0",
+  "after": "They point to a benchmark",
+  "type": "statement",
+  "bg": "eggs_closeup",
+  "props": {
+   "kicker": "A daily price published by a private company",
+   "text": "*Urner Barry.*",
+   "icon": "Gauge",
+   "source": "DOJ and 17 states' complaint, per Duane Morris (July 7, 2026)"
+  }
+ },
+ {
+  "at": "c3p1",
+  "type": "statement",
+  "bg": "warehouse",
+  "props": {
+   "kicker": "Think of it like a thermostat",
+   "text": "One number. *Millions of eggs* follow it.",
+   "icon": "Thermometer"
+  }
+ },
+ {
+  "at": "c3p2",
+  "type": "chain",
+  "props": {
+   "kicker": "Where the number comes from",
+   "rows": [
+    {
+     "nodes": [
+      {
+       "label": "Egg Clearinghouse",
+       "sub": "ECI, a small spot market",
+       "icon": "MonitorSmartphone"
+      },
+      {
+       "label": "Urner Barry quote",
+       "sub": "the daily benchmark",
+       "icon": "Gauge",
+       "strong": true
+      },
+      {
+       "label": "Contract prices",
+       "sub": "millions of dozens",
+       "icon": "FileText"
+      }
+     ]
+    }
+   ],
+   "start": 0.3,
+   "stagger": 2.2,
+   "source": "DOJ and 17 states' complaint, per Duane Morris (July 7, 2026)"
+  }
+ },
+ {
+  "at": "c3p3",
+  "type": "statement",
+  "bg": "money_coins",
+  "props": {
+   "kicker": "A strange incentive",
+   "text": "A small market setting a *big price*.",
+   "icon": "Scale"
+  }
+ },
+ {
+  "at": "c4p0",
+  "type": "journey",
+  "props": {
+   "stops": [
+    {
+     "icon": "Bird",
+     "label": "The hen"
+    },
+    {
+     "icon": "Biohazard",
+     "label": "The virus"
+    },
+    {
+     "icon": "Gauge",
+     "label": "The benchmark"
+    },
+    {
+     "icon": "Gavel",
+     "label": "The bids"
+    },
+    {
+     "icon": "Trophy",
+     "label": "The winner"
+    },
+    {
+     "icon": "Boxes",
+     "label": "The glut"
+    },
+    {
+     "icon": "ShoppingCart",
+     "label": "The shelf"
+    }
+   ],
+   "current": 3,
+   "travelAt": 0.3,
+   "travel": 1.8,
+   "traveler": "Egg"
+  }
+ },
+ {
+  "at": "c4p0",
+  "after": "filed an antitrust complaint",
+  "type": "tiles",
+  "props": {
+   "kicker": "June 29, 2026: civil antitrust complaint",
+   "items": [
+    {
+     "icon": "Egg",
+     "label": "Cal-Maine",
+     "sub": "Mississippi",
+     "color": "amber"
+    },
+    {
+     "icon": "Egg",
+     "label": "Versova",
+     "sub": "Iowa",
+     "color": "amber"
+    },
+    {
+     "icon": "Egg",
+     "label": "Hickman's",
+     "sub": "Arizona",
+     "color": "amber"
+    }
+   ],
+   "delays": [
+    0.2,
+    1.3,
+    2.2
+   ],
+   "source": "DOJ and 17 states' complaint, per Duane Morris (July 7, 2026)"
+  }
+ },
+ {
+  "at": "c4p1",
+  "type": "chrono",
+  "props": {
+   "from": 2022,
+   "to": 2026.8,
+   "eras": [
+    {
+     "from": 2022.4,
+     "to": 2025.2,
+     "label": "Alleged coordination",
+     "color": "brick"
+    }
+   ],
+   "events": [
+    {
+     "year": 2022.4,
+     "date": "June 2022",
+     "label": "Alleged start",
+     "level": 1,
+     "at": 0.4,
+     "color": "brick"
+    },
+    {
+     "year": 2025.2,
+     "date": "March 2025",
+     "label": "Investigation opens",
+     "level": -1,
+     "at": 2.0
+    },
+    {
+     "year": 2026.5,
+     "date": "June 2026",
+     "label": "Complaint and settlement",
+     "level": 1,
+     "at": 3.6,
+     "color": "amber"
+    }
+   ]
+  }
+ },
+ {
+  "at": "c4p2",
+  "type": "statement",
+  "bg": "egg_packing",
+  "props": {
+   "kicker": "In the complaint's words",
+   "text": "*Net short.*",
+   "icon": "ArrowDownRight",
+   "source": "DOJ and 17 states' complaint, per Duane Morris (July 7, 2026)"
+  }
+ },
+ {
+  "at": "c4p2",
+  "after": "So they bought eggs",
+  "type": "chain",
+  "props": {
+   "kicker": "The alleged logic",
+   "rows": [
+    {
+     "nodes": [
+      {
+       "label": "Bid higher on ECI",
+       "sub": "for a few eggs",
+       "icon": "MonitorSmartphone"
+      },
+      {
+       "label": "The quote goes up",
+       "sub": "Urner Barry",
+       "icon": "TrendingUp"
+      },
+      {
+       "label": "All contracts pay more",
+       "sub": "millions of dozens",
+       "icon": "CircleDollarSign",
+       "strong": true
+      }
+     ]
+    }
+   ],
+   "start": 0.3,
+   "stagger": 2.0,
+   "source": "DOJ and 17 states' complaint, per Duane Morris (July 7, 2026)"
+  }
+ },
+ {
+  "at": "c4p3",
+  "type": "statement",
+  "bg": "courthouse",
+  "props": {
+   "kicker": "New York's attorney general",
+   "text": "One *example*.",
+   "icon": "Mail"
+  }
+ },
+ {
+  "at": "c4p3",
+  "after": "urging",
+  "type": "quote",
+  "props": {
+   "text": "Strong bids, early and often.",
+   "by": "Hickman's then-CEO to Versova and Cal-Maine executives, Dec. 2022, per New York's attorney general",
+   "source": "Quartz via Yahoo Finance (June 30, 2026)"
+  }
+ },
+ {
+  "at": "c4p4",
+  "type": "quote",
+  "props": {
+   "text": "Dropped significantly.",
+   "by": "What the quotes did once the companies learned of the investigation, according to the complaint",
+   "source": "DOJ and 17 states' complaint, per Duane Morris (July 7, 2026)"
+  }
+ },
+ {
+  "at": "c4p5",
+  "type": "receipt",
+  "props": {
+   "header": "SETTLEMENT",
+   "subheader": "DOJ and 17 states · June 2026",
+   "lines": [
+    {
+     "label": "Cal-Maine",
+     "value": "$1.5M + 30M eggs"
+    },
+    {
+     "label": "Versova",
+     "value": "$0.8M + 20M eggs"
+    },
+    {
+     "label": "Hickman's",
+     "value": "$1M + 3.25M eggs"
+    },
+    {
+     "rule": true,
+     "label": ""
+    },
+    {
+     "label": "Total",
+     "value": "$3.3M + 53M eggs",
+     "strong": true,
+     "mark": true
+    }
+   ],
+   "stagger": 0.9,
+   "start": 0.4,
+   "kicker": "Paid, plus eggs for food banks",
+   "text": "No trial. *No admission.*",
+   "source": "Duane Morris (July 7, 2026)"
+  }
+ },
+ {
+  "at": "c4p5",
+  "after": "None of them admitted",
+  "type": "photo",
+  "props": {
+   "photo": "food_bank",
+   "kicker": "53 million eggs",
+   "text": "To food banks. *No admission*.",
+   "focus": "50% 50%"
+  }
+ },
+ {
+  "at": "c4p5",
+  "after": "its chief executive said",
+  "type": "quote",
+  "props": {
+   "text": "Move forward.",
+   "by": "Sherman Miller, CEO of Cal-Maine Foods, on the settlement",
+   "source": "Quartz via Yahoo Finance (June 30, 2026)"
+  }
+ },
+ {
+  "at": "c4p6",
+  "type": "statement",
+  "bg": "courthouse",
+  "props": {
+   "kicker": "To be clear",
+   "text": "Nothing proved *in court*.",
+   "icon": "Scale"
+  }
+ },
+ {
+  "at": "c4p6",
+  "after": "But the case shows",
+  "type": "statement",
+  "bg": "eggs_supermarket",
+  "props": {
+   "kicker": "What the case shows",
+   "text": "A few bids can ripple to *every carton*.",
+   "icon": "Waves"
+  }
+ },
+ {
+  "at": "c5p0",
+  "type": "journey",
+  "props": {
+   "stops": [
+    {
+     "icon": "Bird",
+     "label": "The hen"
+    },
+    {
+     "icon": "Biohazard",
+     "label": "The virus"
+    },
+    {
+     "icon": "Gauge",
+     "label": "The benchmark"
+    },
+    {
+     "icon": "Gavel",
+     "label": "The bids"
+    },
+    {
+     "icon": "Trophy",
+     "label": "The winner"
+    },
+    {
+     "icon": "Boxes",
+     "label": "The glut"
+    },
+    {
+     "icon": "ShoppingCart",
+     "label": "The shelf"
+    }
+   ],
+   "current": 4,
+   "travelAt": 0.3,
+   "travel": 1.8,
+   "traveler": "Egg"
+  }
+ },
+ {
+  "at": "c5p0",
+  "after": "Cal-Maine's sales",
+  "type": "numbers",
+  "bg": "barns_aerial",
+  "props": {
+   "title": "Cal-Maine, fiscal year to May 2025",
+   "items": [
+    {
+     "value": 4.26,
+     "prefix": "$",
+     "suffix": "B",
+     "decimals": 2,
+     "label": "sales",
+     "color": "teal",
+     "icon": "Receipt"
+    },
+    {
+     "value": 1.22,
+     "prefix": "$",
+     "suffix": "B",
+     "decimals": 2,
+     "label": "net profit",
+     "color": "amber",
+     "icon": "Coins"
+    }
+   ],
+   "source": "Cal-Maine Foods fiscal 2026 results (July 22, 2026)"
+  }
+ },
+ {
+  "at": "c5p1",
+  "type": "statement",
+  "bg": "egg_farm",
+  "props": {
+   "kicker": "The shortage economy",
+   "text": "Fewer hens. *More money.*",
+   "icon": "TrendingUp"
+  }
+ },
+ {
+  "at": "c5p2",
+  "type": "bars",
+  "props": {
+   "title": "Cal-Maine: profit vs. its share of the settlement ($ millions)",
+   "bars": [
+    {
+     "label": "Profit, fiscal 2025",
+     "value": 1220,
+     "display": "$1,220M",
+     "color": "amber"
+    },
+    {
+     "label": "Settlement",
+     "value": 1.5,
+     "display": "$1.5M",
+     "color": "brick"
+    }
+   ],
+   "delays": [
+    0.3,
+    2.4
+   ],
+   "source": "Cal-Maine fiscal 2026 results; Duane Morris (July 7, 2026)"
+  }
+ },
+ {
+  "at": "c5p2",
+  "after": "One law firm",
+  "type": "numbers",
+  "bg": "money_coins",
+  "props": {
+   "title": "Settlement as a share of a year's profit",
+   "items": [
+    {
+     "value": 0.12,
+     "suffix": "%",
+     "decimals": 2,
+     "label": "of fiscal 2025 profit",
+     "color": "brick",
+     "icon": "Percent"
+    }
+   ],
+   "source": "Duane Morris (July 7, 2026)"
+  }
+ },
+ {
+  "at": "c5p3",
+  "type": "prices",
+  "bg": "money_coins",
+  "props": {
+   "kicker": "For every $1,000 of profit",
+   "items": [
+    {
+     "name": "What the settlement cost Cal-Maine",
+     "sub": "our calculation",
+     "from": "$1,000",
+     "to": "$1.20"
+    }
+   ],
+   "start": 0.4,
+   "source": "The Cost Curve calculation from Duane Morris and Cal-Maine figures"
+  }
+ },
+ {
+  "at": "c6p0",
+  "type": "journey",
+  "props": {
+   "stops": [
+    {
+     "icon": "Bird",
+     "label": "The hen"
+    },
+    {
+     "icon": "Biohazard",
+     "label": "The virus"
+    },
+    {
+     "icon": "Gauge",
+     "label": "The benchmark"
+    },
+    {
+     "icon": "Gavel",
+     "label": "The bids"
+    },
+    {
+     "icon": "Trophy",
+     "label": "The winner"
+    },
+    {
+     "icon": "Boxes",
+     "label": "The glut"
+    },
+    {
+     "icon": "ShoppingCart",
+     "label": "The shelf"
+    }
+   ],
+   "current": 5,
+   "travelAt": 0.3,
+   "travel": 1.8,
+   "traveler": "Egg"
+  }
+ },
+ {
+  "at": "c6p0",
+  "after": "Hundreds of small",
+  "type": "numbers",
+  "bg": "farmer_hens",
+  "props": {
+   "title": "New egg farms registered in 2025",
+   "items": [
+    {
+     "value": 634,
+     "label": "of 749 had under 50,000 hens",
+     "color": "teal",
+     "icon": "Warehouse"
+    }
+   ],
+   "source": "American Egg Board (2026)"
+  }
+ },
+ {
+  "at": "c6p0",
+  "after": "By the end of September",
+  "type": "bars",
+  "props": {
+   "title": "U.S. laying hens (millions)",
+   "bars": [
+    {
+     "label": "Before the outbreak",
+     "value": 315,
+     "display": "315M+",
+     "color": "slate"
+    },
+    {
+     "label": "March 2025",
+     "value": 285,
+     "display": "285M",
+     "color": "brick"
+    },
+    {
+     "label": "Sept. 2026",
+     "value": 318,
+     "display": "318M",
+     "color": "teal",
+     "note": "more than before"
+    }
+   ],
+   "delays": [
+    0.2,
+    0.9,
+    1.6
+   ],
+   "source": "Fortune/AP (Apr. 2025); USDA via IndexBox (Sept. 2026)"
+  }
+ },
+ {
+  "at": "c6p1",
+  "type": "line",
+  "props": {
+   "title": "Wholesale price of a dozen large eggs",
+   "points": [
+    {
+     "x": "Feb 25",
+     "y": 8.41
+    },
+    {
+     "x": "Jan 26",
+     "y": 0.36
+    },
+    {
+     "x": "Apr 26",
+     "y": 0.22
+    },
+    {
+     "x": "Sep 26",
+     "y": 0.39
+    }
+   ],
+   "prefix": "$",
+   "decimals": 2,
+   "min": 0,
+   "max": 9.5,
+   "color": "brick",
+   "draw": [
+    0.4,
+    12
+   ],
+   "source": "USDA via Fortune, USA Today, WATTPoultry and IndexBox"
+  }
+ },
+ {
+  "at": "c6p1",
+  "after": "below what it costs",
+  "type": "statement",
+  "bg": "egg_packing",
+  "props": {
+   "kicker": "April 2026",
+   "text": "*Below* the cost of production.",
+   "icon": "TrendingDown",
+   "source": "WATTPoultry (May 29, 2026)"
+  }
+ },
+ {
+  "at": "c6p2",
+  "type": "quote",
+  "props": {
+   "text": "There's never been a better time to buy eggs.",
+   "by": "Emily Metz, CEO of the American Egg Board",
+   "source": "USA Today (Feb. 13, 2026)"
+  }
+ },
+ {
+  "at": "c6p3",
+  "type": "bars",
+  "props": {
+   "title": "Cal-Maine net profit ($ millions)",
+   "bars": [
+    {
+     "label": "Fiscal 2025",
+     "value": 1220,
+     "display": "$1,220M",
+     "color": "amber"
+    },
+    {
+     "label": "Fiscal 2026",
+     "value": 317,
+     "display": "$317M",
+     "color": "slate",
+     "note": "−74%"
+    },
+    {
+     "label": "Q4 fiscal 2026",
+     "value": -36,
+     "display": "−$36M",
+     "color": "brick"
+    }
+   ],
+   "delays": [
+    0.3,
+    3.8,
+    6.6
+   ],
+   "source": "Cal-Maine Foods fiscal 2026 results (July 22, 2026)"
+  }
+ },
+ {
+  "at": "c6p3",
+  "after": "Its chief executive blamed",
+  "type": "quote",
+  "props": {
+   "text": "Industry oversupply drove wholesale shell egg prices to historically low inflation-adjusted levels.",
+   "by": "Sherman Miller, CEO of Cal-Maine Foods, July 2026",
+   "source": "Cal-Maine Foods fiscal 2026 results (July 22, 2026)"
+  }
+ },
+ {
+  "at": "c6p4",
+  "type": "photo",
+  "props": {
+   "photo": "egg_sandwich",
+   "kicker": "$54 million, +30% capacity",
+   "text": "Now it sells more *breakfast*.",
+   "focus": "50% 50%",
+   "source": "Cal-Maine Foods fiscal 2026 results (July 22, 2026)"
+  }
+ },
+ {
+  "at": "c7p0",
+  "type": "journey",
+  "props": {
+   "stops": [
+    {
+     "icon": "Bird",
+     "label": "The hen"
+    },
+    {
+     "icon": "Biohazard",
+     "label": "The virus"
+    },
+    {
+     "icon": "Gauge",
+     "label": "The benchmark"
+    },
+    {
+     "icon": "Gavel",
+     "label": "The bids"
+    },
+    {
+     "icon": "Trophy",
+     "label": "The winner"
+    },
+    {
+     "icon": "Boxes",
+     "label": "The glut"
+    },
+    {
+     "icon": "ShoppingCart",
+     "label": "The shelf"
+    }
+   ],
+   "current": 6,
+   "travelAt": 0.3,
+   "travel": 1.8,
+   "traveler": "Egg"
+  }
+ },
+ {
+  "at": "c7p1",
+  "type": "chain",
+  "props": {
+   "kicker": "From the farm to your cart",
+   "rows": [
+    {
+     "nodes": [
+      {
+       "label": "Farm",
+       "icon": "Bird"
+      },
+      {
+       "label": "Washed, graded, packed",
+       "icon": "Boxes"
+      },
+      {
+       "label": "Truck",
+       "icon": "Truck"
+      },
+      {
+       "label": "Warehouse",
+       "icon": "Warehouse"
+      },
+      {
+       "label": "Store",
+       "icon": "Store",
+       "strong": true
+      }
+     ]
+    }
+   ],
+   "start": 0.3,
+   "stagger": 1.1
+  }
+ },
+ {
+  "at": "c7p1",
+  "after": "Each step takes a cut",
+  "type": "statement",
+  "bg": "semi_truck",
+  "props": {
+   "kicker": "Every step takes a cut",
+   "text": "High prices: the *farm's* cut. Low prices: almost *nothing*.",
+   "icon": "Scissors"
+  }
+ },
+ {
+  "at": "c7p2",
+  "type": "bars",
+  "props": {
+   "title": "A dozen eggs, April 2026",
+   "bars": [
+    {
+     "label": "Wholesale",
+     "value": 0.22,
+     "display": "$0.22",
+     "color": "brick"
+    },
+    {
+     "label": "Advertised in stores",
+     "value": 1.68,
+     "display": "$1.68",
+     "color": "teal"
+    },
+    {
+     "label": "Average shelf price",
+     "value": 2.25,
+     "display": "$2.25",
+     "color": "amber",
+     "note": "7.6× wholesale for the ads"
+    }
+   ],
+   "delays": [
+    0.3,
+    3.4,
+    9.0
+   ],
+   "source": "WATTPoultry (May 29, 2026); BLS"
+  }
+ },
+ {
+  "at": "c7p3",
+  "type": "prices",
+  "bg": "eggs_supermarket",
+  "props": {
+   "kicker": "Late September 2026, one dozen",
+   "items": [
+    {
+     "name": "Wholesale",
+     "sub": "what the farm gets",
+     "from": "$8.41",
+     "to": "$0.39"
+    },
+    {
+     "name": "On the shelf",
+     "sub": "what you pay",
+     "from": "$6.23",
+     "to": "$2.27"
+    }
+   ],
+   "stagger": 2.6,
+   "start": 0.3,
+   "source": "USDA via IndexBox; BLS"
+  }
+ },
+ {
+  "at": "c7p4",
+  "type": "carton",
+  "props": {
+   "title": "You pay for twelve eggs. The farm's price covers…",
+   "share": 2.06,
+   "color": "amber",
+   "start": 0.2,
+   "stagger": 0.08,
+   "lightAt": 2.4,
+   "on": {
+    "label": "The farm",
+    "value": "≈ 2 eggs",
+    "sub": "39¢ of $2.27"
+   },
+   "off": {
+    "label": "Everyone after",
+    "value": "≈ 10 eggs",
+    "sub": "packing, trucks, store",
+    "color": "slate"
+   },
+   "source": "The Cost Curve calculation from USDA (via IndexBox) and BLS, Sept. 2026"
+  }
+ },
+ {
+  "at": "c7p5",
+  "type": "statement",
+  "bg": "grocery_aisle",
+  "props": {
+   "kicker": "Part of the gap is normal",
+   "text": "Up like a *rocket*. Down like a *feather*.",
+   "icon": "Feather",
+   "source": "Kearney via USA Today (Feb. 13, 2026)"
+  }
+ },
+ {
+  "at": "c7p6",
+  "type": "statement",
+  "bg": "shelf_sign",
+  "props": {
+   "kicker": "At the peak",
+   "text": "Some stores sold eggs *at a loss*.",
+   "icon": "Store",
+   "source": "USDA ERS via WATTPoultry (May 29, 2026)"
+  }
+ },
+ {
+  "at": "c7p6",
+  "after": "But for most of the past year",
+  "type": "statement",
+  "bg": "eggs_supermarket",
+  "props": {
+   "kicker": "Since then",
+   "text": "A wide gap. *Shoppers paid* for it.",
+   "icon": "ShoppingCart"
+  }
+ },
+ {
+  "at": "c8p0",
+  "type": "journey",
+  "props": {
+   "stops": [
+    {
+     "icon": "Bird",
+     "label": "The hen"
+    },
+    {
+     "icon": "Biohazard",
+     "label": "The virus"
+    },
+    {
+     "icon": "Gauge",
+     "label": "The benchmark"
+    },
+    {
+     "icon": "Gavel",
+     "label": "The bids"
+    },
+    {
+     "icon": "Trophy",
+     "label": "The winner"
+    },
+    {
+     "icon": "Boxes",
+     "label": "The glut"
+    },
+    {
+     "icon": "ShoppingCart",
+     "label": "The shelf"
+    }
+   ],
+   "current": 7,
+   "travelAt": 0.3,
+   "travel": 1.8,
+   "traveler": "Egg",
+   "tallyTitle": "One dozen eggs · who got paid",
+   "tally": [
+    {
+     "label": "The hens",
+     "value": "$0",
+     "color": "slate",
+     "delay": 3.0
+    },
+    {
+     "label": "Small farms",
+     "value": "below cost",
+     "color": "brick",
+     "delay": 4.6
+    },
+    {
+     "label": "Cal-Maine, FY2025",
+     "value": "$1.22B",
+     "color": "amber",
+     "strong": true,
+     "delay": 9.0
+    }
+   ],
+   "source": "Cal-Maine; WATTPoultry"
+  }
+ },
+ {
+  "at": "c8p0",
+  "after": "And now that eggs are cheap",
+  "type": "carton",
+  "props": {
+   "title": "Your $2.27 dozen today",
+   "share": 2.06,
+   "color": "amber",
+   "start": 0.1,
+   "stagger": 0.05,
+   "lightAt": 1.2,
+   "on": {
+    "label": "The farm",
+    "value": "39¢"
+   },
+   "off": {
+    "label": "After the farm",
+    "value": "$1.88",
+    "sub": "packers, trucks, store",
+    "color": "slate"
+   },
+   "source": "The Cost Curve calculation, Sept. 2026"
+  }
+ },
+ {
+  "at": "c8p1",
+  "type": "statement",
+  "bg": "eggs_closeup",
+  "props": {
+   "kicker": "The deeper lesson",
+   "text": "The price of an egg is a *number someone prints*.",
+   "icon": "Gauge"
+  }
+ },
+ {
+  "at": "c8p1",
+  "after": "When that number moves",
+  "type": "chain",
+  "props": {
+   "kicker": "How a dozen is priced",
+   "rows": [
+    {
+     "nodes": [
+      {
+       "label": "Egg Clearinghouse",
+       "icon": "MonitorSmartphone"
+      },
+      {
+       "label": "Urner Barry",
+       "icon": "Gauge",
+       "strong": true
+      },
+      {
+       "label": "Contracts",
+       "icon": "FileText"
+      },
+      {
+       "label": "Your cart",
+       "icon": "ShoppingCart"
+      }
+     ]
+    }
+   ],
+   "start": 0.1,
+   "stagger": 0.5
+  }
+ },
+ {
+  "at": "c8p2",
+  "type": "numbers",
+  "bg": "doj_bldg",
+  "props": {
+   "title": "The settlement, June 2026",
+   "items": [
+    {
+     "value": 3.3,
+     "prefix": "$",
+     "suffix": "M",
+     "decimals": 1,
+     "label": "paid",
+     "color": "amber",
+     "icon": "Coins"
+    },
+    {
+     "value": 53,
+     "suffix": "M",
+     "label": "eggs donated",
+     "color": "teal",
+     "icon": "Egg"
+    }
+   ],
+   "source": "Duane Morris (July 7, 2026)"
+  }
+ },
+ {
+  "at": "c8p3",
+  "type": "hero",
+  "props": {
+   "photo": "carton_eb",
+   "number": "$2.32",
+   "label": "a dozen eggs, October 2026",
+   "kicker": "U.S. average retail price",
+   "numberAt": 0.6,
+   "source": "BLS average price, Grade A large eggs (via CrumbCounts)"
+  }
+ },
+ {
+  "at": "c8p3",
+  "after": "And bird flu",
+  "type": "numbers",
+  "bg": "wild_ducks",
+  "props": {
+   "title": "Egg-laying hens lost to bird flu in 2026 (to Nov. 4)",
+   "items": [
+    {
+     "value": 18.4,
+     "suffix": "M",
+     "decimals": 1,
+     "label": "hens",
+     "color": "brick",
+     "icon": "Biohazard"
+    }
+   ],
+   "source": "APHIS data via The Scramble"
+  }
+ },
+ {
+  "at": "c8p3",
+  "after": "Next time",
+  "type": "statement",
+  "bg": "egg_sorting",
+  "props": {
+   "kicker": "Next time the price jumps",
+   "text": "Look at *the number*.",
+   "icon": "Gauge"
+  }
+ }
+]
