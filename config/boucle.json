@@ -1,0 +1,7 @@
+{
+  "_doc": "Interrupteur de la production automatique (pipeline/BOUCLE.md). active=false : la tâche programmée s'arrête sans rien produire.",
+  "active": true,
+  "branch": "claude/project-thread-t3c48c",
+  "per_run": {"long": 1, "short_extract": 1, "short_original": 1},
+  "max_long_per_week": 3
+}
