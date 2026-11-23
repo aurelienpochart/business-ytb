@@ -28,7 +28,8 @@ export const Journey: React.FC<{
   stagger?: number;
   start?: number;
   source?: string;
-}> = ({title, kicker, stops, current, from, travelAt = 0.5, travel = 1.6, tally, tallyTitle, stagger = 0.9, start = 1.2, source}) => {
+  traveler?: string; // icône Lucide qui avance sur la route (défaut : Plane ; Egg pour la vidéo 09)
+}> = ({title, kicker, stops, current, from, travelAt = 0.5, travel = 1.6, tally, tallyTitle, stagger = 0.9, start = 1.2, source, traveler = 'Plane'}) => {
   const frame = useCurrentFrame();
   const {fps} = useVideoConfig();
   const n = stops.length;
@@ -57,7 +58,8 @@ export const Journey: React.FC<{
   const planeP = pos(kPlane);
   const ahead = pos(Math.min(kPlane + 0.05, n - 1 + 0.6));
   const angle = (Math.atan2(ahead.y - planeP.y, ahead.x - planeP.x) * 180) / Math.PI;
-  const Plane = icons.Plane as React.FC<any>;
+  const Plane = ((icons as Record<string, React.FC<any>>)[traveler] ?? icons.Plane) as React.FC<any>;
+  const isPlane = traveler === 'Plane';
   const Check = icons.Check as React.FC<any>;
 
   return (
@@ -112,8 +114,8 @@ export const Journey: React.FC<{
         );
       })}
       {kPlane > -0.7 && kPlane < n - 1 + 0.7 ? (
-        <div style={{position: 'absolute', left: planeP.x - 40, top: planeP.y - 40 - 100, width: 80, height: 80, transform: `rotate(${angle + 45}deg)`, opacity: unit(pIn * 2), filter: 'drop-shadow(0 0 16px rgba(255,231,176,0.8))'}}>
-          <Plane size={80} color={C.goldLight} fill={C.goldLight} strokeWidth={1.2} />
+        <div style={{position: 'absolute', left: planeP.x - 40, top: planeP.y - 40 - 100, width: 80, height: 80, transform: isPlane ? `rotate(${angle + 45}deg)` : `rotate(${Math.sin(frame / 5) * 8 * (move > 0 && move < 1 ? 1 : 0.3)}deg)`, opacity: unit(pIn * 2), filter: 'drop-shadow(0 0 16px rgba(255,231,176,0.8))'}}>
+          <Plane size={80} color={C.goldLight} fill={isPlane ? C.goldLight : 'rgba(255,240,214,0.9)'} strokeWidth={isPlane ? 1.2 : 1.8} />
         </div>
       ) : null}
       {hasTally ? (

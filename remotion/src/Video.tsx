@@ -13,6 +13,7 @@ import {Chain, Parcels, Trails} from './components/question';
 import {Gap, Levers, Spread} from './components/teardown';
 import {Segment, VideoProps, Visual} from './types';
 import {Airframe, Gauge} from './components/aviation';
+import {Carton} from './components/carton';
 import {C, applyTint} from './theme';
 
 export const END_SCREEN_SECONDS = 20;
@@ -52,6 +53,7 @@ export const BLOCKS: Record<string, React.FC<any>> = {
   spread: Spread, // paiement d'avance, charge étalée (amortissement)
   airframe: Airframe, // avion de ligne en profil façon plan d'ingénieur (vidéo 08 Boeing)
   gauge: Gauge, // instrument de cockpit : cadence, plafond
+  carton: Carton, // boîte de douze œufs, part du prix allumée (vidéo 09)
 };
 
 export const renderVisual = (v: Visual) => {

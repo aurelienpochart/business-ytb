@@ -183,6 +183,10 @@ In April 2026, when farms were getting twenty-two cents a dozen, the average adv
 
 By late September, wholesale was thirty-nine cents. The average shelf price was still two dollars and twenty-seven. [E8] [E1]
 
+> Boîte de douze : 2 œufs sur 12 s'allument (la part du prix de gros).
+
+Put it another way. Out of the twelve eggs you paid for, the farm's price covered about two.
+
 > Énoncé : « Prices go up like a rocket, and down like a feather. »
 
 Part of that gap is normal. Eggs need washing, grading, packing, trucks, and a store. And many retailers buy on contracts that last three or six months, so lower prices reach the shelf late. [E5]
