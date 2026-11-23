@@ -168,6 +168,12 @@
       "folder": "videos/shorts-originaux/09-popcorn",
       "video_id": "6QbGXidT8lE",
       "publish_at": "2026-11-25T17:00:00Z"
+    },
+    {
+      "kind": "short",
+      "folder": "videos/09-eggs/shorts/1",
+      "video_id": "_OB4yILIrj4",
+      "publish_at": "2026-11-26T17:00:00Z"
     }
   ]
 }
