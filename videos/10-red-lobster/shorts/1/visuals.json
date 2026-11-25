@@ -1,0 +1,129 @@
+[
+ {
+  "at": "p0",
+  "type": "shot",
+  "props": {
+   "photo": "shrimp_pile",
+   "dim": 0.7,
+   "kicker": "Everyone says",
+   "text": "Killed by *endless shrimp*"
+  }
+ },
+ {
+  "at": "p0",
+  "after": "Its bankruptcy filing",
+  "type": "shot",
+  "props": {
+   "photo": "rl_front",
+   "dim": 0.72,
+   "icon": "FileText",
+   "color": "gold",
+   "kicker": "The bankruptcy filing",
+   "text": "Points *somewhere else*"
+  }
+ },
+ {
+  "at": "p1",
+  "type": "shot",
+  "props": {
+   "photo": "wall_street",
+   "dim": 0.74,
+   "icon": "Banknote",
+   "color": "teal",
+   "kicker": "2014, private equity buyout",
+   "number": "$2.1B",
+   "numberDelay": {
+    "$t": "two point one billion dollars",
+    "offset": -0.1
+   },
+   "label": "paid for Red Lobster",
+   "source": "Darden press release (May 16, 2014)"
+  }
+ },
+ {
+  "at": "p2",
+  "type": "shot",
+  "props": {
+   "photo": "rl_door",
+   "dim": 0.74,
+   "icon": "Building2",
+   "color": "gold",
+   "kicker": "Same deal: the buildings",
+   "number": "$1.5B",
+   "numberDelay": {
+    "$t": "one and a half billion",
+    "offset": -0.1
+   },
+   "label": "about 500 restaurants, sold",
+   "sub": "then rented back",
+   "source": "Commercial Property Executive (May 19, 2014)"
+  }
+ },
+ {
+  "at": "p3",
+  "type": "shot",
+  "props": {
+   "photo": "for_lease",
+   "dim": 0.74,
+   "kicker": "Since 2014",
+   "halves": [
+    {
+     "icon": "TrendingUp",
+     "big": "+2%",
+     "label": "rent, every year",
+     "color": "brick",
+     "delay": {
+      "$t": "two percent",
+      "offset": -0.1
+     }
+    },
+    {
+     "icon": "Users",
+     "big": "−30%",
+     "label": "customers since 2019",
+     "color": "brick",
+     "delay": {
+      "$t": "thirty percent",
+      "offset": -0.1
+     }
+    }
+   ],
+   "source": "CPE (2014); bankruptcy declaration via NRN (2024)"
+  }
+ },
+ {
+  "at": "p4",
+  "type": "shot",
+  "props": {
+   "photo": "closed",
+   "dim": 0.74,
+   "icon": "Receipt",
+   "color": "brick",
+   "kicker": "Leases, 2023",
+   "number": "$190.5M",
+   "numberDelay": {
+    "$t": "a hundred and ninety million dollars",
+    "offset": -0.1
+   },
+   "label": "a year",
+   "source": "Fortune (May 21, 2024), from the filing"
+  }
+ },
+ {
+  "at": "p4",
+  "after": "The shrimp was just",
+  "type": "shot",
+  "props": {
+   "photo": "shrimp_fried",
+   "dim": 0.68,
+   "kicker": "Endless shrimp",
+   "text": "Just *the last wave*"
+  }
+ },
+ {
+  "at": "p4",
+  "after": "Full story on the channel",
+  "type": "endcard",
+  "props": {}
+ }
+]

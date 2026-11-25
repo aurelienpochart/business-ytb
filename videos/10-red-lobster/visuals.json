@@ -1,0 +1,1307 @@
+[
+ {
+  "at": "c0p0",
+  "type": "hero",
+  "props": {
+   "photo": "rl_front",
+   "logo": "rl_logo",
+   "logoWidth": 520,
+   "logoHeight": 150,
+   "logoColor": "white",
+   "number": "$20",
+   "label": "all the shrimp you can eat, every day",
+   "kicker": "Red Lobster, summer 2023",
+   "numberAt": 5.8,
+   "source": "Fortune (May 21, 2024); Wikipedia"
+  }
+ },
+ {
+  "at": "c0p1",
+  "type": "statement",
+  "props": {
+   "kicker": "One quarter, 2023",
+   "text": "*−$11 million* on the deal.",
+   "icon": "TrendingDown",
+   "source": "Wikipedia; ABC News (Apr. 18, 2024)"
+  },
+  "bg": "shrimp_fried"
+ },
+ {
+  "at": "c0p1",
+  "type": "photo",
+  "props": {
+   "photo": "closed",
+   "kicker": "May 2024",
+   "text": "*Bankrupt.*",
+   "focus": "50% 55%"
+  },
+  "after": "Less than a year later"
+ },
+ {
+  "at": "c0p2",
+  "type": "statement",
+  "props": {
+   "kicker": "The story everyone told",
+   "text": "Killed by its own *shrimp*?",
+   "icon": "Shrimp"
+  },
+  "bg": "shrimp_pile"
+ },
+ {
+  "at": "c0p3",
+  "type": "photo",
+  "props": {
+   "photo": "courthouse",
+   "kicker": "The bankruptcy filing",
+   "text": "A *different* story.",
+   "focus": "50% 50%"
+  }
+ },
+ {
+  "at": "c0p3",
+  "type": "tiles",
+  "props": {
+   "kicker": "What the filing shows",
+   "items": [
+    {
+     "icon": "Users",
+     "label": "30% fewer customers",
+     "sub": "since 2019",
+     "color": "brick"
+    },
+    {
+     "icon": "Building2",
+     "label": "≈ $190M in rent",
+     "sub": "in 2023",
+     "color": "amber"
+    },
+    {
+     "icon": "TrendingDown",
+     "label": "Losing money",
+     "sub": "before the deal went permanent",
+     "color": "brick"
+    }
+   ],
+   "delays": [
+    0.3,
+    6.0,
+    11.5
+   ],
+   "source": "Fortune (May 21, 2024), from the bankruptcy filing"
+  },
+  "after": "The chain had lost"
+ },
+ {
+  "at": "c0p4",
+  "type": "statement",
+  "props": {
+   "kicker": "The real story",
+   "text": "The shrimp was the *last wave*.",
+   "icon": "Waves"
+  },
+  "bg": "lobster_tank"
+ },
+ {
+  "at": "c0p5",
+  "type": "photo",
+  "props": {
+   "photo": "lakeland",
+   "kicker": "Lakeland, Florida",
+   "text": "Back to *1968*.",
+   "focus": "50% 60%"
+  }
+ },
+ {
+  "at": "c1p0",
+  "type": "chrono",
+  "props": {
+   "title": "The fish house",
+   "from": 1966,
+   "to": 1997,
+   "events": [
+    {
+     "year": 1968.05,
+     "date": "Jan. 18, 1968",
+     "label": "First Red Lobster",
+     "sub": "Lakeland, Florida",
+     "level": 1,
+     "at": 0.4,
+     "color": "amber",
+     "big": true
+    }
+   ],
+   "source": "Wikipedia, Red Lobster and William Darden"
+  }
+ },
+ {
+  "at": "c1p0",
+  "type": "photo",
+  "props": {
+   "photo": "seafood_platter",
+   "kicker": "The idea",
+   "text": "Seafood a family could *afford*.",
+   "focus": "50% 50%"
+  },
+  "after": "This one was different"
+ },
+ {
+  "at": "c1p1",
+  "type": "numbers",
+  "props": {
+   "title": "Red Lobster in 1970",
+   "items": [
+    {
+     "value": 5,
+     "label": "restaurants when General Mills bought it",
+     "color": "amber",
+     "icon": "Store"
+    }
+   ],
+   "source": "Wikipedia"
+  },
+  "bg": "general_mills"
+ },
+ {
+  "at": "c1p1",
+  "type": "photo",
+  "props": {
+   "photo": "rl_sign_old",
+   "kicker": "The eighties and nineties",
+   "text": "Coast to *coast*.",
+   "focus": "50% 45%"
+  },
+  "after": "With General Mills money"
+ },
+ {
+  "at": "c1p2",
+  "type": "photo",
+  "props": {
+   "photo": "biscuits",
+   "kicker": "1991",
+   "text": "The *Cheddar Bay* Biscuits.",
+   "focus": "50% 55%"
+  }
+ },
+ {
+  "at": "c1p3",
+  "type": "photo",
+  "props": {
+   "photo": "dining",
+   "logo": "darden_logo",
+   "kicker": "1995",
+   "text": "Flagship of *Darden Restaurants*.",
+   "focus": "50% 50%"
+  }
+ },
+ {
+  "at": "c1p3",
+  "type": "numbers",
+  "props": {
+   "title": "At its peak",
+   "items": [
+    {
+     "value": 700,
+     "suffix": "+",
+     "label": "Red Lobster restaurants",
+     "color": "amber",
+     "icon": "MapPin"
+    }
+   ],
+   "source": "Nation's Restaurant News (2024); Fortune (Feb. 2026)"
+  },
+  "after": "At its peak",
+  "bg": "rl_sign"
+ },
+ {
+  "at": "c1p4",
+  "type": "statement",
+  "props": {
+   "kicker": "For a generation",
+   "text": "Not fancy. But a *treat*.",
+   "icon": "PartyPopper"
+  },
+  "bg": "booth"
+ },
+ {
+  "at": "c1p5",
+  "type": "numbers",
+  "props": {
+   "title": "After Beyoncé's \"Formation\", February 2016",
+   "items": [
+    {
+     "value": 33,
+     "prefix": "+",
+     "suffix": "%",
+     "label": "Red Lobster sales, per the company",
+     "color": "teal",
+     "icon": "Music"
+    }
+   ],
+   "source": "Wikipedia"
+  },
+  "bg": "beyonce"
+ },
+ {
+  "at": "c1p6",
+  "type": "statement",
+  "props": {
+   "kicker": "By then",
+   "text": "It no longer owned *the ground it stood on*.",
+   "icon": "LandPlot"
+  },
+  "bg": "rl_front"
+ },
+ {
+  "at": "c2p0",
+  "type": "chrono",
+  "props": {
+   "title": "The sale",
+   "from": 2013,
+   "to": 2015,
+   "events": [
+    {
+     "year": 2013.97,
+     "date": "Dec. 2013",
+     "label": "Darden plans to sell",
+     "sub": "under investor pressure",
+     "level": 1,
+     "at": 0.4
+    },
+    {
+     "year": 2014.37,
+     "date": "May 16, 2014",
+     "label": "Sold to Golden Gate Capital",
+     "sub": "$2.1 billion in cash",
+     "level": -1,
+     "at": 8,
+     "color": "amber",
+     "big": true
+    },
+    {
+     "year": 2014.57,
+     "date": "July 28, 2014",
+     "label": "Deal closes",
+     "level": 1,
+     "at": 14
+    }
+   ],
+   "source": "Darden press release (May 16, 2014); Wikipedia"
+  },
+  "bg": "wall_street"
+ },
+ {
+  "at": "c2p1",
+  "type": "numbers",
+  "props": {
+   "title": "The 2014 deal",
+   "items": [
+    {
+     "value": 2.1,
+     "prefix": "$",
+     "suffix": "B",
+     "decimals": 1,
+     "label": "paid for Red Lobster",
+     "color": "slate",
+     "icon": "Banknote"
+    },
+    {
+     "value": 1.5,
+     "prefix": "$",
+     "suffix": "B",
+     "decimals": 1,
+     "label": "from selling its buildings",
+     "color": "amber",
+     "icon": "Building2"
+    }
+   ],
+   "source": "Darden (May 16, 2014); Commercial Property Executive (May 19, 2014)"
+  },
+  "after": "the real estate under"
+ },
+ {
+  "at": "c2p1",
+  "type": "photo",
+  "props": {
+   "photo": "rl_door",
+   "kicker": "About 500 restaurants",
+   "text": "The buildings, *sold*.",
+   "focus": "50% 45%"
+  },
+  "after": "for one and a half billion"
+ },
+ {
+  "at": "c2p2",
+  "type": "statement",
+  "props": {
+   "kicker": "A sale-leaseback",
+   "text": "Sell the buildings. *Rent them back.*",
+   "icon": "KeyRound"
+  },
+  "bg": "for_lease"
+ },
+ {
+  "at": "c2p2",
+  "type": "tiles",
+  "props": {
+   "kicker": "Who got what",
+   "items": [
+    {
+     "icon": "Briefcase",
+     "label": "The buyer",
+     "sub": "most of its money back",
+     "color": "amber"
+    },
+    {
+     "icon": "Store",
+     "label": "The restaurants",
+     "sub": "a landlord",
+     "color": "brick"
+    }
+   ],
+   "delays": [
+    0.3,
+    2.5
+   ]
+  },
+  "after": "The buyer got"
+ },
+ {
+  "at": "c2p3",
+  "type": "quote",
+  "props": {
+   "text": "Arranged to recoup 71% of the total investment before it even took control.",
+   "by": "Eileen Appelbaum, economist, on Golden Gate Capital",
+   "source": "Fortune (June 30, 2014)"
+  }
+ },
+ {
+  "at": "c2p4",
+  "type": "tiles",
+  "props": {
+   "kicker": "The leases",
+   "items": [
+    {
+     "icon": "CalendarRange",
+     "label": "25 years",
+     "sub": "initial term, most leases",
+     "color": "slate"
+    },
+    {
+     "icon": "TrendingUp",
+     "label": "+2% a year",
+     "sub": "rent increases",
+     "color": "brick"
+    }
+   ],
+   "delays": [
+    0.3,
+    3.8
+   ],
+   "source": "Commercial Property Executive (May 19, 2014)"
+  }
+ },
+ {
+  "at": "c2p5",
+  "type": "numbers",
+  "props": {
+   "title": "30 restaurant buyouts, 2005 to 2007",
+   "items": [
+    {
+     "value": 10,
+     "label": "ended in Chapter 11",
+     "color": "brick",
+     "icon": "Gavel"
+    }
+   ],
+   "source": "Eileen Appelbaum, Fortune (June 30, 2014)"
+  },
+  "bg": "courthouse"
+ },
+ {
+  "at": "c2p5",
+  "type": "quote",
+  "props": {
+   "text": "We have seen this movie before and it did not end well.",
+   "by": "Eileen Appelbaum, 2014",
+   "source": "Fortune (June 30, 2014)"
+  },
+  "after": "Her verdict"
+ },
+ {
+  "at": "c3p0",
+  "type": "line",
+  "props": {
+   "title": "A rent rising 2% a year (2014 = 100)",
+   "points": [
+    {
+     "x": "2014",
+     "y": 100
+    },
+    {
+     "x": "2015",
+     "y": 102
+    },
+    {
+     "x": "2016",
+     "y": 104
+    },
+    {
+     "x": "2017",
+     "y": 106.1
+    },
+    {
+     "x": "2018",
+     "y": 108.2
+    },
+    {
+     "x": "2019",
+     "y": 110.4
+    },
+    {
+     "x": "2020",
+     "y": 112.6
+    },
+    {
+     "x": "2021",
+     "y": 114.9
+    },
+    {
+     "x": "2022",
+     "y": 117.2
+    },
+    {
+     "x": "2023",
+     "y": 119.5
+    }
+   ],
+   "decimals": 0,
+   "name": "Rent",
+   "source": "Our calculation, 2% annual increase",
+   "draw": [
+    0.6,
+    9
+   ]
+  }
+ },
+ {
+  "at": "c3p1",
+  "type": "statement",
+  "props": {
+   "kicker": "The fixed cost",
+   "text": "You can't cut *a lease*.",
+   "icon": "Lock"
+  },
+  "bg": "for_lease_sign"
+ },
+ {
+  "at": "c3p2",
+  "type": "receipt",
+  "props": {
+   "header": "RED LOBSTER, 2023",
+   "subheader": "lease obligations",
+   "lines": [
+    {
+     "label": "Total lease obligations",
+     "value": "$190.5M",
+     "strong": true
+    },
+    {
+     "label": "of which underperforming stores",
+     "value": "$64M+",
+     "mark": true
+    }
+   ],
+   "delays": [
+    0.3,
+    8.0
+   ],
+   "kicker": "In 2023",
+   "text": "About *$190 million* in rent.",
+   "source": "Fortune (May 21, 2024), from the bankruptcy filing"
+  }
+ },
+ {
+  "at": "c3p3",
+  "type": "bars",
+  "props": {
+   "title": "Red Lobster customers (2019 = 100)",
+   "bars": [
+    {
+     "label": "2019",
+     "value": 100,
+     "display": "100",
+     "color": "slate"
+    },
+    {
+     "label": "2024",
+     "value": 70,
+     "display": "≈ 70",
+     "color": "brick",
+     "note": "−30%"
+    }
+   ],
+   "delays": [
+    0.5,
+    3.5
+   ],
+   "source": "Bankruptcy declaration via Nation's Restaurant News (May 22, 2024)"
+  },
+  "bg": "dining"
+ },
+ {
+  "at": "c3p4",
+  "type": "tiles",
+  "props": {
+   "kicker": "The trap",
+   "items": [
+    {
+     "icon": "TrendingUp",
+     "label": "Rent",
+     "sub": "up every year",
+     "color": "brick"
+    },
+    {
+     "icon": "TrendingDown",
+     "label": "Customers",
+     "sub": "down 30%",
+     "color": "brick"
+    },
+    {
+     "icon": "Receipt",
+     "label": "Sales +25%",
+     "sub": "2021 to 2023, mostly higher prices",
+     "color": "amber"
+    }
+   ],
+   "delays": [
+    0.3,
+    4.5,
+    7.0
+   ],
+   "source": "Bankruptcy declaration via Nation's Restaurant News (May 22, 2024)"
+  }
+ },
+ {
+  "at": "c3p5",
+  "type": "statement",
+  "props": {
+   "kicker": "Next",
+   "text": "An owner that also sold *the shrimp*.",
+   "icon": "Shrimp"
+  },
+  "bg": "shrimp_raw"
+ },
+ {
+  "at": "c4p0",
+  "type": "photo",
+  "props": {
+   "photo": "bangkok",
+   "logo": "thai_union_logo",
+   "kicker": "Thai Union, Thailand",
+   "text": "A seafood *giant*.",
+   "focus": "50% 50%"
+  }
+ },
+ {
+  "at": "c4p0",
+  "type": "chrono",
+  "props": {
+   "title": "The new owner",
+   "from": 2015,
+   "to": 2021,
+   "events": [
+    {
+     "year": 2016.3,
+     "date": "2016",
+     "label": "Minority stake",
+     "sub": "$575 million",
+     "level": 1,
+     "at": 0.3,
+     "color": "amber",
+     "big": true
+    },
+    {
+     "year": 2020.5,
+     "date": "2020",
+     "label": "Group led by Thai Union buys the rest",
+     "level": -1,
+     "at": 6.5
+    }
+   ],
+   "source": "Wikipedia; Moneywise via Yahoo Finance (Apr. 2026)"
+  },
+  "after": "bought a minority stake"
+ },
+ {
+  "at": "c4p1",
+  "type": "chain",
+  "props": {
+   "kicker": "Owner and supplier",
+   "rows": [
+    {
+     "nodes": [
+      {
+       "label": "Thai Union",
+       "sub": "owner",
+       "icon": "Building2"
+      },
+      {
+       "label": "Red Lobster",
+       "sub": "restaurants",
+       "icon": "Store"
+      },
+      {
+       "label": "Thai Union",
+       "sub": "seafood supplier",
+       "icon": "Ship",
+       "strong": true
+      }
+     ]
+    }
+   ],
+   "start": 0.4,
+   "stagger": 2.4
+  }
+ },
+ {
+  "at": "c4p2",
+  "type": "chrono",
+  "props": {
+   "title": "Red Lobster's chief executives",
+   "from": 2021,
+   "to": 2025,
+   "events": [
+    {
+     "year": 2021.3,
+     "date": "2021",
+     "label": "Kelli Valade",
+     "level": 1,
+     "at": 5
+    },
+    {
+     "year": 2022.3,
+     "date": "Apr. 2022",
+     "label": "Valade leaves",
+     "sub": "Paul Kenny, interim",
+     "level": -1,
+     "at": 8,
+     "color": "brick"
+    },
+    {
+     "year": 2023.6,
+     "date": "2023",
+     "label": "Horace Dawson",
+     "level": 1,
+     "at": 13
+    },
+    {
+     "year": 2024.2,
+     "date": "Mar. 2024",
+     "label": "Jonathan Tibus",
+     "level": -1,
+     "at": 14.5
+    },
+    {
+     "year": 2024.65,
+     "date": "Aug. 2024",
+     "label": "Damola Adamolekun",
+     "level": 1,
+     "at": 15.5,
+     "color": "amber"
+    }
+   ],
+   "source": "Nation's Restaurant News; Wikipedia; NPR (May 20, 2024)"
+  }
+ },
+ {
+  "at": "c4p3",
+  "type": "chain",
+  "props": {
+   "kicker": "Breaded shrimp suppliers",
+   "rows": [
+    {
+     "nodes": [
+      {
+       "label": "Supplier A",
+       "sub": "dropped",
+       "icon": "X"
+      },
+      {
+       "label": "Supplier B",
+       "sub": "dropped",
+       "icon": "X"
+      },
+      {
+       "label": "Thai Union",
+       "sub": "exclusive, higher cost",
+       "icon": "Ship",
+       "strong": true
+      }
+     ]
+    }
+   ],
+   "start": 0.6,
+   "stagger": 2.6,
+   "source": "Bankruptcy declaration via Nation's Restaurant News (May 22, 2024)"
+  }
+ },
+ {
+  "at": "c4p4",
+  "type": "statement",
+  "props": {
+   "kicker": "Allegations from the 2024 filing",
+   "text": "Thai Union called them *meritless*.",
+   "icon": "Scale",
+   "source": "Fortune (May 21, 2024), from the bankruptcy filing"
+  },
+  "bg": "courthouse"
+ },
+ {
+  "at": "c5p0",
+  "type": "photo",
+  "props": {
+   "photo": "shrimp_fried",
+   "kicker": "Ultimate Endless Shrimp",
+   "text": "A few weeks *each autumn*.",
+   "focus": "50% 50%"
+  }
+ },
+ {
+  "at": "c5p1",
+  "type": "hero",
+  "props": {
+   "photo": "shrimp_pile",
+   "number": "$20",
+   "label": "every day, all you can eat",
+   "kicker": "2023: made permanent",
+   "numberAt": 2.6,
+   "source": "Fortune (May 21, 2024); Wikipedia"
+  }
+ },
+ {
+  "at": "c5p2",
+  "type": "quote",
+  "props": {
+   "text": "Despite significant pushback from other members of the company's management team.",
+   "by": "Red Lobster's bankruptcy declaration, 2024",
+   "source": "Fortune (May 21, 2024), from the bankruptcy filing"
+  }
+ },
+ {
+  "at": "c5p3",
+  "type": "statement",
+  "props": {
+   "kicker": "The problem",
+   "text": "It *brought people in*.",
+   "icon": "Users"
+  },
+  "bg": "dining"
+ },
+ {
+  "at": "c5p3",
+  "type": "tiles",
+  "props": {
+   "kicker": "How a deal like that should pay",
+   "items": [
+    {
+     "icon": "CupSoda",
+     "label": "Drinks",
+     "color": "teal"
+    },
+    {
+     "icon": "CakeSlice",
+     "label": "Desserts",
+     "color": "teal"
+    },
+    {
+     "icon": "Fish",
+     "label": "Pricier plates",
+     "color": "teal"
+    }
+   ],
+   "delays": [
+    0.3,
+    1.0,
+    1.7
+   ]
+  },
+  "after": "A deal like that"
+ },
+ {
+  "at": "c5p4",
+  "type": "bars",
+  "props": {
+   "title": "Endless shrimp price",
+   "bars": [
+    {
+     "label": "Launch",
+     "value": 20,
+     "display": "$20",
+     "color": "slate"
+    },
+    {
+     "label": "Then",
+     "value": 22,
+     "display": "$22",
+     "color": "amber"
+    },
+    {
+     "label": "Then",
+     "value": 25,
+     "display": "$25",
+     "color": "amber"
+    }
+   ],
+   "delays": [
+    0.3,
+    2.0,
+    3.3
+   ],
+   "source": "Fortune (May 21, 2024); Wikipedia"
+  }
+ },
+ {
+  "at": "c5p4",
+  "type": "numbers",
+  "props": {
+   "title": "Third quarter, 2023",
+   "items": [
+    {
+     "value": 11,
+     "prefix": "−$",
+     "suffix": "M",
+     "label": "lost on the promotion",
+     "color": "brick",
+     "icon": "TrendingDown"
+    }
+   ],
+   "source": "Wikipedia; ABC News (Apr. 18, 2024)"
+  },
+  "after": "It still lost",
+  "bg": "shrimp_scampi"
+ },
+ {
+  "at": "c5p4",
+  "type": "quote",
+  "props": {
+   "text": "Often going days or weeks without certain types of shrimp.",
+   "by": "Red Lobster's bankruptcy declaration, 2024",
+   "source": "Bankruptcy declaration via Nation's Restaurant News (May 22, 2024)"
+  },
+  "after": "Some restaurants ran out"
+ },
+ {
+  "at": "c5p5",
+  "type": "quote",
+  "props": {
+   "text": "On this promotion, we don't earn a lot of money. At $22 we don't.",
+   "by": "Ludovic Garnier, CFO of Thai Union, 2023",
+   "source": "Fortune (May 21, 2024), from the bankruptcy filing"
+  }
+ },
+ {
+  "at": "c5p6",
+  "type": "statement",
+  "props": {
+   "kicker": "$11 million in one quarter",
+   "text": "A symptom, *not the disease*.",
+   "icon": "Stethoscope"
+  },
+  "bg": "shrimp_pile"
+ },
+ {
+  "at": "c6p0",
+  "type": "chrono",
+  "props": {
+   "title": "The fall",
+   "from": 2023.8,
+   "to": 2024.8,
+   "events": [
+    {
+     "year": 2024.05,
+     "date": "Jan. 2024",
+     "label": "Thai Union exits",
+     "sub": "≈ $530M written down",
+     "level": 1,
+     "at": 0.4,
+     "color": "brick"
+    },
+    {
+     "year": 2024.2,
+     "date": "Mar. 2024",
+     "label": "Tibus becomes CEO",
+     "level": -1,
+     "at": 1.6
+    },
+    {
+     "year": 2024.38,
+     "date": "May 2024",
+     "label": "Chapter 11",
+     "level": 1,
+     "at": 2.8,
+     "color": "brick",
+     "big": true
+    }
+   ],
+   "source": "Fortune (May 21, 2024); Moneywise via Yahoo Finance; NRN"
+  }
+ },
+ {
+  "at": "c6p0",
+  "type": "quote",
+  "props": {
+   "text": "Red Lobster's ongoing financial requirements no longer align with our capital allocation priorities.",
+   "by": "Thai Union, January 2024",
+   "source": "Fortune (May 21, 2024), from the bankruptcy filing"
+  },
+  "after": "Red Lobster's \"ongoing"
+ },
+ {
+  "at": "c6p1",
+  "type": "quote",
+  "props": {
+   "text": "It was immediately clear that Red Lobster's performance was deteriorating and had been doing so for several years.",
+   "by": "Jonathan Tibus, CEO, sworn declaration, 2024",
+   "source": "Bankruptcy declaration via Nation's Restaurant News (May 22, 2024)"
+  }
+ },
+ {
+  "at": "c6p2",
+  "type": "receipt",
+  "props": {
+   "header": "RED LOBSTER, FISCAL 2023",
+   "subheader": "what the filing found",
+   "lines": [
+    {
+     "label": "Net loss",
+     "value": "−$76M",
+     "strong": true
+    },
+    {
+     "label": "Rent (lease obligations)",
+     "value": "$190.5M"
+    },
+    {
+     "label": "Customers since 2019",
+     "value": "−30%"
+    },
+    {
+     "rule": true,
+     "label": ""
+    },
+    {
+     "label": "Endless shrimp, one quarter",
+     "value": "−$11M",
+     "mark": true
+    }
+   ],
+   "delays": [
+    2.0,
+    5.6,
+    9.4,
+    13.5,
+    13.9
+   ],
+   "kicker": "The bill",
+   "text": "The shrimp was *one line*.",
+   "source": "Fortune; Nation's Restaurant News; Wikipedia"
+  }
+ },
+ {
+  "at": "c6p3",
+  "type": "photo",
+  "props": {
+   "photo": "closed",
+   "kicker": "Days before the filing",
+   "text": "*93* restaurants shut.",
+   "focus": "50% 55%",
+   "source": "Bankruptcy declaration via Nation's Restaurant News (May 22, 2024)"
+  }
+ },
+ {
+  "at": "c6p3",
+  "type": "tiles",
+  "props": {
+   "kicker": "Chapter 11, May 2024",
+   "items": [
+    {
+     "icon": "Landmark",
+     "label": "Over $1 billion",
+     "sub": "of debt",
+     "color": "brick"
+    },
+    {
+     "icon": "Users",
+     "label": "≈ 36,000",
+     "sub": "workers still employed",
+     "color": "amber"
+    }
+   ],
+   "delays": [
+    0.3,
+    7.0
+   ],
+   "source": "NPR (May 20, 2024); Wikipedia"
+  },
+  "after": "Then, in May 2024"
+ },
+ {
+  "at": "c7p0",
+  "type": "chrono",
+  "props": {
+   "title": "The comeback",
+   "from": 2024.5,
+   "to": 2026.9,
+   "events": [
+    {
+     "year": 2024.65,
+     "date": "Aug. 2024",
+     "label": "New CEO",
+     "sub": "Damola Adamolekun, from P.F. Chang's",
+     "level": -1,
+     "at": 6
+    },
+    {
+     "year": 2024.71,
+     "date": "Sept. 2024",
+     "label": "Out of bankruptcy",
+     "sub": "owned by lenders led by Fortress",
+     "level": 1,
+     "at": 0.4,
+     "color": "amber",
+     "big": true
+    }
+   ],
+   "source": "Wikipedia; Fortune (June 26, 2026)"
+  },
+  "bg": "rl_door"
+ },
+ {
+  "at": "c7p1",
+  "type": "quote",
+  "props": {
+   "text": "We inherited a very damaged brand.",
+   "by": "Damola Adamolekun, CEO of Red Lobster",
+   "source": "Fortune (Feb. 10, 2026)"
+  }
+ },
+ {
+  "at": "c7p1",
+  "type": "statement",
+  "props": {
+   "kicker": "On endless shrimp",
+   "text": "\"Because I know how to *do math*.\"",
+   "icon": "Calculator",
+   "source": "Fortune (Feb. 10, 2026)"
+  },
+  "after": "He also said"
+ },
+ {
+  "at": "c7p2",
+  "type": "numbers",
+  "props": {
+   "title": "Signs of life",
+   "items": [
+    {
+     "value": 6.5,
+     "prefix": "+",
+     "suffix": "%",
+     "decimals": 1,
+     "label": "traffic, October 2025",
+     "color": "teal",
+     "icon": "Users"
+    },
+    {
+     "value": 10,
+     "prefix": "+",
+     "suffix": "%",
+     "label": "sales, early 2026",
+     "color": "teal",
+     "icon": "TrendingUp"
+    }
+   ],
+   "source": "Fortune (Feb. 10, 2026)"
+  },
+  "bg": "biscuits"
+ },
+ {
+  "at": "c7p3",
+  "type": "bars",
+  "props": {
+   "title": "Red Lobster restaurants",
+   "bars": [
+    {
+     "label": "Peak",
+     "value": 700,
+     "display": "700+",
+     "color": "amber"
+    },
+    {
+     "label": "May 2024",
+     "value": 578,
+     "display": "≈ 580",
+     "color": "slate"
+    },
+    {
+     "label": "Aug. 2026",
+     "value": 540,
+     "display": "≈ 540",
+     "color": "brick",
+     "note": "160+ closed since bankruptcy"
+    }
+   ],
+   "delays": [
+    0.3,
+    2.0,
+    5.0
+   ],
+   "source": "NRN; NPR; Complex (Aug. 30, 2026)"
+  }
+ },
+ {
+  "at": "c7p3",
+  "type": "photo",
+  "props": {
+   "photo": "shrimp_fried",
+   "kicker": "April 2026",
+   "text": "Endless shrimp is *back*.",
+   "sub": "for a limited time",
+   "focus": "50% 50%"
+  },
+  "after": "And in April 2026"
+ },
+ {
+  "at": "c7p4",
+  "type": "statement",
+  "props": {
+   "kicker": "May 2026 lawsuit, Florida",
+   "text": "\"Squeeze out *every drop of value*.\"",
+   "icon": "Gavel",
+   "source": "Fortune (June 26, 2026); claims not tested in court"
+  },
+  "bg": "courthouse"
+ },
+ {
+  "at": "c8p0",
+  "type": "chrono",
+  "props": {
+   "title": "Red Lobster, 1968 to 2024",
+   "from": 1965,
+   "to": 2027,
+   "events": [
+    {
+     "year": 1968,
+     "date": "1968",
+     "label": "Founded",
+     "level": 1,
+     "at": 0.2
+    },
+    {
+     "year": 2014.4,
+     "date": "2014",
+     "label": "Buildings sold",
+     "level": -1,
+     "at": 0.8,
+     "color": "amber"
+    },
+    {
+     "year": 2016.3,
+     "date": "2016",
+     "label": "Thai Union",
+     "level": 1,
+     "at": 1.4
+    },
+    {
+     "year": 2023.5,
+     "date": "2023",
+     "label": "$20 endless shrimp",
+     "level": -1,
+     "at": 2.0
+    },
+    {
+     "year": 2024.4,
+     "date": "2024",
+     "label": "Bankruptcy",
+     "level": 1,
+     "at": 2.6,
+     "color": "brick",
+     "big": true
+    }
+   ],
+   "source": "Sources in the description"
+  }
+ },
+ {
+  "at": "c8p1",
+  "type": "list",
+  "props": {
+   "title": "What really sank Red Lobster",
+   "items": [
+    {
+     "label": "The buildings were sold",
+     "sub": "2014"
+    },
+    {
+     "label": "The rent kept rising",
+     "sub": "+2% a year",
+     "highlight": true
+    },
+    {
+     "label": "The customers left",
+     "sub": "−30% since 2019",
+     "highlight": true
+    },
+    {
+     "label": "The owner sold the shrimp",
+     "sub": "Thai Union"
+    },
+    {
+     "label": "Then: $20 endless shrimp",
+     "sub": "2023"
+    }
+   ],
+   "stagger": 3.2,
+   "start": 0.3
+  }
+ },
+ {
+  "at": "c8p2",
+  "type": "statement",
+  "props": {
+   "kicker": "The part we remember",
+   "text": "The shrimp was *the last wave*.",
+   "icon": "Waves"
+  },
+  "bg": "lobster_tank"
+ },
+ {
+  "at": "c8p2",
+  "type": "photo",
+  "props": {
+   "photo": "tallahassee",
+   "kicker": "What killed it",
+   "text": "Paying more, every year, for *buildings it used to own*.",
+   "focus": "50% 50%"
+  },
+  "after": "But the less funny part"
+ },
+ {
+  "at": "c8p3",
+  "type": "quote",
+  "props": {
+   "text": "The greatest comeback in the history of the restaurant industry.",
+   "by": "Damola Adamolekun, CEO, on his goal",
+   "source": "Fortune (Feb. 10, 2026)"
+  }
+ },
+ {
+  "at": "c8p4",
+  "type": "photo",
+  "props": {
+   "photo": "lobster_tank",
+   "kicker": "Next",
+   "text": "Who got paid for *$6 eggs*?",
+   "focus": "50% 50%"
+  }
+ }
+]
