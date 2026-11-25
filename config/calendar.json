@@ -176,6 +176,12 @@
       "publish_at": "2026-11-26T17:00:00Z"
     },
     {
+      "kind": "long",
+      "folder": "videos/10-red-lobster",
+      "video_id": "rRZyWC4Q5TI",
+      "publish_at": "2026-11-27T15:00:00Z"
+    },
+    {
       "kind": "short",
       "folder": "videos/shorts-originaux/10-black-friday",
       "video_id": "kJEmJ_Dd1Kk",
