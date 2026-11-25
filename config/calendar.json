@@ -186,6 +186,12 @@
       "folder": "videos/shorts-originaux/10-black-friday",
       "video_id": "kJEmJ_Dd1Kk",
       "publish_at": "2026-11-27T17:00:00Z"
+    },
+    {
+      "kind": "short",
+      "folder": "videos/10-red-lobster/shorts/1",
+      "video_id": "zqVKg8ns0h8",
+      "publish_at": "2026-11-29T17:00:00Z"
     }
   ]
 }
