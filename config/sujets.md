@@ -9,7 +9,7 @@ Piliers : The Business Model, The Supply Chain, Rise & Fall, The Hidden Economic
 ## Vidéos longues
 
 - [x] 09 Œufs : qui a encaissé les œufs à 6 $ (Supply Chain, Journey)
-- [ ] Red Lobster : comment l'« Endless Shrimp » a coulé une chaîne de restaurants (Rise & Fall, Timeline)
+- [x] 10 Red Lobster : comment l'« Endless Shrimp » a coulé une chaîne de restaurants (Rise & Fall, Timeline)
 - [ ] Starbucks : ce que vous payez vraiment dans un latte à 7 $ (Business Model, Teardown)
 - [ ] Ticketmaster et Live Nation : pourquoi un billet de concert coûte si cher (Hidden Economics, Question)
 - [ ] L'essence : qui touche quoi sur un gallon à 3 $ (Supply Chain, Journey)
@@ -29,7 +29,7 @@ Piliers : The Business Model, The Supply Chain, Rise & Fall, The Hidden Economic
 
 - [x] 08 Le dîner de Thanksgiving à 58,63 $
 - [x] 09 Le popcorn au cinéma (AMC)
-- [ ] Black Friday : combien les Américains dépensent en un week-end (à publier fin novembre)
+- [x] 10 Black Friday : combien les Américains dépensent en un week-end (à publier fin novembre)
 - [ ] Le sapin de Noël : pourquoi il coûte de plus en plus cher (décembre)
 - [ ] Les cartes cadeaux jamais utilisées (décembre)
 - [ ] Le hot-dog Costco à 1,50 $ depuis 1985
