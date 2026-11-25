@@ -50,37 +50,38 @@ const Addition: React.FC<ThumbLobsterProps> = ({
   ],
 }) => (
   <AbsoluteFill style={{background: C.ink, overflow: 'hidden'}}>
-    {photo ? <Photo file={photo} position={photoPosition} style={{filter: 'saturate(0.65) brightness(0.38) blur(2px)'}} /> : null}
-    <AbsoluteFill style={{background: `linear-gradient(90deg, rgba(${AMB.inkRgb},0.96) 0%, rgba(${AMB.inkRgb},0.75) 48%, rgba(${AMB.inkRgb},0.25) 100%)`}} />
+    {photo ? <Photo file={photo} position={photoPosition} style={{filter: 'saturate(0.9) brightness(0.5) blur(3px)', transform: 'scale(1.05)'}} /> : null}
+    <AbsoluteFill style={{background: `linear-gradient(90deg, rgba(${AMB.inkRgb},0.97) 0%, rgba(${AMB.inkRgb},0.8) 44%, rgba(${AMB.inkRgb},0.2) 100%)`}} />
+    <div style={{position: 'absolute', right: 150, top: 130, width: 460, height: 460, borderRadius: '50%', background: 'radial-gradient(circle, rgba(240,181,78,0.28) 0%, transparent 65%)'}} />
     <div
       style={{
         position: 'absolute',
-        right: 80,
-        top: 110,
-        width: 520,
-        padding: '34px 40px 40px',
-        background: 'linear-gradient(175deg, #FFFDF7, #ECE4D4)',
-        boxShadow: '0 40px 90px rgba(0,0,0,0.75), 0 0 90px rgba(240,181,78,0.28)',
-        transform: 'rotate(-4deg)',
+        right: 70,
+        top: 118,
+        width: 580,
+        padding: '30px 44px 56px',
+        background: 'linear-gradient(175deg, #FFFDF7, #E9E0CF)',
+        boxShadow: '0 40px 90px rgba(0,0,0,0.75)',
+        transform: 'rotate(-3deg)',
         clipPath: 'polygon(0 0, 100% 0, 100% 96%, 95% 100%, 90% 96%, 85% 100%, 80% 96%, 75% 100%, 70% 96%, 65% 100%, 60% 96%, 55% 100%, 50% 96%, 45% 100%, 40% 96%, 35% 100%, 30% 96%, 25% 100%, 20% 96%, 15% 100%, 10% 96%, 5% 100%, 0 96%)',
       }}
     >
-      <div style={{fontFamily: FONT.mono, fontSize: 28, letterSpacing: 8, color: '#5B5146', textAlign: 'center'}}>THE CHECK</div>
-      <div style={{borderTop: '3px dashed #B9AE9C', margin: '18px 0 22px'}} />
+      <div style={{fontFamily: FONT.mono, fontSize: 30, letterSpacing: 10, color: '#5B5146', textAlign: 'center'}}>THE CHECK</div>
+      <div style={{borderTop: '3px dashed #B9AE9C', margin: '20px 0 30px'}} />
       {rows.map((r, i) => (
-        <div key={i} style={{position: 'relative', display: 'flex', justifyContent: 'space-between', alignItems: 'baseline', marginTop: i ? 26 : 0}}>
-          <div style={{fontFamily: FONT.mono, fontSize: r.mark ? 40 : 34, fontWeight: r.mark ? 600 : 400, color: r.mark ? '#1E1A15' : '#7A6F62'}}>{r.label}</div>
-          <div style={{fontFamily: FONT.mono, fontSize: r.mark ? 64 : 40, fontWeight: 600, color: r.mark ? '#B3151D' : '#7A6F62'}}>{r.value}</div>
+        <div key={i} style={{position: 'relative', marginTop: i ? 40 : 0, padding: r.mark ? '10px 0' : 0}}>
+          <div style={{fontFamily: FONT.mono, fontSize: r.mark ? 38 : 34, fontWeight: r.mark ? 600 : 400, color: r.mark ? '#1E1A15' : '#8A8074'}}>{r.label}</div>
+          <div style={{fontFamily: FONT.mono, fontSize: r.mark ? 112 : 54, fontWeight: 600, lineHeight: 1.05, letterSpacing: -3, color: r.mark ? '#B3151D' : '#8A8074'}}>{r.value}</div>
           {r.mark ? (
-            <svg width={560} height={150} style={{position: 'absolute', left: -30, top: -42, overflow: 'visible'}}>
-              <ellipse cx={280} cy={74} rx={272} ry={62} fill="none" stroke={RED} strokeWidth={7} transform="rotate(-2 280 74)" strokeLinecap="round" strokeDasharray="1500" strokeDashoffset="60" />
+            <svg width={560} height={230} style={{position: 'absolute', left: -30, top: 20, overflow: 'visible'}}>
+              <ellipse cx={250} cy={86} rx={250} ry={84} fill="none" stroke={RED} strokeWidth={8} transform="rotate(-4 270 104)" />
             </svg>
           ) : null}
         </div>
       ))}
     </div>
-    <div style={{position: 'absolute', left: 64, top: 180, width: 560}}>
-      <Words text={words} size={118} />
+    <div style={{position: 'absolute', left: 64, top: 190, width: 520}}>
+      <Words text={words} size={126} />
     </div>
     <Brand />
     <Vignette />
@@ -88,13 +89,17 @@ const Addition: React.FC<ThumbLobsterProps> = ({
 );
 
 // B : le logo qui sombre sous la ligne de flottaison.
-const Naufrage: React.FC<ThumbLobsterProps> = ({words = 'What *really* sank it?', number = '$1.5B', numberLabel = 'the buildings, sold in 2014', logo}) => (
+const Naufrage: React.FC<ThumbLobsterProps> = ({words = 'What *really* sank it?', number = '$1.5B', numberLabel = 'the buildings, sold in 2014', logo, photo, photoPosition = '50% 50%'}) => (
   <Night glow="70% 30%">
     <div style={{position: 'absolute', left: 620, right: 0, top: 330, bottom: 0, background: 'linear-gradient(180deg, rgba(40,150,160,0.32) 0%, rgba(2,20,26,0.92) 70%)'}} />
     <div style={{position: 'absolute', left: 620, right: 0, top: 326, height: 6, background: 'linear-gradient(90deg, transparent, rgba(190,245,240,0.85), transparent)', filter: 'blur(1px)'}} />
     {logo ? (
       <div style={{position: 'absolute', left: 700, top: 230, transform: 'rotate(-16deg)', opacity: 0.95}}>
         <WhiteLogo file={logo} height={250} width={480} />
+      </div>
+    ) : photo ? (
+      <div style={{position: 'absolute', left: 690, top: 170, width: 500, height: 330, transform: 'rotate(-14deg)', borderRadius: 14, overflow: 'hidden', boxShadow: '0 30px 80px rgba(0,0,0,0.7), 0 0 0 3px rgba(255,255,255,0.15)'}}>
+        <Photo file={photo} position={photoPosition} />
       </div>
     ) : null}
     <div style={{position: 'absolute', left: 620, right: 0, top: 330, bottom: 0, background: 'linear-gradient(180deg, rgba(20,110,120,0.35), rgba(1,10,14,0.7))', mixBlendMode: 'multiply'}} />

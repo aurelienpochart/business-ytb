@@ -1,10 +1,8 @@
 {
-  "variant": "addition",
-  "words": "It wasn't the *shrimp*",
-  "photo": "dining.jpg",
-  "photoPosition": "50% 50%",
-  "rows": [
-    {"label": "Endless shrimp", "value": "$11M"},
-    {"label": "Rent, 2023", "value": "$190M", "mark": true}
-  ]
+  "variant": "naufrage",
+  "words": "What *really* sank it?",
+  "number": "$1.5B",
+  "numberLabel": "its buildings, sold in 2014",
+  "photo": "rl_sign.jpg",
+  "photoPosition": "50% 40%"
 }

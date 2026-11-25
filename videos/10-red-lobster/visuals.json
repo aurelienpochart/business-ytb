@@ -3,11 +3,7 @@
   "at": "c0p0",
   "type": "hero",
   "props": {
-   "photo": "rl_front",
-   "logo": "rl_logo",
-   "logoWidth": 520,
-   "logoHeight": 150,
-   "logoColor": "white",
+   "photo": "rl_sign",
    "number": "$20",
    "label": "all the shrimp you can eat, every day",
    "kicker": "Red Lobster, summer 2023",
@@ -596,7 +592,6 @@
   "type": "photo",
   "props": {
    "photo": "bangkok",
-   "logo": "thai_union_logo",
    "kicker": "Thai Union, Thailand",
    "text": "A seafood *giant*.",
    "focus": "50% 50%"
@@ -661,7 +656,8 @@
    ],
    "start": 0.4,
    "stagger": 2.4
-  }
+  },
+  "bg": "shrimp_farm"
  },
  {
   "at": "c4p2",
@@ -1047,34 +1043,26 @@
  },
  {
   "at": "c7p0",
-  "type": "chrono",
+  "type": "photo",
   "props": {
-   "title": "The comeback",
-   "from": 2024.5,
-   "to": 2026.9,
-   "events": [
-    {
-     "year": 2024.65,
-     "date": "Aug. 2024",
-     "label": "New CEO",
-     "sub": "Damola Adamolekun, from P.F. Chang's",
-     "level": -1,
-     "at": 6
-    },
-    {
-     "year": 2024.71,
-     "date": "Sept. 2024",
-     "label": "Out of bankruptcy",
-     "sub": "owned by lenders led by Fortress",
-     "level": 1,
-     "at": 0.4,
-     "color": "amber",
-     "big": true
-    }
-   ],
-   "source": "Wikipedia; Fortune (June 26, 2026)"
+   "photo": "rl_door",
+   "logo": "fortress_logo",
+   "logoColor": "white",
+   "kicker": "September 2024",
+   "text": "Owned by *its lenders*.",
+   "focus": "50% 45%"
+  }
+ },
+ {
+  "at": "c7p0",
+  "type": "photo",
+  "props": {
+   "photo": "pfchangs",
+   "kicker": "The new boss",
+   "text": "From *P.F. Chang's*, born in 1989.",
+   "focus": "50% 50%"
   },
-  "bg": "rl_door"
+  "after": "The new chief executive"
  },
  {
   "at": "c7p1",
