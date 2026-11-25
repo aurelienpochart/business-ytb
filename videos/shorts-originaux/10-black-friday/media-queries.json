@@ -1,0 +1,14 @@
+{
+ "bf_crowd": "filetype:bitmap Black Friday shoppers store crowd",
+ "bf_sign": "filetype:bitmap Black Friday sale sign store",
+ "mall": "filetype:bitmap shopping mall interior United States",
+ "bags": "filetype:bitmap shopping bags",
+ "laptop_shop": "filetype:bitmap online shopping laptop",
+ "smartphone": "filetype:bitmap smartphone in hand",
+ "credit_card": "filetype:bitmap credit card payment terminal",
+ "boxes": "filetype:bitmap cardboard boxes packages doorstep",
+ "warehouse": "filetype:bitmap Amazon fulfillment center",
+ "checkout": "filetype:bitmap supermarket checkout line",
+ "best_buy": "filetype:bitmap Best Buy store",
+ "thanksgiving": "filetype:bitmap Thanksgiving dinner turkey"
+}
