@@ -1,38 +1,83 @@
 [
  {
   "id": "crowd",
-  "title": "File:Black Friday at the Apple Store on Fifth Avenue, New York City, 2011.jpg"
+  "title": "File:Black Friday at the Apple Store on Fifth Avenue, New York City, 2011.jpg",
+  "file": "media/crowd.jpg",
+  "license": "CC BY 2.0",
+  "artist": "JoeInQueens from Queens, USA",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Black_Friday_at_the_Apple_Store_on_Fifth_Avenue,_New_York_City,_2011.jpg"
  },
  {
   "id": "sign",
-  "title": "File:Black Friday Sale sign, Rotterdam-Centrum, Rotterdam (2020) 02.jpg"
+  "title": "File:Black Friday Sale sign, Rotterdam-Centrum, Rotterdam (2020) 02.jpg",
+  "file": "media/sign.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "Donald Trung Quoc Don (Chữ Hán: 徵國單) - Wikimedia Commons - © CC BY-SA 4.0 International.(Want to use this image?)Original publication 📤: --Donald Trung 『徵國單』 (No Fake News 💬) (WikiProject Numismatics ",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Black_Friday_Sale_sign,_Rotterdam-Centrum,_Rotterdam_(2020)_02.jpg"
  },
  {
   "id": "laptop",
-  "title": "File:Person using a credit card to make an online purchase on a laptop at home.jpg"
+  "title": "File:Person using a credit card to make an online purchase on a laptop at home.jpg",
+  "file": "media/laptop.jpg",
+  "license": "CC BY 2.0",
+  "artist": "Shixart1985",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Person_using_a_credit_card_to_make_an_online_purchase_on_a_laptop_at_home.jpg"
  },
  {
   "id": "phone",
-  "title": "File:Smartphone Use.jpg"
+  "title": "File:Smartphone Use.jpg",
+  "file": "media/phone.jpg",
+  "license": "CC0",
+  "artist": "Océanos y dados",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Smartphone_Use.jpg"
  },
  {
   "id": "terminal",
-  "title": "File:Payment terminal at self-checkout.jpg"
+  "title": "File:Payment terminal at self-checkout.jpg",
+  "file": "media/terminal.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "Anselm Schüler",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Payment_terminal_at_self-checkout.jpg"
  },
  {
   "id": "amazon",
-  "title": "File:Amazon Fulfillment Center MSP1 (48609899896).jpg"
+  "title": "File:Amazon Fulfillment Center MSP1 (48609899896).jpg",
+  "file": "media/amazon.jpg",
+  "license": "CC BY 2.0",
+  "artist": "Tony Webster from Minneapolis, Minnesota, United States",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Amazon_Fulfillment_Center_MSP1_(48609899896).jpg"
  },
  {
   "id": "parcel",
-  "title": "File:Damaged fragile parcel delivered to doorstep.jpg"
+  "title": "File:Damaged fragile parcel delivered to doorstep.jpg",
+  "file": "media/parcel.jpg",
+  "license": "CC BY 2.0",
+  "artist": "Meanwell Packaging",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Damaged_fragile_parcel_delivered_to_doorstep.jpg"
  },
  {
   "id": "checkout",
-  "title": "File:Check out line.jpg"
+  "title": "File:Check out line.jpg",
+  "file": "media/checkout.jpg",
+  "license": "CC0",
+  "artist": "Kurt Kaiser",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Check_out_line.jpg"
  },
  {
   "id": "mall",
-  "title": "File:The interior of Hamilton Place Mall in Chattanooga, Tennessee.jpg"
+  "title": "File:The interior of Hamilton Place Mall in Chattanooga, Tennessee.jpg",
+  "file": "media/mall.jpg",
+  "license": "CC BY 4.0",
+  "artist": "Harrison Keely",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:The_interior_of_Hamilton_Place_Mall_in_Chattanooga,_Tennessee.jpg"
  }
 ]
