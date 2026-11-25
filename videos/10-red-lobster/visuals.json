@@ -1078,7 +1078,7 @@
   "type": "statement",
   "props": {
    "kicker": "On endless shrimp",
-   "text": "\"Because I know how to *do math.*\"",
+   "text": "\"Because I know how to *do math.\"*",
    "icon": "Calculator",
    "source": "Fortune (Feb. 10, 2026)"
   },
@@ -1163,7 +1163,7 @@
   "type": "statement",
   "props": {
    "kicker": "May 2026 lawsuit, Florida",
-   "text": "\"Squeeze out *every drop of value.*\"",
+   "text": "\"Squeeze out *every drop of value.\"*",
    "icon": "Gavel",
    "source": "Fortune (June 26, 2026); claims not tested in court"
   },
