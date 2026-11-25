@@ -1,110 +1,245 @@
 [
  {
   "id": "rl_front",
-  "title": "File:A Red Lobster seafood restaurant in Chattanooga, Tennessee 09.jpg"
+  "title": "File:A Red Lobster seafood restaurant in Chattanooga, Tennessee 09.jpg",
+  "file": "media/rl_front.jpg",
+  "license": "CC BY 4.0",
+  "artist": "Harrison Keely",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:A_Red_Lobster_seafood_restaurant_in_Chattanooga,_Tennessee_09.jpg"
  },
  {
   "id": "rl_door",
-  "title": "File:Williamsport Red Lobster (12442110605).jpg"
+  "title": "File:Williamsport Red Lobster (12442110605).jpg",
+  "file": "media/rl_door.jpg",
+  "license": "CC BY 2.0",
+  "artist": "Random Retail",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Williamsport_Red_Lobster_(12442110605).jpg"
  },
  {
   "id": "rl_sign",
-  "title": "File:A Red Lobster sign in Chattanooga, Tennessee 03.jpg"
+  "title": "File:A Red Lobster sign in Chattanooga, Tennessee 03.jpg",
+  "file": "media/rl_sign.jpg",
+  "license": "CC BY 4.0",
+  "artist": "Harrison Keely",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:A_Red_Lobster_sign_in_Chattanooga,_Tennessee_03.jpg"
  },
  {
   "id": "rl_sign_old",
-  "title": "File:Red Lobster, Gaithersburg, Maryland, September 9, 2013.JPG"
+  "title": "File:Red Lobster, Gaithersburg, Maryland, September 9, 2013.JPG",
+  "file": "media/rl_sign_old.jpg",
+  "license": "CC BY-SA 3.0",
+  "artist": "Illegitimate Barrister",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Red_Lobster,_Gaithersburg,_Maryland,_September_9,_2013.JPG"
  },
  {
   "id": "tallahassee",
-  "title": "File:Red Lobster, Monroe St, Tallahassee.JPG"
+  "title": "File:Red Lobster, Monroe St, Tallahassee.JPG",
+  "file": "media/tallahassee.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "Michael Rivera",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Red_Lobster,_Monroe_St,_Tallahassee.JPG"
  },
  {
   "id": "closed",
-  "title": "File:Closed Red Lobster Olive Garden Thomas County, Georgia.JPG"
+  "title": "File:Closed Red Lobster Olive Garden Thomas County, Georgia.JPG",
+  "file": "media/closed.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "Michael Rivera",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Closed_Red_Lobster_Olive_Garden_Thomas_County,_Georgia.JPG"
  },
  {
   "id": "dining",
-  "title": "File:The interior dining room of a Red Lobster restaurant in Knoxville, Tennessee 04.jpg"
+  "title": "File:The interior dining room of a Red Lobster restaurant in Knoxville, Tennessee 04.jpg",
+  "file": "media/dining.jpg",
+  "license": "CC BY 4.0",
+  "artist": "Harrison Keely",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:The_interior_dining_room_of_a_Red_Lobster_restaurant_in_Knoxville,_Tennessee_04.jpg"
  },
  {
   "id": "booth",
-  "title": "File:The interior dining room of a Red Lobster restaurant in Knoxville, Tennessee 05.jpg"
+  "title": "File:The interior dining room of a Red Lobster restaurant in Knoxville, Tennessee 05.jpg",
+  "file": "media/booth.jpg",
+  "license": "CC BY 4.0",
+  "artist": "Harrison Keely",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:The_interior_dining_room_of_a_Red_Lobster_restaurant_in_Knoxville,_Tennessee_05.jpg"
  },
  {
   "id": "biscuits",
-  "title": "File:Cheddar Bay Biscuits basket at Red Lobster 02.jpg"
+  "title": "File:Cheddar Bay Biscuits basket at Red Lobster 02.jpg",
+  "file": "media/biscuits.jpg",
+  "license": "CC BY 4.0",
+  "artist": "Harrison Keely",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Cheddar_Bay_Biscuits_basket_at_Red_Lobster_02.jpg"
  },
  {
   "id": "lakeland",
-  "title": "File:Lake Mirror Lakeland Florida September 2024.jpg"
+  "title": "File:Lake Mirror Lakeland Florida September 2024.jpg",
+  "file": "media/lakeland.jpg",
+  "license": "CC BY 4.0",
+  "artist": "Trevorrrrvalent",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Lake_Mirror_Lakeland_Florida_September_2024.jpg"
  },
  {
   "id": "general_mills",
-  "title": "File:General Mills World Headquarters.jpg"
+  "title": "File:General Mills World Headquarters.jpg",
+  "file": "media/general_mills.jpg",
+  "license": "CC BY-SA 2.0",
+  "artist": "Chad Davis",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:General_Mills_World_Headquarters.jpg"
  },
  {
   "id": "seafood_platter",
-  "title": "File:Fried shrimp variations.jpg"
+  "title": "File:Fried shrimp variations.jpg",
+  "file": "media/seafood_platter.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "Rachmaninoff",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Fried_shrimp_variations.jpg"
  },
  {
   "id": "shrimp_fried",
-  "title": "File:Shrimp Scampi (6434894099).jpg"
+  "title": "File:Shrimp Scampi (6434894099).jpg",
+  "file": "media/shrimp_fried.jpg",
+  "license": "CC BY 2.0",
+  "artist": "Phil Whitehouse from London, United Kingdom",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Shrimp_Scampi_(6434894099).jpg"
  },
  {
   "id": "shrimp_pile",
-  "title": "File:DZ6 0481 A steaming tray piled high with freshly grilled prawns their shells charred to a golden-orange perfection.jpg"
+  "title": "File:DZ6 0481 A steaming tray piled high with freshly grilled prawns their shells charred to a golden-orange perfection.jpg",
+  "file": "media/shrimp_pile.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "PattayaPatrol",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:DZ6_0481_A_steaming_tray_piled_high_with_freshly_grilled_prawns_their_shells_charred_to_a_golden-orange_perfection.jpg"
  },
  {
   "id": "shrimp_raw",
-  "title": "File:DFC 0325 Fresh grilled prawns piled in a tray ready to be served.jpg"
+  "title": "File:DFC 0325 Fresh grilled prawns piled in a tray ready to be served.jpg",
+  "file": "media/shrimp_raw.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "PattayaPatrol",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:DFC_0325_Fresh_grilled_prawns_piled_in_a_tray_ready_to_be_served.jpg"
  },
  {
   "id": "shrimp_scampi",
-  "title": "File:Shrimp scampi food.jpg"
+  "title": "File:Shrimp scampi food.jpg",
+  "file": "media/shrimp_scampi.jpg",
+  "license": "Public domain",
+  "artist": "Jon Sullivan",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Shrimp_scampi_food.jpg"
  },
  {
   "id": "lobster_tank",
-  "title": "File:Live lobsters in the lobster tank, Red Lobster.jpg"
+  "title": "File:Live lobsters in the lobster tank, Red Lobster.jpg",
+  "file": "media/lobster_tank.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "Ser Amantio di Nicolao",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Live_lobsters_in_the_lobster_tank,_Red_Lobster.jpg"
  },
  {
   "id": "courthouse",
-  "title": "File:U.S. Post Office and Bankruptcy Court, Brooklyn.jpg"
+  "title": "File:U.S. Post Office and Bankruptcy Court, Brooklyn.jpg",
+  "file": "media/courthouse.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "Beyond My Ken",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:U.S._Post_Office_and_Bankruptcy_Court,_Brooklyn.jpg"
  },
  {
   "id": "wall_street",
-  "title": "File:New York City (New York, USA), Wall Street -- 2012 -- 6614.jpg"
+  "title": "File:New York City (New York, USA), Wall Street -- 2012 -- 6614.jpg",
+  "file": "media/wall_street.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "Dietmar Rabich",
+  "restrictions": "insignia",
+  "page": "https://commons.wikimedia.org/wiki/File:New_York_City_(New_York,_USA),_Wall_Street_--_2012_--_6614.jpg"
  },
  {
   "id": "for_lease",
-  "title": "File:OfficeForLeaseMarkhamCBRE.jpg"
+  "title": "File:OfficeForLeaseMarkhamCBRE.jpg",
+  "file": "media/for_lease.jpg",
+  "license": "CC0",
+  "artist": "Raysonho @ Open Grid Scheduler / Scalable Grid Engine",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:OfficeForLeaseMarkhamCBRE.jpg"
  },
  {
   "id": "for_lease_sign",
-  "title": "File:For Lease Sign - Campbell Commercial Real Estate.jpg"
+  "title": "File:For Lease Sign - Campbell Commercial Real Estate.jpg",
+  "file": "media/for_lease_sign.jpg",
+  "license": "CC BY 2.0",
+  "artist": "Rick Obst",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:For_Lease_Sign_-_Campbell_Commercial_Real_Estate.jpg"
  },
  {
   "id": "bangkok",
-  "title": "File:Bangkok skyline at sunset, Bangkok, Thailand.jpg"
+  "title": "File:Bangkok skyline at sunset, Bangkok, Thailand.jpg",
+  "file": "media/bangkok.jpg",
+  "license": "CC BY 4.0",
+  "artist": "Vyacheslav Argenberg",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Bangkok_skyline_at_sunset,_Bangkok,_Thailand.jpg"
  },
  {
   "id": "beyonce",
-  "title": "File:Beyonce Super Bowl 50 (b).jpg"
+  "title": "File:Beyonce Super Bowl 50 (b).jpg",
+  "file": "media/beyonce.jpg",
+  "license": "CC BY 2.0",
+  "artist": "Arnie Papp",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Beyonce_Super_Bowl_50_(b).jpg"
  },
  {
   "id": "darden_logo",
-  "title": "File:Darden Restaurants.svg"
+  "title": "File:Darden Restaurants.svg",
+  "file": "media/darden_logo.svg",
+  "license": "Public domain",
+  "artist": ".\n\nThe original uploader was Kalel2007 at English Wikipedia.",
+  "restrictions": "trademarked",
+  "page": "https://commons.wikimedia.org/wiki/File:Darden_Restaurants.svg"
  },
  {
   "id": "fortress_logo",
-  "title": "File:Fortress Investment Group logo.svg"
+  "title": "File:Fortress Investment Group logo.svg",
+  "file": "media/fortress_logo.svg",
+  "license": "Public domain",
+  "artist": "SoftBank Group",
+  "restrictions": "trademarked",
+  "page": "https://commons.wikimedia.org/wiki/File:Fortress_Investment_Group_logo.svg"
  },
  {
   "id": "shrimp_farm",
-  "title": "File:Honduran shrimp farm (33768419571).jpg"
+  "title": "File:Honduran shrimp farm (33768419571).jpg",
+  "file": "media/shrimp_farm.jpg",
+  "license": "CC BY-SA 2.0",
+  "artist": "Oregon State University",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Honduran_shrimp_farm_(33768419571).jpg"
  },
  {
   "id": "pfchangs",
-  "title": "File:P.F. Chang's, Gainesville.jpg"
+  "title": "File:P.F. Chang's, Gainesville.jpg",
+  "file": "media/pfchangs.jpg",
+  "license": "CC0",
+  "artist": "Mjrmtg",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:P.F._Chang%27s,_Gainesville.jpg"
  }
 ]
