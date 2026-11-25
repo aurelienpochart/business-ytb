@@ -1,0 +1,52 @@
+{
+  "title": "Endless Shrimp Didn't Sink Red Lobster",
+  "summary": "In 2023, Red Lobster made all-you-can-eat shrimp a permanent $20 deal, lost $11 million on it in one quarter, and filed for bankruptcy less than a year later. Everyone blamed the shrimp. But the bankruptcy filing tells a longer story: a 2014 sale in which the restaurants' buildings were sold and rented back, rent rising 2% a year, 30% fewer customers since 2019, and an owner that was also its shrimp supplier. We follow the timeline from Lakeland, Florida, in 1968 to the comeback attempt of 2026. Allegations come from the bankruptcy filing and a 2026 lawsuit; Thai Union has called them meritless. Main sources below.",
+  "chapter_titles": {
+    "0": "A $20 promise",
+    "1": "The fish house",
+    "2": "The sale",
+    "3": "The rent",
+    "4": "The supplier",
+    "5": "The shrimp",
+    "6": "The bankruptcy",
+    "7": "The comeback",
+    "8": "What really sank it"
+  },
+  "sources": [
+    "Red Lobster history: https://en.wikipedia.org/wiki/Red_Lobster",
+    "Darden sells Red Lobster to Golden Gate Capital (May 16, 2014): https://investor.darden.com/news/news-details/2014/Darden-Announces-Sale-of-Red-Lobster-to-Golden-Gate-Capital-for-2.1-Billion-2014-5-16/default.aspx",
+    "$1.5B sale-leaseback (Commercial Property Executive, 2014): https://www.commercialsearch.com/news/arcp-to-grab-red-lobster-re-in-1-5b-sale-leaseback/",
+    "Eileen Appelbaum, Fortune (June 30, 2014): https://fortune.com/2014/06/30/why-private-equity-investors-cant-save-red-lobster",
+    "Bankruptcy filing details (Fortune, May 21, 2024): https://fortune.com/2024/05/21/red-lobster-unlimited-shrimp-fiasco-bankruptcy/",
+    "Bankruptcy declaration (Nation's Restaurant News, May 22, 2024): https://www.nrn.com/casual-dining/it-wasn-t-just-ultimate-endless-shrimp-that-drove-red-lobster-to-bankruptcy",
+    "Bankruptcy (NPR, May 20, 2024): https://www.npr.org/2024/05/20/1252426585/red-lobster-bankruptcy",
+    "$11M shrimp loss (ABC News, 2024): https://abcnews.go.com/food/story/red-lobster-eyes-bankruptcy-option-after-11m-losses-109376206",
+    "New CEO and turnaround (Fortune, Feb. 10, 2026): https://fortune.com/2026/02/10/red-lobster-ceo-damola-adamolekun-inherited-damaged-brand-turnaround-plan-cut-costs-closures/",
+    "2026 lawsuit against Thai Union (Fortune, June 26, 2026): https://fortune.com/2026/06/26/red-lobster-endless-shrimp-thai-union-lawsuit-squeeze-profits-bankruptcy/",
+    "Closures since bankruptcy (Complex, Aug. 30, 2026): https://www.complex.com/life/a/bernadette-giacomazzo/red-lobster-shutting-160-locations"
+  ],
+  "credits": [
+    "Fonts: Inter, IBM Plex Mono and Instrument Serif (SIL Open Font License); icons: Lucide (ISC).",
+    "Charts and animations by The Cost Curve from the sources above. Allegations are those of Red Lobster's 2024 bankruptcy declaration and a 2026 lawsuit; Thai Union has disputed them."
+  ],
+  "subject_company": "Red Lobster",
+  "tags": [
+    "Red Lobster",
+    "Red Lobster bankruptcy",
+    "endless shrimp",
+    "what happened to Red Lobster",
+    "Ultimate Endless Shrimp",
+    "private equity",
+    "sale-leaseback",
+    "Thai Union",
+    "restaurant industry",
+    "casual dining",
+    "business explained",
+    "rise and fall",
+    "The Cost Curve"
+  ],
+  "category_id": "27",
+  "contains_synthetic_media": true,
+  "made_for_kids": false,
+  "tint": "redlobster"
+}

@@ -238,6 +238,29 @@ export const TINTS: Record<string, Palette> = {
       heroNumGlow: 'rgba(255,170,30,0.55)',
     },
   },
+  redlobster: {
+    // Red Lobster (vidéo 10) : nuit d'océan profond, bleu-vert presque noir, halos corail chaud comme une
+    // carapace cuite sous une lampe de salle ; l'or reste l'accent principal. Les chiffres « teal » passent à un
+    // aigue-marine pâle (#86E3DA), lisible sur le fond marin et distinct de l'or et du rouge brique (pertes).
+    C: {ink: '#01070A', navy: '#04161C', navyLight: '#0A252D', mute: '#97AEB3', slate: '#76929A', teal: '#86E3DA'},
+    GRAD: {
+      teal: ['#1B6E68', '#C0F4EE', 'rgba(134,227,218,0.40)'],
+      slate: ['#22383E', '#8FA8AE', 'rgba(143,168,174,0.25)'],
+    },
+    AMB: {
+      inkRgb: '1,7,10',
+      night: '#0B3640',
+      nightSoft: '#092C35',
+      orbCool: 'rgba(220,70,50,0.10)',
+      orbTeal: 'rgba(134,227,218,0.05)',
+      particle: '#e2f6f4',
+      photoGrade: 'rgba(10,60,70,0.24)',
+      photoFilter: '',
+      regradeFilter: 'saturate(0.6)',
+      heroNum: '#FF8A6B',
+      heroNumGlow: 'rgba(255,100,70,0.5)',
+    },
+  },
 };
 
 const DEFAULT = {C: {...C}, GRAD: {...GRAD}, AMB: {...AMB}};
