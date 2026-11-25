@@ -493,16 +493,16 @@
   "at": "c3p2",
   "type": "receipt",
   "props": {
-   "header": "RED LOBSTER, 2023",
-   "subheader": "lease obligations",
+   "header": "RED LOBSTER",
+   "subheader": "lease obligations, 2023",
    "lines": [
     {
-     "label": "Total lease obligations",
+     "label": "Leases, total",
      "value": "$190.5M",
      "strong": true
     },
     {
-     "label": "of which underperforming stores",
+     "label": "Weak stores",
      "value": "$64M+",
      "mark": true
     }
@@ -965,7 +965,7 @@
   "at": "c6p2",
   "type": "receipt",
   "props": {
-   "header": "RED LOBSTER, FISCAL 2023",
+   "header": "FISCAL 2023",
    "subheader": "what the filing found",
    "lines": [
     {
@@ -974,11 +974,11 @@
      "strong": true
     },
     {
-     "label": "Rent (lease obligations)",
+     "label": "Rent",
      "value": "$190.5M"
     },
     {
-     "label": "Customers since 2019",
+     "label": "Customers vs 2019",
      "value": "−30%"
     },
     {
@@ -986,7 +986,7 @@
      "label": ""
     },
     {
-     "label": "Endless shrimp, one quarter",
+     "label": "Shrimp, 1 quarter",
      "value": "−$11M",
      "mark": true
     }
