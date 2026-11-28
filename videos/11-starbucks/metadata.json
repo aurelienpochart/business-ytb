@@ -1,6 +1,6 @@
 {
   "title": "Where Your $9 Starbucks Order Really Goes",
-  "summary": "Starbucks' CEO admits a $9 order can feel like a splurge. In a grande latte, the coffee costs about 13 cents. So we took a $9 order apart with Starbucks' own fiscal 2026 numbers: about $4.08 to run the coffeehouse, $2.91 for products and shipping, $1.14 for headquarters and equipment, and roughly 60 cents of profit. Ingredient costs are our estimate; the split is a company-wide average.",
+  "summary": "Starbucks' CEO admits a $9 order can feel like a splurge, yet the coffee in a latte costs about 13 cents. With Starbucks' own fiscal 2026 numbers: $4.08 runs the coffeehouse, $2.91 goes to products and shipping, and about 60 cents is profit. Ingredient costs are our estimate; the split is a company-wide average.",
   "chapter_titles": {
     "0": "The $9 splurge",
     "1": "The order",
@@ -13,11 +13,10 @@
     "8": "What you're really paying for"
   },
   "sources": [
-    "Starbucks fiscal 2026 results (Oct. 29, 2026): https://investor.starbucks.com/news/financial-releases/news-details/2026/Starbucks-Reports-Q4-and-Full-Fiscal-Year-2026-Results/default.aspx",
-    "Starbucks Q3 fiscal 2026 results (China JV): https://www.businesswire.com/news/home/20260729476494/en/Starbucks-Reports-Q3-Fiscal-Year-2026-Results",
+    "Starbucks fiscal 2026 results: https://investor.starbucks.com/news/financial-releases/news-details/2026/Starbucks-Reports-Q4-and-Full-Fiscal-Year-2026-Results/default.aspx",
     "Starbucks 10-K, fiscal 2025: https://s203.q4cdn.com/326826266/files/doc_financials/2025/q4/SBUX-9-28-2025-10-K-FINAL.pdf",
-    "Niccol on the $9 experience (Fortune, May 2026): https://fortune.com/2026/05/04/starbucks-ceo-roasted-9dollar-coffee-premium-wall-street-earnings/",
-    "Niccol, 'a little touch of luxury' (Fortune, Apr. 2026): https://fortune.com/2026/04/29/starbucks-niccol-luxury-turnaround-earnings/",
+    "Niccol on $9 (Fortune): https://fortune.com/2026/05/04/starbucks-ceo-roasted-9dollar-coffee-premium-wall-street-earnings/",
+    "Niccol on luxury (Fortune): https://fortune.com/2026/04/29/starbucks-niccol-luxury-turnaround-earnings/",
     "Barista pay and bonuses (Fortune, Apr. 2026): https://fortune.com/2026/04/03/starbucks-offering-1200-bonus-tipping-weekly-payouts-boost-us-barista-pay/",
     "Remodels (Restaurant Dive, Apr. 2026): https://www.restaurantdive.com/news/starbucks-q2-earnings-comparable-sales-growth-turnaround/818776/",
     "Coffee prices (AP via Fortune, Feb. 2026): https://fortune.com/2026/02/14/coffee-price-surge-starbucks-mcdonalds-home-brewing-diet-coke-caffeine/",
