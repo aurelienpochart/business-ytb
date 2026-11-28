@@ -1,0 +1,13 @@
+{
+ "tree_lot": "filetype:bitmap Christmas tree lot",
+ "tree_farm": "filetype:bitmap Christmas tree farm rows",
+ "tree_farm_snow": "filetype:bitmap Christmas tree farm snow",
+ "seedlings": "filetype:bitmap Christmas tree seedlings nursery",
+ "fraser_fir": "filetype:bitmap Fraser fir",
+ "cut_tree": "filetype:bitmap cutting Christmas tree saw",
+ "tree_car": "filetype:bitmap Christmas tree on car roof",
+ "decorated": "filetype:bitmap decorated Christmas tree living room",
+ "artificial": "filetype:bitmap artificial Christmas tree store",
+ "netted": "filetype:bitmap netted Christmas trees bundled",
+ "price_tag": "filetype:bitmap Christmas tree price tag"
+}

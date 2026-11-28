@@ -238,6 +238,29 @@ export const TINTS: Record<string, Palette> = {
       heroNumGlow: 'rgba(255,170,30,0.55)',
     },
   },
+  starbucks: {
+    // Starbucks (vidéo 11) : nuit vert forêt presque noire, comme un café éclairé en fin de journée, halos crème
+    // chaude de mousse de lait ; l'or reste l'accent principal (le prix). Les chiffres « teal » passent à un vert
+    // menthe pâle (#8FE0B4), lisible sur le vert sombre et distinct de l'or et du rouge brique (bénéfice rogné).
+    C: {ink: '#010604', navy: '#04150E', navyLight: '#0A2419', mute: '#9FB3A8', slate: '#7A9486', teal: '#8FE0B4'},
+    GRAD: {
+      teal: ['#1E7048', '#C6F4DA', 'rgba(143,224,180,0.40)'],
+      slate: ['#23382E', '#93AA9D', 'rgba(147,170,157,0.25)'],
+    },
+    AMB: {
+      inkRgb: '1,6,4',
+      night: '#0B3A26',
+      nightSoft: '#0A2E1F',
+      orbCool: 'rgba(230,190,140,0.09)',
+      orbTeal: 'rgba(143,224,180,0.05)',
+      particle: '#f2ede0',
+      photoGrade: 'rgba(8,60,36,0.24)',
+      photoFilter: '',
+      regradeFilter: 'saturate(0.6)',
+      heroNum: '#FFC861',
+      heroNumGlow: 'rgba(255,180,60,0.55)',
+    },
+  },
   redlobster: {
     // Red Lobster (vidéo 10) : nuit d'océan profond, bleu-vert presque noir, halos corail chaud comme une
     // carapace cuite sous une lampe de salle ; l'or reste l'accent principal. Les chiffres « teal » passent à un

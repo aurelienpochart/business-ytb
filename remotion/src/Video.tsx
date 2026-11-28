@@ -14,6 +14,7 @@ import {Gap, Levers, Spread} from './components/teardown';
 import {Segment, VideoProps, Visual} from './types';
 import {Airframe, Gauge} from './components/aviation';
 import {Carton} from './components/carton';
+import {Cup} from './components/cup';
 import {C, applyTint} from './theme';
 
 export const END_SCREEN_SECONDS = 20;
@@ -54,6 +55,7 @@ export const BLOCKS: Record<string, React.FC<any>> = {
   airframe: Airframe, // avion de ligne en profil façon plan d'ingénieur (vidéo 08 Boeing)
   gauge: Gauge, // instrument de cockpit : cadence, plafond
   carton: Carton, // boîte de douze œufs, part du prix allumée (vidéo 09)
+  cup: Cup, // gobelet qui se remplit par couches, une couche par part du prix (vidéo 11)
 };
 
 export const renderVisual = (v: Visual) => {
