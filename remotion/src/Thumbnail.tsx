@@ -11,6 +11,7 @@ import {QuestionVariant, ThumbQuestionProps, ThumbnailVariantQuestion, isQuestio
 import {BoeingVariant, ThumbBoeingProps, ThumbnailVariantBoeing, isBoeingVariant} from './ThumbnailVariantsBoeing';
 import {EggsVariant, ThumbEggsProps, ThumbnailVariantEggs, isEggsVariant} from './ThumbnailVariantsEggs';
 import {LobsterVariant, ThumbnailVariantLobster, isLobsterVariant} from './ThumbnailVariantsLobster';
+import {StarbucksVariant, ThumbnailVariantStarbucks, isStarbucksVariant} from './ThumbnailVariantsStarbucks';
 import {TeardownVariant, ThumbTeardownProps, ThumbnailVariantTeardown, isTeardownVariant} from './ThumbnailVariantsTeardown';
 
 // Miniature 1280 x 720 (charte 2.5) : 3 à 5 mots, un mot en or, un chiffre fort, la courbe du logo en coin.
@@ -19,7 +20,7 @@ export type ThumbProps = {
   number?: string;
   numberLabel?: string;
   bars?: {value: number; color: string; label: string}[];
-  variant?: ThumbVariantProps['variant'] | PlusVariant | MoreVariant | TimelineVariant | JourneyVariant | QuestionVariant | TeardownVariant | BoeingVariant | EggsVariant | LobsterVariant; // miniature choisie parmi les variantes (prioritaire)
+  variant?: ThumbVariantProps['variant'] | PlusVariant | MoreVariant | TimelineVariant | JourneyVariant | QuestionVariant | TeardownVariant | BoeingVariant | EggsVariant | LobsterVariant | StarbucksVariant; // miniature choisie parmi les variantes (prioritaire)
   ring?: number; // variante « anneau » : part remplie de l'anneau (0 à 1)
   tint?: string; // teinte d'ambiance de la vidéo (metadata.json)
 } & Omit<Partial<ThumbVariantProps>, 'variant' | 'number' | 'numberLabel'> &
@@ -50,6 +51,7 @@ export const Thumbnail: React.FC<ThumbProps> = ({words, number, numberLabel, bar
   // Compositions « démontage » (lecteur, piece, rideau, cadenas) : tout vient de thumbnail.json.
   // Compositions « aviation » (plan, cadran, panneau, silhouettes) : vidéo 08 Boeing.
   // Compositions « œufs » (oeuf-or, boite, etiquette, fissure) : vidéo 09.
+  if (isStarbucksVariant(variant)) return <ThumbnailVariantStarbucks variant={variant} words={words || undefined} number={number} numberLabel={numberLabel} {...(custom as any)} />;
   if (isLobsterVariant(variant)) return <ThumbnailVariantLobster variant={variant} words={words || undefined} number={number} numberLabel={numberLabel} {...(custom as any)} />;
   if (isEggsVariant(variant)) return <ThumbnailVariantEggs variant={variant} words={words || undefined} number={number} numberLabel={numberLabel} {...(custom as any)} />;
   if (isBoeingVariant(variant)) return <ThumbnailVariantBoeing variant={variant} words={words || undefined} number={number} numberLabel={numberLabel} {...(custom as any)} />;
