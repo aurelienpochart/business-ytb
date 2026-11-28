@@ -192,6 +192,12 @@
       "folder": "videos/10-red-lobster/shorts/1",
       "video_id": "zqVKg8ns0h8",
       "publish_at": "2026-11-29T17:00:00Z"
+    },
+    {
+      "kind": "short",
+      "folder": "videos/shorts-originaux/11-christmas-tree",
+      "video_id": "GCdW0YU9Q8A",
+      "publish_at": "2026-11-30T17:00:00Z"
     }
   ]
 }
