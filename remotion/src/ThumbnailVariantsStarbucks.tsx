@@ -32,7 +32,7 @@ const Num: React.FC<{text: string; size: number; style?: React.CSSProperties}> =
 
 // A : le gobelet presque vide, l'or au fond.
 const Gobelet: React.FC<ThumbStarbucksProps> = ({words = 'Where your *$9* goes', number = '13¢', numberLabel = 'THE COFFEE'}) => {
-  const L = 760;
+  const L = 650;
   const T = 330;
   const B = 236;
   const H = 470;
@@ -98,9 +98,9 @@ const Ticket: React.FC<ThumbStarbucksProps> = ({
     <div
       style={{
         position: 'absolute',
-        right: 70,
-        top: 92,
-        width: 560,
+        right: 64,
+        top: 80,
+        width: 580,
         padding: '28px 44px 56px',
         background: 'linear-gradient(175deg, #FFFDF7, #E9E0CF)',
         boxShadow: '0 40px 90px rgba(0,0,0,0.75)',
@@ -112,8 +112,8 @@ const Ticket: React.FC<ThumbStarbucksProps> = ({
       <div style={{borderTop: '3px dashed #B9AE9C', margin: '18px 0 22px'}} />
       {rows.map((r, i) => (
         <div key={i} style={{position: 'relative', display: 'flex', justifyContent: 'space-between', alignItems: 'baseline', marginTop: i ? 26 : 0, padding: r.mark ? '12px 0' : 0}}>
-          <div style={{fontFamily: FONT.mono, fontSize: r.mark ? 40 : 32, fontWeight: r.mark ? 600 : 400, color: r.mark ? '#1E1A15' : '#8A8074'}}>{r.label}</div>
-          <div style={{fontFamily: FONT.mono, fontSize: r.mark ? 84 : 40, fontWeight: 600, letterSpacing: -2, color: r.mark ? '#B3151D' : '#8A8074'}}>{r.value}</div>
+          <div style={{fontFamily: FONT.mono, fontSize: r.mark ? 38 : 32, fontWeight: r.mark ? 600 : 400, color: r.mark ? '#1E1A15' : '#8A8074', whiteSpace: 'nowrap'}}>{r.label}</div>
+          <div style={{fontFamily: FONT.mono, fontSize: r.mark ? 80 : 40, fontWeight: 600, letterSpacing: -2, color: r.mark ? '#B3151D' : '#8A8074'}}>{r.value}</div>
           {r.mark ? (
             <svg width={540} height={170} style={{position: 'absolute', left: -24, top: -18, overflow: 'visible'}}>
               <ellipse cx={250} cy={78} rx={262} ry={72} fill="none" stroke={RED} strokeWidth={8} transform="rotate(-3 250 78)" />
@@ -122,8 +122,8 @@ const Ticket: React.FC<ThumbStarbucksProps> = ({
         </div>
       ))}
     </div>
-    <div style={{position: 'absolute', left: 64, top: 180, width: 560}}>
-      <Words text={words} size={128} />
+    <div style={{position: 'absolute', left: 56, top: 190, width: 540}}>
+      <Words text={words} size={120} />
     </div>
     <Brand />
     <Vignette />

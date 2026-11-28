@@ -156,18 +156,18 @@
    "title": "Prices are still climbing",
    "bars": [
     {
-     "label": "Starbucks U.S. ticket, Q4 FY26",
+     "label": "Starbucks ticket",
      "value": 5.2,
      "display": "+5.2%",
      "color": "amber",
-     "note": "in one year"
+     "note": "Q4 FY26, in a year"
     },
     {
-     "label": "U.S. coffee prices, 5 years",
+     "label": "U.S. coffee",
      "value": 47,
      "display": "+47%",
      "color": "brick",
-     "note": "to Jan. 2026"
+     "note": "5 years to Jan. 2026"
     }
    ],
    "delays": [
@@ -1079,7 +1079,7 @@
      "value": "$2.91"
     },
     {
-     "label": "Head office, equipment, restructuring",
+     "label": "HQ & equipment",
      "value": "$1.14"
     },
     {

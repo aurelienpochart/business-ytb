@@ -61,19 +61,21 @@ export const Cup: React.FC<{
     return b;
   });
 
-  // Légendes : centrées sur leur couche, écartées pour ne pas se chevaucher.
+  // Légendes : centrées sur leur couche, puis écartées (de haut en bas) pour ne pas se chevaucher, en restant
+  // entre le haut et le bas du gobelet.
   const LH = P ? 92 : 96;
   const ys = bands.map((b) => cupTop + b.y0 + b.h / 2);
-  const order = [...ys.keys()].sort((a, b) => ys[b] - ys[a]); // du bas vers le haut
+  const order = [...ys.keys()].sort((a, b) => ys[a] - ys[b]); // du haut vers le bas
   const placed: number[] = [...ys];
-  for (let k = 1; k < order.length; k++) {
-    const prev = placed[order[k - 1]];
-    if (prev - placed[order[k]] < LH) placed[order[k]] = prev - LH;
+  const lo = cupTop + LH / 2 + (empty ? LH * 0.7 : 0);
+  const hi = cupTop + H - LH / 2 + 10;
+  for (let k = 0; k < order.length; k++) {
+    const min = k === 0 ? lo : placed[order[k - 1]] + LH;
+    placed[order[k]] = Math.max(placed[order[k]], min);
   }
-  const minY = Math.min(...placed);
-  if (minY < cupTop + 10) {
-    const shift = cupTop + 10 - minY;
-    for (let i = 0; i < placed.length; i++) placed[i] += shift;
+  for (let k = order.length - 1; k >= 0; k--) {
+    const max = k === order.length - 1 ? hi : placed[order[k + 1]] - LH;
+    placed[order[k]] = Math.min(placed[order[k]], max);
   }
 
   const legendX = W + (P ? 40 : 70);
@@ -87,7 +89,7 @@ export const Cup: React.FC<{
         </div>
       ) : null}
       <div style={{position: 'absolute', inset: 0, display: 'flex', alignItems: 'center', justifyContent: 'center'}}>
-        <div style={{position: 'relative', width: W + (P ? 560 : 820), height: cupTop + H + 30, opacity: unit(pIn), transform: `scale(${0.95 + 0.05 * unit(pIn)})`}}>
+        <div style={{position: 'relative', width: W + (P ? 560 : 820), height: cupTop + H + 30, marginLeft: P ? 0 : 300, opacity: unit(pIn), transform: `scale(${0.95 + 0.05 * unit(pIn)})`}}>
           {/* Halo sous le gobelet */}
           <div style={{position: 'absolute', left: cx - TOP * 0.7, top: cupTop + H - 30, width: TOP * 1.4, height: 80, borderRadius: '50%', background: 'radial-gradient(ellipse, rgba(240,181,78,0.22), transparent 70%)', filter: 'blur(6px)'}} />
           <svg width={W} height={cupTop + H + 10} style={{position: 'absolute', left: 0, top: 0, overflow: 'visible'}}>
@@ -178,11 +180,11 @@ export const Cup: React.FC<{
               );
             })}
           </svg>
-          {/* Total au-dessus du couvercle */}
+          {/* Total : à gauche du gobelet, à hauteur du couvercle */}
           {total ? (
-            <div style={{position: 'absolute', left: 0, width: W, top: -LID - (P ? 50 : 60), textAlign: 'center', ...fade(totalP)}}>
-              <div style={{fontFamily: FONT.mono, fontWeight: 600, fontSize: P ? 64 : 72, letterSpacing: -2, color: '#FFD98A', textShadow: '0 0 40px rgba(240,181,78,0.55)', lineHeight: 1}}>{total.display}</div>
-              {total.label ? <div style={{fontFamily: FONT.mono, fontSize: P ? 20 : 22, letterSpacing: 4, color: C.mute, marginTop: 8}}>{total.label.toUpperCase()}</div> : null}
+            <div style={{position: 'absolute', ...(P ? {left: 0, width: W, top: -LID - 70, textAlign: 'center' as const} : {right: '100%', marginRight: 36, top: cupTop - 34, textAlign: 'right' as const}), ...fade(totalP)}}>
+              <div style={{fontFamily: FONT.mono, fontWeight: 600, fontSize: P ? 60 : 72, letterSpacing: -2, color: '#FFD98A', textShadow: '0 0 40px rgba(240,181,78,0.55)', lineHeight: 1, whiteSpace: 'nowrap'}}>{total.display}</div>
+              {total.label ? <div style={{fontFamily: FONT.mono, fontSize: P ? 20 : 22, letterSpacing: 4, color: C.mute, marginTop: 10, whiteSpace: 'nowrap'}}>{total.label.toUpperCase()}</div> : null}
             </div>
           ) : null}
           {/* Légendes */}
