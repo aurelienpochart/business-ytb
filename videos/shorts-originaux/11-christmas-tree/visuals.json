@@ -1,0 +1,135 @@
+[
+ {
+  "at": "p0",
+  "type": "shot",
+  "props": {
+   "photo": "lot",
+   "dim": 0.66,
+   "kicker": "Christmas tree lot",
+   "text": "Why does your tree cost *more*?"
+  }
+ },
+ {
+  "at": "p0",
+  "after": "In 2015",
+  "type": "shot",
+  "props": {
+   "photo": "decorated",
+   "dim": 0.74,
+   "icon": "TreePine",
+   "color": "teal",
+   "kicker": "Average real tree, 2015",
+   "number": "$64",
+   "numberDelay": {
+    "$t": "sixty-four dollars",
+    "offset": -0.1
+   },
+   "label": "in the U.S.",
+   "source": "Square and National Christmas Tree Association"
+  }
+ },
+ {
+  "at": "p1",
+  "type": "shot",
+  "props": {
+   "photo": "sign",
+   "dim": 0.74,
+   "focus": "50% 40%",
+   "icon": "TrendingUp",
+   "color": "gold",
+   "kicker": "Average real tree, 2025",
+   "number": "$83.87",
+   "numberDelay": {
+    "$t": "eighty-four dollars",
+    "offset": -0.1
+   },
+   "label": "up 31% since 2015",
+   "source": "Finder analysis of NCTA data, via The Independent (Nov. 2026)"
+  }
+ },
+ {
+  "at": "p2",
+  "type": "shot",
+  "props": {
+   "photo": "snow_firs",
+   "dim": 0.72,
+   "icon": "Clock",
+   "color": "teal",
+   "kicker": "Time to grow",
+   "number": "8–10 yrs",
+   "numberDelay": {
+    "$t": "eight to ten years",
+    "offset": -0.1
+   },
+   "label": "to reach selling height",
+   "source": "Real Christmas Tree Board survey via Austin County News (Nov. 21, 2026)"
+  }
+ },
+ {
+  "at": "p2",
+  "after": "So this year's price",
+  "type": "shot",
+  "props": {
+   "photo": "rows",
+   "dim": 0.7,
+   "kicker": "This year's tree",
+   "text": "Planted a *decade* ago."
+  }
+ },
+ {
+  "at": "p3",
+  "type": "shot",
+  "props": {
+   "photo": "farm",
+   "dim": 0.72,
+   "kicker": "2008 recession",
+   "text": "Fewer trees *planted*.",
+   "source": "NCTA data via Statista"
+  }
+ },
+ {
+  "at": "p3",
+  "after": "Ten years later",
+  "type": "shot",
+  "props": {
+   "photo": "lot_night",
+   "dim": 0.7,
+   "kicker": "A decade later",
+   "text": "A *shortage* on the lots."
+  }
+ },
+ {
+  "at": "p4",
+  "type": "shot",
+  "props": {
+   "photo": "snow_farm",
+   "dim": 0.72,
+   "icon": "PiggyBank",
+   "color": "gold",
+   "kicker": "Wholesale growers, 2026",
+   "number": "91%",
+   "numberDelay": {
+    "$t": "ninety-one percent",
+    "offset": -0.1
+   },
+   "label": "say no price increase this year",
+   "source": "Real Christmas Tree Board survey via Austin County News (Nov. 21, 2026)"
+  }
+ },
+ {
+  "at": "p5",
+  "type": "shot",
+  "props": {
+   "photo": "car",
+   "dim": 0.68,
+   "kicker": "Your tree",
+   "text": "Priced *years* before you bought it."
+  }
+ },
+ {
+  "at": "p5",
+  "after": "More on the channel",
+  "type": "endcard",
+  "props": {}
+ }
+]
