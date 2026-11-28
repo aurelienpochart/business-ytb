@@ -1,0 +1,139 @@
+[
+ {
+  "at": "p0",
+  "type": "shot",
+  "props": {
+   "photo": "latte",
+   "dim": 0.72,
+   "icon": "Coffee",
+   "color": "gold",
+   "kicker": "Coffee in a grande latte",
+   "number": "13¢",
+   "numberDelay": {
+    "$t": "thirteen cents",
+    "offset": -0.1
+   },
+   "label": "our estimate, Nov. 2026 prices",
+   "source": "Our estimate from arabica futures (Trading Economics)"
+  }
+ },
+ {
+  "at": "p0",
+  "after": "So where does",
+  "type": "shot",
+  "props": {
+   "photo": "sb_night",
+   "dim": 0.68,
+   "kicker": "The average order",
+   "text": "Where does *$9* go?"
+  }
+ },
+ {
+  "at": "p1",
+  "type": "shot",
+  "props": {
+   "photo": "barista2",
+   "dim": 0.74,
+   "icon": "Store",
+   "color": "gold",
+   "kicker": "Running the coffeehouse",
+   "number": "$4.08",
+   "numberDelay": {
+    "$t": "four dollars",
+    "offset": -0.1
+   },
+   "label": "the people and the rent",
+   "source": "Starbucks fiscal 2026 results (Oct. 29, 2026); our calculation"
+  }
+ },
+ {
+  "at": "p2",
+  "type": "shot",
+  "props": {
+   "photo": "pastry",
+   "dim": 0.74,
+   "icon": "Truck",
+   "color": "teal",
+   "kicker": "Product & distribution",
+   "number": "$2.91",
+   "numberDelay": {
+    "$t": "three dollars",
+    "offset": -0.1
+   },
+   "label": "food, cups, coffee, trucks",
+   "source": "Starbucks fiscal 2026 results (Oct. 29, 2026); our calculation"
+  }
+ },
+ {
+  "at": "p3",
+  "type": "shot",
+  "props": {
+   "photo": "sb_hq",
+   "dim": 0.74,
+   "icon": "Building2",
+   "color": "slate",
+   "kicker": "Head office & equipment",
+   "number": "$1.14",
+   "numberDelay": {
+    "$t": "a dollar",
+    "offset": -0.1
+   },
+   "label": "incl. restructuring",
+   "source": "Starbucks fiscal 2026 results (Oct. 29, 2026); our calculation"
+  }
+ },
+ {
+  "at": "p3",
+  "after": "About",
+  "type": "shot",
+  "props": {
+   "photo": "sb_reserve",
+   "dim": 0.74,
+   "icon": "Landmark",
+   "color": "brick",
+   "kicker": "Interest & taxes, net",
+   "number": "27¢",
+   "numberDelay": {
+    "$t": "twenty seven cents",
+    "offset": -0.1
+   },
+   "label": "after a one-time China gain",
+   "source": "Starbucks fiscal 2026 results (Oct. 29, 2026); our calculation"
+  }
+ },
+ {
+  "at": "p4",
+  "type": "shot",
+  "props": {
+   "photo": "sb_cup2",
+   "dim": 0.72,
+   "icon": "PiggyBank",
+   "color": "gold",
+   "kicker": "Profit",
+   "number": "60¢",
+   "numberDelay": {
+    "$t": "sixty cents",
+    "offset": -0.1
+   },
+   "label": "on a $9 order, company-wide average",
+   "source": "Starbucks fiscal 2026 results (Oct. 29, 2026); our calculation"
+  }
+ },
+ {
+  "at": "p4",
+  "after": "You're not really",
+  "type": "shot",
+  "props": {
+   "photo": "seating",
+   "dim": 0.68,
+   "kicker": "What you're buying",
+   "text": "You're renting the *room*."
+  }
+ },
+ {
+  "at": "p4",
+  "after": "Full story",
+  "type": "endcard",
+  "props": {}
+ }
+]
