@@ -7,6 +7,9 @@ import json
 import sys
 from pathlib import Path
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+import next_video  # noqa: E402
+
 
 def stamp(t):
     t = int(t)
@@ -54,8 +57,14 @@ def main():
         starts.setdefault(seg["chapter"], seg["start"])
     starts[0] = 0  # YouTube exige que le premier chapitre commence à 00:00
     chapters = [f"{stamp(starts[c])} {meta['chapter_titles'][str(c)]}" for c in sorted(starts)]
+    # Fin de vidéo sans YouTube Studio : la vidéo montrée dans l'écran de fin est liée ici (lien cliquable).
+    nxt = next_video.load(video)
+    watch = f"Watch next: {nxt['title']} {nxt['url']}" if nxt else None
+    subscribe = f"Subscribe: {next_video.SUBSCRIBE_URL}"
+    follow = "\n".join(x for x in (watch, subscribe) if x)
     parts = [
         meta["summary"],
+        follow,
         "Chapters\n" + "\n".join(chapters),
         "Sources\n" + "\n".join(f"- {s}" for s in meta["sources"]),
         "\n".join(meta["credits"]),
@@ -65,9 +74,13 @@ def main():
         + (" and AI-generated music (Google Lyria)." if (video / "build" / "music.json").exists() else "."),
     ]
     text = "\n\n".join(p for p in parts if p) + "\n"
+    if len(text.encode()) > 5000:  # le lien « Subscribe » est le premier sacrifié (bouton déjà sous la vidéo)
+        parts[1] = watch
+        text = "\n\n".join(p for p in parts if p) + "\n"
     size = len(text.encode())
     if size > 5000:
-        sys.exit(f"Description trop longue pour YouTube : {size} octets (max 5000)")
+        sys.exit(f"Description trop longue pour YouTube : {size} octets (max 5000), lien « Watch next » compris : "
+                 "raccourcir summary ou sources dans metadata.json")
     (video / "build" / "description.txt").write_text(text)
     print(text)
 

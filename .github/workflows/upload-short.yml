@@ -1,7 +1,7 @@
 name: Envoyer un Short sur YouTube (privé, programmé)
 
-# Envoi en PRIVÉ programmé (publishAt, pipeline/schedule.py) ; le lien « vidéo associée » se règle dans
-# YouTube Studio (absent de l'API).
+# Envoi en PRIVÉ programmé (publishAt, pipeline/schedule.py) ; le lien « vidéo associée » est absent de l'API :
+# la carte finale du Short renvoie à la vidéo complète dans l'image, rien n'est réglé dans Studio.
 on:
   workflow_dispatch:
     inputs:

@@ -27,9 +27,11 @@ export const RemotionRoot: React.FC = () => (
         const visuals = await load<Visual[]>('visuals.json');
         const media = await load<VideoProps['media']>('media.json').catch(() => []);
         const meta = await load<{tint?: string; tint_regrade?: string[]}>('metadata.json').catch(() => ({tint: undefined, tint_regrade: undefined}));
+        // Vidéo à voir ensuite (écran de fin) ; {} ou absent = aucune.
+        const next = await load<VideoProps['next'] | Record<string, never>>('next.json').catch(() => null);
         return {
           durationInFrames: Math.ceil((timeline.duration + END_SCREEN_SECONDS) * FPS),
-          props: {...props, timeline, visuals, media, tint: meta.tint, tintRegrade: meta.tint_regrade},
+          props: {...props, timeline, visuals, media, tint: meta.tint, tintRegrade: meta.tint_regrade, next: next && 'title' in next ? (next as NonNullable<VideoProps['next']>) : null},
         };
       }}
     />

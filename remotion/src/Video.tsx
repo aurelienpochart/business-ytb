@@ -17,7 +17,8 @@ import {Carton} from './components/carton';
 import {Cup} from './components/cup';
 import {C, applyTint} from './theme';
 
-export const END_SCREEN_SECONDS = 20;
+// Écran de fin autonome (rien à régler dans YouTube Studio). Garder en phase avec produce-video.yml (+12 s).
+export const END_SCREEN_SECONDS = 12;
 const IDENT_SECONDS = 3;
 const OVERLAP = 14; // images de fondu enchaîné entre deux plans
 const CARD_LEAD = 0.9; // la carte de chapitre commence pendant la pause qui précède le chapitre
@@ -73,7 +74,7 @@ const timeOf = (v: Visual, seg: Segment) => {
   return seg.start + (seg.end - seg.start) * (i / seg.text.length);
 };
 
-export const Video: React.FC<VideoProps> = ({timeline, visuals, audio, media = [], tint, tintRegrade}) => {
+export const Video: React.FC<VideoProps> = ({timeline, visuals, audio, media = [], tint, tintRegrade, next}) => {
   applyTint(tint, tintRegrade);
   const mediaById = Object.fromEntries(media.map((m) => [m.id, m]));
   const {fps, durationInFrames} = useVideoConfig();
@@ -152,8 +153,9 @@ export const Video: React.FC<VideoProps> = ({timeline, visuals, audio, media = [
       ) : null}
       <Sequence from={narrationEnd} durationInFrames={durationInFrames - narrationEnd} name="fin">
         <SceneShell duration={durationInFrames - narrationEnd} overlap={1}>
-          <EndScreen />
+          <EndScreen next={next} duration={durationInFrames - narrationEnd} />
         </SceneShell>
+        <Audio src={staticFile('sfx/whoosh-deep.wav')} volume={0.35} />
       </Sequence>
       <FilmFinish />
       <Audio src={staticFile(audio)} />

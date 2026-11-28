@@ -47,10 +47,13 @@ jobs:
           python3 pipeline/narration.py "$VIDEO"
           python3 pipeline/synthesize.py "$VIDEO"
 
+      - name: Vidéo à voir ensuite (écran de fin et description)
+        run: python3 pipeline/next_video.py "$VIDEO"
+
       - id: frames
         name: Nombre d'images
         run: |
-          python3 -c "import json,math;t=json.load(open('$VIDEO/build/timeline.json'));print('frames=%d'%math.ceil((t['duration']+20)*30))" >> "$GITHUB_OUTPUT"
+          python3 -c "import json,math;t=json.load(open('$VIDEO/build/timeline.json'));print('frames=%d'%math.ceil((t['duration']+12)*30))" >> "$GITHUB_OUTPUT"  # + écran de fin : END_SCREEN_SECONDS (remotion/src/Video.tsx)
           cat "$GITHUB_OUTPUT"
 
       - name: Préparer Remotion
@@ -71,6 +74,7 @@ jobs:
             ${{ inputs.video }}/build/timeline.json
             ${{ inputs.video }}/build/captions.srt
             ${{ inputs.video }}/build/narration.wav
+            ${{ inputs.video }}/build/next.json
             remotion/out/thumbnail.png
           retention-days: 3
 
@@ -148,7 +152,7 @@ jobs:
           mkdir -p "$VIDEO/build"
           ffmpeg -loglevel error -y -i out/video.mp4 -vf scale=1280:-2 -c:v libx264 -crf 28 -preset slow -c:a aac -b:a 128k "$VIDEO/build/preview.mp4"
           cp out/thumbnail.png "$VIDEO/build/thumbnail.png"
-          cp dl/prepare/$VIDEO/build/timeline.json dl/prepare/$VIDEO/build/captions.srt "$VIDEO/build/"
+          cp dl/prepare/$VIDEO/build/timeline.json dl/prepare/$VIDEO/build/captions.srt dl/prepare/$VIDEO/build/next.json "$VIDEO/build/"
 
       - uses: actions/upload-artifact@v4
         with:

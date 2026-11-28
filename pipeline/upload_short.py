@@ -8,7 +8,8 @@ extrait, sauf si le metadata.json du Short la précise (obligatoire pour un Shor
 Short original (videos/shorts-originaux/<n-sujet>, champ "related") : lien vers la vidéo longue la plus
 proche ou vers la chaîne (voir pipeline/short.py).
 Non automatisable : le lien « vidéo associée » (related video) d'un Short n'existe pas dans l'API YouTube
-Data v3 (aucune propriété de la ressource videos) ; il se règle dans YouTube Studio. Date de sortie :
+Data v3 (aucune propriété de la ressource videos) ; on ne le règle plus (aurelien ne passe plus par Studio) :
+la carte finale du Short renvoie à la vidéo complète dans l'image. Date de sortie :
 pipeline/schedule.py (extrait : J+2 de sa vidéo longue ; original : prochain jour libre), PUBLISH_AT pour forcer.
 """
 
@@ -62,7 +63,8 @@ def main():
     (short / "build" / "youtube.json").write_text(json.dumps(
         {"video_id": video_id, "url": f"https://youtu.be/{video_id}", "privacy": "private",
          "publish_at": schedule.rfc3339(when) if when else None, "related_video": long_url if video else None, "related_video_set": False}, indent=2) + "\n")
-    print(f"À faire dans YouTube Studio : vidéo associée -> {long_url}" if video else "Short original : pas de vidéo associée (lien vers la chaîne)")
+    # Pas de vidéo associée possible par l'API : la carte finale du Short renvoie déjà à la vidéo dans l'image.
+    print(f"Vidéo longue liée (carte finale et description) : {long_url}" if video else "Short original : carte finale vers la chaîne")
 
 
 if __name__ == "__main__":

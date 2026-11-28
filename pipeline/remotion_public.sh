@@ -9,4 +9,7 @@ if [ -f "$V/media.json" ]; then
   mkdir -p public/media
   find "$V/media" -maxdepth 1 -type f -exec cp {} public/media/ \;
 fi
+# Vidéo à voir ensuite (écran de fin) : next.json et sa miniature next-thumb.png.
+rm -f public/next.json public/next-thumb.png
+python3 ../pipeline/next_video.py "$V" public
 ls public public/media 2>/dev/null | head -50

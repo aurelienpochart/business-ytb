@@ -1,5 +1,5 @@
 import React from 'react';
-import {AbsoluteFill, Easing, interpolate, random, spring, useCurrentFrame, useVideoConfig} from 'remotion';
+import {AbsoluteFill, Easing, Img, interpolate, random, spring, staticFile, useCurrentFrame, useVideoConfig} from 'remotion';
 import {C, FONT} from '../theme';
 import {Frame, fade, glass, useEnter, useLayout} from './common';
 import {GoldText, LightSweep, RevealWords, gold} from './fx';
@@ -125,42 +125,157 @@ export const Hud: React.FC<{chapters: {num: number; title: string; start: number
   );
 };
 
-// Écran de fin, 20 s : emplacements laissés libres pour les éléments de fin YouTube.
-// suggested : zone pour une vidéo suggérée (toutes les vidéos sauf la 01, rendue sans) ; sinon écran centré sur l'abonnement.
-export const EndScreen: React.FC<{suggested?: boolean}> = ({suggested = true}) => {
+// Vidéo à voir ensuite (pipeline/next_video.py -> public/next.json, miniature public/next-thumb.png).
+export type NextVideo = {title: string; url: string; thumbnail?: string | null};
+
+// Bouton « Subscribe » dessiné dans l'image (l'API YouTube ne pose pas d'éléments d'écran de fin).
+const SubscribePill: React.FC<{delay: number; size?: number}> = ({delay, size = 1}) => {
   const frame = useCurrentFrame();
   const {fps} = useVideoConfig();
-  const p = useEnter(0.2);
-  const p2 = useEnter(0.6);
-  const float = `translateY(${Math.sin(frame / fps) * 10}px)`;
-  if (!suggested) {
+  const p = spring({frame: frame - delay * fps, fps, config: {damping: 14, stiffness: 120}});
+  const pulse = 0.5 + 0.5 * Math.sin((frame / fps - delay) * 2.4);
+  return (
+    <div
+      style={{
+        display: 'inline-flex',
+        alignItems: 'center',
+        gap: 18 * size,
+        padding: `${22 * size}px ${46 * size}px`,
+        borderRadius: 999,
+        background: 'linear-gradient(180deg, #FFE7B0 0%, #F0B54E 55%, #C98A2C 100%)',
+        boxShadow: `0 0 ${40 + 30 * pulse}px rgba(240,181,78,${0.35 + 0.25 * pulse}), inset 0 2px 0 rgba(255,255,255,0.6), 0 18px 40px rgba(0,0,0,0.45)`,
+        fontFamily: FONT.title,
+        fontWeight: 800,
+        fontSize: 40 * size,
+        letterSpacing: 4 * size,
+        color: C.ink,
+        opacity: Math.min(1, Math.max(0, p)),
+        transform: `scale(${0.7 + 0.3 * p})`,
+      }}
+    >
+      <svg width={34 * size} height={34 * size} viewBox="0 0 24 24">
+        <path d="M12 2a6 6 0 0 0-6 6v3.6L4.3 15a1 1 0 0 0 .9 1.5h13.6a1 1 0 0 0 .9-1.5L18 11.6V8a6 6 0 0 0-6-6Zm0 21a3 3 0 0 0 2.8-2H9.2a3 3 0 0 0 2.8 2Z" fill={C.ink} />
+      </svg>
+      SUBSCRIBE
+    </div>
+  );
+};
+
+// Écran de fin autonome (END_SCREEN_SECONDS), sans rien à régler dans YouTube Studio :
+// à gauche la vidéo à voir ensuite (vraie miniature, titre, « lien dans la description ») ;
+// à droite le logo et l'appel à l'abonnement. Sans autre vidéo (chaîne neuve) : version centrée.
+export const EndScreen: React.FC<{next?: NextVideo | null; duration: number}> = ({next, duration}) => {
+  const frame = useCurrentFrame();
+  const {fps} = useVideoConfig();
+  const p = useEnter(0.15);
+  const pCard = useEnter(0.45, 22);
+  const pTitle = useEnter(0.9);
+  const pRight = useEnter(1.3);
+  const pHint = useEnter(2.1);
+  const out = interpolate(frame, [duration - 0.8 * fps, duration], [0, 1], clamp);
+  const float = `translateY(${Math.sin(frame / fps * 1.1) * 8}px)`;
+  const draw = interpolate(frame, [1.2 * fps, 2.4 * fps], [0, 1], {...clamp, easing: Easing.inOut(Easing.cubic)});
+  const shell: React.CSSProperties = {opacity: 1 - out, filter: out > 0.02 ? `blur(${out * 10}px)` : undefined};
+  if (!next) {
     return (
-      <AbsoluteFill>
-        <div style={{position: 'absolute', left: 0, right: 0, top: 170, textAlign: 'center', ...fade(p)}}>
+      <AbsoluteFill style={shell}>
+        <div style={{position: 'absolute', left: 0, right: 0, top: 150, textAlign: 'center', ...fade(p)}}>
           <div style={{fontFamily: FONT.display, fontSize: 120, color: C.paper, lineHeight: 1}}>
             Thanks for <GoldText>watching.</GoldText>
           </div>
           <div style={{fontFamily: FONT.title, fontWeight: 300, fontSize: 38, color: C.paper, opacity: 0.8, marginTop: 28}}>Sources are listed in the description.</div>
         </div>
-        {/* Zone de l'élément « S'abonner », réglé dans YouTube. */}
-        <div style={{position: 'absolute', left: 960 - 170, top: 520, opacity: p2, transform: float}}>
-          <LogoCurve size={340} progress={1} />
+        <div style={{position: 'absolute', left: 960 - 150, top: 430, opacity: pRight, transform: float}}>
+          <LogoCurve size={300} progress={draw} />
+        </div>
+        <div style={{position: 'absolute', left: 0, right: 0, top: 800, textAlign: 'center'}}>
+          <SubscribePill delay={1.6} />
         </div>
       </AbsoluteFill>
     );
   }
+  const W = 940;
+  const H = W * 9 / 16;
+  const push = interpolate(frame, [0, duration], [1.02, 1.09]);
+  const sweep = interpolate(frame, [1.1 * fps, 2.3 * fps], [-0.4, 1.4], clamp);
+  const play = spring({frame: frame - 1.0 * fps, fps, config: {damping: 12, stiffness: 140}});
   return (
-    <AbsoluteFill>
-      <div style={{position: 'absolute', left: 140, top: 130, ...fade(p)}}>
-        <div style={{fontFamily: FONT.display, fontSize: 110, color: C.paper, lineHeight: 1}}>
-          Thanks for <GoldText>watching.</GoldText>
+    <AbsoluteFill style={shell}>
+      {/* Halo doré derrière la miniature */}
+      <div style={{position: 'absolute', left: 60, top: 220, width: W + 160, height: H + 160, background: 'radial-gradient(ellipse at 50% 50%, rgba(240,181,78,0.20) 0%, transparent 65%)', opacity: pCard}} />
+      <div style={{position: 'absolute', left: 140, top: 96, ...fade(p)}}>
+        <div style={{fontFamily: FONT.mono, fontSize: 26, letterSpacing: 8, color: C.gold}}>THANKS FOR WATCHING</div>
+        <div style={{fontFamily: FONT.display, fontSize: 96, color: C.paper, lineHeight: 1.05, marginTop: 10}}>
+          Watch this <GoldText>next.</GoldText>
         </div>
-        <div style={{fontFamily: FONT.title, fontWeight: 300, fontSize: 38, color: C.paper, opacity: 0.8, marginTop: 24}}>Sources are listed in the description.</div>
       </div>
-      {/* Zones des éléments de fin (vidéo suggérée à gauche, abonnement à droite), réglées dans YouTube. */}
-      <div style={{position: 'absolute', left: 140, top: 430, width: 860, height: 484, ...glass('rgba(240,181,78,0.35)'), opacity: 0.8 * p2}} />
-      <div style={{position: 'absolute', left: 1240, top: 470, opacity: p2, transform: float}}>
-        <LogoCurve size={400} progress={1} />
+      <div
+        style={{
+          position: 'absolute',
+          left: 140,
+          top: 300,
+          width: W,
+          height: H,
+          overflow: 'hidden',
+          ...glass('rgba(240,181,78,0.55)'),
+          opacity: Math.min(1, Math.max(0, pCard)),
+          transform: `perspective(1600px) translateY(${(1 - pCard) * 60}px) rotateY(${(1 - pCard) * 8}deg)`,
+        }}
+      >
+        {next.thumbnail ? (
+          <Img src={staticFile(next.thumbnail)} style={{width: '100%', height: '100%', objectFit: 'cover', transform: `scale(${push})`}} />
+        ) : (
+          <AbsoluteFill style={{background: `radial-gradient(ellipse at 40% 40%, ${C.navyLight} 0%, ${C.ink} 75%)`, alignItems: 'center', justifyContent: 'center'}}>
+            <LogoCurve size={260} progress={1} />
+          </AbsoluteFill>
+        )}
+        <div style={{position: 'absolute', inset: 0, background: `linear-gradient(105deg, transparent ${sweep * 100 - 18}%, rgba(255,240,205,0.28) ${sweep * 100}%, transparent ${sweep * 100 + 18}%)`}} />
+        <div style={{position: 'absolute', inset: 0, background: 'linear-gradient(180deg, transparent 60%, rgba(3,6,12,0.55) 100%)'}} />
+        {/* Pastille « lecture », en bas à gauche pour ne pas masquer la miniature */}
+        <div
+          style={{
+            position: 'absolute',
+            left: 30,
+            bottom: 30,
+            width: 104,
+            height: 104,
+            borderRadius: 52,
+            background: 'rgba(3,6,12,0.55)',
+            border: '3px solid rgba(255,231,176,0.9)',
+            boxShadow: '0 0 40px rgba(240,181,78,0.55)',
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'center',
+            opacity: Math.min(1, Math.max(0, play)),
+            transform: `scale(${0.5 + 0.5 * play})`,
+          }}
+        >
+          <svg width={44} height={44} viewBox="0 0 24 24" style={{marginLeft: 7}}>
+            <path d="M5 3.5v17a1 1 0 0 0 1.5.86l14-8.5a1 1 0 0 0 0-1.72l-14-8.5A1 1 0 0 0 5 3.5Z" fill={C.goldLight} />
+          </svg>
+        </div>
+      </div>
+      <div style={{position: 'absolute', left: 140, top: 300 + H + 34, width: W, ...fade(pTitle)}}>
+        <div style={{fontFamily: FONT.title, fontWeight: 800, fontSize: 40, lineHeight: 1.15, color: C.paper, textWrap: "balance"} as React.CSSProperties}>{next.title}</div>
+        <div style={{fontFamily: FONT.mono, fontSize: 24, letterSpacing: 5, color: C.gold, marginTop: 16, ...fade(pHint)}}>LINK IN THE DESCRIPTION ↓</div>
+      </div>
+      {/* Colonne de droite : abonnement */}
+      <div style={{position: 'absolute', left: 1220, top: 300, width: 560, display: 'flex', flexDirection: 'column', alignItems: 'center', textAlign: 'center'}}>
+        <div style={{opacity: pRight, transform: float}}>
+          <LogoCurve size={250} progress={draw} />
+        </div>
+        <div style={{fontFamily: FONT.title, fontWeight: 800, fontSize: 30, letterSpacing: 7, color: C.paper, marginTop: 6, ...fade(pRight)}}>
+          THE COST <GoldText>CURVE</GoldText>
+        </div>
+        <div style={{marginTop: 44}}>
+          <SubscribePill delay={1.8} size={0.95} />
+        </div>
+        <div style={{fontFamily: FONT.title, fontWeight: 300, fontSize: 32, lineHeight: 1.35, color: "rgba(244,241,234,0.85)", marginTop: 40, ...fade(pHint)}}>
+          New breakdowns every
+          <br />
+          <span style={{fontWeight: 600, color: C.goldLight}}>Tuesday and Friday.</span>
+        </div>
+        <div style={{fontFamily: FONT.title, fontWeight: 300, fontSize: 26, color: C.mute, marginTop: 26, ...fade(pHint)}}>Sources are listed in the description.</div>
       </div>
     </AbsoluteFill>
   );

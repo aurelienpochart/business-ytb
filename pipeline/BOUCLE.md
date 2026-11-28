@@ -28,7 +28,16 @@ Une vidéo déjà envoyée reste programmée : pour l'empêcher de sortir, la re
 3. Choisir le sujet dans `config/sujets.md` (règles en tête du fichier), vérifier qu'il n'a pas déjà été traité (`videos/`), et le rayer.
 4. Produire la vidéo longue de bout en bout avec le skill `produire-video-youtube` (recherche sourcée et datée, script, métadonnées, médias, visuels, miniature en plusieurs variantes, rendu 1440p, contrôle de l'aperçu, musique, envoi en privé avec `publish_at` = `auto`), puis son Short extrait (`videos/<v>/shorts/1`), puis **un** Short original (`videos/shorts-originaux/<n>`, sujet du quotidien, `publish_at` = `auto`). Deux lancements par semaine donnent 2 Shorts originaux par semaine.
 5. Commiter les IDs YouTube (les workflows le font) et cocher le sujet dans `config/sujets.md`.
-6. Compte rendu final court : titre, date de sortie programmée (heure de Paris), liens YouTube, miniature retenue, ce qui reste à faire dans Studio (écran de fin « Importer depuis une vidéo », vidéo associée du Short).
+6. Compte rendu final court : titre, date de sortie programmée (heure de Paris), liens YouTube, miniature retenue. Plus rien à faire dans YouTube Studio (voir « Fin des vidéos »).
+
+## Fin des vidéos (depuis le 28/11/2026)
+
+aurelien ne touche plus à YouTube Studio avant la sortie : la fin est entièrement dans le rendu et la description.
+- L'API YouTube Data v3 ne permet ni les éléments d'écran de fin ni la « vidéo associée » d'un Short : ne pas les mentionner comme tâche à faire.
+- Vidéo longue : écran de fin intégré de 12 s (`EndScreen`, remotion/src/components/special.tsx) avec la vraie miniature et le titre de la vidéo à voir ensuite, et l'appel à l'abonnement. La même vidéo est liée en tête de description (« Watch next: … », puis « Subscribe: … »).
+- Vidéo à voir ensuite : `pipeline/next_video.py`. Par défaut la dernière vidéo longue envoyée ; mettre `"next_video": "videos/<dossier>"` dans metadata.json pour choisir une vidéo plus proche (même pilier, même thème). Le choix est figé dans build/next.json au rendu.
+- Description : garder environ 150 octets de marge sous 5 000 (le lien « Watch next » est obligatoire ; « Subscribe » saute si la place manque).
+- Shorts : la carte finale « Full video on the channel » + titre de la vidéo longue (ou « More on the channel ») est déjà dans l'image ; rien à régler.
 
 ## Budget
 
