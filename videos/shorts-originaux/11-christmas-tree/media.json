@@ -1,46 +1,101 @@
 [
  {
   "id": "lot",
-  "title": "File:Christmas tree lot at Lowes.jpg"
+  "title": "File:Christmas tree lot at Lowes.jpg",
+  "file": "media/lot.jpg",
+  "license": "CC BY-SA 3.0",
+  "artist": "Ser Amantio di Nicolao",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Christmas_tree_lot_at_Lowes.jpg"
  },
  {
   "id": "lot_night",
-  "title": "File:Follen Church Christmas Tree Lot in 2017, East Lexington MA.jpg"
+  "title": "File:Follen Church Christmas Tree Lot in 2017, East Lexington MA.jpg",
+  "file": "media/lot_night.jpg",
+  "license": "CC BY 4.0",
+  "artist": "John Phelan",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Follen_Church_Christmas_Tree_Lot_in_2017,_East_Lexington_MA.jpg"
  },
  {
   "id": "farm",
-  "title": "File:Tannenbäume als künftige Weihnachtsbäume in Tauberbischofsheim 7.jpg"
+  "title": "File:Tannenbäume als künftige Weihnachtsbäume in Tauberbischofsheim 7.jpg",
+  "file": "media/farm.jpg",
+  "license": "CC0",
+  "artist": "Triplec85",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Tannenb%C3%A4ume_als_k%C3%BCnftige_Weihnachtsb%C3%A4ume_in_Tauberbischofsheim_7.jpg"
  },
  {
   "id": "snow_firs",
-  "title": "File:Snow on fir trees.jpg"
+  "title": "File:Snow on fir trees.jpg",
+  "file": "media/snow_firs.jpg",
+  "license": "CC BY-SA 3.0",
+  "artist": "christmasstockimages.com",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Snow_on_fir_trees.jpg"
  },
  {
   "id": "rows",
-  "title": "File:Christmas Tree Nursery - geograph.org.uk - 1719460.jpg"
+  "title": "File:Christmas Tree Nursery - geograph.org.uk - 1719460.jpg",
+  "file": "media/rows.jpg",
+  "license": "CC BY-SA 2.0",
+  "artist": "Anne Burgess",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Christmas_Tree_Nursery_-_geograph.org.uk_-_1719460.jpg"
  },
  {
   "id": "car",
-  "title": "File:Defense.gov photo essay 111210-A-3108M-018.jpg"
+  "title": "File:Defense.gov photo essay 111210-A-3108M-018.jpg",
+  "file": "media/car.jpg",
+  "license": "Public domain",
+  "artist": "Sgt. Michael J. MacLeod",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Defense.gov_photo_essay_111210-A-3108M-018.jpg"
  },
  {
   "id": "decorated",
-  "title": "File:Man on ladder decorating Christmas tree in living room.jpg"
+  "title": "File:Man on ladder decorating Christmas tree in living room.jpg",
+  "file": "media/decorated.jpg",
+  "license": "CC BY 2.0",
+  "artist": "Steam Pipe Trunk Distribution Venue",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Man_on_ladder_decorating_Christmas_tree_in_living_room.jpg"
  },
  {
   "id": "sign",
-  "title": "File:Hunter's Tree Farm - Doug fir prices.jpg"
+  "title": "File:Hunter's Tree Farm - Doug fir prices.jpg",
+  "file": "media/sign.jpg",
+  "license": "CC BY-SA 3.0",
+  "artist": "Joe Mabel",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Hunter%27s_Tree_Farm_-_Doug_fir_prices.jpg"
  },
  {
   "id": "fir",
-  "title": "File:Abies fraseri cone.jpg"
+  "title": "File:Abies fraseri cone.jpg",
+  "file": "media/fir.jpg",
+  "license": "CC BY-SA 3.0",
+  "artist": "",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Abies_fraseri_cone.jpg"
  },
  {
   "id": "artificial",
-  "title": "File:Christmas tree sxc hu.jpg"
+  "title": "File:Christmas tree sxc hu.jpg",
+  "file": "media/artificial.jpg",
+  "license": "CC BY-SA 3.0",
+  "artist": "Lotus Head from Johannesburg, Gauteng, South Africa",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Christmas_tree_sxc_hu.jpg"
  },
  {
   "id": "snow_farm",
-  "title": "File:Christmas Tree Lane 2.jpg"
+  "title": "File:Christmas Tree Lane 2.jpg",
+  "file": "media/snow_farm.jpg",
+  "license": "CC BY-SA 3.0",
+  "artist": "Jimlaneozark",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Christmas_Tree_Lane_2.jpg"
  }
 ]

@@ -1,118 +1,263 @@
 [
  {
   "id": "sb_pike",
-  "title": "File:Starbucks Seattle PikePlace 1912.jpg"
+  "title": "File:Starbucks Seattle PikePlace 1912.jpg",
+  "file": "media/sb_pike.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "SilentDeath",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Starbucks_Seattle_PikePlace_1912.jpg"
  },
  {
   "id": "sb_airport",
-  "title": "File:Starbucks Coffee Taipei International Airport Store 20151107.jpg"
+  "title": "File:Starbucks Coffee Taipei International Airport Store 20151107.jpg",
+  "file": "media/sb_airport.jpg",
+  "license": "CC BY-SA 3.0",
+  "artist": "玄史生",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Starbucks_Coffee_Taipei_International_Airport_Store_20151107.jpg"
  },
  {
   "id": "sb_airport2",
-  "title": "File:Starbucks Bangalore Airport.jpg"
+  "title": "File:Starbucks Bangalore Airport.jpg",
+  "file": "media/sb_airport2.jpg",
+  "license": "CC0",
+  "artist": "Yourusernamewillbepublic2",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Starbucks_Bangalore_Airport.jpg"
  },
  {
   "id": "sh_roastery",
-  "title": "File:Starbucks Reserve Roastery Shanghai 01.jpg"
+  "title": "File:Starbucks Reserve Roastery Shanghai 01.jpg",
+  "file": "media/sh_roastery.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "Codas",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Starbucks_Reserve_Roastery_Shanghai_01.jpg"
  },
  {
   "id": "sh_crowd",
-  "title": "File:Starbucks in Raffles City Shanghai.jpg"
+  "title": "File:Starbucks in Raffles City Shanghai.jpg",
+  "file": "media/sh_crowd.jpg",
+  "license": "CC BY-SA 3.0",
+  "artist": "Daniel Case",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Starbucks_in_Raffles_City_Shanghai.jpg"
  },
  {
   "id": "sb_reserve",
-  "title": "File:Starbucks Reserve Roastery interior 03.jpg"
+  "title": "File:Starbucks Reserve Roastery interior 03.jpg",
+  "file": "media/sb_reserve.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "Joe Mabel",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Starbucks_Reserve_Roastery_interior_03.jpg"
  },
  {
   "id": "sb_hq",
-  "title": "File:Starbucks Soto Headquarters.jpg"
+  "title": "File:Starbucks Soto Headquarters.jpg",
+  "file": "media/sb_hq.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "Mannivu",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Starbucks_Soto_Headquarters.jpg"
  },
  {
   "id": "sb_cup",
-  "title": "File:Mmmm, Starbucks (cropped).jpg"
+  "title": "File:Mmmm, Starbucks (cropped).jpg",
+  "file": "media/sb_cup.jpg",
+  "license": "CC BY 2.0",
+  "artist": "m01229 from USA",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Mmmm,_Starbucks_(cropped).jpg"
  },
  {
   "id": "sb_cup2",
-  "title": "File:(Starbucks) RED (3084105544).jpg"
+  "title": "File:(Starbucks) RED (3084105544).jpg",
+  "file": "media/sb_cup2.jpg",
+  "license": "CC BY-SA 2.0",
+  "artist": "Mack Male from Edmonton, AB, Canada",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:(Starbucks)_RED_(3084105544).jpg"
  },
  {
   "id": "beans",
-  "title": "File:Roasted Coffee Beans Texture.jpg"
+  "title": "File:Roasted Coffee Beans Texture.jpg",
+  "file": "media/beans.jpg",
+  "license": "CC BY-SA 3.0",
+  "artist": "freestock.ca",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Roasted_Coffee_Beans_Texture.jpg"
  },
  {
   "id": "beans_dark",
-  "title": "File:Roasted coffee beans on the surface. 01.jpg"
+  "title": "File:Roasted coffee beans on the surface. 01.jpg",
+  "file": "media/beans_dark.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "A S M Jobaer",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Roasted_coffee_beans_on_the_surface._01.jpg"
  },
  {
   "id": "green",
-  "title": "File:Green Coffee Beans (4075921494).jpg"
+  "title": "File:Green Coffee Beans (4075921494).jpg",
+  "file": "media/green.jpg",
+  "license": "CC BY-SA 2.0",
+  "artist": "Michael Allen Smith@INeedCoffee from Seattle, USA",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Green_Coffee_Beans_(4075921494).jpg"
  },
  {
   "id": "cherries",
-  "title": "File:Coffee Beans (21679786518).jpg"
+  "title": "File:Coffee Beans (21679786518).jpg",
+  "file": "media/cherries.jpg",
+  "license": "CC BY 2.0",
+  "artist": "David Stanley from Nanaimo, Canada",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Coffee_Beans_(21679786518).jpg"
  },
  {
   "id": "espresso",
-  "title": "File:Pulling a triple espresso shot with a naked portafilter.jpg"
+  "title": "File:Pulling a triple espresso shot with a naked portafilter.jpg",
+  "file": "media/espresso.jpg",
+  "license": "CC BY-SA 2.0",
+  "artist": "massage-techniques",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Pulling_a_triple_espresso_shot_with_a_naked_portafilter.jpg"
  },
  {
   "id": "latte",
-  "title": "File:Cup of coffee with latte art 2016.jpg"
+  "title": "File:Cup of coffee with latte art 2016.jpg",
+  "file": "media/latte.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "Abdulrohmatt",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Cup_of_coffee_with_latte_art_2016.jpg"
  },
  {
   "id": "latte2",
-  "title": "File:Aromas Latte art, Noosa Heads, Queensland.jpg"
+  "title": "File:Aromas Latte art, Noosa Heads, Queensland.jpg",
+  "file": "media/latte2.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "Kgbo",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Aromas_Latte_art,_Noosa_Heads,_Queensland.jpg"
  },
  {
   "id": "milk_pour",
-  "title": "File:Barista pours steamed milk into a red pitcher during coffee preparation in a cafe.jpg"
+  "title": "File:Barista pours steamed milk into a red pitcher during coffee preparation in a cafe.jpg",
+  "file": "media/milk_pour.jpg",
+  "license": "CC BY 2.0",
+  "artist": "Shixart1985",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Barista_pours_steamed_milk_into_a_red_pitcher_during_coffee_preparation_in_a_cafe.jpg"
  },
  {
   "id": "truck",
-  "title": "File:StrongPak Navistar Utilimaster delivery truck.JPG"
+  "title": "File:StrongPak Navistar Utilimaster delivery truck.JPG",
+  "file": "media/truck.jpg",
+  "license": "CC BY-SA 3.0",
+  "artist": "MobiusDaXter",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:StrongPak_Navistar_Utilimaster_delivery_truck.JPG"
  },
  {
   "id": "cafe_night",
-  "title": "File:Busy people at a coffee shop (Unsplash).jpg"
+  "title": "File:Busy people at a coffee shop (Unsplash).jpg",
+  "file": "media/cafe_night.jpg",
+  "license": "CC0",
+  "artist": "Tim Gouw punttim",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Busy_people_at_a_coffee_shop_(Unsplash).jpg"
  },
  {
   "id": "rush",
-  "title": "File:Coffee preparation in a modern cafe with steaming equipment and skilled barista at work during the morning rush hour.jpg"
+  "title": "File:Coffee preparation in a modern cafe with steaming equipment and skilled barista at work during the morning rush hour.jpg",
+  "file": "media/rush.jpg",
+  "license": "CC BY 2.0",
+  "artist": "Shixart1985",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Coffee_preparation_in_a_modern_cafe_with_steaming_equipment_and_skilled_barista_at_work_during_the_morning_rush_hour.jpg"
  },
  {
   "id": "mall",
-  "title": "File:The interior of Hamilton Place Mall in Chattanooga, Tennessee.jpg"
+  "title": "File:The interior of Hamilton Place Mall in Chattanooga, Tennessee.jpg",
+  "file": "media/mall.jpg",
+  "license": "CC BY 4.0",
+  "artist": "Harrison Keely",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:The_interior_of_Hamilton_Place_Mall_in_Chattanooga,_Tennessee.jpg"
  },
  {
   "id": "seating",
-  "title": "File:Fort McMurray Airport - Starbucks Seating.jpg"
+  "title": "File:Fort McMurray Airport - Starbucks Seating.jpg",
+  "file": "media/seating.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "JGRComm",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Fort_McMurray_Airport_-_Starbucks_Seating.jpg"
  },
  {
   "id": "sb_drive",
-  "title": "File:Starbucks 4 16 2014 (13884161946).jpg"
+  "title": "File:Starbucks 4 16 2014 (13884161946).jpg",
+  "file": "media/sb_drive.jpg",
+  "license": "CC BY 2.0",
+  "artist": "Mike Mozart from Funny YouTube, USA",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Starbucks_4_16_2014_(13884161946).jpg"
  },
  {
   "id": "barista",
-  "title": "File:Baristas first starbucks.jpg"
+  "title": "File:Baristas first starbucks.jpg",
+  "file": "media/barista.jpg",
+  "license": "Public domain",
+  "artist": "Copy Editor (talk) at en.wikipedia",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Baristas_first_starbucks.jpg"
  },
  {
   "id": "barista2",
-  "title": "File:Sally Bagshaw - Barista for a Day (35000827234).jpg"
+  "title": "File:Sally Bagshaw - Barista for a Day (35000827234).jpg",
+  "file": "media/barista2.jpg",
+  "license": "CC BY 2.0",
+  "artist": "Seattle City Council from Seattle",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Sally_Bagshaw_-_Barista_for_a_Day_(35000827234).jpg"
  },
  {
   "id": "sb_night",
-  "title": "File:Starbucks ~ Palo Alto California.jpg"
+  "title": "File:Starbucks ~ Palo Alto California.jpg",
+  "file": "media/sb_night.jpg",
+  "license": "CC BY 2.0",
+  "artist": "VasenkaPhotography",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Starbucks_~_Palo_Alto_California.jpg"
  },
  {
   "id": "sb_front",
-  "title": "File:Starbucks Suminodo Albi.jpg"
+  "title": "File:Starbucks Suminodo Albi.jpg",
+  "file": "media/sb_front.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "Mr.ちゅらさん",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Starbucks_Suminodo_Albi.jpg"
  },
  {
   "id": "pastry",
-  "title": "File:Dominion Cafe and Bar East Hotel Brickell, Miami FL Nov 2023 - Pastry case.jpg"
+  "title": "File:Dominion Cafe and Bar East Hotel Brickell, Miami FL Nov 2023 - Pastry case.jpg",
+  "file": "media/pastry.jpg",
+  "license": "CC BY 2.0",
+  "artist": "Phillip Pessar",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Dominion_Cafe_and_Bar_East_Hotel_Brickell,_Miami_FL_Nov_2023_-_Pastry_case.jpg"
  },
  {
   "id": "cups",
-  "title": "File:Paper coffee cups and sugar cubes in cafeteria.jpg"
+  "title": "File:Paper coffee cups and sugar cubes in cafeteria.jpg",
+  "file": "media/cups.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "Santeri Viinamäki",
+  "restrictions": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Paper_coffee_cups_and_sugar_cubes_in_cafeteria.jpg"
  }
 ]
