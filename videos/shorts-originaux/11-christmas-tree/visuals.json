@@ -33,7 +33,7 @@
   "type": "shot",
   "props": {
    "photo": "sign",
-   "dim": 0.74,
+   "dim": 0.8,
    "focus": "50% 40%",
    "icon": "TrendingUp",
    "color": "gold",
