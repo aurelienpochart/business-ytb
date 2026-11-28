@@ -1,0 +1,52 @@
+{
+  "title": "Where Your $9 Starbucks Order Really Goes",
+  "summary": "Starbucks' CEO admits a $9 order can feel like a splurge. In a grande latte, the coffee costs about 13 cents. So we took a $9 order apart with Starbucks' own fiscal 2026 numbers: about $4.08 to run the coffeehouse, $2.91 for products and shipping, $1.14 for headquarters and equipment, and roughly 60 cents of profit. Ingredient costs are our estimate; the split is a company-wide average.",
+  "chapter_titles": {
+    "0": "The $9 splurge",
+    "1": "The order",
+    "2": "The cup",
+    "3": "The goods",
+    "4": "The store",
+    "5": "The headquarters",
+    "6": "The profit",
+    "7": "Why the price keeps rising",
+    "8": "What you're really paying for"
+  },
+  "sources": [
+    "Starbucks fiscal 2026 results (Oct. 29, 2026): https://investor.starbucks.com/news/financial-releases/news-details/2026/Starbucks-Reports-Q4-and-Full-Fiscal-Year-2026-Results/default.aspx",
+    "Starbucks Q3 fiscal 2026 results (China JV): https://www.businesswire.com/news/home/20260729476494/en/Starbucks-Reports-Q3-Fiscal-Year-2026-Results",
+    "Starbucks 10-K, fiscal 2025: https://s203.q4cdn.com/326826266/files/doc_financials/2025/q4/SBUX-9-28-2025-10-K-FINAL.pdf",
+    "Niccol on the $9 experience (Fortune, May 2026): https://fortune.com/2026/05/04/starbucks-ceo-roasted-9dollar-coffee-premium-wall-street-earnings/",
+    "Niccol, 'a little touch of luxury' (Fortune, Apr. 2026): https://fortune.com/2026/04/29/starbucks-niccol-luxury-turnaround-earnings/",
+    "Barista pay and bonuses (Fortune, Apr. 2026): https://fortune.com/2026/04/03/starbucks-offering-1200-bonus-tipping-weekly-payouts-boost-us-barista-pay/",
+    "Remodels (Restaurant Dive, Apr. 2026): https://www.restaurantdive.com/news/starbucks-q2-earnings-comparable-sales-growth-turnaround/818776/",
+    "Coffee prices (AP via Fortune, Feb. 2026): https://fortune.com/2026/02/14/coffee-price-surge-starbucks-mcdonalds-home-brewing-diet-coke-caffeine/",
+    "Arabica futures: https://tradingeconomics.com/commodity/coffee",
+    "Milk price (BLS via FRED): https://fred.stlouisfed.org/series/APU0000709112",
+    "Cup costs (Marketplace, 2017): https://www.marketplace.org/2017/12/25/cost-coffee-latte-dollars-labor",
+    "Non-dairy upcharge (Starbucks, 2024): https://about.starbucks.com/press/2024/starbucks-announces-removal-of-extra-charge-for-non-dairy-milk-starting-nov-7/"
+  ],
+  "credits": [
+    "Fonts: Inter, IBM Plex Mono, Instrument Serif (OFL); icons: Lucide (ISC). Charts by The Cost Curve from the sources above."
+  ],
+  "subject_company": "Starbucks",
+  "tags": [
+    "Starbucks",
+    "Starbucks prices",
+    "why is Starbucks so expensive",
+    "Starbucks latte",
+    "cost of a latte",
+    "Brian Niccol",
+    "Back to Starbucks",
+    "coffee prices",
+    "Starbucks earnings",
+    "business model",
+    "where your money goes",
+    "business explained",
+    "The Cost Curve"
+  ],
+  "category_id": "27",
+  "contains_synthetic_media": true,
+  "made_for_kids": false,
+  "tint": "starbucks"
+}
