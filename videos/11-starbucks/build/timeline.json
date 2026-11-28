@@ -1,0 +1,358 @@
+{
+  "duration": 567.95,
+  "ident": 58.13,
+  "segments": [
+    {
+      "id": "c0p0",
+      "chapter": 0,
+      "chapter_title": "Hook",
+      "text": "This spring, the boss of Starbucks said something you don't often hear from a chief executive. \"In some cases,\" Brian Niccol said, \"a nine dollar experience does feel like you're splurging.\"",
+      "start": 0.3,
+      "end": 11.42
+    },
+    {
+      "id": "c0p1",
+      "chapter": 0,
+      "chapter_title": "Hook",
+      "text": "Nine dollars is about what the average customer spends on a visit. A latte, maybe a sandwich, maybe a pastry.",
+      "start": 11.87,
+      "end": 18.87
+    },
+    {
+      "id": "c0p2",
+      "chapter": 0,
+      "chapter_title": "Hook",
+      "text": "Now here is the strange part. In a grande latte, the coffee itself costs about thirteen cents. The milk, maybe forty. The cup and the lid, a few cents more. Less than a dollar, all in.",
+      "start": 19.32,
+      "end": 37.72
+    },
+    {
+      "id": "c0p3",
+      "chapter": 0,
+      "chapter_title": "Hook",
+      "text": "So where does the rest of your money go?",
+      "start": 38.17,
+      "end": 39.61
+    },
+    {
+      "id": "c0p4",
+      "chapter": 0,
+      "chapter_title": "Hook",
+      "text": "We don't have to guess. Starbucks just closed its books on fiscal 2026: almost thirty eight billion dollars in sales, from more than forty one thousand coffeehouses. Every dollar is in there, line by line.",
+      "start": 40.06,
+      "end": 54.46
+    },
+    {
+      "id": "c0p5",
+      "chapter": 0,
+      "chapter_title": "Hook",
+      "text": "So let's take a nine dollar order, and take it apart.",
+      "start": 54.91,
+      "end": 57.83
+    },
+    {
+      "id": "c1p0",
+      "chapter": 1,
+      "chapter_title": "The order",
+      "text": "Start with the price tag. A grande caffè latte costs around five forty-five, depending on where you live. Add a breakfast sandwich, and you're at nine dollars fast.",
+      "start": 61.43,
+      "end": 72.71
+    },
+    {
+      "id": "c1p1",
+      "chapter": 1,
+      "chapter_title": "The order",
+      "text": "And it keeps going up. In its last quarter, the average American ticket at Starbucks rose more than five percent in a year. Across the country, coffee prices are up forty seven percent in five years.",
+      "start": 73.16,
+      "end": 84.4
+    },
+    {
+      "id": "c1p2",
+      "chapter": 1,
+      "chapter_title": "The order",
+      "text": "It's not just Starbucks. In January, the government's measure of coffee prices was eighteen percent higher than a year before. By the end of 2025, the typical plain hot coffee in an American café already cost three dollars and sixty one cents.",
+      "start": 84.85,
+      "end": 100.13
+    },
+    {
+      "id": "c1p3",
+      "chapter": 1,
+      "chapter_title": "The order",
+      "text": "Starbucks says people are still coming, and it's true. Transactions in the United States rose more than three percent in fiscal 2026. Niccol's explanation is that when you give people something special, \"a little touch of luxury,\" it \"goes a long way.\"",
+      "start": 100.58,
+      "end": 117.9
+    },
+    {
+      "id": "c1p4",
+      "chapter": 1,
+      "chapter_title": "The order",
+      "text": "So the obvious guess is that you're paying for expensive coffee. Let's check.",
+      "start": 118.35,
+      "end": 123.79
+    },
+    {
+      "id": "c2p0",
+      "chapter": 2,
+      "chapter_title": "The cup",
+      "text": "Coffee beans did get expensive. In February 2025, the price of arabica coffee on the futures market hit a record, about four dollars and forty cents a pound. Bad weather in Brazil and Vietnam had cut harvests.",
+      "start": 124.89,
+      "end": 140.17
+    },
+    {
+      "id": "c2p1",
+      "chapter": 2,
+      "chapter_title": "The cup",
+      "text": "But a pound goes a long way. A hot grande latte has two shots of espresso. That's roughly eighteen grams of roasted coffee. At today's price, about two seventy-five a pound, that's around thirteen cents of coffee. Even at the record high, it was about twenty cents.",
+      "start": 140.62,
+      "end": 160.46
+    },
+    {
+      "id": "c2p2",
+      "chapter": 2,
+      "chapter_title": "The cup",
+      "text": "The milk is the bigger ingredient. There's about twelve ounces of it in a grande. At the average supermarket price of four dollars and ten cents a gallon, that's roughly thirty eight cents. Starbucks almost certainly pays less.",
+      "start": 160.91,
+      "end": 172.95
+    },
+    {
+      "id": "c2p3",
+      "chapter": 2,
+      "chapter_title": "The cup",
+      "text": "Then the cup, the lid and the sleeve: a small coffee shop told Marketplace those cost between four and seven cents a drink.",
+      "start": 173.4,
+      "end": 183.0
+    },
+    {
+      "id": "c2p4",
+      "chapter": 2,
+      "chapter_title": "The cup",
+      "text": "Add it up, and the ingredients in a five dollar latte come to around sixty cents. Our estimate, but a fair one. About eleven percent of the price.",
+      "start": 183.45,
+      "end": 193.45
+    },
+    {
+      "id": "c2p5",
+      "chapter": 2,
+      "chapter_title": "The cup",
+      "text": "And notice something. Since that record, arabica has fallen by a third in a year. Menu prices didn't follow it down. That tells you the beans were never what set the price.",
+      "start": 193.9,
+      "end": 204.66
+    },
+    {
+      "id": "c3p0",
+      "chapter": 3,
+      "chapter_title": "The goods",
+      "text": "So let's go to the books. For every dollar Starbucks took in last year, thirty two cents went to what it calls product and distribution costs. On a nine dollar order, that's about two ninety-one.",
+      "start": 205.76,
+      "end": 218.92
+    },
+    {
+      "id": "c3p1",
+      "chapter": 3,
+      "chapter_title": "The goods",
+      "text": "That's far more than the coffee and milk in your latte, because it covers everything Starbucks sells and ships. The sandwiches and the pastries, which cost much more to make than a drink. The cups and lids, by the billion. The roasting plants, the warehouses and the trucks that carry it all.",
+      "start": 219.37,
+      "end": 237.97
+    },
+    {
+      "id": "c3p2",
+      "chapter": 3,
+      "chapter_title": "The goods",
+      "text": "It also covers the coffee and supplies Starbucks sells to other companies. About two thirds of its coffeehouses are run by licensees, in airports, in grocery stores, and now in China, where Starbucks sold control of its stores this spring and kept a forty percent stake. Those partners buy their products from Starbucks, at much thinner margins than a latte.",
+      "start": 238.42,
+      "end": 262.46
+    },
+    {
+      "id": "c3p3",
+      "chapter": 3,
+      "chapter_title": "The goods",
+      "text": "So the drink in your hand is the cheapest thing Starbucks makes. The expensive part is the building you're standing in.",
+      "start": 262.91,
+      "end": 268.79
+    },
+    {
+      "id": "c4p0",
+      "chapter": 4,
+      "chapter_title": "The store",
+      "text": "The biggest line in the whole company is the cost of running the coffeehouses. Forty five cents of every dollar. Four dollars and eight cents of your nine.",
+      "start": 269.89,
+      "end": 279.57
+    },
+    {
+      "id": "c4p1",
+      "chapter": 4,
+      "chapter_title": "The store",
+      "text": "Look only at the stores Starbucks runs itself, and it's even bigger. Running them ate more than fifty five percent of what they took in. Spend nine dollars in one, and about five dollars goes to keeping that store open.",
+      "start": 280.02,
+      "end": 293.38
+    },
+    {
+      "id": "c4p2",
+      "chapter": 4,
+      "chapter_title": "The store",
+      "text": "Most of that is two things. The people behind the counter, and the rent.",
+      "start": 293.83,
+      "end": 298.55
+    },
+    {
+      "id": "c4p3",
+      "chapter": 4,
+      "chapter_title": "The store",
+      "text": "Starbucks employs about two hundred and fourteen thousand people in its American coffeehouses alone. In April, the company said its baristas and shift supervisors earn more than thirty dollars an hour on average, once you count pay and benefits.",
+      "start": 299.0,
+      "end": 314.44
+    },
+    {
+      "id": "c4p4",
+      "chapter": 4,
+      "chapter_title": "The store",
+      "text": "And Niccol's plan has added more of them. Back to Starbucks spent five hundred million dollars on staffing and training, so that there are enough hands behind the bar when the morning rush hits. This year, it added bonuses of up to twelve hundred dollars a year, and tipping on mobile orders.",
+      "start": 314.89,
+      "end": 331.45
+    },
+    {
+      "id": "c4p5",
+      "chapter": 4,
+      "chapter_title": "The store",
+      "text": "Here's why that matters for the price. Wages don't go down when coffee gets cheaper. Neither does rent. These costs only go one way.",
+      "start": 331.9,
+      "end": 340.1
+    },
+    {
+      "id": "c4p6",
+      "chapter": 4,
+      "chapter_title": "The store",
+      "text": "Then there is the room itself. Starbucks is remodeling its stores, at around a hundred and fifty thousand dollars each, and it planned well over a thousand of them by the end of this year. That's the \"experience\" in a nine dollar experience. You pay for it in every cup.",
+      "start": 340.55,
+      "end": 356.91
+    },
+    {
+      "id": "c5p0",
+      "chapter": 5,
+      "chapter_title": "The headquarters",
+      "text": "After the store, the money moves upstairs. Fifty seven cents of your nine dollars goes to general and administrative costs: the head office, technology, the app. Thirty five cents covers the slow wearing out of equipment and buildings, what accountants call depreciation.",
+      "start": 358.01,
+      "end": 377.01
+    },
+    {
+      "id": "c5p1",
+      "chapter": 5,
+      "chapter_title": "The headquarters",
+      "text": "And about twenty nine cents went to restructuring and other costs. Turning a company around isn't free. In 2025, Starbucks closed more than six hundred coffeehouses in a single quarter, and closing a store means paying to get out of its lease.",
+      "start": 377.46,
+      "end": 393.66
+    },
+    {
+      "id": "c5p2",
+      "chapter": 5,
+      "chapter_title": "The headquarters",
+      "text": "Add it all up. Of your nine dollars, about eight dollars and thirteen cents is gone before Starbucks makes a cent of profit.",
+      "start": 394.11,
+      "end": 401.91
+    },
+    {
+      "id": "c6p0",
+      "chapter": 6,
+      "chapter_title": "The profit",
+      "text": "What's left is the operating profit. In fiscal 2026, it was nine point seven cents on the dollar. On your order, about eighty seven cents.",
+      "start": 403.01,
+      "end": 413.53
+    },
+    {
+      "id": "c6p1",
+      "chapter": 6,
+      "chapter_title": "The profit",
+      "text": "That's up from seven point nine percent the year before. Niccol says the turnaround is now a growth plan. But it's a long way from a business printing money on cheap beans.",
+      "start": 413.98,
+      "end": 424.3
+    },
+    {
+      "id": "c6p2",
+      "chapter": 6,
+      "chapter_title": "The profit",
+      "text": "In North America, where most of the money is made, it did a little better: twelve cents on the dollar. Still about a dollar on a nine dollar order.",
+      "start": 424.75,
+      "end": 434.15
+    },
+    {
+      "id": "c6p3",
+      "chapter": 6,
+      "chapter_title": "The profit",
+      "text": "Then come the bankers and the taxman. Interest on Starbucks's debt takes about nine cents. A one-time gain from the China sale adds back about thirteen. And taxes take thirty one cents.",
+      "start": 434.6,
+      "end": 447.28
+    },
+    {
+      "id": "c6p4",
+      "chapter": 6,
+      "chapter_title": "The profit",
+      "text": "That leaves about sixty cents of profit on a nine dollar order. Six point seven percent.",
+      "start": 447.73,
+      "end": 454.21
+    },
+    {
+      "id": "c6p5",
+      "chapter": 6,
+      "chapter_title": "The profit",
+      "text": "That's an average across the whole company, every latte, every sandwich, every bag of beans sold to a supermarket, in every country. A plain drink in a busy store probably does better. A slow store in a pricey mall does worse. But that's the shape of it.",
+      "start": 454.66,
+      "end": 470.38
+    },
+    {
+      "id": "c7p0",
+      "chapter": 7,
+      "chapter_title": "Why the price keeps rising",
+      "text": "So here is the full receipt. Four dollars and eight cents to run the coffeehouse. Two ninety-one for products and shipping. A dollar fourteen for the head office, the equipment and the restructuring. About twenty seven cents, net, for interest and taxes. And sixty cents of profit.",
+      "start": 471.48,
+      "end": 492.92
+    },
+    {
+      "id": "c7p1",
+      "chapter": 7,
+      "chapter_title": "Why the price keeps rising",
+      "text": "The coffee beans are a rounding error inside the second line.",
+      "start": 493.37,
+      "end": 497.73
+    },
+    {
+      "id": "c7p2",
+      "chapter": 7,
+      "chapter_title": "Why the price keeps rising",
+      "text": "That's why your latte didn't get cheaper when coffee fell by a third. Starbucks isn't really selling coffee. It's selling a warm room, a seat, a bathroom, Wi-Fi, and a person making your drink at seven in the morning. And people and places get more expensive every year.",
+      "start": 498.18,
+      "end": 516.1
+    },
+    {
+      "id": "c7p3",
+      "chapter": 7,
+      "chapter_title": "Why the price keeps rising",
+      "text": "It's also why Starbucks fights over value in other ways. In November 2024, it dropped the extra charge for oat and almond milk, which had been seventy to eighty cents. And now Niccol says the goal is simple: \"you're going to feel like it was worth it.\"",
+      "start": 516.55,
+      "end": 534.35
+    },
+    {
+      "id": "c8p0",
+      "chapter": 8,
+      "chapter_title": "What you're really paying for",
+      "text": "So, where does your nine dollars go? Less than a dollar to the cup in your hand. Almost three dollars to the goods and the trucks. More than four dollars to the store, and the people in it. And about sixty cents to Starbucks.",
+      "start": 535.45,
+      "end": 548.29
+    },
+    {
+      "id": "c8p1",
+      "chapter": 8,
+      "chapter_title": "What you're really paying for",
+      "text": "When you buy a nine dollar Starbucks order, you're not really buying coffee. You're renting a little piece of a room, for a few minutes, with someone to make you a drink.",
+      "start": 548.74,
+      "end": 556.66
+    },
+    {
+      "id": "c8p2",
+      "chapter": 8,
+      "chapter_title": "What you're really paying for",
+      "text": "Whether that's worth it is up to you. If you want to see who really got paid when eggs hit six dollars, that video is a good next stop. I'm The Cost Curve. Thanks for watching.",
+      "start": 557.11,
+      "end": 566.95
+    }
+  ]
+}
