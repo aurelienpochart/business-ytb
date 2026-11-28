@@ -1,0 +1,1259 @@
+[
+ {
+  "at": "c0p0",
+  "type": "hero",
+  "props": {
+   "photo": "sb_pike",
+   "number": "$9",
+   "label": "\"a $9 experience does feel like you're splurging\"",
+   "kicker": "Brian Niccol, CEO of Starbucks, 2026",
+   "numberAt": 9.1,
+   "source": "Fortune (May 4, 2026), from the WSJ \"What's News\" podcast"
+  }
+ },
+ {
+  "at": "c0p1",
+  "type": "statement",
+  "props": {
+   "kicker": "The average visit",
+   "text": "About *$9* a visit.",
+   "icon": "Receipt",
+   "source": "Fortune (May 4, 2026)"
+  },
+  "bg": "sb_front"
+ },
+ {
+  "at": "c0p2",
+  "type": "cup",
+  "props": {
+   "kicker": "A grande latte, our estimate",
+   "total": {
+    "display": "$5.45",
+    "label": "grande caffè latte",
+    "value": 5.45
+   },
+   "layers": [
+    {
+     "label": "Coffee",
+     "value": 0.13,
+     "display": "≈ 13¢",
+     "color": "amber",
+     "sub": "two espresso shots"
+    },
+    {
+     "label": "Milk",
+     "value": 0.38,
+     "display": "≈ 38¢",
+     "color": "paper",
+     "sub": "about 12 oz, supermarket price"
+    },
+    {
+     "label": "Cup, lid, sleeve",
+     "value": 0.06,
+     "display": "4–7¢",
+     "color": "slate",
+     "sub": "a small café's cost"
+    }
+   ],
+   "delays": [
+    3.4,
+    6.6,
+    8.2
+   ],
+   "empty": {
+    "label": "everything else",
+    "display": "≈ $4.85"
+   },
+   "source": "Our estimate: Trading Economics, BLS (FRED), Marketplace (2017), Chowhound"
+  }
+ },
+ {
+  "at": "c0p3",
+  "type": "statement",
+  "props": {
+   "kicker": "$5.45 for the latte",
+   "text": "So where does the *rest* go?",
+   "icon": "CircleHelp"
+  },
+  "bg": "cafe_night"
+ },
+ {
+  "at": "c0p4",
+  "type": "tiles",
+  "props": {
+   "kicker": "Starbucks, fiscal 2026",
+   "items": [
+    {
+     "icon": "DollarSign",
+     "label": "$37.9B in sales",
+     "sub": "year ended Sept. 27, 2026",
+     "color": "amber"
+    },
+    {
+     "icon": "Store",
+     "label": "41,607 coffeehouses",
+     "sub": "16,781 in the U.S.",
+     "color": "teal"
+    },
+    {
+     "icon": "FileText",
+     "label": "Every dollar, line by line",
+     "sub": "the income statement",
+     "color": "slate"
+    }
+   ],
+   "delays": [
+    5.0,
+    8.2,
+    11.5
+   ],
+   "source": "Starbucks fiscal 2026 results (Oct. 29, 2026)"
+  }
+ },
+ {
+  "at": "c0p5",
+  "type": "statement",
+  "props": {
+   "kicker": "The teardown",
+   "text": "Take a *$9* order apart.",
+   "icon": "Scissors"
+  },
+  "bg": "sb_cup"
+ },
+ {
+  "at": "c1p0",
+  "type": "tiles",
+  "props": {
+   "kicker": "Starbucks, U.S., 2026",
+   "items": [
+    {
+     "icon": "Coffee",
+     "label": "Grande caffè latte",
+     "value": "≈ $5.45",
+     "sub": "varies by city",
+     "color": "amber"
+    },
+    {
+     "icon": "Receipt",
+     "label": "Average visit",
+     "value": "≈ $9",
+     "sub": "latte, sandwich, pastry",
+     "color": "teal"
+    }
+   ],
+   "delays": [
+    0.4,
+    7.4
+   ],
+   "source": "GetFoodMenus (Nov. 2026, national average estimate); Fortune (May 4, 2026)"
+  },
+  "bg": "sb_cup"
+ },
+ {
+  "at": "c1p1",
+  "type": "bars",
+  "props": {
+   "title": "Prices are still climbing",
+   "bars": [
+    {
+     "label": "Starbucks U.S. ticket, Q4 FY26",
+     "value": 5.2,
+     "display": "+5.2%",
+     "color": "amber",
+     "note": "in one year"
+    },
+    {
+     "label": "U.S. coffee prices, 5 years",
+     "value": 47,
+     "display": "+47%",
+     "color": "brick",
+     "note": "to Jan. 2026"
+    }
+   ],
+   "delays": [
+    1.6,
+    8.6
+   ],
+   "source": "Starbucks (Oct. 29, 2026); AP via Fortune (Feb. 14, 2026)"
+  }
+ },
+ {
+  "at": "c1p2",
+  "type": "numbers",
+  "props": {
+   "title": "Coffee, everywhere",
+   "items": [
+    {
+     "value": 18.3,
+     "decimals": 1,
+     "prefix": "+",
+     "suffix": "%",
+     "label": "U.S. coffee prices, Jan. 2026 vs. a year before",
+     "color": "brick",
+     "icon": "TrendingUp"
+    },
+    {
+     "value": 3.61,
+     "decimals": 2,
+     "prefix": "$",
+     "label": "median plain hot coffee, Dec. 2025",
+     "color": "amber",
+     "icon": "Coffee"
+    }
+   ],
+   "source": "AP via Fortune (Feb. 14, 2026); Toast"
+  },
+  "bg": "latte"
+ },
+ {
+  "at": "c1p3",
+  "type": "numbers",
+  "props": {
+   "title": "U.S. transactions, fiscal 2026",
+   "items": [
+    {
+     "value": 3.4,
+     "decimals": 1,
+     "prefix": "+",
+     "suffix": "%",
+     "label": "more visits than the year before",
+     "color": "teal",
+     "icon": "Users"
+    }
+   ],
+   "source": "Starbucks fiscal 2026 results (Oct. 29, 2026)"
+  },
+  "bg": "rush"
+ },
+ {
+  "at": "c1p3",
+  "type": "quote",
+  "props": {
+   "text": "A little touch of luxury, it goes a long way.",
+   "by": "Brian Niccol, CEO of Starbucks, April 2026",
+   "source": "Fortune (Apr. 29, 2026)"
+  },
+  "after": "Niccol's explanation"
+ },
+ {
+  "at": "c1p4",
+  "type": "statement",
+  "props": {
+   "kicker": "The obvious guess",
+   "text": "Is it the *beans*?",
+   "icon": "Bean"
+  },
+  "bg": "beans_dark"
+ },
+ {
+  "at": "c2p0",
+  "type": "bars",
+  "props": {
+   "title": "Arabica coffee futures, $ per pound",
+   "bars": [
+    {
+     "label": "Record, Feb. 2025",
+     "value": 4.41,
+     "display": "$4.41",
+     "color": "brick"
+    },
+    {
+     "label": "Nov. 2026",
+     "value": 2.75,
+     "display": "$2.75",
+     "color": "amber",
+     "note": "−33% in a year"
+    }
+   ],
+   "delays": [
+    6.9,
+    12.5
+   ],
+   "source": "Trading Economics (Nov. 28, 2026)"
+  },
+  "bg": "green"
+ },
+ {
+  "at": "c2p0",
+  "type": "photo",
+  "props": {
+   "photo": "cherries",
+   "kicker": "Brazil, Vietnam",
+   "text": "Bad weather, *smaller* harvests.",
+   "focus": "50% 50%"
+  },
+  "after": "Bad weather"
+ },
+ {
+  "at": "c2p1",
+  "type": "photo",
+  "props": {
+   "photo": "espresso",
+   "kicker": "A hot grande latte",
+   "text": "*Two* shots of espresso.",
+   "focus": "50% 45%"
+  }
+ },
+ {
+  "at": "c2p1",
+  "type": "cup",
+  "props": {
+   "kicker": "A grande latte, our estimate",
+   "total": {
+    "display": "$5.45",
+    "label": "grande caffè latte",
+    "value": 5.45
+   },
+   "layers": [
+    {
+     "label": "Coffee",
+     "value": 0.13,
+     "display": "≈ 13¢",
+     "color": "amber",
+     "sub": "two espresso shots"
+    }
+   ],
+   "delays": [
+    3.4
+   ],
+   "focus": 0,
+   "empty": {
+    "label": "even at the record high: ≈ 20¢"
+   },
+   "source": "Our estimate: ≈ 18 g roasted coffee at $2.75/lb green (Trading Economics, Nov. 2026)"
+  },
+  "after": "That's roughly"
+ },
+ {
+  "at": "c2p2",
+  "type": "cup",
+  "props": {
+   "kicker": "A grande latte, our estimate",
+   "total": {
+    "display": "$5.45",
+    "label": "grande caffè latte",
+    "value": 5.45
+   },
+   "layers": [
+    {
+     "label": "Coffee",
+     "value": 0.13,
+     "display": "≈ 13¢",
+     "color": "amber",
+     "sub": "two espresso shots"
+    },
+    {
+     "label": "Milk",
+     "value": 0.38,
+     "display": "≈ 38¢",
+     "color": "paper",
+     "sub": "about 12 oz, supermarket price"
+    }
+   ],
+   "shown": 1,
+   "delays": [
+    5.7
+   ],
+   "focus": 1,
+   "source": "Our estimate: whole milk $4.10/gallon, U.S. average, Oct. 2026 (BLS via FRED)"
+  },
+  "bg": "milk_pour"
+ },
+ {
+  "at": "c2p3",
+  "type": "cup",
+  "props": {
+   "kicker": "A grande latte, our estimate",
+   "total": {
+    "display": "$5.45",
+    "label": "grande caffè latte",
+    "value": 5.45
+   },
+   "layers": [
+    {
+     "label": "Coffee",
+     "value": 0.13,
+     "display": "≈ 13¢",
+     "color": "amber",
+     "sub": "two espresso shots"
+    },
+    {
+     "label": "Milk",
+     "value": 0.38,
+     "display": "≈ 38¢",
+     "color": "paper",
+     "sub": "about 12 oz, supermarket price"
+    },
+    {
+     "label": "Cup, lid, sleeve",
+     "value": 0.06,
+     "display": "4–7¢",
+     "color": "slate",
+     "sub": "a small café's cost"
+    }
+   ],
+   "shown": 2,
+   "delays": [
+    5.2
+   ],
+   "focus": 2,
+   "source": "Marketplace (Dec. 25, 2017)"
+  }
+ },
+ {
+  "at": "c2p4",
+  "type": "cup",
+  "props": {
+   "kicker": "A grande latte, our estimate",
+   "total": {
+    "display": "$5.45",
+    "label": "grande caffè latte",
+    "value": 5.45
+   },
+   "layers": [
+    {
+     "label": "Coffee",
+     "value": 0.13,
+     "display": "≈ 13¢",
+     "color": "amber",
+     "sub": "two espresso shots"
+    },
+    {
+     "label": "Milk",
+     "value": 0.38,
+     "display": "≈ 38¢",
+     "color": "paper",
+     "sub": "about 12 oz, supermarket price"
+    },
+    {
+     "label": "Cup, lid, sleeve",
+     "value": 0.06,
+     "display": "4–7¢",
+     "color": "slate",
+     "sub": "a small café's cost"
+    }
+   ],
+   "shown": 3,
+   "empty": {
+    "label": "≈ 60¢ of ingredients · 11%"
+   },
+   "source": "Our estimate from the sources above"
+  }
+ },
+ {
+  "at": "c2p5",
+  "type": "statement",
+  "props": {
+   "kicker": "Arabica, Nov. 2026 vs. a year before",
+   "text": "Coffee fell *33%*. The price didn't.",
+   "icon": "TrendingDown",
+   "source": "Trading Economics (Nov. 28, 2026)"
+  },
+  "bg": "beans"
+ },
+ {
+  "at": "c3p0",
+  "type": "cup",
+  "props": {
+   "title": "Where a $9 order goes",
+   "total": {
+    "display": "$9.00",
+    "label": "one average order"
+   },
+   "layers": [
+    {
+     "label": "Product & distribution",
+     "value": 2.91,
+     "display": "$2.91",
+     "color": "teal",
+     "sub": "32.3¢ of every dollar"
+    }
+   ],
+   "delays": [
+    5.0
+   ],
+   "empty": {
+    "label": "still to go",
+    "display": "$6.09"
+   },
+   "source": "Starbucks fiscal 2026 results (Oct. 29, 2026); company-wide average"
+  }
+ },
+ {
+  "at": "c3p1",
+  "type": "list",
+  "props": {
+   "title": "What \"product and distribution\" covers",
+   "items": [
+    {
+     "label": "Coffee, milk, syrups",
+     "icon": "Coffee"
+    },
+    {
+     "label": "Sandwiches and pastries",
+     "icon": "Croissant",
+     "highlight": true
+    },
+    {
+     "label": "Cups and lids",
+     "icon": "CupSoda"
+    },
+    {
+     "label": "Roasting plants and warehouses",
+     "icon": "Factory"
+    },
+    {
+     "label": "Trucks",
+     "icon": "Truck"
+    }
+   ],
+   "stagger": 2.2,
+   "start": 0.6
+  },
+  "bg": "pastry"
+ },
+ {
+  "at": "c3p2",
+  "type": "donut",
+  "props": {
+   "title": "Starbucks revenue, fiscal 2026",
+   "parts": [
+    {
+     "label": "Company-operated stores",
+     "value": 81.6,
+     "color": "amber"
+    },
+    {
+     "label": "Licensed stores",
+     "value": 12.2,
+     "color": "teal",
+     "sub": "products sold to partners"
+    },
+    {
+     "label": "Other",
+     "value": 6.2,
+     "color": "slate",
+     "sub": "grocery, packaged coffee"
+    }
+   ],
+   "center": "$37.9B",
+   "centerLabel": "total",
+   "suffix": "%",
+   "decimals": 1,
+   "focus": 1,
+   "source": "Starbucks fiscal 2026 results (Oct. 29, 2026)"
+  }
+ },
+ {
+  "at": "c3p2",
+  "type": "photo",
+  "props": {
+   "photo": "sh_roastery",
+   "kicker": "China, April 2026",
+   "text": "Sold control, kept *40%*.",
+   "focus": "50% 50%",
+   "source": "Starbucks Q3 fiscal 2026 (July 29, 2026)"
+  },
+  "after": "and now in China"
+ },
+ {
+  "at": "c3p3",
+  "type": "statement",
+  "props": {
+   "kicker": "The real cost",
+   "text": "The drink is the *cheap* part.",
+   "icon": "Coffee"
+  },
+  "bg": "seating"
+ },
+ {
+  "at": "c4p0",
+  "type": "cup",
+  "props": {
+   "title": "Where a $9 order goes",
+   "total": {
+    "display": "$9.00",
+    "label": "one average order"
+   },
+   "layers": [
+    {
+     "label": "Product & distribution",
+     "value": 2.91,
+     "display": "$2.91",
+     "color": "teal",
+     "sub": "32.3¢ of every dollar"
+    },
+    {
+     "label": "Running the coffeehouse",
+     "value": 4.08,
+     "display": "$4.08",
+     "color": "amber",
+     "sub": "45.3¢ of every dollar"
+    }
+   ],
+   "shown": 1,
+   "delays": [
+    5.5
+   ],
+   "focus": 1,
+   "focusAt": 8.3,
+   "source": "Starbucks fiscal 2026 results (Oct. 29, 2026)"
+  }
+ },
+ {
+  "at": "c4p1",
+  "type": "statement",
+  "props": {
+   "kicker": "In stores Starbucks runs itself",
+   "text": "*$5.00* of every $9.",
+   "sub": "store costs were 55.6% of their sales",
+   "icon": "Store",
+   "source": "Starbucks fiscal 2026 results (Oct. 29, 2026)"
+  },
+  "bg": "sb_drive"
+ },
+ {
+  "at": "c4p2",
+  "type": "tiles",
+  "props": {
+   "kicker": "Mostly two things",
+   "items": [
+    {
+     "icon": "Users",
+     "label": "The people",
+     "sub": "pay and benefits",
+     "color": "amber"
+    },
+    {
+     "icon": "Building2",
+     "label": "The rent",
+     "sub": "and the utilities",
+     "color": "teal"
+    }
+   ],
+   "delays": [
+    1.9,
+    4.1
+   ]
+  }
+ },
+ {
+  "at": "c4p3",
+  "type": "numbers",
+  "props": {
+   "title": "Behind the counter",
+   "items": [
+    {
+     "value": 214000,
+     "label": "people in U.S. company-operated stores (2025)",
+     "color": "teal",
+     "icon": "Users"
+    },
+    {
+     "value": 30,
+     "prefix": "$",
+     "suffix": "+",
+     "label": "an hour, average pay and benefits",
+     "color": "amber",
+     "icon": "Clock"
+    }
+   ],
+   "source": "Starbucks 10-K (fiscal 2025); Fortune (Apr. 3, 2026)"
+  },
+  "bg": "barista"
+ },
+ {
+  "at": "c4p4",
+  "type": "tiles",
+  "props": {
+   "kicker": "Back to Starbucks",
+   "items": [
+    {
+     "icon": "Users",
+     "label": "$500M",
+     "sub": "staffing and training",
+     "color": "amber"
+    },
+    {
+     "icon": "Gift",
+     "label": "Up to $1,200",
+     "sub": "yearly bonus per barista",
+     "color": "teal"
+    },
+    {
+     "icon": "Smartphone",
+     "label": "Tips",
+     "sub": "now on mobile orders",
+     "color": "slate"
+    }
+   ],
+   "delays": [
+    2.9,
+    14.9,
+    18.3
+   ],
+   "source": "Fortune (Apr. 3, 2026)"
+  },
+  "bg": "rush"
+ },
+ {
+  "at": "c4p5",
+  "type": "statement",
+  "props": {
+   "kicker": "Why the price sticks",
+   "text": "Wages don't fall when *beans* do.",
+   "icon": "Lock"
+  },
+  "bg": "cafe_night"
+ },
+ {
+  "at": "c4p6",
+  "type": "numbers",
+  "props": {
+   "title": "The room itself",
+   "items": [
+    {
+     "value": 150000,
+     "prefix": "≈ $",
+     "label": "per store remodel",
+     "color": "amber",
+     "icon": "Hammer"
+    },
+    {
+     "value": 1000,
+     "suffix": "+",
+     "label": "remodels planned by the end of 2026",
+     "color": "teal",
+     "icon": "Store"
+    }
+   ],
+   "source": "Restaurant Dive (Apr. 29, 2026)"
+  },
+  "bg": "sb_reserve"
+ },
+ {
+  "at": "c4p6",
+  "type": "statement",
+  "props": {
+   "kicker": "\"A $9 experience\"",
+   "text": "You pay for the *room*.",
+   "icon": "Armchair"
+  },
+  "after": "That's the \"experience\"",
+  "bg": "seating"
+ },
+ {
+  "at": "c5p0",
+  "type": "cup",
+  "props": {
+   "title": "Where a $9 order goes",
+   "total": {
+    "display": "$9.00",
+    "label": "one average order"
+   },
+   "layers": [
+    {
+     "label": "Product & distribution",
+     "value": 2.91,
+     "display": "$2.91",
+     "color": "teal",
+     "sub": "32.3¢ of every dollar"
+    },
+    {
+     "label": "Running the coffeehouse",
+     "value": 4.08,
+     "display": "$4.08",
+     "color": "amber",
+     "sub": "45.3¢ of every dollar"
+    },
+    {
+     "label": "Head office",
+     "value": 0.57,
+     "display": "$0.57",
+     "color": "slate",
+     "sub": "general & administrative"
+    },
+    {
+     "label": "Depreciation",
+     "value": 0.35,
+     "display": "$0.35",
+     "color": "slate",
+     "sub": "equipment & buildings"
+    }
+   ],
+   "shown": 2,
+   "delays": [
+    3.0,
+    11.2
+   ],
+   "source": "Starbucks fiscal 2026 results (Oct. 29, 2026)"
+  }
+ },
+ {
+  "at": "c5p1",
+  "type": "cup",
+  "props": {
+   "title": "Where a $9 order goes",
+   "total": {
+    "display": "$9.00",
+    "label": "one average order"
+   },
+   "layers": [
+    {
+     "label": "Product & distribution",
+     "value": 2.91,
+     "display": "$2.91",
+     "color": "teal",
+     "sub": "32.3¢ of every dollar"
+    },
+    {
+     "label": "Running the coffeehouse",
+     "value": 4.08,
+     "display": "$4.08",
+     "color": "amber",
+     "sub": "45.3¢ of every dollar"
+    },
+    {
+     "label": "Head office",
+     "value": 0.57,
+     "display": "$0.57",
+     "color": "slate",
+     "sub": "general & administrative"
+    },
+    {
+     "label": "Depreciation",
+     "value": 0.35,
+     "display": "$0.35",
+     "color": "slate",
+     "sub": "equipment & buildings"
+    },
+    {
+     "label": "Restructuring & other",
+     "value": 0.29,
+     "display": "$0.29",
+     "color": "slate",
+     "sub": "closures, transformation"
+    }
+   ],
+   "shown": 4,
+   "delays": [
+    0.7
+   ],
+   "focus": 4,
+   "source": "Starbucks fiscal 2026 results (Oct. 29, 2026)"
+  }
+ },
+ {
+  "at": "c5p1",
+  "type": "statement",
+  "props": {
+   "kicker": "Q4 fiscal 2025",
+   "text": "*627* coffeehouses closed.",
+   "sub": "in a single quarter",
+   "icon": "DoorClosed",
+   "source": "Starbucks 10-K (fiscal 2025)"
+  },
+  "after": "In 2025",
+  "bg": "mall"
+ },
+ {
+  "at": "c5p2",
+  "type": "statement",
+  "props": {
+   "kicker": "Before any profit",
+   "text": "*$8.13* spent. 87¢ left.",
+   "icon": "Receipt",
+   "source": "Starbucks fiscal 2026 results (Oct. 29, 2026); our calculation"
+  },
+  "bg": "sb_hq"
+ },
+ {
+  "at": "c6p0",
+  "type": "cup",
+  "props": {
+   "title": "Where a $9 order goes",
+   "total": {
+    "display": "$9.00",
+    "label": "one average order"
+   },
+   "layers": [
+    {
+     "label": "Product & distribution",
+     "value": 2.91,
+     "display": "$2.91",
+     "color": "teal",
+     "sub": "32.3¢ of every dollar"
+    },
+    {
+     "label": "Running the coffeehouse",
+     "value": 4.08,
+     "display": "$4.08",
+     "color": "amber",
+     "sub": "45.3¢ of every dollar"
+    },
+    {
+     "label": "Head office",
+     "value": 0.57,
+     "display": "$0.57",
+     "color": "slate",
+     "sub": "general & administrative"
+    },
+    {
+     "label": "Depreciation",
+     "value": 0.35,
+     "display": "$0.35",
+     "color": "slate",
+     "sub": "equipment & buildings"
+    },
+    {
+     "label": "Restructuring & other",
+     "value": 0.29,
+     "display": "$0.29",
+     "color": "slate",
+     "sub": "closures, transformation"
+    },
+    {
+     "label": "Operating profit",
+     "value": 0.87,
+     "display": "$0.87",
+     "color": "paper",
+     "sub": "9.7¢ of every dollar"
+    }
+   ],
+   "shown": 5,
+   "delays": [
+    4.2
+   ],
+   "focus": 5,
+   "source": "Starbucks fiscal 2026 results (Oct. 29, 2026)"
+  }
+ },
+ {
+  "at": "c6p1",
+  "type": "bars",
+  "props": {
+   "title": "Starbucks operating margin",
+   "bars": [
+    {
+     "label": "Fiscal 2025",
+     "value": 7.9,
+     "display": "7.9%",
+     "color": "slate"
+    },
+    {
+     "label": "Fiscal 2026",
+     "value": 9.7,
+     "display": "9.7%",
+     "color": "amber"
+    }
+   ],
+   "delays": [
+    0.4,
+    1.6
+   ],
+   "source": "Starbucks fiscal 2026 results (Oct. 29, 2026)"
+  }
+ },
+ {
+  "at": "c6p1",
+  "type": "quote",
+  "props": {
+   "text": "Back to Starbucks started as our turnaround plan. Now, it's our growth plan.",
+   "by": "Brian Niccol, Oct. 29, 2026",
+   "source": "Starbucks fiscal 2026 results (Oct. 29, 2026)"
+  },
+  "after": "Niccol says"
+ },
+ {
+  "at": "c6p2",
+  "type": "numbers",
+  "props": {
+   "title": "North America, fiscal 2026",
+   "items": [
+    {
+     "value": 12.0,
+     "decimals": 1,
+     "suffix": "%",
+     "label": "operating margin",
+     "color": "teal",
+     "icon": "Percent"
+    },
+    {
+     "value": 1.08,
+     "decimals": 2,
+     "prefix": "≈ $",
+     "label": "on a $9 order",
+     "color": "amber",
+     "icon": "Coffee"
+    }
+   ],
+   "source": "Starbucks fiscal 2026 results (Oct. 29, 2026); our calculation"
+  },
+  "bg": "sb_airport2"
+ },
+ {
+  "at": "c6p3",
+  "type": "receipt",
+  "props": {
+   "header": "AFTER THE BANKS",
+   "subheader": "and the taxman, on a $9 order",
+   "lines": [
+    {
+     "label": "Operating profit",
+     "value": "$0.87",
+     "strong": true
+    },
+    {
+     "label": "Interest, net",
+     "value": "−$0.09"
+    },
+    {
+     "label": "China sale, one-time",
+     "value": "+$0.13"
+    },
+    {
+     "label": "Taxes",
+     "value": "−$0.31",
+     "mark": true
+    },
+    {
+     "rule": true,
+     "label": ""
+    },
+    {
+     "label": "Net profit",
+     "value": "$0.60",
+     "strong": true
+    }
+   ],
+   "delays": [
+    0.3,
+    2.6,
+    6.3,
+    10.6,
+    12.4,
+    12.6
+   ],
+   "kicker": "Fiscal 2026",
+   "text": "*60¢* left.",
+   "source": "Starbucks fiscal 2026 results (Oct. 29, 2026); our calculation"
+  }
+ },
+ {
+  "at": "c6p4",
+  "type": "hero",
+  "props": {
+   "photo": "sb_cup2",
+   "number": "60¢",
+   "label": "net profit on a $9 order · 6.7%",
+   "kicker": "Starbucks, fiscal 2026",
+   "numberAt": 0.4,
+   "source": "Starbucks fiscal 2026 results (Oct. 29, 2026); our calculation"
+  }
+ },
+ {
+  "at": "c6p5",
+  "type": "statement",
+  "props": {
+   "kicker": "Read it right",
+   "text": "An *average* of everything Starbucks sells.",
+   "sub": "every drink, sandwich and bag of beans, in every country",
+   "icon": "Scale"
+  },
+  "bg": "sh_crowd"
+ },
+ {
+  "at": "c7p0",
+  "type": "receipt",
+  "props": {
+   "header": "YOUR $9 ORDER",
+   "subheader": "Starbucks, fiscal 2026 average",
+   "lines": [
+    {
+     "label": "Running the coffeehouse",
+     "value": "$4.08",
+     "mark": true
+    },
+    {
+     "label": "Products & shipping",
+     "value": "$2.91"
+    },
+    {
+     "label": "Head office, equipment, restructuring",
+     "value": "$1.14"
+    },
+    {
+     "label": "Interest & taxes, net",
+     "value": "$0.27"
+    },
+    {
+     "rule": true,
+     "label": ""
+    },
+    {
+     "label": "Profit",
+     "value": "$0.60",
+     "strong": true
+    }
+   ],
+   "delays": [
+    2.0,
+    5.7,
+    8.6,
+    13.9,
+    17.5,
+    17.7
+   ],
+   "kicker": "The full receipt",
+   "text": "Where your *$9* goes.",
+   "source": "Starbucks fiscal 2026 results (Oct. 29, 2026); our calculation"
+  }
+ },
+ {
+  "at": "c7p1",
+  "type": "statement",
+  "props": {
+   "kicker": "Inside \"products & shipping\"",
+   "text": "The beans: a *rounding error*.",
+   "icon": "Bean"
+  },
+  "bg": "beans"
+ },
+ {
+  "at": "c7p2",
+  "type": "tiles",
+  "props": {
+   "kicker": "What Starbucks really sells",
+   "items": [
+    {
+     "icon": "Armchair",
+     "label": "A seat",
+     "color": "amber"
+    },
+    {
+     "icon": "Wifi",
+     "label": "Wi-Fi",
+     "color": "teal"
+    },
+    {
+     "icon": "Building2",
+     "label": "A warm room",
+     "color": "slate"
+    },
+    {
+     "icon": "User",
+     "label": "A barista at 7 a.m.",
+     "color": "amber"
+    }
+   ],
+   "delays": [
+    8.5,
+    9.4,
+    10.8,
+    11.2
+   ]
+  },
+  "bg": "seating"
+ },
+ {
+  "at": "c7p2",
+  "type": "statement",
+  "props": {
+   "kicker": "Every year",
+   "text": "People and places cost *more*.",
+   "icon": "TrendingUp"
+  },
+  "after": "And people and places"
+ },
+ {
+  "at": "c7p3",
+  "type": "statement",
+  "props": {
+   "kicker": "Nov. 7, 2024",
+   "text": "No more charge for *oat milk*.",
+   "sub": "it had been 70 to 80 cents",
+   "icon": "Milk",
+   "source": "Starbucks (Oct. 30, 2024); Axios (Oct. 30, 2024)"
+  },
+  "bg": "latte2"
+ },
+ {
+  "at": "c7p3",
+  "type": "quote",
+  "props": {
+   "text": "You're going to feel like it was worth it.",
+   "by": "Brian Niccol, CEO of Starbucks, 2026",
+   "source": "Fortune (May 4, 2026)"
+  },
+  "after": "And now Niccol"
+ },
+ {
+  "at": "c8p0",
+  "type": "cup",
+  "props": {
+   "title": "Where your $9 goes",
+   "total": {
+    "display": "$9.00",
+    "label": "one average order"
+   },
+   "layers": [
+    {
+     "label": "Product & distribution",
+     "value": 2.91,
+     "display": "$2.91",
+     "color": "teal",
+     "sub": "32.3¢ of every dollar"
+    },
+    {
+     "label": "Running the coffeehouse",
+     "value": 4.08,
+     "display": "$4.08",
+     "color": "amber",
+     "sub": "45.3¢ of every dollar"
+    },
+    {
+     "label": "HQ, equipment, restructuring",
+     "value": 1.14,
+     "display": "$1.14",
+     "color": "slate"
+    },
+    {
+     "label": "Interest & taxes",
+     "value": 0.27,
+     "display": "$0.27",
+     "color": "brick"
+    },
+    {
+     "label": "Profit",
+     "value": 0.6,
+     "display": "$0.60",
+     "color": "paper"
+    }
+   ],
+   "shown": 5,
+   "focus": 1,
+   "focusAt": 9.1,
+   "source": "Starbucks fiscal 2026 results (Oct. 29, 2026); our calculation"
+  }
+ },
+ {
+  "at": "c8p1",
+  "type": "photo",
+  "props": {
+   "photo": "cafe_night",
+   "kicker": "A $9 order",
+   "text": "You're renting the *room*.",
+   "focus": "50% 50%"
+  }
+ },
+ {
+  "at": "c8p2",
+  "type": "photo",
+  "props": {
+   "photo": "latte",
+   "kicker": "Next",
+   "text": "Who got paid for *$6 eggs*?",
+   "focus": "50% 50%"
+  }
+ }
+]
